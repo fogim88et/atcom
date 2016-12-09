@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Arrêts identifiés (AI)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t4">Il existe différentes causes d'<sc:inlineStyle role="emp">arrêt généralement identifiées</sc:inlineStyle> (<sc:inlineStyle role="emp">AI</sc:inlineStyle>) qui réduisent le temps d'ouverture en temps  de fonctionnement :</sc:para>
+					<sc:para sc:id="t5">- les pannes,</sc:para>
+					<sc:para sc:id="t6">- les changements d'outils,</sc:para>
+					<sc:para sc:id="t7">- les réglages</sc:para>
+					<sc:para sc:id="t8">- les attentes diverses (valeur, contrôle, matière, ...),</sc:para>
+					<sc:para sc:id="t9">- la maintenance préventive,</sc:para>
+					<sc:para sc:id="t10">- le contrôle qualité,</sc:para>
+					<sc:para sc:id="t11">- les passations de consignes,</sc:para>
+					<sc:para sc:id="t12">- les pauses</sc:para>
+					<sc:para sc:id="t13">- les délégations</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

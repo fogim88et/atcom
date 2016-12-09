@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:bibM>
+			<sp:id>Valeur Ajoutée</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t3">
+						<sc:uLink role="url" sc:id="t4" url="http://fr.wikipedia.org/wiki/Valeur_ajout%C3%A9e">Article wikipédia sur la notion de Valeur ajoutée</sc:uLink>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item>

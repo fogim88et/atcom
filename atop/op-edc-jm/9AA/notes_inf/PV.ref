@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:refM>
+			<sp:ref>PV</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para sc:id="t4">Cher ami,</sc:para>
+					<sc:para sc:id="t5">comme convenu avec pierre et gilbert, nous avons remis en état notre bon vieux véhicule fort endommagé lors du dernier rallye.</sc:para>
+					<sc:para sc:id="t6">Nous avons changé le câble du treuil ainsi que le compteur kilométrique.</sc:para>
+					<sc:para sc:id="t7">La jauge à essence fonctionne bien, cela n'a pas été sans mal.</sc:para>
+					<sc:para sc:id="t8">Te souhaitons un bon raid</sc:para>
+					<sc:para sc:id="t9">Amitiés</sc:para>
+					<sc:para sc:id="t10">Chris et Michel</sc:para>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

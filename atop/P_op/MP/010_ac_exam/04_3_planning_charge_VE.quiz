@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Planning de charge en MARS pour VE</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t139">
+									<sc:inlineStyle role="emp" sc:id="t153">Atelier Vernissage VE </sc:inlineStyle>
+								</sc:para>
+						<sc:para xml:space="preserve" sc:id="t140">Avec les temps de chaque OF jalonnés par rapport à la date de fin OF, vous cumulerez par semaine les charges journalières selon le modèle ci-dessous</sc:para>
+						<sc:para xml:space="preserve" sc:id="t129">Donnez le pourcentage de charge des semaines 1, 2, 3, 4.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t126">(Arrondir au % près, donc sans décimale)</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:int sc:refUri="/P_op/MP/000_bbd_tech_res/modeles/charge_mensuelle_modeles.ods">
+					<op:instructionM/>
+				</sp:int>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t114">Semaine 1 :  <sc:textLeaf role="gap" sc:id="t120">0</sc:textLeaf> %</sc:para>
+				<sc:para sc:id="t117">Semaine 2 : <sc:textLeaf role="gap" sc:id="t121"> 22</sc:textLeaf> %</sc:para>
+				<sc:para sc:id="t118">Semaine 3 : <sc:textLeaf role="gap" sc:id="t122"> 133</sc:textLeaf> %</sc:para>
+				<sc:para sc:id="t119">Semaine 4 : <sc:textLeaf role="gap" sc:id="t123"> 111</sc:textLeaf> %</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t116">La charge est donnée par la planification des besoins en capacité, la capacité réelle par le fichier &quot;Poste de Charge&quot;</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t136">Si après quelques essais infructueux, vous ne trouvez pas le résultat juste, téléchargez le corrigé.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:int sc:refUri="/P_op/MP/010_ac_exam/VE_mars.ods">
+					<op:instructionM/>
+				</sp:int>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t150">Si vous ne comprenez pas pourquoi vos résultats sont faux, téléchargez la version corrigée du suivi journalier</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:int sc:refUri="/P_op/MP/010_ac_exam/OF_poste_VE_Mars.ods">
+					<op:instructionM/>
+				</sp:int>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

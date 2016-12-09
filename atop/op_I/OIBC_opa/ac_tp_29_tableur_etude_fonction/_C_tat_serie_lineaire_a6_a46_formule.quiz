@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:cloze>
+<op:exeM>
+<sp:title>Serie_lineaire x (formule)</sp:title>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">En A6, saisir la valeur -5, en A7, quelle <sc:uLink role="ref" sc:id="t16" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/tat_formules.ref">formule</sc:uLink> recopiée vers le bas jusqu'à A46 permet de créer la <sc:uLink role="ref" sc:id="t8" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/serie_x.ref">série x</sc:uLink>.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t10">La formule est <sc:textLeaf role="gap" sc:id="t13">=A6+0,2</sc:textLeaf>.</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t15">La cellule A5 spécifie la première valeur de la série à entrer au clavier (-5 ici)</sc:para>
+						<sc:para sc:id="t19">Pour les cellules suivantes, il suffit de faire référence à la cellule précédente et lui ajouter la valeur du pas (ici 0,2).</sc:para>
+						<sc:para sc:id="t20">On a donc A<sc:textLeaf role="ind" sc:id="t18">i</sc:textLeaf>=A<sc:textLeaf role="ind" sc:id="t17">i-1</sc:textLeaf>+0,2 pour i>1</sc:para>
+						<sc:para sc:id="t21">Ici, en A7, nous aurons donc =A6+0,2</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t23">Pour vous entraîner, réfléchissez comment construire  une série paramétrable par l'utilisateur.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

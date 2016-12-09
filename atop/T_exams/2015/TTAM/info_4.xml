@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Tracé de fiabilité</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Reproduire le corrigé à partir des données ci-dessous.</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/T_exams/TTAM/en_1.3-105.ods">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:res sc:refUri="/T_exams/TTAM/en_1.3-105_cor.ods">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>2C2_04_edc</sp:title>
+			<sp:sTitle>2C2_04_edc</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Code 007</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Situation src 007</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t8">Dans le cas de la production en grande série de joints à lèvres &quot;Nadelle12.30&quot;, nous souhaitons donner à nos clients des indications sur la fiabilité des joints.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t9">Les observations sont données selon les 
+								 ttf ordonnés de manière croissante.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t10"><sc:inlineStyle role="emp" sc:id="t11">Attention</sc:inlineStyle> : le rang i = 0 est présent pour résoudre le problème de l'initiation dans les applications informatiques (formules recopiées, graphes)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t12">L'exercice se fera à l'aide d'un tableur (src 007)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:simul>
+					<op:pbTi>
+						<sp:title>Question 1</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t14">Combien de composants ont dépassés 5000 heures de fonctionnement.</sc:para>
+								<sc:para xml:space="preserve">En déduire la <sc:uLink role="glos" sc:id="t15" sc:refUri="/1B_op/M/EF/fiabilite_observee.ref">fiabilité</sc:uLink> à t=5000 heures ou encore la <sc:uLink role="glos" sc:refUri="/1B_op/S/probabilite.ref">probabilité</sc:uLink> de réussir une  mission de 5000 heures de fonctionnement.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:simul>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Situation</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t20">Nous allons maintenant examiner de plus près l'usure de ce composant pour juger si celle-ci permets ou non d'identifier la fin de vie utile du composant.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:simul>
+					<op:pbTi>
+						<sp:title>Question 2</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t18">Calculer le <sc:uLink role="glos" sc:id="t21" sc:refUri="/1B_op/M/TUV/taux_defaillance.ref">taux de défaillance</sc:uLink> entre 400 et 500 heures.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t27">Calculer le taux de défaillance entre 900 et 1200 heures.</sc:para>
+								<sc:para xml:space="preserve">Concluser sur l'usure du composant</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:simul>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Situation : tableur</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t29">Utiliser le tableur pour représenter la fiabilité, et le taux de défaillance</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:simul>
+					<op:pbTi>
+						<sp:title>Question 3</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t31">Tracer les courbes R(t) et Lambda(t).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:simul>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Situation : garantie</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t33">Mettez vous à la place du fournisseur de ce composant</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:simul>
+					<op:pbTi>
+						<sp:title>Question 4</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t35">Pensez qu'il soit judicieux de proposer une garantie de 5000 heures à vos clients ? </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:simul>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Situation : Echange systématique</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t37">Mettez vous à la place de l'exploitant. Chaque défaillance est évaluée par un <sc:uLink role="glos" sc:id="t38" sc:refUri="/1B_op/C/couts/CGM_CDM.ref">CDM</sc:uLink> de 1000 euros. Le <sc:uLink role="glos" sc:id="t39" sc:refUri="/1B_op/M/M/S/stock/PU.ref">PU</sc:uLink> de la pièce étant considéré comme très faible, on estime rentable un échange systématique. </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:simul>
+					<op:pbTi>
+						<sp:title>Question 5</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t43">Quelle périodicité proposez vous ?</sc:para>
+								<sc:para xml:space="preserve">Peut -on considérer que la garantie constructeur et la périodicité d'échange sont de valeurs proches ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:simul>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Test 7 Déc.</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Télécharger le fichier :</sc:para>
+								<sc:para xml:space="preserve">- traiter les 4 articles</sc:para>
+								<sc:para xml:space="preserve">- cumuler les fin d'ordre pour chaque jour, et charger le poste unique destiné à la fabrication des 4 articles (une version au plus tôt et une version au plus tard)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:int sc:refUri="/P_op/MP/4Z_ex/exam_2/art_01_1.ods">
+							<op:instructionM/>
+						</sp:int>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

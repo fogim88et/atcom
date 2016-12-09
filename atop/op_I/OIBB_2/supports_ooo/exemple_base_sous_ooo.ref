@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:bibM>
+			<sp:id>http://user.services.openoffice.org/fr/forum/ftopic6460.html</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:uLink role="url" sc:id="t4" url="http://user.services.openoffice.org/fr/forum/ftopic6460.html">Lien</sc:uLink>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item>

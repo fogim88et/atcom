@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:notion>Base de données</sp:notion>
+			<sp:term>Base de données</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">En informatique, une base de données (Abr. : « BD » ou « BDD ») est un stock d'informations organisé et structuré de manière à pouvoir être facilement manipulé et stocker efficacement de très grandes quantités d'informations.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">L'organisation logique des données se fait selon un modèle de données. La structure physique des fichiers comporte des index destinés à accélérer les opérations de recherche et de tri. Le modèle de données relationnel est aujourd'hui le plus utilisé parce qu'il permet l'indépendance entre la structure physique et l'organisation logique des données – contrairement aux modèles hiérarchique et réseau.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">Dans le langage courant, le terme base de données est utilisé pour désigner toute source importante de données telle qu'une encyclopédie.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t7"> Les bases de données sont classées en fonction de leur contenu : bibliographique, texte, numérique, et images.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t8">Le logiciel qui manipule les bases de données est appelé système de gestion de base de données (SGBD). Il permet d'organiser, de contrôler, de consulter et de modifier la base de données. Les opérations sont parfois formulées dans un langage de requête tel que SQL – le plus connu et employé pour les modèles relationnels.</sc:para>
+				</op:sTxt>
+			</sp:def>
+			<sp:wikip>Base_de_donn%C3%A9es</sp:wikip>
+		</op:glosM>
+	</op:glos>
+</sc:item>

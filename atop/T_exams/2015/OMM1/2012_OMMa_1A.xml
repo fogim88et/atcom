@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Exo 1A</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>1A</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t12">Pendant une période de 30 jours, on a relevé sur le compteur horaire de la machine 295 heures de production.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t13"> Le temps de cycle est normalement de 1000 pièces à l'heure. </sc:para>
+						<sc:para xml:space="preserve" sc:id="t14">280 000 pièces ont été produites, et 10 000 se sont révélées être défectueuses. </sc:para>
+						<sc:para xml:space="preserve" sc:id="t15">Les informations extraites de l'historique machine sont les suivantes : </sc:para>
+						<sc:itemizedList sc:id="t16">
+							<sc:listItem sc:id="t17">
+								<sc:para xml:space="preserve" sc:id="t18">Réglages machines : 15 heures. </sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t19">
+								<sc:para xml:space="preserve" sc:id="t20">Attente de matière première : 10 heure.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t21">
+								<sc:para xml:space="preserve" sc:id="t22">Arrêt machine sur 12 défaillances : 24 heures. </sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t23">
+								<sc:para xml:space="preserve" sc:id="t24">Arrêt machine pour mesures et contrôles : 6 heures. </sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t34">1. Définissez les grandeurs utiles au calcul du TRG.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t35">2. Calculer le TRG ansi que tous les taux intermédiaires.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t36">3. Calculer le MTBF, le MTTR, la disponibilité opérationnelle de la machine.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

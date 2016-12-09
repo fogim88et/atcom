@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>FMD Compréhesion 1</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Application papier et/ou tableur</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:table role="" sc:id="t291">
+							<sc:column sc:id="t741" width="2"/>
+							<sc:column sc:id="t292" width="4"/>
+							<sc:column sc:id="t293" width="9"/>
+							<sc:column sc:id="t294" width="16"/>
+							<sc:column sc:id="t295" width="7"/>
+							<sc:column sc:id="t296" width="14"/>
+							<sc:column sc:id="t297" width="17"/>
+							<sc:column sc:id="t298" width="22"/>
+							<sc:row sc:id="t742">
+								<sc:cell sc:id="t743"/>
+								<sc:cell sc:id="t744">
+									<sc:para xml:space="preserve" sc:id="t476">A</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t745">
+									<sc:para xml:space="preserve" sc:id="t477">B</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t746">
+									<sc:para xml:space="preserve" sc:id="t478">C</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t747">
+									<sc:para xml:space="preserve" sc:id="t479">D</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t748">
+									<sc:para xml:space="preserve" sc:id="t480">E</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t749">
+									<sc:para xml:space="preserve" sc:id="t481">F</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t750">
+									<sc:para xml:space="preserve" sc:id="t482">G</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t751">
+								<sc:cell sc:id="t752">
+									<sc:para xml:space="preserve" sc:id="t490">1</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t753">
+									<sc:para xml:space="preserve" sc:id="t491">Nb</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t754">
+									<sc:para xml:space="preserve" sc:id="t492">60</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t755"/>
+								<sc:cell sc:id="t756"/>
+								<sc:cell sc:id="t757"/>
+								<sc:cell sc:id="t758"/>
+								<sc:cell sc:id="t759"/>
+							</sc:row>
+							<sc:row role="head" sc:id="t299">
+								<sc:cell sc:id="t760">
+									<sc:para xml:space="preserve" sc:id="t484">2</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t300">
+									<sc:para xml:space="preserve" sc:id="t301">t</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t302">
+									<sc:para xml:space="preserve" sc:id="t303">t centre</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t304">
+									<sc:para xml:space="preserve" sc:id="t305">durée période</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t306">
+									<sc:para xml:space="preserve" sc:id="t307">Déf.</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t308">
+									<sc:para xml:space="preserve" sc:id="t309">Survivants....</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t310">
+									<sc:para xml:space="preserve" sc:id="t311">Fiabilité..............</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t312">
+									<sc:para xml:space="preserve" sc:id="t313">Taux Déf.....................</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t314">
+								<sc:cell sc:id="t761">
+									<sc:para xml:space="preserve" sc:id="t485">3</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t315">
+									<sc:para xml:space="preserve" sc:id="t316">t</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t317">
+									<sc:para xml:space="preserve" sc:id="t318">tc</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t319">
+									<sc:para xml:space="preserve" sc:id="t320">dt</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t321">
+									<sc:para xml:space="preserve" sc:id="t322">dN(tc)</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t323">
+									<sc:para xml:space="preserve" sc:id="t324">N(.........)</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t325">
+									<sc:para xml:space="preserve" sc:id="t326">R(.........)</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t327">
+									<sc:para xml:space="preserve" sc:id="t328">λ(...........)</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t329">
+								<sc:cell sc:id="t762">
+									<sc:para xml:space="preserve" sc:id="t486">4</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t330">
+									<sc:para xml:space="preserve" sc:id="t331">0</sc:para>
+									<sc:para xml:space="preserve" sc:id="t880">.</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t332"/>
+								<sc:cell sc:id="t333"/>
+								<sc:cell sc:id="t334">
+									<sc:para xml:space="preserve" sc:id="t397">1</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t335"/>
+								<sc:cell sc:id="t336"/>
+								<sc:cell sc:id="t337"/>
+							</sc:row>
+							<sc:row sc:id="t338">
+								<sc:cell sc:id="t763">
+									<sc:para xml:space="preserve" sc:id="t487">5</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t339">
+									<sc:para xml:space="preserve" sc:id="t405">250</sc:para>
+									<sc:para xml:space="preserve" sc:id="t881">.</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t340"/>
+								<sc:cell sc:id="t341"/>
+								<sc:cell sc:id="t342">
+									<sc:para xml:space="preserve" sc:id="t343">1</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t344"/>
+								<sc:cell sc:id="t345"/>
+								<sc:cell sc:id="t346"/>
+							</sc:row>
+							<sc:row sc:id="t347">
+								<sc:cell sc:id="t764">
+									<sc:para xml:space="preserve" sc:id="t488">6</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t348">
+									<sc:para xml:space="preserve" sc:id="t349">500</sc:para>
+									<sc:para xml:space="preserve" sc:id="t882">.</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t350"/>
+								<sc:cell sc:id="t351"/>
+								<sc:cell sc:id="t352">
+									<sc:para xml:space="preserve" sc:id="t421">2</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t353"/>
+								<sc:cell sc:id="t354"/>
+								<sc:cell sc:id="t355"/>
+							</sc:row>
+							<sc:row sc:id="t356">
+								<sc:cell sc:id="t765">
+									<sc:para xml:space="preserve" sc:id="t489">7</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t357">
+									<sc:para xml:space="preserve" sc:id="t429">750</sc:para>
+									<sc:para xml:space="preserve" sc:id="t883">.</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t358"/>
+								<sc:cell sc:id="t359"/>
+								<sc:cell sc:id="t360"/>
+								<sc:cell sc:id="t362"/>
+								<sc:cell sc:id="t363"/>
+								<sc:cell sc:id="t364"/>
+							</sc:row>
+						</sc:table>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Identifiez les formules utiles à la FMD (étude par période)</sc:para>
+								<sc:para xml:space="preserve">A partir du libellé de la ligne 2, vous devez être capable à la ligne 3 de retrouver les grandeurs littérales des formules utilisées en fiabilité expérimentale.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t594">Donnez les formules applicables sur le papier et sur le tableur (ligne 4 et le cas échéant sur la ligne 5 si la ligne 4 nécessite une formule d'initialisation)</sc:para>
+								<sc:para xml:space="preserve">Les lignes suivantes pour le tableur sont bien sûr considérées recopiées vers le bas.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

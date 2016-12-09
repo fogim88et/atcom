@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Exemple fiche technique</sp:title>
+			<sp:sTitle>Exemple fiche technique</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>MOTEUR ELECTRIQUE ASYNCHRONE</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t16">DÉSIGNATION : MOTEUR ELECTRIQUE ASYNCHRONE</sc:para>
+								<sc:para xml:space="preserve" sc:id="t19"> type :</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">NOMBRE DE PHASES : </sc:para>
+								<sc:para xml:space="preserve">VITESSE :</sc:para>
+								<sc:para xml:space="preserve" sc:id="t7">PUISSANCE : </sc:para>
+								<sc:para xml:space="preserve">TENSION : </sc:para>
+								<sc:para xml:space="preserve">INTENSITE :</sc:para>
+								<sc:para xml:space="preserve">FREQUENCE :</sc:para>
+								<sc:para xml:space="preserve" sc:id="t8">BOITE A BORNE </sc:para>
+								<sc:para xml:space="preserve">Position - </sc:para>
+								<sc:para xml:space="preserve">COUPLAGE :</sc:para>
+								<sc:para xml:space="preserve" sc:id="t9">ARBRE : </sc:para>
+								<sc:para xml:space="preserve">hauteur d'axe diamètre longueur</sc:para>
+								<sc:para xml:space="preserve" sc:id="t10">CLASSE D'ISOLEMENT : </sc:para>
+								<sc:para xml:space="preserve">CLASSE DE PROTECTION :</sc:para>
+								<sc:para xml:space="preserve" sc:id="t11">ECHAUFFEMENT : </sc:para>
+								<sc:para xml:space="preserve">CLASSE DE SERVICE :</sc:para>
+								<sc:para xml:space="preserve" sc:id="t12">POSITION ET MODE FIXATION :</sc:para>
+								<sc:para xml:space="preserve" sc:id="t13">SYSTEME DE LUBRIFICATION :</sc:para>
+								<sc:para xml:space="preserve" sc:id="t14">OBSERVATIONS :</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Soupape de sécurité</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t42">PRESSION DE TARAGE </sc:para>
+								<sc:para xml:space="preserve">PRESSION DE SERVICE </sc:para>
+								<sc:para xml:space="preserve">PRESSION MAXIMUM</sc:para>
+								<sc:para xml:space="preserve" sc:id="t43">TEMPPÉRATURE DE SERVICE </sc:para>
+								<sc:para xml:space="preserve">CAPACITE DE DEBIT </sc:para>
+								<sc:para xml:space="preserve">ORIFICE</sc:para>
+								<sc:para xml:space="preserve" sc:id="t35">MATIERE : disque RACCORDEMENTS : Entrée Sorties</sc:para>
+								<sc:para xml:space="preserve" sc:id="t36">MATIERE : disque corps ressort</sc:para>
+								<sc:para xml:space="preserve" sc:id="t37">DISPOSITIF DE BLOCAGE</sc:para>
+								<sc:para xml:space="preserve" sc:id="t38">COMMANDE MANUELLE</sc:para>
+								<sc:para xml:space="preserve" sc:id="t39">ACCESSOIRES</sc:para>
+								<sc:para xml:space="preserve" sc:id="t40">APPLICATIONS</sc:para>
+								<sc:para xml:space="preserve" sc:id="t41">OBSERVATIONS :</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

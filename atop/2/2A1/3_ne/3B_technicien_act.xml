@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Activités et compétences du technicien (2A3B)</sp:title>
+			<sp:sTitle>Activités et compétences</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t7">Un technicien de maintenance peut n'avoir à exercer qu'une partie des activités décrites ci-dessous, leur poids pouvant différer d'un profil de poste à l'autre.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t8">L'évolution des activités prises en charge peut constituer un parcours professionnel à l'intérieur de la fonction.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t9">On distingue 2 grands types de profils pour le technicien de maintenance, selon le type de poste occupé :</sc:para>
+								<sc:itemizedList sc:id="t12">
+									<sc:listItem sc:id="t13">
+										<sc:para xml:space="preserve" sc:id="t10">poste opérationnel privilégiant les <sc:inlineStyle role="emp">fonctions d'action</sc:inlineStyle> (en équipe d'intervention),</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t14">
+										<sc:para xml:space="preserve" sc:id="t11">poste privilégiant les <sc:inlineStyle role="emp">fonctions d'études ou de méthodes</sc:inlineStyle> (en service central méthodes).</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Compétences techniques</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t16">Pour apporter des solutions rapides aux problèmes qui se posent, et mieux, éviter leur apparition, le technicien de maintenance doit posséder des connaissances relatives aux technologies des matériels à maintenir et aux principes de leur maintenance.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:rem>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:itemizedList sc:id="t24">
+											<sc:listItem sc:id="t25">
+												<sc:para xml:space="preserve" sc:id="t19">analyse de comportement et de <sc:inlineStyle role="emp">fiabilité des systèmes</sc:inlineStyle>,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t26">
+												<sc:para xml:space="preserve" sc:id="t20">
+<sc:inlineStyle role="emp">
+<sc:inlineStyle role="emp">pathologie</sc:inlineStyle>
+</sc:inlineStyle>
+<sc:inlineStyle role="emp"> des défaillances,</sc:inlineStyle>
+</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t27">
+												<sc:para xml:space="preserve" sc:id="t21">
+<sc:inlineStyle role="emp">instrumentation</sc:inlineStyle> (connaissances des méthodes de mesures et analyses des fluides, vibrations, thermographique, capteurs.. .),</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t28">
+												<sc:para xml:space="preserve" sc:id="t22">connaissances des <sc:inlineStyle role="emp">normes et diagnostics de sécurité</sc:inlineStyle>, voire des mesures et pilotages à distance.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:para xml:space="preserve" sc:id="t23">Dans certains secteurs, la connaissance des règles et procédures de sécurité avant et pendant les interventions revêt une importance fondamentale.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:rem>
+						<sp:adv>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t30">Il complétera ses connaissance par des connaissances linguistiques (La maîtrise de l'anglais technique est conseillée, de nombreuses documentations étant rédigées dans cette langue ) et des des connaissances informatiques de base (tableur, base de données, traitement de texte) sont requises pour les tâches à caractère administratif, voir même plus spécialisées (développement d'applications simples de gestion ou liées à la mesure et à la détection et l'analyse de défauts)</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:adv>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Activités techniques</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t31">La gamme des activités techniques réalisées par le technicien de maintenance est large. Suivant le poste qu'il occupe, il en réalisera une partie plus ou moins grande.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t32">S'il est dans un poste opérationnel, le technicien de maintenance est appelé à :</sc:para>
+										<sc:itemizedList sc:id="t46">
+											<sc:listItem sc:id="t47">
+												<sc:para xml:space="preserve" sc:id="t33">effectuer des tournées de surveillance ;</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t48">
+												<sc:para xml:space="preserve" sc:id="t34">établir des expertises et diagnostics ;</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t49">
+												<sc:para xml:space="preserve" sc:id="t35">réaliser des réparations, des dépannages, des réglages délicats, vérifier le bon fonctionnement lors des remises en marche ;</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t50">
+												<sc:para xml:space="preserve" sc:id="t36">superviser ou piloter la réalisation d'autres dépannages et réparations et les opérations de maintenance préventive.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:para xml:space="preserve" sc:id="t37">Pour choisir la méthode d'intervention la plus adaptée, le technicien de maintenance doit être capable de trouver l'origine de la panne, soit par expérience, soit en ayant recours à la documentation technique, soit par déduction logique.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t38">Le technicien de maintenance participe aussi souvent aux opérations de :</sc:para>
+										<sc:itemizedList sc:id="t51">
+											<sc:listItem sc:id="t52">
+												<sc:para xml:space="preserve" sc:id="t39">modification des machines ou des installations (pour une meilleure performance),</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t53">
+												<sc:para xml:space="preserve" sc:id="t40">montage, essais, démarrage d'installations nouvelles.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:para xml:space="preserve" sc:id="t41">S'il est dans un poste d'études ou de méthodes, le technicien de maintenance est appelé à :</sc:para>
+										<sc:itemizedList sc:id="t54">
+											<sc:listItem sc:id="t55">
+												<sc:para xml:space="preserve" sc:id="t42">faire des préconiserions (" offres techniques ") visant à trouver la cause des défaillances itératives, à proposer un remède (modification de parties d'installations ou de méthodes de travaill) à améliorer la facilité d'intervention sur les équipements, leur sécurité, leur performance, et à perfectionner les méthodes de maintenance ;</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t56">
+												<sc:para xml:space="preserve" sc:id="t43">rédiger tout ou partie de la documentation technique relative à l'entretien des machines ;</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t57">
+												<sc:para xml:space="preserve" sc:id="t44">compiler les informations nécessaires à la mise au point des activités préventives (analyse des temps passés, repérage des degrés de risque de panne des différentes machines, fréquences de vérification souhaitables, proposition de plannings) ;</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t58">
+												<sc:para xml:space="preserve" sc:id="t45">plus rarement, mettre en place des systèmes de surveillance à distance des installations en réalisant la conception, le dessin des parties mécaniques, en utilisant les logiques informatiques de contrôle-commande et les dossiers de fabrication. Il choisira les matériels, sélectionnera les propositions des fournisseurs, veillera à la réception des composants, à l'installation-câblage, et aux essais. Les titulaires de BTS " MAI " (mécanique et automatismes industriels) sont particulièrement formés pour ce type de tâches.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Activités administratives et techniques</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t61">Le technicien de maintenance réalise souvent la tenue de données documentaires (sous forme papier ou informatique) de type :</sc:para>
+										<sc:itemizedList sc:id="t67">
+											<sc:listItem sc:id="t68">
+												<sc:para xml:space="preserve" sc:id="t62">
+<sc:inlineStyle role="emp">comptes rendus</sc:inlineStyle> des demandes d'intervention,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t69">
+												<sc:para xml:space="preserve" sc:id="t63">mise à jour des <sc:inlineStyle role="emp">dossiers historiques</sc:inlineStyle> des machines (descriptif des interventions, des pannes, des expertises),</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t70">
+												<sc:para xml:space="preserve" sc:id="t64">
+<sc:inlineStyle role="emp">collecte</sc:inlineStyle> des temps passés et des pièces utilisées,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t71">
+												<sc:para xml:space="preserve" sc:id="t65">participation à la mise à jour de la <sc:inlineStyle role="emp">documentation technique</sc:inlineStyle> : technique professionnelle, normes, catalogues, nomenclature des équipements, documentation technique par matériel,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t72">
+												<sc:para xml:space="preserve" sc:id="t66">identification des <sc:inlineStyle role="emp">pièces de rechange</sc:inlineStyle> et de leur origine.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Activités décisionnelles/relationnelles</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t75">Le technicien de maintenance doit pouvoir faire preuve d'<sc:inlineStyle role="emp">autonomie</sc:inlineStyle> et, dans un certain nombre de situations, savoir décider et agir sans avoir à se référer au niveau supérieur.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t76">Si l'entreprise a décidé de confier la maintenance de premier niveau aux opérateurs, il peut avoir à participer à la <sc:inlineStyle role="emp">formation</sc:inlineStyle> des opérateurs et au <sc:inlineStyle role="emp">contrôle</sc:inlineStyle> des travaux de maintenance réalisés par ceux-ci.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t77">Si le technicien de maintenance travaille chez un fabricant de matériels, le sens de la <sc:inlineStyle role="emp">relation à la clientèle</sc:inlineStyle> est indispensable, ainsi qu'une certaine capacité à gérer le stress s'il est amené à intervenir seul.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Activités Financières</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t82">De plus en plus, on attend des services maintenance qu'ils aident l'entreprise à choisir entre plusieurs solutions en fournissant des données d'ordre financier. C'est le cas pour le technicien d'études qui réalise des préconisations non seulement techniques mais technico-économiques.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t83">Il peut effectuer le calcul des coûts (interventions, projets, rechanges), ou y collaborer en utilisant les méthodes de chiffrage de projet.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Les coûts de maintenance (2B5)</sp:title>
+			<sp:sTitle>Les coûts de maintenance</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Coût de Maintenance</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Maîtrise du Coût Global de Maintenance</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t9">Le <sc:uLink role="glos" sc:id="t22" sc:refUri="/1B_op/C/couts/CGM.ref">coût de maintenance</sc:uLink> est composé :</sc:para>
+								<sc:itemizedList sc:id="t16">
+									<sc:listItem sc:id="t17">
+										<sc:para xml:space="preserve" sc:id="t10">du <sc:uLink role="glos" sc:id="t23" sc:refUri="/1B_op/C/couts/CGM_CIM.ref">coût direct</sc:uLink> ou coût des interventions (CIM)</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t18">
+										<sc:para xml:space="preserve" sc:id="t11">du <sc:uLink role="glos" sc:id="t24" sc:refUri="/1B_op/C/couts/CGM_CDM.ref">coût indirect</sc:uLink> ou coût des arrêts de fabrication pour maintenance (CDM)</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t12">Les différents éléments du coût global sont en interférence les uns par rapport aux autres, et il s'agit donc de rechercher le coût global optimum, et pas forcément de réduire un seul élément ( par exemple, on peut toujours réduire les stocks de maintenance si l'on ne se préoccupe pas de l'incidence sur les pannes, donc du coût indirect). </sc:para>
+								<sc:para xml:space="preserve">Pour cette raison, il paraît judicieux que le Responsable de Maintenance ait la maîtrise des trois éléments, et notamment pour ce qui concerne les Stocks de Maintenance :</sc:para>
+								<sc:itemizedList sc:id="t19">
+									<sc:listItem sc:id="t20">
+										<sc:para xml:space="preserve" sc:id="t13">la définition du besoin,</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t21">
+										<sc:para xml:space="preserve" sc:id="t14">l'expression du besoin (codification, catalogue, méthode d'approvisionnement).</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t15">La satisfaction du besoin appartient aux Achats (demandes de prix, choix des fournisseurs, commandes). </sc:para>
+								<sc:para xml:space="preserve">Bien souvent, dans les petites structures, la maintenance en a aussi la charge.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

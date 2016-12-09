@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Simulation du besoin</sp:title>
+			<sp:sTitle>Simulation du besoin</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Feuille à alimenter</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/P_op/MP/000_bbd_tech_res/modeles/OF_OA_suivi.ods">
+<op:resInfoM>
+<sp:pubMode>zoom</sp:pubMode>
+</op:resInfoM>
+</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:simul>
+					<op:pbTi>
+						<sp:title>Suivi du stock</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t536">Nous raisonnerons en n° de jour.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t537">Établir un suivi des stocks de chaque article, vous en déduirez le besoin de réceptionner des articles à des dates bien précises.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t538">Pour ce faire, sur votre planche de flux : </sc:para>
+								<sc:para xml:space="preserve" sc:id="t539">- Placez des jetons sur la zone de stock en produits finis.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t540">- Quand votre stock est insuffisant, alimentez votre stock comme si vous aviez commandés à l'extérieur votre produit, et renseignez le besoin sur votre fiche</sc:para>
+								<sc:para xml:space="preserve" sc:id="t541">- En déduire les OF  à lancer en tenant compte du délai de fabrication ou de livraison en supposant que le besoin dépendant est assuré.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t542">Vos OF seront numérotés en partant de 100 pour les OF et 300 pour les OA par pas de 10 et seront consignés dans le document ci-dessous.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:simul>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

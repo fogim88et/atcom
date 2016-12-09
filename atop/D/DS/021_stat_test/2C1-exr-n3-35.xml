@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>EXR-35-n2 : Fiabilité (Test)</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Code 0035</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t4">Le fournisseur A affirme qu'à t=100000 heures de fonctionnement, moins de 4 % de composants au maximum seront défaillants.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t5">Vous serez placé en position d'utilisateur (CLIENT) ou de concepteur (FOURNISSEUR)</sc:para>
+						<sc:para xml:space="preserve" sc:id="t6">3.0.a. 3.0.b. 3.0.c. Peut on appeler ce temps « Durée de vie nominale à 99% ». Est-il envisageable de pratiquer un échange systématique sur ce composant si celui ci est implanté sur une machine ?</sc:para>
+						<sc:para xml:space="preserve" sc:id="t7">3.0.d. En admettant que la durée de vie puisse être modélisée par le modèle de WEIBULL (composant mécanique Beta=3, Eta=80000 heures), même question que 3.0.c.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t8">3.1. Test unilatéral avec n=100 (Limite de proportion à gauche et Région d'acceptation à droite) :</sc:para>
+						<sc:para xml:space="preserve" sc:id="t9">3.1.a. Donner l'hypothèse à tester et donner</sc:para>
+						<sc:para xml:space="preserve" sc:id="t10">3.1.b. Calculer l'écart-type de la population que l'on supposera ici comme connu 3.1.b. Calculer l'écart-type de la distribution d'échantillonnage. 3.1.b. Pour un risque alpha de 5%, à combien d'écart-type de la distribution d'échantillonnage des moyennes se trouvera la limite d'acceptation de l'hypothèse ? 3.1.b. Calculer la limite d'acceptation pour l'hypothèse en % de composants défaillants. 3.1.b. Deux échantillons donnent une proportion de défaillants de 1% et 3%. Qu'allez vous conclure ? 3.2. Est ce que le test bilatéral ou unilatéral à droite présentent un intérêt pour la fiabilité ? Le fournisseur B affirme qu'à t=100000 heures de fonctionnement, moins de 10 % de composants au maximum seront défaillants : on se place du côté CLIENT, en essayant à partir d'un échantillon prélevé de se situer relativement à aux affirmations de A et B, mais sans savoir à quel fournisseur appartient le lot. 3.3.a Sur un lot de 5 composants, on constate que tous dépassent 100000 heures. 3.3.a. Proviennent – ils de A ou de B ? (calculer la probabilité d'obtenir moins de 0 défaillant dans un lot de 5 pièce) 3.3.b. Si on sait par avance que ce lot appartient à A, quel est la probabilité d'obtenir 0 défaillant. Même question pour B. 3.3.c. Mêmes questions avec un lot de taille n=100. 3.5. Est-il possible si on obtient 5% de défaillants sur un lot de 100, que le lot soit issu de B. On vous apprend que les fournisseurs ont pu vous fournir l'information de départ sur un lot de 500 composants (échantillon de taille n=500 d'une population N infinie) En parlant du composant A : Une personne PA affirme que 4% de 500 étant égal à 20, il suffit de trouver moins de 20 défaillants sur 500 pour avoir le droit de dire aux clients : R(t=100000)=95%. Une personne PB dit que tant que l'on ne dépasse pas 27 défaillants, on a le droit de dire à nos clients que la fiabilité peut atteindre 96%. Une personne PC dit que si on dépasse pas 13 composants défaillants, alors on pourra affirmer que la fiabilité est au moins de 96%. 3.6. Qui a raison ou tort (les affirmations sont-elles justes ou fausses ?). Les valeurs 13, 20, 27 sont éventuellement à démontrer si elles s'avèrent être justes. E1</sc:para>
+						<sc:para xml:space="preserve" sc:id="t11">1 Dessiner les gaussiennes représentant la population et la distribution d'échantillonnage. Sur les schémas, vous faites apparaître en abscisse l'individu (ce que l'on mesure), le centre de la distribution, son écart-type. Expliquer le rôle de la distribution d'échantillonnage ? Nous utilisons ce composant sur un montage vendu à 10000 exemplaires, et nous n'avons pas d'autre choix que de stocker ou d'acheter en début de garantie les composants qui ne manqueront pas d'être défaillants pendant la garantie. 2 Combien d'articles devez vous stocker pour être sûr de ne pas en manquer à un risque ou seuil de 5%? En admettant que la durée de vie puisse être modélisée par le modèle exponentiel (composant électronique), Pouvez vous chiffrer le temps de fonctionnement pour une fiabilité à 99%.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+	</op:practUc>
+</sc:item>

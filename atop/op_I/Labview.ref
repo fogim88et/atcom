@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:op="utc.fr:ics/opale3">
+		<op:refM>
+			<sp:ref xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">Labview</sp:ref>
+			<sp:desc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Langage de programmation graphique (Société <sc:phrase role="url"><op:urlM><sp:url>http://france.ni.com/</sp:url></op:urlM>National Instruments</sc:phrase>)</sc:para>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

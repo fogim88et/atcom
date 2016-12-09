@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:refM>
+			<sp:ref>ens_fo/edc_00001</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para sc:id="t3">Dans le dossier <sc:inlineStyle role="emp">Mes Documents</sc:inlineStyle>, sous dossier <sc:inlineStyle role="emp">ens_fo</sc:inlineStyle> ajoutez un dossier nommé edc_00001 dans lequel vous téléchargerez les ressources liées et enregistrerez vos documents de travail en respectant les consignes données au fur et à mesure des exercices.</sc:para>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

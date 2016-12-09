@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Maintenance Préventive Systématique</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t4">
+						<sc:inlineStyle role="emp">Maintenance effectuée selon un échéancier établi selon le temps ou le nombre d'unités d'usage.</sc:inlineStyle>
+					</sc:para>
+					<sc:para sc:id="t5">La maintenance préventive systématique, par principe, est de décider de changer une pièce de façon périodique quelque soit son état. Son avantage, en planifiant des interventions qui regroupent un certain nombre d'échanges, est de favoriser une organisation rationnelle et maîtrisée en diminuant les arrêts de production intempestifs. Par contre, le changement quelque soit l'état du composant engendre des coûts élevés.</sc:para>
+					<sc:para sc:id="t6">Le recours à ce type de maintenance a lieu principalement : :</sc:para>
+					<sc:para sc:id="t7">- lorsque le coût de la pièce est négligeable (sécurité de fonctionnement)</sc:para>
+					<sc:para sc:id="t8">- lorsque la défaillance de la pièce peut engendrer des conséquences sur la sécurité des personnes.</sc:para>
+					<sc:para sc:id="t9">- lorsque le prix de la pièce est inférieur à la pénalité encourue en cas d'arrêt de production.</sc:para>
+					<sc:para sc:id="t10">- lorsque les visites en marche ou sans démontage sont impossibles.</sc:para>
+					<sc:para sc:id="t11">D'autres paramètres sont à envisager, type d'entreprise, méthode de production, importance de la machine dans la production, organisation du service maintenance, sous-traitance.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

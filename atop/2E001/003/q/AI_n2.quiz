@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>AI (n2)</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Consignez vos résultats intermédiaires ici.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t5">
+					<sc:inlineStyle role="emp">Etape 1 : Rechercher le TB</sc:inlineStyle>.</sc:para>
+				<sc:para sc:id="t41">Arrêt pour contrôle = <sc:textLeaf role="gap" sc:id="t44">5</sc:textLeaf> heures</sc:para>
+				<sc:para sc:id="t47">Arrêt pour défaillance = <sc:textLeaf role="gap" sc:id="t45">18</sc:textLeaf> heures</sc:para>
+				<sc:para sc:id="t48">Arrêt pour approvisionnement = <sc:textLeaf role="gap" sc:id="t46">3</sc:textLeaf> heures</sc:para>
+				<sc:para sc:id="t28">AI = <sc:textLeaf role="gap" sc:id="t40">26</sc:textLeaf> heures.</sc:para>
+				<sc:para sc:id="t29">TB = <sc:textLeaf role="gap" sc:id="t37">334</sc:textLeaf> heures.</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>La base de données technique LAZUREX</sp:title>
+			<sp:sTitle>Bdd technique</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Vos données de départ</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/P_op/MP/000_img_bdd_tech/nomenclature.png">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t26">
+<sc:inlineImg role="ico" sc:id="t37" sc:refUri="/P_op/MP/000_img_bdd_tech/B2_usinage.png"/> est un <sc:uLink role="glos" sc:id="t49" sc:refUri="/P_op/MP/4_prod/composé.ref">composé</sc:uLink>  usiné (carrelet de longueur 445)  usiné à partir d'un <sc:uLink role="glos" sc:id="t48" sc:refUri="/P_op/MP/4_prod/Composant.ref">composant</sc:uLink>  acheté (M2)<sc:inlineImg role="ico" sc:id="t38" sc:refUri="/P_op/MP/000_img_bdd_tech/M2_cotation.png"/>.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t46">
+<sc:inlineImg role="ico" sc:id="t56" sc:refUri="/P_op/MP/000_img_bdd_tech/B3_usinage.png"/> un est un composé <sc:inlineStyle role="emp" sc:id="t52">usiné</sc:inlineStyle> (carrelet de longueur 830) à partir d'un composant M3<sc:inlineImg role="ico" sc:id="t57" sc:refUri="/P_op/MP/000_img_bdd_tech/M3_cotation.png"/>
+</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t27">
+							<sc:inlineStyle role="emp" sc:id="t28">Unité stock</sc:inlineStyle> : C'est l'unité de comptage d'un élément stocké dans le fichier stock.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t29">
+							<sc:inlineStyle role="emp" sc:id="t30">Sécurité</sc:inlineStyle> : Il n'existe pas de sécurité pour EML et EMV (articles à forte valeur ajoutée) ; pour B2 et B3, le stock de sécurité est de 250 pour M2 et M3, le stock de sécurité est de 500.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t31">
+							<sc:inlineStyle role="emp" sc:id="t32">Lot multiple</sc:inlineStyle> : Pour des contraintes de fabrication et de gestion, EML est fabriqué par lot multiple de 10, EMV de 50, B2 et B3 par multiple de 250. Pour des contraintes liées au fournisseur M2 et M3 sont livrés par multiple de 500.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t33">
+							<sc:inlineStyle role="emp" sc:id="t34">Règles de lotissement</sc:inlineStyle> : Ces règles permettent de définir la taille des lots de fabrication et d'achat en cas de besoin net. </sc:para>
+								<sc:para xml:space="preserve">Pour EML et EMV, la quantité de l'ordre est égal au besoin net (L x L - lot pour lot).</sc:para>
+								<sc:para xml:space="preserve"> Pour B2 et B3, la taille du lot correspond au groupage du besoin net sur 5 jours (groupe 5 J.). </sc:para>
+								<sc:para xml:space="preserve">Pour M2 et M3, la taille de l'ordre d'achat est égale à une quantité fixe multiple de 500.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t35">
+							<sc:inlineStyle role="emp" sc:id="t36">Délai</sc:inlineStyle> : Le délai d'assemblage de EML (temps moyen s'écoulant entre une sortie de stock B2 - B3 et une entrée de stock de EML) </sc:para>
+								<sc:para xml:space="preserve">est de 2 jours. </sc:para>
+								<sc:para xml:space="preserve">Pour EMV, ce délai est de 6 jours.</sc:para>
+								<sc:para xml:space="preserve">Pour B2, ce délai est de 2 jours, pour B3, de 5 jours. </sc:para>
+								<sc:para xml:space="preserve">Le délai d'approvisionnement pour M2 -M3 est de 10 jours.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Le fichier Article</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/P_op/MP/000_bbd_tech_res/1_0_fichier article_vierge.ods">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:basic>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Le fichier nomenclature</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/P_op/MP/000_bbd_tech_res/2_0_nomenclature_vierge.ods">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:basic>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t71"><sc:inlineStyle role="emp" sc:id="t72">Capacite théorique en jours/semaine</sc:inlineStyle> : LAZUREX est ouvert 5 jours par semaine, 8 heures/jour</sc:para>
+								<sc:para xml:space="preserve" sc:id="t73">
+							<sc:inlineStyle role="emp" sc:id="t74">Coefficient minorateur en pourcentage</sc:inlineStyle> :</sc:para>
+								<sc:para xml:space="preserve" sc:id="t75">Sur le poste de montage, on observe en moyenne 20 % de temps d'arrêt (panne, absentéisme, ...). </sc:para>
+								<sc:para xml:space="preserve" sc:id="t76">Sur LA, VE, US, ce pourcentage est de 10 %</sc:para>
+								<sc:para xml:space="preserve" sc:id="t77">
+							<sc:inlineStyle role="emp" sc:id="t78">En déduire la capacité réelle</sc:inlineStyle>
+						</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Fichier Poste de charge</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/P_op/MP/000_bbd_tech_res/3_1_poste_de_Charge.ods">
+							<op:resInfoM>
+								<sp:index>tab</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:basic>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Fichier Gamme</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/P_op/MP/000_bbd_tech_res/4_Fichier_Gamme.ods">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:basic>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

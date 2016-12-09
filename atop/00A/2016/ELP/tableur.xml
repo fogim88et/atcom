@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Tableur</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Les résultats doivent apparaître sous scenari. Le fichier est en téléchargement ci-dessous</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:int sc:refUri="/T_exams/2016/fmd_5.ods">
+							<op:instructionM/>
+						</sp:int>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Données 1</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Faire l'étude de Fiabilité des données 1 sur le tableur avec la représentation graphique de la Fiabilité en fonction de t d'une part et du taux de défaillance en fonction de tc d'autre part.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Données 2 (graphe XY et calculs)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Pour contrôler la température d'un four de métallurgie, on utilise une sonde à thermistance dont la résistance varie en fonction de la température selon la loi , où R est la résistance en ohms, T la température absolue en Kelvin, B et a des coefficients propres à la thermistance. Après étalonnage de la thermistance, on obtient les résultats du tableau données 3</sc:para>
+								<sc:para xml:space="preserve">Tracer la résistance en fonction de la température. On constate une allure exponentielle.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Ajoutez une colonne Ln R (La fonction LN() permet de calculer le Log népérien). Représentez Ln R en fonction de T. On devrait obtenir une droite.</sc:para>
+								<sc:para xml:space="preserve">Ajoutez dans votre feuille des cellules pour saisir les coefficients a et b. Vous prendrez a=-0,005 et b=12 pour une première saisie</sc:para>
+								<sc:para xml:space="preserve">Ajoutez une colonne Rlineaire que vous allez calculer avec=a.T+b.  Représentez graphiquement les deux séries Ln R et Rlineaire en fonction de T.</sc:para>
+								<sc:para xml:space="preserve">Ajoutez une colonne Rcalcul que vous allez calculer avec B.exp(a.T) et B=EXP(b).</sc:para>
+								<sc:para xml:space="preserve">Modifier la valeur de b pour que les deux courbes ci-dessus se rapprochent</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

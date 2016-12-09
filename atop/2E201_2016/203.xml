@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>203. Etude entre 5 et 30 ans</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Reprendre les données de l'exercice 202.</sc:para>
+						<sc:para xml:space="preserve">Téléchargez le fichier src_005_2.ods ci-dessous</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:int sc:refUri="/0C-src/000/src_005_2.ods">
+					<op:instructionM/>
+				</sp:int>
+			</op:res>
+		</sp:desc>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Etude entre 5 et 30 ans</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t23">En supposant que le système soit mis en exploitation à t=5 ans pour une durée de 25 ans, pourrait-on modéliser la durée de vie de l'équipement par une loi exponentielle. Déterminer le taux de défaillance constant lambda. Superposer la fiabilité théorique ainsi modélisée et la fiabilité expérimentale obtenue. Pour mesurer les écarts, on pourra calculer la somme sur toutes les périodes du rapport (fiab exp - fiab thé)/fiab exp. Vous pourrez rechercher la valeur optimale du taux de défaillance. </sc:para>
+						<sc:para sc:id="t24">En déduire le MTTF sur la période [5, 25], expliquer sa signification en comparant le résultat à l'espérance de vie calculée à la naissance</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+	</op:practUc>
+</sc:item>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:assmntUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>6 . TRG - MMT - n1</sp:title>
+			<sp:sTitle>6 - TRG - MMT - n1</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>TRG : ev-n1</sp:keywd>
+							<sp:keywd>Code 0006</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para xml:space="preserve" sc:id="t5">Évaluation des définitions, abréviations, et modalités de calcul</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Préambule : question de compréhension</sc:inlineStyle></sc:para>
+						<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Question 1</sc:inlineStyle> :</sc:para>
+						<sc:para xml:space="preserve">Le vocabulaire utilisé par le TRG est TU, TN, TB, TO, TxP, TxB, TxQ, AI, EP, NQ.</sc:para>
+						<sc:para xml:space="preserve">Pour saisir les formules, ajoutez un espace de chaque côté de l'opérande. </sc:para>
+						<sc:para xml:space="preserve">Exemple : si vous pensez que la formule de TO est TU+TB, saisir la formule sous la forme suivante <sc:inlineStyle role="emp">TU(espace)+(espace)TB</sc:inlineStyle>
+</sc:para>
+						<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Question 2</sc:inlineStyle> :</sc:para>
+						<sc:para xml:space="preserve">Donnée : toutes les 2000 pièces, on doit faire un contrôle nécessitant une intervention du service maintenance de 20 mn. </sc:para>
+						<sc:para xml:space="preserve">Cette donnée est impliquée dans le calcul de quelle grandeur  ?  NQ/AI/TU/EP</sc:para>
+						<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Question 3</sc:inlineStyle> :</sc:para>
+						<sc:para xml:space="preserve">Choisir la réponse juste :</sc:para>
+						<sc:itemizedList>
+							<sc:listItem>
+								<sc:para xml:space="preserve">Le Taux Brut de fonctionnement et la Disponibilité Opérationnelle sont <sc:inlineStyle role="emp">identiques</sc:inlineStyle></sc:para>
+							</sc:listItem>
+							<sc:listItem>
+								<sc:para xml:space="preserve">Le Taux Brut de fonctionnement <sc:inlineStyle role="emp">est inférieur</sc:inlineStyle> à la Disponibilité Opérationnelle</sc:para>
+							</sc:listItem>
+							<sc:listItem>
+								<sc:para xml:space="preserve">Le Taux Brut de fonctionnement <sc:inlineStyle role="emp">est supérieur </sc:inlineStyle>à la Disponibilité Opérationnelle</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+						<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Question 4</sc:inlineStyle> :</sc:para>
+						<sc:para xml:space="preserve">Le temps d'ouverture est de 1000 heures et la Disponibilité Opérationnelle est de 80%. </sc:para>
+						<sc:para xml:space="preserve">On a 100 heures  pour changement de série et réglage</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:quiz sc:refUri="/2E001/006_ev_n1/categ.quiz"/>
+		<sp:quiz sc:refUri="/2E001/006_ev_n1/01.quiz"/>
+		<sp:quiz sc:refUri="/2E001/006_ev_n1/02.quiz"/>
+		<sp:quiz sc:refUri="/2E001/006_ev_n1/03.quiz"/>
+		<sp:quiz sc:refUri="/2E001/006_ev_n1/04.quiz"/>
+	</op:assmntUa>
+</sc:item>

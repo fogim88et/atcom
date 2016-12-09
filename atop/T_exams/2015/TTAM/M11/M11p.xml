@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:ueM>
+			<sp:title>Examen TTAM M51 2014-2015</sp:title>
+			<sp:sTitle>Examen TTAM M51 2014-2015</sp:sTitle>
+		</op:ueM>
+		<sp:courseUc sc:refUri="/T_exams/2015/TTAM/info_4.xml"/>
+	</op:ue>
+</sc:item>

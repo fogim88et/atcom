@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>209. FMD observée</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Fiabilité observée</sp:keywd>
+							<sp:keywd>MTTR</sp:keywd>
+							<sp:keywd>MTBF</sp:keywd>
+							<sp:keywd>Disponibilité</sp:keywd>
+							<sp:keywd>Maintenabilité</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Observation des TBF d'un dispositif réparable</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t131">Pré-requis : <sc:uLink role="ucLnk" sc:id="t113" sc:refUri="/M/C-2016-01/3_ne/2C2B_ne.xml">Dispositifs réparables</sc:uLink></sc:para>
+						<sc:para xml:space="preserve" sc:id="t3">
+							<sc:uLink role="glos" sc:id="t86" sc:refUri="/1B_op/M/TUV/tps_mi/TBF_TED.ref">Temps de bon fonctionnement</sc:uLink> d'un système réparable (12 Temps entre défaillances ou TBF)</sc:para>
+						<sc:para xml:space="preserve" sc:id="t75">Le <sc:uLink role="glos" sc:id="t84" sc:refUri="/1B_op/M/MN/MTTF.ref">MTTR</sc:uLink> est de 3 heures.</sc:para>
+						<sc:table role="" sc:id="t144">
+							<sc:caption xml:space="preserve" sc:id="t240">src 12.1 : tour (12 défaillances)</sc:caption>
+							<sc:column sc:id="t145" width="6"/>
+							<sc:column sc:id="t146" width="5"/>
+							<sc:column sc:id="t147" width="5"/>
+							<sc:column sc:id="t148" width="5"/>
+							<sc:column sc:id="t149" width="5"/>
+							<sc:column sc:id="t150" width="5"/>
+							<sc:column sc:id="t151" width="5"/>
+							<sc:column sc:id="t152" width="5"/>
+							<sc:column sc:id="t153" width="5"/>
+							<sc:column sc:id="t154" width="5"/>
+							<sc:column sc:id="t155" width="5"/>
+							<sc:column sc:id="t156" width="5"/>
+							<sc:column sc:id="t157" width="5"/>
+							<sc:row sc:id="t158">
+								<sc:cell sc:id="t159">
+									<sc:para xml:space="preserve" sc:id="t187">rang i</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t160">
+									<sc:para xml:space="preserve" sc:id="t189">1</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t161">
+									<sc:para xml:space="preserve" sc:id="t191">2</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t162">
+									<sc:para xml:space="preserve" sc:id="t193">3</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t163">
+									<sc:para xml:space="preserve" sc:id="t195">4</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t164">
+									<sc:para xml:space="preserve" sc:id="t197">5</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t165">
+									<sc:para xml:space="preserve" sc:id="t199">6</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t166">
+									<sc:para xml:space="preserve" sc:id="t201">7</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t167">
+									<sc:para xml:space="preserve" sc:id="t203">8</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t168">
+									<sc:para xml:space="preserve" sc:id="t205">9</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t169">
+									<sc:para xml:space="preserve" sc:id="t207">10</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t170">
+									<sc:para xml:space="preserve" sc:id="t209">11</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t171">
+									<sc:para xml:space="preserve" sc:id="t211">12</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t172">
+								<sc:cell sc:id="t173">
+									<sc:para xml:space="preserve" sc:id="t213">tbf</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t174">
+									<sc:para xml:space="preserve" sc:id="t215">20</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t175">
+									<sc:para xml:space="preserve" sc:id="t217">22</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t176">
+									<sc:para xml:space="preserve" sc:id="t219">24</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t177">
+									<sc:para xml:space="preserve" sc:id="t221">34</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t178">
+									<sc:para xml:space="preserve" sc:id="t223">37</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t179">
+									<sc:para xml:space="preserve" sc:id="t225">41</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t180">
+									<sc:para xml:space="preserve" sc:id="t227">45</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t181">
+									<sc:para xml:space="preserve" sc:id="t229">52</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t182">
+									<sc:para xml:space="preserve" sc:id="t231">54</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t183">
+									<sc:para xml:space="preserve" sc:id="t233">67</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t184">
+									<sc:para xml:space="preserve" sc:id="t235">76</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t185">
+									<sc:para xml:space="preserve" sc:id="t237">88</sc:para>
+								</sc:cell>
+							</sc:row>
+						</sc:table>
+					</op:txt>
+				</sp:txt>
+				<sp:int sc:refUri="/0C-src/000/src_012_1.ods">
+					<op:instructionM/>
+				</sp:int>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t115">Est-il possible de tracer le graphe marche arrêt de la machine ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t126">Non, car les tbf sont déjà ordonnés de façon croissante, et qu'il n'est donc pas possible de les situer dans un ordre chronologique.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t136">De plus, nous connaissons le MTTR, mais pas le détail des observations des ttr de chaque arrêt machine.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t8">Calculer le MTBF</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t31">Le MTBF est la moyenne des TBF</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t18">46,67</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t25">Calculer la fiabilité pour une mission de 25 h. On donnera les résultats sous forme fractionnaire</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t33">Combien y-a t-il de TBF supérieurs à 25 h  ? --&gt; Nombre d'événement réussis </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t35">Combien y a t-il de eu de missions tentées ---&gt; Nombre de tentatives</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t37">Quel le rapport entre entre le nombre de réussite sur le nombre de tentatives</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Résultat</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t39">9/12 car 9 TBF ont réussi la mission de 25 h sur les 12 TBF observés</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t44">Calculer la fiabilité pour des missions de 50 h. On donnera les résultats sous forme fractionnaire</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Résultat</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t50">5/12 car 5 dispositifs fonctionnent encore à t=50 h sur les 12</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t44">Calculer la fiabilité pour des missions de 75 h. On donnera les résultats sous forme fractionnaire</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Résultat</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t50">2/12 car 2 TBF sont supérieurs  à t=75 h sur les 12</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t68">Calculer la Disponibilité.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t72">
+											<sc:inlineImg role="form" sc:id="t98" sc:refUri="/1B_op/M/MN/MES-fmd-odf/A_obs.odf"/>
+										</sc:para>
+										<sc:para>soit D=94%</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

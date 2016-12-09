@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM xmlns:gtm="comaint.fr:gTecMi">
+			<sp:title>Loi Binômiale (5E4)</sp:title>
+			<sp:sTitle>Loi Binômiale (5E4.)</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Modèle</sp:keywd>
+							<sp:keywd>Loi Binômiale</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t7">La loi binômiale de paramètre n et p est la loi suivie par la Variable discrète K pouvant prendre toutes le valeurs entières 0,1,2, ...., k avec les probabilités.</sc:para>
+								<sc:table role="" sc:id="t12">
+									<sc:column role="head" sc:id="t13" width="50"/>
+									<sc:column role="" sc:id="t14" width="50"/>
+									<sc:row role="" sc:id="t15">
+										<sc:cell sc:id="t16">
+											<sc:para xml:space="preserve" sc:id="t25">Loi de probabilité</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t17">
+											<sc:para xml:space="preserve" sc:id="t27">
+												<sc:inlineImg role="form" sc:id="t59" sc:refUri="/D/DS/1B2/S/5E_modeles/Lbin_p(n_k).odf"/>
+											</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row role="" sc:id="t88">
+										<sc:cell sc:id="t89">
+											<sc:para xml:space="preserve" sc:id="t82">Récursivité</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t90">
+											<sc:para xml:space="preserve" sc:id="t83">
+												<sc:inlineImg role="form" sc:id="t84" sc:refUri="/D/DS/1B2/S/5E_modeles/Lpoi_pk_pk-1.odf"/>
+											</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row role="" sc:id="t18">
+										<sc:cell sc:id="t19">
+											<sc:para xml:space="preserve" sc:id="t29">Moyenne</sc:para>
+										</sc:cell>
+										<sc:cell role="" sc:id="t20">
+											<sc:para xml:space="preserve" sc:id="t31">E(K)=n.p</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row role="" sc:id="t21">
+										<sc:cell sc:id="t22">
+											<sc:para xml:space="preserve" sc:id="t33">Écart-type</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t23">
+											<sc:para xml:space="preserve" sc:id="t35">
+												<sc:inlineImg role="form" sc:id="t65" sc:refUri="/D/DS/1B2/S/5E_modeles/Lbin_sigma.odf"/>
+											</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:rem>
+					<op:pbTi>
+						<sp:title>Approximations</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t42">Si X→B(n,p), alors X → P(m=n.p) lorsque p→0 et n→∞</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t44">Si m→∞ et K→P(m) alors K→N[m,racine(m)]. L'approximation est d'autant meilleure que n.p(1-p)>18 et p proche de 0.5</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t51">Ces approximations sont à utiliser pour simplifier les calculs.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:rem>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Epreuve de Bernouilli</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t73">L'épreuve de bernouilli est utilisée lorsqu'un phénomène donne lieu à deux résultats possibles (Oui ou non, Reussite ou echec, favorable ou défavorable, bon ou mauvais, absence ou présence).</sc:para>
+								<sc:para sc:id="t74">Une variable aléatoire discrète qui prend les valeurs 0 et 1 avec les probabilités p et 1-p est appelée EPREUVE DE BERNOUILLI.</sc:para>
+								<sc:para>Elle a pour moyenne p et pour variance p.(1-p)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t76">Le processus (ou loi) binômial(e) consiste simplement à renouveler n fois cette épreuve. K est donc la Variable aléatoire qui associe le nombre de succès de probabilité p à partir de n tentatives.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:basic>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t79">La loi binômiale repose sur le fait que les éléments prélevés sont remis dans la population de telle sorte que p reste constant. </sc:para>
+								<sc:para>Toutefois, si le rapport entre n taille de l'échantillon prélevé est petit (1/10) par rapport à la taille N de la population, alors l'erreur commise sur p à chaque nouvelle expérience est infime. Le rapport n/N est appelé taux de sondage.</sc:para>
+								<sc:para sc:id="t80">Si le rapport n/N est supérieur à 0.1, on uilisera la loi hypergéométrique.</sc:para>
+								<sc:para sc:id="t81">Le qualificatif binômiale est dû au fait que les termes de la distribution sont ceux du binôme de NEWTON.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

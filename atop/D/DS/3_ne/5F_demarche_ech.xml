@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Démarche : méthode de résolution de problème</sp:title>
+			<sp:sTitle>Démarche : méthode de résolution de problème</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Déterminer clairement les populations étudiées</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t6">Il faut remarquer que lorsque l'on veut pratiquer un test de comparaison, il arrive souvent qu'il faille voir pour chaque cas étudier une population différente (distribution et paramètres différents) :</sc:para>
+								<sc:para xml:space="preserve" sc:id="t7">Dans le cas de tests de réception de pièces d'un même fournisseur, en fait, l'étude statistique se pratique comme si on avait deux fournisseurs (un bon et un mauvais) qui auront chacun leur propre distribution.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t8">* taille :</sc:para>
+								<sc:para xml:space="preserve" sc:id="t9">* individu :</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t25">On utilisera le modèle ci-dessous pour décrire les population en jeu</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/D/DS/5A_variable_modele.ods">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Quelles sont les grandeurs mesurées (1 ou ou plusieurs ?) :</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t12">Il faut absolument dans tout exercice cerner si une caractéristique (donnée de type proportion ou pourcentage, moyenne ou écart-type) est un paramètre (issu d'une POPULATION) ou une statistique (issue d'un ECHANTILLON déjà prélevé).</sc:para>
+								<sc:para xml:space="preserve" sc:id="t13">Quels sont les paramètres connus au niveau de la ou les population(s) (pour les études de dispersion d'une grandeur physique, si l'écart-type est inconnu, il faudra prélever l'échantillon avant de construire le test (connaissance de s requis pour estimer Spop), sinon le test pourra être construit et il suffira ensuite de conclure dès la connaissance de la moyenne de l'échantillon.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t14">Pour chaque variable aléatoire, déterminer le modèle théorique qui s'applique à la population</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Quel est l'objet de l'étude</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t17">Estimation d'un paramètre inconnu de la population par un intervalle de confiance centrée sur la moyenne de l'échantillon. Précisez le niveau de confiance. Calculer la largeur de l'IC en fonction de la taille n de l'échantillon choisi. On peut aussi fixer la largeur de l'IC et en déduire la taille de l'échantillon à prélever pour respecter cette précision.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t18">Vérification d'une hypothèse émise. Test bilattéral, unilatéral à gauche ou à droite. Précisez la région d'acceptation R.A en fonction du niveau de confiance fixé (Risque alpha), et de la taille de l'échantillon qui sera prélevé. La démarche est la même que l'IC, sauf que la R.A est construite à partir de la valeur formulée dans l'hypothèse. On peut aussi fixer dans l'énonçé la R.A et en déduire le niveau de confiance ou n.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t19">Choix entre deux hypothèses alternatives H1 et H2 : définir le risque alpha dit de première espèce, et calculer la R.A à partir de la DEM de H1. En déduire le risque Beta dit de deuxième espèce à partir de la DEM de H2.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

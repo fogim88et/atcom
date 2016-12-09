@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Période de vie utile</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">La période dite de &quot;<sc:inlineStyle role="emp">jeunesse</sc:inlineStyle>&quot; est terminée, l'équipement entre dans une période de vie dite &quot;<sc:inlineStyle role="emp">utile</sc:inlineStyle>&quot;, pendant laquelle le taux de défaillance reste constant ou très légèrement croissant. Les risques de défaillance reste donc faible pendant toute cette période, et les défaillances sont considérées comme aléatoires et non prévisibles. La politique de maintenance est axée sur la prévention permanente, dite de &quot;<sc:inlineStyle role="emp">bon-sens</sc:inlineStyle>&quot;, on veille  à respecter les cadences nominales et les bonnes conditions d'utilisation et de fonctionnement.</sc:para>
+					<sc:para>Si l'équipement est poly-technologie comme un véhicule par exemple, alors il faut descendre au niveau de chaque <sc:inlineStyle role="emp">sous-ensemble</sc:inlineStyle> pour observer ce phénomène. Un bloc-moteur, un calculateur, un amortisseur n'ont absolument rien de comparable en terme de technologie et de durée de vie. Ils ont chacun une période de vie utile bien différente. </sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

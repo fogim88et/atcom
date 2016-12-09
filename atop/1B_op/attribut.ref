@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:notion>attribut</sp:notion>
+			<sp:term>attribut</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">Propriété d'une entité : (nom, prénom, age, ... ) pour l'entité personne. </sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">La structure de la table (MPD) contient la liste de tous les attributs pour lesquels on va définir le type de données (chaîne, numérique, date, etc...), ainsi que les contraintes (saisie obligatoire, valeur par défaut, clef primaire, index avec ou sans doublons, etc...). </sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">Pour simplifier, les attributs sont les titres des colonnes du tableau 2D en version tableur qui contient vos données. Certains logiciels parlent abusivement aussi de champs</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

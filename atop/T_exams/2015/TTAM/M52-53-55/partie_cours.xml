@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Examen TTAM</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>A</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t12">1. Quelles différences peut-on faire entre un stock de matière première (besoin en production d'articles manufacturés destinés à la vente) et un stock de pièces détachées (besoin maintenance de l'appareil de production) - 1 pt</sc:para>
+								<sc:para xml:space="preserve" sc:id="t13">2. Expliquer le compromis à faire entre les coûts afin d'optimiser le coût de gestion des pièces stockées (graphe) - 2 pt</sc:para>
+								<sc:para xml:space="preserve" sc:id="t51">3. Expliquer comment prendre la décision de stockage d'une pièce - 2 pt</sc:para>
+								<sc:para xml:space="preserve" sc:id="t15">4. Dans un stock maintenance, quelles sont les grandes familles ou catégories de pièces détachées. Associer à chaque famille les données et l'enjeu en terme de (3 pt)</sc:para>
+								<sc:itemizedList sc:id="t24">
+									<sc:listItem sc:id="t25">
+										<sc:para xml:space="preserve" sc:id="t52">consommation, prix</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t26">
+										<sc:para xml:space="preserve" sc:id="t53">opportunité de stockage et le cas échéant les modalités de gestion (approvisionnement) </sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t17">5. Si on décide de ne pas stocker une pièce, que va t-il se passer en cas de défaillance, que pouvez vous préconiser pour diminuer le coût défaillance maintenance - 1 pt</sc:para>
+								<sc:para xml:space="preserve" sc:id="t18">6. Si la pièce est stockée, que se passe t-il si les choix se révèlent mauvais concernant le rythme des commandes - 1 pt</sc:para>
+								<sc:para xml:space="preserve" sc:id="t19">7. Définir le stock mini ou quantité d'alerte. Comment le calcule t-on ? On donnera le calcul simplifié et les modèles statistiques utilisés. Que se passe t-il si il est mal évalué ? - 3 pt</sc:para>
+								<sc:para xml:space="preserve" sc:id="t20">8. A quoi sert un historique de consommation de pièces détachées. La période d'observation ou de recueil de cet historique doit-il être exactement le même que le délai de réapprovisionnement de la pièce. - 1 pt</sc:para>
+								<sc:para xml:space="preserve" sc:id="t21">9. Quel est l'impact si l'on peut commander plusieurs références de pièces sur le même bon de commande. - 1 pt</sc:para>
+								<sc:para xml:space="preserve" sc:id="t54">10. Quel est la conséquence de la standardisation ? - 1 pt</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>B</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t34">1. Citer quelques ratios intéressants permettant de mesurer l'importance d'un équipement et l'impact d'une politique de maintenance</sc:para>
+								<sc:para xml:space="preserve" sc:id="t35">2. Citer les étapes importantes de la mise en place d'une politique de maintenance. Vous pouvez les lister, les affecter d'une lettre et les classer par importance selon la lettre affectée.</sc:para>
+								<sc:para xml:space="preserve">3. Définir l'AMDEC en 3 lignes.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t37">3. Pour mettre en place un plan de maintenance préventive, comment choisir entre l'AMDEC, la MBF, l'arbre des causes ?</sc:para>
+								<sc:para xml:space="preserve">4. Argumentez sur l'importance de la maintenance dite « à la conception » (effet de levier), qu'est ce qu'un cahier des charges fonctionnel à la conception ?, la documentation technique a t-elle un coût ? En quoi tous ces points vont-ils « impacter » la maintenance dite « d'exploitation » ?</sc:para>
+								<sc:para xml:space="preserve">5. Lister les fonctions principales de la GMAO. Selon l'importance que vous leur donnez, dans quel ordre préconiseriez vous leur mise en place ? Vous pouvez argumenter en fonction de la taille de l'entreprise, du secteur d'activité.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

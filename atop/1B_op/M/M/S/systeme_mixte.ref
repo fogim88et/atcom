@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Système mixte</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Un système est mixte si on ne peut pas le décomposer en plusieurs sous-systèmes série ou parallèle.</sc:para>
+					<sc:para xml:space="preserve">On listera alors les chemins dits de succès qui permettent de réaliser la fonction.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

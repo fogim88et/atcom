@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:ueM>
+			<sp:title>Formules</sp:title>
+		</op:ueM>
+		<sp:courseUc sc:refUri="/1F/AB.xml"/>
+		<sp:courseUc sc:refUri="/1F/TU.xml"/>
+	</op:ue>
+</sc:item>

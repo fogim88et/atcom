@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>208.TD Etude d'un système mécanique</sp:title>
+			<sp:sTitle>208.TD</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>MC</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter>
+								<sp:exclude>short</sp:exclude>
+							</op:filter>
+						</sp:filters>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">TD à faire en ligne</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t42">
+									<sc:caption xml:space="preserve" sc:id="t158">Mémo</sc:caption>
+									<sc:column sc:id="t43" width="50"/>
+									<sc:column sc:id="t44" width="50"/>
+									<sc:row sc:id="t45">
+										<sc:cell sc:id="t46">
+											<sc:para xml:space="preserve" sc:id="t55">Code</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t47">
+											<sc:para xml:space="preserve" sc:id="t57">17-td (18-td acquis)--&gt; src 009</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t48">
+										<sc:cell sc:id="t49">
+											<sc:para xml:space="preserve" sc:id="t59">Notion essentielle (Pré-requis questions 1 à 4)</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t50">
+											<sc:para xml:space="preserve" sc:id="t190"><sc:uLink role="ucLnk" sc:id="t197" sc:refUri="/M/C-2016-01/3_ne/2C2A1_ne.xml">Dispositifs non réparables (rang)</sc:uLink></sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t51">
+										<sc:cell sc:id="t52">
+											<sc:para xml:space="preserve" sc:id="t63">Notion essentielle (Pré-requis question 5)</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t53">
+											<sc:para xml:space="preserve" sc:id="t65"><sc:uLink role="ucLnk" sc:id="t198" sc:refUri="/M/C-2016-01/3_ne/2C2A2_ne.xml">Dispositifs non réparables (période)</sc:uLink></sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t159">
+										<sc:cell sc:id="t160">
+											<sc:para xml:space="preserve" sc:id="t192">Définitions courtes</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t161">
+											<sc:para xml:space="preserve" sc:id="t165"> <sc:uLink role="glos" sc:id="t242" sc:refUri="/1B_op/D/dv_nominale.ref">Durée de vie nominale</sc:uLink> - <sc:uLink role="glos" sc:id="t199" sc:refUri="/1B_op/D/disp_non_reparable.ref">Disp. non réparable</sc:uLink> <sc:uLink role="glos" sc:id="t209" sc:refUri="/1B_op/M/MN/MTTF.ref">MTTF</sc:uLink>- <sc:uLink role="glos" sc:id="t210" sc:refUri="/1B_op/D/dv.ref">Durée de vie</sc:uLink> -  <sc:uLink role="glos" sc:id="t262" sc:refUri="/1B_op/M/TUV/taux_defaillance.ref">Taux de défaillance</sc:uLink> - <sc:uLink role="glos" sc:id="t263" sc:refUri="/1B_op/M/EF/fiabilite_observee.ref">Fiabilité observée</sc:uLink> - <sc:uLink role="glos" sc:id="t264" sc:refUri="/1B_op/M/TUV/T_survie/N_t.ref">Survivants N(t)</sc:uLink></sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t267">Sur une unité d'intervention, on a extrait de l'historique les défaillances concernant un roulement à billes.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t68">On a recensé la<sc:uLink role="glos" sc:id="t54" sc:refUri="/1B_op/D/dv.ref"> durée de vie</sc:uLink> de 9 dispositifs en exploitation : On vous donne le <sc:uLink role="glos" sc:id="t55" sc:refUri="/1B_op/M/TUV/tps_mi/TTF.ref">Ttf</sc:uLink> de chaque composant en fonction du rang i de la défaillance. TD à faire en ligne</sc:para>
+								<sc:table role="" sc:id="t112">
+									<sc:column role="head" sc:id="t113" width="5"/>
+									<sc:column sc:id="t114" width="8"/>
+									<sc:column sc:id="t115" width="8"/>
+									<sc:column sc:id="t116" width="8"/>
+									<sc:column sc:id="t117" width="8"/>
+									<sc:column sc:id="t118" width="8"/>
+									<sc:column sc:id="t119" width="8"/>
+									<sc:column sc:id="t120" width="8"/>
+									<sc:column sc:id="t121" width="8"/>
+									<sc:column sc:id="t122" width="8"/>
+									<sc:row sc:id="t123">
+										<sc:cell sc:id="t124">
+											<sc:para xml:space="preserve" sc:id="t146">i</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t125">
+											<sc:para xml:space="preserve" sc:id="t148">1</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t126">
+											<sc:para xml:space="preserve" sc:id="t150">2</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t127">
+											<sc:para xml:space="preserve" sc:id="t152">3</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t128">
+											<sc:para xml:space="preserve" sc:id="t154">4</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t129">
+											<sc:para xml:space="preserve" sc:id="t156">5</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t130">
+											<sc:para xml:space="preserve" sc:id="t158">6</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t131">
+											<sc:para xml:space="preserve" sc:id="t160">7</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t132">
+											<sc:para xml:space="preserve" sc:id="t162">8</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t133">
+											<sc:para xml:space="preserve" sc:id="t164">9</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t134">
+										<sc:cell sc:id="t135">
+											<sc:para xml:space="preserve" sc:id="t166">ttf</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t136">
+											<sc:para xml:space="preserve" sc:id="t168">200</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t137">
+											<sc:para xml:space="preserve" sc:id="t170">310</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t138">
+											<sc:para xml:space="preserve" sc:id="t172">400</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t139">
+											<sc:para xml:space="preserve" sc:id="t174">500</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t140">
+											<sc:para xml:space="preserve" sc:id="t176">570</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t141">
+											<sc:para xml:space="preserve" sc:id="t178">670</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t142">
+											<sc:para xml:space="preserve" sc:id="t180">800</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t143">
+											<sc:para xml:space="preserve" sc:id="t182">940</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t144">
+											<sc:para xml:space="preserve" sc:id="t184">1100</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter>
+								<sp:exclude>short</sp:exclude>
+							</op:filter>
+						</sp:filters>
+					</op:pbTi>
+					<op:res>
+						<sp:int sc:refUri="/0C-src/000/src_009_1.ods">
+							<op:instructionM/>
+						</sp:int>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

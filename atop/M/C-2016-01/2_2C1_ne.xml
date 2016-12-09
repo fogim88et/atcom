@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Fiabilité prévisionnelle (2C1)</sp:title>
+			<sp:sTitle>Fiabilité prévisionnelle (2C1)</sp:sTitle>
+		</op:uM>
+		<sp:courseUc sc:refUri="/M/C-2016-01/3_ne/2C1_fiabilite_caracteristiques.xml"/>
+		<sp:courseUc sc:refUri="/D/DS/3_ne/DSE_ne/5E6_Lexp-dk/5E6_ne.xml"/>
+		<sp:courseUc sc:refUri="/D/DS/3_ne/DSE_ne/5E7_weibull/5E7_ne.xml"/>
+	</op:courseUa>
+</sc:item>

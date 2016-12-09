@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>capabilité machine Cp</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve">Cp=IT/[6.Sigma_pop]</sc:para>
+					<sc:para xml:space="preserve" sc:id="t3">Si l'on obtient une image de la production centrée autour de la valeur nominale dont l'étendue est bien inférieure à l'<sc:inlineStyle role="emp">intervalle de tolérance</sc:inlineStyle> (IT), il est clair que l'on disposera d'une certaine marge de déréglage sans pour autant produire des déchets.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t4">Cp compare donc l'IT à l'étendue de la production, le rapport doit être supérieur à 1,33</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

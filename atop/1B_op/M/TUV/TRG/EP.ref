@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Ecart de Performance (EP)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">La notion de performance désigne les variations difficiles à percevoir ou à mesurer du temps de cycle de base (cadence nominale de la machine).</sc:para>
+					<sc:para xml:space="preserve" sc:id="t4">EP est donc l'écart de performance que l'on calcule par différence du <sc:inlineStyle role="emp">temps brut de production (TB)</sc:inlineStyle> et du <sc:inlineStyle role="emp">temps net de production (TN)</sc:inlineStyle> </sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

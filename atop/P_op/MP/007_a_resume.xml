@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Résumé des notions</sp:title>
+			<sp:sTitle>Résumé des notions</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t5">Une entreprise (voir l'<sc:uLink role="ucLnk" sc:id="t16" sc:refUri="/P_op/MP/001_ac_lazurex/01_a_Entreprise.xml">exemple LAZUREX ic</sc:uLink>) est pilotée par son <sc:uLink role="glos" sc:id="t12" sc:refUri="/P_op/MP/4_prod/plan_ind_com.ref">PIC</sc:uLink> , le responsable de production va établir un <sc:uLink role="glos" sc:id="t13" sc:refUri="/P_op/MP/4_prod/programme_directeur_de_production_PDP.ref">Programme Directeur de Production</sc:uLink>.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t10">Le service production constitue la <sc:uLink role="glos" sc:id="t14" sc:refUri="/P_op/MP/4_prod/bdd_technique.ref">Base de données techniques</sc:uLink>. Cette base reste normalement figée tout au long de l'exercice comptable (pas de nouveaux produits, parc machine stable). </sc:para>
+								<sc:para xml:space="preserve" sc:id="t68">Voir les <sc:uLink role="ucLnk" sc:id="t17" sc:refUri="/P_op/MP/001_ac_lazurex/02_cor_bdd.xml">données techniques LAZUREX</sc:uLink> ici.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t22">Les données de flux (cf <sc:uLink role="ucLnk" sc:id="t18" sc:refUri="/P_op/MP/001_ac_lazurex/03_en_donnes_flux_1_mars.xml">exemple LAZUREX</sc:uLink>) fournissent les informations nécessaires au calcul des besoins sur la période concernée.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t23">
+<sc:inlineStyle role="emp" sc:id="t24">Court-terme</sc:inlineStyle> : jour par jour, on propose les OF et OA (cf <sc:uLink role="ucLnk" sc:id="t72" sc:refUri="/P_op/MP/003_ac_res/1_calcul_besoin.xml">exemple LAZUREX</sc:uLink>), que l'on <sc:uLink role="glos" sc:id="t25" sc:refUri="/P_op/MP/4_prod/Jalonnement.ref">jalonne</sc:uLink> avant de décider du <sc:uLink role="glos" sc:id="t26" sc:refUri="/P_op/MP/4_prod/Lancement.ref">lancement</sc:uLink> par <sc:uLink role="glos" sc:id="t27" sc:refUri="/P_op/MP/4_prod/poste_de_charge_pdc.ref">poste de charge</sc:uLink> en respectant les <sc:uLink role="glos" sc:id="t28" sc:refUri="/P_op/MP/4_prod/gamme.ref">gammes</sc:uLink> de fabrication <sc:uLink role="glos" sc:id="t31" sc:refUri="/P_op/MP/4_prod/adequation_charge_capacite.ref">(Adéquation Charge Capacité</sc:uLink>), cf <sc:uLink role="glos" sc:id="t32" sc:refUri="/P_op/MP/4_prod/Charge.ref">Charge</sc:uLink> et <sc:uLink role="glos" sc:id="t33" sc:refUri="/P_op/MP/4_prod/capacite.ref">Capacité</sc:uLink>  : (<sc:uLink role="ucLnk" sc:id="t71" sc:refUri="/P_op/MP/004_ac_res/pic_principes.xml">exemple LAZUREX</sc:uLink>)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t11">
+<sc:inlineStyle role="emp" sc:id="t12">Moyen/long terme</sc:inlineStyle> : </sc:para>
+								<sc:para xml:space="preserve">par trimestre  on travaille sur le PDP en se limitant aux postes critiques (<sc:uLink role="ucLnk" sc:id="t77" sc:refUri="/P_op/MP/005_ac_res/cgc_trimestre.xml">exemple LAZUREX</sc:uLink>).</sc:para>
+								<sc:para xml:space="preserve" sc:id="t13"> par trimestre, on travaille sur le PIC an évaluant l'adéquation charge capacité par famille de matériel  (<sc:uLink role="ucLnk" sc:id="t19" sc:refUri="/P_op/MP/006_PIC/1_PIC.xml">PIC LAZUREX</sc:uLink>)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t55">Le <sc:uLink role="glos" sc:id="t56" sc:refUri="/P_op/MP/4_prod/calcul_charges_globales.ref">Calcul des Charges Globales (CGC)</sc:uLink> se construit au niveau des <sc:uLink role="glos" sc:id="t57" sc:refUri="/P_op/MP/4_prod/article.ref">articles</sc:uLink>, en <sc:uLink role="glos" sc:id="t58" sc:refUri="/P_op/MP/4_prod/besoin_calcul.ref">calculant les besoins</sc:uLink>. On tient compte des <sc:uLink role="glos" sc:id="t59" sc:refUri="/P_op/MP/4_prod/besoin_dependant.ref">Besoins dépendants</sc:uLink> / <sc:uLink role="glos" sc:id="t60" sc:refUri="/P_op/MP/4_prod/besoin_independant.ref">Besoins indépendants.</sc:uLink> selon les articles de la nomenclature (<sc:uLink role="glos" sc:id="t64" sc:refUri="/P_op/MP/4_prod/composé.ref">composé</sc:uLink>, <sc:uLink role="glos" sc:id="t65" sc:refUri="/P_op/MP/4_prod/Composant.ref">composants</sc:uLink>) : <sc:uLink role="glos" sc:id="t61" sc:refUri="/P_op/MP/4_prod/besoin_brut.ref">Besoin brut</sc:uLink>, <sc:uLink role="glos" sc:id="t62" sc:refUri="/P_op/MP/4_prod/stock_dispo.ref">Besoin Net</sc:uLink>, <sc:uLink role="glos" sc:id="t63" sc:refUri="/P_op/MP/4_prod/stock_dispo.ref">Stock disponible (SD)</sc:uLink>. </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

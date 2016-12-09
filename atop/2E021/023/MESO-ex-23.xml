@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>23 - Durée de vie d'ampoules</sp:title>
+			<sp:sTitle>23 - Durée de vie d'ampoules</sp:sTitle>
+		</op:uM>
+		<sp:courseUc sc:refUri="/2E021/023/src_013.xml"/>
+		<sp:trainUcCloze sc:refUri="/2E021/023/23-1_exi.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E021/023/23-2_exi.quiz"/>
+		<sp:practUc sc:refUri="/2E021/023/MESO-exr-23-opw.xml"/>
+	</op:courseUa>
+</sc:item>

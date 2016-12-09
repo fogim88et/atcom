@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Pratique</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t5">Télécharger la base de données : décompresser le <sc:uLink role="docLnk" sc:id="t177" sc:refUri="/op_I/OIBB-op-ev-061/asso_01.zip">fichier zip</sc:uLink> dans un répertoire de votre choix et ouvrez le fichier <sc:inlineStyle role="emp">asso_01.mdb</sc:inlineStyle> qu'il contient.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t41">Créer une requête qui affiche les activités (nom) et leur coach (nom) : saisir le code sql ou faites valider</sc:para>
+								<sc:para xml:space="preserve">.....</sc:para>
+								<sc:para xml:space="preserve">....</sc:para>
+								<sc:para xml:space="preserve">....</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t117">Quelle est le critère de recherche qui permette de filtrer les activités selon leur nom et qui contienne les caractères &quot;ni&quot; : .............................................</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t123">Quel critère permet de filtrer les séances de plus de 2 heures pour les adhérents dont le nom commence par les lettres de b à l  : saisir la requête sql ou faites valider : ......................................</sc:para>
+								<sc:para xml:space="preserve">...........</sc:para>
+								<sc:para xml:space="preserve">..........</sc:para>
+								<sc:para xml:space="preserve">...........</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t65">Créer une requête basée (nommée <sc:inlineStyle role="emp">rq_inscr_aff</sc:inlineStyle>) sur la table <sc:inlineStyle role="emp">tb_inscr</sc:inlineStyle> qui affiche le nom de l'adhérent et le nom de l'activité</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBB-op-ev-061/Microsoft Access_2011-06-01_11-59-01.png">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t11">Créer un formulaire nommé <sc:inlineStyle role="emp">frm_act</sc:inlineStyle> basé sur la table <sc:inlineStyle role="emp">tb_activite</sc:inlineStyle> permettant de saisir le coach à l'aide d'un contrôle liste déroulante. Ouvrir la fenêtre de propriété et renseignez les propriétés ci-dessous :</sc:para>
+								<sc:para xml:space="preserve" sc:id="t140">Origine source : ....................................................................</sc:para>
+								<sc:para xml:space="preserve" sc:id="t141">Source : ....................................................................................</sc:para>
+								<sc:para xml:space="preserve" sc:id="t142">Colonne liée : ..........</sc:para>
+								<sc:para xml:space="preserve" sc:id="t143">A quoi sert cette propriété ? </sc:para>
+								<sc:para xml:space="preserve" sc:id="t144">.................</sc:para>
+								<sc:para xml:space="preserve" sc:id="t145">.................</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t19">Créer une requête nommée <sc:inlineStyle role="emp">rq_nb_coach</sc:inlineStyle> permettant de calculer le nombre d'activités encadrées par chaque coach.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t150">Saisir la réponse sous forme SQL ou faites valider : ........................</sc:para>
+								<sc:para xml:space="preserve" sc:id="t151">...........</sc:para>
+								<sc:para xml:space="preserve" sc:id="t152">...........</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBB-op-ev-061/req_nb_coach.ods">
+							<op:resInfoM>
+								<sp:index>tab</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t23">En cas d'échec, demandez la solution et créer une requête permettant de calculer le nombre d'inscriptions de chaque adhérent</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBB-op-ev-061/rq_nb_inscr.ods">
+							<op:resInfoM>
+								<sp:index>tab</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t53">Créer un formulaire (nommé <sc:inlineStyle role="emp">frm_tb_adh_inscr</sc:inlineStyle>) principal qui affiche les adhérents.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t161">Ajoutez un sous formulaire qui permette de visualiser les inscriptions de l'adhérent affiché.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t162">Si on travaille avec les tables, cela donne l'image ci-dessous</sc:para>
+								<sc:para xml:space="preserve" sc:id="t163">Validation : ........................................</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBB-op-ev-061/Microsoft Access_2011-06-01_11-53-28.png">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t71">Il est préférable d'ajouter dans le formulaire la requête <sc:inlineStyle role="emp">rq_inscr_aff</sc:inlineStyle> comme base du sous formulaire pour obtenir</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBB-op-ev-061/Microsoft Access_2011-06-01_12-04-47.png">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t59">Créer une requête (nommée <sc:inlineStyle role="emp">req_seances_par_inscr</sc:inlineStyle>) qui compte le nombre de séances effectuées et qui calcule le nombre d'heures effectuées par les adhérents pour chaque inscription.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBB-op-ev-061/req_seances_par_inscr.ods">
+							<op:resInfoM>
+								<sp:index>tab</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t73">Créer une requête qui permette de comparer le nombre d'heures d'inscription et le nombre d'heures réalisées. </sc:para>
+								<sc:para xml:space="preserve">Vous passerez par les 2 requêtes intermédiaires ci-dessous, puis une troisième qui les regroupe.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBB-op-ev-061/rq_tot_inscr_par_act.ods">
+							<op:resInfoM>
+								<sp:index>tab</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:res sc:refUri="/op_I/OIBB-op-ev-061/rq_tot_seances_par_act.ods">
+							<op:resInfoM>
+								<sp:index>tab</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

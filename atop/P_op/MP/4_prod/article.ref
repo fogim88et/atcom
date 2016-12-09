@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>article</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t4">De façon générale, tout élément stockable constitue un article ; ce peut être une matière première, un composant, un sous ensemble ou un produit fini, dont les caractéristiques sont parfaitement spécifiées : taille, couleur, accessoires, conditionnement, etc.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

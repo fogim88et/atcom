@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:cloze>
+<op:exeM>
+<sp:title>B6 vers la droite</sp:title>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t8">Considérons B6 recopié vers la droite, que vont devenir les références.</sc:para>
+						<sc:para sc:id="t36">Le terme se calcule par coef*x^ordre</sc:para>
+						<sc:itemizedList sc:id="t22">
+							<sc:listItem sc:id="t23">
+								<sc:para sc:id="t9">ordre (puissance) est référencé en B5.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t24">
+								<sc:para sc:id="t10">x est référencé en A6.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t25">
+								<sc:para sc:id="t11">coef est référencé en B2.</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+						<sc:para sc:id="t13">Rappel : B6=B2*A6^B5</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t5">Quand B6 va être copié vers la droite, que se passe t-il en C6 ?</sc:para>
+				<sc:para sc:id="t37">B2 deviendra <sc:textLeaf role="gap" sc:id="t30">C2</sc:textLeaf>. Est ce cohérent (O/N) ? <sc:textLeaf role="gap" sc:id="t33">O</sc:textLeaf>
+</sc:para>
+				<sc:para sc:id="t38">A6 deviendra <sc:textLeaf role="gap" sc:id="t31">B6</sc:textLeaf>. Est ce cohérent (O/N) ? <sc:textLeaf role="gap" sc:id="t34">N</sc:textLeaf>
+</sc:para>
+				<sc:para sc:id="t39">B5 deviendra <sc:textLeaf role="gap" sc:id="t32">C5</sc:textLeaf>. Est ce cohérent (O/N) ? <sc:textLeaf role="gap" sc:id="t35">O</sc:textLeaf>
+</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t7">B6 doit donc faire référence à x avec sa colonne en référence absolue de façon à ce que la formule en B7 calcule le terme avec x=A6. </sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

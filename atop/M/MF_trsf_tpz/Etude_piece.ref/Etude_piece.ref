@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:refM>
+			<sp:ref>Etude d'une pièce</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Réaliser l'étude d'une consiste à étudier si elle doit être stockée (justification par calcul si nécessaire ou si demandé) : </sc:para>
+					<sc:itemizedList sc:id="t4">
+						<sc:listItem sc:id="t5">
+							<sc:para xml:space="preserve">si OUI, on choisira la méthode de ré-approvisionnement la mieux adaptée (PC ou PA). Bien sûr les paramètres seront fournis : Qec et Qs pour PC, Plafond et Qs pour PA.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t7">
+							<sc:para xml:space="preserve">si NON, on proposera peut-être selon les cas la meilleure solution possible pour faire face au manque de la pièce et ainsi réduire le coût de pénalité (commande en urgence, redondance de machine, heures supplémentaires de la production)</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

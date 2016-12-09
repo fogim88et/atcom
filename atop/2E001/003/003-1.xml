@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:assmntUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>3. TRG (3 niveaux)</sp:title>
+			<sp:sTitle>3. TRG (3 niveaux)</sp:sTitle>
+		</op:uM>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t41">
+							<sc:uLink role="ref" sc:id="t79" sc:refUri="/2E001/003/0003.ref">Consultation de l'énoncé ici</sc:uLink> :</sc:para>
+						<sc:para xml:space="preserve" sc:id="t84">Etapes intermédiaires : rassemblez les données vous permettant de faire les calculs dans l'ordre suivant</sc:para>
+						<sc:itemizedList sc:id="t28">
+							<sc:listItem sc:id="t29">
+								<sc:para xml:space="preserve" sc:id="t42">Calculer le <sc:uLink role="glos" sc:id="t33" sc:refUri="/1B_op/M/TUV/TRG/TO.ref">TO</sc:uLink>.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t69">
+								<sc:para xml:space="preserve" sc:id="t75">Calculer le <sc:uLink role="glos" sc:id="t66" sc:refUri="/1B_op/M/TUV/TRG/TU.ref">TU</sc:uLink> : en  utilisant le nombre de  pièces bonnes fabriquées</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+						<sc:para xml:space="preserve" sc:id="t76">En déduire le TRG</sc:para>
+						<sc:itemizedList sc:id="t72">
+							<sc:listItem sc:id="t30">
+								<sc:para xml:space="preserve" sc:id="t43">Calculer le <sc:uLink role="glos" sc:id="t34" sc:refUri="/1B_op/M/TUV/TRG/TB.ref">TB</sc:uLink> : évaluez les <sc:uLink role="glos" sc:id="t87" sc:refUri="/1B_op/M/TUV/TRG/AI.ref">AI</sc:uLink> pour cause de maintenance (avec la disponibilité opérationnelle) ; pour contrôle maintenance et approvisionnement en matière première.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t32">
+								<sc:para xml:space="preserve" sc:id="t45">Calculer le <sc:uLink role="glos" sc:id="t36" sc:refUri="/1B_op/M/TUV/TRG/TN.ref">TN</sc:uLink> : en utilisant le <sc:uLink role="glos" sc:id="t97" sc:refUri="/1B_op/M/TUV/TRG/txQ.ref">txQ</sc:uLink>.</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+						<sc:para xml:space="preserve" sc:id="t46">En déduire le Taux de Performance (<sc:uLink role="glos" sc:id="t96" sc:refUri="/1B_op/M/TUV/TRG/txP.ref">txP</sc:uLink>).</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:quiz sc:refUri="/2E001/003/q/TO_n1.quiz"/>
+		<sp:quiz sc:refUri="/2E001/003/q/TU_n1.quiz"/>
+		<sp:quiz sc:refUri="/2E001/003/q/TRG.quiz"/>
+		<sp:quiz sc:refUri="/2E001/003/q/AI_n1.quiz"/>
+		<sp:quiz sc:refUri="/2E001/003/q/TN_n1.quiz"/>
+		<sp:quiz sc:refUri="/2E001/003/q/txP_n3.quiz"/>
+	</op:assmntUa>
+</sc:item>

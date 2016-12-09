@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Comparaison durée de vie modèles Loi exponentielle et Gauss</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t6">II La durée de vie de l'équipement A suit une loi exponentielle pour k=0,001. La durée de vie de l'équipement B suit une loi normale de moyenne 800 et d'écart-type 100.</sc:para>
+								<sc:para sc:id="t7">1. Les deux composants sont identiques. Calculer et représenter les fiabilités de A et de B pour des temps de 0,300,600,900,1200,1500 heures.</sc:para>
+								<sc:para sc:id="t8">Comparer la dispersion des défaillances de A et de B.</sc:para>
+								<sc:para sc:id="t9">Quel composant choisir pour une mission de 500, 800 et 1500 heures.</sc:para>
+								<sc:para sc:id="t10">2. Les deux composants ont des fonctions totalement différentes, et sont représentés de façon égale sur le parc de machines de l'entreprise. Vous avez le choix entre deux politiques de maintenance :</sc:para>
+								<sc:para sc:id="t11">a. Vous attendez la panne et vous gérez l'article en stock de façon à être sûr que vous éviterez une rupture à 90 %. 100 heures de fonctionnement représentent 1 semaine, et vous avez la possibilité de commander toutes les semaines. On considère que la consommation hebdomadaire de pièces est distribuée normalement N(50;25) pour A et N(65;45) pour B. Comment a t-on obtenu ces informations (Si vous en avez le temps, retrouvez ces données)</sc:para>
+								<sc:para sc:id="t12">Donner la quantité dont vous devez disposer en stock en début de semaine</sc:para>
+								<sc:para sc:id="t13">b. Vous changez systématiquement l'ensemble des composants à une date bien définie (on tolèrera pendant la période 5% de composants en pannes). Vous maintiendrez en stock une quantité suffisante pour éviter à 95% de recommander des articles entre chaque échange systématique.</sc:para>
+								<sc:para sc:id="t14">Donner la période d'échange ainsi que la quantité à maintenir en stock en début de période.</sc:para>
+								<sc:para sc:id="t15">Justifier la méthode choisie pour les deux composants, puis calculer les différents paramètres.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

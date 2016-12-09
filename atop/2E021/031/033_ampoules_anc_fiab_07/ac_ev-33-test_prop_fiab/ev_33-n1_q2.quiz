@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:mcqMur xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>33.2 : Fabrication de lampes témoin</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t4">
+							<sc:uLink role="ref" sc:id="t13" sc:refUri="/2E021/031/033_ampoules_anc_fiab_07/do/src_13.ref">Voir le contexte</sc:uLink>.</sc:para>
+						<sc:para sc:id="t11">
+							<sc:uLink role="ref" sc:id="t16" sc:refUri="/2E021/031/033_ampoules_anc_fiab_07/do/src_13_2.ref">Hypothèse de travail</sc:uLink>.</sc:para>
+						<sc:para sc:id="t12">Le responsable qualité souhaite effectuer des test sur des lots de 15 pièces.</sc:para>
+						<sc:para sc:id="t17">Quels modèles va t-on utiliser pour effectuer ce test.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:choices>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t19">Bernouilli</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para sc:id="t21">Une pièce sera considérée bonne ou mauvaise</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t23">Binômial : on étudie un lot de 15 pièces</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="unchecked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t27">Poisson</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+		</sc:choices>
+	</op:mcqMur>
+</sc:item>

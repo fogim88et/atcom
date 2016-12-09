@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:gallery xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:galleryM>
+			<sp:title>Nettoyer les machines</sp:title>
+		</op:galleryM>
+		<sp:img sc:refUri="/00_atopale_ext/0F_img/2H/05_nettoyer/res00.odg"/>
+		<sp:img sc:refUri="/00_atopale_ext/0F_img/2H/05_nettoyer/res0.odg"/>
+		<sp:img sc:refUri="/00_atopale_ext/0F_img/2H/05_nettoyer/res1.odg"/>
+		<sp:img sc:refUri="/00_atopale_ext/0F_img/2H/05_nettoyer/res2.odg"/>
+		<sp:img sc:refUri="/00_atopale_ext/0F_img/2H/05_nettoyer/res3.odg"/>
+		<sp:img sc:refUri="/00_atopale_ext/0F_img/2H/05_nettoyer/res4.odg"/>
+		<sp:img sc:refUri="/00_atopale_ext/0F_img/2H/05_nettoyer/res5.odg"/>
+	</op:gallery>
+</sc:item>

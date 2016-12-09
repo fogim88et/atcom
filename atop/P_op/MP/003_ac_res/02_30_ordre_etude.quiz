@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:mcqSur xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Etude proposée</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Le calcul des besoins nécessite de définir l'ordre dans lequel il prévoir ou calculer les besoins.</sc:para>
+						<sc:para>Nous avons à gérer la matière première M (M2, M3), des composants usinés B (B2,B3), des produits finis P (EML, EMV)</sc:para>
+						<sc:para>Dans quel ordre devons nous procéder ?</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:choices>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t5">Dans le respect de l'arborescence des nomenclatures P-&gt; B -&gt; M</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para sc:id="t7">Nous allons exploiter les commandes fermes et les prévisions de ventes fournies par le <sc:uLink role="glos" sc:id="t33" sc:refUri="/P_op/MP/4_prod/plan_ind_com.ref">PIC</sc:uLink> pour gérer le s<sc:uLink role="glos" sc:id="t74" sc:refUri="/P_op/MP/4_prod/stock_dispo.ref">tock disponible</sc:uLink> et proposer des OF et des OA.</sc:para>
+						<sc:para sc:id="t18">La <sc:uLink role="glos" sc:id="t47" sc:refUri="/P_op/MP/4_prod/besoin_calcul.ref">calcul des besoins</sc:uLink> démarre par l'évaluation  du besoin en produits finis (<sc:uLink role="glos" sc:id="t61" sc:refUri="/P_op/MP/4_prod/besoin_dependant.ref">Besoin dépendant</sc:uLink>)</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t9">Dans le respect de l'ordre du flux de production, je réceptionne M, je fabrique B, et je monte et assemble P.</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para sc:id="t20">Le respect des délais imposera que nous soyons en mesure de réceptionner les articles dans cet ordre pour alimenter les différents ateliers, mais le besoin ne se calcule pas en raisonnant dans cet ordre. </sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t13">Je ne peux pas savoir</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t22">C'est la différence entre proposition des OF et la validation de ces ordres. Parfois, il sera nécessaire pour optimiser le <sc:uLink role="glos" sc:id="t48" sc:refUri="/P_op/MP/4_prod/plan_de_charge.ref">plan de charge</sc:uLink>, de diminuer les <sc:uLink role="glos" sc:id="t75" sc:refUri="/P_op/MP/4_prod/en_cours_fabrication.ref">encours</sc:uLink>, optimiser les délais, de modifier et d'adapter le <sc:uLink role="glos" sc:id="t76" sc:refUri="/P_op/MP/4_prod/besoin_calcul.ref">calcul des besoins</sc:uLink>
+</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+		</sc:choices>
+		<sc:solution choice="1"/>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t32">Consultez les chapitres 2 et 3 du livret &quot;Concept de Base&quot; :</sc:para>
+						<sc:para>
+							<sc:uLink role="glos" sc:id="t77" sc:refUri="/P_op/MP/4_prod/besoin_dependant.ref">Besoin dépendant</sc:uLink>
+						</sc:para>
+						<sc:para>
+							<sc:uLink role="glos" sc:id="t78" sc:refUri="/P_op/MP/4_prod/besoin_independant.ref">Besoin indépendant</sc:uLink>
+						</sc:para>
+						<sc:para>
+							<sc:uLink role="glos" sc:id="t79" sc:refUri="/P_op/MP/4_prod/programme_directeur_de_production_PDP.ref">Programme Directeur de Production</sc:uLink>
+						</sc:para>
+						<sc:para>
+							<sc:uLink role="glos" sc:id="t80" sc:refUri="/P_op/MP/4_prod/plan_ind_com.ref">Plan Industriel et Commercial</sc:uLink>
+						</sc:para>
+						<sc:para>
+							<sc:uLink role="glos" sc:id="t81" sc:refUri="/P_op/MP/4_prod/calcul_charges_globales.ref">Calcul des Charges Globales (CGC)</sc:uLink>
+						</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:mcqSur>
+</sc:item>

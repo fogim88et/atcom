@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Maintenance Corrective</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Elle regroupe les actions permettant de d'améliorer les caractéristiques des équipement dans un but économique :</sc:para>
+					<sc:itemizedList sc:id="t4">
+						<sc:listItem sc:id="t5">
+							<sc:para sc:id="t8">Améliorer la fiabilité : redondance active/passive </sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t6">
+							<sc:para sc:id="t9">Améliorer la maintenabilité : standardisation des pièces de rechange </sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t7">
+							<sc:para sc:id="t10">Améliorer le diagnostic : détection de signes avant coureurs de défaillance via l'implantation de capteurs.</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para sc:id="t11">Ces actions doivent être rigoureusement motivées par des études d'opportunité et de sélectivité pour assurer au producteur-financeur une rentabilité à court-moyen terme</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

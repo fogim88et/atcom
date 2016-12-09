@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+<sp:title>Etude de consommation</sp:title>
+</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:res sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/res_don_consommation.ods">
+<op:resInfoM>
+<sp:index>tab</sp:index>
+</op:resInfoM>
+</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t7">Nous avons deux types de route pour lesquelles une vitesse moyenne et une consommation sont fournies.</sc:para>
+						<sc:para>Nommez la plage A2:C2 <sc:inlineStyle role="emp">donnees</sc:inlineStyle>.</sc:para>
+						<sc:para>Nommez la plage B5 :B10 <sc:inlineStyle role="emp">route</sc:inlineStyle>.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Les cellules sur fond bleu doivent être des formules</sc:para>
+						<sc:para>Les cellules sur fond jaune doivent être recopiées</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t5">Vous pouvez bien sûr ajouter des colonnes intermédiaires permettant de déterminer pour chaque étape les données nécessaires à votre calcul.</sc:para>
+						<sc:para sc:id="t13">Les temps seront calculés en centièmes d'heures. Par exemple, effectuer 120 kms à 90 Km/hr donnera un temps de 1,5h</sc:para>
+						<sc:para sc:id="t14">Rappel :</sc:para>
+						<sc:itemizedList sc:id="t17">
+							<sc:listItem sc:id="t18">
+								<sc:para sc:id="t15">Vitesse = Kms / temps (h).</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t19">
+								<sc:para sc:id="t16">Nb Litres consommés =Kms*Conso/100 (l)</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t54">Vous ne tiendrez pas compte de la colonne Arrêt.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t39">Démarche : </sc:para>
+								<sc:itemizedList sc:id="t42">
+									<sc:listItem sc:id="t43">
+										<sc:para sc:id="t40">à partir des résultats à fournir, puis chercher comment les calculer. Ainsi, vous arriverez à mieux cerner les étapes intermédiaires nécessaires.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t44">
+										<sc:para sc:id="t41">En observant les données disponibles à chaque étape, on voit qu'il est nécessaire de traduire le type de route par sa vitesse et conso moyenne sur le tronçon.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para>Si vous demandez des indices, vous aurez la liste des colonnes nécessaires à ajouter au tableau des villes étapes.</sc:para>
+								<sc:para>La solution est livrée avec le classeur de correction.</sc:para>
+								<sc:para>Remarque : la solution n'est pas commentée.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t36">Vitesse, Conso/100 km, Nb de Litres consommés, Temps</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Solution</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:int sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/res_don_consommation_cor.ods">
+									<op:instructionM/>
+								</sp:int>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

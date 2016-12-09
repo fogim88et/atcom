@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Survivants N(t)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Du point de vue probabiliste N(t) est le nombre d'événements réussis.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">
+						<sc:inlineStyle role="emp" sc:id="t6">Dispositif non réparable</sc:inlineStyle> :  sur un lot de N=N(t=0) composants mis en fonctionnement à t=0, on évalue à un instant t le nombre de composants encore en fonctionnement : statistiquement parlant, la <sc:inlineStyle role="emp" sc:id="t7">variable T</sc:inlineStyle> est supérieure à t   (<sc:inlineStyle role="emp" sc:id="t8">T&gt;t</sc:inlineStyle>). N(t) est évalué à partir des <sc:inlineStyle role="emp" sc:id="t9">ttf</sc:inlineStyle> observés</sc:para>
+					<sc:para xml:space="preserve" sc:id="t10">
+						<sc:inlineStyle role="emp" sc:id="t11">Dispositif  réparable</sc:inlineStyle> : sur un nombre N de défaillances observées sur un dispositif réparable , <sc:inlineStyle role="emp" sc:id="t12">N(t)</sc:inlineStyle> est le nombre  de Tbf &gt; t, ou encore le nombre de missions dont la durée a dépassé le temps t (ou Tbf)</sc:para>
+					<sc:para xml:space="preserve" sc:id="t4">
+						<sc:inlineStyle role="emp" sc:id="t13">Modèle théorique</sc:inlineStyle> : dans le cadre de l'application d'un modèle théorique pour R(t), on peut s'attendre à un nombre de survivants ou de missions réussies à t de <sc:inlineStyle role="emp">N(t=0)*R(t)</sc:inlineStyle>.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

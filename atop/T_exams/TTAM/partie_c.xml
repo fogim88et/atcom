@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Partie 1</sp:title>
+			<sp:sTitle>Partie 1</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Qs. 1</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t11">En tant que fournisseur d'un composant (non réparable), vous devez donner à votre client des indications concernant la fiabilité du composant. Parmi les  caractéristiques ci-dessous, quelle confiance le client va t-il accorder à ces informations ? quelle utilisation ou quelle exploitation peut-il en faire en fonction du contexte dans lequel il travaille ?</sc:para>
+								<sc:itemizedList sc:id="t16">
+									<sc:listItem sc:id="t17">
+										<sc:para xml:space="preserve">MTTF </sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t18">
+										<sc:para xml:space="preserve">Ecart-type </sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t19">
+										<sc:para xml:space="preserve">Paramètres de la loi de weibull</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t20">
+										<sc:para xml:space="preserve">Paramètres de la loi exponentielle</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t21">
+										<sc:para xml:space="preserve">Durée de vie nominale à 90 %</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t28">
+										<sc:para xml:space="preserve">Probabilité de fonctionner à t=xxxx heures ? (xxxx est imposé par le client)</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t22">
+										<sc:para xml:space="preserve">Intervalle de confiance à 95% pour encadrer le MTTF</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t23">
+										<sc:para xml:space="preserve">Image de la densité de probabilité des défaillances</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t30">
+										<sc:para xml:space="preserve">Période de jeunesse, de vie utile, de vieillesse</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t31">
+										<sc:para xml:space="preserve">Taux de défaillance</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Ex. 1</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t5">On a relevé les ttf de 10 composants mis en fonctionnement à t=0.</sc:para>
+								<sc:para xml:space="preserve">Quelle garantie pouvez vous fixer pour ce composant. Qualifiez l'usure.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Ex.2</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t27">A t = 1000 heures, on observé que 90% composants fonctionnent encore. Qu'en déduisez vous ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Ex. 2</sp:title>
+				</op:expUcDivM>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

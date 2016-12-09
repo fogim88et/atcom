@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Préparation Conducteur</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t3">Nous certifions que Monsieur ....</sc:para>
+								<sc:para sc:id="t6">a suivi avec succès un stage de conduite dans le désert.</sc:para>
+								<sc:para>A la suite de ce stage, il est à même de :</sc:para>
+								<sc:itemizedList sc:id="t14">
+									<sc:listItem sc:id="t15">
+										<sc:para sc:id="t8">conduire un véhicule sur différents types de terrain</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t16">
+										<sc:para sc:id="t9">intervenir sur son véhicule en cas d'incidents simples</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para sc:id="t10">La direction du stage</sc:para>
+								<sc:para sc:id="t11">Olivier KEN</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

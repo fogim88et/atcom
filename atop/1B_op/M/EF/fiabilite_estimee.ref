@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Fiabilité estimée.</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Intervalle de confiance établi d'après la fiabilité observée et du nombre de dispositifs observés. </sc:para>
+					<sc:para sc:id="t4">Les observations débouchent alors sur une proportion de dispositifs ayant réussi la mission fixée par l'intervalle de temps étudié.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

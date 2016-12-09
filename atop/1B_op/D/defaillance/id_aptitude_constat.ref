@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Défaillance : Aptitude à être constatée</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t5">Défaillance <sc:inlineStyle role="emp">fugitive</sc:inlineStyle> : défaillance de courte durée, difficile à constater et à reproduire.</sc:para>
+					<sc:para sc:id="t6">Défaillance <sc:inlineStyle role="emp">intermittente</sc:inlineStyle> : elle est non permanente mais se reproduit facilement.</sc:para>
+					<sc:para sc:id="t7">Défaillance <sc:inlineStyle role="emp">permanente</sc:inlineStyle> : peut être constater à tous moments.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

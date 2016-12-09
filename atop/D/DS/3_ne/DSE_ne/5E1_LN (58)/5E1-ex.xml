@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM xmlns:gtm="comaint.fr:gTecMi">
+			<sp:title>Exercices Loi Normale</sp:title>
+			<sp:sTitle>Exercices Loi Normale</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Statistiques</sp:keywd>
+							<sp:keywd>Statistiques (Modèles)</sp:keywd>
+							<sp:keywd>Loi Normale</sp:keywd>
+							<sp:keywd>5E1</sp:keywd>
+							<sp:keywd>TD</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:practUc sc:refUri="/2C_ex/061/080-exr.xml"/>
+		<sp:practUc sc:refUri="/2C_ex/061/082-exr.xml"/>
+		<sp:practUc sc:refUri="/2C_ex/061/083-exr.xml"/>
+		<sp:trainUcCloze sc:refUri="/D/DS/021_stat_test/24_exi.quiz"/>
+	</op:courseUa>
+</sc:item>

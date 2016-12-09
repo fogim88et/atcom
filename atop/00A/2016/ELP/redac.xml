@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Rédaction</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:res sc:refUri="/00A/2016/ELP/res.ods">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Donnez les formules de R(t) et λ(tc)</sc:para>
+								<sc:para xml:space="preserve">Complétez le tableau ci-dessus en utilisant les données 1</sc:para>
+								<sc:para xml:space="preserve">Si vous êtes fournisseur, quelle période de garantie pourriez vous proposer à votre client ?</sc:para>
+								<sc:para xml:space="preserve">Si vous êtes exploitant, quelle période d'échange systématique d'un point de vue statistique peut-on choisir ? Quels sont les autres critères à prendre en compte pour justifier de la mise en place d'un échange systématique. ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:mcqSur>
+<op:exeM>
+<sp:title>Le concepteur et le constructeur</sp:title>
+<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Conception</sp:keywd>
+							<sp:keywd>concepteur</sp:keywd>
+							<sp:keywd>constructeur</sp:keywd>
+							<sp:keywd>fabricant</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Le concepteur et le constructeur</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:choices>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t5">n'interviennent pas dans le cadre de la maintenance des équipements</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t9">sont partie prenante dans une politique de maintenance</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+		</sc:choices>
+		<sc:solution choice="2"/>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t27">Le constructeur et le concepteur sont responsables de la <sc:uLink role="glos" sc:id="t29" sc:refUri="/1B_op/M/EF/fiabilite.ref">fiabilité</sc:uLink> et de la <sc:uLink role="glos" sc:id="t30" sc:refUri="/1B_op/M/MN/maintenabilite.ref">maintenabilité</sc:uLink> intrinsèque.</sc:para>
+						<sc:para>L'exploitant (service production et maintenance) va influer sur les conditions d'utilisation liées à sa politique de production (respect ou non des conditions nominales définies par le concepteur) et sa politique de maintenance (maintenance préventive, organisation des interventions, gestion des stocks, moyens de maintenance)</sc:para>
+						<sc:para>En gros, le constructeur et le constructeur proposent, préconisent des moyens ou des solutions, l'exploitant autant que possible met en oeuvre ces moyens et ces solutions, et fera part de son retour d'expérience.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:mcqSur>
+</sc:item>

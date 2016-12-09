@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Temps de bon fonctionnement</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Le bien est apte à accomplir sa fonction entre deux défaillances, et permet d'évaluer le <sc:inlineStyle role="emp" sc:id="t5">MTBF</sc:inlineStyle>.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t4">C'est un temps dédié à la maintenance, et il inclut éventuellement des <sc:inlineStyle role="emp" sc:id="t6">TAF</sc:inlineStyle> : cela signifie pour la maintenance que le bien est apte à produire, mais pas forcément en production.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

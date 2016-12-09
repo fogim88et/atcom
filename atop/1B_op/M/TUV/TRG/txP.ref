@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Taux de performance (TxP)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">C'est le rapport entre le Temps net de fonctionnement (<sc:inlineStyle role="emp">TN</sc:inlineStyle>) et le Temps brut de fonctionnement (<sc:inlineStyle role="emp">TB</sc:inlineStyle>).</sc:para>
+					<sc:para sc:id="t4">Il traduit en % les écarts de performance (non mesurables) ou les micro-arrêts (<sc:inlineStyle role="emp">EP</sc:inlineStyle>)</sc:para>
+					<sc:para>
+						<sc:inlineStyle role="emp">EP</sc:inlineStyle> est non observable et ne peut qu'être calculé par TN-TB.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

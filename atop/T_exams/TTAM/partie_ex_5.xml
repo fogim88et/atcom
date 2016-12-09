@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Partie 5 : Méthodes et Outils de Maintenance</sp:title>
+			<sp:sTitle>p5. Méth. Maint.</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>5.1 Analyse Fonctionnelle</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t7"><sc:inlineStyle role="emp" sc:id="t66">FONCTION D'USAGE</sc:inlineStyle> : L'appareil doit permettre d'éliminer les salissures d'une vaisselle de collectivité de façon qu'elle ne présente ni risque microbiologique ni risque toxicologique, qu'elle retrouve son aspect esthétique et qu'elle soit prête à l'utilisation.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t8"><sc:inlineStyle role="emp" sc:id="t67">ETUDE DU PROCESSUS DU LAVAGE DE LA VAISSELLE</sc:inlineStyle>.</sc:para>
+								<sc:itemizedList sc:id="t68">
+									<sc:listItem sc:id="t69">
+										<sc:para xml:space="preserve" sc:id="t9">A qui cela rend-il service ?</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t70">
+										<sc:para xml:space="preserve" sc:id="t10">Sur quoi cela agit-il ?</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t71">
+										<sc:para xml:space="preserve" sc:id="t11">Dans quel but ?</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t72">
+										<sc:para xml:space="preserve" sc:id="t12">Pourquoi ce but ?</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t73">
+										<sc:para xml:space="preserve" sc:id="t13">Cause ?</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t14">Ce processus peut-il disparaître ou évoluer ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t15">Quelles sont les situations de vie de ce processus ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t16">Choisir la situation de vie (la plus importante), et, à partir d'une analyse externe, déterminer les fonctions principales et de contraintes.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>5.2 AMDEC (Syst ci-dessous ou Allumage A3) - 701</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t19">AMDEC ET Maintenance Préventive</sc:para>
+								<sc:para xml:space="preserve" sc:id="t20">Pour un véhicule, on distinguera 3 fonctions principales pour lesquelles nous avons lié quelques éléments (organes ou  sous fonctions)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t21"><sc:inlineStyle role="emp" sc:id="t59">Motorisation</sc:inlineStyle></sc:para>
+								<sc:itemizedList sc:id="t39">
+									<sc:listItem sc:id="t40">
+										<sc:para xml:space="preserve" sc:id="t22">Huile (lubrification)</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t41">
+										<sc:para xml:space="preserve" sc:id="t23">Compression (étincelle)</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t42">
+										<sc:para xml:space="preserve" sc:id="t24">Essence (mélange)</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t25"><sc:inlineStyle role="emp" sc:id="t60">Freinage</sc:inlineStyle></sc:para>
+								<sc:itemizedList sc:id="t43">
+									<sc:listItem sc:id="t44">
+										<sc:para xml:space="preserve" sc:id="t26">Plaquettes</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t45">
+										<sc:para xml:space="preserve" sc:id="t27">Disques</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t46">
+										<sc:para xml:space="preserve" sc:id="t28">Flexibles</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t47">
+										<sc:para xml:space="preserve" sc:id="t29">Câble électrique (détection usure)</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t30"><sc:inlineStyle role="emp" sc:id="t61">Refroidissement</sc:inlineStyle></sc:para>
+								<sc:itemizedList sc:id="t48">
+									<sc:listItem sc:id="t49">
+										<sc:para xml:space="preserve" sc:id="t31">Liquide de refroidissement</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t50">
+										<sc:para xml:space="preserve" sc:id="t32">Pression eau (pompe à eau)</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t51">
+										<sc:para xml:space="preserve" sc:id="t33">Sonde de température</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t52">
+										<sc:para xml:space="preserve" sc:id="t34">Capteur de niveau</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t53">
+										<sc:para xml:space="preserve" sc:id="t35">Ventilateur</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t54">
+										<sc:para xml:space="preserve" sc:id="t36">Durites</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t37">A. Réaliser l'AMDEC du véhicule avec les éléments fournis ci-dessus - en exprimant les fonctions-modes et causes de quelques éléments au choix.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t38">B. Malgré le nombre limité d'organes, inspirez vous de la méthode pour réaliser un plan de maintenance préventive avec les éléments fournis (vous fixerez avec un peu de bon sens des périodicités adaptées à l'utilisation d'un véhicule).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:mcqMur>
+<op:exeM>
+<sp:title>MTBF</sp:title>
+<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>MTBF</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Quelles sont les grandeurs applicables ou liées à un système réparable</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:choices>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t5">MTTR</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="unchecked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t9">MTTF</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t13">Disponibilité opérationnelle</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t17">MTBF</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="unchecked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t21">Durée de vie nominale à 90% (L10)</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+		</sc:choices>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t45">Revoir le cas échéant les définitions :</sc:para>
+						<sc:itemizedList sc:id="t46">
+							<sc:listItem sc:id="t47">
+								<sc:para sc:id="t86">
+									<sc:uLink role="glos" sc:id="t51" sc:refUri="/1B_op/M/MN/MTBF.ref"/>Dispositif <sc:uLink role="glos" sc:id="t92" sc:refUri="/1B_op/D/disp_reparable.ref">réparable</sc:uLink> et <sc:uLink role="glos" sc:id="t93" sc:refUri="/1B_op/D/disp_non_reparable.ref">non réparable</sc:uLink>
+</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t91">
+								<sc:para>
+									<sc:uLink role="glos" sc:id="t90" sc:refUri="/1B_op/M/MN/MTBF.ref">MTBF</sc:uLink> et <sc:uLink role="glos" sc:id="t52" sc:refUri="/1B_op/M/MN/MTTF.ref">MTTF</sc:uLink>
+</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t48">
+								<sc:para sc:id="t87">
+									<sc:uLink role="glos" sc:id="t53" sc:refUri="/1B_op/M/MN/MTTR.ref">MTTR</sc:uLink>
+								</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t49">
+								<sc:para sc:id="t88">
+									<sc:uLink role="glos" sc:id="t54" sc:refUri="/1B_op/D/disponibilite.ref">Disponibilité opérationnelle</sc:uLink>
+								</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t50">
+								<sc:para sc:id="t89">
+									<sc:uLink role="glos" sc:id="t55" sc:refUri="/1B_op/D/dv_nominale.ref">Durée de vie nominale</sc:uLink>
+								</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:mcqMur>
+</sc:item>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Coût de Stockage Maintenance (CSM)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t18">Dans le cadre de la gestion des stocks, on doit minimiser les frais de gestion qui sont la somme de deux termes qui varient en sens opposé :</sc:para>
+					<sc:itemizedList sc:id="t19">
+						<sc:listItem sc:id="t20">
+							<sc:para xml:space="preserve" sc:id="t21">le coût annuel de passation des commandes (<sc:inlineStyle role="emp">Cadm</sc:inlineStyle>) qui est proportionnel au nombre des commandes d'approvisionnement passées dans l'année.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t22">
+							<sc:para xml:space="preserve" sc:id="t23">le coût annuel de possession du stock (<sc:inlineStyle role="emp">Cpos</sc:inlineStyle>) qui est d'autant plus bas que l'on passe davantage de commandes d'approvisionnement dans l'année.</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para xml:space="preserve" sc:id="t24"><sc:inlineStyle role="emp" sc:id="t25">Cges = Cadm + Cpos</sc:inlineStyle></sc:para>
+					<sc:para xml:space="preserve" sc:id="t13">
+						<sc:inlineStyle role="emp" sc:id="t16">Attention </sc:inlineStyle>: Le coût d'achat des pièces (<sc:inlineStyle role="emp" sc:id="t17">Pu</sc:inlineStyle>) n'est pas intégré. L'optimisation des approvisionnements est étudié à Pu constant.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

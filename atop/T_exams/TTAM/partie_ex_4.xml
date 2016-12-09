@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Partie 4. SPC-IC-Exercices</sp:title>
+			<sp:sTitle>p4.ex.spc</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Exercice 4.1</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t6">Sur un lot de n=64 pièces fabriquées successivement, on a obtenu une moyenne m=55,95 mm, avec un écart-type s=0,18 mm.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t7">4.1.a. Calculer l'écart-type de la population.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t8">4.1.b. Calculer l'écart-type de la distribution d'échantillonnage des moyennes</sc:para>
+								<sc:para xml:space="preserve" sc:id="t9">4.1.c. Donner un intervalle de confiance du réglage actuel de la machine avec un niveau de confiance de 95% (risque alpha=5%)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Exercice 4.2</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t12">Après avoir mesuré la durée de vie de n=225 pièces, on relevé que la proportion de p de pièces défaillantes avant 1000 heures est de 0,04. Comme n est relativement grand, on peut ici négliger le facteur Racine[n/(n-1)] (proche de 1), et considérer que la proportion PI de pièces défaillantes de la population (production de grande série) est égale à p.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t13">4.2.a. Calculer l'écart-type de la population.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t14">4.2.b. Calculer l'écart-type de la distribution d'échantillonnage.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t15">4.2.c. Calculer la proportion maximum de défaillances que l'on peut atteindre avec un niveau de confiance de 5%.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t16">4.2.d. En se placant du côté du fournisseur, est-il envisageable de fixer une garantie à 1000 heures ? Si oui, calculer un pourcentage de retour avec un risque de 1%.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t17">4.2.e. En se placant du côté du client, sachant que le prix de la pièce est faible, est-il envisageable de fixer une période d'échange systématique à t=1000 heures ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Exercice 4.3</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t20">On estime qu'une machine doit produire des pièces de moyenne 100 mm avec un écart-type de 1 mm.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t21">4.3.a. Si l'intervalle de tolérance est fixé à +/-4 mm, calculer le taux de déchet « nominal » de la machine.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t22">4.3.b. En admettant que le réglage de la machine peut fluctuer librement entre 98 mm et 102 mm, calculer alors le taux de déchet « acceptable »dans le cas le plus défavorable.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t23">4.3.c. Calculer la capabilité machine.</sc:para>
+								<sc:para xml:space="preserve">4.3.d. Proposez les limites de contrôle avec n=5. Avez vous de bonnes chances de déceler un déréglage de la machine avant que celle-ci n'atteigne un déréglage de 98 ou 102 en prenant ainsi le risque de fabriquer des déchets.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Les requêtes projection et sélection avec jointure (60.1)</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>60.1a. Visualisation des tables et relation</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">L'objectif est de visualiser la table de relation tb_notes en affichant pour chaque note le nom de l'étudiant et le nom de la matière.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:itemizedList sc:id="t529">
+							<sc:listItem sc:id="t530">
+								<sc:para xml:space="preserve" sc:id="t5">Télécharger la base de données dans le <sc:uLink role="docLnk" sc:id="t890" sc:refUri="/dk-I/OIBB/1C/td_0060_OIBBO.odb">fichier original</sc:uLink> ou compressé au format ZIP <sc:uLink role="docLnk" sc:id="t676" sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/src_td_0010_01.zip"><sc:uLink role="docLnk" sc:id="t724" sc:refUri="/op_I/OIBB_2/4_td/0010/base_note_01.zip">Base Note (.odb) à décompresser</sc:uLink></sc:uLink></sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t531">
+								<sc:para xml:space="preserve" sc:id="t10">Ouvrir le fichier .odb avec OpenOffice Base </sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+					</op:txt>
+				</sp:txt>
+				<sp:txtRes>
+					<op:txtRes>
+						<op:txtResM>
+							<sp:pos>lft</sp:pos>
+						</op:txtResM>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t15">Dans l'onglet base de données, vous devez visualiser les 3 tables de l'application.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:img sc:refUri="/op_I/OIBB_2/4_td/0010/1A/Ooo_bdd_vue.jpg"/>
+					</op:txtRes>
+				</sp:txtRes>
+				<sp:txtRes>
+					<op:txtRes>
+						<op:txtResM>
+							<sp:pos>lft</sp:pos>
+						</op:txtResM>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t17">Dans la liste des tables, un clic droit sur le nom d'une table permet d'accéder au menu contextuel de gestion de l'objet table</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:img sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/Ooo_bdd_menu_context.jpg"/>
+					</op:txtRes>
+				</sp:txtRes>
+				<sp:txtRes>
+					<op:txtRes>
+						<op:txtResM>
+							<sp:pos>lft</sp:pos>
+						</op:txtResM>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t25">La barre d'outils propose les mêmes options que le menu contextuel.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:img sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/Ooo_bdd_barre_outils.jpg"/>
+					</op:txtRes>
+				</sp:txtRes>
+				<sp:txt>
+					<op:txt>
+						<sc:itemizedList sc:id="t532">
+							<sc:listItem sc:id="t533">
+								<sc:para xml:space="preserve" sc:id="t19">Ouvrir chaque table pour en consulter les données.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t534">
+								<sc:para xml:space="preserve" sc:id="t477">Editer (ou modifier) chaque table pour consulter la structure de la table (attributs)</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t538">Nous ne modifions pas la structure des tables pour le moment : identifiez bien les attributs clé primaire de chaque table, et les clés étrangères dans la table tb_note.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t540">Nous allons ajouter les 2 associations de notre application en ouvrant la vue de gestion des relations </sc:para>
+								<sc:itemizedList sc:id="t545">
+									<sc:listItem sc:id="t546">
+										<sc:para xml:space="preserve" sc:id="t841">Menu.Outils.Relations</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t548">
+										<sc:para xml:space="preserve" sc:id="t842">Choisir les tables à placer dans la vue (on prendra les 3 tables), </sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t549">
+										<sc:para xml:space="preserve" sc:id="t843">Pour chaque association, faire glisser la clé primaire du côté 1 vers la clé étrangère du côté n</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t551">La solution vous donne l'image à obtenir</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:res sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/60_1a_relation.jpg">
+									<op:resInfoM/>
+								</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>60.1b. Requête Projection liste de notes avec nom de l'étudiant et de la matière</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txtRes>
+					<op:txtRes>
+						<op:txtResM>
+							<sp:pos>lft</sp:pos>
+						</op:txtResM>
+						<sp:txt>
+							<op:txt>
+								<sc:itemizedList sc:id="t552">
+									<sc:listItem sc:id="t553">
+										<sc:para xml:space="preserve" sc:id="t50">Activez l'onglet Requêtes de la fenêtre Base de données</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t554">
+										<sc:para xml:space="preserve">Sélectionner l'option &quot;nouvelle requête en mode ébauche&quot; : à l'aide du sélecteur, observez les différents modes proposés car nous utiliserons d'autre modes de création plus loin dans cet exercice.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:img sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/Ooo_bdd_nouvel_objet.jpg"/>
+					</op:txtRes>
+				</sp:txtRes>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t556">Créer une requête permettant d'afficher pour chaque note, le nom de l'étudiant et la matière.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/60_1b_rq_vue_notes_apercu.jpg"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:itemizedList sc:id="t618">
+									<sc:listItem sc:id="t619">
+										<sc:para xml:space="preserve" sc:id="t68">Activez l'option &quot;Aperçu&quot; avec le menu &quot;Affichage&quot;</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:itemizedList sc:id="t620">
+									<sc:listItem sc:id="t621">
+										<sc:para xml:space="preserve" sc:id="t70">Dans la ligne &quot;Champ&quot;, sélectionnez respectivement les attributs nom_et, nom_mat et Note des tables tb_etudiants, tb_matieres et tb_notes</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:itemizedList sc:id="t622">
+									<sc:listItem sc:id="t623">
+										<sc:para xml:space="preserve" sc:id="t558">Enregistrez la requête sous le nom <sc:inlineStyle role="emp" sc:id="t567">rq_60_1b_vue_notes</sc:inlineStyle></sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t611">Pour la colonne &quot;nom_et&quot; :</sc:para>
+								<sc:itemizedList sc:id="t612">
+									<sc:listItem sc:id="t613">
+										<sc:para xml:space="preserve" sc:id="t614">tapez &quot;Etudiant&quot; dans la ligne &quot;Alias&quot;</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t615">
+										<sc:para xml:space="preserve" sc:id="t616">sélectionnez croissant dans la ligne &quot;Tri&quot;</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t617">Tapez F5 pour exécuter la requête.</sc:para>
+								<sc:para xml:space="preserve">Enregistrez la requête</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:res sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/60_1b_rq_vue_notes_apercu.jpg">
+									<op:resInfoM/>
+								</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Le langage SQL</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t124">A l'aide du menu affichage, désactivez l'option &quot;Désactiver le mode ébauche&quot; : nous obtenons la traduction de la requête dans le langage SQL</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t103">Copiez le code SQL de la requête dans votre compte-rendu</sc:para>
+						<sc:para xml:space="preserve" sc:id="t196">Essayez de comprendre le rôle des clauses : SELECT FROM et WHERE</sc:para>
+						<sc:para xml:space="preserve" sc:id="t200">Pour ce faire, suivre les questions qui suivent pour vous y aider</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t1173">Question 60.1c :</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:itemizedList sc:id="t638">
+											<sc:listItem sc:id="t639">
+												<sc:para xml:space="preserve" sc:id="t50">Sélectionner l'option &quot;nouvelle requête (Mode SQL)&quot;</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/Ooo_bdd_nouvel_objet.jpg"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t233">Le code SQL à saisir se trouve ici : <sc:uLink role="ref" sc:id="t234" sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/10_3d_SQL_debut.ref">Etudiant et Note</sc:uLink> : vous nommerez cette deuxième requête <sc:inlineStyle role="emp" sc:id="t688">rq_60_1c_note_par_etudiant_sql</sc:inlineStyle> </sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t236">Exécutez cette requête : nous obtenons 28 lignes alors que nous n'avons que 15 notes dans la table tb_notes</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t240">Il faut restreindre ce nombre de lignes en ajoutant la clause <sc:inlineStyle role="emp" sc:id="t387">where</sc:inlineStyle> qui va permettre de respecter l'association 1 - n entre <sc:inlineStyle role="emp" sc:id="t388">tb_etudiant</sc:inlineStyle> et <sc:inlineStyle role="emp" sc:id="t389">tb_note</sc:inlineStyle>. C'est que l'on appelle la <sc:inlineStyle role="emp">condition de Jointure</sc:inlineStyle>.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t242">La clause à ajouter est : <sc:inlineStyle role="code">WHERE `tb_note`.`id_et` = `tb_etudiant`.`id_et`</sc:inlineStyle></sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t246">A noter que les cotes (') ne sont pas obligatoires tant que les noms de tables et d'attributs ne comportent pas d'espaces.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t247">De même le nom de la table suivi d'un . devant le nom de l'attribut n'est pas obligatoire quand il n'y a pas d'ambiguité.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t248">Dans la clause SELECT, on peut juste se contenter de préciser seulement les attributs, dans la clause where, on veut l'égalité entre le même nom attribut mais dans les tables &quot;tb_note&quot; et &quot;tb_etudiant&quot; : il est donc nécessaire d'utiliser la syntaxe <sc:inlineStyle role="emp" sc:id="t249">nom_table.nom_attribut</sc:inlineStyle>.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:rem>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t120">Si on avez procédé comme pour la première requête (en mode ébauche), nous aurions bénéficié des relations déclarées dans la vue relation : à savoir la relation entre la table <sc:inlineStyle role="emp">tb_etudiant</sc:inlineStyle> et <sc:inlineStyle role="emp">tb_note</sc:inlineStyle> via les clés <sc:inlineStyle role="emp">id_et</sc:inlineStyle>.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t254">En générant le code SQL à partir du mode ébauche, la clause where aurait donc contenu l'égalité entre les 2 clés.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:rem>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t261">Si vous avez compris, écrire la requête SQL permettant d'afficher les notes avec 2 colonnes (nom_mat et Note) : attention bien sûr à spécifier correctement la clause WHERE concernant la relation entre les tables tb_matiere et tb_note.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t262">Si vous n'y parvenez pas, utilisez le mode ébauche et recopiez le code SQL correspondant</sc:para>
+								<sc:para xml:space="preserve" sc:id="t263">Vous nommerez cette troisième requête &quot;<sc:inlineStyle role="emp" sc:id="t585">rq_60_1d_note_par_matiere_sql</sc:inlineStyle>.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t126">60.1e : grâce au mode ébauche et au mode SQL de vos requêtes, expliquez le rôle des mots clés AS, ORDER BY, ASC, DESC</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t132">60.1f : Expliquez le rôle de la requête : <sc:inlineStyle role="code" sc:id="t594">SELECT  nom_et from tb_etudiant, tb_note where tb_etudiant.id_et = tb_note.id_et</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve" sc:id="t595">Combien de lignes obtient-on ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t136">Autant de lignes que de tuples contenus dans la table tb_notes, soit 15. On remarque que le même nom d'étudiant apparaît plusieurs fois .... autant de fois que de notes obtenues.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t140">60.1g  : ajoutez le mot-clé <sc:inlineStyle role="emp" sc:id="t598">DISTINCT</sc:inlineStyle> derrière SELECT, combien de lignes obtient-on ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t144">Seules les lignes différentes sont affichées, donc, si un étudiant a plusieurs notes, son nom n'apparaîtra qu'une fois.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t360">Cette requête donne donc la liste des étudiants qui ont au moins une note.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t361"><sc:inlineStyle role="code">SELECT nom_et from tb_etudiant</sc:inlineStyle> donne la liste complète des étudiants qu'ils aient été notés ou non. </sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>60.1i : Requêtes Sélection</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t146">SELECT * FROM tb_etudiant WHERE nom_et ='Du'</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t160">SELECT * FROM tb_etudiant WHERE nom_et ='Durant'</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t148">SELECT * FROM tb_etudiant WHERE nom_et like 'Du%'</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t150">SELECT * FROM tb_etudiant WHERE nom_et like '%u%'</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t152">SELECT * FROM tb_etudiant WHERE nom_et like '?u%'</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t156">SELECT * FROM tb_etudiant WHERE nom_et like '%a%'</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t158">SELECT * FROM tb_etudiant WHERE nom_et like ' ? ? ?a%'</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t164">60.1i : Testez les requêtes ci-dessus : en déduire la différence entre l'égalité (=) et le mot clé like avec ses masques ? et %</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Critères de Tri</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t726">En mode ébauche, vous avez les lignes <sc:inlineStyle role="emp">critères</sc:inlineStyle> suivies de lignes <sc:inlineStyle role="emp">Ou</sc:inlineStyle>.</sc:para>
+						<sc:para xml:space="preserve">Les expressions de recherche sur la ligne critère sont reliées par des ET. </sc:para>
+						<sc:para xml:space="preserve">En ajoutant des expressions de recherche sur les lignes OU, c'est la fonction logique OU qui sera utilisée.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t763">Ajoutez une requête en mode ébauche basée sur les 3 tables permettant d'afficher les notes avec le nom des étudiants et des matières ainsi que le coefficient de la matière.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t765">Testez la requête selon l'ébauche ci-dessous</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBB_2/4_td/0010/1A/10_3_cor.jpg">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t771">Déplacez le >10 sur la ligne du dessous : que constatez vous ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Requêtes paramétrées</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t783">Avec :[Critère], on peut demander l'ouverture d'une boite de dialogue afin que l'utilisateur puisse changer ses critères de recherche sans pour autant être obligé de modifier la requête ou de créer une multitude de requête identiques avec des critères différents.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t785">Testez la requête en mode ébauche ci-dessous</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBB_2/4_td/0010/1A/000036.jpg">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t838">Lorsque l'on veut un nom d'étudiant qui contienne les caractères ur, on utilisera bien sûr le masque % en mettant %ur% dans la zone de recherche sur le nom de l'étudiant.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t940">Jointure interne. Testez la requête : SELECT * FROM tb_note INNER JOIN tb_etudiant ON tb_note.id_et=tb_etudiant.id_et</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t994">Jointure externe. </sc:para>
+								<sc:para xml:space="preserve">Dans notre application, il est intéressant de connaître les étudiants qui n'ont pas encore de notes.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t1114">Lorsque dans la clause where, on place une condition de jointure, seuls les tuples qui correspondent (même valeur de clé) sont conservés. Avec LEFT OUTER JOIN, on va demander à ce que la condition de jointure spécifié par ON soit bien réalisée, mais en plus on demandera que les tuples de la table de gauche (ici tb_etudiant) soient ajoutés. </sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t1054">SELECT * FROM tb_etudiant LEFT OUTER JOIN tb_note ON tb_etudiant.id_et = tb_note.id_et</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t1059">Bien sûr, les étudiants ajoutés sont ceux qui n'ont pas de notes, donc les colonnes de la table tb_note sont vides (en SQL vide est équivalent à NULL). </sc:para>
+								<sc:para xml:space="preserve" sc:id="t1060">Donc en ajoutant la clause <sc:inlineStyle role="code" sc:id="t1061">WHERE tb_note.id_et IS NULL</sc:inlineStyle>, on ne va garder que les étudiants qui n'ont pas de note.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

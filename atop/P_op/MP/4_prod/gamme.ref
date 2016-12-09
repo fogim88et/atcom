@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Gamme</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t4">Document décrivant en détail la séquence d'opérations de fabrication, d'assemblage, d'inspection ou de transports nécessaires à la fabrication d'un composant ou d'un produit fini. </sc:para>
+					<sc:para>Ce document définit avec précision les temps opératoires, les centres de production requis, les outils, le nombre et la qualification des ouvriers effectuant le travail et les composants et/ou matières premières nécessaires à ces opérations</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

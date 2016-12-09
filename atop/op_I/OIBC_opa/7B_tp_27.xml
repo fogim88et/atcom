@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:ueM>
+			<sp:title>7B_tp_27</sp:title>
+		</op:ueM>
+		<sp:courseUa sc:refUri="/2C_ex/00/27/0027.xml"/>
+	</op:ue>
+</sc:item>

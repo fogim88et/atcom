@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>2. Survivants N(t)</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txtRes>
+					<op:txtRes>
+						<op:txtResM>
+							<sp:pos>lft</sp:pos>
+						</op:txtResM>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t34">Effectif des survivants <sc:uLink role="glos" sc:id="t35" sc:refUri="/1B_op/M/TUV/T_survie/N_t.ref">N(t)</sc:uLink> à un instant t.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t38">Pour déterminer le nombre de survivants à un instant t, il suffit de compter le nombre de dispositifs dont la durée de vie dépasse t.</sc:para>
+								<sc:para xml:space="preserve">Aidez vous vous du graphe ci-dessous pour répondre aux questions posées.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:img sc:refUri="/M/C-2016-01/0F/src_9_4.png"/>
+					</op:txtRes>
+				</sp:txtRes>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t14">Survivants</sc:para>
+				<sc:itemizedList sc:id="t15">
+					<sc:listItem sc:id="t16">
+						<sc:para xml:space="preserve" sc:id="t17">N (t=450 h) =<sc:textLeaf role="gap" sc:id="t18">6</sc:textLeaf>
+						 : comptez le nombre de dispositifs avec une durée de vie supérieure à 450 h</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t20">
+						<sc:para xml:space="preserve" sc:id="t21">N (t=850 h) = <sc:textLeaf role="gap" sc:id="t23"> 2</sc:textLeaf>
+ :  comptez le nombre de dispositifs avec une durée de vie supérieure à 850 h</sc:para>
+					</sc:listItem>
+				</sc:itemizedList>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

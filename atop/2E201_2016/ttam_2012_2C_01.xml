@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Evaluation TTAM_2012_2C_01</sp:title>
+			<sp:sTitle>Evaluation TTAM_2012_2C_01</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Fiabilité observée 1</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/0C-src/000/src_104_1.ods">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t5">Sur 30 engins de chantiers en fonctionnement à t=0, on a observé les ttf ci-dessus (observation non exhaustive)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t8">Compléter le tableau ci-dessous, et conclure sur la nature de l'usure des engins.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t9">Préconiseriez vous une visite systématique pour agir sur les défaillances avant rupture ?</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/0C-src/000/src_104_2.ods">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Fiabilité observée 2</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">On a observé la durée de vie de 400 tubes fluorescents (étude exhaustive)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t11">Faire l'étude de fiabilité ci-dessous et conclure la proposition d'une garantie avec une fiabilité de 95%.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/0C-src/000/src_106.ods">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

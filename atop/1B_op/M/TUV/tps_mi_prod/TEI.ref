@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Temps effectif d'Indisponibilité (TEI)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Le bien est inapte à accomplir sa fonction.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t4">La machine est arrêtée (<sc:inlineStyle role="emp" sc:id="t7">TA</sc:inlineStyle> ou <sc:inlineStyle role="emp">TAM</sc:inlineStyle>) pour cause de défaillance ou d'action de maintenance préventive</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">ou</sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">La machine est apte à fonctionner , mais ne peut fonctionner pour cause de Main d'oeuvre, matière première, etc (<sc:inlineStyle role="emp" sc:id="t9">TAF</sc:inlineStyle>)</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:match xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>10.2b. Les attributs ... suite</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t39">Nous disposons d'une liste de matières dans lesquelles des étudiants vont être notés. </sc:para>
+						<sc:para>Chaque matière dispose de son coefficient.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/dk-I/OIBB/1C/proprietes_attributs-OIBB-convention.ods">
+					<op:resInfoM>
+						<sp:index>tab</sp:index>
+					</op:resInfoM>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t82">Pour chaque attribut cité, vous devez associer les propriétés selon les conventions fournies ci-dessus</sc:para>
+						<sc:para xml:space="preserve" sc:id="t69">ATTENTION, les étiquettes doivent être disposées dans l'ordre des colonnes du tableau des conventions.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t78">Cela signifie que si vous voulez affecter à un attribut un CE (se trouve en ligne 2) et un INT (se trouve en ligne 8), c'est dans cet ordre que vous devrez les placer.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t5">Attribut <sc:inlineStyle role="emp">id_et</sc:inlineStyle> dans la table <sc:uLink role="acr" sc:id="t74" sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/etudiant.ref">etudiant</sc:uLink>.</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para sc:id="t42">CP</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t37">IdxU_1</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para sc:id="t23">AI</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t50">INT_1</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t9">Attribut <sc:inlineStyle role="emp">lib_et</sc:inlineStyle> dans la table etudiant</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para sc:id="t15">IDPR</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t25">IdxU_2</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t52">NN_1</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para sc:id="t48">CHAR</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t17">Attribut <sc:inlineStyle role="emp">id_mat</sc:inlineStyle> dans la table note</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para sc:id="t57">CE</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para sc:id="t59">Idx</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t61">NN_2</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t67">INT_2</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t29">Attribut <sc:inlineStyle role="emp">coef</sc:inlineStyle> dans la table matiere</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t31">INT_3</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t63">NN_3</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+	</op:match>
+</sc:item>

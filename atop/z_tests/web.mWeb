@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:mediaWeb xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:binAltM>
+			<sp:title>Page web (exemple)</sp:title>
+		</op:binAltM>
+		<sp:unknown>
+			<op:mwUnM>
+				<sp:align>auto</sp:align>
+				<sp:frag>
+
+&lt;xhtml:title xmlns:xhtml="http://www.w3.org/1999/xhtml"&gt;texte barre de titre du naviguateur&lt;/xhtml:title&gt;
+&lt;xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" content="IUT EPINAL" name="Author" /&gt;
+
+Le corps de la page se trouve ici&lt;xhtml:br xmlns:xhtml="http://www.w3.org/1999/xhtml" /&gt;
+&lt;xhtml:h1 xmlns:xhtml="http://www.w3.org/1999/xhtml"&gt;Exemple de lien vers le site GitHub&lt;/xhtml:h1&gt;
+&lt;xhtml:a xmlns:xhtml="http://www.w3.org/1999/xhtml" target="_blank" href="http://github.com"&gt; Accueil site Github&lt;/xhtml:a&gt;
+&lt;xhtml:h1 xmlns:xhtml="http://www.w3.org/1999/xhtml"&gt;Lien vers site étudiant&lt;/xhtml:h1&gt;
+&lt;xhtml:h1 xmlns:xhtml="http://www.w3.org/1999/xhtml"&gt;Groupe 1&lt;/xhtml:h1&gt; 
+&lt;xhtml:a xmlns:xhtml="http://www.w3.org/1999/xhtml" target="_blank" href="http://comaintfo.fr/gim1/grx/nometudiant"&gt;
+	Site de l'étudiant dont le nom est .......
+	&lt;/xhtml:a&gt;
+
+</sp:frag>
+			</op:mwUnM>
+		</sp:unknown>
+	</op:mediaWeb>
+</sc:item>

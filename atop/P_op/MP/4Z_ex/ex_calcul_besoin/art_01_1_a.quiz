@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Etude du besoin</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t5">Etudier le besoin du jour N° 4</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t24">Si on ne lance pas d'OF le jour 4, le Sdj serait de <sc:textLeaf role="gap" sc:id="t25">-20</sc:textLeaf> pièces (en cas de rupture, mettre le signe - devant la valeur)</sc:para>
+				<sc:para xml:space="preserve" sc:id="t26">Le BN est donc de <sc:textLeaf role="gap" sc:id="t27">20</sc:textLeaf> pièces avec RP = 0 et S =0 dans la formule du <sc:uLink role="glos" sc:id="t39" sc:refUri="/P_op/MP/4_prod/besoin_net.ref">BN</sc:uLink>.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t28">L'OF à lancer débutera le <sc:textLeaf role="gap" sc:id="t29">2</sc:textLeaf> pour une quantité de <sc:textLeaf role="gap" sc:id="t30">20</sc:textLeaf> pièces et sera réceptionné le <sc:textLeaf role="gap" sc:id="t31">4</sc:textLeaf>.</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t35">BN = BBj -SDj-1 - RP + S = 70 - 50 - 0 + 0</sc:para>
+						<sc:para xml:space="preserve" sc:id="t38">Celui-ci est &gt;0 alors il faut lancer le jour 2 un ordre pour 20 unités qui sera réceptionné le 4 (Fin d'ordre)</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

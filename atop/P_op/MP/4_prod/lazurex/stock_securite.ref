@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:refM>
+			<sp:ref>Stock de sécurité</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Articles à forte valeur ajoutée : </sc:para>
+					<sc:itemizedList sc:id="t7">
+						<sc:listItem sc:id="t8">
+							<sc:para xml:space="preserve">EML et EMV : 0</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para xml:space="preserve">Composés :</sc:para>
+					<sc:itemizedList sc:id="t13">
+						<sc:listItem sc:id="t10">
+							<sc:para xml:space="preserve"> B2 et B3 : 250 </sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para xml:space="preserve">Composants</sc:para>
+					<sc:itemizedList sc:id="t19">
+						<sc:listItem sc:id="t15">
+							<sc:para xml:space="preserve">M2 et M3 :  500.</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:glosM>
+			<sp:term>Stock Maintenance</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">Le stock maintenance d'une usine est constitué de l'ensemble des <sc:inlineStyle role="emp">articles</sc:inlineStyle> ( matières et pièces de rechange) qui permettent au service maintenance :</sc:para>
+					<sc:itemizedList sc:id="t13">
+						<sc:listItem sc:id="t14">
+							<sc:para xml:space="preserve" sc:id="t5">de maintenir de la façon la plus économique possible le matériel de l'usine, en accord avec la fabrication,</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t15">
+							<sc:para xml:space="preserve" sc:id="t6">d'exécuter des travaux de différentes natures, à la demande de différents services en qualité de fournisseur.</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

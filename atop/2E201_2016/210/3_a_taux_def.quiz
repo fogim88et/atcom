@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>Taux de défaillance par période</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Donnez vos résultats ci-dessous.</sc:para>
+						<sc:para>Vous renseignerez les valeurs suivantes en donnant le résultat avec 3 chiffres significatifs derrière 0,00 (sans arrondir le dernier chiffre, et ne pas oublier les éventuels 0)</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t22">Le taux de défaillance entre 0 et 60 mois est de 0,00<sc:textLeaf role="gap" sc:id="t13">454</sc:textLeaf>  par mois .</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t32">Entre 0 et 60 mois, nous avons <sc:uLink role="glos" sc:id="t35" sc:refUri="/1B_op/M/TUV/T_survie/N_t.ref">N(t=0 mois)</sc:uLink>=11</sc:para>
+						<sc:para xml:space="preserve" sc:id="t39">3 sont défaillants dans la période d'une durée de 60 mois.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t40">Le <sc:uLink role="glos" sc:id="t34" sc:refUri="/1B_op/M/TUV/taux_defaillance.ref">taux de défaillance</sc:uLink> est donc de 3/(11*60) par mois</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

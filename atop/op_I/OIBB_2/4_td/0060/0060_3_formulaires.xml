@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM xmlns:gtm="comaint.fr:gTecMi">
+			<sp:title>60.3. Les formulaires</sp:title>
+			<sp:sTitle>Les formulaires (60.3)</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>60.3a : Ajouter un formulaire en utilisant l'assistant</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t30">Dans l'onglet Base de données, objets de type Formulaires, Tâches ... Utiliser l'assistant de création de formulaire</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t33">Etape 1 : Sélectionnez la table tb_note, puis placez tous les champs disponibles comme champs du formulaire.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t34">Etape 2 : Ne rien changer</sc:para>
+								<sc:para xml:space="preserve" sc:id="t35">Etape 5 : Disposition du formulaire principal --> prendre le plus à gauche Colonnes - Etiquettes à gauche</sc:para>
+								<sc:para xml:space="preserve" sc:id="t36">Etape 6 : Ne rien changer</sc:para>
+								<sc:para xml:space="preserve" sc:id="t37">Etape 7 : Au choix</sc:para>
+								<sc:para xml:space="preserve" sc:id="t38">Etape 8 : Nommez votre formulaire <sc:inlineStyle role="emp" sc:id="t39">frm_60_3a_notes</sc:inlineStyle>.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:meth>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t41">Vous pouvez ouvrir le formulaire par un double clic sur le nom donné à votre formulaire,  et le modifier par un clic droit...modifier</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t43">Ouvrez le formulaire, faites défiler les tuples (enregistrements)</sc:para>
+								<sc:para xml:space="preserve">Ajoutez une note</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:rem>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t45">Vous remarquerez qu'il n'y a pas beaucoup de différence au niveau de la convivialité avec la modification du contenu de l'objet table.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t47">Nous allons donc ajouter un contrôle de type Liste pour inviter l'utilisateur du formulaire à sélectionner un étudiant parmi la liste des étudiants de la table tb_etudiant.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t158">Actuellement, si vous souhaitez ajouter une note, vous êtes forcés de consulter la table tb_etudiant, puis de mémoriser son identifiant clé primaire et saisir cette valeur dans le contrôle id_et de notre formulaire.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t159">Le contrôle liste va automatiser cette tâche : l'utilisateur verra uniquement la liste des étudiants, mais le formulaire va conserver l'identifiant id_et de la table tb_etudiant et le copier dans la table tb_note.id_et</sc:para>
+								<sc:para xml:space="preserve" sc:id="t160"><sc:inlineStyle role="emp" sc:id="t181">Suivez les étapes ci-dessous pour ajouter votre contrôle Liste</sc:inlineStyle></sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:rem>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>60_3b : Ajouter un contrôle de type Liste</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t53">Pour ajouter un contrôle de type liste dans le formulaire, sélectionnez l'objet sous le curseur.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t62">Ensuite, une fois le contrôle sélectionné, placez le comme tout objet dans un éditeur de dessin sur le formulaire : il est modifiable en position et en taille</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/src_td_0010_2 - Copie.odb  Tb_note2 - OpenOffice.org Base Form Design_000016.jpg"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t74"><sc:inlineStyle role="code" sc:id="t75">L'assistant doit être activé (il l'est par défaut) --> le cas échéant, activez l'assistant si celui-ci ne s'ouvre pas lorsque vous sélectionnez votre contrôle &quot;Zone de Liste&quot;</sc:inlineStyle></sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/Ooo_ic_assistant.jpg"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t13">Etape 1 : Sélection de table --> Sélectionnez la table étudiant</sc:para>
+								<sc:para xml:space="preserve" sc:id="t63">Etape 2 : Champ d'affichage --> Sélectionnez l'attribut nom_et : on souhaite sélectionner un étudiant dans la liste des noms</sc:para>
+								<sc:para xml:space="preserve" sc:id="t64">Etape 3 : Liaison des champs --> </sc:para>
+								<sc:para xml:space="preserve" sc:id="t23">Dans la table de liste, si on sélectionne le nom de l'étudiant (nom_et), c'est son identifiant (id_et) qu'il faut mémoriser. Si on sélectionne Durand, c'est le 1 qu'il faut retenir et placer dans l'attribut id_et de la table tb_note représenté par son contrôle Zone de texte </sc:para>
+								<sc:itemizedList sc:id="t24">
+									<sc:listItem sc:id="t25">
+										<sc:para xml:space="preserve" sc:id="t26">Le champ de la table des valeurs est id_et.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t27">
+										<sc:para xml:space="preserve" sc:id="t28">Le champ de la table de liste est id_et.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:meth>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Les propriétés du contrôle</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t72">Les propriétés sont visibles en cliquant sur l'icône prévu à cet effet (ou par le menu contextuel de l'objet)</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/Ooo_ic_proprietes_ctrl.jpg"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t77">Nous y retrouvons les informations importantes concernant le comportement du contrôle dans le formulaire</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/0010_5_b_proprietes_liste.jpg"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:res sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/000023.jpg">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t92">
+									<sc:caption xml:space="preserve">Les propriétés</sc:caption>
+									<sc:column sc:id="t93" width="25"/>
+									<sc:column sc:id="t94" width="64"/>
+									<sc:row sc:id="t95">
+										<sc:cell sc:id="t96">
+											<sc:para xml:space="preserve" sc:id="t102">Champ de données</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t97">
+											<sc:para xml:space="preserve" sc:id="t104">c'est l'attribut tb_note.id_et</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t98">
+										<sc:cell sc:id="t99">
+											<sc:para xml:space="preserve" sc:id="t106">Type du contrôle de liste</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t100">
+											<sc:para xml:space="preserve" sc:id="t108">décrit les modalités de remplissage de la liste de choix : ici, c'est une expression en mode SQL</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row>
+										<sc:cell>
+											<sc:para xml:space="preserve" sc:id="t109">Contenu de liste</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve" sc:id="t110">On affiche les colonnes nom_et (n° 0) et id_et (n°1) de la table tb_etudiant : on notera que id_et est masqué pour l'utilisateur</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row>
+										<sc:cell>
+											<sc:para xml:space="preserve" sc:id="t111">Champ lié</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve" sc:id="t112">C'est le n° de la colonne de la liste qui sera lié au champ de donnée lorsque l'utilisateur aura choisi sa ligne (ou le nom de l'étudiant ici)</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t175">Dans l'onglet général propriété Nom, tapez &quot;ch_et&quot;</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:ex>
+					<op:pbTi>
+						<sp:title>60.3c : A vous de jouer</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t129">Ajoutez un contrôle liste pour sélectionner la matière affectée à la note : utilisez l'assistant et contrôlez que les propriétés attendues sont bien là.</sc:para>
+								<sc:para xml:space="preserve">Nommez ce contrôle ch_mat</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t132">
+									<sc:column sc:id="t133" width="25"/>
+									<sc:column sc:id="t134" width="64"/>
+									<sc:row sc:id="t135">
+										<sc:cell sc:id="t136">
+											<sc:para xml:space="preserve" sc:id="t137">Champ de données</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t138">
+											<sc:para xml:space="preserve" sc:id="t139">id_mat</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t140">
+										<sc:cell sc:id="t141">
+											<sc:para xml:space="preserve" sc:id="t142">Type du contrôle de liste</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t143">
+											<sc:para xml:space="preserve" sc:id="t144">SQL</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t145">
+										<sc:cell sc:id="t146">
+											<sc:para xml:space="preserve" sc:id="t147">Contenu de liste</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t148">
+											<sc:para xml:space="preserve" sc:id="t149">SELECT nom_mat, id_mat from tb_matiere</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t150">
+										<sc:cell sc:id="t151">
+											<sc:para xml:space="preserve" sc:id="t152">Champ lié</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t153">
+											<sc:para xml:space="preserve" sc:id="t154">1</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>60_3d : Ajouter un contrôle &quot;champ d'étiquette&quot;</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t173">Ce type de contrôle n'est pas lié à la base de données : il est purement descriptif d'un contrôle lié à la base.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/000024.jpg"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Devant notre contrôle de type liste, nous souhaitons voir l'étiquette nommée &quot;Choix de l'étudiant&quot;</sc:para>
+								<sc:para xml:space="preserve">Ajoutez le contrôle, tapez le texte &quot;Choix de l'étudiant&quot; dans la propriété Etiquette, puis nommez le lbl_ch_et</sc:para>
+								<sc:para xml:space="preserve">Affichez les propriétés du contrôle nommé ch_et et choisir le champ étiquette lbl_ch_et</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t177">Faites de même avec le contrôle ch_mat et son étiquette lbl_ch_mat</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:meth>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

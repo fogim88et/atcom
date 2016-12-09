@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:ueM>
+			<sp:title>Test 1 Octobre 2016 - TTAM</sp:title>
+		</op:ueM>
+		<sp:practUc sc:refUri="/T_exams/2014_OMM1/2012_OMMa_3c.xml"/>
+		<sp:practUc sc:refUri="/T_exams/2016/TTAM/q1.xml"/>
+		<sp:practUc sc:refUri="/T_exams/2016/TTAM/q2.xml"/>
+		<sp:courseUc sc:refUri="/T_exams/2016/TTAM/TABLEUR_FMD.xml"/>
+		<sp:courseUc sc:refUri="/T_exams/2016/TTAM/partie_ex_1_2016.xml"/>
+	</op:ue>
+</sc:item>

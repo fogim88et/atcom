@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:ueM>
+			<sp:title>Maintenance I : Exercices (ex)</sp:title>
+			<sp:sTitle>Maintenance I : Exercices (ex)</sp:sTitle>
+		</op:ueM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para xml:space="preserve" sc:id="t3">Exercices sans solution : corrigés disponibles sur le sur le web.</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>Comportement du matériel (2C)</sp:title>
+					<sp:sTitle>Comportement du matériel (2C)</sp:sTitle>
+				</op:ueDivM>
+				<sp:div>
+					<op:ueDiv>
+						<op:ueDivM>
+							<sp:title>Fiabilité prévisionnelle (2C1)</sp:title>
+							<sp:sTitle>Fiabilité prévisionnelle (2C1)</sp:sTitle>
+						</op:ueDivM>
+						<sp:practUc sc:refUri="/M_/ME_tpz/MES/4_td/MC-11.xml"/>
+						<sp:trainUcCloze sc:refUri="/M_/ME_tpz/MES/5_ex/2C1_01_19_n2.quiz"/>
+						<sp:trainUcCloze sc:refUri="/M_/ME_tpz/MES/5_ex/2C_10_20_n1_/20e.quiz"/>
+						<sp:practUc sc:refUri="/M_/ME_tpz/MES/5_ex/2C1_11_21_n2-REVOIR.xml"/>
+					</op:ueDiv>
+				</sp:div>
+				<sp:div>
+					<op:ueDiv>
+						<op:ueDivM>
+							<sp:title>Fiabilité observée (2C2)</sp:title>
+							<sp:sTitle>Fiabilité observée (2C2)</sp:sTitle>
+						</op:ueDivM>
+						<sp:assmntUa sc:refUri="/M_/ME_tpz/MES/5_ex/MC-22.xml"/>
+						<sp:practUc sc:refUri="/M_/ME_tpz/MES/5_ex/23_edc/MESO-exr-23-opw.xml"/>
+						<sp:assmntUa sc:refUri="/M_/ME_tpz/MES/5_ex/2C2_03_29_n1.xml"/>
+						<sp:practUc sc:refUri="/M_/ME_tpz/MES/5_ex/2C2_04_30-1_n1.xml"/>
+						<sp:practUc sc:refUri="/M_/ME_tpz/MES/5_ex/2C2_04_30-2_n3.xml"/>
+						<sp:practUc sc:refUri="/M_/ME_tpz/MES/5_ex/2C2_04_30-3_n1.xml"/>
+					</op:ueDiv>
+				</sp:div>
+			</op:ueDiv>
+		</sp:div>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>Méthodes</sp:title>
+					<sp:sTitle>Méthodes</sp:sTitle>
+				</op:ueDivM>
+				<sp:div>
+					<op:ueDiv>
+						<op:ueDivM>
+							<sp:title>TPM-TRG (6A)</sp:title>
+							<sp:sTitle>TPM-TRG (6A)</sp:sTitle>
+						</op:ueDivM>
+						<sp:div>
+							<op:ueDiv>
+								<op:ueDivM>
+									<sp:title>6A-01-nx : Evaluation par niveau</sp:title>
+									<sp:sTitle>6A-01-nx : Evaluation par niveau</sp:sTitle>
+								</op:ueDivM>
+								<sp:intro>
+									<op:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve" sc:id="t13">Les 3 exercices qui suivent ont tous le même énoncé : l'apprenant commencera le test au niveau 3 sans aucune information sur la démarche.</sc:para>
+												<sc:para xml:space="preserve">En cas d'échec, il pourra retenter l'évaluation au niveau 2 qui va évaluer la démarche de manière plus détaillée.</sc:para>
+												<sc:para xml:space="preserve">Au niveau 1, la démarche est complétement dévoilée à l'étudiant qui pourra de plus accéder aux définitions et rappels sur les notions essentielles.</sc:para>
+											</op:txt>
+										</sp:txt>
+									</op:res>
+								</sp:intro>
+								<sp:assmntUa sc:refUri="/2C_ex_tpz/00/03/MMT-3-3.xml"/>
+								<sp:assmntUa sc:refUri="/2C_ex_tpz/00/03/MMT-3-2.xml"/>
+								<sp:assmntUa sc:refUri="/2C_ex_tpz/00/03/MMT-3-1.xml"/>
+							</op:ueDiv>
+						</sp:div>
+						<sp:trainUcCloze sc:refUri="/2C_ex_tpz/00/05/MMT-5.quiz"/>
+						<sp:trainUcCloze sc:refUri="/2C_ex_tpz/00/04/MMT-4.quiz"/>
+						<sp:div>
+							<op:ueDiv>
+								<op:ueDivM>
+									<sp:title>Evaluation personnelle (moodle)</sp:title>
+									<sp:sTitle>Evaluation personnelle (moodle)</sp:sTitle>
+								</op:ueDivM>
+								<sp:assmntUa sc:refUri="/2E001/006.xml"/>
+								<sp:assmntUa sc:refUri="/2E001/007.xml"/>
+								<sp:assmntUa sc:refUri="/2E001/008.xml"/>
+							</op:ueDiv>
+						</sp:div>
+					</op:ueDiv>
+				</sp:div>
+				<sp:div>
+					<op:ueDiv>
+						<op:ueDivM>
+							<sp:title>Méthode de Pareto (6B)</sp:title>
+							<sp:sTitle>Pareto (6B)</sp:sTitle>
+						</op:ueDivM>
+						<sp:courseUa sc:refUri="/M_/MOP_pareto_opa/6B_ex.xml"/>
+					</op:ueDiv>
+				</sp:div>
+			</op:ueDiv>
+		</sp:div>
+	</op:ue>
+</sc:item>

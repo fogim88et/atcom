@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:assmntUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>3. TRG - MMT - Etape Niveau 2</sp:title>
+			<sp:sTitle>3. TRG - MMT - Etape Niveau 2</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>EV</sp:keywd>
+							<sp:keywd>TRG</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t42">
+							<sc:uLink role="ref" sc:id="t87" sc:refUri="/2E001/003/0003.ref">Consultation de l'énoncé ici</sc:uLink>
+						</sc:para>
+						<sc:para>
+							<sc:inlineStyle role="emp">Etapes intermédiaires</sc:inlineStyle> : rassemblez les données vous permettant de faire les calculs dans l'ordre suivant</sc:para>
+						<sc:itemizedList sc:id="t28">
+							<sc:listItem sc:id="t30">
+								<sc:para sc:id="t44">Calculer le <sc:uLink role="glos" sc:id="t73" sc:refUri="/1B_op/M/TUV/TRG/TO.ref">TO</sc:uLink>.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t70">
+								<sc:para sc:id="t83">Calculer le <sc:uLink role="glos" sc:id="t72" sc:refUri="/1B_op/M/TUV/TRG/TU.ref">TU</sc:uLink>.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t67">
+								<sc:para sc:id="t84">Calculer le <sc:uLink role="glos" sc:id="t34" sc:refUri="/1B_op/M/TUV/TRG/TB.ref">TB</sc:uLink>.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t32">
+								<sc:para sc:id="t46">Calculer le <sc:uLink role="glos" sc:id="t36" sc:refUri="/1B_op/M/TUV/TRG/TN.ref">TN</sc:uLink>.</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+						<sc:para sc:id="t47">En déduire le <sc:uLink role="glos" sc:id="t71" sc:refUri="/1B_op/M/TUV/TRG/TRG.ref">TRG</sc:uLink> et le <sc:uLink role="glos" sc:id="t51" sc:refUri="/1B_op/M/TUV/TRG/txP.ref">Taux de Performance</sc:uLink>.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:quiz sc:refUri="/2E001/003/q/TO_n2.quiz"/>
+		<sp:quiz sc:refUri="/2E001/003/q/TU_n2.quiz"/>
+		<sp:quiz sc:refUri="/2E001/003/q/AI_n2.quiz"/>
+		<sp:quiz sc:refUri="/2E001/003/q/TN_n2.quiz"/>
+		<sp:quiz sc:refUri="/2E001/003/q/TRG.quiz"/>
+		<sp:quiz sc:refUri="/2E001/003/q/txP_n3.quiz"/>
+		<sc:feedbacks>
+			<sc:feedback lt="100">
+				<op:res>
+					<sp:txt>
+						<op:txt>
+							<sc:para xml:space="preserve" sc:id="t97">Passez au niveau 1 de l'exercice</sc:para>
+						</op:txt>
+					</sp:txt>
+				</op:res>
+			</sc:feedback>
+		</sc:feedbacks>
+	</op:assmntUa>
+</sc:item>

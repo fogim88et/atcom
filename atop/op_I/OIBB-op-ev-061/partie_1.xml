@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM xmlns:gtm="comaint.fr:gTecMi">
+			<sp:title>61.A. MCD</sp:title>
+			<sp:sTitle>MCD (61.A)</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Cahier des charges</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t16">Gestion d'un club sportif ou une association. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t17">Les adhérents s'inscrivent à des activités encadrées par 1 coach</sc:para>
+								<sc:para xml:space="preserve" sc:id="t18"> L'inscription se traduit par un nombre d'heure de pratique : cela se traduira par le versement d'une cotisation proportionnelle à ce nombre d'heure, mais ce côté financier ne sera pas intégré à cette étude de cas.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t68">Régulièrement, pour chaque inscription cotisée, l'adhérent effectuera un certain nombre de séances dont on mémorisera la durée.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t19"> L'application devra assurer le suivi du volume horaire disponible pour chaque adhérent : c'est à dire la comparaison de la durée totale des séances réalisées avec celle fixée au niveau de l'inscription.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:ex>
+					<op:pbTi>
+						<sp:title>Données physique issues de la base de données</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t6">- Le Tennis  est encadré par Jo</sc:para>
+								<sc:para xml:space="preserve" sc:id="t7">- Le Football est encadré par Bob</sc:para>
+								<sc:para xml:space="preserve" sc:id="t8">- La Gym est encadrée par Bill</sc:para>
+								<sc:para xml:space="preserve" sc:id="t9">- Le Volley ball est encadré par Bill</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t22">toto s'inscrit au tennis et au foot pour 10 et 15 heures</sc:para>
+								<sc:para xml:space="preserve" sc:id="t23">bibi s'inscrit au tennis et à la gym  pour 7 et 20 heures</sc:para>
+								<sc:para xml:space="preserve" sc:id="t24">loubi s'inscrit au volley ball pour 12  heures</sc:para>
+								<sc:para xml:space="preserve" sc:id="t25">tobi s'inscrit au foot et au volley ball pour 8 et 16 heures</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t29">Le 18 Mai, bibi pratique 1,5 hrs de gym de son inscription à cette activité pour 20 hrs</sc:para>
+								<sc:para xml:space="preserve" sc:id="t38">Le 18 Mai, toto pratique 2 heures (sur son inscription au foot de 15 hrs)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t39">Le 18 Mai, toto a aussi pratiqué 1 h de tennis.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t40">etc ...</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+				<sp:legal>
+					<op:pbTi>
+						<sp:title>Partie 1</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t76">Définir le schéma entités-relations (MCD) de l'application.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:legal>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>4. Propriétés</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t60">Compléter les tables en MLD en précisant pour chaque attribut le code des propriétés à fixer pour les attributs</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/dk-I/OIBB/1C/proprietes_attributs-OIBB-convention.ods">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

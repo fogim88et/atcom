@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:refM>
+			<sp:ref>proc labview</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para sc:id="t4">Appliquer le modèle de Gauss pour calculer les effectifs théoriques associés à chaque valeur.</sc:para>
+					<sc:para sc:id="t5">Remplacez l'histogramme par un graphe permettant de représenter les effectifs expérimentaux et théoriques.</sc:para>
+					<sc:para sc:id="t6">En considérant cet échantillon de 100 valeurs, calculer l'IC de la moyenne et de l'écart-type sur la production avec un niveau de confiance (saisi par une commande).</sc:para>
+					<sc:para sc:id="t7">Avec le tableau 2D</sc:para>
+					<sc:para sc:id="t8">Construire un tableau de 20 éléments (1 pour chaque échantillon) contenant la moyenne des valeurs de chaque échantillon.</sc:para>
+					<sc:para sc:id="t9">Sur la base d'un échantillon de taille n=5, construire deux régions d'acception pour l'hypothèse (m=60) pour 2 niveaux de confiance de 90 et 99%.</sc:para>
+					<sc:para sc:id="t10">Construire un graphe faisant apparaître les moyennes d'échantillon ainsi que les limites des 2 R.A.</sc:para>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

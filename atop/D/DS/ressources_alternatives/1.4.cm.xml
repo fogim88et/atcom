@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Combinaisons</sp:title>
+			<sp:sTitle>Combinaisons</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t6">CHAPITRE I : ANALYSE COMBINATOIRE.</sc:para>
+								<sc:para sc:id="t7">LEÇON 4 : COMBINAISONS.</sc:para>
+								<sc:para sc:id="t8">THEOREME.</sc:para>
+								<sc:para sc:id="t9">Soit X un ensemble à m éléments et n un entier naturel tel que 0  n  m</sc:para>
+								<sc:para sc:id="t10">X a parties à n éléments avec</sc:para>
+								<sc:para sc:id="t11">=</sc:para>
+								<sc:para sc:id="t12">=</sc:para>
+								<sc:para sc:id="t13">DEFINITION.</sc:para>
+								<sc:para sc:id="t14">Une partie à n éléments d'un ensemble à m éléments s'appelle aussi une combinaison de n éléments de X.</sc:para>
+								<sc:para sc:id="t15">Les nombres s'appellent les coefficients binomiaux.</sc:para>
+								<sc:para sc:id="t16">Exemple.</sc:para>
+								<sc:para sc:id="t17">Une entreprise compte 8 ingénieurs compétents pour diriger certains travaux. Mais 3 ingénieurs suffisent pour mener à bien la tâche en question. Il y a :</sc:para>
+								<sc:para sc:id="t18">= = 56</sc:para>
+								<sc:para sc:id="t19">façons de désigner les 3 ingénieurs</sc:para>
+								<sc:para sc:id="t20">On a</sc:para>
+								<sc:para sc:id="t21">Un ensemble X à m éléments a une partie à 0 élément et une seule, la partie vide, et une seule partie à m éléments : lui-même.</sc:para>
+								<sc:para sc:id="t22">=</sc:para>
+								<sc:para sc:id="t23">Dans un ensemble à m éléments, il y a autant de parties à n éléments (0  n  m) que de parties à m-n éléments.</sc:para>
+								<sc:para sc:id="t24">Si Y a n éléments, le complémentaire dans X de Y à m-n éléments.</sc:para>
+								<sc:para sc:id="t25">On a la relation :</sc:para>
+								<sc:para sc:id="t26">(Formule de Pascal)</sc:para>
+								<sc:para sc:id="t27">qui permet de calculer de proche en proche les coefficients binomiaux.</sc:para>
+								<sc:para sc:id="t28">n</sc:para>
+								<sc:para sc:id="t29">m 0 1 2 3 4 5</sc:para>
+								<sc:para sc:id="t30">1 1</sc:para>
+								<sc:para sc:id="t31">2 1 1</sc:para>
+								<sc:para sc:id="t32">3 1 2 1</sc:para>
+								<sc:para sc:id="t33">4 1 3 3 1</sc:para>
+								<sc:para sc:id="t34">5 1 4 6 4 1</sc:para>
+								<sc:para sc:id="t35">6 1 5 10 10 5 1</sc:para>
+								<sc:para sc:id="t36">Echantillon non ordonné sans remise.</sc:para>
+								<sc:para sc:id="t37">DEFINITION.</sc:para>
+								<sc:para sc:id="t38">Prélever simultanément n objets parmi m c'est prélever un échantillon de n objets non ordonné sans remise parmi m.</sc:para>
+								<sc:para sc:id="t39">PROPOSITION.</sc:para>
+								<sc:para sc:id="t40">Il y a façons de prélever un échantillon non ordonné sans remise parmi m objets.</sc:para>
+								<sc:para sc:id="t41">Exemple.</sc:para>
+								<sc:para sc:id="t42">Pour connaître l'opinion de ses employés, une entreprise décide d'interroger 40 d'entre eux. Sachant qu'il y a 1 000 employés dans l'entreprise, il y a donc façons de désigner les 40 employés qui seront interrogés.</sc:para>
+								<sc:para sc:id="t43"> 5.559744236 x 1071</sc:para>
+								<sc:para sc:id="t44">Répartir m objets dans n boîtes, chaque boîte pouvant contenir les n objets.</sc:para>
+								<sc:para sc:id="t45">PROPOSITION.</sc:para>
+								<sc:para sc:id="t46">On dispose de m boîtes et de n objets. Chaque boîte peut contenir les n objets. Il y a :</sc:para>
+								<sc:para sc:id="t47">manières de répartir les n objets dans les m boîtes.</sc:para>
+								<sc:para sc:id="t48">Exemple.</sc:para>
+								<sc:para sc:id="t49">Un grand-père décide de répartir 20 louis d'or entre ses 12 petits enfants. Il a : manières de le faire.</sc:para>
+								<sc:para sc:id="t50"> 84 672 315.</sc:para>
+								<sc:para sc:id="t51">On dispose de m boîtes et de n objets. Chaque boîte pouvant contenir les n objets. Soit xi (1  i  n) le nombre d'objets que l'on place dans le ième boîte. On a :</sc:para>
+								<sc:para sc:id="t52">x1+ x2+...+ xm = n .</sc:para>
+								<sc:para sc:id="t53">De sorte qu'il y a autant de manières de répartir n objets dans m boîtes que de solutions entières à l'équation d'inconnues x1, x2, ... , xm</sc:para>
+								<sc:para sc:id="t54">x1 + x2 + ... + xm = n .</sc:para>
+								<sc:para sc:id="t55">Cette équation admet donc solutions différentes.</sc:para>
+								<sc:para sc:id="t56">Echantillon non ordonné avec remise</sc:para>
+								<sc:para sc:id="t57">Exemple.</sc:para>
+								<sc:para sc:id="t58">Considérons une urne contenant quatre boules de couleurs différentes.</sc:para>
+								<sc:para sc:id="t59">On tire une boule de l'urne, on note sa couleur, et on la replace dans l'urne.</sc:para>
+								<sc:para sc:id="t60">On répète l'opération cinq fois. Soit x1 (resp. x2 , x3 , x4 , x5 ) le nombre de boules obtenues de la 1ère couleur (resp 2e, 3e, 4e, 5e).</sc:para>
+								<sc:para sc:id="t61">On ne s'intéresse pas à l'ordre dans lequel sont sorties les couleurs, mais seulement au nombre de boules de chaque couleur.</sc:para>
+								<sc:para sc:id="t62">On dit qu'on a extrait de l'urne un échantillon non ordonné avec remise de 4 boules.</sc:para>
+								<sc:para sc:id="t63">On a x1 + x2 + x3 + x4 + x5 = 5.</sc:para>
+								<sc:para sc:id="t64">Il y a donc :</sc:para>
+								<sc:para sc:id="t65">tels échantillons.</sc:para>
+								<sc:para sc:id="t66">DEFINITION</sc:para>
+								<sc:para sc:id="t67">On prélève dans une urne contenant n boules de couleurs différentes une boule. On note la couleur de la boule. On la replace dans l'urne et on répète cette opération m fois. On note le nombre de boules de chaque couleur que l'on a obtenue. On dit que l'on a extrait de l'urne un échantillon non ordonné avec remise de m boules.</sc:para>
+								<sc:para sc:id="t68">PROPOSITION</sc:para>
+								<sc:para sc:id="t69">D'une manière générale si l'urne contient n boules de couleurs différentes, il y a</sc:para>
+								<sc:para sc:id="t70">combinaisons non ordonnées avec remises des n boules.</sc:para>
+								<sc:para sc:id="t71">Exemple.</sc:para>
+								<sc:para sc:id="t72">On veut colorier la carte des 12 pays de l'Union Européenne en utilisant quatre couleurs : rouge, bleu, vert, jaune. Si on considère comme équivalentes deux cartes comprenant le même nombre de pays peints en rouge (resp. bleu, vert ou jaune), il y a :</sc:para>
+								<sc:para sc:id="t73">= 19 x 3 x 17 = 969</sc:para>
+								<sc:para sc:id="t74">sortes de cartes équivalentes.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>39. Opportunité de stockage</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>MF</sp:keywd>
+							<sp:keywd>SE</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Opportunité de stockage</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t32">Entreprise  :</sc:para>
+						<sc:itemizedList sc:id="t33">
+							<sc:listItem sc:id="t34">
+								<sc:para xml:space="preserve" sc:id="t35">
+<sc:uLink role="glos" sc:id="t63" sc:refUri="/1B_op/S/stock/CC.ref">Coût de commande</sc:uLink> = 40 euros, <sc:uLink role="glos" sc:id="t64" sc:refUri="/1B_op/M/M/S/stock/T_pos.ref">Taux de possession</sc:uLink> = 15%.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t36">
+								<sc:para xml:space="preserve" sc:id="t37">Selon le carnet de commandes de l'entreprise, on estime que la <sc:uLink role="glos" sc:id="t65" sc:refUri="/1B_op/C/couts/CGM_CDM.ref">pénalité</sc:uLink> d'un arrêt de production peut varier entre 50 euros et 300 euros de l'heure.</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+						<sc:para xml:space="preserve" sc:id="t38">Pièce :</sc:para>
+						<sc:itemizedList sc:id="t39">
+							<sc:listItem sc:id="t40">
+								<sc:para xml:space="preserve" sc:id="t41">
+<sc:uLink role="glos" sc:id="t62" sc:refUri="/1B_op/M/EF/fiabilite_previsionnelle.ref">R(t=6 mois)</sc:uLink> = 0,9</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t47">
+								<sc:para xml:space="preserve" sc:id="t120">la pièce étudiée est spécifique à une et une seule machine</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t42">
+								<sc:para xml:space="preserve" sc:id="t43">Le <sc:uLink role="glos" sc:id="t61" sc:refUri="/1B_op/M/M/S/stock/PU.ref">prix de la pièce</sc:uLink> est de 10000 euros.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t44">
+								<sc:para xml:space="preserve" sc:id="t45">Le <sc:uLink role="glos" sc:id="t66" sc:refUri="/1B_op/A/appro_delai.ref">délai d'approvisionnement</sc:uLink> de la pièce est de 6 heures en urgence (frais de port fixés à <sc:uLink role="glos" sc:id="t60" sc:refUri="/1B_op/S/stock/Cpc.ref">C<sc:textLeaf role="ind" sc:id="t58">cpc</sc:textLeaf>
+</sc:uLink> à 250 euros) ou de 72 heures (C<sc:textLeaf role="ind" sc:id="t59">c</sc:textLeaf>= 40 euros)</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t52">Nous n'avons aucune autre information sur l'usure et nous allons donc considérer que nous nous plaçons dans les conditions les plus favorables (taux de défaillance constant).</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t48">1.a. Calculer le <sc:uLink role="glos" sc:id="t139" sc:refUri="/1B_op/M/TUV/taux_defaillance.ref">taux de défaillance</sc:uLink> en mois selon le <sc:uLink role="glos" sc:id="t140" sc:refUri="/1B_op/M/EF/modele_exponentiel.ref">modèle exponentiel</sc:uLink>. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t50">1.b. Calculer la fiabilité à t = 12 mois, 24 mois, 36 mois.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:res sc:refUri="/1F/L/Lexp_R(t).odf">
+							<op:resInfoM>
+								<sp:index>form</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:res sc:refUri="/1F/S/E6-Lexp/Lexp_lambda_calcul.odf">
+							<op:resInfoM>
+								<sp:index>form</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txtRes>
+									<op:txtRes>
+										<op:txtResM>
+											<sp:pos>lft</sp:pos>
+										</op:txtResM>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve" sc:id="t56">Vous pouvez utiliser le programme Modèles statistiques (exécutable) pour vos calculs.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:img sc:refUri="/2E021/39/exo_39_expo.png"/>
+									</op:txtRes>
+								</sp:txtRes>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t22">Si on ne stocke pas la pièce, nous avons 20% de chance de subir une défaillance dans l'année, 35% dans les 2 ans.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t123">Dans le pire des cas (300 euros de pénalité horaire), en commandant la pièce en urgence, nous subirons un coût de pénalité de 1800 euros + 250 euros (Ccpc)</sc:para>
+										<sc:para xml:space="preserve" sc:id="t23">Si on stocke la pièce on subira dans 80% des cas un coût de possession fixé à 15% de la valeur de la pièce (1 pièce en stock le jour de l'inventaire à la fin de l'année), soit 1500 euros la première année et à 65%, 1500 euros la deuxième année.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t124">Dans ces conditions favorables en usure (pas d'usure) et défavorables en terme de contexte  si la défaillance se produit au mauvais moment (pénalité maxi), on voit bien qu'il est préférable de ne pas stocker de pièce et d'attendre la défaillance et commander en urgence.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t125">Même attendre 1 an avant de commander semble peu rentable, car la fiabilité chute seulement de 15% de la deuxième année à la troisième année.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Modèle de Weibull</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t72">On décide de modéliser la durée de vie par le modèle de weibull avec une usure plus marquée (Beta=2), et Eta =18,5.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t74">2. Calculer la fiabilité à t = 12 mois, 24 mois, 36 mois.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/1F/S/E7-weibull/Lweib_R(t).odf">
+							<op:resInfoM>
+								<sp:index>form</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txtRes>
+									<op:txtRes>
+										<op:txtResM>
+											<sp:pos>lft</sp:pos>
+										</op:txtResM>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve" sc:id="t80">On obtient R(t=12mois)=0,65 et R(t=24 mois)=0,18.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:img sc:refUri="/2E021/39/exo_39_weibull.png"/>
+									</op:txtRes>
+								</sp:txtRes>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t78">1 chance sur 3 de consommer la pièce dans l'année, 80 % de chance de la consommer dans les 2 ans.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t128">Mettre une pièce en stock en début de deuxième année semble intéressant dans ce cas de figure.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t129">Mettre une pièce en stock en début revient à risquer à 65% de chance une dépense de 1500 euros contre 35 % de chance de subir une pénalité maximum de 2050 euros.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t130">Si on raisonne en coût moyen, on a (2/3).1500- (1/3).2050 = 316 euros par an de dépense supplémentaire.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t131">Une modélisation avec usure forte (Beta=3 et eta=12,6) montre que la fiabilité à 12 mois n'est plus que de 40%. Le rapport dans ce cas s'inverse, et on pourrait envisager le stockage en début d'année.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/2E021/39/exo_39_weibull_2.png">
+									<op:resInfoM>
+										<sp:index>img</sp:index>
+									</op:resInfoM>
+								</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t94">L'entreprise dispose maintenant de 5 machines identiques que l'on met en fonctionnement à t=0. En se plaçant dans le cas d'une usure favorable avec R(t=12 mois)=0,8, on peut en déduire un taux moyen d'événement de 0,2 * 5 machines, soit 1.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t95">Cela signifie qu'en moyenne, on peut subir une casse dans l'année.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t100">Calculer avec la <sc:uLink role="ucLnk" sc:id="t105" sc:refUri="/D/DS/3_ne/DSE_ne/5E5-Poisson (62)/st_mod_Lpoi_ne.xml">loi de Poisson</sc:uLink> la probabilité de subir 0, 1 ou 2 casses dans l'année.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:res sc:refUri="/2E021/39/exo_39_poisson_m1.png">
+									<op:resInfoM>
+										<sp:index>img</sp:index>
+									</op:resInfoM>
+								</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t114">Calculer dans chaque cas la pénalité maximum sans stockage.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t115">Quelle modalité de gestion choisiriez vous ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t113">En arrondissant les calculs, on peut dire que l'on a 1 chance sur 2 de subir 0 ou 1 défaillance. Il n'est donc pas spécialement évident de prendre la décision puisque la probabilité de dépenser 1500 euros de coût de possession est proche de la pénalité risquée.</sc:para>
+										<sc:para xml:space="preserve">En réalisant l'étude sur les 6 premiers mois, on remarque la probabilité d'obtenir 0 défaillance est de 60 %, soit un risque non négligeable de 40 % de chance de subir une  ou plusieurs défaillances.</sc:para>
+										<sc:para xml:space="preserve">Stocker une pièce est donc la meilleure solution, dès que celle - ci est consommée, on en commandera une nouvelle en mode normal.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

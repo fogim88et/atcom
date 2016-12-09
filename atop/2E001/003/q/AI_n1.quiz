@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>AI (n1)</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Calculez les Arrêts machines identifiés</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t5">
+					<sc:inlineStyle role="emp">Etape 1 : Rechercher le TB</sc:inlineStyle>
+				</sc:para>
+				<sc:para sc:id="t28">TO = <sc:textLeaf role="gap" sc:id="t8">360</sc:textLeaf> heures.</sc:para>
+				<sc:itemizedList sc:id="t19">
+					<sc:listItem sc:id="t20">
+						<sc:para sc:id="t11">Attente pour défaillance machine (temps d'indisponibilité TA) avec txD de <sc:inlineStyle role="emp">95</sc:inlineStyle> % = <sc:textLeaf role="gap" sc:id="t16">18</sc:textLeaf> heures.</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t21">
+						<sc:para sc:id="t12">Attente pour contrôles maintenance sachant que l'on a effectué des contrôles de <sc:textLeaf role="gap" sc:id="t45">20</sc:textLeaf> mn toutes les <sc:textLeaf role="gap" sc:id="t46">2000</sc:textLeaf> pièces fabriquées = <sc:textLeaf role="gap" sc:id="t17">5</sc:textLeaf> heures.</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t22">
+						<sc:para sc:id="t13">Attente pour approvisionnement matière première sachant que l'on a effectué des approvisionnements de <sc:textLeaf role="gap" sc:id="t47">18</sc:textLeaf> mn toutes les <sc:textLeaf role="gap" sc:id="t48">3000</sc:textLeaf> pièces =  <sc:textLeaf role="gap" sc:id="t18">3</sc:textLeaf> heures.</sc:para>
+					</sc:listItem>
+				</sc:itemizedList>
+				<sc:para sc:id="t41">Arrêts identifiés (AI) = <sc:textLeaf role="gap" sc:id="t40">26</sc:textLeaf> heures</sc:para>
+				<sc:para sc:id="t29">TB = <sc:textLeaf role="gap" sc:id="t37">334</sc:textLeaf> heures.</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>4. Fiabilité</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t884">On a observé la durée de vie de 10 composants mis en fonctionnement à t=0</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/T_exams/2015/OMM1/src_104_1.ods">
+					<op:resInfoM/>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t65">4a. Calculer le MTTF.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t852">4b. Calculer la Fiabilité à t= 1500 hr et à t=1600 hr.</sc:para>
+						<sc:para xml:space="preserve">4c. Regrouper les ttf dans le tableau ci-dessous</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/T_exams/2015/OMM1/modele_104_1.ods">
+					<op:resInfoM/>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t847">4d. D'après l'évolution du taux de défaillance, que pouvez vous dire sur l'usure du composant ?</sc:para>
+						<sc:para xml:space="preserve" sc:id="t848">4e. Quelle périodicité pouvez vous préconiser pour une garantie (fournisseur) ou une période d'échange systématique (exploitant).</sc:para>
+						<sc:para xml:space="preserve">4f. Est-il judicieux de proposer un échange systématique pour ce composant ? De quelles informations auriez vous besoin pour affiner votre proposition ?</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+	</op:practUc>
+</sc:item>

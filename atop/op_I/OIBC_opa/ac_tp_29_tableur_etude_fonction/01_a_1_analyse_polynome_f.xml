@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Analyse du problème. Le polynôme de degré n</sp:title>
+			<sp:sTitle>1.a. Analyse f(x)</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Un polynôme f(x)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t272">On peut utiliser  2 notations différentes pour désigner la même chose. </sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t71">
+									<sc:caption sc:id="t184">Polynôme</sc:caption>
+									<sc:column width="16.68590831918506"/>
+									<sc:column sc:id="t72" width="56.35882654874245"/>
+									<sc:column sc:id="t73" width="45.27184427685869"/>
+									<sc:row sc:id="t76">
+										<sc:cell>
+											<sc:para sc:id="t195">Notation 1</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t77">
+											<sc:para sc:id="t97">
+												<sc:inlineStyle role="emp">Polynôme d'ordre 3 avec coefficient en lettres</sc:inlineStyle> →</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t78">
+											<sc:para sc:id="t99">
+												<sc:inlineImg role="form" sc:id="t180" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/0_res_sxf/polynome_ordre_3_a_b_c_d.odf"/>
+											</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row>
+										<sc:cell>
+											<sc:para sc:id="t197">Notation 2</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para sc:id="t198">
+												<sc:inlineStyle role="emp">Polynôme avec coefficient indicé</sc:inlineStyle>
+											</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para sc:id="t199">
+												<sc:inlineImg role="form" sc:id="t200" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/0_res_sxf/f_3(x).odf"/>
+											</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t81">
+										<sc:cell>
+											<sc:para sc:id="t196">Notre exemple</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t82">
+											<sc:para sc:id="t105">
+												<sc:inlineStyle role="emp">
+											Polynôme étudié</sc:inlineStyle> →</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t83">
+											<sc:para sc:id="t107">
+												<sc:inlineImg role="form" sc:id="t181" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/0_res_sxf/f_exemple.odf"/>
+											</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:rem>
+					<op:pbTi>
+						<sp:title>Intérêt de cette distinction.</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t206">La notation 1 est  plus lisible et la notation 2 semble plus complexe</sc:para>
+								<sc:para sc:id="t207">Dans la notation 2, il faut faire l'effort de noter que dans c<sc:textLeaf role="ind" sc:id="t208">i</sc:textLeaf>, i va représenter la puissance  associée à x.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t229">Mais que se passe t-il si dans une autre application, on souhaite étudier un polynôme d'ordre 4 ?</sc:para>
+								<sc:para sc:id="t230">→on va utiliser un jeu de coefficient de a à e, avec a qui sera le coefficient d'ordre 4 alors qu'il était considéré comme le coefficient d'ordre 3 ................</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:rem>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Un terme g(x)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t243">Si on utilise des fonctions de famille coefficient.x<sc:textLeaf role="exp" sc:id="t244">ordre</sc:textLeaf> alors une fonction d'ordre i sera généralisée par</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/0_res_sxf/g_i(x).odf">
+<op:resInfoM>
+<sp:index>form</sp:index>
+</op:resInfoM>
+</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t259">f(x) d'ordre n pourra se généraliser par la formule suivante</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/0_res_sxf/f_n(x)_avec g_i(x).odf">
+<op:resInfoM>
+<sp:index>form</sp:index>
+</op:resInfoM>
+</sp:res>
+					</op:res>
+				</sp:def>
+				<sp:rem>
+					<op:pbTi>
+						<sp:title>Avec la notation 1 ?</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t226">Est-il possible en conservant le principe de la notation 1 de généraliser un polynôme d'ordre n ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:rem>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

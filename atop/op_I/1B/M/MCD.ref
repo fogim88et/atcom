@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:bib xmlns:dk="kelis.fr:dokiel">
+		<dk:bibM>
+			<sp:id xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">Developpez.com</sp:id>
+			<sp:desc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+				<dk:docTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Site <sc:phrase role="url"><op:urlM xmlns:op="utc.fr:ics/opale3"><sp:url>http://www.developpez.com/</sp:url></op:urlM>Developpez.com</sc:phrase> : Lien vers Ressource WEB (exemple)</sc:para>
+				</dk:docTxt>
+			</sp:desc>
+		</dk:bibM>
+		<sp:source xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" sc:refUri="/I/1B/M/MCD.url"/>
+	</dk:bib>
+</sc:item>

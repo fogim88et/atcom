@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:ueM>
+			<sp:title>Base de données (ac-2)</sp:title>
+			<sp:sTitle>Ooo Base (OIBB)</sp:sTitle>
+		</op:ueM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para xml:space="preserve" sc:id="t5">Système de Gestion des Bases de données</sc:para>
+				<sc:para xml:space="preserve" sc:id="t8">Recueil d'activités sous Open Office Base ou Access (cf titre des applications)</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>Appli : gestion des notes (Ooo)</sp:title>
+					<sp:sTitle>Appli : gestion des notes (Ooo)</sp:sTitle>
+				</op:ueDivM>
+				<sp:courseUa sc:refUri="/op_I/OIBB_2/4_td/0010/0010_0_td_ac.xml"/>
+				<sp:practUc sc:refUri="/op_I/OIBB_2/4_td/0060/0060_1_td.xml"/>
+				<sp:practUc sc:refUri="/op_I/OIBB_2/4_td/0060/0060_2_td.xml"/>
+				<sp:courseUc sc:refUri="/op_I/OIBB_2/4_td/0060/0060_3_formulaires.xml"/>
+				<sp:courseUc sc:refUri="/op_I/OIBB_2/4_td/0060/0060_4_sous_formulaire.xml"/>
+				<sp:practUc sc:refUri="/op_I/OIBB_2/4_td/0060/0060_5.xml"/>
+			</op:ueDiv>
+		</sp:div>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>Application : Historique véhicules</sp:title>
+					<sp:sTitle>Application : Historique véhicules</sp:sTitle>
+				</op:ueDivM>
+				<sp:practUc sc:refUri="/op_I/OIBB_2/4_td/0016/0016_td.xml"/>
+			</op:ueDiv>
+		</sp:div>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>Appli : Facturation (Access)</sp:title>
+					<sp:sTitle>Appli : Facturation (Access)</sp:sTitle>
+				</op:ueDivM>
+				<sp:intro>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t22"><sc:uLink role="bib" sc:id="t27" sc:refUri="/I/1B/R/requetes_criteres.ref">Critères (Requêtes)</sc:uLink></sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:intro>
+				<sp:practUc sc:refUri="/op_I/OIBB_2/7C_app_gestcom_mdb_01/exercice_01/exercice_01.xml"/>
+				<sp:practUc sc:refUri="/op_I/OIBB_2/7C_app_gestcom_mdb_01/exercice_02/exercice_02.xml"/>
+			</op:ueDiv>
+		</sp:div>
+	</op:ue>
+</sc:item>

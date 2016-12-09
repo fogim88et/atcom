@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Programme Directeur de Production</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">Le plan industriel et commercial, s'il donne bien les objectifs de production, ne permet toutefois pas de produire. </sc:para>
+					<sc:para xml:space="preserve" sc:id="t12">On ne fabrique pas une &quot;famille&quot; de produits, mais des références commerciales précises. </sc:para>
+					<sc:para xml:space="preserve" sc:id="t11">C'est le but du PROGRAMME DIRECTEUR DE PRODUCTION (PDP).</sc:para>
+					<sc:para xml:space="preserve" sc:id="t8">Le <sc:inlineStyle role="emp" sc:id="t13">PDP</sc:inlineStyle> est un échéancier des quantités à produire, par référence commerciale (<sc:inlineStyle role="emp" sc:id="t14">produits finis</sc:inlineStyle>).</sc:para>
+					<sc:para xml:space="preserve" sc:id="t10">Son rôle est d'adapter la production aux besoins, traduire la volonté de la direction, confronter l'usine au marché, régulariser la réponse de l'usine au commercial, bien affecter les ressources, assurer un meilleur niveau de services à la clientèle (produire la bonne quantité au bon moment).</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

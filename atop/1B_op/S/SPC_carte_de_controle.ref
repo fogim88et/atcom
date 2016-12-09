@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>MSP Carte de contrôle (6G)</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:textLeaf role="auth" sc:id="t6">Source Wikipédia</sc:textLeaf> : <sc:uLink role="url" sc:id="t5" url="http://fr.wikipedia.org/wiki/Carte_de_contr%C3%B4le">Lien Web</sc:uLink>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:cloze>
+<op:exeM>
+<sp:title>Identification</sp:title>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Identifiez les coefficients de notre exemple</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/0_res_sxf/f_exemple.odf">
+<op:resInfoM>
+<sp:index>form</sp:index>
+</op:resInfoM>
+</sp:res>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t9">Donnez la valeur des coefficients suivants</sc:para>
+				<sc:para>a→<sc:textLeaf role="gap" sc:id="t14">2</sc:textLeaf>
+</sc:para>
+				<sc:para>c<sc:textLeaf role="ind" sc:id="t12">2</sc:textLeaf>→<sc:textLeaf role="gap" sc:id="t15">6</sc:textLeaf>
+</sc:para>
+				<sc:para>d→<sc:textLeaf role="gap" sc:id="t16">-5</sc:textLeaf>
+</sc:para>
+				<sc:para>c<sc:textLeaf role="ind" sc:id="t13">3</sc:textLeaf>→<sc:textLeaf role="gap" sc:id="t17">2</sc:textLeaf>
+</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t11">Les coefficients indicés on pour indice la puissance associée à x.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

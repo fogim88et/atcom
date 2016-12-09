@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Procédures</sp:title>
+			<sp:sTitle>Procédures</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Fiabilité</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">
+<sc:uLink role="bib" sc:id="t20" sc:refUri="/00_atopale_ext/0H_dk/6B-prc_2-pareto.ref">
+<sc:uLink role="bib" sc:id="t21" sc:refUri="/00_atopale_ext/0H_dk/6B-prc_2-pareto.ref">Procédure Méthode de PARETO (6B-prc_2)</sc:uLink>
+</sc:uLink>
+</sc:para>
+								<sc:para xml:space="preserve" sc:id="t5">
+									<sc:uLink role="bib" sc:id="t8" sc:refUri="/00_atopale_ext/0H_dk/2C2A-FMD_obs_n-prc_10.ref">Procédure de Calcul : Fiabilité Expérimentale (n ttf)</sc:uLink>
+								</sc:para>
+								<sc:para xml:space="preserve" sc:id="t14">
+									<sc:uLink role="bib" sc:id="t9" sc:refUri="/00_atopale_ext/0H_dk/2C2A-7B-FMD_obs_n-prc_1.ref">Procédure Tableur : Fiabilité Expérimentale (n ttf)</sc:uLink>
+								</sc:para>
+								<sc:para xml:space="preserve" sc:id="t15">
+									<sc:uLink role="bib" sc:id="t10" sc:refUri="/00_atopale_ext/0H_dk/2C2B-FMD_obs_nc-prc_8.ref">Procédure Calcul : Fiabilité Expérimentale (tc-dn)</sc:uLink>
+								</sc:para>
+								<sc:para xml:space="preserve" sc:id="t16">
+									<sc:uLink role="bib" sc:id="t11" sc:refUri="/00_atopale_ext/0H_dk/2C2B-7B-FMD_obs_nc-prc_6.ref">Procédure Tableur : Fiabilité Expérimentale (tc-dn)</sc:uLink>
+								</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Tableur</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t28"><sc:uLink role="bib" sc:id="t29" sc:refUri="/00_atopale_ext/0H_dk/7B4A-prc_3-info_serie_param.ref">7B4A1 : Série de données paramétrable (prc_3)</sc:uLink></sc:para>
+								<sc:para xml:space="preserve"><sc:uLink role="bib" sc:id="t30" sc:refUri="/00_atopale_ext/0H_dk/7B5-ne_19-Etude_Fonctions.ref">7B5-td : Etude des fonctions</sc:uLink></sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

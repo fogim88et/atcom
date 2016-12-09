@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:refM>
+			<sp:ref>ex-9-en : TRG</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t15">Pendant une période de 30 jours, on a relevé sur le compteur horaire de la machine 295 heures de production.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t16"> Le temps de cycle est normalement de 1000 pièces à l'heure. </sc:para>
+					<sc:para xml:space="preserve" sc:id="t17">280 000 pièces ont été produites, et 10 000 se sont révélées être défectueuses. </sc:para>
+					<sc:para xml:space="preserve" sc:id="t18">Les informations extraites de l'historique machine sont les suivantes : </sc:para>
+					<sc:itemizedList sc:id="t19">
+						<sc:listItem sc:id="t20">
+							<sc:para xml:space="preserve" sc:id="t21">Réglages machines : 15 heures. </sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t22">
+							<sc:para xml:space="preserve" sc:id="t23">Attente de matière première : 10 heure.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t24">
+							<sc:para xml:space="preserve" sc:id="t25">Arrêt machine sur 12 défaillances : 24 heures. </sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t26">
+							<sc:para xml:space="preserve" sc:id="t27">Arrêt machine pour mesures et contrôles : 6 heures. </sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

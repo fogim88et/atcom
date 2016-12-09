@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>La performance</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>TRG : TxP</sp:keywd>
+							<sp:keywd>TRG : TN</sp:keywd>
+							<sp:keywd>TRG : EP</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t155">
+							<sc:uLink role="ucLnk" sc:id="t305" sc:refUri="/2E001/001/001_en.xml">Consultez l'énoncé</sc:uLink>, et calculer le <sc:uLink role="glos" sc:id="t163" sc:refUri="/1B_op/M/TUV/TRG/TN.ref">TN</sc:uLink>. En déduire l'<sc:uLink role="glos" sc:id="t171" sc:refUri="/1B_op/M/TUV/TRG/EP.ref">EP</sc:uLink>.</sc:para>
+						<sc:table role="" sc:id="t222">
+							<sc:caption xml:space="preserve" sc:id="t283">Etat des données à l'issue de la Question 4</sc:caption>
+							<sc:column sc:id="t224" width="15"/>
+							<sc:column sc:id="t225" width="15"/>
+							<sc:column sc:id="t226" width="16"/>
+							<sc:row sc:id="t227">
+								<sc:cell sc:id="t228">
+									<sc:para xml:space="preserve" sc:id="t229">
+										<sc:inlineStyle role="emp" sc:id="t276">TO = 24 h</sc:inlineStyle>
+									</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t230"/>
+								<sc:cell sc:id="t231">
+									<sc:para xml:space="preserve" sc:id="t299">TRG = 54%</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t232">
+								<sc:cell sc:id="t233">
+									<sc:para xml:space="preserve" sc:id="t234">TB = 17 h</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t236">
+									<sc:para xml:space="preserve" sc:id="t237">AI = 7 h</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t239">
+									<sc:para xml:space="preserve" sc:id="t240">TxB = ........</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t241">
+								<sc:cell sc:id="t242">
+									<sc:para xml:space="preserve" sc:id="t243">
+										<sc:uLink role="glos" sc:id="t270" sc:refUri="/1B_op/M/TUV/TRG/TN.ref">TN</sc:uLink> = <sc:inlineStyle role="emp" sc:id="t277">? ? ?</sc:inlineStyle>
+</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t244">
+									<sc:para xml:space="preserve" sc:id="t245">
+										<sc:uLink role="glos" sc:id="t269" sc:refUri="/1B_op/M/TUV/TRG/EP.ref">EP</sc:uLink> = <sc:inlineStyle role="emp" sc:id="t278">? ? ?</sc:inlineStyle>
+</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t246">
+									<sc:para xml:space="preserve" sc:id="t247">TxP = ........</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t248">
+								<sc:cell sc:id="t249">
+									<sc:para xml:space="preserve" sc:id="t250">
+												TU = 13 h
+											</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t251">
+									<sc:para xml:space="preserve" sc:id="t252">NQ = 2 h</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t253">
+									<sc:para xml:space="preserve" sc:id="t254">TxQ = ........</sc:para>
+								</sc:cell>
+							</sc:row>
+						</sc:table>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t157">La somme des temps de production de l'ensemble des pièces est de <sc:textLeaf role="gap" sc:id="t170">15</sc:textLeaf> heures. EP est donc de <sc:textLeaf role="gap" sc:id="t217">2</sc:textLeaf> heures.</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para>Soit un TN de 15 heures et un EP = 17-15 = 2 heures</sc:para>
+						<sc:para>ou encore TN = TU + NQ que nous avons calculé au préalable</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

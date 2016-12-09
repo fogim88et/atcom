@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Risque de rupture</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">C'est la <sc:inlineStyle role="emp" sc:id="t4">probabilité</sc:inlineStyle> de subir une rupture de stock pendant le délai <sc:inlineStyle role="emp" sc:id="t7">d</sc:inlineStyle> de livraison. Plus la consommation est régulière, et plus il est facile d'en déduire un <sc:inlineStyle role="emp" sc:id="t5">stock de sécurité</sc:inlineStyle> (Qs ou Qmin) qui permettra d'absorber les demandes de sortie pendant le délai de réapprovisionnement. Les <sc:inlineStyle role="emp" sc:id="t6">modèles statistiques</sc:inlineStyle> (Poisson ou Gauss dans la plupart des cas) permettent d'évaluer ce risque en fonction de la dispersion (<sc:inlineStyle role="emp" sc:id="t8">écart-type</sc:inlineStyle>) des consommations pendant le délai.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Qualité</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Ensemble des propriétés et caractéristiques d'un produit ou service qui lui confèrent l'aptitude à satisfaire des besoins exprimés ou implicites.</sc:para>
+					<sc:para>La qualité intervient à tous les niveaux de l'entreprise en ayant l'objectif de déceler et de corriger toutes des sources de non-qualité (organisation, communication, documentation, production, maintenance, logistique).</sc:para>
+				</op:sTxt>
+			</sp:def>
+			<sp:wikip>Qualité</sp:wikip>
+		</op:glosM>
+	</op:glos>
+</sc:item>

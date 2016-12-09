@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:refM>
+			<sp:ref>Corrigé 6A-02e</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4"><sc:inlineStyle role="emp" sc:id="t5">TO :</sc:inlineStyle> 100 heures de fonctionnement</sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">
+							<sc:inlineStyle role="emp" sc:id="t7">TU ? :</sc:inlineStyle>
+						</sc:para>
+					<sc:para xml:space="preserve" sc:id="t8">1740 pièces réalisées, soit un TN de 1740 * 3 mns, soit TN = 87 heures</sc:para>
+					<sc:para xml:space="preserve" sc:id="t9">15 pièces défectueuses, donc NQ = 0,75 heure, donc TU = 86,25 h</sc:para>
+					<sc:para xml:space="preserve" sc:id="t10">
+							<sc:inlineStyle role="emp" sc:id="t11">TRG ?</sc:inlineStyle>
+						</sc:para>
+					<sc:para xml:space="preserve" sc:id="t12">Le TRG est donc de 86,25 %</sc:para>
+					<sc:para xml:space="preserve" sc:id="t13">
+							<sc:inlineStyle role="emp" sc:id="t14">AI ? :</sc:inlineStyle>
+						</sc:para>
+					<sc:para xml:space="preserve" sc:id="t15">8 heures sur défaillance, changement d'outils pour 2 heures, attente MP pour 1 heure, donc AI = 11 heures</sc:para>
+					<sc:para xml:space="preserve" sc:id="t16">TB = 100-11 = 89 heures</sc:para>
+					<sc:para xml:space="preserve" sc:id="t17">
+							<sc:inlineStyle role="emp" sc:id="t18">Taux intermédiaires :</sc:inlineStyle>
+						</sc:para>
+					<sc:para xml:space="preserve" sc:id="t19">TxB = 89/100</sc:para>
+					<sc:para xml:space="preserve" sc:id="t20">TxP = 87/89</sc:para>
+					<sc:para xml:space="preserve" sc:id="t21">txQ = 86,25/87</sc:para>
+					<sc:para xml:space="preserve" sc:id="t22">MTBF : on a 17 défaillances sur 100 heures, donc 1 panne en moyenne toutes les 100/17 h</sc:para>
+					<sc:para xml:space="preserve" sc:id="t23">MTTR : on 17 défaillances réparées en 8 heures, donc 1 panne est réparée en moyenne en 8/17 h</sc:para>
+					<sc:para xml:space="preserve" sc:id="t24">A = MTBF /(MTBF + MTTR) = 5,88/(5,88+0,47)</sc:para>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

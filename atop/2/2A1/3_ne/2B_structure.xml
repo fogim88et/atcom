@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Structure du service maintenance (2A2B)</sp:title>
+			<sp:sTitle>Structure du service maintenance</sp:sTitle>
+		</op:uM>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Tâches à court-terme</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t6">Les tâches à court terme concernent les travaux de tous les jours, et sont exécutées dans le cadre de la fonction <sc:inlineStyle role="emp">REALISATION</sc:inlineStyle>.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t7">Pour l'essentiel, il s'agira bien sûr des travaux <sc:uLink role="glos" sc:id="t26" sc:refUri="/1B_op/M/TUV/type_maint/curative.ref">curatifs</sc:uLink> et <sc:uLink role="glos" sc:id="t27" sc:refUri="/1B_op/M/TUV/type_maint/mi_preventive.ref">préventifs</sc:uLink> indispensables à la continuité de la production, mais aussi des <sc:uLink role="glos" sc:id="t28" sc:refUri="/1B_op/M/TUV/type_maint/travaux_neufs.ref">travaux neufs</sc:uLink> ou d'<sc:uLink role="glos" sc:id="t29" sc:refUri="/1B_op/M/TUV/type_maint/corrective.ref">amélioration</sc:uLink> (maintenance modificative).</sc:para>
+										<sc:para xml:space="preserve" sc:id="t8">Pour l'encadrement et la maîtrise qui en a la charge, cela comprend :</sc:para>
+										<sc:itemizedList sc:id="t17">
+											<sc:listItem sc:id="t18">
+												<sc:para xml:space="preserve" sc:id="t9">la gestion et la conduite des hommes,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t19">
+												<sc:para xml:space="preserve" sc:id="t10">le programme journalier et la constitution des équipes,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t20">
+												<sc:para xml:space="preserve" sc:id="t11">l'approvisionnement et la mise en route des chantiers,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t21">
+												<sc:para xml:space="preserve" sc:id="t12">la sécurité du personnel et du matériel,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t22">
+												<sc:para xml:space="preserve" sc:id="t13">le suivi des travaux et la surveillance du personnel,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t23">
+												<sc:para xml:space="preserve" sc:id="t14">le suivi et le contrôle de la sous-traitance,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t24">
+												<sc:para xml:space="preserve" sc:id="t15">les liaisons courantes avec la Fabrication,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t25">
+												<sc:para xml:space="preserve" sc:id="t16">la ventilation des heures, et le traitement des rapports d'intervention.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:basic>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t32">Bien sûr, toutes ces heures de gestion ne sont pas « productives » (ce ne sont pas des heures d'intervention), néanmoins, il faudra en tenir compte dans l'établissement du budget de fonctionnement du service maintenance.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t33">Regrouper ces heures de gestion dans la main d'oeuvre affecté aux interventions (dépannage par exemple) revient à se priver de comparer l'effort accompli aux résultats obtenus.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t34">La volonté de gestionnaire de chercher à tout prix à trouver 8 heures de MO dans les bons d'intervention n'est donc pas souhaitable : il est donc préférable de créer des postes d'imputation pour les tâches de gestion &quot;improductives&quot;. Tant que faire se peut, l'agent y intégrera les temps libres ou perdus (café, discussions, etc ...) sous une forme qui pénalise le moins possible les possibilités d'analyse du système d'information.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:basic>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Tâches à moyen-terme</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t37">Le service maintenance ne peut pas simplement se contenter de gérer les tâches quotidiennes. Maintenir les équipement dans le meilleur état de fonctionnement au meilleur coût, nécessite sans cesse de se donner les moyens d'anticiper les évolutions des équipements, et d'optimiser la politique de maintenance :</sc:para>
+										<sc:itemizedList sc:id="t47">
+											<sc:listItem sc:id="t48">
+												<sc:para xml:space="preserve" sc:id="t38">définir une politique de maintenance adaptée (2D)</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t49">
+												<sc:para xml:space="preserve" sc:id="t39">doter les hommes d'une documentation technique opérationnelle (2B),</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t50">
+												<sc:para xml:space="preserve" sc:id="t40">prévoir les pièces de rechange nécessaire (2E),</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t51">
+												<sc:para xml:space="preserve" sc:id="t41">rechercher la meilleure productivité de l'activité (2F)</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t52">
+												<sc:para xml:space="preserve" sc:id="t42">rechercher des améliorations d'une manière permanente (2G)</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:para xml:space="preserve" sc:id="t43">On distinguera donc 3 grands poste d'activité :</sc:para>
+										<sc:itemizedList sc:id="t53">
+											<sc:listItem sc:id="t54">
+												<sc:para xml:space="preserve" sc:id="t44">La gestion technique du matériel</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t55">
+												<sc:para xml:space="preserve" sc:id="t45">Analyse des coûts et résolution des <sc:uLink role="ucLnk" sc:id="t59" sc:refUri="/2/2B_normes/3_ne/2B6_defaillances.xml">défaillances</sc:uLink> graves ou répétitive : améliorer la <sc:uLink role="glos" sc:id="t57" sc:refUri="/1B_op/D/disponibilite.ref">disponibilité</sc:uLink> des équipements, et mieux cibler le besoin en matière de <sc:uLink role="ucLnk" sc:id="t60" sc:refUri="/00_atopale_ext/2B_dossier_technique/gestion_technique_ne.xml">documentation technique</sc:uLink>.</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t56">
+												<sc:para xml:space="preserve" sc:id="t46">Préparation du travail : les interventions importantes ou répétitives doivent être préparées pour améliorer la productivité ou l'efficacité des interventions. La encore, les liaisons ou interfaces avec la documentation technique apparaîtront évidentes. La structure doit aussi intégrer la définition des cahiers des charges et les contrats pour la maintenance sous-traitée.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Répartition court/moyen terme</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t63">Aussi bien pour le court ou le long terme, on conçoit facilement le besoin pour le service de se doter d'outils de gestion lui permettant de :</sc:para>
+										<sc:itemizedList sc:id="t73">
+											<sc:listItem sc:id="t74">
+												<sc:para xml:space="preserve" sc:id="t64">calculer l'ensemble des besoins en main d'œuvre,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t75">
+												<sc:para xml:space="preserve" sc:id="t65">répartir le personnel en fonction des délais,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t76">
+												<sc:para xml:space="preserve" sc:id="t66">planifier le préventif,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t77">
+												<sc:para xml:space="preserve" sc:id="t67">prévoir la sous-traitance,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t78">
+												<sc:para xml:space="preserve" sc:id="t68">contrôler et regrouper les informations (temps M.O et arrêt, coûts en fonction des secteurs ou équipements)</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:para xml:space="preserve" sc:id="t69">Le Moyen Terme ne peut pas être assuré d'une manière constante et efficace par les Contremaîtres de Réalisation : comment se pencher sur un dossier technique à constituer, étudier une amélioration, définir un plan de maintenance préventive, quand on est appelé constamment sur les chantiers et bien souvent en urgence ?.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:basic>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t81">Il faut dégager du temps et de la matière grise pour bien prendre en charge le moyen terme et les recherches d'amélioration. C'est pourquoi, il est judicieux d'organiser la structure suivant le modèle ci-dessous :</sc:para>
+										<sc:itemizedList sc:id="t84">
+											<sc:listItem sc:id="t85">
+												<sc:para xml:space="preserve" sc:id="t82">
+<sc:inlineStyle role="emp">FONCTION REALISATION</sc:inlineStyle> : Elle prendra en charge le court terme</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t86">
+												<sc:para xml:space="preserve" sc:id="t83">
+<sc:inlineStyle role="emp">BUREAU TECHNIQUE MAINTENANCE</sc:inlineStyle> (B.T.M.) : tâches du moyen terme (Fonction Méthodes), ordonnancement, gestion des stocks.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:basic>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Travail d'équipe entre Réalisation / Méthodes</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t89">Il est indispensable de générer, d'une manière permanente, un travail d'équipe entre les agents de maîtrise réalisation, les techniciens méthodes maintenance (appartenant au B.T.M).</sc:para>
+										<sc:para xml:space="preserve" sc:id="t90">Assurer cette coopération doit être un des soucis du responsable Maintenance, car il ne doit pas y avoir d'un côté les penseurs et de l'autre côté les exécutants.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Fonction Méthode</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t94">La fonction Méthode du B.T.M doit être comprise comme une aide à la fonction réalisation, celle-ci ne pouvant pas prendre en charge toutes les tâches administratives.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t95">Certaines recettes permettent de favoriser ce travail d'équipe :</sc:para>
+										<sc:itemizedList sc:id="t102">
+											<sc:listItem sc:id="t103">
+												<sc:para xml:space="preserve" sc:id="t96">Faire préparer les travaux d'arrêts conjointement par les agents de maîtrise réalisation et les techniciens méthodes,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t104">
+												<sc:para xml:space="preserve" sc:id="t97">Renforcer l'encadrement réalisation par des techniciens méthodes lors de la réalisation de travaux d'arrêt,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t105">
+												<sc:para xml:space="preserve" sc:id="t98">Incorporer les techniciens méthodes dans les tours de garde et les astreintes,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t106">
+												<sc:para xml:space="preserve" sc:id="t99">Constituer des groupes de travail mixtes pour la recherche d'améliorations,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t107">
+												<sc:para xml:space="preserve" sc:id="t100">Dans les évolutions de carrière, effectuer des permutations entre les contremaîtres réalisation et les techniciens méthodes.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Répartition Maintenance/Production</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t110">Dans une démarche visant à mieux maîtriser les évolutions des équipements, l'opérateur ou l'agent de production, toujours proche de sa machine, peut participer efficacement à la maintenance de la machine en :</sc:para>
+										<sc:itemizedList sc:id="t123">
+											<sc:listItem sc:id="t124">
+												<sc:para xml:space="preserve" sc:id="t111">exerçant une bonne surveillance du fonctionnement de la machine,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t125">
+												<sc:para xml:space="preserve" sc:id="t112">en effectuant des tâches de maintenance de niveau 1 ou 2,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t126">
+												<sc:para xml:space="preserve" sc:id="t113">en apportant des précisions sur les symptômes de défaillances en cas d'arrêt machine,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t127">
+												<sc:para xml:space="preserve" sc:id="t114">en assistant l'agent de maintenance pour les interventions nécessitant 2 personnes.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:para xml:space="preserve" sc:id="t115">Sur un plan humain, on peut arriver à un enrichissement des tâches des opérateurs, et sur un plan organisationnel ou économique, le service maintenance doit petit à petit, faire évoluer sa structure de façon à renforcer son secteur méthodes.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t116">Néanmoins, il conviendra de ne pas négliger les problèmes soulevés par cette façon de faire :</sc:para>
+										<sc:itemizedList sc:id="t128">
+											<sc:listItem sc:id="t129">
+												<sc:para xml:space="preserve" sc:id="t117">la remise en cause des habitudes (à chacun son travail !),</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t130">
+												<sc:para xml:space="preserve" sc:id="t118">le niveau de compétence et de motivation requis,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t131">
+												<sc:para xml:space="preserve" sc:id="t119">le contrôle de la qualité du travail effectué par les intervenants.</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t132">
+												<sc:para xml:space="preserve" sc:id="t120">le respect des consignes de sécurité</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:para xml:space="preserve" sc:id="t121">Il faut que les tâches confiées aux opérateurs de fabrications soient bien identifiées et bien formalisées ( par ex : on peut pouvoir remplacer un fusible identifié, mais pas tel autre) : pour des raisons de sécurité, il ne s'agit pas de laisser faire n'importe quoi. Pour ce faire, il est souhaitable de réaliser un &quot;manuel opérateur&quot; fixé à la machine.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t122">Ce partage de tâches Maintenance/Fabrication est grandement facilité par la prise en compte de la maintenance au stade de conception des matériels, car on peut alors penser &quot;conception modulaire&quot; pour faciliter le remplacement d'organes.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Spécialisation/Polyvalence</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t136">Dans l'industrie, on assiste à un développement de nouvelles technologies, ainsi qu'à l'intégration croissante des différentes technologies.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t137">Le développement de nouvelles technologies (automates programmables, commandes numériques, variateurs électroniques, mesures LASER, instrumentation nouvelle, informatique industrielle) amène à augmenter le besoin de disposer de personnels spécialisés.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t138">Par contre, sur une installation ou une machine, il devient de plus en plus difficile de distinguer les frontières et limites des différentes technologies utilisées, tellement l'intégration de celles-ci devient importante. Les différentes technologies s'imbriquant toujours davantage, on est amené à se dire: il faut développer la polyvalence des hommes de maintenance. En effet, en cas de panne, le fabricant (ou exploitant) ne sait plus distinguer quelle technologie est concernée.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t139">L'évolution du matériel a donc pour incidences deux exigences peuvent paraître contradictoires :</sc:para>
+										<sc:itemizedList sc:id="t146">
+											<sc:listItem sc:id="t147">
+												<sc:para xml:space="preserve" sc:id="t140">la nécessité de la spécialisation,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t148">
+												<sc:para xml:space="preserve" sc:id="t141">l'augmentation de la polyvalence technique (maîtrise de plusieurs technologies) et géographique (capacité à intervenir dans plusieurs secteurs de l'entreprise.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:para xml:space="preserve" sc:id="t142">Une idée de base est de former les hommes (sur le terrain) sur des sous-ensembles opérationnels, afin que chaque homme formé puisse prendre en charge le maximum des interventions de dépannage (les remises en état pouvant être faites par des spécialiste d'atelier central, ou en sous-traitance). Un sous-ensemble opérationnel est par exemple : un automate programmable avec d'une part des capteurs, et d'autre part les contacteurs en amont des organes commandés, voire même les organes commandés eux-mêmes ( ou actionneurs) .</sc:para>
+										<sc:para xml:space="preserve" sc:id="t143">Cette idée nécessite parfois des remises en cause. Par exemple, on rencontre parfois dans une même usine les corps de métiers suivants : électriciens, électroniciens, instrumentistes, spécialistes en informatique industrielle. Or ces différents corps de métier interviennent plus ou moins sur les mêmes types d'appareils : relayages électromécaniques, relayages électrostatiques, blocs de régulation, automates programmables, calculateurs, capteurs, transmetteurs, régulateurs, analyseurs, commandes d'organes, actionneurs. . .</sc:para>
+										<sc:para xml:space="preserve" sc:id="t144">Souvent les frontières d'intervention ne sont pas très nettes et une formation sur le site de l'entreprise sera souvent plus profitable qu'un stage adapté à une technologie.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t145">Il est parfois utile de former une équipe de spécialistes travaillant ensemble sous une coordination. Cette équipe polyvalente sera en général temporaire, sauf si la structure la rend viable en terme de moyens humains, ou si de nombreux travaux la justifie.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

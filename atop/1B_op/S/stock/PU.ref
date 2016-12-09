@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:glosM>
+			<sp:term>Prix Unitaire des pièces (PU)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">C'est le prix unitaire des pièces de rechange en stock.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t4"> En général, on sait qu'un stock peut provenir de plusieurs commandes avec des prix différents. On utilisera donc le <sc:inlineStyle role="emp" sc:id="t5">PUMP</sc:inlineStyle> (Prix Moyen pondéré) pour optimiser le rythme des approvisionnements que les logiciels de <sc:inlineStyle role="emp" sc:id="t7">GMAO</sc:inlineStyle> peuvent calculer.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

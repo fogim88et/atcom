@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:ueM>
+			<sp:title>Gestion Stock</sp:title>
+		</op:ueM>
+		<sp:courseUa sc:refUri="/M/MF_trsf_tpz/2E_ne_parcours_.xml"/>
+		<sp:courseUa sc:refUri="/M/MF_trsf_tpz/2E_td_parcours.xml"/>
+	</op:ue>
+</sc:item>

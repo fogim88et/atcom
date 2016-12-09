@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>FMD 5 - TABLEUR</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le fichier est en téléchargement ci-dessous</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:int sc:refUri="/T_exams/2016/fmd_5.ods">
+							<op:instructionM/>
+						</sp:int>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Données 1</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Faire l'étude de Fiabilité  sur le tableur avec la représentation graphique de la Fiabilité en fonction de t d'une part et du taux de défaillance en fonction de tc d'autre part.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

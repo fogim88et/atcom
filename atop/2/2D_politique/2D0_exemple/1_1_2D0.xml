@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:ueM>
+			<sp:title>Politique de Maintenance (Démarche en exploitation)</sp:title>
+			<sp:sTitle>Politique de Maintenance (Démarche en exploitation)</sp:sTitle>
+		</op:ueM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para xml:space="preserve" sc:id="t3">Découvrir pas à pas la mise en place d'une politique de maintenance sur un site en exploitation</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:courseUc sc:refUri="/2/2D_politique/2D0_exemple/2D0A/2D0A0_historique_importance.xml"/>
+		<sp:courseUc sc:refUri="/2/2D_politique/2D0_exemple/2D0A/B_degradations.xml"/>
+		<sp:courseUc sc:refUri="/2/2D_politique/2D0_exemple/2D0A/B_degradations_resume.xml"/>
+		<sp:courseUc sc:refUri="/2/2D_politique/2D0_exemple/2D0A/C_pres_methodes.xml"/>
+		<sp:courseUc sc:refUri="/2/2D_politique/2D1.xml"/>
+		<sp:courseUc sc:refUri="/2/2D_politique/2D2_prev_permanente/prevention permanente.xml"/>
+	</op:ue>
+</sc:item>

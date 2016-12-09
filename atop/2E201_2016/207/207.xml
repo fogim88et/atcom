@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>207. Loi exponentielle</sp:title>
+			<sp:sTitle>207. Loi exponentielle</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>MC-n1</sp:keywd>
+							<sp:keywd>SE6-n1</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:courseUc sc:refUri="/2E201_2016/207/13_0.xml"/>
+		<sp:trainUcField sc:refUri="/2E201_2016/207/13_a.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E201_2016/207/13_b.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E201_2016/207/13_c.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E201_2016/207/13_d.quiz"/>
+		<sp:conclu>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t117">La question principale à se poser consiste dans la confiance que l'on a sur le taux de défaillance annoncé par le fournisseur.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t118">On pourrait partir sur le fait que si le fournisseur affirme que la fiabilité à t=5000 est de 99,75%, alors on est assuré qu'elle est au moins de 99,5%</sc:para>
+						<sc:para xml:space="preserve" sc:id="t119">Le stock à constituer en début d'année passerait donc à 100 pour être sûr de ne pas être obligé de relancer une commande avant l'échéance prévue.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t120">Si le délai d'approvisionnement est de 1 mois, et que l'on fait le choix de commander lorsque le stock passe en dessous d'une quantité minimum de réapprovisionnement, alors cette quantité pourrait être fixée à 10.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t121">--&gt; la consommation annuelle moyenne étant environ de 50, alors la consommation moyenne mensuelle serait environ de 5. En doublant cette consommation dite moyenne pendant le délai de réapprovisionnement, on évite à coup sûr une rupture de stock, et le rythme des commandes dépendra de la consommation réelle des composants</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:conclu>
+	</op:courseUa>
+</sc:item>

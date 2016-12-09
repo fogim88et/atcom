@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Organisation et Gestion des Machines</sp:title>
+			<sp:sTitle>Organisation et Gestion des Machines</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Implantation</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t8">Un poste = une ou plusieurs machines.</sc:para>
+								<sc:para sc:id="t10">Objectif : minimiser la manutention (cycle de fabrication) du flux matière.</sc:para>
+								<sc:para sc:id="t11">2 types de lignes de produits :</sc:para>
+								<sc:itemizedList sc:id="t17">
+									<sc:listItem sc:id="t18">
+										<sc:para sc:id="t12">Ligne de fabrication non linéaire appelée aussi structure Jobshop.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t19">
+										<sc:para sc:id="t13">Ligne de fabrication linéaire appelée aussi Flowshop (utilisée en filature ou tissage), c'est une structure relative à la machine ou à l'atelier.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para sc:id="t14">a. Méthode des chaînons :</sc:para>
+								<sc:itemizedList sc:id="t20">
+									<sc:listItem sc:id="t21">
+										<sc:para sc:id="t15">Recensement des gammes de fabrication.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t22">
+										<sc:para sc:id="t16">Tableau des chaînons à 2 entrées (machines) mettant en évidence le nombre de liaisons et de chaînons.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/P_op/MP/40_normes_production/implantation.ods">
+<op:resInfoM>
+<sp:index>tab</sp:index>
+</op:resInfoM>
+</sp:res>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

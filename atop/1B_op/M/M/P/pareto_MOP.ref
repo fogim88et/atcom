@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:notion>Méthode de PARETO</sp:notion>
+			<sp:term>Méthode de PARETO</sp:term>
+			<sp:syn>Graphe ABC, Loi des 80-20</sp:syn>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">L'analyse ABC a pour objectif de recenser les <sc:inlineStyle role="emp" sc:id="t13">causes</sc:inlineStyle> qui principalement génèrent le <sc:inlineStyle role="emp" sc:id="t14">maximum d'effet</sc:inlineStyle>.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">L'<sc:inlineStyle role="emp">effet</sc:inlineStyle> mesuré va être exprimé par un <sc:inlineStyle role="emp" sc:id="t15">critère</sc:inlineStyle>.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">Les <sc:inlineStyle role="emp">causes</sc:inlineStyle> sont regroupées en <sc:inlineStyle role="emp" sc:id="t16">classes</sc:inlineStyle>.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t8">Les classes (en abscisse) doivent apparaître dans l'<sc:inlineStyle role="emp" sc:id="t17">ordre décroissant</sc:inlineStyle> des valeurs du critère étudié.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t7">La méthode consiste à représenter graphiquement le <sc:inlineStyle role="emp" sc:id="t18">critère cumulé</sc:inlineStyle> en fonction des classes. </sc:para>
+				</op:sTxt>
+			</sp:def>
+			<sp:wikip>Distribution_de_Pareto</sp:wikip>
+		</op:glosM>
+	</op:glos>
+</sc:item>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>53 - Gestion de Stock. Stock de sécurité</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>SE</sp:keywd>
+							<sp:keywd>MF</sp:keywd>
+							<sp:keywd>MC</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Le délai de livraison d'une pièce est d'une semaine. </sc:para>
+						<sc:para xml:space="preserve" sc:id="t83">On a remarqué sur l'historique des consommations que le nombre de pièces consommées par semaine est <sc:uLink role="ucLnk" sc:id="t92" sc:refUri="/D/DS/3_ne/DSE_ne/5E1_LN (58)/5E1_ne.xml">gaussien</sc:uLink> de moyenne 50 avec un écart-type de 7. </sc:para>
+						<sc:para xml:space="preserve" sc:id="t62">Soit X :&quot;Consommation hebdomadaire&quot;</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t102">Outil logiciel : <sc:uLink role="bib" sc:id="t103" sc:refUri="/0B_op/SE.ref">SE_exe-modeles.exe</sc:uLink></sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t5">Quelle est le stock minimum <sc:uLink role="glos" sc:id="t78" sc:refUri="/1B_op/M/M/S/stock/qs.ref">Qs</sc:uLink> (Stock de sécurité) dont on doit disposer au moment de la commande pour éviter une rupture de stock dans 98% des cas (<sc:uLink role="glos" sc:id="t80" sc:refUri="/1B_op/M/M/S/stock/risque_rupture.ref">Risque α</sc:uLink> = 2%)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t69">Selon la loi normale de moyenne m = 50 et d'écart-type sigma = 7, hachurez l'aire sous la courbe f qui représente la probabilité recherchée et exprimez cette probabilité en fonction de F.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t9">On cherche F(Stock_sécurité)=Proba(X&lt;=Stock_sécurité)=0,98 par N(50,7) on trouvera  un Stock de Sécurité (Qs) = 64 ou 65 </sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t17">Un autre fournisseur assure un délai de 24 heures. Soit Y :&quot;Consommation journalière&quot;. </sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t11">Quelle est alors la consommation moyenne journalière (l'arrondir à l'entier le plus proche pour faciliter les calculs) ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t15">La consommation journalière est arrondie à 7 </sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t53">Quelle est l'écart-type de la consommation journalière ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t55">On doit tenir compte que V(Y)=V(a.X)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t57">On a V(Y)=V(a.X)=a.V(X), donc V(Y)=7 et l'écart-type  racine(7). </sc:para>
+										<sc:para xml:space="preserve">Si la moyenne est multipliée par 1/7 alors l'écart-type est multiplié par racine (1/7), soit <sc:inlineStyle role="emp">2,64</sc:inlineStyle> pour l'écart-type des consommations sur 1 journée.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t23">En déduire par la loi normale,le stock minimum à constituer pour éviter une rupture dans 98% des cas. </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t27">Selon N(7 ; 2,64) , on a F(12)=0,971</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t29">Calculer par le le modèle de Poisson, le stock minimum à constituer pour éviter une rupture dans 98% des cas. </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t33">selon Poisson(m=7), on a F(12)=0,973.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t35">Quel est à votre avis le modèle qui vous semble le plus approprié.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t39">Si la consommation sur 1 Semaine est gaussienne, la consommation journalière ne l'est pas forcément, donc, ici, à priori, le modèle de Poisson semble plus juste. On note que les deux modèles donnent sensiblement la même réponse. Mais plus  la consommation journalière est faible, plus la loi de poisson est juste.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

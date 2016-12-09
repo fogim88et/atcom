@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Les dégradations (B)</sp:title>
+			<sp:sTitle>Les dégradations</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:basic>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t7">Maintenir en bon état, c'est d'abord éliminer les dégradations.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t8">Une défaillance, une panne, ce n'est que l'aboutissement d'une série de dégradations.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:res sc:refUri="/00_atopale_ext/0F_img/2H/09_degradations/09.xml">
+							<op:resInfoM>
+								<sp:pubMode>embeded</sp:pubMode>
+								<sp:index>anim</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:warning>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t19">Les dégradations peuvent être naturelles, ou imposées (mauvaise utilisation ou maintenance insuffisante ou maladroite).</sc:para>
+								<sc:para xml:space="preserve" sc:id="t20">Le Mode opératoire peut être un moyen d'éviter les fautes d'utilisation qui provoquent les dégradations</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/00_atopale_ext/0F_img/2H/B_1.odg">
+							<op:resInfoM>
+								<sp:index>graph</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:warning>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:res sc:refUri="/00_atopale_ext/0F_img/2H/B_mode_operatoire.odg">
+							<op:resInfoM>
+								<sp:index>graph</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:res sc:refUri="/00_atopale_ext/0F_img/2H/10_mode_op/10.xml">
+							<op:resInfoM>
+								<sp:pubMode>embeded</sp:pubMode>
+								<sp:index>anim</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:res sc:refUri="/00_atopale_ext/0F_img/2H/10_mode_op/10_4.odg">
+							<op:resInfoM>
+								<sp:index>graph</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:res sc:refUri="/00_atopale_ext/0F_img/2H/11_rigueur/11.xml">
+							<op:resInfoM>
+								<sp:pubMode>embeded</sp:pubMode>
+								<sp:index>anim</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>l'usure normale</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t40">L'usure d'un palier en bronze est une usure bien naturelle </sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/00_atopale_ext/0F_img/2H/B_usure_normale.odg">
+							<op:resInfoM>
+								<sp:index>graph</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t38">Des analyses de vibrations, des mesures de température, l'oeil ou l'oreille de l'opérateur, le contrôle qualité sont autant de possibilités d'observer des signes avant-coureurs d'une défaillance dite normale ou consécutive à une usure normale</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

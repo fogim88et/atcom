@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>1B</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>1B1</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t4">1.a. Combien de pièces a t-on fabriqué au total ? Combien d'heures ont-été nécessaires à la fabrication de ces pièces ? Quelle est cette grandeur vu du TRG ?</sc:para>
+						<sc:para xml:space="preserve" sc:id="t5">1.b Pourquoi cette valeur est-elle différente du compteur relevé ?</sc:para>
+						<sc:para xml:space="preserve" sc:id="t14">1.c. En déduire le taux de performance</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>1B2</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t20">2.a. Combien de pièces sont déclarées bonnes ? Combien d'heures ont été nécessaires à la fabrication de ces pièces ? Quelle est cette grandeur vu du TRG ?</sc:para>
+						<sc:para xml:space="preserve" sc:id="t21">2.b Pourquoi cette valeur est-elle différente du temps défini en 1.a ?</sc:para>
+						<sc:para xml:space="preserve" sc:id="t22">2.c. En déduire le taux de qualité</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>1B3</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t25">3.a. Combien de temps aurait-on pu passer à produire des pièces ? Quelle est cette grandeur vu du TRG ?</sc:para>
+						<sc:para xml:space="preserve" sc:id="t26">3.b Pourquoi cette valeur est-elle différente du compteur relevé ?</sc:para>
+						<sc:para xml:space="preserve" sc:id="t27">3.c. En déduire le taux brut de fonctionnement</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>1B4</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t30">4. Calculer le TRG.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+	</op:practUc>
+</sc:item>

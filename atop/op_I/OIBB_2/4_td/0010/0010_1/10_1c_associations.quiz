@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:match xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>10.1c. Associations</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:res sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/table_etudiants.ods">
+					<op:resInfoM/>
+				</sp:res>
+				<sp:res sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/table_matieres.ods">
+					<op:resInfoM/>
+				</sp:res>
+				<sp:res sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/table_notes.ods">
+					<op:resInfoM/>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Table indépendante : cela signifie que l'on peut saisir des données dans cette table sans avoir besoin de connaître d'informations des autres tables. Ces tables seront du <sc:inlineStyle role="emp" sc:id="t26">côté 1</sc:inlineStyle> d'une association 1 à n</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t23">Table dépendante : cela signifie que certaines données vont dépendre des données des autres tables : Ces tables seront du <sc:inlineStyle role="emp">côté n</sc:inlineStyle> d'une association 1 à n</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t5">Tables indépendantes</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t7">tb_etudiants</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t19">tb_matieres</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t9">Tables dépendantes</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t21">tb_notes</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+	</op:match>
+</sc:item>

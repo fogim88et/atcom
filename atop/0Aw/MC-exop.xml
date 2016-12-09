@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:ueM>
+			<sp:title>Exercices - FMD - MC - 2016</sp:title>
+		</op:ueM>
+		<sp:courseUa sc:refUri="/2E201_2016/208/208.xml"/>
+		<sp:practUc sc:refUri="/2E201_2016/209.xml"/>
+		<sp:assmntUa sc:refUri="/2E201_2016/210/210.xml"/>
+		<sp:practUc sc:refUri="/2E201_2016/201.xml"/>
+		<sp:courseUa sc:refUri="/2E201_2016/204.xml"/>
+		<sp:trainUcCloze sc:refUri="/2E201_2016/205.quiz"/>
+		<sp:courseUa sc:refUri="/2E201_2016/206/206.xml"/>
+	</op:ue>
+</sc:item>

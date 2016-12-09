@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Questions de cours</sp:title>
+			<sp:sTitle>Questions de cours</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t11">Pour illustrer l'importance de la maintenance à la conception, on parle de l'&lt;<sc:inlineStyle role="emp">effet de levier</sc:inlineStyle>> ? Expliquez ce que signifie ce terme</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t3">Politique de maintenance d'une installation en cours d'exploitation :</sc:para>
+								<sc:para xml:space="preserve">- Quels sont les outils permettant de mesurer son efficacité ?</sc:para>
+								<sc:para xml:space="preserve">- Quels sont les outils ou moyens permettant de l'optimiser ?</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t7">Politique de maintenance d'une installation confiée à une société extérieure ?</sc:para>
+								<sc:para xml:space="preserve">- Qu'allez vous exiger du constructeur ou sous-traitant ? dans quel but ?</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t21">Objectifs de l'analyse fonctionnelle. Qu'est ce que l'AF externe et interne en utilisant les notions de &quot;Fonction principale&quot;, &quot;Fonction de contrainte&quot;, &quot;Caractéristiques&quot;, &quot;Valeurs&quot;.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t23">Définissez en 10-15 lignes l'AMDEC. A qui ou quoi s'applique t-elle ou rend elle service ? Déroulement ? Précisez les colonnes à renseigner.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t25">Définir ce qu'est un arbre de défaillance, un arbre de dépannage. Quelle est la différence entre un schéma fonctionnel et un diagramme de fiabilité.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

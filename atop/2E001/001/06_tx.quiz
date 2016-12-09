@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Les taux intermédiaires</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">D'après l'exemple précédent, nous avons</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:table role="" sc:id="t276">
+							<sc:caption xml:space="preserve" sc:id="t277">Etat des données à l'issue de la Question 5</sc:caption>
+							<sc:column sc:id="t278" width="16"/>
+							<sc:column sc:id="t279" width="16"/>
+							<sc:column sc:id="t280" width="22"/>
+							<sc:row sc:id="t281">
+								<sc:cell sc:id="t282">
+									<sc:para xml:space="preserve" sc:id="t283">TO = 24 h</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t284"/>
+								<sc:cell sc:id="t285">
+									<sc:para xml:space="preserve" sc:id="t380"><sc:uLink role="glos" sc:id="t385" sc:refUri="/1B_op/M/TUV/TRG/TRG.ref">TRG</sc:uLink> = 54%</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t286">
+								<sc:cell sc:id="t287">
+									<sc:para xml:space="preserve" sc:id="t288">TB = 17 h</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t289">
+									<sc:para xml:space="preserve" sc:id="t290">AI = 7 h</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t291">
+									<sc:para xml:space="preserve" sc:id="t292">
+										<sc:uLink role="glos" sc:id="t192" sc:refUri="/1B_op/M/TUV/TRG/txB.ref">TxB</sc:uLink> = <sc:inlineStyle role="emp" sc:id="t372">? ? ?</sc:inlineStyle>
+									</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t293">
+								<sc:cell sc:id="t294">
+									<sc:para xml:space="preserve" sc:id="t295">TN = 15 h</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t296">
+									<sc:para xml:space="preserve" sc:id="t297">EP = 2 h</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t298">
+									<sc:para xml:space="preserve" sc:id="t299">
+										<sc:uLink role="glos" sc:id="t348" sc:refUri="/1B_op/M/TUV/TRG/txP.ref">TxP</sc:uLink> = <sc:inlineStyle role="emp" sc:id="t373">? ? ?</sc:inlineStyle>
+									</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t300">
+								<sc:cell sc:id="t301">
+									<sc:para xml:space="preserve" sc:id="t302">TU = 13 h</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t303">
+									<sc:para xml:space="preserve" sc:id="t304">NQ = 2 h</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t305">
+									<sc:para xml:space="preserve" sc:id="t306">
+										<sc:uLink role="glos" sc:id="t349" sc:refUri="/1B_op/M/TUV/TRG/txQ.ref">TxQ</sc:uLink> = <sc:inlineStyle role="emp" sc:id="t374">? ? ?</sc:inlineStyle>
+									</sc:para>
+								</sc:cell>
+							</sc:row>
+						</sc:table>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t5">Vous en déduirez :</sc:para>
+				<sc:itemizedList sc:id="t81">
+					<sc:listItem sc:id="t82">
+						<sc:para xml:space="preserve" sc:id="t341">Taux de disponibilité brut de la machine (TxB) = <sc:textLeaf role="gap" sc:id="t79">71</sc:textLeaf> %</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t83">
+						<sc:para xml:space="preserve" sc:id="t342">Taux de performance (TxP) = <sc:textLeaf role="gap" sc:id="t78">88</sc:textLeaf> %</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t84">
+						<sc:para xml:space="preserve" sc:id="t343">Taux de Qualité (TxQ) = <sc:textLeaf role="gap" sc:id="t80">87</sc:textLeaf> %</sc:para>
+					</sc:listItem>
+				</sc:itemizedList>
+				<sc:para xml:space="preserve" sc:id="t344">En conclusion, l'entreprise pour améliorer son efficacité globale devra se pencher en priorité sur le Tx<sc:textLeaf role="gap" sc:id="t87">B</sc:textLeaf>.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t363">
+<sc:inlineStyle role="emp" sc:id="t364">Partie tableur :</sc:inlineStyle> compléter le tableau avec le calcul des taux intermédiaires.</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t367">L'indisponibilité de la machine est la plus pénalisante, et les causes sont à étudier en priorité. Néanmoins, il est possible que les solutions s'avèrent à l'arrivée plus onéreuses que d'autres solutions concernant les problèmes de performance ou de qualité.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t368">Dans l'idéal, on comparera donc l'effort à produire au gain espéré pour rester dans une démarche rentable.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t369">La vérité d'un jour n'est pas forcément celle du lendemain : on s'attachera donc à observer ces taux sur une période assez longue pour prendre la meilleure solution.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

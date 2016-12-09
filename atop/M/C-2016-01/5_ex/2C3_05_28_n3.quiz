@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>EXI-28. Redondance 05</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Code 0028</sp:keywd>
+							<sp:keywd>2C-n3</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t8">Un système est composé de 100 composants de type A, et d'un composant de type B. Tous les composants sont en série. La fiabilité à t=250 heures est respectivement de 0,9999 et 0,95.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t17">1. Calculer la fiabilité du système à t=250 heures.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t18">2. Comment améliorer la fiabilité de l'ensemble ? Calculer la fiabilité en appliquant votre solution.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t21">3. Si le taux de défaillance était constant de 0 à 1000 heures en ayant pour valeur 0,0015 par heure, combien resterait-il encore de composant en fonctionnement à t=250 heures. </sc:para>
+				<sc:para xml:space="preserve" sc:id="t24">4. Estimez le nombre de défaillants que l'on peut attendre entre 250 et 500 h, puis entre 500 et 750, puis entre 750 et 1000.</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

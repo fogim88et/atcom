@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Examen M52</sp:title>
+			<sp:sTitle>Examen M52</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>GMAO</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t27">Développez ce que vous avez mis en pratique sur la GMAO (projet TP, expérience) concernant les fonctions ou fonctionnalités de la GMAO. Vous pouvez prendre des exemples précis ou concrets pour ne pas partir dans de longues explications douteuses, et apporter des éclaircissement sur les points ci-dessous : </sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Que pouvez dire sur son intégration dans une politique de maintenance. Comment justifier son investissement ou son utilité</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Citer les étapes importantes de la mise en place d'une GMAO.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Remarque </sc:inlineStyle>: Vous pourriez aussi vous mettre à la place du commercial qui doit convaincre ou du professionnel qui doute de l'intérêt de l'informatique de gestion de Maintenance</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>GESTION DE STOCK</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Les points ci-dessous traitent des décisions ou des choix que l'on doit prendre concernant des pièces. Si on fait des erreurs ou des mauvais choix, décrivez précisément quelles sont les conséquences en répondant aux questions.</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Comment prendre la décision de stocker ou non une pièce. Argumentez en fonction du type de pièce (banale, commun, spécifique)</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Quel est le compromis qui permet de définir le rythme des commandes pour une pièce que l'on va stocker. Précisez quels sont les méthodes d'approvisionnement</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Quelle est votre marge de manoeuvre lorsque vous devez choisir Qe en fonction de la valeur que vous avez calculé. </sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Comment calcule t-on un seuil de sécurité Qs.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Données communes</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t3">Paramètres de gestion associés à l'entreprise (Cc = 30 € et T = 20%). La pénalité par jour est fixée à 1000 euros.</sc:para>
+								<sc:para xml:space="preserve">Pièce A : Qa = 500, Pu = 15 euros, d =2 jours pour le fournisseur 1, d =3 jours pour le fournisseur 3</sc:para>
+								<sc:para xml:space="preserve">Pièce B : Qa = 100, Pu = 80 euros, d = 4 jours pour le fournisseur 2, d =3 jours pour le fournisseur 3</sc:para>
+								<sc:para xml:space="preserve">Pièce C : Qa = 1 ; Pu = 8000 €, délai 6 jours</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Pièce A approvisionnée par le fournisseur 1</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t9">1. Justifier le plus simplement possible la raison du stockage de la pièce.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t10">2. Quelle méthode vous semble la plus appropriée pour le réapprovisionnement de la pièce ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t11">3. Calculer Qe et Te. En déduire le nombre de commandes optimum pour la pièce.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t12">4. Calculer la consommation moyenne pendant le délai. Sans utiliser un modèle statistique, proposer une quantité minimum de réapprovisionnement avec un risque mesuré de l'ordre 5% (4.a) ou un risque quasi-nul (4.b).</sc:para>
+								<sc:para xml:space="preserve" sc:id="t13">5. Quelle solution choisiriez vous (4a ou 4b) en vous appuyant sur la pénalité encourue en cas de rupture de stock ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t14">6. Complétez les paramètres de réapprovisionnement (selon votre choix en 2).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Pièce B approvisionnée par le fournisseur 2</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t23">1. Calculer Qe, Te</sc:para>
+								<sc:para xml:space="preserve" sc:id="t24">2. Choisir la méthode de réapprovisionnement et calculer Qs.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Pièce A et B approvisionnées par le fournisseur 3</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t105">Un fournisseur commun pour les pièces A et B avec un délai de 3 jours nous oblige à refaire l'étude de ces pièces. La méthode de réapprovisionnement sera donc un Plan d'approvisionnement avec une périodicité commune aux deux pièces. On considérera que le Cc peut être divisé par 2.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t106">Calculer Qs, P et la période de réapprovisionnement pour les deux pièces.</sc:para>
+								<sc:para xml:space="preserve">Quelle est votre conclusion concernant ce changement de fournisseur ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Pièce C</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t109">
+<sc:inlineStyle role="emp">Situations qui peuvent se produire :</sc:inlineStyle>
+</sc:para>
+								<sc:itemizedList sc:id="t121">
+									<sc:listItem sc:id="t122">
+										<sc:para xml:space="preserve" sc:id="t110">Cas S0 : la pièce ne tombe pas en panne dans la première année (proba p0 = 0,37)</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t123">
+										<sc:para xml:space="preserve" sc:id="t111">Cas S1 : la pièce tombe en panne dans la première année (proba p1 = 0,37)</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t124">
+										<sc:para xml:space="preserve" sc:id="t112">Cas S2 : 2 pièces tombent en panne la première année (proba p2 = 0,17)</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t113">(On remarque que la somme fait 91%, on négligera donc les cas 3 pannes et plus)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t114">
+<sc:inlineStyle role="emp">Choix envisageables :</sc:inlineStyle>
+</sc:para>
+								<sc:itemizedList sc:id="t125">
+									<sc:listItem sc:id="t126">
+										<sc:para xml:space="preserve" sc:id="t115">Cas R0 : Vous attendez la panne sans stockage.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t127">
+										<sc:para xml:space="preserve" sc:id="t116">Cas R1 : Vous mettez une pièce en stock</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t117">Pourquoi le cas de 2 pièces en stock n'est-il pas pris en compte ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t118">Dans le cas R0, vous subissez un coût de possession nul et un CDM (calculez le pour les 3 cas S0, S1, S2)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t119">Dans le cas R1, vous avez un CDM nul et un coût de possession (calculez le pour les cas S0, S1, S2) et un CDM nul.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t120">Pour choisir la meilleure solution entre R0 et R1, il faut donc choisir celle qui donne la somme des produits proba * coût le plus bas, à la condition que l'écart soit suffisamment significatif pour avoir les moyens de trancher.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Etude d'approvisonnement pièce D</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Paramètres de gestion associés à l'entreprise (Cc = 30 € et T = 15%). Pénalité en cas d'arrêt de production 100 à 250 euros de l'heure. La fiabilité de la pièce à 6 mois est de 0,85. On estimera qu'il n' a pas d'usure les 2 premières années (Modèle exponentiel). Le délai d'approvisionnement est de 4 heures (Frais de port de 300 euros, Pu=8200 euros) ou 24 heures (Frais de port de 50 euros, Pu=8000 euros)</sc:para>
+								<sc:para xml:space="preserve">La pièce est neuve à t = 0, analyser les solutions suivantes sur 10 ans. Choisir la solution la plus intéressante.</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">pas de stock, on attend la défaillance.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">on attend 1 an et si il n'y a pas de défaillance, on met une pièce en stock à t=1.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">on met une pièce en stock et on recommande la pièce dès qu'elle est utilisée.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">Existe-il d'autres solutions ou alternatives ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

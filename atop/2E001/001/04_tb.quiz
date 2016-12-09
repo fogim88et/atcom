@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>La production potentielle ou espérée (TB)</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>TRG : TB</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sc:question>
+			<op:res xmlns:dk="kelis.fr:dokiel">
+				<sp:txt>
+					<op:txt>
+						<sc:table role="" sc:id="t199">
+							<sc:caption xml:space="preserve" sc:id="t233">Etat actuel à l'issue de la question 3</sc:caption>
+							<sc:column sc:id="t201" width="22"/>
+							<sc:column sc:id="t234" width="22"/>
+							<sc:column sc:id="t202" width="24"/>
+							<sc:row sc:id="t203">
+								<sc:cell sc:id="t204">
+									<sc:para xml:space="preserve" sc:id="t205">
+										<sc:inlineStyle role="emp" sc:id="t275">TO = 24 h</sc:inlineStyle>
+									</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t235"/>
+								<sc:cell sc:id="t206">
+									<sc:para xml:space="preserve" sc:id="t310"><sc:inlineStyle role="emp" sc:id="t317">TRG = 54%</sc:inlineStyle>
+</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t207">
+								<sc:cell sc:id="t208">
+									<sc:para xml:space="preserve" sc:id="t209">
+										<sc:uLink role="glos" sc:id="t256" sc:refUri="/1B_op/M/TUV/TRG/TB.ref">TB</sc:uLink> = <sc:inlineStyle role="emp" sc:id="t276">? ? ?</sc:inlineStyle>
+</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t236">
+									<sc:para xml:space="preserve" sc:id="t225">
+										<sc:uLink role="glos" sc:id="t255" sc:refUri="/1B_op/M/TUV/TRG/AI.ref">AI</sc:uLink> = <sc:inlineStyle role="emp" sc:id="t277">? ? ?</sc:inlineStyle>
+</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t210">
+									<sc:para xml:space="preserve" sc:id="t211">TxB = ........</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t212">
+								<sc:cell sc:id="t213">
+									<sc:para xml:space="preserve" sc:id="t214">TN = ........</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t237">
+									<sc:para xml:space="preserve" sc:id="t226">EP = ........</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t215">
+									<sc:para xml:space="preserve" sc:id="t216">TxP = ........</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t238">
+								<sc:cell sc:id="t239">
+									<sc:para xml:space="preserve" sc:id="t228">
+												<sc:inlineStyle role="emp" sc:id="t282">TU = 13 h
+										</sc:inlineStyle>	</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t240">
+									<sc:para xml:space="preserve" sc:id="t229">
+<sc:inlineStyle role="emp" sc:id="t283">NQ = 2 h</sc:inlineStyle>
+</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t241">
+									<sc:para xml:space="preserve" sc:id="t230">TxQ = ........</sc:para>
+								</sc:cell>
+							</sc:row>
+						</sc:table>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:table role="" sc:id="t10">
+							<sc:caption xml:space="preserve" sc:id="t166">Les arrêts identifiés</sc:caption>
+							<sc:column sc:id="t11" width="30"/>
+							<sc:column sc:id="t12" width="16"/>
+							<sc:row sc:id="t13">
+								<sc:cell sc:id="t14">
+									<sc:para xml:space="preserve" sc:id="t29">Panne</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t15">
+									<sc:para xml:space="preserve" sc:id="t31">1 heure</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t16">
+								<sc:cell sc:id="t17">
+									<sc:para xml:space="preserve" sc:id="t33">Passation de consigne</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t18">
+									<sc:para xml:space="preserve" sc:id="t35">1 heure</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t19">
+								<sc:cell sc:id="t20">
+									<sc:para xml:space="preserve" sc:id="t37">Changement de série</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t21">
+									<sc:para xml:space="preserve" sc:id="t39">4 heures</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t22">
+								<sc:cell sc:id="t23">
+									<sc:para xml:space="preserve" sc:id="t41">Attente matière</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t24">
+									<sc:para xml:space="preserve" sc:id="t43">1 heure</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t25">
+								<sc:cell sc:id="t26">
+									<sc:para xml:space="preserve" sc:id="t45">Total des arrêts identifiés</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t27">
+									<sc:para xml:space="preserve" sc:id="t47">7 heures</sc:para>
+								</sc:cell>
+							</sc:row>
+						</sc:table>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t298"> 
+							En déduire les <sc:uLink role="glos" sc:id="t301" sc:refUri="/1B_op/M/TUV/TRG/AI.ref">AI</sc:uLink>, ainsi que le <sc:uLink role="glos" sc:id="t302" sc:refUri="/1B_op/M/TUV/TRG/TB.ref">TB</sc:uLink>.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t272">La somme des arrêts identifiés AI est de <sc:textLeaf role="gap" sc:id="t152">7</sc:textLeaf> heures, et le temps brut de fonctionnement TB est de <sc:textLeaf role="gap" sc:id="t151">17</sc:textLeaf> heures.</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

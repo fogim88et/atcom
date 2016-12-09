@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Fiabilité observée</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Étude de N <sc:inlineStyle role="emp" sc:id="t7">dispositifs </sc:inlineStyle><sc:inlineStyle role="emp" sc:id="t8">non réparables</sc:inlineStyle> sur un intervalle de temps fixe : on relève (observations)  le <sc:inlineStyle role="emp" sc:id="t9">ttf</sc:inlineStyle> (durée de vie ou instant t de la défaillance) pour chaque <sc:inlineStyle role="emp" sc:id="t10">dispositif</sc:inlineStyle>.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">Étude d'un seul <sc:inlineStyle role="emp" sc:id="t11">dispositif réparable</sc:inlineStyle> sur un intervalle de temps (TO ou TR) : on relève alors les <sc:inlineStyle role="emp" sc:id="t12">tbf</sc:inlineStyle> (temps de fonctionnement entre 2 défaillances) et les <sc:inlineStyle role="emp" sc:id="t13">ttr</sc:inlineStyle> (temps de réparation ou de remise à l'état spécifié). Dans ce cas on peut établir un graphe marche/arrêt.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">Les techniques de statistiques descriptives permettent d'exploiter les observations.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t14">La fiabilité R(t) est le <sc:inlineStyle role="emp" sc:id="t15">rapport</sc:inlineStyle> entre le nombre de missions réussies (nombre de ttf ou tbf supérieurs à t) sur le nombre de missions tentées (nombre de dispositifs étudiés à t=0 ou nombre de tbf)</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

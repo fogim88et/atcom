@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>LPRO Text. Gestion de production 2012</sp:title>
+			<sp:sTitle>LPRO Text . Gestion de production 2012</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:simul>
+					<op:pbTi>
+						<sp:title>Exercice</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t48">Le stock d'un article est de 100, le stock de sécurité est de 0, le délai est de 2 jours</sc:para>
+								<sc:para xml:space="preserve" sc:id="t49">J1 : commande ferme de 50 à livrer</sc:para>
+								<sc:para xml:space="preserve" sc:id="t50">J2 : commande ferme de 70, réception de 30 sur OF lancé la période précédente.</sc:para>
+								<sc:para xml:space="preserve">J3 : commande ferme de 40</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:simul>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Questions Jour 2 (Uniquement)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t25">B1. Quel est le stock final en J2 ? Si la règle de lot multiple (LxL) est de 20, que se passe t-il ?</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t27">B2. Quel est le stock final si le stock de sécurité est de 60 ?</sc:para>
+								<sc:para xml:space="preserve">B3. Devez vous lancer un OF ? précisez la quantité avec ou sans la règle LxL.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t29">B4 : Quel est le stock final si le stock de sécurité est de 50 et si l'article est géré en LxL de 20</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Questions Jour 3 (J3)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t59">B5. Donnez les OF à lancer (début-fin) avec les quantités correspondantes (LxL de 20 et sécurité de 50)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t60">B6. Si la règle de lotissement impose un groupement de 2 jours, cela change t-il quelque chose ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

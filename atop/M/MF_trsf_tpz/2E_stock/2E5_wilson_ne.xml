@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Formules de Wilson</sp:title>
+			<sp:sTitle>Formules de Wilson</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Coût de gestion ou CSM</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t9">
+<sc:uLink role="glos" sc:id="t10" sc:refUri="/1B_op/S/stock/CSM.ref">Coût de Stockage Maintenance (CSM)</sc:uLink> = <sc:uLink role="glos" sc:id="t11" sc:refUri="/1B_op/S/stock/CSM_adm.ref">Coût Administratif des Approvisionnements (Cadm)</sc:uLink> + <sc:uLink role="glos" sc:id="t12" sc:refUri="/1B_op/S/stock/cpos.ref">Coût de Possession des stocks (Cpos)</sc:uLink>
+</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t280">
+									<sc:caption xml:space="preserve" sc:id="t348">Données</sc:caption>
+									<sc:column sc:id="t281" width="50"/>
+									<sc:column sc:id="t282" width="50"/>
+									<sc:row role="head" sc:id="t283">
+										<sc:cell sc:id="t284">
+											<sc:para xml:space="preserve" sc:id="t293">Entreprise</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t285">
+											<sc:para xml:space="preserve" sc:id="t295">Pièce</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t286">
+										<sc:cell sc:id="t287">
+											<sc:para xml:space="preserve" sc:id="t297">
+<sc:uLink role="glos" sc:id="t305" sc:refUri="/1B_op/M/M/S/stock/T_pos.ref">Taux de Possession T</sc:uLink>
+</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t288">
+											<sc:para xml:space="preserve" sc:id="t299">
+<sc:uLink role="glos" sc:id="t304" sc:refUri="/1B_op/S/stock/PU.ref">Prix Unitaire des pièces (Pu)</sc:uLink>
+</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t289">
+										<sc:cell sc:id="t290">
+											<sc:para xml:space="preserve" sc:id="t301">
+<sc:uLink role="glos" sc:id="t307" sc:refUri="/1B_op/S/stock/CC.ref">Coût de commande (Cc)</sc:uLink>
+</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t291">
+											<sc:para xml:space="preserve" sc:id="t303">
+<sc:uLink role="glos" sc:id="t306" sc:refUri="/1B_op/M/M/S/stock/Qa.ref">Quantité Annuelle (Qa)</sc:uLink>
+</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t15">
+									<sc:caption xml:space="preserve" sc:id="t341">Formules de Wilson</sc:caption>
+									<sc:column sc:id="t16" width="20"/>
+									<sc:column sc:id="t17" width="29"/>
+									<sc:column sc:id="t18" width="21"/>
+									<sc:row sc:id="t21">
+										<sc:cell sc:id="t22">
+											<sc:para xml:space="preserve" sc:id="t58">
+<sc:inlineImg role="form" sc:id="t189" sc:refUri="/1F/MF/nc.odf"/>
+</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t23">
+											<sc:para xml:space="preserve" sc:id="t126">
+<sc:inlineImg role="form" sc:id="t190" sc:refUri="/1F/MF/cadm.odf"/>
+</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t24">
+											<sc:para xml:space="preserve" sc:id="t128">
+<sc:inlineImg role="form" sc:id="t191" sc:refUri="/1F/MF/cpos.odf"/>
+</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t244">
+<sc:inlineStyle role="emp" sc:id="t259">q</sc:inlineStyle> est la variable sur laquelle on va agir. On aurait pu choisir comme variable le <sc:uLink role="glos" sc:id="t351" sc:refUri="/1B_op/M/M/S/stock/nc.ref">Nombre de commandes (Nc)</sc:uLink>
+</sc:para>
+								<sc:para xml:space="preserve" sc:id="t369">Notre <sc:inlineStyle role="emp" sc:id="t260">objectif</sc:inlineStyle> (enjeu économique) est donc de chercher q tel que le <sc:inlineStyle role="emp" sc:id="t261">CSM soit le plus bas possible</sc:inlineStyle>.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t312">On utilisera <sc:uLink role="glos" sc:id="t336" sc:refUri="/1B_op/M/M/S/stock/qe.ref">Qe</sc:uLink> pour désigner cette valeur dite optimum, <sc:uLink role="glos" sc:id="t329" sc:refUri="/1B_op/M/M/S/stock/Te.ref">Te</sc:uLink> représente la période moyenne entre 2 commandes qui résulte de la valeur Qe. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t313">On utilisera <sc:uLink role="glos" sc:id="t337" sc:refUri="/1B_op/M/M/S/stock/Qec.ref">Qec</sc:uLink> et <sc:inlineStyle role="emp" sc:id="t324">Tec</sc:inlineStyle> pour  la valeur choisie en fonction de contraintes telles que le regroupement de commandes, la volonté de réduire le C<sc:textLeaf role="ind" sc:id="t387">pos</sc:textLeaf> ou le Cadm, une période arrondie en nombre de semaines, mois, etc ...</sc:para>
+								<sc:para xml:space="preserve" sc:id="t314">On va alors s'éloigner un peu du <sc:inlineStyle role="quote" sc:id="t325">CSM optimum</sc:inlineStyle>, il faut simplement que le ratio<sc:inlineStyle role="emp" sc:id="t326"> CSM/Cach</sc:inlineStyle> reste très faible.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t355">
+									<sc:caption xml:space="preserve">Optimum économique</sc:caption>
+									<sc:column sc:id="t356" width="21"/>
+									<sc:column sc:id="t357" width="36"/>
+									<sc:row sc:id="t358">
+										<sc:cell sc:id="t359">
+											<sc:para xml:space="preserve" sc:id="t362"><sc:inlineImg role="form" sc:id="t365" sc:refUri="/1F/MF/qe.odf"/></sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t360">
+											<sc:para xml:space="preserve" sc:id="t364"><sc:inlineImg role="form" sc:id="t366" sc:refUri="/1F/MF/Te.odf"/></sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Condition de stockage</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t374">Les CSM soit être inférieur au CDM. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t378">Pour exprimer le CDM du à la rupture de stock, à chaque rupture, on estime que l'on subit une <sc:uLink role="glos" sc:id="t379" sc:refUri="/1B_op/S/stock/pen_P.ref">pénalité P</sc:uLink> et que l'on doit <sc:uLink role="glos" sc:id="t380" sc:refUri="/1B_op/S/stock/Cpc.ref">commander en urgence</sc:uLink> la pièce. </sc:para>
+								<sc:para xml:space="preserve">On a donc sur une année CDM = Qa (P+Cpc).</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/1F/MF/qa_min.odf">
+							<op:resInfoM>
+								<sp:index>form</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:warning>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t272">Il est évident que dès que Qa devient important (plus de 25 pièces) et que le prix Pu reste raisonnable  (500 euros), le stockage est évident, et la formule est inutile.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:warning>
+				<sp:remind>
+					<op:pbTi>
+						<sp:title>Résumé de la démarche</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t255">
+<sc:uLink role="bib" sc:id="t317" sc:refUri="/1B_op/M/M/S/stock_mm004_demarche_stockage.ref">Responsabilités et tâches</sc:uLink> : Résumé hiérarchique de la méthode à suivre en fonction des différentes familles de pièce.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:remind>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

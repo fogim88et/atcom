@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">src 1 : Jeu de la Maintenance</sp:title>
+			<sp:sTitle xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">src 1 : Jeu de la Maintenance</sp:sTitle>
+			<sp:info xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Jeu de la Maintenance</sp:keywd>
+							<sp:keywd>Pareto</sp:keywd>
+							<sp:keywd>src_001</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Source de données et contexte</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t57">
+									<sc:uLink role="ref" sc:id="t259" sc:refUri="/op-edc-jm/src_001.ref">Contexte</sc:uLink>.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t59">On recense dans le jeux des <sc:inlineStyle role="emp" sc:id="t280">classes</sc:inlineStyle> qui permettent de répondre aux différents événements et ainsi, optimiser le potentiel du score au dé (TO)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:listing>
+							<op:code><sc:code mimeType="text/plain">1. Liste des classes
+2. Sources de pertes en fonction des Kms perdus et Argent perdu
+3. Codes et Kms perdus --&gt; Graphe 1 : Conséquence des pertes sur la &quot;production&quot;
+4. Codes et Argent perdu --&gt; Graphe 2 : Conséquences &quot;financières&quot; 
+5. Fiches Incidents</sc:code></op:code>
+						</sp:listing>
+					</op:res>
+				</sp:info>
+				<sp:warning>
+					<op:pbTi>
+						<sp:title>Critères</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t123">Attention, même si deux ou plusieurs critères d'études peuvent parfois être présentés  (Kms, et Argent) dans le même tableau, chaque critère doit être étudié séparément.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:warning>
+			</op:pb>
+		</sp:pb>
+		<sp:div xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>1. Liste des classes</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t56">La série Code sera l'étiquette de l'axe des abscisses des graphes</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/0C-src/000/src_001_1.ods">
+									<op:resInfoM>
+										<sp:pubMode>zoom</sp:pubMode>
+										<sp:instruct>
+											<op:instructionM>
+												<sp:webInstruct>
+													<op:txt>
+														<sc:para xml:space="preserve" sc:id="t287">Visualisation Écran :</sc:para>
+													</op:txt>
+												</sp:webInstruct>
+											</op:instructionM>
+										</sp:instruct>
+									</op:resInfoM>
+								</sp:res>
+								<sp:int sc:refUri="/0C-src/000/src_001_1.ods">
+									<op:instructionM>
+										<sp:webInstruct>
+											<op:txt>
+												<sc:para xml:space="preserve" sc:id="t291">Lien pour téléchargement :</sc:para>
+											</op:txt>
+										</sp:webInstruct>
+									</op:instructionM>
+								</sp:int>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t217">Question 7.1</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>2. Sources de pertes en fonction des Kms perdus et Argent perdu</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t77">Pour chaque code (classe), vous disposez de deux critères qui seront étudiés séparément. </sc:para>
+										<sc:para xml:space="preserve" sc:id="t274">Un graphe de Pareto ne permet pas d'étudier plusieurs critères, pour la bonne et simple raison que les classes sont ordonnées selon la valeur décroissante du critère étudié.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t275">Le tableau ci-dessous présente simplement la vue globale des données collectées.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/0C-src/000/src_001_2.ods">
+									<op:resInfoM>
+										<sp:pubMode>zoom</sp:pubMode>
+										<sp:instruct>
+											<op:instructionM>
+												<sp:webInstruct>
+													<op:txt>
+														<sc:para xml:space="preserve" sc:id="t295">Visualisation Écran :</sc:para>
+													</op:txt>
+												</sp:webInstruct>
+											</op:instructionM>
+										</sp:instruct>
+									</op:resInfoM>
+								</sp:res>
+								<sp:int sc:refUri="/0C-src/000/src_001_2.ods">
+									<op:instructionM/>
+								</sp:int>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>3. Codes et Kms perdus</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Conséquences analogues au critère de production (Temps perdu)</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t83">Vous pouvez télécharger le tableau ci-dessous pour étudier les classes prioritaires selon les Kms Perdus.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:int sc:refUri="/0C-src/000/src_001_3.ods">
+									<op:instructionM/>
+								</sp:int>
+								<sp:int sc:refUri="/0C-src/000/src_001_3.ods">
+									<op:instructionM/>
+								</sp:int>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t145">Ces données sont exploitées dans la rédaction de la procédure destinée à la découverte de la Méthode : <sc:uLink role="bib" sc:id="t146" sc:refUri="/00_atopale_ext/0H_dk/6B-prc_2-pareto.ref">Méthode de PARETO (Procédure)</sc:uLink>.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t219">Questions 7-2 à 7-5</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>4. Codes et Argent perdu</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Conséquences analogues au critère économique (Argent perdu)</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t89">Vous pouvez télécharger le tableau ci-dessous pour étudier les classes prioritaires selon l'argent perdu.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:int sc:refUri="/2C_ex_tpz/091/101/src_101-1.ods">
+									<op:instructionM/>
+								</sp:int>
+								<sp:int sc:refUri="/2C_ex_tpz/091/101/src_101-1.ods">
+									<op:instructionM/>
+								</sp:int>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t168">L'exercice <sc:inlineStyle role="quote">en_1-n3</sc:inlineStyle> vous permettra de vous entraîner à la réalisation du graphe de PARETO sur ce critère</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>5. Incidents</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Récapitulatif des événements</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:int sc:refUri="/0C-src/000/src_001_5.ods">
+									<op:instructionM>
+										<sp:webInstruct>
+											<op:txt>
+												<sc:para sc:id="t192">Fichier tableur à télécharger</sc:para>
+											</op:txt>
+										</sp:webInstruct>
+									</op:instructionM>
+								</sp:int>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>6-7. Feuille de route</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>6. Fiche Tableur</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:int sc:refUri="/dk-E-edc/0001_JM/src_1_6.ods">
+									<op:instructionM/>
+								</sp:int>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>7. Classes associées à la Feuille de route</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:int sc:refUri="/dk-E-edc/0001_JM/9A_classes.ods">
+									<op:instructionM/>
+								</sp:int>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Conclusion</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t91">L'étude séparée des deux critères mettra peut-être en évidence les mêmes classes prioritaires. Dans le cas contraire, le décideur décidera de la priorité d'action à mener en fonction du critère qu'il juge le plus important.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

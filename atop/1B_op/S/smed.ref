@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>SMED</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t4">Cette méthode développée par le Docteur Shigeo Shingo a pour objectif de réduire les temps de changement de série définis par Christian Moisy,</sc:para>
+					<sc:para sc:id="t6">Directeur du cabinet Proconseil, comme étant le temps entre la dernièrepièce bonne de la série précédente et la première pièce bonne de la série</sc:para>
+					<sc:para sc:id="t8">suivante.</sc:para>
+					<sc:para sc:id="t9">Le principe de la méthode est la suivante :</sc:para>
+					<sc:itemizedList sc:id="t21">
+						<sc:listItem sc:id="t22">
+							<sc:para sc:id="t10">identifier les opérations internes qui doivent être faites machine arrêtée et les opérations externes qui peuvent être faites machine en marche</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t23">
+							<sc:para sc:id="t13">extraire les opérations externes (Exemple : check-list de préparation, essai d'outils avant usage)</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t27">
+							<sc:para sc:id="t17">convertir les opérations internes en opérations externes (préréglages...)</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t28">
+							<sc:para sc:id="t19">réduire les opérations internes et les opérations externes (serrage fonctionnel, ...).</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

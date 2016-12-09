@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Analyse combinatoire. Essentiel</sp:title>
+			<sp:sTitle>Essentiel</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>dénombrement</sp:keywd>
+							<sp:keywd>arrangement</sp:keywd>
+							<sp:keywd>combinaison</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:remind>
+					<op:pbTi>
+						<sp:title>Les trois règles du dénombrement.</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t9">Les problèmes de dénombrement se résolvent à l'aide de trois règles</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:remind>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>la règle de la somme</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t11">si X et Y sont 2 ensembles disjoints alors <sc:inlineImg role="form" sc:id="t17" sc:refUri="/D/DS/ressources_alternatives/denombrement_somme_ens_disjoints.odf"/>
+								</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t15">Si X et Y sont deux ensembles finis alors <sc:inlineImg role="form" sc:id="t18" sc:refUri="/D/DS/ressources_alternatives/denombrement_somme_ens_disjoints_corrolaire.odf"/>
+								</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:meth>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Régle du Produit</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t237">Soit X, Y deux ensembles non vides. Les couples ordonnés (x, y) avec x appartient à X</sc:para>
+								<sc:para sc:id="t238">et y appartient à Y constituent l'ensemble produit X x Y</sc:para>
+								<sc:para sc:id="t259">Si X et Y sont deux ensembles : card (X x Y) = card (X).card (Y)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:meth>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>LA REGLE DES BERGERS</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t240">Soit X un ensemble, A1, A2, ..., An n parties de X non vides constituant une partition de X. Si toutes les parties Ai ont le même nombre d'éléments p, alors : card (X) = n p.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:meth>
+			</op:pb>
+		</sp:pb>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Les huit situations fondamentales du dénombrement.</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:basic>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t25">Les problèmes de dénombrements relèvent de huit situations fondamentales.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:basic>
+						<sp:basic>
+							<op:pbTi>
+								<sp:title>Il y a quatre sortes d'échantillons de taille n pris parmi m objets</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:table role="" sc:id="t29">
+											<sc:caption/>
+											<sc:column sc:id="t30" width="33.26094681565128"/>
+											<sc:column sc:id="t31" width="33.26094681565128"/>
+											<sc:column sc:id="t32" width="33.26094681565128"/>
+											<sc:row role="head" sc:id="t33">
+												<sc:cell sc:id="t34">
+													<sc:para sc:id="t63">Prendre n objets parmi m  </sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t35">
+													<sc:para sc:id="t48">Echantillon ordonné</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t36">
+													<sc:para sc:id="t50">Echantillon non ordonné</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t37">
+												<sc:cell sc:id="t38">
+													<sc:para sc:id="t52">
+														<sc:inlineStyle role="code">sans répétition</sc:inlineStyle>
+													</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t39">
+													<sc:para sc:id="t54">
+														<sc:inlineImg role="form" sc:id="t68" sc:refUri="/D/DS/ressources_alternatives/arrangement_de_m_parmi_n.odf"/>
+													</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t40">
+													<sc:para sc:id="t264">
+														<sc:inlineImg role="form" sc:id="t272" sc:refUri="/D/DS/ressources_alternatives/img/Cominaison_de_m_parmi_n.odf"/>
+													</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t41">
+												<sc:cell sc:id="t42">
+													<sc:para sc:id="t58">
+														<sc:inlineStyle role="code">avec répétition</sc:inlineStyle>
+													</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t43">
+													<sc:para sc:id="t266">m<sc:textLeaf role="exp" sc:id="t274">n</sc:textLeaf>
+</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t44">
+													<sc:para sc:id="t268">
+														<sc:inlineImg role="form" sc:id="t273" sc:refUri="/D/DS/ressources_alternatives/Cominaison_de_metnplus1_parmi_n.odf"/>
+													</sc:para>
+												</sc:cell>
+											</sc:row>
+										</sc:table>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:basic>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Il y a quatre manières de placer n objets dans m cases</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:table role="" sc:id="t275">
+											<sc:caption/>
+											<sc:column sc:id="t277" width="33.26094681565128"/>
+											<sc:column sc:id="t278" width="33.26094681565128"/>
+											<sc:column sc:id="t279" width="33.26094681565128"/>
+											<sc:row role="head" sc:id="t280">
+												<sc:cell sc:id="t281">
+													<sc:para sc:id="t282">Prendre n objets dans m cases</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t283">
+													<sc:para sc:id="t284">Objets discernables</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t285">
+													<sc:para sc:id="t286">Objets non discernables</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t287">
+												<sc:cell sc:id="t288">
+													<sc:para sc:id="t289">
+														<sc:inlineStyle role="code">un objet par case</sc:inlineStyle>
+													</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t290">
+													<sc:para sc:id="t291">
+														<sc:inlineImg role="form" sc:id="t292" sc:refUri="/D/DS/ressources_alternatives/arrangement_de_m_parmi_n.odf"/>
+													</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t293">
+													<sc:para sc:id="t294">
+														<sc:inlineImg role="form" sc:id="t295" sc:refUri="/D/DS/ressources_alternatives/img/Cominaison_de_m_parmi_n.odf"/>
+													</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t296">
+												<sc:cell sc:id="t297">
+													<sc:para sc:id="t298">
+														<sc:inlineStyle role="code">sans limitation du nombre d'objets par case</sc:inlineStyle>
+													</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t299">
+													<sc:para sc:id="t300">m<sc:textLeaf role="exp" sc:id="t301">n</sc:textLeaf>
+</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t302">
+													<sc:para sc:id="t303">
+														<sc:inlineImg role="form" sc:id="t304" sc:refUri="/D/DS/ressources_alternatives/Cominaison_de_metnplus1_parmi_n.odf"/>
+													</sc:para>
+												</sc:cell>
+											</sc:row>
+										</sc:table>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Coût d'une commande en urgence (Ccpc)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Coût d'une commande en urgence dont l'objectif est de tenter de réduire le délai d'approvisionnement en cas de rupture de stock.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t8">Moyens utilisés : </sc:para>
+					<sc:itemizedList sc:id="t4">
+						<sc:listItem sc:id="t5">
+							<sc:para xml:space="preserve" sc:id="t9">livraison plus rapide par taxi ou avion</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t6">
+							<sc:para xml:space="preserve" sc:id="t10">surcoût d'une pièce pour être prioritaire</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t7">
+							<sc:para xml:space="preserve" sc:id="t11">....</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para xml:space="preserve">Par défaut, on a Ccpc = Cc si la commande en urgence est une commande normale.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

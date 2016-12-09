@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>33.x : Fabrication de lampes témoin.</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t4">
+							Après avoir lu <sc:uLink role="ref" sc:id="t13" sc:refUri="/2E021/031/033_ampoules_anc_fiab_07/do/src_13.ref">le contexte général</sc:uLink> , étudiez le <sc:uLink role="ref" sc:id="t16" sc:refUri="/2E021/031/033_ampoules_anc_fiab_07/do/src_13_2.ref">contexte de cet exercice</sc:uLink>.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t7">A partir de combien de lampes défaillantes le responsable qualité peut-il remettre en cause l'affirmation du responsable production concernant une fiabilité de 80% à 2500 heures.</sc:para>
+								<sc:para>L'échantillon prélevé sera de 15 pièces</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>1. Bernouilli</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t12">On peut considérer ici, que si l'on observe une lampe, celle-ci a 80% de chances de tenir 2500 heures. </sc:para>
+										<sc:para>Donc nous avons affaire à une épreuve de BERNOUILLI avec un taux de réussite p de 80 %. Si on souhaite travailler avec les lampes défaillantes, alors p=0,2.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>2. Processus binômial</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t22">Si l'on généralise ce processus à 15 pièces on peut définir une variable aléatoire X = &quot;Nombre de défaillances de 15 pièces sur 2500 heures de fonctionnement&quot;. </sc:para>
+										<sc:para sc:id="t33">Sachant que la production (population) est infinie, on admettra que chaque lampe a la même probabilité de fonctionner 2500heures, et que les épreuves sur chaque lampe sont indépendantes (probabilité p toujours de 20%). </sc:para>
+										<sc:para>X→B(15,0.2)</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Application</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t26">Le nombre moyen de lampes défaillantes est de n*(1-p), soit E(X)= 3</sc:para>
+										<sc:para sc:id="t27">La probabilité de n'avoir aucune défaillance est de 3,52% (p(X=15)). </sc:para>
+										<sc:para sc:id="t34">La probabilité d'obtenir sur le lot plus de 6 lampes défaillantes est  de 6,20 %. </sc:para>
+										<sc:para sc:id="t35">Il sera donc nécessaire de fixer le seuil à 6 lampes défectueuses sur les 15 pour remettre en cause l'hypothèse du responsable de production avec un risque de 6,20% que ce résultat soit simplement du aux fluctuations d'échantillonnage.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/2E021/031/033_ampoules_anc_fiab_07/bin_lampe_temoin_bin.ods">
+									<op:resInfoM>
+										<sp:pubMode>zoom</sp:pubMode>
+									</op:resInfoM>
+								</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

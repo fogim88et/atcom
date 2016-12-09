@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:assmntUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM xmlns:gtm="comaint.fr:gTecMi">
+			<sp:title>td-10.1 : MCD (7C)</sp:title>
+			<sp:sTitle>MCD (7C)</sp:sTitle>
+		</op:uM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para xml:space="preserve" sc:id="t82">Respecter le cahier des charges de l'application</sc:para>
+				<sc:para xml:space="preserve" sc:id="t92">Évaluer votre aptitude à définir les entités principales (TABLE)</sc:para>
+				<sc:para xml:space="preserve" sc:id="t93">En déduire les associations entre les entités (TABLE DE RELATION)</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t78">Cahier des charges : Notation d'étudiants dans des matières</sc:para>
+						<sc:para xml:space="preserve" sc:id="t96"><sc:inlineStyle role="emp">Attention :</sc:inlineStyle> </sc:para>
+						<sc:para xml:space="preserve" sc:id="t85">Les noms des tables ne comporteront pas de suffixe (_tb) comme conseillé parfois dans le cours pour vous aider à différencier les objets du SGBD.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t86">Les noms d'objets sont toujours en minuscule, sans ponctuation ( le _ est accepté), sans espace.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t89">
+							<sc:inlineStyle role="emp" sc:id="t97">Les noms de table seront donnés au pluriel alors qu'on parle de l'entité au singulier. </sc:inlineStyle>
+</sc:para>
+						<sc:para xml:space="preserve" sc:id="t103">
+<sc:inlineStyle role="emp" sc:id="t100">Veiller à faire attention à ces points dans les questions de type &quot;Texte à trou&quot; pour votre évaluation.</sc:inlineStyle>
+						</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/dk-I/OIBB/1C/proprietes_attributs-OIBB-convention.ods">
+					<op:resInfoM>
+						<sp:index>tab</sp:index>
+					</op:resInfoM>
+				</sp:res>
+			</op:res>
+		</sp:intro>
+		<sp:quiz sc:refUri="/op_I/OIBB_2/4_td/0010/0010_1/10_1a_mcd_entite_01_qcm.quiz"/>
+		<sp:quiz sc:refUri="/op_I/OIBB_2/4_td/0010/0010_1/10_1b_mcd_table_01_tat.quiz"/>
+		<sp:quiz sc:refUri="/op_I/OIBB_2/4_td/0010/0010_1/10_1d_mcd_association_01_qcm.quiz"/>
+		<sp:quiz sc:refUri="/op_I/OIBB_2/4_td/0010/0010_1/10_1e_mcd_relation_01_tat.quiz"/>
+	</op:assmntUa>
+</sc:item>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>MTTR</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:inlineStyle role="spec">Mean Time To Repair</sc:inlineStyle> : Temps moyen de réparation.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t4">Indicateur exploité par la maintenance : temps moyen pour rendre disponible ou rendre apte la machine à produire.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">Au même titre que le MTTF n'est qu'une durée de vie moyenne, c'est l'étude de la dispersion des TTR qui va permettre de donner à un client la durée maximum d'immobilisation de son bien ou équipement. Cette durée maximum est donc aussi soumise à un niveau de confiance --&gt; 90% de changer un embrayage en moins de 3 heures est une information exploitable. Un MTTR de 2 heures signifie que 50 % environ des interventions durent moins de 2 heures.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

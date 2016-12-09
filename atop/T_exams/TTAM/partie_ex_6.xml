@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Gestion de Maintenance : 2hrs</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Rédaction ( 45 mns)</sp:title>
+					</op:pbTi>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t26">3C1. Citer quelques ratios intéressants permettant de mesurer l'importance d'un équipement, l'impact d'une politique de maintenance</sc:para>
+								<sc:para xml:space="preserve" sc:id="t27">3C2. Citer les étapes importantes de la mise en place d'une politique de maintenance.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t30">3C3. Apports et Contraintes de la GMAO.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t31">3C4. Pour mettre en place un plan de maintenance préventive, comment choisir entre l'AMDEC, la MBF, le brainstorming ? </sc:para>
+								<sc:para xml:space="preserve" sc:id="t47">Il est important de bien séparer la méthodologie employée concernant un matériel déjà en exploitation et un matériel faisant l'objet d'une (re) conception ou d'un nouvel investissement.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Données</sp:title>
+					</op:pbTi>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t8">Paramètres de gestion associés à l'entreprise (Cc = 15 € et T = 10%)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t9">Pièce A (Qa = 1500, Pu = 8 €),</sc:para>
+								<sc:para xml:space="preserve" sc:id="t10">Pièce B (Qa = 50 Pu = 400 €),</sc:para>
+								<sc:para xml:space="preserve" sc:id="t11">Pièce C (Qa = 480, Pu = 27 €)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Etude 1 : 30 mns</sp:title>
+					</op:pbTi>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t29">Les pièces sont actuellement commandées chez 3 fournisseurs différents qui proposent tous un délai de 5 jours. </sc:para>
+								<sc:para xml:space="preserve">Pour la pièce A, on précise que la consommation moyenne par période de 10 jours a été mesurée à 28 avec un écart-type de 5.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t30">Choisir la méthode de réapprovisionnement la mieux adaptée à chaque pièce, et donner tous les paramètres utiles en posant si nécessaire des hypothèses (vous choisissez notamment le risque de rupture).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Etude 2 : 30 mns</sp:title>
+					</op:pbTi>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t37">On considère maintenant que les pièces sont toutes commandées chez un seul fournisseur. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t38">On vous demande alors de faire en sorte de regrouper au mieux les commandes. Quelle est la conséquence sur Cc ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t39"> Est ce que vous allez modifier les méthodes d'approvisionnement choisies ci-dessus ? Si oui, expliquer pourquoi.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

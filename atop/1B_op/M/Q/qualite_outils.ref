@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Outils de la qualité</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Elle consiste en la mise en oeuvre d'actions de formation et d'information de tous les personnels, va se traduire par l'utilisation d'outils liés à la qualité comme l'AMDEC pour la conception de machines, le SPC ou MSP pour le contrôle de la fabrication, la TPM pour la maintenance de premier niveau, l'analyse de la valeur ou l'analyse fonctionnelle pour la conception de produit ou la recherche des causes de défaillance, ou la SdF pour la maîtrise de l'ensemble des risques encourus par le client ou l'utilisateur</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

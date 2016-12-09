@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:assmntUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>8 : TRG</sp:title>
+			<sp:sTitle>8 : TRG</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>MMT-n3</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para xml:space="preserve" sc:id="t5">Evaluation de la démarche de calcul</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t18">Sur une production de  60 jrs en continu (24hrs/24), on a relevé côté maintenance, une disponibilité opérationnelle A de 90%, et du côté production un total de 100 heures pour cause de changement de série, réglage, attente de matière première.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t19">Le service qualité nous informe que le taux de qualité est de 85% et que l'on a fabriqué 9600 pièces bonnes (le temps unitaire de fabrication est de 6 mns).</sc:para>
+						<sc:para xml:space="preserve" sc:id="t20">Calculer le TRG et les taux intermédiaires</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:quiz sc:refUri="/2E001/008_ev_n3/008_1.quiz"/>
+	</op:assmntUa>
+</sc:item>

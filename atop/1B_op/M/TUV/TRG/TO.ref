@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Temps d'ouverture (TO)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Le temps d'ouverture est le temps théorique pendant lequel la machine aurait pu fonctionner.</sc:para>
+					<sc:para sc:id="t4">Ce temps théorique est à définir en fonction de l'efficacité que l'on souhaite mesurer par le <sc:inlineStyle role="emp">TRG</sc:inlineStyle>.</sc:para>
+					<sc:para>Selon l'efficacité recherchée, il faut bien distinguer les notions de Temps total ou encore de temps requis (<sc:inlineStyle role="emp">TR</sc:inlineStyle>).</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:ueM>
+			<sp:title>TD - MF</sp:title>
+			<sp:sTitle>TD - MF</sp:sTitle>
+		</op:ueM>
+		<sp:courseUc sc:refUri="/M/MF_trsf_tpz/2E_stock/2E5_wilson_ne.xml"/>
+		<sp:practUc sc:refUri="/2E021/ex_38.xml"/>
+		<sp:practUc sc:refUri="/2E021/ex_39.xml"/>
+		<sp:practUc sc:refUri="/2E041/ex_41.xml"/>
+	</op:ue>
+</sc:item>

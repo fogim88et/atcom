@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:assmntUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Evaluation notions</sp:title>
+			<sp:sTitle>Evaluation notions</sp:sTitle>
+		</op:uM>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t5">
+<sc:uLink role="glos" sc:id="t8" sc:refUri="/P_op/MP/4_prod/adequation_charge_capacite.ref"/>Attention, vous ne pouvez pas revenir en arrière, et vous devrez attendre à la fin de l'évaluation que l'enseignant note votre résultat.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:quiz sc:refUri="/P_op/MP/008_ex_ev_notions/bdd_01_qcm.quiz"/>
+		<sp:quiz sc:refUri="/P_op/MP/008_ex_ev_notions/bdd_02_qcm.quiz"/>
+		<sp:quiz sc:refUri="/P_op/MP/008_ex_ev_notions/bdd_03_qcm.quiz"/>
+		<sp:quiz sc:refUri="/P_op/MP/008_ex_ev_notions/besoins_01_cat.quiz"/>
+		<sp:quiz sc:refUri="/P_op/MP/008_ex_ev_notions/besoins_02.quiz"/>
+		<sp:quiz sc:refUri="/P_op/MP/008_ex_ev_notions/besoins_03.quiz"/>
+		<sp:quiz sc:refUri="/P_op/MP/008_ex_ev_notions/besoins_04.quiz"/>
+	</op:assmntUa>
+</sc:item>

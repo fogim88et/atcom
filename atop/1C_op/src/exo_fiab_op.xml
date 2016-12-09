@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM/>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t4">À t=0, on a mis en fonctionnement 20 roulements à bille identiques sur 20 machines.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t5">Calculer le MTBF.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t6">Calculer la Fiabilité à t=10000 heures.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t7">Calculer le Taux de défaillance des 3 périodes d'observations.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t8">Le prix d'achat est de 500 euros. On utilise ce roulement sur 10 machines</sc:para>
+						<sc:para xml:space="preserve" sc:id="t9">Que pensez vous des observations ou affirmations suivantes ? (argumentez votre réponse):</sc:para>
+						<sc:para xml:space="preserve" sc:id="t10">1. Il est préférable d'attendre la panne avant de changer ce roulement.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t11">2. La période d'usure commence à partir de 10000 heures.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t12">3. Si il faut pratiquer une maintenance systématique, alors il faut que la périodicité soit à peu près de 8000 heures</sc:para>
+						<sc:para xml:space="preserve" sc:id="t13">4. La durée de vie nominale de ce roulement est de 3000 heures.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t14">5. Ce composant reste toujours dans sa période de vie utile.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t15">6. A partir de 3000 heures de fonctionnement, on pratiquera une mesure de vibrations pour évaluer l'usure.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t16">7. Si j'étais le constructeur, la garantie serait fixée à 2000 heures.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+	</op:practUc>
+</sc:item>

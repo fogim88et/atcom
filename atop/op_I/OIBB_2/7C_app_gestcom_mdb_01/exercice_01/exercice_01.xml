@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Etape 1</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Extraction</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t68">Télécharger le fichier zip <sc:uLink role="docLnk" sc:id="t78" sc:refUri="/op_I/OIBB_2/7C_app_gestcom_mdb_01/exercice_01/app_gestcom_mdb_01.zip">app_gestcom_mdb_01.zip</sc:uLink>
+</sc:para>
+						<sc:para xml:space="preserve">Importer la table Clients du fichier tp_01.mdb.</sc:para>
+						<sc:para xml:space="preserve">Création de requêtes : Extraction de données à l'aide de critères</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t28">Ajoutez une requête sur la table Clients avec les colonnes <sc:inlineStyle role="emp" sc:id="t29">Nom</sc:inlineStyle> et <sc:inlineStyle role="emp" sc:id="t30">Code Client</sc:inlineStyle>.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t31">Sauvegardez cette requête &quot;Rq_01-01&quot;</sc:para>
+								<sc:para xml:space="preserve" sc:id="t5">Dans la table Clients, combien de clients ont un nom qui débute par A ou B ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t7">Le critère Comme doit être utilisé</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t11">Les Crochets permettent de spécifier les valeurs cherchées, les cas alternatifs sont séparés par un -</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t13">Le caractère * est un masque qui laisse passer tous les caractères quelque soit leur nombre</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t9">Comme &quot;[A-B]*&quot;</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t33">On doit trouver 6 clients</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t53">Afficher les clients (classés) selon le nom dont l'adresse contient le mot rue dans les département 34 et 35.</sc:para>
+										<sc:para xml:space="preserve">Nommez la requête Req_01_02</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/op_I/OIBB_2/7C_app_gestcom_mdb_01/exercice_01/Microsoft Access - [Requête1  Requête Sélection]_2011-05-26_16-11-58.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t49">Attention au code postal qui est un champ numérique et non texte</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Regroupements</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t16">Création de requêtes : Regroupement d'enregistrements selon les valeurs identiques d'une colonne</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t38">Ajoutez une requête sur la table Clients qui affiche le nombre de clients par département.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t39">Sauvegardez cette requête &quot;Rq_01-03&quot;</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/op_I/OIBB_2/7C_app_gestcom_mdb_01/exercice_01/Microsoft Access_2011-05-26_16-03-03.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t23">Option &quot;Affichage...totaux&quot;</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t41">Le champs ou l'attribut &quot;Département&quot; doit être en &quot;Regroupement&quot;</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t43">Sélectionner un autre attribut (quelconque) avec l'opération &quot;Compte&quot;</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:res sc:refUri="/op_I/OIBB_2/7C_app_gestcom_mdb_01/exercice_01/Microsoft Access_2011-05-26_16-06-39.png">
+<op:resInfoM>
+<sp:index>img</sp:index>
+</op:resInfoM>
+</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Formulaire de recherche</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t55">Nous allons ajouter un formulaire de recherche de clients via un contrôle qui va être utilisé comme critère dans une requête qui sélectionne les clients d'un code postal donné. </sc:para>
+						<sc:para xml:space="preserve" sc:id="t71">Le formulaire sera nommé RechCp. Le contrôle de saisie du Code postal sera nommé NumCp</sc:para>
+						<sc:para xml:space="preserve" sc:id="t72">La requête filtre sera nommée Rq_RechCp</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t57">Créer une requête qui filtre les clients d'un code postal.</sc:para>
+								<sc:para xml:space="preserve">Pour saisir le critère, il faut faire référence au contrôle NumCp de l'objet formulaire nommé RechCp</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t59">Pour faire référence à un contrôle --> =[Formulaires] ![nom du formulaire] ![Nom du contrôle]</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:res sc:refUri="/op_I/OIBB_2/7C_app_gestcom_mdb_01/exercice_01/Microsoft Access_2011-05-26_18-17-12.png">
+<op:resInfoM>
+<sp:index>img</sp:index>
+</op:resInfoM>
+</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t65">Créer le formulaire RechCp</sc:para>
+								<sc:para xml:space="preserve">Faire glisser la requête Rq_RechCp dans le formulaire pour ajouter un sous-formulaire qui va afficher les clients retenus par la requête.</sc:para>
+								<sc:para xml:space="preserve">Pour tester votre formulaire, une fois un code postal saisi, cliquez droit, puis Afficher tous les enregistrements pour que la requête soit rafraîchie, et que la valeur saisie soit bien prise en compte dans l'exécution de la requête.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:res sc:refUri="/op_I/OIBB_2/7C_app_gestcom_mdb_01/exercice_01/Microsoft Access_2011-05-26_18-19-03.png">
+<op:resInfoM>
+<sp:index>img</sp:index>
+</op:resInfoM>
+</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

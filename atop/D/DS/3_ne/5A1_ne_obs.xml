@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Observations (5A1)</sp:title>
+			<sp:sTitle>Observations (5A1)</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Statistiques descriptives</sp:keywd>
+							<sp:keywd>observations</sp:keywd>
+							<sp:keywd>population</sp:keywd>
+							<sp:keywd>individu</sp:keywd>
+							<sp:keywd>variable statistique</sp:keywd>
+							<sp:keywd>caractère</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:basic>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t8">La statistique a pour objet de rassembler des informations, de les classer (mise en forme), puis de les interpréter. </sc:para>
+								<sc:itemizedList sc:id="t39">
+									<sc:listItem sc:id="t40">
+										<sc:para sc:id="t23">Bien définir la <sc:uLink role="glos" sc:id="t38" sc:refUri="/1B_op/S/stat_population.ref">population</sc:uLink> étudiée.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t41">
+										<sc:para>Décrire le plus précisément l'<sc:uLink role="glos" sc:id="t20" sc:refUri="/1B_op/S/stat_individu.ref">individu</sc:uLink> observé.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t42">
+										<sc:para sc:id="t9">Pour une population donnée, les observations portent sur certains aspects seulement, appelés <sc:uLink role="glos" sc:id="t26" sc:refUri="/1B_op/S/stat_caractere_.ref">caractères statistiques</sc:uLink> ou Variables statistiques</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Taille de la population</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t91">Si une population est infinie, il est évident que l'étude ne pourra pas être exhaustive, et elle est dite partielle(sondage), il faudra donc prélever un échantillon de cette population, et en tirer des conclusions sur la population. Voir la théorie sur l'échantillonnage pour en savoir plus.</sc:para>
+								<sc:para sc:id="t92">Si une population est dite finie, alors les observations peuvent porter sur l'intégralité des individus qui composent la population. Il faut alors préciser la taille de la population (par convention, on la désigne par N<sc:textLeaf role="ind" sc:id="t93">pop</sc:textLeaf>.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:warning>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t80">
+									<sc:inlineStyle role="emp" sc:id="t106">Considérons l'étudiant en tant qu'individu.</sc:inlineStyle>
+								</sc:para>
+								<sc:para xml:space="preserve" sc:id="t107">Les étudiant à l'IUT d'Epinal en LPRO ou en DUT, les étudiants inscrits à l'Université de Nancy 2, les étudiants inscrits dans un établissement universitaire en Fance, en Europe, dans le Monde sont autant de populations différentes. On peut considérer les 3 premières comme finies, les autres sont infinies.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t108">Une étude sur les étudiants de Nancy 2 peut déjà être difficilement exhaustive (5000 minimum)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:warning>
+			</op:pb>
+		</sp:pb>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Les variables statistiques</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t82">La profession ou la marque, les observations sont rangées dans des rubriques &quot;RENAULT, PEUGEOT, CITROEN, etc..&quot; ou &quot; MARQUE FRANCAISE, MARQUE ETRANGERE&quot;.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t83">Chaque personne devra choisir parmi les valeurs proposées. </sc:para>
+										<sc:para xml:space="preserve">La profession ou la marque sont donc des <sc:uLink role="glos" sc:id="t97" sc:refUri="/1B_op/S/stat_carac_qualitatif.ref">variables qualitatives</sc:uLink>.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t54">L'âge peut s'exprimer en années révolues : les valeurs possibles sont donc limitées à des valeurs entières. </sc:para>
+										<sc:para xml:space="preserve">La variable est dite  <sc:uLink role="glos" sc:id="t68" sc:refUri="/1B_op/S/stat_carac_quantitatif.ref">quantitative discrète</sc:uLink>.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t88"> Le salaire s'exprime en euros ou en centimes d'euros : les valeurs possibles sont donc si nombreuses que l'on peut les considérer comme infinies. La variable est dite <sc:uLink role="glos" sc:id="t96" sc:refUri="/1B_op/S/stat_carac_quantitatif.ref">quantitative continue</sc:uLink>. </sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:ueM>
+			<sp:title>Comportement du matériel - MC -th</sp:title>
+			<sp:sTitle>FMD</sp:sTitle>
+		</op:ueM>
+		<sp:courseUa sc:refUri="/M/C-2016-01/2_2C_cm.xml"/>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>FMD Prévisionnelle</sp:title>
+					<sp:sTitle>FMD Prévisionnelle</sp:sTitle>
+				</op:ueDivM>
+				<sp:courseUa sc:refUri="/M/C-2016-01/2_2C1_ne.xml"/>
+				<sp:div>
+					<op:ueDiv>
+						<op:ueDivM>
+							<sp:title>Travaux dirigés</sp:title>
+							<sp:sTitle>Travaux dirigés</sp:sTitle>
+						</op:ueDivM>
+						<sp:courseUa sc:refUri="/2E201_2016/207/207.xml"/>
+						<sp:practUc sc:refUri="/2E201_2016/201.xml"/>
+					</op:ueDiv>
+				</sp:div>
+				<sp:div>
+					<op:ueDiv>
+						<op:ueDivM>
+							<sp:title>Exercices</sp:title>
+							<sp:sTitle>Exercices</sp:sTitle>
+						</op:ueDivM>
+						<sp:trainUcCloze sc:refUri="/2E201_2016/205.quiz"/>
+						<sp:courseUa sc:refUri="/2E201_2016/206/206.xml"/>
+						<sp:practUc sc:refUri="/M/C-2016-01/5_ex/2C1_11_21_n2-REVOIR.xml"/>
+					</op:ueDiv>
+				</sp:div>
+			</op:ueDiv>
+		</sp:div>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>FMD expérimentale</sp:title>
+					<sp:sTitle>FMD expérimentale</sp:sTitle>
+				</op:ueDivM>
+				<sp:courseUc sc:refUri="/M/C-2016-01/3_ne/2C2_res.xml"/>
+				<sp:div>
+					<op:ueDiv>
+						<op:ueDivM>
+							<sp:title>Dispositifs non réparables</sp:title>
+							<sp:sTitle>Dispositifs non réparables</sp:sTitle>
+						</op:ueDivM>
+						<sp:courseUc sc:refUri="/M/C-2016-01/3_ne/2C2A1_ne.xml"/>
+						<sp:courseUc sc:refUri="/M/C-2016-01/3_ne/2C2A2_ne.xml"/>
+						<sp:courseUc sc:refUri="/M/C-2016-01/3_ne/2C2_res.xml"/>
+						<sp:courseUa sc:refUri="/2E201_2016/208/208.xml"/>
+						<sp:practUc sc:refUri="/2E201_2016/202.xml"/>
+						<sp:practUc sc:refUri="/2E201_2016/203.xml"/>
+					</op:ueDiv>
+				</sp:div>
+				<sp:div>
+					<op:ueDiv>
+						<op:ueDivM>
+							<sp:title>Dispositifs réparables</sp:title>
+							<sp:sTitle>Dispositifs réparables</sp:sTitle>
+						</op:ueDivM>
+						<sp:courseUc sc:refUri="/M/C-2016-01/3_ne/2C2B_ne.xml"/>
+						<sp:practUc sc:refUri="/2E201_2016/209.xml"/>
+					</op:ueDiv>
+				</sp:div>
+				<sp:div>
+					<op:ueDiv>
+						<op:ueDivM>
+							<sp:title>Exercices</sp:title>
+							<sp:sTitle>Exercices</sp:sTitle>
+						</op:ueDivM>
+						<sp:assmntUa sc:refUri="/2E201_2016/210/210.xml"/>
+						<sp:practUc sc:refUri="/2E021/023/MESO-exr-23-opw.xml"/>
+						<sp:assmntUa sc:refUri="/M/C-2016-01/5_ex/2C2_03_29_n1.xml"/>
+						<sp:div>
+							<op:ueDiv>
+								<op:ueDivM>
+									<sp:title>Exercice 30</sp:title>
+									<sp:sTitle>Exercice 30</sp:sTitle>
+								</op:ueDivM>
+								<sp:practUc sc:refUri="/2E201_2016/anc_30/2C2_04_30-1_n1.xml"/>
+								<sp:practUc sc:refUri="/2E201_2016/anc_30/2C2_04_30-2_n3.xml"/>
+								<sp:practUc sc:refUri="/2E201_2016/anc_30/2C2_04_30-3_n1.xml"/>
+							</op:ueDiv>
+						</sp:div>
+					</op:ueDiv>
+				</sp:div>
+			</op:ueDiv>
+		</sp:div>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>Exercice auto-évaluation</sp:title>
+					<sp:sTitle>Exercice auto-évaluation</sp:sTitle>
+				</op:ueDivM>
+				<sp:assmntUa sc:refUri="/M/C-2016-01/5_ex/2C2_03_29_n1.xml"/>
+			</op:ueDiv>
+		</sp:div>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>Redondance</sp:title>
+					<sp:sTitle>Redondance</sp:sTitle>
+				</op:ueDivM>
+				<sp:courseUa sc:refUri="/2E201_2016/204.xml"/>
+				<sp:courseUa sc:refUri="/M/C-2016-01/5_ex/2C3_ex.xml"/>
+			</op:ueDiv>
+		</sp:div>
+		<sp:genRef>
+			<op:genRef>
+				<sp:ref sc:refUri="/1B_op/M/EF/FIDES_site.ref"/>
+				<sp:ref sc:refUri="/M/C-2016-01/src.ref"/>
+			</op:genRef>
+		</sp:genRef>
+	</op:ue>
+</sc:item>

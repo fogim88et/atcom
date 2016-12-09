@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Contexte de travail</sp:title>
+			<sp:sTitle>Contexte de travail</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Présentation de Prélude</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:int sc:refUri="/P_op/MP/007_prelude/Prelude6.ppt">
+							<op:instructionM/>
+						</sp:int>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Présentation du cas Picaso</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:int sc:refUri="/P_op/MP/007_prelude/Présentation.pdf">
+							<op:instructionM/>
+						</sp:int>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Etude de cas (Picasso)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:int sc:refUri="/P_op/MP/007_prelude/Picaso.pdf">
+							<op:instructionM/>
+						</sp:int>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t67">Vous pouvez aussi télécharger les diaporamas de chaque étape qui vont vous permettre de découvrir de façon plus détaillée comment réaliser chaque étape.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:int sc:refUri="/P_op/MP/007_prelude/Diaporam_picasso_pas_a_pas.zip">
+							<op:instructionM>
+								<sp:webInstruct>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t69">Liste à télécharger</sc:para>
+									</op:txt>
+								</sp:webInstruct>
+							</op:instructionM>
+						</sp:int>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Correction des questions posées</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:int sc:refUri="/P_op/MP/007_prelude/PicasoCorrigé.pdf">
+							<op:instructionM/>
+						</sp:int>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Téléchargement des fichiers de données étape par étape</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:int sc:refUri="/P_op/MP/007_prelude/Picaso00.zip">
+							<op:instructionM/>
+						</sp:int>
+						<sp:int sc:refUri="/P_op/MP/007_prelude/Picaso01.zip">
+							<op:instructionM/>
+						</sp:int>
+						<sp:int sc:refUri="/P_op/MP/007_prelude/Picaso02.zip">
+							<op:instructionM/>
+						</sp:int>
+						<sp:int sc:refUri="/P_op/MP/007_prelude/Picaso03.zip">
+							<op:instructionM/>
+						</sp:int>
+						<sp:int sc:refUri="/P_op/MP/007_prelude/Picaso04.zip">
+							<op:instructionM/>
+						</sp:int>
+						<sp:int sc:refUri="/P_op/MP/007_prelude/Picaso05.zip">
+							<op:instructionM/>
+						</sp:int>
+						<sp:int sc:refUri="/P_op/MP/007_prelude/Picaso06.zip">
+							<op:instructionM/>
+						</sp:int>
+						<sp:int sc:refUri="/P_op/MP/007_prelude/Picaso07.zip">
+							<op:instructionM/>
+						</sp:int>
+						<sp:int sc:refUri="/P_op/MP/007_prelude/Picaso08.zip">
+							<op:instructionM/>
+						</sp:int>
+						<sp:int sc:refUri="/P_op/MP/007_prelude/Picaso09.zip">
+							<op:instructionM/>
+						</sp:int>
+						<sp:int sc:refUri="/P_op/MP/007_prelude/Picaso10.zip">
+							<op:instructionM/>
+						</sp:int>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

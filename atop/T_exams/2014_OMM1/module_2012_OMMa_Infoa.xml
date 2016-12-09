@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:dk="kelis.fr:dokiel">
+		<op:ueM>
+			<sp:title>Examen OMM-Info (A) GIM 1 2011-2012</sp:title>
+			<sp:sTitle>Examen OMM-Info (A) GIM 1 2011-2012</sp:sTitle>
+		</op:ueM>
+		<sp:courseUa>
+			<op:courseUa>
+				<op:uM>
+					<sp:title>fiab_1</sp:title>
+					<sp:sTitle>fiab_1</sp:sTitle>
+				</op:uM>
+				<sp:practUc sc:refUri="/T_exams/2014_OMM1/2012_OMMa_3c.xml"/>
+			</op:courseUa>
+		</sp:courseUa>
+		<sp:courseUa>
+			<op:courseUa>
+				<op:uM>
+					<sp:title>fiab_2</sp:title>
+					<sp:sTitle>fiab_2</sp:sTitle>
+				</op:uM>
+				<sp:practUc sc:refUri="/T_exams/2014_OMM1/2012_OMMa_3d.xml"/>
+			</op:courseUa>
+		</sp:courseUa>
+	</op:ue>
+</sc:item>

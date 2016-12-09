@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Amplitude de la défaillance</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t5">
+						<sc:inlineStyle role="emp">Défaillance complète</sc:inlineStyle> (totale) : entraîne la disparition complète de la fonction requise</sc:para>
+					<sc:para sc:id="t6">
+						<sc:inlineStyle role="emp">Défaillance partielle</sc:inlineStyle> : résulte de déviations des caractéristiques au-delà des limites spécifiées sans disparition complète de la fonction requise.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

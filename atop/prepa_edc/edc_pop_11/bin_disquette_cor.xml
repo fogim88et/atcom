@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Fabrication de support magnétique</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t6">Soit X : "Nombre de disquettes défectueuses sur un lot de 100"</sc:para>
+								<sc:para sc:id="t7">X suit une loi binomiale avec n=100 et p=0,02</sc:para>
+								<sc:para sc:id="t8">p étant petit, n très grand, on peut réaliser une approximation par la loi de poisson de taux moyen=2 disquettes défectueuses.</sc:para>
+								<sc:para sc:id="t9">La probabilité de dépasser 4 déchets étant de 5,27%, il suffira donc de commander 104 disquettes pour être assuré dans 95% des cas d'obtenir 100 disquettes bonnes</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

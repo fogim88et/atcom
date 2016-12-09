@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:concept xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:dk="kelis.fr:dokiel">
+		<sp:def sc:refUri="/M/1B/CD/defaillance/mode_.ref"/>
+		<sp:desc>
+			<dk:comment>
+				<sp:example>
+					<dk:sTitle>
+						<sc:fullTitle>Véhicule</sc:fullTitle>
+					</dk:sTitle>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve" sc:id="t12">Un véhicule a pour fonction principale de se déplacer : les modes de défaillances possibles sont donc : &quot;ne se déplace plus&quot; ou se &quot;déplace mal&quot;. On en déduit que l'&quot;immobilisation&quot;, &quot;vitesse insuffisante&quot;, &quot;vitesse irrégulière&quot; sont des modes de défaillance acceptables au niveau du système (niveau n) et observables par l'utilisateur.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t13">La recherche des causes devra être recherchée parmi les sous-ensembles ou sous-fonctions de niveau n-1 : &quot;motorisation&quot;, &quot;régulation électronique&quot;, &quot;énergie&quot;, etc ....</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:example>
+			</dk:comment>
+		</sp:desc>
+	</dk:concept>
+</sc:item>

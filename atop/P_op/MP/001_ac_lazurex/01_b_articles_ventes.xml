@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Articles</sp:title>
+			<sp:sTitle>Articles</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t24">De façon générale, tout élément stockable constitue un <sc:uLink role="glos" sc:id="t25" sc:refUri="/P_op/MP/4_prod/article.ref">article</sc:uLink>.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t26">Nous allons remplir  le fichier article du <sc:uLink role="glos" sc:id="t27" sc:refUri="/P_op/MP/4_prod/programme_directeur_de_production_PDP.ref">P.D.P</sc:uLink>.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Les produits finis (vente)</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txtRes>
+									<op:txtRes>
+										<op:txtResM>
+											<sp:pos>lft</sp:pos>
+										</op:txtResM>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve" sc:id="t15">EML est un meuble lazuré</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:img sc:refUri="/P_op/MP/000_img_bdd_tech/EML.png"/>
+									</op:txtRes>
+								</sp:txtRes>
+								<sp:txtRes>
+									<op:txtRes>
+										<op:txtResM>
+											<sp:pos>lft</sp:pos>
+										</op:txtResM>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve" sc:id="t19">EMV un meuble vernis</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:img sc:refUri="/P_op/MP/000_img_bdd_tech/EMV.png"/>
+									</op:txtRes>
+								</sp:txtRes>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

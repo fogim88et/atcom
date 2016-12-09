@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Poste de Charge</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t4">Ensemble de plusieurs postes de travail (individus ou machines) regroupés pour les besoins de la planification des charges en personnel et en machines.</sc:para>
+					<sc:para> Les postes de travail ainsi regroupés sont homogènes entre eux, c'est à dire qu'ils peuvent effectuer le même travail et sont de ce fait interchangeables. </sc:para>
+					<sc:para>Un poste de charge ne constitue pas forcément un centre de coût qui recouvre, en général, plusieurs postes de charge.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:refM>
+			<sp:ref>UI_SIM.0.1.1/vn_60/p_1.5/t_54_66/u_mm</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t2">Code du réglage SIM :</sc:para>
+					<sc:itemizedList sc:id="t3">
+						<sc:listItem sc:id="t4">
+							<sc:para xml:space="preserve">La machine doit fabriquer des pièces de valeur nominale (moyenne de la population) de 60mm</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t5">
+							<sc:para xml:space="preserve">L'écart-type de la production est de 1,5. (Ecart-type de la population)</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t6">
+							<sc:para xml:space="preserve">Une pièce sera bonne si elle est comprise entre 54mm et 66mm</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t7">
+							<sc:para xml:space="preserve">Le mm est l'unité</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

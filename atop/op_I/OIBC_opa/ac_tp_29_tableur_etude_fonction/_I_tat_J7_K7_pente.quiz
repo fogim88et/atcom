@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:cloze>
+<op:exeM>
+<sp:title>Pente et dérivée nulle</sp:title>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Vous calculerez la pente dans la colonne J </sc:para>
+						<sc:para>Dans la colonne K, affichez &quot;tan&quot; pour faire apparaître un changement de signe de la pente. Utilisez la fonction SIGNE pour établir votre condition.</sc:para>
+						<sc:para>Comme cette fonction retourne -1 pour une valeur négative et 1 pour une valeur positive, on dira qu'une valeur x annule f'(x) lorsque la somme des deux signes est nulle.</sc:para>
+						<sc:para sc:id="t6">Nous devons donc identifier les deux lignes qui permettent d'encadrer la valeur de x telle que f'(x)=0</sc:para>
+						<sc:para sc:id="t10">
+							<sc:inlineStyle role="emp">Attention aux parenthèses</sc:inlineStyle>
+						</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t5">Ma formule en J7 est <sc:textLeaf role="gap" sc:id="t9">=(F7-F6)/(A7-A6)</sc:textLeaf>
+</sc:para>
+				<sc:para>La formule en K7 est <sc:textLeaf role="gap" sc:id="t13">=SI(OU(SIGNE(J7)+SIGNE(J8)=0;SIGNE(J7)+SIGNE(J6)=0);&quot;tan&quot;;&quot;&quot;)</sc:textLeaf>
+</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

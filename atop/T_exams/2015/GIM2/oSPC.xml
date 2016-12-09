@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:ueM>
+			<sp:title>Examen GIM 2 OMM4-SPC</sp:title>
+			<sp:sTitle>Examen GIM 2 OMM4-SPC</sp:sTitle>
+		</op:ueM>
+		<sp:courseUc sc:refUri="/T_exams/2015/GIM2/spc.xml"/>
+	</op:ue>
+</sc:item>

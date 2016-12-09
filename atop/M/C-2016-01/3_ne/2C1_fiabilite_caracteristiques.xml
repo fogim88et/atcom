@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Caractéristiques de la Fiabilité</sp:title>
+			<sp:sTitle>Caractéristiques de la Fiabilité</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Densité de probabilité</sp:keywd>
+							<sp:keywd>Fiabilité</sp:keywd>
+							<sp:keywd>MTTF</sp:keywd>
+							<sp:keywd>Taux de défaillance</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Fiabilité</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Pré-requis : <sc:uLink role="ucLnk" sc:id="t295" sc:refUri="/M/C-2016-01/3_ne/2C0_1_fiabilite_ne.xml">Fiabilité</sc:uLink></sc:para>
+								<sc:para xml:space="preserve" sc:id="t144">La fiabilité d'un dispositif au bout d'un temps t correspond à la probabilité pour ce dispositif de ne pas avoir eu de défaillance entre 0 et t.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Pré-requis : <sc:uLink role="ucLnk" sc:id="t296" sc:refUri="/D/DS/3_ne/5A1_ne_obs.xml">Observations (5A1)</sc:uLink></sc:para>
+								<sc:para xml:space="preserve" sc:id="t146">Les études vont porter sur l'étude d'une variable aléatoire T </sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t82">
+									<sc:column sc:id="t83" width="43"/>
+									<sc:column sc:id="t84" width="37"/>
+									<sc:row role="head" sc:id="t87">
+										<sc:cell sc:id="t88">
+											<sc:para xml:space="preserve" sc:id="t108">Fiabilité R(t)</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t89">
+											<sc:para xml:space="preserve" sc:id="t110">
+												<sc:inlineImg role="form" sc:id="t141" sc:refUri="/1B_op/M/MN/MES-fmd-odf/R(t)_rel_proba(T_sup_t).odf"/>
+											</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row role="" sc:id="t92">
+										<sc:cell sc:id="t93">
+											<sc:para xml:space="preserve" sc:id="t116">Fonction de répartition des défaillances F(t)</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t94">
+											<sc:para xml:space="preserve" sc:id="t118">
+												<sc:inlineImg role="form" sc:id="t142" sc:refUri="/1B_op/M/MN/MES-fmd-odf/Fr(t)_proba_T_inf_a_t.odf"/>
+											</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t230">il en résulte que :</sc:para>
+								<sc:itemizedList sc:id="t231">
+									<sc:listItem sc:id="t232">
+										<sc:para sc:id="t233">R(t) est une fonction décroissante de t sur [0,∞[.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t234">
+										<sc:para sc:id="t235">R(0)=1 et R(∞)=0</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:ex>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter/>
+						</sp:filters>
+						<sp:title>Graphe de R(t)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Représentation de R(t) selon le modèle de Weibull</sc:para>
+								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/00_atopale_ext/0F_img/2C_FMD/fmd_weibull_R(t)_min.png"/></sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Densité de probabilité des défaillances</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t250">
+									<sc:column sc:id="t251" width="50"/>
+									<sc:column sc:id="t252" width="50"/>
+									<sc:row sc:id="t253">
+										<sc:cell sc:id="t254">
+											<sc:para xml:space="preserve" sc:id="t260">f(t) en fonction de R(t)</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t255">
+											<sc:para xml:space="preserve" sc:id="t262"><sc:inlineImg role="form" sc:id="t267" sc:refUri="/1B_op/M/MN/MES-fmd-odf/f(t)_the_rel_R(t).odf"/></sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t256">
+										<sc:cell sc:id="t257">
+											<sc:para xml:space="preserve" sc:id="t264">R(t) en fonction de f(t)</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t258">
+											<sc:para xml:space="preserve" sc:id="t266"><sc:inlineImg role="form" sc:id="t268" sc:refUri="/1B_op/M/MN/MES-fmd-odf/R(t)_rel_f(t).odf"/></sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t270">A l'aide de la densité de probabilité, si N dispositifs non réparables sont en fonctionnement à t=0 alors la proportion de défaillances attendues entre t et t+dt est de dN(t)=N.f(t).dt</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>MTTF</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t273">Espérance mathématique de la variable aléatoire T</sc:para>
+								<sc:table role="" sc:id="t274">
+									<sc:column sc:id="t275" width="50"/>
+									<sc:column sc:id="t276" width="50"/>
+									<sc:row sc:id="t277">
+										<sc:cell sc:id="t278">
+											<sc:para xml:space="preserve" sc:id="t281">Espérance mathématique de la variable aléatoire T</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t279">
+											<sc:para xml:space="preserve" sc:id="t283"><sc:inlineImg role="form" sc:id="t284" sc:refUri="/1B_op/M/MN/MES-fmd-odf/MTTF_the_rel_f(t).odf"/></sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Taux de défaillance</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="">
+									<sc:column width="50"/>
+									<sc:column width="50"/>
+									<sc:row>
+										<sc:cell>
+											<sc:para xml:space="preserve">λ(t).dt représente la probabilité conditionnelle qu'une défaillance du dispositif se produise entre t et t+dt sachant que ce dispositif n'est pas tombé en panne avant t.</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve"><sc:inlineImg role="form" sc:refUri="/1B_op/M/MN/MES-fmd-odf/L(t)_the_rel_R(t).odf"/></sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

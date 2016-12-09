@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>TRG_test_01_niv_3</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t8">Sur une production de  60 jrs en continu (24hrs/24), on a relevé côté maintenance, une disponibilité opérationnelle A de 90%, et du côté production un total de 100 heures pour cause de changement de série, réglage, attente de matière première.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t9">Le service qualité nous informe que le taux de qualité est de 85% et que l'on a fabriqué 9600 pièces bonnes (le temps unitaire de fabrication est de 6 mns).</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/2C/MMT/trg_tableau_nb_simple.ods">
+<op:resInfoM>
+<sp:index>tab</sp:index>
+</op:resInfoM>
+</sp:res>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t13">Compléter le tableau ci-dessus</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

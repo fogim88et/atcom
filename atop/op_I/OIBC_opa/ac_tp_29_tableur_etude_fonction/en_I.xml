@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Fonction mathématique</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Editeur de formule</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:res sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/0_res_sxf/polynome3_abcd.odf">
+					<op:resInfoM>
+						<sp:index>form</sp:index>
+					</op:resInfoM>
+				</sp:res>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t9">Créer cette formule avec le nom de fichier <sc:inlineStyle role="code">eval_sxf_A</sc:inlineStyle>
+								</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Exemple</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:res sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/0_res_sxf/f_exemple.odf">
+					<op:resInfoM>
+						<sp:index>form</sp:index>
+					</op:resInfoM>
+				</sp:res>
+			</op:res>
+		</sp:desc>
+	</op:practUc>
+</sc:item>

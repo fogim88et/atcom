@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>9 - TRG - ev - n3</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>MMT-n1</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t17">Pendant une période de 30 jours, on a observé sur une machine (compteur horaire de fonctionnement) 295 heures de fonctionnement</sc:para>
+						<sc:para xml:space="preserve" sc:id="t18"> Le temps de cycle est normalement de 1000 pièces à l'heure. </sc:para>
+						<sc:para xml:space="preserve" sc:id="t19">280 000 pièces ont été produites, et 10 000 se sont révélées être défectueuses. </sc:para>
+						<sc:para xml:space="preserve" sc:id="t20">Les informations extraites de l'historique machine sont les suivantes : </sc:para>
+						<sc:itemizedList sc:id="t40">
+							<sc:listItem sc:id="t41">
+								<sc:para xml:space="preserve" sc:id="t21">Réglages machines : 15 heures. </sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t42">
+								<sc:para xml:space="preserve" sc:id="t22">Attente de matière première : 10 heure.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t43">
+								<sc:para xml:space="preserve" sc:id="t23">Arrêt machine pour maintenance curative : 12 défaillances pour une durée totale de 24 heures. </sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t44">
+								<sc:para xml:space="preserve" sc:id="t24">Arrêt machine pour mesures et contrôles : 6 heures. </sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+						<sc:para xml:space="preserve" sc:id="t83">Calculer le temps d'ouverture (T.O).</sc:para>
+						<sc:para xml:space="preserve" sc:id="t84">Calculer le MTBF, le MTTR, la disponibilité opérationnelle de la machine.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t85">Calculer le TRG, ainsi que les taux intermédiaires dont vous préciserez la signification. </sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t13">TO = <sc:textLeaf role="gap" sc:id="t59">350</sc:textLeaf> heures.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t69">MTBF = <sc:textLeaf role="gap" sc:id="t60">24,6</sc:textLeaf> heures. (arrondir à une décimale)</sc:para>
+				<sc:para xml:space="preserve" sc:id="t70">MTTR = <sc:textLeaf role="gap" sc:id="t61">2</sc:textLeaf> heures. </sc:para>
+				<sc:para xml:space="preserve" sc:id="t71">D = <sc:textLeaf role="gap" sc:id="t62">92</sc:textLeaf> %.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t72">TRG = <sc:textLeaf role="gap" sc:id="t66">77</sc:textLeaf> %, TxB = <sc:textLeaf role="gap" sc:id="t65">84</sc:textLeaf> %, TxP = <sc:textLeaf role="gap" sc:id="t64">95</sc:textLeaf> %, TxQ = <sc:textLeaf role="gap" sc:id="t63">96</sc:textLeaf> % (arrondir au % prés)</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t54">On ajoute au compteur machine (295 heures), les arrêts identifiés (AI) de 55 heures pour calculer le TO</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t58">Le temps total de fonctionnement est 295 heures, soit MTBF=295/12.</sc:para>
+						<sc:para xml:space="preserve">Le MTTR est de 24/12, soit 2 hrs</sc:para>
+						<sc:para xml:space="preserve">Le TU est de 270 heures, le TN de 280 heures, le TB de 295 heures.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

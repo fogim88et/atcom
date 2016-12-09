@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Certification ISO</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">La certification ISO, est la reconnaissance officielle du bon respect des normes concernant la qualité. Elle représente pour le client, l'assurance que l'entreprise respecte les principes lui permettant de garantir la qualité de ses produits. Il est clair que la certification ne se traduit pas par des caractéristiques ou des performances supérieures, mais par la preuve de la maîtrise de la conception, de la fabrication, de la vente ou de l'après-vente du produit.</sc:para>
+				</op:sTxt>
+			</sp:def>
+			<sp:wikip>ISO_9000</sp:wikip>
+		</op:glosM>
+	</op:glos>
+</sc:item>

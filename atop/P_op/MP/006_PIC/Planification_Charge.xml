@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>PIC : Planification et Charge</sp:title>
+			<sp:sTitle>PIC : Planification et Charge</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t3">Remplir le tableau ci-dessous</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:int sc:refUri="/P_op/MP/006_PIC/planif_charge.ods">
+							<op:instructionM/>
+						</sp:int>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

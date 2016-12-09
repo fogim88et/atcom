@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Temps d'arrêt machine pénalisant (TAM)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Le bien est inapte à produire (le bien est requis par la production sur le <sc:inlineStyle role="emp">TO</sc:inlineStyle>) pour cause de défaillance ou d'action de maintenance préventive nécessaire.</sc:para>
+					<sc:para sc:id="t4">Ce temps est source de perte donc générateur de <sc:inlineStyle role="emp">CDM</sc:inlineStyle>.</sc:para>
+					<sc:para sc:id="t5">Ce temps d'arrêt est imputable à la Maintenance, et on a (<sc:inlineStyle role="emp">TAP&lt;TA</sc:inlineStyle>)</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

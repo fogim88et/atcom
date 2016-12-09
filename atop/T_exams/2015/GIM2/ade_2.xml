@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>ADE_2</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t4">1. Définir la Sûreté de fonctionnement, ses enjeux, ses domaines d'application.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t5">2.  Définir la méthode AMDEC et donner ses 3 grands domaines d'application (en 5 lignes max)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t7">3. Quelles sont les colonnes à renseigner dans une AMDEC standard ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t8">4. Donner les étapes importantes ou phases de la démarche employée lors de sa mise en oeuvre ? quelles personnes participent ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t9">5. Donnez un exemple de grilles sur une échelle de 1 à 4 pour l'évaluation de la gravité en matière de sécurité et en matière de production.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t133">6. Comment faire pour simplifier la méthode AMDEC et réaliser une analyse des défaillances basée sur l'expérience, connaissez vous des méthodes ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

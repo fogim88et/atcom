@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Fonction de répartition F(x)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t4">F(x) est l'intégrale de la <sc:inlineStyle role="emp">densité de probabilité f(x)</sc:inlineStyle> dans le cas d'une variable <sc:inlineStyle role="emp">continue</sc:inlineStyle> ou représente les probabilité cumulée de p(x) dans le cas d'une variable <sc:inlineStyle role="emp">discrète</sc:inlineStyle>.</sc:para>
+					<sc:itemizedList sc:id="t14">
+						<sc:listItem sc:id="t15">
+							<sc:para>F (X = x1) <sc:inlineStyle role="emp">
+									<sc:inlineStyle role="emp">=</sc:inlineStyle>
+								</sc:inlineStyle> proba (X &lt;= x1) : probabilité qu'une valeur de la variable X se trouve dans l'intervalle ]-∞ , x1]</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t16">
+							<sc:para>Proba ( x1 &lt;= X &lt;= x2 ) <sc:inlineStyle role="emp">=</sc:inlineStyle> F(x2) - F(x1) : probabilité que X se trouve dans [x1 , x2]</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

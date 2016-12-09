@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Plafond de réapprovisionnement (Qp)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve">C'est la quantité dont on doit disposer au début de chaque période <sc:inlineStyle role="emp">Te</sc:inlineStyle> de réapprovisionnement selon l'application de la méthode par Plan d'approvisionnement (<sc:inlineStyle role="emp">PA</sc:inlineStyle>)</sc:para>
+					<sc:para xml:space="preserve" sc:id="t13">  <sc:inlineStyle role="emp" sc:id="t14">Qp = Qe(c) + Qs</sc:inlineStyle></sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

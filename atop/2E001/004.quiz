@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>4. TRG - Prévision de production (MMT)</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>MMT</sp:keywd>
+							<sp:keywd>n3</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t42">Sur une machine, on a mesuré sur un an 4800 heures de production sur 340 jours ouvrables.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t43">2 équipes de 8 heures travaillent par jour sur la machine. </sc:para>
+						<sc:para xml:space="preserve" sc:id="t44">Le temps de cycle est de 3 mn.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t45">On donne un taux de qualité de 95%, et un taux de performance de 90%.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t48">Combien de temps est-il raisonnable de prévoir  pour fabriquer 4000 pièces bonnes.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t11">Le temps à prévoir est de <sc:textLeaf role="gap" sc:id="t16">265</sc:textLeaf> heures (arrondi à l'entier le plus proche)</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t7">Il faut un TU de 200 heures car on a 4000 pièces bonnes à 3 mns de tps de cycle.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t33">On en déduit TN=TU/TxQ = 210,53</sc:para>
+						<sc:para xml:space="preserve" sc:id="t34">TB= TN/TxP = 233,92.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t22">On avait un TO de 340 * 16 heures pour un TB de 4800 hrs, soit un TxB = TB/TO=88,23 %</sc:para>
+						<sc:para xml:space="preserve" sc:id="t23">Il faut donc un TO de 233,92/0,8823 = 265,11 heures</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

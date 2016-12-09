@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:ueM>
+			<sp:title>La Logique MRP</sp:title>
+			<sp:sTitle>La Logique MRP</sp:sTitle>
+		</op:ueM>
+		<sp:courseUc sc:refUri="/P_op/MP/40_normes_production/01_Architecture_gestion_de_prod.xml"/>
+		<sp:courseUa sc:refUri="/P_op/MP/001_ac_bdd_tech.xml"/>
+		<sp:courseUa sc:refUri="/P_op/MP/002_donnees.xml"/>
+		<sp:courseUa sc:refUri="/P_op/MP/003_planification_OF_OA.xml"/>
+		<sp:courseUa sc:refUri="/P_op/MP/004_charge_et_capacite.xml"/>
+		<sp:courseUa sc:refUri="/P_op/MP/005_cgc.xml"/>
+		<sp:courseUa sc:refUri="/P_op/MP/006_PIC/006_PIC.xml"/>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>Bilan</sp:title>
+					<sp:sTitle>Bilan</sp:sTitle>
+				</op:ueDivM>
+				<sp:courseUc sc:refUri="/P_op/MP/007_a_resume.xml"/>
+				<sp:assmntUa sc:refUri="/P_op/MP/008_ev_notions.xml"/>
+				<sp:assmntUa sc:refUri="/P_op/MP/009_ev_calcul_besoin.xml"/>
+			</op:ueDiv>
+		</sp:div>
+		<sp:courseUa sc:refUri="/P_op/MP/007.xml"/>
+	</op:ue>
+</sc:item>

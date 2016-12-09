@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:ueM>
+			<sp:title>Examen OMM1 GIM1 2014-2015</sp:title>
+			<sp:sTitle>Examen OMM1 GIM1 2014-2015</sp:sTitle>
+		</op:ueM>
+		<sp:courseUa>
+			<op:courseUa>
+				<op:uM>
+					<sp:title>OMM1</sp:title>
+					<sp:sTitle>OMM1</sp:sTitle>
+				</op:uM>
+				<sp:practUc sc:refUri="/T_exams/2013/2013_OMMa/q1.xml"/>
+				<sp:practUc sc:refUri="/T_exams/2013/2013_OMMa/q2.xml"/>
+				<sp:practUc sc:refUri="/T_exams/2015/OMM1/q3.xml"/>
+				<sp:practUc sc:refUri="/T_exams/2013/2013_OMMa/q4.xml"/>
+				<sp:practUc sc:refUri="/T_exams/2013/2013_OMMa/q5.xml"/>
+			</op:courseUa>
+		</sp:courseUa>
+	</op:ue>
+</sc:item>

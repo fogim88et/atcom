@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>101-Pareto - Jeu Maintenance - MMP</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>MMP</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+					<sp:cc>by-nc-nd</sp:cc>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:res sc:refUri="/0C-src/000/src_101.ods">
+					<op:resInfoM>
+						<sp:index>tab</sp:index>
+					</op:resInfoM>
+				</sp:res>
+				<sp:int sc:refUri="/0C-src/000/src_101.ods">
+					<op:instructionM>
+						<sp:webInstruct>
+							<op:txt>
+								<sc:para sc:id="t161">Téléchargez le document suivant :</sc:para>
+							</op:txt>
+						</sp:webInstruct>
+					</op:instructionM>
+				</sp:int>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t179">Après avoir réalisé le graphe de Pareto, renseignez les informations suivantes.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t67">33% des classes génèrent <sc:textLeaf role="gap" sc:id="t115">61</sc:textLeaf> % des pertes en argent</sc:para>
+				<sc:para xml:space="preserve" sc:id="t110">Les 2 classes prioritaires sont <sc:textLeaf role="gap" sc:id="t116">PV</sc:textLeaf> et <sc:textLeaf role="gap" sc:id="t117">PO</sc:textLeaf>
+				</sc:para>
+				<sc:para xml:space="preserve">Une zone d'action prioritaire constituée de 3 classes peut-il être considéré comme juste (OUI ou NON ) ? <sc:textLeaf role="gap" sc:id="t186">OUI</sc:textLeaf></sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

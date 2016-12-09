@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3">
+		<op:glosM>
+			<sp:term xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">Valeur ajoutée</sp:term>
+			<sp:def xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+				<op:sTxt>
+					<sc:para sc:id="t3">La valeur ajoutée (VA) est une notion d'économie qui permet de mesurer la valeur créée par un agent économique. </sc:para>
+					<sc:para sc:id="t4">Elle mesure l'écart entre la somme des valeurs des entrants d'un processus de production (les consommations intermédiaires) et la somme des valeurs des produits ou des services qu'il vend.</sc:para>
+					<sc:para>
+						<sc:phrase role="url"><op:urlM><sp:url>http://fr.wikipedia.org/wiki/Valeur_ajout%C3%A9e</sp:url></op:urlM>Voir la suite sur  wikipédia</sc:phrase>.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

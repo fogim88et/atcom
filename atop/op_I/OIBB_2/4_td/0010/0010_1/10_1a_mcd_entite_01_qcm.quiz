@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:mcqMur xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>10.1a. MCD</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t21">Donnez les 3 tables de l'application à partir de votre MCD</sc:para>
+						<sc:para xml:space="preserve" sc:id="t95">Pour cela, identifiez bien les données de départ ainsi que  l'action qui va contribuer à faire vivre au quotidien la base de données.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:choices>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t23">Etudiant</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="unchecked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t27">Professeur</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para sc:id="t29">Nous n'avons en aucun cas parlé du professeur dans l'énoncé</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+			<sc:choice solution="unchecked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t31">Promotion</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para sc:id="t33">Rien n'indique que nous devons rattacher les étudiants par promotion</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t35">Note</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t39">Matière</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+		</sc:choices>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t63">Les 3 entités de l'application sont donc Étudiant, Matière et Note</sc:para>
+						<sc:para xml:space="preserve" sc:id="t92">L'entité Note dérive simplement de l'action ou de la relation à gérer entre les 2 entités Etudiant et Matière.</sc:para>
+						<sc:para xml:space="preserve">Les notions de Professeur ou de Promotion, bien que logiques dans une application de suivi des notes ne sont pas à prendre en compte ici car la cahier des charges ne donne aucune précision sur ces notions.</sc:para>
+						<sc:para xml:space="preserve">On notera néanmoins que le rôle d'un concepteur sera de signaler au client si il est opportun ou non de les les intégrer dans l'application.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:mcqMur>
+</sc:item>

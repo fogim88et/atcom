@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM xmlns:gtm="comaint.fr:gTecMi">
+			<sp:title>MCD-MLD</sp:title>
+			<sp:sTitle>MCD-MLD</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Projet</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t16">Gestion d'un club sportif ou une association. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t17">Les adhérents s'inscrivent à des activités organisées par 1 coach</sc:para>
+								<sc:para xml:space="preserve" sc:id="t18"> L'inscription se traduit par un nombre d'heure de pratique : cela se traduira par le versement d'une cotisation proportionnelle à ce nombre d'heure, mais ce côté financier ne sera pas intégré à cette étude de cas.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t68">Régulièrement, pour chaque inscription cotisée, l'adhérent effectuera un certain nombre de séances dont on mémorisera la durée.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t19"> L'application devra assurer le suivi du volume horaire disponible pour chaque adhérent : c'est à dire la comparaison de la durée totale des séances réalisées avec celle fixée au niveau de l'inscription.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:res sc:refUri="/op_I/OIBB-op-ev-061/1C/tb_coach.ods">
+							<op:resInfoM>
+								<sp:pubMode>embeded</sp:pubMode>
+								<sp:index>tab</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:res sc:refUri="/op_I/OIBB-op-ev-061/1C/tb_adherent.ods">
+							<op:resInfoM>
+								<sp:pubMode>embeded</sp:pubMode>
+								<sp:index>tab</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:res sc:refUri="/op_I/OIBB-op-ev-061/1C/tb_activite.ods">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:rem>
+					<op:pbTi>
+						<sp:title>Contenu du fichier tableur</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t58">Vous remarquerez la présence des 3 tables  tb_coach, tb_activite, tb_adherent en mode MLD (attributs)et MPD (enregistrements) :</sc:para>
+								<sc:para xml:space="preserve" sc:id="t64">La table tb_activite est à compléter en fonction de la relation 1 (question ci-dessous).</sc:para>
+								<sc:para xml:space="preserve" sc:id="t65">2 autres tables sont à completer en mode MLD uniquement en fonction des relations 2 et 3 (pas de MPD pour ces 2 tables)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:rem>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>1. Relation entre activité et coach.</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t6">- Le Tennis  est encadré par Jo</sc:para>
+								<sc:para xml:space="preserve" sc:id="t7">- Le Football est encadré par Bob</sc:para>
+								<sc:para xml:space="preserve" sc:id="t8">- La Gym est encadrée par Bill</sc:para>
+								<sc:para xml:space="preserve" sc:id="t9">- Le Volley ball est encadré par Bill</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t11">Quelle verbe qualifie au mieux la relation ? justifier si la relation est de type 1 n ou n-n</sc:para>
+								<sc:para xml:space="preserve" sc:id="t32">1 activité ----------------> ? coach</sc:para>
+								<sc:para xml:space="preserve" sc:id="t33">? coach &lt;----------------- ? activité</sc:para>
+								<sc:para xml:space="preserve" sc:id="t34">Compléter le tableau avec les nouveaux attributs ou tables de relation.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t54">Faut-il la gérer avec une table de relation ? Si oui, quel nom faut-il lui donner.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>2. Relation entre activité et adhérent</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t22">L'adhérent 1 s'inscrit aux activités 1 et 2 pour 10 et 15 heures</sc:para>
+								<sc:para xml:space="preserve" sc:id="t23">L'adhérent 2 s'inscrit aux activités 1 et 3 pour 7 et 20 heures</sc:para>
+								<sc:para xml:space="preserve" sc:id="t24">L'adhérent 3 s'inscrit à l'activité 4 pour 12  heures</sc:para>
+								<sc:para xml:space="preserve" sc:id="t25">L'adhérent 4 s'inscrit aux activités 2 et 3 pour 8 et 16 heures</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t27">Quelle est la nature de la relation entre activité et adhérent. Donner un nom à cette relation. Faut-il la gérer avec une table de relation ? Si oui, quel nom faut-il lui donner.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t37">Compléter le tableau avec les nouveaux attributs ou tables de relation (ne pas ajouter les données)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>3. Gestion des séances</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t29">Le 18 Mai, toto pratique 2 hrs de tennis</sc:para>
+								<sc:para xml:space="preserve" sc:id="t38">Le 19 Mai, bibi pratique 3 heures de Gym</sc:para>
+								<sc:para xml:space="preserve" sc:id="t39">etc ...</sc:para>
+								<sc:para xml:space="preserve" sc:id="t40">Ajoutez la table permettant de saisir ces informations. Définir les relations avec les autres tables.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>4. Propriétés</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t60">Compléter les tables en MLD en précisant dans la colonne à droite de chaque attribut le code des propriétés à fixer pour les attributs</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/dk-I/OIBB/1C/proprietes_attributs-OIBB-convention.ods">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Maintenabilité</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">La maintenabilité est une caractéristique d'un dispositif qui s'exprime par la probabilité qu'il sera dépanné, dans la limite d'un temps donné, pour être conforme à des conditions spécifiées en retrouvant sa fiabilité initiale.</sc:para>
+					<sc:para>Les aspects à prendre en compte sont :</sc:para>
+					<sc:itemizedList sc:id="t4">
+						<sc:listItem sc:id="t5">
+							<sc:para>l'accessibilité des organes d'usure.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t6">
+							<sc:para>la standardisation des pièces ou organes d'usure ou vitaux.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t7">
+							<sc:para>les plans de maintenance</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t8">
+							<sc:para>la documentation</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t9">
+							<sc:para>la formation</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

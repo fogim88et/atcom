@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Rangs médians (Fiabilité observée)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve">Dans le cadre d'un adéquation entre des données observée et un modèle statistique, on utilisera les rangs médians pour calculer la fiabilité observée.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t3">Si i est le rang de la défaillance observée sur N composants et </sc:para>
+					<sc:itemizedList sc:id="t6">
+						<sc:listItem sc:id="t7">
+							<sc:para xml:space="preserve" sc:id="t4">N est faible (&lt;50) alors on a R(t) =1- (i-0,3)/(N+0,4)</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t8">
+							<sc:para xml:space="preserve" sc:id="t5">N est &gt; 50  alors on a R(t)=1- [i/(N+1)]</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para xml:space="preserve">Lorsque N est supérieur à 100 on peut utiliser R(t)=1-(i/N)=N(t)/N</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

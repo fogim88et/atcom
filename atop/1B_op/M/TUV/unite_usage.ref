@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Unité d'usage</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Grandeur finie choisie pour évaluer quantitativement un usage dans des conditions conventionnelles éventuellement normalisées.</sc:para>
+					<sc:para>On utilisera :</sc:para>
+					<sc:itemizedList sc:id="t4">
+						<sc:listItem sc:id="t5">
+							<sc:para>l'heure, la semaine, le mois, l'année</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t6">
+							<sc:para>cycle de fonctionnement (électro-vannes)</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t7">
+							<sc:para>pièces produites (machine)</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t8">
+							<sc:para>quantités produites (tonnes pour un process)</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t9">
+							<sc:para>distances parcourues (véhicules)</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

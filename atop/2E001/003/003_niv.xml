@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ueDiv xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:ueDivM>
+			<sp:title>MMT-3 : évaluation par niveau (TRG)</sp:title>
+			<sp:sTitle>MMT-3-eval-TRG</sp:sTitle>
+		</op:ueDivM>
+		<sp:assmntUa sc:refUri="/2E001/003/003-3.xml"/>
+		<sp:assmntUa sc:refUri="/2E001/003/003-2.xml"/>
+		<sp:assmntUa sc:refUri="/2E001/003/003-1.xml"/>
+	</op:ueDiv>
+</sc:item>

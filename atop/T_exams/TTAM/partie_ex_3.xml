@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>BONUS (au choix)</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>3A. Outils Stats. IC-SPC</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t3">3A.1 : Quels sont les paramètres qui influent sur la qualité de la production.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t6">3A.2 : Expliquez pourquoi le contrôle échantillonné peut parfois être obligatoire ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t7">3A.3 : Qu'est ce que la capabilité machine ? pourquoi faut-il une valeur minimum (Valeur ?) Faire un schéma avec l'intervalle de tolérance et l'image de la production.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t8">3A.4 : Donnez les règles appliquées aux cartes de contrôle pour décider de l'opportunité d'arrêter la production.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t9">3A.5 : Quels sont les facteurs permettant de choisir la taille n des échantillons ainsi que les % (risques) associés aux limites de surveillance et d'alerte (ou de contrôle)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>3B. Méthodes de Maintenance</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t16">3B1. Définir la Sûreté de fonctionnement.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t17">3B2. Définition de l'analyse fonctionnelle et de ses objectifs.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t18">3B3. Définir la méthode AMDEC et donner ses 3 grands domaines d'application.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t19">3B4. Quelles sont les colonnes à renseigner dans une AMDEC standard ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t20">3B5. Donner les étapes importantes de la démarche employée lors de sa mise en œuvre ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t21">3B6. Qu'est ce qui différencie l'AMDEC de l'arbre des défaillances ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

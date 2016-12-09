@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Maintenance et Médecine (2A1C)</sp:title>
+			<sp:sTitle>Maintenance et Médecine</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t173">Ces analogies vont nous permettre d'introduire le vocabulaire normalisé en maintenance. </sc:para>
+								<sc:para xml:space="preserve">C'est donc une introduction au chapitre 2A.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Homme et Technologie</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txtRes>
+									<op:txtRes>
+										<op:txtResM>
+											<sp:pos>rgt</sp:pos>
+										</op:txtResM>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve" sc:id="t8">Pour nous soigner, nous faisons appel à des médecins généralistes et spécialistes, car le corps humain est un système complexe.</sc:para>
+												<sc:para xml:space="preserve" sc:id="t9">Les machines intègrent souvent plusieurs technologies (mécanique, électricité, électronique, pneumatique, hydraulique, automatique, automatismes, électrotechnique,...).</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:img sc:refUri="/00_atopale_ext/0F_img/1_ind/1B_gen/img_bd/bd_1.jpg"/>
+									</op:txtRes>
+								</sp:txtRes>
+								<sp:res sc:refUri="/00_atopale_ext/0F_img/1_ind/1B_gen/img_bd/bd_2.jpg">
+									<op:resInfoM>
+										<sp:index>img</sp:index>
+									</op:resInfoM>
+								</sp:res>
+							</op:res>
+						</sp:info>
+						<sp:basic>
+							<op:pbTi>
+								<sp:title>Est il préférable d'être spécialiste ou polyvalent ?</sp:title>
+							</op:pbTi>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t169">Vu la diversité des technologies citées ci-dessus, il serait très coûteux de déplacer une équipe pour chaque intervention : il est bon de disposer de personnels suffisamment polyvalents. Si besoin est, il sera fait appel à un spécialiste (sous-traitant le cas échéant).</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:basic>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Naissance et Mise en service</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t14">Lors de la naissance d'un nouveau né, les médecins pratiquent un certain nombre d'examens afin de cerner et de corriger au plus vite des problèmes de santé qui risquent d'engendrer des conséquences graves lors de la croissance. </sc:para>
+										<sc:para>Les examens pré et post natals ont permis de diminuer considérablement la mortalité infantile. </sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t16">Ce phénomène est connu en maintenance sous la forme d'une « période de jeunesse » pendant laquelle on constate un nombre importants d'incidents et de défaillances que l'on ne retrouve plus par la suite.</sc:para>
+										<sc:para> Les machines devront être testées par le fabricant avant la mise en service pour corriger les éventuels défauts de jeunesse. </sc:para>
+										<sc:para>Le service maintenance, dès la réception du matériel, veillera à respecter les consignes d'installation, et d'adaptation aux besoins de la production : cette tâche fondamentale consistant à mettre en service une machine fait l'objet d'un service spécifique dans les entreprises importantes appelé « TRAVAUX NEUFS ».</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t18">La femme enceinte donnera les meilleures chances de bonne santé à son bébé, en respectant un rythme de vie sain (alimentation, éviter tabac et alcool, ..). </sc:para>
+										<sc:para>On comprendra aisément que la maintenance d'une machine ne commence pas lors de la première panne, mais dès sa conception. En effet, le concepteur, qui maîtrise parfaitement le fonctionnement de sa machine, est le mieux placé pour déterminer quels sont les défaillances potentielles et peut ainsi corriger le problème immédiatement (choix d'un autre composant ou d'une autre solution technologique), soit préparer l'utilisateur en lui donnant des informations utiles sur des défaillances dites d'usure normale ou aléatoire (symptôme, fréquence, gamme de démontage et de remontage, ...). </sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t23">L'<sc:uLink role="glos" sc:id="t91" sc:refUri="/1B_op/A/amdec.ref">A.M.D.E.C</sc:uLink> (Analyse des modes de défaillance, de leurs effets, et de leur criticité) est un outil important de la phase de conception, qui, en intégrant les concepteurs, les producteurs et les clients utilisateurs (méthodes, maintenance, production) permet de mieux préparer la maintenance future de la machine.</sc:para>
+										<sc:para sc:id="t24">En effet, si l'être humain est prédisposé à subir certaines maladies (héréditaires par exemple), on peut considérer que 70% des coûts de maintenance d'une machine sont induits dès sa conception.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>La prévention</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>La prévention</sp:title>
+							</op:pbTi>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:res sc:refUri="/00_atopale_ext/0F_img/1_ind/1B_gen/eq_prevention_maint_medecine.png">
+									<op:resInfoM>
+										<sp:index>img</sp:index>
+									</op:resInfoM>
+								</sp:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t29">Les enfants, à l'école, subissent des visites médicales régulières dans le but de vérifier l'état de santé général. </sc:para>
+										<sc:para sc:id="t100">En maintenance, on pratiquera régulièrement des inspections pour vérifier et contrôler des jeux, liaisons, niveaux d'huile, ... Cette opération fait partie de la <sc:uLink role="glos" sc:id="t103" sc:refUri="/1B_op/M/TUV/type_maint/mi_preventive.ref">maintenance préventive</sc:uLink>. Lorsque des composants doivent être changés selon une périodicité fixe, on parlera de maintenance <sc:uLink role="glos" sc:id="t104" sc:refUri="/1B_op/M/TUV/type_maint/mi_preventive_systematique.ref">préventive systématique</sc:uLink> (par exemple, sur une voiture, la vidange, le changement des filtres)</sc:para>
+										<sc:para sc:id="t30">Le médecin a souvent recours à des examens (radiologie, scanner, électrocardiogramme, prise de sang...), dans le but de prévenir des maladies ou traumatismes, ou d'approfondir un diagnostic. Dans ce cas, il utilise un matériel spécifique ou fait appel à un médecin spécialisé.</sc:para>
+										<sc:para sc:id="t31">En maintenance, on va pratiquer des expertises techniques pour mieux comprendre et analyser un dysfonctionnement important ou une défaillance répétitive.</sc:para>
+										<sc:para sc:id="t32">D'autres méthodes (analyse d'huile, de vibration, ultrasons, thermographie par infrarouge, etc.) sont des techniques de maintenance <sc:uLink role="glos" sc:id="t105" sc:refUri="/1B_op/M/TUV/type_maint/mi_preventive_conditionnelle.ref">préventive conditionnelle</sc:uLink> qui permettent d'intervenir sur une machine en fonction de son état ou de son usure.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/00_atopale_ext/0F_img/1_ind/1B_gen/img_bd/bd_3.jpg">
+									<op:resInfoM>
+										<sp:index>img</sp:index>
+									</op:resInfoM>
+								</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Maladie et Défaillances</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:res sc:refUri="/00_atopale_ext/0F_img/1_ind/1B_gen/eq_maladie_defaillance_medecine.png">
+									<op:resInfoM>
+										<sp:index>img</sp:index>
+									</op:resInfoM>
+								</sp:res>
+							</op:res>
+						</sp:info>
+						<sp:rem>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t118">Chez l'être humain, une infection ou la rupture d'un organe est une maladie qui sera traitée par le médecin ou le chirurgien en fonction de la cause qui est responsable de la maladie.</sc:para>
+										<sc:para sc:id="t119">Pour le médecin, s'il est toujours relativement facile d'identifier la maladie (le <sc:uLink role="glos" sc:id="t120" sc:refUri="/1B_op/D/defaillance/mode.ref">mode de la défaillance</sc:uLink>), il faut rechercher les <sc:uLink role="glos" sc:id="t121" sc:refUri="/1B_op/D/defaillance/cause.ref">causes</sc:uLink>, les analyser pour un traitement efficace de la maladie. L'objectif étant bien sûr de soigner à court terme, mais surtout d'éviter la maladie à plus long terme. L'ensemble de ces tâches se regroupe dans le diagnostic.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/00_atopale_ext/0F_img/1_ind/1B_gen/img_bd/bd_4.jpg">
+									<op:resInfoM>
+										<sp:index>img</sp:index>
+									</op:resInfoM>
+								</sp:res>
+							</op:res>
+						</sp:rem>
+						<sp:ex>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t108">Le moteur de votre scie circulaire s'arrête suite à une rupture du fil d'alimentation.</sc:para>
+										<sc:itemizedList sc:id="t126">
+											<sc:listItem sc:id="t127">
+												<sc:para sc:id="t109">La fonction du moteur est : « assurer la rotation de l'axe qui entraîne la lame ».</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t128">
+												<sc:para sc:id="t110">Le <sc:uLink role="glos" sc:id="t132" sc:refUri="/1B_op/D/defaillance/mode.ref">mode de défaillance</sc:uLink> est «la non rotation»</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t129">
+												<sc:para sc:id="t111">La <sc:uLink role="glos" sc:id="t122" sc:refUri="/1B_op/D/defaillance/id_consequence.ref">conséquence</sc:uLink> est «l'arrêt de la scie»</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t130">
+												<sc:para sc:id="t112">La <sc:uLink role="glos" sc:id="t123" sc:refUri="/1B_op/D/defaillance/cause.ref">cause</sc:uLink> est « Perte d'alimentation électrique »</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:para sc:id="t113">La «Non rotation» est bien la maladie ou le mode de défaillance que l'on détecte très vite car le moteur est lui-même arrêté.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:ex>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t125">Dans notre petit exemple, on pourra mettre en cause soit l'alimentation du moteur, soit la défaillance interne du moteur. L'agent de maintenance cherchera à tester la cause la plus probable ou la plus facile à tester. Après avoir vérifié « la perte d'alimentation », il peut tout de suite pallier à cette perte en apportant une autre source d'alimentation électrique : cette solution permet de remettre le plus vite possible un bien en état de fonctionner, mais elle ne peut pas être considérée comme définitive. Il est en effet nécessaire ici de remettre en état l'alimentation d'origine et de comprendre pourquoi celle-ci était défaillante (fil coupé, fusible, coupure E.D.F). S'il s'agit d'un fil coupé, une erreur humaine ou un choc en est peut-être la cause. Il faut donc agir, et proposer une solution pour éviter que cela se reproduise à l'avenir (formation de l'utilisateur, protection supplémentaire, ...)</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/00_atopale_ext/0F_img/1_ind/1B_gen/img_bd/bd_5.jpeg">
+									<op:resInfoM>
+										<sp:index>img</sp:index>
+									</op:resInfoM>
+								</sp:res>
+								<sp:res sc:refUri="/00_atopale_ext/0F_img/1_ind/1B_gen/img_bd/bd_6.jpeg">
+									<op:resInfoM>
+										<sp:index>img</sp:index>
+									</op:resInfoM>
+								</sp:res>
+							</op:res>
+						</sp:info>
+						<sp:rem>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t133">On voit donc aisément que les tâches de la maintenance et du médecin sont similaires. On ne peut pas résumer l'action du médecin à l'action du médicament qu'il nous invite à prendre. De même, on ne peut pas résumer l'action de la maintenance au simple démontage et remontage d'une pièce usée ou cassée. C'est oublier l'importance du diagnostic.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t134">Pour résumer la complexité de la tâche, on peut remarquer que :</sc:para>
+										<sc:itemizedList sc:id="t187">
+											<sc:listItem sc:id="t188">
+												<sc:para xml:space="preserve" sc:id="t135">Chaque organe peut accomplir plusieurs fonctions.</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t189">
+												<sc:para xml:space="preserve" sc:id="t136">Chaque fonction peut donner lieu à plusieurs modes de défaillance (maladies).</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t190">
+												<sc:para xml:space="preserve" sc:id="t137">Chaque mode de défaillance (maladie) a des conséquences et des causes multiples.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:rem>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Le suivi</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Détail</sp:title>
+							</op:pbTi>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:res sc:refUri="/00_atopale_ext/0F_img/1_ind/1B_gen/eq_suivi_medecine.png">
+									<op:resInfoM>
+										<sp:index>img</sp:index>
+									</op:resInfoM>
+								</sp:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t55">Il est naturel que notre médecin dispose d'un dossier médical complet nous concernant, et que nous conservions une trace des événements importants de notre vie dans un carnet de santé.</sc:para>
+										<sc:para sc:id="t56">Le service maintenance établira pour chaque machine un <sc:inlineStyle role="emp">dossier machine</sc:inlineStyle> qui contient toutes les informations utiles. L'utilisateur ou l'agent de production dispose d'un <sc:inlineStyle role="emp">manuel opérateur</sc:inlineStyle> qui contient les instructions ou consignes d'utilisation, dans lequel il pourra noter tous les événements qui se produisent sur la machine (arrêt, réglage, changement de produit ou matière, intervention de la maintenance). Le service maintenance conservera dans le <sc:inlineStyle role="emp">dossier machine</sc:inlineStyle> un suivi détaillé des interventions importantes effectuées sur la machine, que tout agent pourra consulter en cas de besoin.</sc:para>
+										<sc:para sc:id="t57">Dans la collecte des informations, si on admet facilement que nous sommes concerné par notre santé, et que le médecin ne peut nous soigner efficacement sans dialogue, on cherchera dans le service maintenance à exploiter au maximum l'<sc:inlineStyle role="emp">expérience des agents de production</sc:inlineStyle> qui restent constamment au contact de la machine.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Bonne santé et Fiabilité</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:rem>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t143">La bonne santé d'un être humain peut se définir simplement par le fait de ne pas être souvent malade. Néanmoins, il serait plus judicieux de juger de la bonne santé par rapport à une période fixe dans des conditions données. Le risque de maladie dépend du climat, de la région et de l'activité pratiquée. Par exemple, un cycliste qui effectue le tour de France ne peut se permettre aucun problème de santé pendant les 3 semaines de course, quelque soit les conditions atmosphériques.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:rem>
+						<sp:warning>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t146">La fiabilité définit « la bonne santé » d'une machine, en respectant une <sc:inlineStyle role="emp">durée fixée</sc:inlineStyle> dans des <sc:inlineStyle role="emp">conditions données</sc:inlineStyle>. Pendant cette durée, la <sc:uLink role="glos" sc:id="t147" sc:refUri="/1B_op/M/EF/fiabilite.ref">fiabilité</sc:uLink> de la machine se traduit par la probabilité de fonctionner sans défaillance. </sc:para>
+										<sc:para sc:id="t148">Une bonne fiabilité s'obtient avec des composants en nombre limité, bien adaptés aux conditions d'utilisation de la machine, et protégés des flux parasites (électrostatique, vibration, surchauffe, huile, copeaux, poussière, etc...).</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:warning>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Guérison et Maintenabilité</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:rem>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t152">Tomber malade est certes désagréable, mais notre préoccupation principale reste le temps de guérison.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:rem>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para>Une machine qui est remise en état de fonctionner rapidement, n'occasionnera pas une gêne importante de la production. Cette caractéristique est la <sc:uLink role="glos" sc:id="t86" sc:refUri="/1B_op/M/MN/maintenabilite.ref">maintenabilité</sc:uLink> qui est l'aptitude d'une machine à être réparée le plus vite possible dans des conditions spécifiées. La maintenabilité est obtenue grâce à une bonne accessibilité des composants, à des procédures claires de démontage et de remontage. On l'améliorera aussi en généralisant l'échange standard d'un ensemble complet facilement démontable que l'on pourra réparer définitivement par la suite.</sc:para>
+										<sc:para sc:id="t68">En règle générale, les entreprises sont plus sensibles à la <sc:uLink role="glos" sc:id="t87" sc:refUri="/1B_op/D/disponibilite.ref">disponibilité</sc:uLink> de la machine qui se traduit par le % de temps de bon fonctionnement par rapport au temps total. Pour garantir ces délais de livraison, la production exprimera ses besoins en terme de disponibilité. La disponibilité est une fonction directe de la <sc:uLink role="glos" sc:id="t88" sc:refUri="/1B_op/M/EF/fiabilite.ref">fiabilité</sc:uLink> et de la maintenabilité. On peut résumer cette définition par une « lapallissade » : </sc:para>
+										<sc:para sc:id="t102">Une machine est d'autant plus disponible à produire, qu'elle tombe rarement en panne, et qu'elle est remise en état très rapidement.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Longévité et Durabilité</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t72">Le décès de l'être humain, c'est la mise au rebut de la machine.</sc:para>
+										<sc:para sc:id="t73">Si tout au long de la vie de la machine, on recherche la meilleure disponibilité possible, on veillera à prolonger la durée d'exploitation de la machine tant que ses caractéristiques restent compatibles avec les besoins de la production.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

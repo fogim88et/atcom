@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Jalonnement</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">Mode de détermination des dates prévisionnelles d' exécution des opérations des lots en cours, sur les différents postes de travail. </sc:para>
+					<sc:para xml:space="preserve" sc:id="t31">On distingue les jalonnements :</sc:para>
+					<sc:itemizedList sc:id="t17">
+						<sc:listItem sc:id="t18">
+							<sc:para xml:space="preserve" sc:id="t32">&quot;<sc:inlineStyle role="emp" sc:id="t33">au plus tard</sc:inlineStyle>&quot; : Planification consistant à effectuer un compte à rebours depuis la date de fin de la dernière opération de fabrication d'un article jusqu'à la date de début de la première opération. Le jalonnement &quot;au plus tard&quot; est couramment utilisé dans la planification des besoins en matière et en composants.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t19">
+							<sc:para xml:space="preserve" sc:id="t34">&quot;<sc:inlineStyle role="emp" sc:id="t35">au plus tôt</sc:inlineStyle>&quot; : Planification chronologique effectuée depuis la date de début de la première opération de fabrication d'un article jusqu'à la date de fin de la dernière opération. Le jalonnement aval est utilisé dans la planification des besoins en matières et en composants, notamment pour les produits fabriqués à la commande.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t30">
+							<sc:para xml:space="preserve" sc:id="t22">&quot;<sc:inlineStyle role="emp">juste à temps</sc:inlineStyle>&quot; : Principe visant à fournir les seuls composants nécessaires, à l'endroit où ils vont être utilisés et au moment opportun. Le juste-à-temps s'applique aussi bien à l'extérieur de l'entreprise (du fournisseur vers l'usine) qu'à l'intérieur (entre deux ateliers par exemple). Le juste-à-temps considère les temps d'attente ou les stocks comme étant des gaspillages, et cherche à tout mettre en oeuvre pour les réduire.</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

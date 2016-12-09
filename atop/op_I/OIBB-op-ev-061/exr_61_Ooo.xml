@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Pratique</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t5">Télécharger la base de données <sc:uLink role="docLnk" sc:id="t295" sc:refUri="/dk-I/OIBB/1C/asso_61_V01.odb">asso_61_V01 : tables</sc:uLink>dans un répertoire de votre choix et ouvrez le fichier avec OpenOffice.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t381">Vous placerez vos réponses avec le numéro de la question dans un fichier texte que vous imprimerez à la fin du test.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/op_I/OIBB-op-ev-061/mld_corrige_2.ods">
+					<op:resInfoM>
+						<sp:pubMode>zoom</sp:pubMode>
+					</op:resInfoM>
+				</sp:res>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t41">Créer une requête qui affiche les activités (nom) et leur coach (nom). Réponse SQL (1)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t65">Créer une requête basée (nommée <sc:inlineStyle role="emp" sc:id="t195">rq_aff_inscr</sc:inlineStyle>) basée sur la table <sc:inlineStyle role="emp" sc:id="t196">tb_inscr</sc:inlineStyle> qui affiche le nom de l'adhérent, le nom de l'activité et le nombre d'heures. Réponse SQL (2)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBB-op-ev-061/rq_aff_inscr.ods">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t117">Quelle est le critère de recherche qui permette de filtrer les activités selon leur nom et qui contienne les caractères &quot;ni&quot;. Réponse Texte (3.a)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t390">Quel critère permet de filtrer les inscriptions de plus de 2 heures pour les adhérents dont le nom commence par les lettres de b à l. Réponse SQL (3.b)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t11">Créer un formulaire nommé <sc:inlineStyle role="emp" sc:id="t313">frm_act</sc:inlineStyle> basé sur la table <sc:inlineStyle role="emp" sc:id="t314">tb_activite</sc:inlineStyle> permettant de saisir le coach à l'aide d'un contrôle<sc:inlineStyle role="code" sc:id="t360"> Zone de Liste</sc:inlineStyle>. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t361">Ouvrir la fenêtre de propriété et renseignez les propriétés ci-dessous. Réponse Texte par copier.coller des propriétés (4.a)</sc:para>
+								<sc:itemizedList sc:id="t340">
+									<sc:listItem sc:id="t341">
+										<sc:para xml:space="preserve" sc:id="t140">Champ de données :</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t342">
+										<sc:para xml:space="preserve" sc:id="t141">Type de contenu de liste  :</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t343">
+										<sc:para xml:space="preserve" sc:id="t142">Contenu de liste : </sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t344">
+										<sc:para xml:space="preserve" sc:id="t362">Champ lié :</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t143">A quoi sert cette dernière propriété ? Réponse Texte (4.b)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t19">Créer une requête nommée <sc:inlineStyle role="emp" sc:id="t319">rq_nb_coach</sc:inlineStyle> permettant de calculer le nombre d'activités encadrées par chaque coach.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t150">Saisir la réponse sous forme SQL(5)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBB-op-ev-061/req_nb_coach.ods">
+							<op:resInfoM>
+								<sp:index>tab</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t53">Créer un formulaire (nommé <sc:inlineStyle role="emp" sc:id="t324">frm_tb_adh_inscr</sc:inlineStyle>) principal qui affiche les adhérents. Copie d'écran de votre résultat (6.a)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t161">Ajoutez un sous formulaire qui permette de visualiser les inscriptions de l'adhérent affiché.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t162">Si on travaille avec les tables, cela donne l'image ci-dessous</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBB-op-ev-061/Microsoft Access_2011-06-01_11-53-28.png">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t71">Il est préférable d'ajouter dans le formulaire la requête <sc:inlineStyle role="emp" sc:id="t404">rq_inscr_aff</sc:inlineStyle> comme base du sous formulaire pour obtenir le résultat ci-dessous. Copie d'écran de votre résultat (6.b)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBB-op-ev-061/Microsoft Access_2011-06-01_12-04-47.png">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t59">Créer une requête (nommée <sc:inlineStyle role="emp" sc:id="t378">req_seances_par_inscr</sc:inlineStyle>) qui compte le nombre de séances effectuées et qui calcule le nombre d'heures effectuées par les adhérents pour chaque inscription. Réponse SQL (7)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBB-op-ev-061/req_seances_par_inscr.ods">
+							<op:resInfoM>
+								<sp:index>tab</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t73">Créer une requête qui permette de comparer le nombre d'heures d'inscription et le nombre d'heures réalisées. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t335">Vous passerez par les 2 requêtes intermédiaires ci-dessous, puis une troisième qui les regroupe.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t413">Donnez les requêtes SQL obtenues (8a, 8b, 8c)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBB-op-ev-061/rq_tot_inscr_par_act.ods">
+							<op:resInfoM>
+								<sp:index>tab</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:res sc:refUri="/op_I/OIBB-op-ev-061/rq_tot_seances_par_act.ods">
+							<op:resInfoM>
+								<sp:index>tab</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Charge globale et capacité</sp:title>
+			<sp:sTitle>Charge globale et capacité</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Chargement des postes</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t13">Nous allons étudier la charge des postes VE, LA et MT  selon le modèle ci-dessous</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/P_op/MP/000_bbd_tech_res/modeles/OF_poste_modele.ods">
+<op:resInfoM>
+<sp:index>tab</sp:index>
+</op:resInfoM>
+</sp:res>
+						<sp:int sc:refUri="/P_op/MP/000_bbd_tech_res/modeles/OF_poste_modele.ods">
+							<op:instructionM>
+								<sp:webInstruct>
+									<op:txt>
+										<sc:para sc:id="t49">Fichier modèle à télécharger</sc:para>
+									</op:txt>
+								</sp:webInstruct>
+							</op:instructionM>
+						</sp:int>
+					</op:res>
+				</sp:info>
+				<sp:warning>
+					<op:pbTi>
+						<sp:title>Démarche</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t112">A la date de réception de chaque OF,  vous griserez la cellule, puis vous chargerez le poste les jours qui précèdent la date de fin de l'OF en respectant la capacité maximale journalière du poste. </sc:para>
+								<sc:para xml:space="preserve">Vous reprendrez les informations calculées précédemment dans votre fichier &quot;Poste de Charge (<sc:uLink role="glos" sc:id="t134" sc:refUri="/P_op/MP/4_prod/plan_de_charge.ref">PDC</sc:uLink>)&quot;</sc:para>
+								<sc:para xml:space="preserve" sc:id="t113">Les OF ainsi proposés par le MRP sont <sc:uLink role="glos" sc:id="t114" sc:refUri="/P_op/MP/4_prod/Jalonnement.ref">jalonnés</sc:uLink> sur les postes de charge afin d'établir la charge par jour par poste.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t115">Vous procéderez de même avec le poste LA : vous noterez que EML et EMV doivent tous deux être planifiés sur ce poste.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t116">Poursuivre avec MT</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:warning>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Bilan hebdomadaire par poste</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/P_op/MP/000_bbd_tech_res/modeles/charge_mensuelle_modeles.ods">
+<op:resInfoM>
+<sp:index>tab</sp:index>
+</op:resInfoM>
+</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:warning>
+					<op:pbTi>
+						<sp:title>Démarche</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t137">En reprenant les données cumulées obtenues par jour par poste,  vous établirez un récapitulatif hebdomadaire de la <sc:uLink role="glos" sc:id="t138" sc:refUri="/P_op/MP/4_prod/calcul_charges_globales.ref">charge</sc:uLink>, de la <sc:uLink role="glos" sc:id="t139" sc:refUri="/P_op/MP/4_prod/capacite.ref">capacité</sc:uLink> réelle, et du rapport entre les deux.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:warning>
+				<sp:basic>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t143">Vous noterez que nous avons proposé un <sc:uLink role="glos" sc:id="t144" sc:refUri="/P_op/MP/4_prod/programme_directeur_de_production_PDP.ref">PDP</sc:uLink> avant d'évaluer la charge globale. Dans la logique du MRP, il est évident que nous devons procéder à l'inverse.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:rem>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t53">Pour éviter la multiplication des feuilles de calcul, vu que nous étudions peu de référence d'article et avons peu d'OF, il est préférable de rajouter une colonne pour identifier le poste, et ainsi calculer la charge globale par poste plus rapidement/</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:rem>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>A noter</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t108">Les 2 premiers exercices permettent de vérifier que vous calculez correctement le temps nécessaire à la fabrication de l'article sur le poste concerné en reprenant les quantités de l'OF et de la gamme associée à l'article et son poste.</sc:para>
+								<sc:para>Les 3 suivants vous vous permettre de vérifier que vos résultats sont justes pour les 3 postes étudiés.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

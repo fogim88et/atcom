@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:info xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<sp:keywds>
+			<op:keywds>
+				<sp:keywd>2E</sp:keywd>
+				<sp:keywd>Gestion du stock</sp:keywd>
+				<sp:keywd>Modèle de Poisson</sp:keywd>
+				<sp:keywd>Loi Normale</sp:keywd>
+				<sp:keywd>Coût de Stockage Maintenance</sp:keywd>
+			</op:keywds>
+		</sp:keywds>
+	</op:info>
+</sc:item>

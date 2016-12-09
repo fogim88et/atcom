@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Période économique de réapprovisionnement choisie (Tec)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">C'est la période que l'on va choisir entre deux commandes : si le calcul de Te est de 35 jours, on pourra bien sûr préférer se</sc:para>
+					<sc:para xml:space="preserve" sc:id="t8">On a </sc:para>
+					<sc:itemizedList sc:id="t4">
+						<sc:listItem sc:id="t5">
+							<sc:para xml:space="preserve" sc:id="t9">Te = Qe/Qa en année.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t6">
+							<sc:para xml:space="preserve" sc:id="t10">Te = 12.Qe/Qa en mois.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t7">
+							<sc:para xml:space="preserve" sc:id="t11">Te = 365.Qe/Qa en jours.</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para xml:space="preserve" sc:id="t12">La période Te est plus parlante que Qe même si on ne fait pas le choix d'un plan d'approvisionnement. </sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

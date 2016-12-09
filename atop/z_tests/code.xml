@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:code xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<sc:code mimeType="text/html">&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;TITLE&gt;texte barre de titre du naviguateur&lt;/TITLE&gt;
+&lt;META name="Author" content="IUT EPINAL"&gt;
+&lt;/HEAD&gt;
+&lt;BODY&gt;Le corps de la page se trouve ici&lt;/br&gt;
+&lt;H1&gt;Exemple de lien vers le site GitHub&lt;/H1&gt;
+&lt;a href="http://github.com" target="_blank"&gt; Accueil site Github&lt;/a&gt;
+&lt;H1&gt;Lien vers site étudiant&lt;/H1&gt;
+&lt;H1&gt;Groupe 1&lt;/H1&gt; 
+&lt;a href="http://comaintfo.fr/gim1/grx/nometudiant" target="_blank"&gt;
+	Site de l'étudiant dont le nom est .......
+	&lt;/a&gt;
+&lt;/BODY&gt;
+&lt;/HTML&gt;</sc:code>
+	</op:code>
+</sc:item>

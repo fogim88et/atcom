@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Fabrication de lampes témoin</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t4">
+							<sc:uLink role="ref" sc:id="t13" sc:refUri="/2E021/031/033_ampoules_anc_fiab_07/do/src_13.ref">Voir le contexte</sc:uLink>.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t11">
+							<sc:uLink role="ref" sc:id="t16" sc:refUri="/2E021/031/033_ampoules_anc_fiab_07/do/src_13_2.ref">Hypothèse de travail</sc:uLink>.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t12">Le responsable qualité souhaite effectuer des test sur des lots de 15 pièces.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t5">Définir la variable aléatoire utilisée. Quelle loi suit cette variable?</sc:para>
+						<sc:para xml:space="preserve" sc:id="t6">Quelle est en moyenne le nombre de lampes normalement défectueuses</sc:para>
+						<sc:para xml:space="preserve" sc:id="t7">Quelle est la probabilité que toutes les lampes fonctionnent au moins 2500 heures</sc:para>
+						<sc:para xml:space="preserve" sc:id="t8">A partir de combien de lampes défaillantes le responsable qualité peut-il remettre en cause l'affirmation du responsable production concernant une fiabilité de 80% à 2500 heures.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+	</op:practUc>
+</sc:item>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Taux de défaillance</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t8">Calculé période par période, il nous informe sur l'usure ou le vieillissement d'un dispositif dans le temps.</sc:para>
+					<sc:para sc:id="t9">Pour une période donnée, on calculera la probabilité de constater une défaillance, et on ramènera cette probabilité à l'unité d'usage (par heure, par kilomètre, par cycle).</sc:para>
+					<sc:para sc:id="t10">Pour l'évaluer à t sur une période de durée dt, on calculera </sc:para>
+					<sc:itemizedList sc:id="t4">
+						<sc:listItem sc:id="t5">
+							<sc:para sc:id="t11">dn(t)=N(t)-N(t+dt) : nombre de défaillants pendant dt.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t6">
+							<sc:para sc:id="t12">p(dt)=dn(t)/N(t) : proportion de défaillants sur la période. <sc:inlineStyle role="emp">ATTENTION, N(t) désigne les dispositifs en fonctionnement au début de la période et non pas N(t=0)</sc:inlineStyle></sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t7">
+							<sc:para sc:id="t13">λ(t)=p(dt)/dt : proportion de défaillance par unité de temps.</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para sc:id="t14">Si on souhaite calculer sa valeur à partir de la courbe de la fiabilité,  c'est le rapport entre la pente de la fiabilité et la valeur de la fiabilité.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

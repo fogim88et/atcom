@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Organisation et Gestion de la Production</sp:title>
+			<sp:sTitle>Organisation et Gestion de la Production</sp:sTitle>
+		</op:uM>
+		<sp:courseUc sc:refUri="/P_op/MP/40_normes_production/01_Architecture_gestion_de_prod.xml"/>
+	</op:courseUa>
+</sc:item>

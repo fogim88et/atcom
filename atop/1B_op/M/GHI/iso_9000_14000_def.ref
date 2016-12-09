@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3">
+		<op:glosM>
+			<sp:term xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">ISO 9000 v 2000 et ISO 14000</sp:term>
+			<sp:def xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+				<op:sTxt>
+					<sc:para sc:id="t4">Dans le domaine intégré « Qualité, Sécurité, Environnement » (QSE), on distingue les normes suivantes :</sc:para>
+					<sc:itemizedList sc:id="t12">
+						<sc:listItem sc:id="t13">
+							<sc:para sc:id="t5">ISO 9001 : pour la conception, le développement, la production, l'installation et le service après-vente.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t14">
+							<sc:para sc:id="t6">ISO 9004 : systèmes de gestion de la qualité - Lignes directrices pour l'amélioration de la performance.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t15">
+							<sc:para sc:id="t7">ISO 14001 : pour la protection de l'environnement.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t16">
+							<sc:para sc:id="t8">ISO 19011 : lignes directrices relatives aux audits de systèmes de gestion qualité et environnemental.</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para sc:id="t9">Il existe également un certain nombre de normes basées sur l'ISO 9000 ou l'ISO 14000 et spécifiques à un secteur d'activité ou à un produit.</sc:para>
+					<sc:para>
+						<sc:phrase role="url"><op:urlM><sp:url>http://fr.wikipedia.org/wiki/ISO_9000</sp:url></op:urlM>Voir la suite sur Wikipédia</sc:phrase>.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Temps Requis (TR)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">C'est le temps qui doit permettre l'amortissement de la machine. On peut dire que c'est le temps d'ouverture de l'usine, mais si on admet qu'une machine devrait produire à plein temps, la réalité des commandes de l'entreprise conduit à définir un temps d'ouverture (TO) plus conforme avec les objectifs réels de la production pour tenir compte de</sc:para>
+					<sc:para sc:id="t4">Se décompose en <sc:inlineStyle role="emp">TED</sc:inlineStyle> (le bien est apte à fonctionner) et <sc:inlineStyle role="emp">TEI</sc:inlineStyle> (le bien est inapte à accomplir la fonction requise).</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

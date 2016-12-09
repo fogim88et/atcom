@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Maintenance Réparative</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Travaux de Maintenance en temps masqué : la maintenance peut intervenir sur les équipements lorsque ceux-ci ne sont pas requis par la production.</sc:para>
+					<sc:para>L'intervention peut se limiter à de simples contrôles, à une réparation définitive : il arrive parfois que l'on procède à un <sc:inlineStyle role="emp">échange standard</sc:inlineStyle> complet.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

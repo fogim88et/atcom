@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:glosM>
+			<sp:term>Durée de vie</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">Lorsque l'on procède à des observations, on utilise la notion de &quot;Instant de la défaillance&quot; ou encore Ttf : &quot;Temps de (bon) fonctionnement avant la panne&quot;</sc:para>
+					<sc:para xml:space="preserve" sc:id="t13">Ttf vient de <sc:inlineStyle role="spec" sc:id="t14">Time to Fail</sc:inlineStyle>.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t9">Dans une étude statistique, elle est représentée souvent par la variable statistique ou aléatoire T</sc:para>
+					<sc:para xml:space="preserve" sc:id="t10">Elle est associée aux dispositifs non réparables.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">Elle se décline en </sc:para>
+					<sc:itemizedList sc:id="t6">
+						<sc:listItem sc:id="t7">
+							<sc:para xml:space="preserve" sc:id="t11">durée de vie moyenne : <sc:inlineStyle role="emp">MTTF</sc:inlineStyle> ou <sc:inlineStyle role="emp">Espérance mathématique E(T)</sc:inlineStyle>. </sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t8">
+							<sc:para xml:space="preserve" sc:id="t12">durée de vie nominale, notée <sc:inlineStyle role="emp">L10</sc:inlineStyle> pour associer  un niveau de confiance de 10% tel que R(t=L10)=0,9.</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

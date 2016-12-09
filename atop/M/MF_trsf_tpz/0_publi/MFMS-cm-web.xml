@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:ueM>
+			<sp:title>Gestion de Stock - thMF -</sp:title>
+			<sp:sTitle>Gestion de Stock</sp:sTitle>
+		</op:ueM>
+		<sp:courseUa sc:refUri="/M/MF_trsf_tpz/2E_ne_parcours_.xml"/>
+		<sp:courseUa sc:refUri="/M/MF_trsf_tpz/2E_td_parcours.xml"/>
+		<sp:courseUa sc:refUri="/M/MF_trsf_tpz/2E_exos.xml"/>
+		<sp:courseUc sc:refUri="/2C_ex/031/sujet_ommb_2011.xml"/>
+		<sp:genRef>
+			<op:genRef>
+				<sp:ref sc:refUri="/M/MF_trsf_tpz/2E_stock_demarche.ref"/>
+			</op:genRef>
+		</sp:genRef>
+	</op:ue>
+</sc:item>

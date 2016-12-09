@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Gestion de Maintenance Assistée par Ordinateur</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">abv : <sc:inlineStyle role="emp">GMAO</sc:inlineStyle></sc:para>
+					<sc:itemizedList sc:id="t4">
+						<sc:listItem sc:id="t5">
+							<sc:para sc:id="t10">Gestion des données techniques et économiques</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t6">
+							<sc:para sc:id="t11">Gestion du stock de pièces détachées</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t7">
+							<sc:para sc:id="t12">Suivi des interventions de maintenance</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t8">
+							<sc:para sc:id="t13">Planification de la Maintenance préventive</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t9">
+							<sc:para sc:id="t14">Analyse de l'historique</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

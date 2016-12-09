@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:webRoot xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:webRootM>
+			<sp:version>2015_1</sp:version>
+			<sp:settings/>
+		</op:webRootM>
+		<sp:ue sc:refUri="/T_exams/2015/INFO1/eval_papier.xml"/>
+	</op:webRoot>
+</sc:item>

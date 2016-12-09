@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+<sp:title>11.ind : Régression (T°, R)</sp:title>
+</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Pour contrôler la température d'un four de métallurgie, on utilise une sonde à thermistance dont la résistance varie en fonction de la température selon la loi , où R est la résistance en ohms, T la température absolue en Kelvin, E et F des coefficients propres à la thermistance. Après étalonnage de la thermistance, on obtient les résultats suivants (R=E.exp(F/T))</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t6">L'objectif est de déterminer E et F par la méthode des moindres carrés.</sc:para>
+						<sc:para sc:id="t7">1. Transformer l'expression de R en fonction de T, en une relation linéaire de type Y=a.X+b.</sc:para>
+						<sc:para sc:id="t8">2. Après avoir vérifié la valeur de l'ajustement par le coefficient de corrélation, en déduire les coefficients E et F. Les détails des calculs ne sont pas exigés.</sc:para>
+						<sc:para sc:id="t9">T</sc:para>
+						<sc:para sc:id="t10">700</sc:para>
+						<sc:para sc:id="t11">780</sc:para>
+						<sc:para sc:id="t12">940</sc:para>
+						<sc:para sc:id="t13">1000</sc:para>
+						<sc:para sc:id="t14">1200</sc:para>
+						<sc:para sc:id="t15">1610</sc:para>
+						<sc:para sc:id="t16">R</sc:para>
+						<sc:para sc:id="t17">8100</sc:para>
+						<sc:para sc:id="t18">2440</sc:para>
+						<sc:para sc:id="t19">900</sc:para>
+						<sc:para sc:id="t20">510</sc:para>
+						<sc:para sc:id="t21">360</sc:para>
+						<sc:para sc:id="t22">300</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+	</op:practUc>
+</sc:item>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>MTTF et fiabilité</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Donnez vos résultats ci-dessous</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t5">Le <sc:uLink role="glos" sc:id="t25" sc:refUri="/1B_op/M/MN/MTTF.ref">MTTF</sc:uLink> est de <sc:textLeaf role="gap" sc:id="t12">124</sc:textLeaf> mois.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t20">La <sc:uLink role="glos" sc:id="t26" sc:refUri="/1B_op/M/EF/fiabilite_observee.ref">fiabilité</sc:uLink> à t = 70 mois est comprise entre <sc:textLeaf role="gap" sc:id="t10">54</sc:textLeaf> % et <sc:textLeaf role="gap" sc:id="t11">55</sc:textLeaf> % (Encadrement à 1% : 97-98 par exemple).</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t24">Il suffit de calculer la moyenne des MTTF.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t29">à t=70 mois, nous avons N(t=70)=6 survivants sur 11 dispositifs (N(t=0))</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

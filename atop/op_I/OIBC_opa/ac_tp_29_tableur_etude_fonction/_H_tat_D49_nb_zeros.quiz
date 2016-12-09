@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:cloze>
+<op:exeM>
+<sp:title>Nombre de zéro.</sp:title>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Écrire &quot;Nombre de zéros&quot; en A49, et calculer en D49 le nombre de zéro.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t5">Ma formule en D49 est <sc:textLeaf role="gap" sc:id="t8">=NB.SI(H6:H46;&quot;ZERO&quot;)</sc:textLeaf>
+</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

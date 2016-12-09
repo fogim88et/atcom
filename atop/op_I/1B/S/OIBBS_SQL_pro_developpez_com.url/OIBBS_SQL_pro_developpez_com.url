@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:url xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:dk="kelis.fr:dokiel">
+		<dk:urlM>
+			<sp:url>http://sqlpro.developpez.com/</sp:url>
+			<sp:desc>
+				<dk:docMeta>
+					<sp:title>SQL PRO</sp:title>
+					<sp:desc>
+						<dk:textSimple>
+							<sc:para xml:space="preserve" sc:id="t3">SQLpro.developpez.com est le site web n°1 français pour apprendre le langage SQL et les bases de données relationnelles (SGBDR). Le langage SQL (Structured Query Language) y est décrit de A à Z pour le débutant comme pour le pro... Le site est associé aux forums techniques les plus actifs du net et comprends de nombreux exemples et des exercices.</sc:para>
+						</dk:textSimple>
+					</sp:desc>
+				</dk:docMeta>
+			</sp:desc>
+		</dk:urlM>
+	</dk:url>
+</sc:item>

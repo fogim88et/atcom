@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Maintenance</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Ensemble de toutes les actions techniques, administratives et de management durant le cycle de vie d'un bien, destinées à le maintenir ou à le rétablir dans un état dans lequel il peut accomplir la fonction requise.</sc:para>
+				</op:sTxt>
+			</sp:def>
+			<sp:wikip>Maintenance</sp:wikip>
+		</op:glosM>
+	</op:glos>
+</sc:item>

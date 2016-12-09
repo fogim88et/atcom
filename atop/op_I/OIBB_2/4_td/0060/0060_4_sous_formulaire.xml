@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM xmlns:gtm="comaint.fr:gTecMi">
+			<sp:title>60.4 Les sous-formulaires</sp:title>
+			<sp:sTitle>Les Sous-formulaires (60.4)</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>60_4a. Un exemple simple</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t3">Nous allons créer un formulaire basé sur la table tb_etudiant qui affiche simultanément la liste des étudiants et la liste des notes.</sc:para>
+								<sc:para xml:space="preserve">La liste des notes se trouvera dans le sous-formulaire mais les deux formulaires seront liés par la relation entre les deux tables par l'attribut id_et.</sc:para>
+								<sc:para xml:space="preserve">Les notes seront donc filtrées selon l'étudiant sélectionné</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t7">Créer un formulaire à l'aide de l'assistant</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t10">
+									<sc:column sc:id="t67" width="8"/>
+									<sc:column sc:id="t11" width="50"/>
+									<sc:column sc:id="t12" width="50"/>
+									<sc:row sc:id="t13">
+										<sc:cell sc:id="t68">
+											<sc:para xml:space="preserve" sc:id="t55">1</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t14">
+											<sc:para xml:space="preserve" sc:id="t32">Sélection de champ</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t15">
+											<sc:para xml:space="preserve" sc:id="t34">Tous les attributs de la table tb_etudiant</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t16">
+										<sc:cell sc:id="t69">
+											<sc:para xml:space="preserve" sc:id="t56">2</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t17">
+											<sc:para xml:space="preserve" sc:id="t36">Paramétrer un sous-formulaire</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t18">
+											<sc:para xml:space="preserve" sc:id="t38">Ajouter un sous-formulaire basé sur une relation existante : la relation avec la table tb_note est la seule disponible</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t19">
+										<sc:cell sc:id="t70">
+											<sc:para xml:space="preserve" sc:id="t57">3</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t20">
+											<sc:para xml:space="preserve" sc:id="t40">Ajouter des champs au sous-formulaire</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t21">
+											<sc:para xml:space="preserve" sc:id="t42">Tous les champs de la table tb_note</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t22">
+										<sc:cell sc:id="t71">
+											<sc:para xml:space="preserve" sc:id="t58">4</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t23">
+											<sc:para xml:space="preserve" sc:id="t44">Obtenir des champs joints</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t24">
+											<sc:para xml:space="preserve" sc:id="t46">Cette étape n'apparaît pas car le champ joint pour le formulaire et le sous-formulaire est obligatoirement l'attribut <sc:inlineStyle role="code">id_et</sc:inlineStyle> des deux tables</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t25">
+										<sc:cell sc:id="t72">
+											<sc:para xml:space="preserve" sc:id="t59">5-6-7-8</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t26" colSpan="2">
+											<sc:para xml:space="preserve" sc:id="t48">On peut laisser les propositions par défaut</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:rem>
+					<op:pbTi>
+						<sp:title>Exécution</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t62">Lorsque l'on sélectionne un étudiant, on voit bien que seules les notes de l'identifiant sélectionné sont affichées dans le sous-formulaire</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:rem>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Amélioration du formulaire</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t89">Voici l'objectif à atteindre</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/000025.jpg"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t93">On manipule les colonnes via leur menu contextuel (clic droit sur le colonne)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t87">1. Masquer les colonnes indésirables</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t91">2. Dans le <sc:inlineStyle role="emp">sous-formulaire</sc:inlineStyle> des notes, insérez une colonne avec un <sc:inlineStyle role="emp">contrôle</sc:inlineStyle> de type <sc:inlineStyle role="code">Zone de liste</sc:inlineStyle>.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t85">3. La colonne est nommée par défaut Zone de liste 1 (Clic droit option colonne pour accéder à ses propriétés)</sc:para>
+								<sc:para xml:space="preserve">4. Modifiez les propriétés comme dans la fiche 10.5c : vous avez construit le même contrôle <sc:inlineStyle role="code">Zone de liste</sc:inlineStyle> pour sélectionner la matière</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:simul>
+					<op:pbTi>
+						<sp:title>Afficher les moyennes et les notes</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t107">Vous avez construit en 60_2d  une requête qui calcule la moyenne pour chaque étudiant</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t109">Construisez une requête basée sur la table tb_note qui affiche la matière en clair (rq_60_4b_ ? ? ? ? ?)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t111">Construisez une formulaire (frm_60_4c) basé sur la requête rq_60_4b qui affiche en sous-formulaire les données de la requête.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t113">Le résultat à atteindre est présenté ci-dessous</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/000026.jpg">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:simul>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

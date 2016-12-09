@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:glosM>
+			<sp:term>Dispositif réparable</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">1 dispositif réparable est mis en service à t=0, fonctionnera à certains moment (<sc:inlineStyle role="emp" sc:id="t8">Tbf</sc:inlineStyle>) et subira des pannes pendant lesquelles il cesse d'accomplir la fonction requise</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">On peut donc établir un graphe dit <sc:inlineStyle role="emp" sc:id="t9">Marche-arrêt</sc:inlineStyle> avec l'état de marche (1) auquel on associe les Tbf et un état de panne (0) auquel on associe les TA ou Ttr.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">Lors d'études de fiabilité plus poussées, il sera nécessaire d'envisager un état de marche dit <sc:inlineStyle role="emp" sc:id="t10">dégradé</sc:inlineStyle> (votre voiture ne peut excéder les 75 Km/h)</sc:para>
+					<sc:para xml:space="preserve" sc:id="t7">Si on observe la vie de l'être humain, il passe par des périodes de bonne santé (<sc:inlineStyle role="emp" sc:id="t11">Tbf</sc:inlineStyle>) et des périodes de maladies (<sc:inlineStyle role="emp" sc:id="t12">TA</sc:inlineStyle>). Vous noterez que la notion d'<sc:inlineStyle role="emp" sc:id="t13">état dégradé</sc:inlineStyle> s'applique bien à la santé puisqu'il est relativement difficile de déterminer le seuil précis qui nous qualifie de &quot;non-apte&quot;, &quot;malade&quot;, &quot;souffrant&quot;, &quot; fiévreux&quot;, etc ...</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

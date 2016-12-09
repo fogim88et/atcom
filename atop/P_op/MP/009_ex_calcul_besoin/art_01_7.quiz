@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Article_01.7</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:res sc:refUri="/P_op/MP/009_ex_calcul_besoin/art_01_7.ods">
+<op:resInfoM>
+<sp:index>tab</sp:index>
+</op:resInfoM>
+</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t5">La règle de lotissement impose un regroupement des commandes sur 2 jours : vous ne pouvez donc pas lancer 2 OF sur 2 jours consécutifs.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t7">Votre stock en fin de journée N° 3 sera donc de <sc:textLeaf role="gap" sc:id="t28">130</sc:textLeaf> pièces.</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

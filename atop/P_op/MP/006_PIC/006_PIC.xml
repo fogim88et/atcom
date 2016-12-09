@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Le PIC</sp:title>
+			<sp:sTitle>Le PIC</sp:sTitle>
+		</op:uM>
+		<sp:courseUc sc:refUri="/P_op/MP/006_PIC/1_PIC.xml"/>
+		<sp:trainUcCloze>
+			<op:cloze>
+				<op:exeM>
+					<sp:title>Nomenclature</sp:title>
+				</op:exeM>
+				<sc:question>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t13">A partir des dimensions fournies dans la base de <sc:uLink role="ucLnk" sc:id="t21" sc:refUri="/P_op/MP/001_ac_lazurex/02_en_bdd.xml">données technique</sc:uLink> et notamment les dimensions réelles des articles B2 et B3 à réaliser, calculer la taille moyenne en mètre d'un produit EM.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sc:question>
+				<sc:gapText>
+					<op:clozeTxt>
+						<sc:para xml:space="preserve" sc:id="t15">Un produit EM nécessite en moyenne <sc:textLeaf role="gap" sc:id="t20">12,8</sc:textLeaf> m de matière première M</sc:para>
+					</op:clozeTxt>
+				</sc:gapText>
+				<sc:globalExplanation>
+					<op:res>
+						<sp:res sc:refUri="/P_op/MP/006_PIC/fichier_macro_nomen.ods">
+<op:resInfoM>
+<sp:pubMode>zoom</sp:pubMode>
+</op:resInfoM>
+</sp:res>
+					</op:res>
+				</sc:globalExplanation>
+			</op:cloze>
+		</sp:trainUcCloze>
+		<sp:courseUc>
+			<op:expUc>
+				<op:uM>
+					<sp:title>Capacité et gamme</sp:title>
+					<sp:sTitle>Capacité et gamme</sp:sTitle>
+				</op:uM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t49">Les capacités seront exprimées en mois.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/P_op/MP/006_PIC/macro_poste.ods">
+<op:resInfoM>
+<sp:pubMode>zoom</sp:pubMode>
+</op:resInfoM>
+</sp:res>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Gamme</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t83">Gamme de fabrication : Le vernissage sur le poste VE pour un produit EM</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/P_op/MP/006_PIC/Macro_gamme.ods">
+<op:resInfoM>
+<sp:pubMode>zoom</sp:pubMode>
+</op:resInfoM>
+</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUc>
+		</sp:courseUc>
+		<sp:courseUc>
+			<op:expUc>
+				<op:uM>
+					<sp:title>Les données de flux</sp:title>
+					<sp:sTitle>Les données de flux</sp:sTitle>
+				</op:uM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t89">Les besoins bruts ont différentes sources : </sc:para>
+										<sc:itemizedList sc:id="t92">
+											<sc:listItem sc:id="t93">
+												<sc:para xml:space="preserve">Les prévisions de vente par famille</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t94">
+												<sc:para xml:space="preserve">certaines commandes fermes</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t95">
+												<sc:para xml:space="preserve">les besoins des autres usines eu même groupe industriel</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/P_op/MP/006_PIC/besoin_brut.ods">
+<op:resInfoM>
+<sp:pubMode>zoom</sp:pubMode>
+</op:resInfoM>
+</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUc>
+		</sp:courseUc>
+		<sp:courseUc>
+			<op:expUc>
+				<op:uM>
+					<sp:title>Activités Stock minimum</sp:title>
+					<sp:sTitle>Activités Stock minimum</sp:sTitle>
+				</op:uM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t101">Les prévisions EM du mois d'août sont reportées au mois au mois de Juillet, les ventes continuent, mais l'usine est fermée. En juillet, il faut donc produire pour juillet et Août.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t105">Remplir le tableau ci-dessous avec les données de flux données ci-dessus</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:int sc:refUri="/P_op/MP/006_PIC/plan_commercial.ods">
+									<op:instructionM/>
+								</sp:int>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUc>
+		</sp:courseUc>
+		<sp:courseUc sc:refUri="/P_op/MP/006_PIC/Planification_Charge.xml"/>
+	</op:courseUa>
+</sc:item>

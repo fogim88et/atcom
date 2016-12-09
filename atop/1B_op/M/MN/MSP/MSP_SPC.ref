@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>MSP</sp:term>
+			<sp:syn>SPC</sp:syn>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Maîtrise statistique des procédés ou Contrôle statistique des procédés (<sc:inlineStyle role="spec">Statistic Process control</sc:inlineStyle>)</sc:para>
+					<sc:para>Le SPC (Contrôle Statistique du Procédé) remplace le contrôle systématique des produits qui est très coûteux car il nécessite des moyens importants (humains, appareils de contrôle, traitement). </sc:para>
+					<sc:para>Le contrôle statistique permettra d'obtenir de très bons résultats en prélevant fréquemment des petites quantités de pièces.</sc:para>
+				</op:sTxt>
+			</sp:def>
+			<sp:wikip>Maîtrise_statistique_des_procédés</sp:wikip>
+		</op:glosM>
+	</op:glos>
+</sc:item>

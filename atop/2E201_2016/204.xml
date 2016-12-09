@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>204. Fiabilité syst.</sp:title>
+			<sp:sTitle>204. Fiabilité syst</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Système série</sp:keywd>
+							<sp:keywd>Fiabilité</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:trainUcMcqMur sc:refUri="/2E201_2016/204_1_qcm.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E201_2016/204_2_tat.quiz"/>
+	</op:courseUa>
+</sc:item>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>10.1e. Les relations</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t228">Mettre 1 ou N pour préciser la nature des associations/relations entre les tables</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve">De la réflexion entre matière et étudiants concernant l'action de notation, on en déduit : 
+							<sc:inlineStyle role="code" sc:id="t314">matieres</sc:inlineStyle>
+							<sc:textLeaf role="gap" sc:id="t315">N</sc:textLeaf> -------------- <sc:textLeaf role="gap" sc:id="t316">N</sc:textLeaf> 
+									
+							
+							<sc:inlineStyle role="code" sc:id="t317">etudiants</sc:inlineStyle>
+						</sc:para>
+				<sc:para xml:space="preserve">Il découle que </sc:para>
+				<sc:itemizedList sc:id="t324">
+					<sc:listItem sc:id="t325">
+						<sc:para xml:space="preserve" sc:id="t230">
+							<sc:inlineStyle role="code" sc:id="t302">etudiants</sc:inlineStyle>
+							<sc:textLeaf role="gap" sc:id="t239">1</sc:textLeaf> ----------- <sc:textLeaf role="gap" sc:id="t240">N</sc:textLeaf> 
+									
+							
+							<sc:inlineStyle role="code" sc:id="t303">notes</sc:inlineStyle>
+						</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t326">
+						<sc:para xml:space="preserve" sc:id="t297">
+							<sc:inlineStyle role="code" sc:id="t306">notes</sc:inlineStyle>
+							<sc:textLeaf role="gap" sc:id="t256">N</sc:textLeaf> ----------------- <sc:textLeaf role="gap" sc:id="t257">1</sc:textLeaf> 
+									
+							
+							<sc:inlineStyle role="code" sc:id="t307">matieres</sc:inlineStyle>
+						</sc:para>
+					</sc:listItem>
+				</sc:itemizedList>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t299">Les étudiants sont notés dans des matières.</sc:para>
+						<sc:para>L'association entre les deux est donc une action de notation.</sc:para>
+						<sc:para>La table note est une table de relation entre les entités Etudiant et Matière.</sc:para>
+						<sc:para>En conséquence, les tables étudiants et matières sont en relation 1-N avec la table notes.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

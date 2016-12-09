@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sfm:ods xmlns:sfm="http://www.utc.fr/ics/scenari/v3/filemeta">
+	<op:imgM xmlns:op="utc.fr:ics/opale3">
+		<sp:title xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">Observations (âge du décès)</sp:title>
+		
+	<sp:alt xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"><sp:desc><op:sTxt>
+				<sc:para xml:space="preserve" sc:id="t6" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">Observations de l'âge du décès de 100000 personnes décédées en 1960</sc:para>
+				<sc:orderedList sc:id="t7" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+					<sc:listItem sc:id="t8">
+						<sc:para xml:space="preserve" sc:id="t9"> Répartition des décés (dN) par classe dt de 1 an (src_5_1.ods) (vi)</sc:para>
+					</sc:listItem>
+				</sc:orderedList>
+			</op:sTxt></sp:desc></sp:alt></op:imgM>
+</sfm:ods>

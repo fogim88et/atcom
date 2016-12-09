@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Durée de vie (30-1-n1)</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Fiabilité Expérimentale</sp:keywd>
+							<sp:keywd>TTF (Observation de n durée de vie)</sp:keywd>
+							<sp:keywd>Dispositif non réparable</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Situation</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t320">Dans le cas de la production en grande série de joints à lèvres "Nadelle12.30", nous souhaitons donner à nos clients des indications sur la fiabilité des joints.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t325">Les observations sont données selon les 
+								 ttf ordonnés de manière croissante.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t346"><sc:inlineStyle role="emp" sc:id="t341">Attention</sc:inlineStyle> : le rang i = 0 est présent pour résoudre le problème de l'initiation dans les applications informatiques (formules recopiées, graphes)</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:int sc:refUri="/0C-src/src/0G_ods/007/src_7_1.ods">
+					<op:instructionM>
+						<sp:webInstruct>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t165">L'exercice se fera à l'aide d'un tableur (Téléchargement du fichier ci-dessous)</sc:para>
+							</op:txt>
+						</sp:webInstruct>
+					</op:instructionM>
+				</sp:int>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t11">Combien de composants ont dépassés 5000 heures de fonctionnement.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t127">20 composant sont défaillants avant 5000 heures donc on a un <sc:uLink role="glos" sc:id="t295" sc:refUri="/1B_op/M/TUV/T_survie/N_t.ref">nombre de survivants N(t)</sc:uLink> ----&gt; N(t=5000) = 4</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t37">En déduire la <sc:uLink role="glos" sc:id="t296" sc:refUri="/1B_op/M/EF/fiabilite_observee.ref">fiabilité</sc:uLink> à t=5000 heures ou encore la <sc:uLink role="glos" sc:id="t297" sc:refUri="/1B_op/S/probabilite.ref">probabilité</sc:uLink> de réussir une  mission de 5000 heures de fonctionnement.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:res sc:refUri="/1B_op/M/MN/MES-fmd-odf/R(t)_op.odf">
+							<op:resInfoM>
+								<sp:index>form</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:hint>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t264">Voir la définition de la fiabilité <sc:uLink role="glos" sc:id="t265" sc:refUri="/1B_op/M/EF/fiabilite.ref">R(t)</sc:uLink> et de la <sc:uLink role="glos" sc:id="t266" sc:refUri="/1B_op/M/EF/fiabilite_observee.ref">Fiabilité Observée</sc:uLink>
+								</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t43">24 composants fonctionnent à t=0, donc on a un <sc:uLink role="glos" sc:id="t198" sc:refUri="/1B_op/M/TUV/T_survie/N_t.ref">nombre de survivants</sc:uLink> à t=0 <sc:inlineStyle role="emp" sc:id="t364">N(t=0) = 24</sc:inlineStyle></sc:para>
+										<sc:para xml:space="preserve" sc:id="t281">C'est la probabilité qu'un composant fonctionne plus de 5000 heures : c'est le rapport entre les survivants à t=5000 h sur le nombre de composants en fonctionnement à t=0.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t193">Cette probabilité s'exprime par la <sc:uLink role="glos" sc:id="t135" sc:refUri="/1B_op/M/EF/fiabilite.ref">fiabilité</sc:uLink> R(t=5000) = N(t=5000) / N(t=0) = 4/24, soit 17 %.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t81">Nous allons maintenant examiner de plus près l'usure de ce composant pour juger si celle-ci permets ou non d'identifier la fin de vie utile du composant.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t83">Calculer le <sc:uLink role="glos" sc:id="t298" sc:refUri="/1B_op/M/TUV/taux_defaillance.ref">taux de défaillance</sc:uLink> entre 400 et 500 heures</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:res sc:refUri="/1B_op/M/MN/MES-fmd-odf/L(t)_obs.odf">
+							<op:resInfoM>
+								<sp:index>form</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:hint>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t205">Voir la définition du <sc:uLink role="glos" sc:id="t206" sc:refUri="/1B_op/M/TUV/taux_defaillance.ref">taux de défaillance</sc:uLink>, et les grandeurs en jeu :</sc:para>
+								<sc:itemizedList sc:id="t240">
+									<sc:listItem sc:id="t241">
+										<sc:para xml:space="preserve" sc:id="t255">Survivants <sc:uLink role="glos" sc:id="t267" sc:refUri="/1B_op/M/TUV/T_survie/N_t.ref">N(t)</sc:uLink>
+</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t242">
+										<sc:para xml:space="preserve" sc:id="t256">Défaillants <sc:uLink role="glos" sc:id="t268" sc:refUri="/1B_op/M/TUV/T_survie/dN_t.ref">dN(t)</sc:uLink>
+</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t299">
+										<sc:para xml:space="preserve">dt est la durée de la période considérée</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Calcul détaillé pour la période 400 à 500 heures</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t87">La période étudiée est comprise entre 400 et 500 heures, soit t=400 et <sc:inlineStyle role="emp">dt=100</sc:inlineStyle>.</sc:para>
+										<sc:itemizedList sc:id="t199">
+											<sc:listItem sc:id="t200">
+												<sc:para xml:space="preserve" sc:id="t257">à t=400 heures, nous avons encore 21 composants en fonctionnement---&gt; <sc:uLink role="glos" sc:id="t208" sc:refUri="/1B_op/M/TUV/T_survie/N_t.ref"><sc:inlineStyle role="emp">N(t)</sc:inlineStyle></sc:uLink><sc:inlineStyle role="emp">=21</sc:inlineStyle>.</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t201">
+												<sc:para xml:space="preserve" sc:id="t258">à t+dt =500 heures, 20 composants fonctionnent encore ---&gt; <sc:inlineStyle role="emp">N(t+dt)=20</sc:inlineStyle>.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:para xml:space="preserve" sc:id="t259">On en déduit donc <sc:uLink role="glos" sc:id="t209" sc:refUri="/1B_op/M/TUV/T_survie/dN_t.ref">dN(t)</sc:uLink> = N(t+dt)-N(t) = 21-20 = 1</sc:para>
+										<sc:para xml:space="preserve">on a la probabilité p(dt) qu'un composant sur les 21 soit défectueux pendant les 100 heures qui se sont écoulées entre 400 et 500 heures.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t260">λ(t=400,t+dt=500)=1/(21*100) h<sc:textLeaf role="exp" sc:id="t207">-1</sc:textLeaf>, soit 1 composant défectueux sur 21 pendant 100 heures.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t231">Calculer le taux de défaillance entre 900 et 1200 heures</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t235">N(900) = 16, N(1200) = 14, dt=300 heures, donc dN(t=900, dt=300) = 16-14 = 2, soit un taux de défaillance de 2/(16*300) --&gt; 4,17E-4 h<sc:textLeaf role="exp" sc:id="t269">-1</sc:textLeaf>
+										</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

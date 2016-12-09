@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:refM>
+			<sp:ref>ev-61-OIBB</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">Gestion d'un club sportif ou une association. </sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">Les adhérents s'inscrivent à des activités organisées par des coachs.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t6"> L'inscription se traduit par un nombre d'heure de pratique : cela se traduira par le versement d'une cotisation proportionnelle à ce nombre d'heure, mais ce côté financier ne sera pas intégré à cette étude de cas.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t7">Régulièrement, pour chaque inscription cotisée, l'adhérent effectuera un certain nombre de séances dont on mémorisera la durée</sc:para>
+					<sc:para xml:space="preserve" sc:id="t8"> L'application devra assurer le suivi du volume horaire disponible pour chaque adhérent : c'est à dire la comparaison de la durée totale des séances réalisées avec celle fixée au niveau de l'inscription.</sc:para>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

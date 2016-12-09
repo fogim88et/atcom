@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Analyse de défaillances</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Aternative 1</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t5">SADT d'une machine à faire le café</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/T_exams/2015/GIM2/373.tmp.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">On a 4 blocs associés à 4 sous-fonctions, chercher les défaillances possibles des 4 fonctions et les propager sur le produit fini (café chaud)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t3">En déduire les défaillances possibles ou les événements indésirables sur le café chaud.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Alternative 2</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t6">Système de lubrification d'une machine embarquée dans un navire.</sc:para>
+								<sc:para xml:space="preserve">En déduire les causes de défaillance pour les événements "trop faible quantité d'huile" et "trop basse qualité du lubrifiant"</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

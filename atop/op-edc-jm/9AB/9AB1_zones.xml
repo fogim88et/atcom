@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Les différentes Zones</sp:title>
+			<sp:sTitle>Les différentes Zones</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>L'arrêt sur la première zone technique</sp:title>
+					</op:pbTi>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:table role="" sc:id="t8">
+											<sc:column sc:id="t9" width="33"/>
+											<sc:column sc:id="t10" width="33"/>
+											<sc:row role="head" sc:id="t12">
+												<sc:cell sc:id="t13">
+													<sc:para xml:space="preserve" sc:id="t25">Dilemme des équipes</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t14">
+													<sc:para xml:space="preserve" sc:id="t27">Parallèle  avec l'entreprise</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t16">
+												<sc:cell sc:id="t17">
+													<sc:para xml:space="preserve" sc:id="t31">Pénalisation importante en cas d'un fort score au dé</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t18">
+													<sc:para xml:space="preserve" sc:id="t33">L'arrêt d'une machine à forte productivité pour y effectuer des opérations <sc:uLink role="glos" sc:id="t177" sc:refUri="/1B_op/M/TUV/type_maint/corrective.ref">amélioratives</sc:uLink>
+</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t20">
+												<sc:cell sc:id="t21">
+													<sc:para xml:space="preserve" sc:id="t37">Prime suivante située à 3 cases </sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t22">
+													<sc:para xml:space="preserve" sc:id="t39">Produire des pièces pour le court terme ou améliorer l'équipement pour le moyen terne</sc:para>
+												</sc:cell>
+											</sc:row>
+										</sc:table>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/dk-E-edc/0001_JM/1A_JM/zone_01.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t43">Dans le cadre du jeu il est préférable d'acquérir au plus tôt des protections qui serviront tout au long du parcours.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Analogie avec l'Entreprise</sp:title>
+					</op:pbTi>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t67">De même, dans le cadre d'une opération <sc:uLink role="glos" sc:id="t178" sc:refUri="/1B_op/M/TUV/TPM.ref">Maintenance Totale</sc:uLink> un certain nombre d'actions concernant la remise à niveau des machines, la formation des opérateurs et l'organisation en général seront à réaliser et considérées comme un investissement.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+			</op:pb>
+		</sp:pb>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Les protections</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>dans le cadre du jeu</sp:title>
+							</op:pbTi>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt/>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:basic>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t65">Dans le cadre d'une politique <sc:uLink role="glos" sc:id="t179" sc:refUri="/1B_op/M/TUV/TPM.ref">Maintenance Totale</sc:uLink> le choix des priorités d'action sur un équipement est fixé après une analyse fine de l'écart entre le temps d'ouverture et le temps utile (<sc:uLink role="glos" sc:id="t180" sc:refUri="/1B_op/M/TUV/TRG/TRG.ref">TRG</sc:uLink>). </sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:basic>
+						<sp:basic>
+							<op:pbTi>
+								<sp:title>La préparation du véhicule</sp:title>
+							</op:pbTi>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt/>
+								</sp:txt>
+							</op:res>
+						</sp:basic>
+						<sp:basic>
+							<op:pbTi>
+								<sp:title>La préparation du conducteur</sp:title>
+							</op:pbTi>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt/>
+								</sp:txt>
+								<sp:txt>
+									<op:txt/>
+								</sp:txt>
+							</op:res>
+						</sp:basic>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Le passage au stand</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txtRes>
+									<op:txtRes>
+										<op:txtResM>
+											<sp:pos>lft</sp:pos>
+										</op:txtResM>
+										<sp:txt>
+											<op:txt>
+												<sc:table role="" sc:id="t91">
+													<sc:column sc:id="t92" width="50"/>
+													<sc:column sc:id="t93" width="50"/>
+													<sc:row role="head" sc:id="t94">
+														<sc:cell sc:id="t95">
+															<sc:para xml:space="preserve" sc:id="t101">Dilemme des équipes</sc:para>
+														</sc:cell>
+														<sc:cell sc:id="t96">
+															<sc:para xml:space="preserve" sc:id="t115">Parallèle avec l'entreprise</sc:para>
+														</sc:cell>
+													</sc:row>
+													<sc:row sc:id="t146">
+														<sc:cell sc:id="t147">
+															<sc:para xml:space="preserve" sc:id="t108">Proximité de la prime</sc:para>
+														</sc:cell>
+														<sc:cell sc:id="t148">
+															<sc:para xml:space="preserve" sc:id="t109">produire ou arrêter la machine pour la <sc:uLink role="glos" sc:id="t192" sc:refUri="/1B_op/M/TUV/type_maint/mi_preventive.ref">maintenance préventive</sc:uLink>.</sc:para>
+														</sc:cell>
+													</sc:row>
+													<sc:row sc:id="t97">
+														<sc:cell sc:id="t98">
+															<sc:para xml:space="preserve" sc:id="t105">Utilité</sc:para>
+														</sc:cell>
+														<sc:cell sc:id="t99">
+															<sc:para xml:space="preserve" sc:id="t107">efficacité des opérations de maintenance</sc:para>
+														</sc:cell>
+													</sc:row>
+												</sc:table>
+											</op:txt>
+										</sp:txt>
+										<sp:img sc:refUri="/dk-E-edc/0001_JM/1A_JM/zone_01_bis.png"/>
+									</op:txtRes>
+								</sp:txtRes>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t121">le choix du passage au stand dépend : </sc:para>
+										<sc:itemizedList sc:id="t193">
+											<sc:listItem sc:id="t194">
+												<sc:para xml:space="preserve" sc:id="t219"> du nombre d'événements protégés par la Maintenance effectuée au stand précédent , </sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:itemizedList sc:id="t195">
+											<sc:listItem sc:id="t196">
+												<sc:para xml:space="preserve" sc:id="t220">du choix du parcours. (Zone de <sc:inlineStyle role="spec">tademait</sc:inlineStyle> et zone de <sc:inlineStyle role="spec">Zora</sc:inlineStyle> avec des événements aux conséquences doubles).</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:itemizedList sc:id="t197">
+											<sc:listItem sc:id="t198">
+												<sc:para xml:space="preserve" sc:id="t122"> du classement de l'équipe </sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:para xml:space="preserve" sc:id="t191">Incidences indirectes d'un événement : </sc:para>
+										<sc:itemizedList sc:id="t199">
+											<sc:listItem sc:id="t200">
+												<sc:para xml:space="preserve" sc:id="t221">prime moins élevée, </sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t201">
+												<sc:para xml:space="preserve" sc:id="t222">blocage dis la zone du <sc:inlineStyle role="spec">Canyon</sc:inlineStyle>, </sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t202">
+												<sc:para xml:space="preserve" sc:id="t223">attente du bac dans la zone de <sc:inlineStyle role="spec">RIGEF</sc:inlineStyle>,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t203">
+												<sc:para xml:space="preserve" sc:id="t224"> perte de la prime finale dans la zone de <sc:inlineStyle role="spec">Symio</sc:inlineStyle>.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:basic>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t118">Les critères à prendre en compte dans une politique de maintenance : </sc:para>
+										<sc:itemizedList sc:id="t204">
+											<sc:listItem sc:id="t205">
+												<sc:para>les conséquences d'une panne sur le processus, </sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t206">
+												<sc:para>les contraintes de production (qualité, juste à temps, l'efficacité technique de la maintenance systématique et conditionnelle, le statut du service maintenance ,...)</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:basic>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Zone de trademait et Zora</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:res sc:refUri="/dk-E-edc/0001_JM/1A_JM/Zone_02_tademait.png">
+									<op:resInfoM>
+										<sp:index>img</sp:index>
+									</op:resInfoM>
+								</sp:res>
+								<sp:res sc:refUri="/dk-E-edc/0001_JM/1A_JM/Zone_04_rigef_zora.png">
+									<op:resInfoM>
+										<sp:index>img</sp:index>
+									</op:resInfoM>
+								</sp:res>
+								<sp:txt>
+									<op:txt/>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Zone de Gagadé</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txtRes>
+									<op:txtRes>
+										<op:txtResM>
+											<sp:pos>rgt</sp:pos>
+										</op:txtResM>
+										<sp:txt>
+											<op:txt/>
+										</sp:txt>
+										<sp:img sc:refUri="/dk-E-edc/0001_JM/1A_JM/zone_05_gagade.png"/>
+									</op:txtRes>
+								</sp:txtRes>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

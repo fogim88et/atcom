@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:refM>
+			<sp:ref>6 : TRG (6A)</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4"><sc:inlineStyle role="emp" sc:id="t17">Question 1</sc:inlineStyle> :</sc:para>
+					<sc:para xml:space="preserve" sc:id="t18">Le vocabulaire utilisé par le TRG est TU, TN, TB, TO, TxP, TxB, TxQ, AI, EP, NQ.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">Pour saisir les formules, ajoutez un espace de chaque côté de l'opérande. </sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">Exemple : si vous pensez que la formule de TO est TU+TB, saisir la formule sous la forme suivante <sc:inlineStyle role="emp" sc:id="t7">TU(espace)+(espace)TB</sc:inlineStyle>
+</sc:para>
+					<sc:para xml:space="preserve" sc:id="t19"><sc:inlineStyle role="emp" sc:id="t20">Question 2</sc:inlineStyle> :</sc:para>
+					<sc:para xml:space="preserve" sc:id="t8">Donnée : toutes les 2000 pièces, on doit faire un contrôle nécessitant une intervention du service maintenance de 20 mn. </sc:para>
+					<sc:para xml:space="preserve" sc:id="t9">Cette donnée est impliquée dans le calcul de quelle grandeur  ?  NQ/AI/TU/EP</sc:para>
+					<sc:para xml:space="preserve" sc:id="t21"><sc:inlineStyle role="emp" sc:id="t22">Question 3</sc:inlineStyle> :</sc:para>
+					<sc:para xml:space="preserve" sc:id="t23">Choisir la réponse juste :</sc:para>
+					<sc:itemizedList sc:id="t13">
+						<sc:listItem sc:id="t14">
+							<sc:para xml:space="preserve" sc:id="t24">Le Taux Brut de fonctionnement et la Disponibilité Opérationnelle sont <sc:inlineStyle role="emp" sc:id="t10">identiques</sc:inlineStyle></sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t15">
+							<sc:para xml:space="preserve" sc:id="t25">Le Taux Brut de fonctionnement <sc:inlineStyle role="emp" sc:id="t11">est inférieur</sc:inlineStyle> à la Disponibilité Opérationnelle</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t16">
+							<sc:para xml:space="preserve" sc:id="t26">Le Taux Brut de fonctionnement <sc:inlineStyle role="emp" sc:id="t12">est supérieur </sc:inlineStyle>à la Disponibilité Opérationnelle</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Question 4</sc:inlineStyle> :</sc:para>
+					<sc:para xml:space="preserve" sc:id="t29">Le temps d'ouverture est de 1000 heures et la Disponibilité Opérationnelle est de 80%. </sc:para>
+					<sc:para xml:space="preserve" sc:id="t30">On a 100 heures  pour changement de série et réglage</sc:para>
+					<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Question 5</sc:inlineStyle> :</sc:para>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

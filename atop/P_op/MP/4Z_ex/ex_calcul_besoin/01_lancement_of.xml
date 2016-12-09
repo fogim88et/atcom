@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Lancement d'OF</sp:title>
+			<sp:sTitle>Lancement d'OF</sp:sTitle>
+		</op:uM>
+		<sp:intro>
+			<op:res>
+				<sp:res sc:refUri="/P_op/MP/4Z_ex/ex_calcul_besoin/art_01_1.ods">
+					<op:resInfoM/>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t7">Sur cet exemple, vous constatez que le <sc:uLink role="glos" sc:id="t16" sc:refUri="/P_op/MP/4_prod/stock_dispo.ref">stock disponible</sc:uLink> en début de période est de 100 pièces.</sc:para>
+						<sc:para xml:space="preserve">Le délai de fabrication est de 2 jours : si la réception de 10 unités est prévue le jour n°3, alors la ligne <sc:inlineStyle role="emp">Fin d'ordre</sc:inlineStyle> sera renseignée le jour N° 3 avec 10 unités et la ligne Début Ordre sera alimentée avec la même quantité le jour N°1</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t18">Le <sc:uLink role="glos" sc:id="t19" sc:refUri="/P_op/MP/4_prod/besoin_brut.ref">Besoin brut</sc:uLink> a été établi en fonction des données de flux dont nous disposons au début de la période à l'aide des commandes fermes et des prévisions établies par le <sc:uLink role="glos" sc:id="t20" sc:refUri="/P_op/MP/4_prod/plan_ind_com.ref">Plan Industriel et Commercial</sc:uLink>.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t30">Au jour 2, nous devons donc livrer 70 unités que l'on prélève du stock <sc:uLink role="glos" sc:id="t21" sc:refUri="/P_op/MP/4_prod/stock_dispo.ref">Stock disponible (SD)</sc:uLink> SD<sc:textLeaf role="ind" sc:id="t22">j-1</sc:textLeaf>. On en déduit donc le SD<sc:textLeaf role="ind" sc:id="t23">j</sc:textLeaf> de 30 unités.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t36">Vous remarquez ici que la seule contrainte à intégrer est un délai de livraison de 2 jours.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/4Z_ex/ex_calcul_besoin/art_01_1_a.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/4Z_ex/ex_calcul_besoin/art_01_2.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/4Z_ex/ex_calcul_besoin/art_01_3.quiz"/>
+		<sp:trainUcMcqMur sc:refUri="/P_op/MP/4Z_ex/ex_calcul_besoin/art_01_4.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/4Z_ex/ex_calcul_besoin/art_01_4a.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/4Z_ex/ex_calcul_besoin/art_01_4b.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/4Z_ex/ex_calcul_besoin/art_01_5.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/4Z_ex/ex_calcul_besoin/art_01_6.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/4Z_ex/ex_calcul_besoin/art_01_7.quiz"/>
+	</op:courseUa>
+</sc:item>

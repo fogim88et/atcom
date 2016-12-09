@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>210.en : élévateur</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>MC</sp:keywd>
+							<sp:keywd>Fiabilité observée</sp:keywd>
+							<sp:keywd>Observation par rang</sp:keywd>
+							<sp:keywd>Dispositif non réparable</sp:keywd>
+							<sp:keywd>MTTF</sp:keywd>
+							<sp:keywd>Taux de défaillance</sp:keywd>
+							<sp:keywd>TD</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t112">On étudie la durée de vie de 11 élévateurs installés chez un client (src 006)</sc:para>
+								<sc:table role="" sc:id="t122">
+									<sc:caption xml:space="preserve" sc:id="t173">ttf ordonnés de manière croissante</sc:caption>
+									<sc:column role="head" sc:id="t123" width="4"/>
+									<sc:column sc:id="t124" width="4"/>
+									<sc:column sc:id="t125" width="4"/>
+									<sc:column sc:id="t126" width="4"/>
+									<sc:column sc:id="t127" width="4"/>
+									<sc:column sc:id="t128" width="4"/>
+									<sc:column sc:id="t129" width="6"/>
+									<sc:column sc:id="t130" width="6"/>
+									<sc:column sc:id="t131" width="6"/>
+									<sc:column sc:id="t132" width="6"/>
+									<sc:column sc:id="t133" width="6"/>
+									<sc:column sc:id="t174" width="6"/>
+									<sc:row sc:id="t134">
+										<sc:cell sc:id="t135">
+											<sc:para xml:space="preserve" sc:id="t147">ttf</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t136">
+											<sc:para xml:space="preserve" sc:id="t149">14</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t137">
+											<sc:para xml:space="preserve" sc:id="t151">20</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t138">
+											<sc:para xml:space="preserve" sc:id="t153">50</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t139">
+											<sc:para xml:space="preserve" sc:id="t155">64</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t140">
+											<sc:para xml:space="preserve" sc:id="t157">67</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t141">
+											<sc:para xml:space="preserve" sc:id="t159">100</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t142">
+											<sc:para xml:space="preserve" sc:id="t161">130</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t143">
+											<sc:para xml:space="preserve" sc:id="t163">135</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t144">
+											<sc:para xml:space="preserve" sc:id="t165">212</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t145">
+											<sc:para xml:space="preserve" sc:id="t167">224</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t175">
+											<sc:para xml:space="preserve" sc:id="t168">348</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+								<sc:para xml:space="preserve" sc:id="t113">Le système est ici considéré comme non réparable, ou tout du moins, on a recensé pour chaque élévateur le temps de la première défaillance.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:int sc:refUri="/0C-src/000/src_006_1.ods">
+							<op:instructionM/>
+						</sp:int>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Questions</sc:inlineStyle>
+						</sc:para>
+								<sc:para xml:space="preserve">
+<sc:uLink role="glos" sc:refUri="/1B_op/M/MN/MTTF.ref">MTTF</sc:uLink> (définitions) : Calculer le MTTF</sc:para>
+								<sc:para xml:space="preserve">
+<sc:uLink role="glos" sc:refUri="/1B_op/M/EF/fiabilite_observee.ref">Fiabilité</sc:uLink>
+ : calculer la fiabilité à t=70 mois</sc:para>
+								<sc:para xml:space="preserve">
+<sc:uLink role="glos" sc:refUri="/1B_op/M/TUV/taux_defaillance.ref">Taux de défaillance</sc:uLink>
+(période) : Calculer le taux de défaillance entre 0 et 60 mois</sc:para>
+								<sc:para xml:space="preserve">Taux de défaillance (suite) : Calculer le taux de défaillance entre 60 et 120 mois, 120 et 250 mois, 250 et 350 mois.</sc:para>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Conclure librement sur l'usure dans le temps de ce système</sc:inlineStyle>.</sc:para>
+								<sc:para xml:space="preserve">Taux de défaillance par rang : Calculer le taux de défaillance à l'issue de la première et la deuxième défaillance.</sc:para>
+								<sc:para xml:space="preserve">Espérance de vie : Considérons uniquement les dispositifs qui ont atteint 200 mois de fonctionnement. Calculer la durée de vie moyenne d'un équipement qui a dépassé les 200 mois de fonctionnement.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

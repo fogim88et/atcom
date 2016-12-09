@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:cloze>
+<op:exeM>
+<sp:title>Série Linéaire x (Menu)</sp:title>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t8">Construire la <sc:uLink role="ref" sc:id="t20" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/serie_x.ref">série x</sc:uLink> à l'aide des <sc:uLink role="ref" sc:id="t27" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/tat_option_de_menu.ref">menus</sc:uLink> du tableur.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t5">
+					<sc:textLeaf role="gap" sc:id="t10">edition</sc:textLeaf>...<sc:textLeaf role="gap" sc:id="t11">remplir</sc:textLeaf>...<sc:textLeaf role="gap" sc:id="t12">serie</sc:textLeaf>
+</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:orderedList sc:id="t14">
+							<sc:listItem sc:id="t15">
+								<sc:para sc:id="t7">Sélection de la plage A6 :46</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t16">
+								<sc:para>Edition...Remplir...Série. </sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t17">
+								<sc:para>Dans la fenêtre qui s'ouvre, on entre les paramètres spécifiés dans l'énonçé.</sc:para>
+							</sc:listItem>
+						</sc:orderedList>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

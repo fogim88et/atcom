@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Périodicité d'échange</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Statistiques (Modèles)</sp:keywd>
+							<sp:keywd>Loi Normale</sp:keywd>
+							<sp:keywd>Durée de vie</sp:keywd>
+							<sp:keywd>Echange systématique</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+					<sp:idt sc:refUri="/dk-0_id/ex/000-30/024-exr.xml"/>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t8">On souhaite évaluer si l'<sc:uLink role="glos" sc:id="t27" sc:refUri="/1B_op/M/TUV/type_maint/mi_preventive_systematique.ref">échange systématique</sc:uLink> d'une pièce est rentable ou non.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t15"> On sait que la <sc:uLink role="glos" sc:id="t28" sc:refUri="/1B_op/D/dv.ref">durée de vie</sc:uLink> suit une <sc:uLink role="ucLnk" sc:id="t29" sc:refUri="/D/DS/3_ne/DSE_ne/5E1_LN (58)/5E1_ne.xml">loi normale</sc:uLink> de moyenne 8000 heures avec un écart-type de 1500 heures. </sc:para>
+						<sc:para xml:space="preserve" sc:id="t16">Quel périodicité allez vous choisir pour une fiabilité de 97,72% associée à cette périodicité ?</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t5">La périodicité choisie est de <sc:textLeaf role="gap" sc:id="t10">5000</sc:textLeaf> heures</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t21">On cherche la VCR z par LN (8000,15000) tel que F(T)= 1-R(T) = 2,28%</sc:para>
+						<sc:para xml:space="preserve" sc:id="t22">ou encore t par LNCR(0,1) tel que F(t)=2,28% --&gt; t=(5000-8000)/1500 soit 2 sigma sous la valeur moyenne, soit 5000 heures par changement de variable</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

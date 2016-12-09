@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Maintenance de Niveau 3</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Identification et diagnostic de pannes, réparation par échange de composants fonctionnels, réparations mécaniques mineures.</sc:para>
+					<sc:para sc:id="t4">Elle est normalement réalisée par un agent de maintenance, sur place ou en local de maintenance. </sc:para>
+					<sc:para>En plus de l'outillage nécessaire, il nécessite généralement des appareils de mesure, banc d'essai, contrôle...</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:webRoot xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:webRootM>
+			<sp:version>2.5</sp:version>
+			<sp:date>10/11/2016</sp:date>
+			<sp:auth>
+				<op:sTxt>
+					<sc:para sc:id="t3">CIPE</sc:para>
+				</op:sTxt>
+			</sp:auth>
+			<sp:logo sc:refUri="/P_op/MP/000_img_bdd_tech/lazurex.png"/>
+			<sp:contentFilter>standard</sp:contentFilter>
+			<sp:settings>
+				<sp:quest>yes</sp:quest>
+				<sp:glos>yes</sp:glos>
+				<sp:acr>yes</sp:acr>
+				<sp:ref>yes</sp:ref>
+				<sp:bib>yes</sp:bib>
+				<sp:index>yes</sp:index>
+				<sp:credits>no</sp:credits>
+			</sp:settings>
+		</op:webRootM>
+		<sp:ue sc:refUri="/P_op/MP/0000_pub/000_ac_mrp_td_web.xml"/>
+	</op:webRoot>
+</sc:item>

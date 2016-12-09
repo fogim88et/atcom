@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>calendrier 2017</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Lien réunion : <sc:phrase role="url"><op:urlM xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core"><sp:url>https://framadate.org/VTxJkuZiBLUPKH8e</sp:url></op:urlM>A envoyer</sc:phrase> (<sc:phrase role="url"><op:urlM xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core"><sp:url>https://framadate.org/VTxJkuZiBLUPKH8e7pDqdFKd/admin</sp:url></op:urlM>Admin</sc:phrase>)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:uLink role="docLnk" sc:refUri="/IUT/trame calendrier 2016_2017 (1).xlsx">trame calendrier 2016_2017.xlsx</sc:uLink></sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

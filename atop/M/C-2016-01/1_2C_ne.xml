@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<op:ueM>
+			<sp:title>Comportement du matériel (ne)</sp:title>
+			<sp:sTitle>Comportement du matériel (ne)</sp:sTitle>
+		</op:ueM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para xml:space="preserve" sc:id="t3">Impression des notions essentielles à retenir pour appréhender les concepts importants dans le comportement d'un matériel réparable ou non et intégrer les données de fiabilité, maintenabilité, disponibilité lors de la conception d'un équipement, du plan de maintenance préventive d'un équipement, de la gestion des pièces détachées.</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:courseUa sc:refUri="/M/C-2016-01/2_2C_cm.xml"/>
+		<sp:courseUa sc:refUri="/M/C-2016-01/2_2C2_ne.xml"/>
+		<sp:courseUa sc:refUri="/M/C-2016-01/2_2C1_ne.xml"/>
+	</op:ue>
+</sc:item>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:exeM>
+<sp:title>OF pour M3</sp:title>
+</op:exeM>
+				<sc:question>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t3">Lister les OA pour M3, toujours avec le format N-Q,N-Q ou N est le n° de jour, et Q est la quantité. 0 si pas d'OA</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sc:question>
+				<sc:gapText>
+					<op:clozeTxt>
+						<sc:para sc:id="t5">Votre réponse :  <sc:textLeaf role="gap" sc:id="t8">0</sc:textLeaf>
+</sc:para>
+					</op:clozeTxt>
+				</sc:gapText>
+			</op:cloze>
+</sc:item>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:field xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>33.3 : Fabrication de lampes témoin</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">
+							<sc:uLink role="ref" sc:id="t6" sc:refUri="/0/en/en_0015_ttf_va_7_ampoules.ref">Fabrication de lampes témoin</sc:uLink>. </sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t8">Construire le test, et donnez votre réponse avec l'intervalle dans lequel vous refusez l'hypothèse du responsable de la production au seuil de ≈ 6% </sc:para>
+						<sc:orderedList sc:id="t11">
+							<sc:listItem sc:id="t12">
+								<sc:para xml:space="preserve" sc:id="t19">[0-ninf] </sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t13">
+								<sc:para xml:space="preserve" sc:id="t20"> ]ninf-nsup[ </sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t14">
+								<sc:para xml:space="preserve" sc:id="t21">[nsup-15]</sc:para>
+							</sc:listItem>
+						</sc:orderedList>
+						<sc:para xml:space="preserve" sc:id="t22">
+<sc:inlineStyle role="emp">ninf</sc:inlineStyle> et/ou <sc:inlineStyle role="emp">nsup</sc:inlineStyle> sont le nombre de lampes défectueuses que vous avez déterminé en construisant votre test. </sc:para>
+						<sc:para xml:space="preserve">Si vous travaillez avec des proportions de déchet (%), multipliez vos % par 15 pour les convertir en nombre de lampe</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sp:asw>
+			<sc:SFSolution>
+				<sc:value>6-15</sc:value>
+				<sc:value>[6-15]</sc:value>
+				<sc:value>(6-15)</sc:value>
+			</sc:SFSolution>
+		</sp:asw>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t24">Dans l'exercice qui suit (33.x), le détail des calculs est fourni en solution</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:field>
+</sc:item>

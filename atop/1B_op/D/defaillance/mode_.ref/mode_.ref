@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:definition xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:dk="kelis.fr:dokiel">
+		<dk:definitionMeta>
+			<sp:notion>Mode de défaillance</sp:notion>
+			<sp:def>
+				<dk:textSimple>
+					<sc:para xml:space="preserve" sc:id="t6">On définit un mode de défaillance, comme l'effet par lequel une défaillance est observable, sur un élément d'un système, sur une fonction, ou sur le système lui même.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t7">Lorsque la fonction est clairement définie, le mode est tout simplement &quot;la non-fonction&quot; et/ou la &quot;perte partielle de la fonction&quot;</sc:para>
+				</dk:textSimple>
+			</sp:def>
+		</dk:definitionMeta>
+	</dk:definition>
+</sc:item>

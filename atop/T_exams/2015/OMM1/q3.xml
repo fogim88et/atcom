@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>3. Définitions</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Fiabilité / Maintenabilité / Disponibilité</sc:para>
+						<sc:para xml:space="preserve" sc:id="t828">Maintenance curative / Maintenance corrective / Maintenance préventive Systématique / Maintenance préventive Conditionnelle.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t831">Comparer ce qu'est une période de garantie (vu du fournisseur) et une périodicité de maintenance préventive systématique (vu de l'exploitant).</sc:para>
+						<sc:para xml:space="preserve" sc:id="t832">Quelle est la différence entre Fiabilité Expérimentale et Prévisionnelle.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t833">Qu'est ce que la courbe en baignoire ? représentez son allure et annoter les points importants dans la vie d'un composant et la politique de maintenance appliquée à chaque période. N'hésitez pas à comparer avec l'être humain si c'est plus clair pour vous.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t836">Qu'est ce qu'une arbre de défaillance ? un arbre de dépannage ?</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+	</op:practUc>
+</sc:item>

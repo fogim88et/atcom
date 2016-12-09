@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>Espérance de vie à un instant t</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Considérons uniquement les dispositifs qui ont atteint 200 mois de fonctionnement. Calculer la durée de vie moyenne d'un équipement qui a dépassé les 200 mois de fonctionnement.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t30">
+					<sc:textLeaf role="gap" sc:id="t19">261</sc:textLeaf> heures (arrondir à l'entier le plus proche)</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t32">C'est un nouvel échantillon constitué des 3 derniers ttf (ceux qui dépassent 200 mois). La moyenne de ces 3 ttf est donc l'espérance de vie moyenne d'un dispositif ayant atteint 200 mois de fonctionnement</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

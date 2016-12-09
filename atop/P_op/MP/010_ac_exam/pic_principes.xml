@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Test 10 Nov Charge globale et capacité</sp:title>
+			<sp:sTitle>Test 10 Nov Charge globale et capacité</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:res sc:refUri="/P_op/MP/010_ac_exam/OF_OA_a_lancer_mars.ods">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:res sc:refUri="/P_op/MP/000_bbd_tech_res/4_Fichier_Gamme.ods">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Chargement des postes</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t13">Nous allons étudier la charge des postes VE, LA et MT  selon les fichiers ci-dessous</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:int sc:refUri="/P_op/MP/010_ac_exam/OF_poste_MT.ods">
+							<op:instructionM>
+								<sp:webInstruct>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t49">MT</sc:para>
+									</op:txt>
+								</sp:webInstruct>
+							</op:instructionM>
+						</sp:int>
+						<sp:int sc:refUri="/P_op/MP/010_ac_exam/OF_poste_VE.ods">
+							<op:instructionM>
+								<sp:webInstruct>
+									<op:txt>
+										<sc:para xml:space="preserve">VE</sc:para>
+									</op:txt>
+								</sp:webInstruct>
+							</op:instructionM>
+						</sp:int>
+						<sp:int sc:refUri="/P_op/MP/010_ac_exam/OF_poste_LA.ods">
+							<op:instructionM>
+								<sp:webInstruct>
+									<op:txt>
+										<sc:para xml:space="preserve">LA</sc:para>
+									</op:txt>
+								</sp:webInstruct>
+							</op:instructionM>
+						</sp:int>
+					</op:res>
+				</sp:info>
+				<sp:warning>
+					<op:pbTi>
+						<sp:title>Démarche</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t112">A la date de réception de chaque OF,  vous griserez la cellule, puis vous chargerez le poste les jours qui précèdent la date de fin de l'OF en respectant la capacité maximale journalière du poste. </sc:para>
+								<sc:para xml:space="preserve">Vous reprendrez les informations calculées précédemment dans votre fichier "Poste de Charge (<sc:uLink role="glos" sc:id="t134" sc:refUri="/P_op/MP/4_prod/plan_de_charge.ref">PDC</sc:uLink>)"</sc:para>
+								<sc:para xml:space="preserve" sc:id="t113">Les OF ainsi proposés par le MRP sont <sc:uLink role="glos" sc:id="t114" sc:refUri="/P_op/MP/4_prod/Jalonnement.ref">jalonnés</sc:uLink> sur les postes de charge afin d'établir la charge par jour par poste.</sc:para>
+								<sc:para xml:space="preserve">Commencez par le poste MT pour EML et EMV, demandez la correction</sc:para>
+								<sc:para xml:space="preserve" sc:id="t115">Vous procéderez de même avec le poste VE pour EMV, puis LA : vous noterez que EML et EMV doivent tous deux être planifiés sur le poste LA.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:warning>
+				<sp:warning>
+					<op:pbTi>
+						<sp:title>Démarche</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t137">En reprenant les données cumulées obtenues par jour par poste,  vous établirez un récapitulatif hebdomadaire de la <sc:uLink role="glos" sc:id="t138" sc:refUri="/P_op/MP/4_prod/calcul_charges_globales.ref">charge</sc:uLink>, de la <sc:uLink role="glos" sc:id="t139" sc:refUri="/P_op/MP/4_prod/capacite.ref">capacité</sc:uLink> réelle, et du rapport entre les deux. Renseignez le tableau ci-dessous</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:warning>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Bilan hebdomadaire par poste</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:int sc:refUri="/P_op/MP/000_bbd_tech_res/modeles/charge_mensuelle_modeles.ods">
+							<op:instructionM/>
+						</sp:int>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

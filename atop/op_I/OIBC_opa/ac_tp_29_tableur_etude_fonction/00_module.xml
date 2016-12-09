@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:ueM>
+			<sp:title>Etude de cas : Un Polynôme de degré 3.</sp:title>
+			<sp:sTitle>Polynôme de degré 3.</sp:sTitle>
+		</op:ueM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para sc:id="t5">Découverte pas à pas d'une méthodes d'analyse structurée permettant de décomposer un problème en plusieurs phases.</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t7">Notre objectif est d'étudier les possibilités du tableur ou de labview à partir d'un polynôme de degré 3.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/res.odg">
+<op:resInfoM>
+<sp:index>graph</sp:index>
+</op:resInfoM>
+</sp:res>
+			</op:res>
+		</sp:intro>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>Analyse du problème</sp:title>
+					<sp:sTitle>Analyse du problème</sp:sTitle>
+				</op:ueDivM>
+				<sp:courseUa sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/activitecours_02.xml"/>
+			</op:ueDiv>
+		</sp:div>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>Phase 2</sp:title>
+					<sp:sTitle>Phase 2</sp:sTitle>
+				</op:ueDivM>
+				<sp:courseUa sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/activitecours.xml"/>
+			</op:ueDiv>
+		</sp:div>
+	</op:ue>
+</sc:item>

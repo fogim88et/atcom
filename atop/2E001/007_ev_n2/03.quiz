@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Maintenance</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t17">Calculer les ratios Maintenance ci-dessous</sc:para>
+						<sc:para xml:space="preserve" sc:id="t23"><sc:uLink role="ref" sc:id="t20" sc:refUri="/2E001/007_ev_n2/0007.ref">7 : TRG (6A)</sc:uLink></sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t8">MTBF =<sc:textLeaf role="gap" sc:id="t9">5,88</sc:textLeaf> h (2 décimales)</sc:para>
+				<sc:para xml:space="preserve" sc:id="t10">MTTR = <sc:textLeaf role="gap" sc:id="t11">0,47</sc:textLeaf> h (2 décimales)</sc:para>
+				<sc:para xml:space="preserve" sc:id="t12">A (Disponibilité opérationnelle) = <sc:textLeaf role="gap" sc:id="t13">93,00</sc:textLeaf> % (2 décimales)</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

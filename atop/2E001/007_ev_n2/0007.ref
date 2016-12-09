@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:refM>
+			<sp:ref>7 : TRG (6A)</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">Sur 110 heures de fonctionnement sur une machine, on a relevé les éléments suivants :</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">- Temps de cycle : 3 mn.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">- 12 défaillances pour une durée totale de réparation de 8 heures.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t7">- 6 changements d'outil pour une durée totale de 2 heures.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t8">- 1 heure d'arrêt pour attente de matière première.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t9">- 15 pièces sont défectueuses</sc:para>
+					<sc:para xml:space="preserve" sc:id="t10">- Production totale réalisée : 1740 pièces</sc:para>
+					<sc:para xml:space="preserve" sc:id="t11">Calculer le TRG, les taux intermédiaires, le MTBF, le MTTR, la disponibilité opérationnelle</sc:para>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

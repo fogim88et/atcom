@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Planification et Calcul des besoins</sp:title>
+			<sp:sTitle>Planification et Calcul des besoins</sp:sTitle>
+		</op:uM>
+		<sp:trainUcMcqSur sc:refUri="/P_op/MP/003_ac_res/02_30_ordre_etude.quiz"/>
+		<sp:courseUc sc:refUri="/P_op/MP/003_ac_res/0_simulation_besoin.xml"/>
+		<sp:courseUc sc:refUri="/P_op/MP/003_ac_res/1_calcul_besoin.xml"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/003_ac_res/02_31_OF_EML.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/003_ac_res/02_321_OF_EMV.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/003_ac_res/02_322_OF_EMV.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/003_ac_res/02_331_OF_B2.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/003_ac_res/02_332_OF_B2.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/003_ac_res/02_341_OF_B3.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/003_ac_res/02_342_OF_B3.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/003_ac_res/02_35_OA_M2.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/003_ac_res/02_36_OA_M3.quiz"/>
+		<sp:quest>
+			<op:txt>
+				<sc:para sc:id="t456">Avez vous noté un soucis dans cette planification ?</sc:para>
+			</op:txt>
+		</sp:quest>
+	</op:courseUa>
+</sc:item>

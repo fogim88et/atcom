@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>41.n1. Etude Pièce banale</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>MF</sp:keywd>
+							<sp:keywd>SE</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t6">Étude de la méthode d'approvisionnement : quantité économique (<sc:uLink role="glos" sc:id="t103" sc:refUri="/1B_op/M/M/S/stock/Qec.ref">Qec</sc:uLink>) ou période économique (<sc:uLink role="glos" sc:id="t111" sc:refUri="/1B_op/M/M/S/stock/Tec.ref">Tec</sc:uLink>), <sc:uLink role="glos" sc:id="t112" sc:refUri="/1B_op/M/M/S/stock/qs.ref">stock d'alerte</sc:uLink>, méthode choisie pour la pièce suivante</sc:para>
+						<sc:para xml:space="preserve" sc:id="t7">- Taux de possession : 25%</sc:para>
+						<sc:para xml:space="preserve" sc:id="t8">- Coût d'une commande : 50 €</sc:para>
+						<sc:para xml:space="preserve" sc:id="t9">- Consommation annuelle : 318 pièces</sc:para>
+						<sc:para xml:space="preserve" sc:id="t10">- Prix d'achat : 150 €</sc:para>
+						<sc:para xml:space="preserve" sc:id="t11">- Consommation des 10 derniers mois : 26, 32, 33, 15, 18, 25, 31, 28, 27, 30.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t43">L'étude va porter sur l'impact du délai d'approvisionnement qui sera de 1 journée ou 1 semaine (7 jours)</sc:para>
+						<sc:para xml:space="preserve" sc:id="t87">Au préalable, la première question portera donc sur les données de la pièce  indépendants du délai.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t37">a. Faut-il stocker la pièce ? justification la plus rapide possible.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t66"><sc:inlineStyle role="emp">Le stockage est évident : Qa est élevé</sc:inlineStyle> et Pu relativement faible, la pénalité en cas de rupture sera donc bien supérieure au CSM</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t117">b. Calculer les données de gestion : Qe, Te. Attention à Cc . En déduire un nombre de commande annuel optimal et la périodicité idéale entre 2 commandes</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">La pièce est gérée seule chez le fournisseur donc Cc=50 euros</sc:para>
+										<sc:para xml:space="preserve" sc:id="t119">Qe = 29, Te = 1,1 mois. on aura donc environ 11 commandes à l'année.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t120">c. Choisir la méthode de gestion appropriée (PA ou PC). Tenir compte de la régularité et/ou du regroupement possible avec d'autres pièces</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t122">Les quantités consommées par périodes de 1,1 mois sont trop faibles et trop irrégulières pour envisager un PA, on choisira donc PC avec 30 pièces commandées dès que la quantité en stock atteindra Qs que l'on va calculer ci-dessous.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">d. Traiter les données fournies dans l'historique en calculant la moyenne et écart-type sur la période dite d'observation.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t136">Saisir l'historique dans le tableau prévu à cet effet avec l'exécutable, attention à modifier l'indice de départ (à gauche de Qper) de l'affichage pour accéder à la saisie des 10 valeurs.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txtRes>
+									<op:txtRes>
+										<op:txtResM>
+											<sp:pos>rgt</sp:pos>
+										</op:txtResM>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve" sc:id="t142">La consommation mensuelle est donc de 26,5 avec un écart-type de 5,6.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:img sc:refUri="/2C_ex/031/41/1C/ex_41_histo.png"/>
+									</op:txtRes>
+								</sp:txtRes>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t17">Étude pour un  délai d'approvisionnement fixé à 1 Journée.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txtRes>
+									<op:txtRes>
+										<op:txtResM>
+											<sp:pos>lft</sp:pos>
+										</op:txtResM>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve" sc:id="t82">Pour un délai d'1 journée, la consommation moyenne est de 0,88. </sc:para>
+												<sc:para xml:space="preserve">Sans outil informatique pour appliquer un modèle statistique on peut doubler ou tripler la Qd (car sa valeur est faible) --&gt; donc entre 1,8 et 2,7 : soit 2 ou 3.</sc:para>
+												<sc:para xml:space="preserve" sc:id="t140">L'application du modèle de Poisson pour un risque de 5% et de 1% donne Qs=2,2 et Qs=3,2. </sc:para>
+												<sc:para xml:space="preserve" sc:id="t95">On choisira donc Qs=3</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:img sc:refUri="/2C_ex/031/41/1C/ex_41_seuil.png"/>
+									</op:txtRes>
+								</sp:txtRes>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t23">Étude pour un délai d'approvisionnement fixé à 1 semaine (7 jours)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t64">Par analogie, on a Qs entre 10 et 12 pour un risque de 5% et 1%.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

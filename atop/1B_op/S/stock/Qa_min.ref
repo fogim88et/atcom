@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Stockage : conso. annuelle minimale (Qa_min)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">En tenant compte du Coût de stockage maintenance (<sc:inlineStyle role="emp">CSM</sc:inlineStyle>) et du coût induit par une rupture de stock (<sc:inlineStyle role="emp">CDM</sc:inlineStyle>), c'est la quantité annuelle minimum qu'il faut consommer pour justifier économiquement d'une mise en stock de la pièce.</sc:para>
+					<sc:para xml:space="preserve">Qa_min = [2.Pu.T.Cc]/[P + Ccpc]²</sc:para>
+					<sc:para xml:space="preserve"><sc:inlineStyle role="emp">P</sc:inlineStyle> est la pénalité induite par le <sc:inlineStyle role="emp">CDM</sc:inlineStyle>.</sc:para>
+					<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Ccpc </sc:inlineStyle>: Coût d'une commande en urgence dont l'objectif est de tenter de réduire le délai d'approvisionnement en cas de rupture de stock</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

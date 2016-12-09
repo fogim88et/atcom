@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:mcqMur xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Article_01.4</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Si on place 10 articles en fin d'ordre le 2, il est trop tard pour lancer l'OF sur cette période. Quelles solutions vous semblent cohérentes</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:choices>
+			<sc:choice solution="unchecked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t5">On ne fait rien, le stock de sécurité existe pour pallier à ce genre de situation</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t9">on propose un lancement d'OF le 1, et on avisera ensuite selon le <sc:uLink role="glos" sc:id="t52" sc:refUri="/P_op/MP/4_prod/calcul_charges_globales.ref">CGC</sc:uLink> (calcul des charges globales)</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t13">tout dépends de la répartition du BB en commandes fermes ou en prévisions (cf données de flux).</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+		</sc:choices>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t51">Le stock de sécurité existe pour faire face à un imprévu de dernière minute, et non de supporter les erreurs de planification de la période précédente. Un OF en cours aurait dû être lancé avant avec une réception prévue (RP) le 2.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:mcqMur>
+</sc:item>

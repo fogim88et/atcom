@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>src 3 : Historique 10 véhicules</sp:title>
+			<sp:sTitle>src 3 : Historique 10 véhicules</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:int sc:refUri="/2C_ex/00/27/src_3_1.ods">
+							<op:instructionM>
+								<sp:webInstruct>
+									<op:txt>
+										<sc:para sc:id="t5">1. Liste des interventions</sc:para>
+									</op:txt>
+								</sp:webInstruct>
+							</op:instructionM>
+						</sp:int>
+						<sp:int sc:refUri="/2C_ex/00/27/src_3_6.ods">
+							<op:instructionM>
+								<sp:webInstruct>
+									<op:txt>
+										<sc:para sc:id="t9">2. Analyse (données) de l'historique</sc:para>
+									</op:txt>
+								</sp:webInstruct>
+							</op:instructionM>
+						</sp:int>
+						<sp:int sc:refUri="/2C_ex/00/27/src_3_2.ods">
+							<op:instructionM>
+								<sp:webInstruct>
+									<op:txt>
+										<sc:para sc:id="t13">3. Analyse des arrêts par code</sc:para>
+									</op:txt>
+								</sp:webInstruct>
+							</op:instructionM>
+						</sp:int>
+						<sp:int sc:refUri="/2C_ex/00/27/src_3_3.ods">
+							<op:instructionM/>
+						</sp:int>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

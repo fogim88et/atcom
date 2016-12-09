@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>src_7 : Durée de vie de Joints à lèvres</sp:title>
+			<sp:sTitle>src_7 :Durée de vie de Joints à lèvres</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Contexte</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t14">Dans le cas de la production en grande série de joints à lèvres &quot;Nadelle12.30&quot;, nous souhaitons donner à nos clients des indications sur la fiabilité des joints.</sc:para>
+								<sc:orderedList sc:id="t20">
+									<sc:listItem sc:id="t21">
+										<sc:para sc:id="t17">
+								 ttf ordonnés chronologiquement</sc:para>
+									</sc:listItem>
+								</sc:orderedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Fichiers à télécharger</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:int sc:refUri="/0C-src/src/0G_ods/007/src_7_1.ods">
+							<op:instructionM>
+								<sp:webInstruct>
+									<op:txt>
+										<sc:para sc:id="t5">1. Tableur : [i, tff] : 24 composants</sc:para>
+									</op:txt>
+								</sp:webInstruct>
+							</op:instructionM>
+						</sp:int>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

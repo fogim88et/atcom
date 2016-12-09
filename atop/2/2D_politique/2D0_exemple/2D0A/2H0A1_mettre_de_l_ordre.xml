@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Mettre de l'ordre (1)</sp:title>
+			<sp:sTitle>Mettre de l'ordre</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:res sc:refUri="/00_atopale_ext/0F_img/2H/04_ordre/04.xml">
+							<op:resInfoM>
+								<sp:pubMode>embeded</sp:pubMode>
+								<sp:index>anim</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

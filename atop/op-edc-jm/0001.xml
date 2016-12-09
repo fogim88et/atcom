@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:ueM>
+			<sp:title>Jeu de la maintenance</sp:title>
+			<sp:sTitle>Jeu de la maintenance</sp:sTitle>
+		</op:ueM>
+		<sp:idint sc:refUri="/dk-0_id/edc/edc-0001-JM.xml"/>
+		<sp:courseUa sc:refUri="/op-edc-jm/9AA.xml"/>
+		<sp:courseUa sc:refUri="/op-edc-jm/9AB.xml"/>
+	</op:ue>
+</sc:item>

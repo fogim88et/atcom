@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Fiabilité Prévisionnelle</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Modèle Statistique en tout point d'un intervalle de temps.</sc:para>
+					<sc:itemizedList sc:id="t4">
+						<sc:listItem sc:id="t5">
+							<sc:para sc:id="t7">Modèle <sc:inlineStyle role="emp">Exponentiel</sc:inlineStyle> (Taux de défaillance constant)</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t6">
+							<sc:para sc:id="t8">Modèle de <sc:inlineStyle role="emp">Weibull</sc:inlineStyle> (Taux de défaillance variable dans le temps)</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para>D'autres modèles dits discrets permettent d'estimer la proportion de défaillances d'un dispositif si la durée d'observation ou l'intervalle de temps est fixe :</sc:para>
+					<sc:itemizedList sc:id="t12">
+						<sc:listItem sc:id="t13">
+							<sc:para>
+								<sc:inlineStyle role="emp">Loi de Poisson</sc:inlineStyle>
+							</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

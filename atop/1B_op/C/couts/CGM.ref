@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Coût Global Maintenance (CGM)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t5">CGM : Coût Global Maintenance</sc:para>
+					<sc:itemizedList sc:id="t10">
+						<sc:listItem sc:id="t11">
+							<sc:para sc:id="t6">
+								<sc:inlineStyle role="emp">CIM</sc:inlineStyle> : Coût des Interventions Maintenance (Direct)+</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t12">
+							<sc:para sc:id="t7">
+								<sc:inlineStyle role="emp">CDM</sc:inlineStyle> : Coût Défaillance Maintenance (Indirect) +</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t13">
+							<sc:para sc:id="t8">
+								<sc:inlineStyle role="emp">CSM</sc:inlineStyle> : Coût Stockage Maintenance +</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t14">
+							<sc:para sc:id="t9">
+								<sc:inlineStyle role="emp">ASM</sc:inlineStyle> : Amortissement des surinvestissements Maintenance</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para sc:id="t15">Chacun des trois premiers éléments est en relation avec les deux autres. Rechercher à diminuer le CGM passe par la définition d'une <sc:inlineStyle role="emp">politique de maintenance</sc:inlineStyle> dont le rôle est de définir les <sc:inlineStyle role="emp">actions prioritaires</sc:inlineStyle> à mener.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

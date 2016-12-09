@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Densité de probabilité des défaillances f(t)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t6">Il est intéressant d'observer l'allure de la courbe f pour observer comment les défaillances sont réparties dans le temps.</sc:para>
+					<sc:para sc:id="t7">D'un point de vue expérimental, lorsque les observations portent sur des périodes, on a : </sc:para>
+					<sc:itemizedList sc:id="t8">
+						<sc:listItem sc:id="t9">
+							<sc:para sc:id="t10">
+								<sc:inlineStyle role="emp">f_observée [t1, t2]</sc:inlineStyle> = [ Nb de ttf ou tbf entre t1 et t2 ] / [ Nb total de ttf ou de tbf] ou encore f[t1,t2]=dN[t1,t2]/N</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:itemizedList sc:id="t11">
+						<sc:listItem sc:id="t12">
+							<sc:para sc:id="t13">
+								<sc:inlineStyle role="emp">F_observée<sc:inlineStyle role="emp"> [t1]</sc:inlineStyle></sc:inlineStyle> = [Nb de ttf entre -∞ et t1 ] / [ Nb total de ttf ou de tbf ] ou encore F(t1)=1-R(t1)</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para sc:id="t14">F est la <sc:inlineStyle role="emp">fonction cumulée</sc:inlineStyle> de f.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

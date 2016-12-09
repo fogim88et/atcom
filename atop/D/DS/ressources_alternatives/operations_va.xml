@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Opérations sur les Variables aléatoires</sp:title>
+			<sp:sTitle>Opérations sur les Variables aléatoires</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t6">L'écart-type d'une variable aléatoire numérique est la racine carrée de la variance</sc:para>
+								<sc:para xml:space="preserve" sc:id="t19">
+<sc:inlineImg role="form" sc:id="t13" sc:refUri="/1A_/f/S/A_caracteristiques/ecart_type.odf"/> </sc:para>
+								<sc:para xml:space="preserve" sc:id="t20">Ce nombre s'exprime dans la même unité que X.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t8">Si a et b sont deux réels quelconques, E(a.X + b) = a.E(X) + b, et V(aX + b) = a.V(X).</sc:para>
+								<sc:para xml:space="preserve" sc:id="t9">Si X et Y sont deux variables numériques quelconques, E(X +Y) = E(X) + E(Y) et E(X.Y) = E(X).E(Y)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t10">Si X et Y sont deux variables numériques indépendantes, c'est-à-dire telles que la connaissance de la réalisation d'un événement lié à l'une d'entre elles ne modifie pas les probabilités de réalisation d'événements liés à l'autre, alors  V(X + Y) = V(X) + V(Y).</sc:para>
+								<sc:para xml:space="preserve" sc:id="t12">Il n'y a pas de formule analogue pour V(X.Y).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>A retenir</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t15">On utilise fréquemment des données sur une période différente de celle sur laquelle les observations ont été réalisées.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t21">
+Si Y=a.X, alors V(Y)=a.V(X)  et E(Y)=a.E(X)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

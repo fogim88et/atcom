@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>C. Nombre de survivants à t=5000</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t95"><sc:uLink role="ucLnk" sc:id="t99" sc:refUri="/2E201_2016/207/13_0.xml">13. Enonçé</sc:uLink></sc:para>
+						<sc:para xml:space="preserve" sc:id="t87">En 13.b, nous avons calculé la fiabilité à t=5000 heures qui vaut 99,7653%</sc:para>
+						<sc:para xml:space="preserve" sc:id="t96">Cette précision est nécessaire pour calculer les survivants à t=5000 heures car 20000 est une valeur conséquente.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t97">Exploiter la formule de la fiabilité observée pour évaluer le <sc:uLink role="glos" sc:id="t89" sc:refUri="/1B_op/M/TUV/T_survie/N_t.ref">nombre de survivants N(t)</sc:uLink> sachant que l'on connaît R(t)</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t14">N(t=5 000)=<sc:textLeaf role="gap" sc:id="t90"><op:gapM><sp:synonyms><sp:synonym>19954</sp:synonym></sp:synonyms></op:gapM>19953</sc:textLeaf></sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t30">N(t=0) = 20 000, donc on applique R(5 000)=N(5 000)/N(0), soit N(5 000)=19953</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

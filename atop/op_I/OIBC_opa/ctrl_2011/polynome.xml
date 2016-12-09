@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Tracé de Fonction</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Étude de la fonction f(x)=a<sc:textLeaf role="ind" sc:id="t4">2</sc:textLeaf>.x<sc:textLeaf role="exp" sc:id="t5">2</sc:textLeaf>+a<sc:textLeaf role="ind" sc:id="t6">1</sc:textLeaf>.x+a<sc:textLeaf role="ind" sc:id="t7">0</sc:textLeaf>
+</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t9">Les coefficients sont modifiables par l'utilisateur</sc:para>
+								<sc:para xml:space="preserve">La série x (20 points) sera paramétrable pour visualiser graphiquement les zéros de la fonction.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

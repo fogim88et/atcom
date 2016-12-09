@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>3. Fiabilité R(t)</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t55">Calculer la fiabilité <sc:uLink role="glos" sc:id="t56" sc:refUri="/1B_op/M/EF/fiabilite.ref">R(t)</sc:uLink> à un instant t. Voir aussi la définition de la <sc:uLink role="glos" sc:id="t57" sc:refUri="/1B_op/M/EF/fiabilite_observee.ref">fiabilité expérimentale</sc:uLink>.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t58">De l'exercice précédent, nous avons </sc:para>
+						<sc:para xml:space="preserve" sc:id="t59">
+									<sc:inlineStyle role="emp" sc:id="t73">Survivants</sc:inlineStyle>
+								</sc:para>
+						<sc:itemizedList sc:id="t60">
+							<sc:listItem sc:id="t61">
+								<sc:para xml:space="preserve" sc:id="t62">
+<sc:uLink role="glos" sc:id="t80" sc:refUri="/1B_op/M/TUV/T_survie/N_t.ref">N (t=450 h)</sc:uLink> = 6
+								</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t63">
+								<sc:para xml:space="preserve" sc:id="t64">N (t=850 h) =  2</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+						<sc:para xml:space="preserve" sc:id="t74">
+									<sc:inlineStyle role="emp" sc:id="t75">Fiabilité</sc:inlineStyle>
+								</sc:para>
+						<sc:para xml:space="preserve" sc:id="t76">Il suffit pour calculer R(t) de diviser N(t) par le nombre de dispositifs étudiés à t=0</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t14">A t=0, l'étude porte sur <sc:textLeaf role="gap" sc:id="t67">9</sc:textLeaf> dispositifs.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t77">Fiabilité</sc:para>
+				<sc:itemizedList sc:id="t15">
+					<sc:listItem sc:id="t16">
+						<sc:para xml:space="preserve" sc:id="t17">Fiabilité de t=0 à t=450 h = R(450) = <sc:textLeaf role="gap" sc:id="t18">6</sc:textLeaf>
+								/ <sc:textLeaf role="gap" sc:id="t68">9</sc:textLeaf>
+</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t20">
+						<sc:para xml:space="preserve" sc:id="t21">Fiabilité de t=0 à t=850 h = R(850) = <sc:textLeaf role="gap" sc:id="t23"> 2</sc:textLeaf> / <sc:textLeaf role="gap" sc:id="t70">9</sc:textLeaf>
+</sc:para>
+					</sc:listItem>
+				</sc:itemizedList>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t79">Il y a 6 dispositifs qui fonctionnent encore à t=450, et 2 à t=850 </sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

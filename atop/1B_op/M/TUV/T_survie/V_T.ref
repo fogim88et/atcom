@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Variable de survie T</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Elle caractérise l'instant <sc:inlineStyle role="emp">t</sc:inlineStyle> de la défaillance ou la durée de vie.</sc:para>
+					<sc:para sc:id="t4">T est une variable statistique (fiabilité observée) ou une variable aléatoire (fiabilité prévisionnelle)</sc:para>
+					<sc:para sc:id="t5">La fiabilité est donc la <sc:inlineStyle role="emp">probabilité que T&gt;t</sc:inlineStyle>, soit R(t)=prob(T&gt;t)=N(t)/N(0)</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

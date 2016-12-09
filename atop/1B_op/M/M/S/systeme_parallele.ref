@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Système parallèle</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Un système est dit en parallèle si 1 seul des composants est nécessaire  à la réalisation de la fonction. Les autres sont dits redondants.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t4">Le système est défaillant si tous les composants sont défaillant.</sc:para>
+					<sc:para xml:space="preserve">Certains systèmes sont construits sur une redondance r/n : dans ce cas, r composants sur les n sont nécessaires à la réalisation de la fonction.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Temps Total de Réparation (TTR ou TA)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">De l'anglais &quot;<sc:inlineStyle role="spec" sc:id="t7">Time To Repair</sc:inlineStyle>&quot;</sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">Temps total de l'intervention ou Temps d'arrêt (TA) nécessaire à la remise en disponibilité de la machine.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t4">Il permet notamment à l'aide du <sc:inlineStyle role="emp" sc:id="t8">MTBF</sc:inlineStyle> de calculer la <sc:inlineStyle role="emp" sc:id="t9">disponibilité opérationnelle</sc:inlineStyle>.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">Une partie de ce temps d'arrêt sera parfois pénalisant (<sc:inlineStyle role="emp" sc:id="t10">TAM)</sc:inlineStyle> générant un <sc:inlineStyle role="emp" sc:id="t11">CDM</sc:inlineStyle>.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

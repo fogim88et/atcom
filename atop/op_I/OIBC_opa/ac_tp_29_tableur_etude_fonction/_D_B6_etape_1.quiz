@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:cloze>
+<op:exeM>
+<sp:title>B6 seul</sp:title>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t18">Considérons B6 comme une formule simple sans recopie future.</sc:para>
+						<sc:para sc:id="t19">Le terme se calcule par coef*x^ordre</sc:para>
+						<sc:itemizedList sc:id="t20">
+							<sc:listItem sc:id="t21">
+								<sc:para sc:id="t22">ordre (puissance) est référencé en B5.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t23">
+								<sc:para sc:id="t24">x est référencé en A6.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t25">
+								<sc:para sc:id="t26">coef est référencé en B2.</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t8"> B6 a donc pour formule <sc:textLeaf role="gap" sc:id="t28">=B2*A6^B5</sc:textLeaf>
+</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t7">Recopiez B6 vers la droite et observez ce que devient la formule ainsi recopiée en C6, D6 et E6.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t30">Recopiez B6 vers le bas et observez ce que devient la formule ainsi recopiée en B7, B8, etc ....</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t32">Identifiez les références qui donnent des résultats incohérents.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:match xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Besoins 03</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Pour calculer les quantités en Besoin net (BN), les quantités à fabriquer en Fin d'ordre (OF<sc:textLeaf role="ind" sc:id="t86">fin</sc:textLeaf>), en début d'ordre (OF<sc:textLeaf role="ind" sc:id="t87">deb</sc:textLeaf>), les quantités en stock disponible (SD<sc:textLeaf role="ind" sc:id="t19">j</sc:textLeaf>), sélectionnez les grandeurs nécessaires au calcul.</sc:para>
+						<sc:para xml:space="preserve"> <sc:inlineStyle role="emp">Attention à ce que les étiquettes affectées le soit dans l'ordre alphabétique (BB doit être placé avant RP par exemple</sc:inlineStyle>) <sc:inlineStyle role="emp">et à ce que les étiquettes en plusieurs exemplaires soient placées dans l'ordre de l'indice.</sc:inlineStyle></sc:para>
+						<sc:para xml:space="preserve" sc:id="t77">(SD<sc:textLeaf role="ind" sc:id="t18">j-1</sc:textLeaf>) désigne le stock disponible qui précède le jour j étudié.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t78">BB désigne les besoins brut.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t79">RP les réceptions prévues.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t80">Qs le stock de sécurité.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t81">d le délai de fabrication qui sépare la date de début d'ordre (OF<sc:textLeaf role="ind" sc:id="t22">deb</sc:textLeaf>) de la date de fin d'ordre (OF<sc:textLeaf role="ind" sc:id="t23">fin</sc:textLeaf>).</sc:para>
+						<sc:para xml:space="preserve" sc:id="t82">(lot) les règles fixant les règles de fabrication par lot multiple.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t83">(groupement) les règles de regroupement.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t5">BN</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t26">BB [1]</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t28">RP [1]</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t21">SD<sc:textLeaf role="ind" sc:id="t24">j-1</sc:textLeaf> [1]</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t9">OF<sc:textLeaf role="ind" sc:id="t29">fin</sc:textLeaf></sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t11">BN</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t34">groupement</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t32">lot</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t36">OF<sc:textLeaf role="ind" sc:id="t39">deb</sc:textLeaf></sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t42">d</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t38">OF<sc:textLeaf role="ind" sc:id="t40">fin</sc:textLeaf> [1]</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t63">SD<sc:textLeaf role="ind" sc:id="t66">j</sc:textLeaf></sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t69">BB [2]</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t73">OF<sc:textLeaf role="ind" sc:id="t74">fin </sc:textLeaf>[2]</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t71">RP [2]</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t65">SD<sc:textLeaf role="ind" sc:id="t67">j-1</sc:textLeaf> [2]</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+	</op:match>
+</sc:item>

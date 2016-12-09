@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Les besoins en capacité</sp:title>
+			<sp:sTitle>Les besoins en capacité</sp:sTitle>
+		</op:uM>
+		<sp:courseUc sc:refUri="/P_op/MP/004_ac_res/pic_principes.xml"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/004_ac_res/04_1_poste_VE_tps OF.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/004_ac_res/04_2_poste_MT_tps_OF.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/004_ac_res/04_3_planning_charge_VE.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/004_ac_res/04_4_planning_charge_LA.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/004_ac_res/04_5_planning_charge_MT.quiz"/>
+	</op:courseUa>
+</sc:item>

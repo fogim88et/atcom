@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>TRG</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:inlineStyle role="emp">Taux de rendement global</sc:inlineStyle> ou Taux de rendement synthétique (©Sigle déposé™)</sc:para>
+					<sc:para xml:space="preserve" sc:id="t4">Indicateur intégré à démarche globale décrite par la TPM.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">C'est le rapport entre le <sc:inlineStyle role="emp">temps utile (TU)</sc:inlineStyle> pendant lequel on a fabriqué des pièces de qualité et le <sc:inlineStyle role="emp">temps d'ouverture (TO)</sc:inlineStyle>.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">On mesure ainsi un résultat obtenu en fonction d'un objectif fixé.</sc:para>
+				</op:sTxt>
+			</sp:def>
+			<sp:wikip>Taux_de_rendement_synth%C3%A9tique</sp:wikip>
+		</op:glosM>
+	</op:glos>
+</sc:item>

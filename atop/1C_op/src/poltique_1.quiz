@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:exeM/>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t112">Nous allons exploiter cette donnée sur 4000 heures de fonctionnement (TO) avec une disponibilité estimée de 80%</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t114">Le temps d'arrêt total sur défaillance peut être estimé <sc:textLeaf role="gap" sc:id="t117">800</sc:textLeaf> heures.</sc:para>
+				<sc:para>La machine sera donc apte à produire (temps brut) pendant <sc:textLeaf role="gap" sc:id="t118">3200</sc:textLeaf> heures.</sc:para>
+				<sc:para>Si l'on effectue une maintenance préventive toutes les 10 heures, nous pouvons donc prétendre à éliminer toutes les défaillances. Il faudra donc effectuer <sc:textLeaf role="gap" sc:id="t119">320</sc:textLeaf> opérations de maintenance préventive.</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

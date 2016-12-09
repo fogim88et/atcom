@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:bibM>
+			<sp:id>Procédure Tableur : Fiabilité Expérimentale (tc-dn)</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3">
+						<sc:textLeaf role="title" sc:id="t7">Procédure Tableur : Fiabilité expérimentale (tc-dn)</sc:textLeaf>. <sc:uLink role="url" sc:id="t6" url="http://dkp.gimep.net/co/0006_prc.html">Lien vers procédure dk</sc:uLink>. <sc:textLeaf role="auth" sc:id="t8">Franck OURION</sc:textLeaf>.<sc:textLeaf role="date" sc:id="t9"> Janvier 2010</sc:textLeaf>. <sc:textLeaf role="ed" sc:id="t10">dk.franckourion.net</sc:textLeaf></sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>EXI-26. Redondance système mixte 04</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>2C-n3</sp:keywd>
+							<sp:keywd>Code 0026</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Donner la fiabilité des systèmes redondants suivants pour 10000 heures de fonctionnement.</sc:para>
+						<sc:para>Calculez la fiabilité de chaque composant à t=10000 heures, puis calculez la fiabilité équivalente du système.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/00_atopale_ext/0F_img/2C_FMD/fmd_sys_par_redondance_dc_2_elements_identiques.gif">
+					<op:resInfoM>
+						<sp:index>img</sp:index>
+					</op:resInfoM>
+				</sp:res>
+				<sp:res sc:refUri="/00_atopale_ext/0F_img/2C_FMD/fmd_sys_par_redondance_dc_3_elements_identiques.gif">
+					<op:resInfoM>
+						<sp:index>img</sp:index>
+					</op:resInfoM>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t9">λ<sc:textLeaf role="ind" sc:id="t11">A</sc:textLeaf>=2.10-5.h-1</sc:para>
+						<sc:para>λ<sc:textLeaf role="ind" sc:id="t14">B</sc:textLeaf>=2.10-6.h-1</sc:para>
+						<sc:para>λ<sc:textLeaf role="ind" sc:id="t13">DC</sc:textLeaf>=3.10-7.h-1</sc:para>
+						<sc:para> λ<sc:textLeaf role="ind" sc:id="t12">D</sc:textLeaf>=5.10-6.h-1</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t21">Fiabilité du système 1 : <sc:textLeaf role="gap" sc:id="t25">96,424</sc:textLeaf> % (à 3 décimales)</sc:para>
+				<sc:para sc:id="t24">Fiabilité du système 2 : <sc:textLeaf role="gap" sc:id="t26">95,122</sc:textLeaf> % (à 3 décimales)</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>La caractère (Variable ) statistique</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Pour une <sc:inlineStyle role="emp">population</sc:inlineStyle> donnée, les <sc:inlineStyle role="emp">observations</sc:inlineStyle> portent sur certains aspects seulement, appelés <sc:inlineStyle role="emp">caractères statistiques</sc:inlineStyle> ou <sc:inlineStyle role="emp">Variables statistiques</sc:inlineStyle></sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

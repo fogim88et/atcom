@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Planning de charge en MARS pour MT</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t112">
+									<sc:inlineStyle role="emp" sc:id="t132">Atelier Montage MT</sc:inlineStyle>
+								</sc:para>
+						<sc:para xml:space="preserve" sc:id="t133">Avec les temps de chaque OF jalonnés par rapport à la date de fin OF, vous cumulerez par semaine les charges journalières selon le modèle ci-dessous</sc:para>
+						<sc:para xml:space="preserve" sc:id="t140">Donnez le pourcentage de charge des semaines 1, 2, 3, 4.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t141">(Arrondir % près , donc sans décimale)</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:int sc:refUri="/P_op/MP/000_bbd_tech_res/modeles/charge_mensuelle_modeles.ods">
+					<op:instructionM/>
+				</sp:int>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t114">Semaine 1 :  <sc:textLeaf role="gap" sc:id="t120">8</sc:textLeaf> %</sc:para>
+				<sc:para xml:space="preserve" sc:id="t117">Semaine 2 : <sc:textLeaf role="gap" sc:id="t121"> 28</sc:textLeaf> %</sc:para>
+				<sc:para xml:space="preserve" sc:id="t118">Semaine 3 : <sc:textLeaf role="gap" sc:id="t122"> 43</sc:textLeaf> %</sc:para>
+				<sc:para xml:space="preserve" sc:id="t119">Semaine 4 : <sc:textLeaf role="gap" sc:id="t123"> 13</sc:textLeaf> %</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:res sc:refUri="/P_op/MP/010_ac_exam/MT_mars.ods">
+<op:resInfoM>
+<sp:pubMode>zoom</sp:pubMode>
+</op:resInfoM>
+</sp:res>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

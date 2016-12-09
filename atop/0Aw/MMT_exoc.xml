@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:ueM>
+			<sp:title>Exercices et auto-évaluation - MMT</sp:title>
+		</op:ueM>
+		<sp:courseUa sc:refUri="/2E001/001.xml"/>
+		<sp:practUc sc:refUri="/2E001/002.xml"/>
+		<sp:div sc:refUri="/2E001/003/003_niv.xml"/>
+		<sp:trainUcCloze sc:refUri="/2E001/004.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E001/005.quiz"/>
+		<sp:assmntUa sc:refUri="/2E001/006.xml"/>
+		<sp:assmntUa sc:refUri="/2E001/007.xml"/>
+		<sp:trainUcCloze sc:refUri="/2E001/008_ev_n3/008_1.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E001/009.quiz"/>
+	</op:ue>
+</sc:item>

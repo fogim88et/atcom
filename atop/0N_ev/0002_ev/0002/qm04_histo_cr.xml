@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+<sp:title>Compte-rendu d'intervention (CR)</sp:title>
+</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:table role="" sc:id="t4">
+							<sc:caption>Bon</sc:caption>
+							<sc:column sc:id="t5" width="33.26094681565128"/>
+							<sc:column sc:id="t6" width="33.26094681565128"/>
+							<sc:row sc:id="t8">
+								<sc:cell sc:id="t9">
+									<sc:para sc:id="t29">Date</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t10">
+									<sc:para sc:id="t31">16.02.1990</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t12">
+								<sc:cell sc:id="t13">
+									<sc:para sc:id="t35">Véhicule</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t14">
+									<sc:para sc:id="t37">Toyota 7881 CL 79</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t16">
+								<sc:cell sc:id="t17">
+									<sc:para sc:id="t41">Nature panne</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t18">
+									<sc:para sc:id="t43">Electrique</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t20">
+								<sc:cell sc:id="t21">
+									<sc:para sc:id="t47">Travaux</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t22">
+									<sc:para sc:id="t49">Changement fusible</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t24">
+								<sc:cell sc:id="t25">
+									<sc:para sc:id="t53">....</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t26"/>
+							</sc:row>
+						</sc:table>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t59">Que manque t-il sur ce bon d'intervention ? Citez une amélioration possible.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t68">Les améliorations suivantes peuvent être apportées :</sc:para>
+										<sc:itemizedList sc:id="t69">
+											<sc:listItem sc:id="t70">
+												<sc:para sc:id="t85">une description précise des symptômes de la panne (analyse des défaillances)</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t71">
+												<sc:para sc:id="t86">l'origine de la panne (analyse des défaillances)</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t72">
+												<sc:para sc:id="t87">l'organe concerné (analyse des défaillances)</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t73">
+												<sc:para sc:id="t88">la référence du fusible (gestion des stocks)</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t74">
+												<sc:para sc:id="t89">le kilométrage du véhicule (pour analyse par <sc:uLink role="glos" sc:id="t93" sc:refUri="/1B_op/M/M/P/pareto_MOP.ref">PARETO</sc:uLink> par exemple)</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t75">
+												<sc:para sc:id="t90">l'intervenant</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t76">
+												<sc:para sc:id="t91">le temps passé (pour analyse par <sc:uLink role="glos" sc:id="t94" sc:refUri="/1B_op/M/M/P/pareto_MOP.ref">PARETO</sc:uLink> par exemple)</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t77">
+												<sc:para sc:id="t92">les actions correctives envisageables (pour agir sur l'origine de la panne, et éviter sa répétition le cas échéant)</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

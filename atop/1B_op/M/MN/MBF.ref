@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>MBF</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:inlineStyle role="emp">Maintenance basée sur la fiabilité</sc:inlineStyle> : avec pour objectif de définir le plan de maintenance préventive, proche de l'AMDEC, elle s'applique aux fonctions ou organes plutôt qu'aux composants. Elle se justifie sur une machine en exploitation alors que l'AMDEC par son approche exhaustive est une méthode de conception.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

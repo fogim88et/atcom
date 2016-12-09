@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Les profils de technicien (2A3C)</sp:title>
+			<sp:sTitle>Les profils de technicien</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Les profils spécifiques</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t3">L'importance prise par certaines fonctions et activités précédemment décrites est à l'origine de métiers particuliers, ou plus exactement de profils spécifiques d'activité.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:rem>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t8">Ces profils spécifiques ne sont pas des profils de technicien de maintenance, mais des profils de spécialistes, habituellement présents dans les grandes structures. Les petites structures n'ont pas les moyens de disposer de ces postes.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t9">Pour trois spécialités (GMAO, fiabiliste, méthodes), en fonction de la structure, le niveau peut être celui du technicien (expérimenté) ou de l'ingénieur.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:rem>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Le technicien méthodes (en maintenance)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t13">
+<sc:inlineStyle role="emp">Son rôle</sc:inlineStyle> : rationaliser les modes de fonctionnement des services maintenance.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t14">Le technicien méthodes participe à la :</sc:para>
+								<sc:itemizedList sc:id="t19">
+									<sc:listItem sc:id="t20">
+										<sc:para xml:space="preserve" sc:id="t15">constitution des indicateurs de qualité, des outils statistiques, des outils de surveillance des équipements et de mesure de leur disponibilité et la définition des standards de temps et de coût, des procédures d'intervention,</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t21">
+										<sc:para xml:space="preserve" sc:id="t16">définition de révisions des différentes organisations.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t17">Il recourt fréquemment aux services de la <sc:uLink role="glos" sc:id="t26" sc:refUri="/1B_op/M/GHI/gmao.ref">GMAO</sc:uLink> et s'inspire d'une des méthodes répertoriées de la maintenance (<sc:uLink role="glos" sc:id="t25" sc:refUri="/1B_op/M/MN/MBF.ref">MBF</sc:uLink>, <sc:uLink role="glos" sc:id="t24" sc:refUri="/1B_op/M/TUV/TPM.ref">Total Productivity Maintenanc</sc:uLink>e, LCC, <sc:uLink role="glos" sc:id="t23" sc:refUri="/1B_op/A/amdec.ref">AMDEC</sc:uLink>...).</sc:para>
+								<sc:para xml:space="preserve" sc:id="t18">L'<sc:uLink role="acr" sc:id="t22" sc:refUri="/1B_op/A/APEC.ref">APEC</sc:uLink> signale un développement de cette fonction, notamment dans les grandes entreprises.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Le spécialiste GMAO</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t30">
+<sc:inlineStyle role="emp">Son rôle</sc:inlineStyle> : développer des logiciels de MAO/GMAO (maintenance/gestion de la maintenance assistées par ordinateur).</sc:para>
+								<sc:para xml:space="preserve" sc:id="t31">Le gestionnaire GMAO participe à la mise en place des logiciels, en faisant appel éventuellement à l'aide du service informatique.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t32">Ce technicien travaille soit chez un industriel, soit dans une société de maintenance.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Le Technicien fiabiliste (études-développement)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t36">
+<sc:inlineStyle role="emp">Son rôle</sc:inlineStyle> : améliorer la fiabilité et la maintenabilité des matériels et des process.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t37">Il étudie et met au point les méthodes et les outils de maintenabilité, de tests, d'essais et de simulations.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t38">Au moment de la conception, le technicien fiabilité définit le &quot; soutien logistique intégré &quot; (hommes, compétences, pièces, moyens de levage, documentation, banc de test) qui sera nécessaire lors des diverses opérations de maintenance.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t39">Le technicien fiabiliste travaille en bureau d'études, chez un fabricant de matériels de production ou dans les industries de proches ou en cabinet d'études.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t40">Ces postes sont plus ouverts à des ingénieurs débutants ainsi qu'à des BTS ou DUT avec une première expérience significative dans la maintenance (ou licence professionnelle débutant)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Le technicien d'analyses</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t44">
+<sc:inlineStyle role="emp">Son rôle</sc:inlineStyle> : effectuer des analyses.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t45">Ces analyses peuvent concerner les fluides (dans un laboratoire sur des échantillons), les vibrations (sur un site), la thermographie infrarouge.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t46">Le technicien d'analyses peut simplement fournir des mesures ou être amené à les interpréter pour délivrer un diagnostic et le conseil attenant. Il s'appuiera alors sur des modèles, généralement constitués à partir de bases statistiques de constatations.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t47">Il pourra participer à l'élaboration de ces modèles.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t48">Son profil de formation reste à déterminer. On peut constater qu'un analyste de fluides dans une société spécialisée a une formation de laborantin-chimiste et non de maintenancier.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t49">Un spécialiste en plusieurs mesures est appelé instrumentiste. Ce type de technicien travaille généralement dans une société spécialisée dans les analyses ou dans une entreprise dotée d'un grand service maintenance.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:ueM>
+			<sp:title>Module Statistiques FMD</sp:title>
+			<sp:sTitle>Stat et FMD</sp:sTitle>
+		</op:ueM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para xml:space="preserve" sc:id="t26">
+					<sc:inlineStyle role="emp" sc:id="t53">Concepts </sc:inlineStyle>: </sc:para>
+				<sc:itemizedList sc:id="t37">
+					<sc:listItem sc:id="t38">
+						<sc:para xml:space="preserve" sc:id="t54">Distribution Statistique. Moyenne et Dispersion.</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t82">
+						<sc:para xml:space="preserve">Régression linéaire</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t39">
+						<sc:para xml:space="preserve" sc:id="t27">Probabilité associée à un événement.</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t40">
+						<sc:para xml:space="preserve" sc:id="t28">Variable aléatoire discrète et continue.</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t41">
+						<sc:para xml:space="preserve" sc:id="t29">Modèles théoriques discrets : loi binômiale, loi de poisson.</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t42">
+						<sc:para xml:space="preserve" sc:id="t30">Modèles théoriques continus : loi exponentielle, loi de gauss ou loi normale, modèle de Weibull.</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t43">
+						<sc:para xml:space="preserve" sc:id="t31">Statistique inférentielle : théorie de l'échantillonnage .</sc:para>
+					</sc:listItem>
+				</sc:itemizedList>
+				<sc:para xml:space="preserve" sc:id="t32">
+					<sc:inlineStyle role="emp" sc:id="t55">Applications </sc:inlineStyle>: </sc:para>
+				<sc:itemizedList sc:id="t45">
+					<sc:listItem sc:id="t46">
+						<sc:para xml:space="preserve" sc:id="t56">Production et Qualité : SPC, test de réception.</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t47">
+						<sc:para xml:space="preserve" sc:id="t33">Bureau d'études et méthodes : test de durée de vie</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t48">
+						<sc:para xml:space="preserve" sc:id="t34">Maintenance : Fiabilité associée à une mission, évaluation des risques (criticité), gestion de stock (risque de rupture), Maintenance préventive (calcul de périodicité, usure)</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t49">
+						<sc:para xml:space="preserve" sc:id="t35">Vie courante : sondages d'opinion.</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t50">
+						<sc:para xml:space="preserve" sc:id="t36">Mesure : incertitude absolue et relative.</sc:para>
+					</sc:listItem>
+				</sc:itemizedList>
+			</op:sTxt>
+		</sp:obj>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>Techniques Statistiques</sp:title>
+					<sp:sTitle>Techniques Statistiques</sp:sTitle>
+				</op:ueDivM>
+				<sp:courseUa sc:refUri="/D/DS/DSA_ne.xml"/>
+				<sp:courseUa sc:refUri="/D/DS/2_5E_cm.xml"/>
+			</op:ueDiv>
+		</sp:div>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>Echantillonnage</sp:title>
+					<sp:sTitle>Echantillonnage</sp:sTitle>
+				</op:ueDivM>
+				<sp:courseUc sc:refUri="/D/DS/3_ne/5F_resume.xml"/>
+				<sp:courseUc sc:refUri="/D/DS/3_ne/5F_app_IC_de_X_1D.xml"/>
+				<sp:courseUc sc:refUri="/D/DS/3_ne/5F_demarche_ech.xml"/>
+			</op:ueDiv>
+		</sp:div>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>SPC</sp:title>
+					<sp:sTitle>SPC</sp:sTitle>
+				</op:ueDivM>
+				<sp:courseUa sc:refUri="/M/6/G/00_prj_qual_msp_id_0003.xml"/>
+				<sp:courseUa sc:refUri="/M/6/G/ic_vn_ui_0.1.1.xml"/>
+				<sp:courseUa sc:refUri="/D/DS/021_stat_test/6G-exos.xml"/>
+			</op:ueDiv>
+		</sp:div>
+		<sp:genRef>
+			<op:genRef>
+				<sp:ref sc:refUri="/M/6/G/ech_resume_cours.ref"/>
+				<sp:ref sc:refUri="/M/6/G/ech_exemple.ref"/>
+				<sp:ref sc:refUri="/M/6/G/ech_test_de_reception.ref"/>
+				<sp:ref sc:refUri="/0B/7D_exe/7D0_5E_mod_stat.ref"/>
+				<sp:ref sc:refUri="/0B/7D_exe/fiab_op.ref"/>
+			</op:genRef>
+		</sp:genRef>
+	</op:ue>
+</sc:item>

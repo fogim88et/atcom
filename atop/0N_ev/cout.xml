@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:assmntUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Coût de Maintenance</sp:title>
+			<sp:sTitle>Coût de Maintenance</sp:sTitle>
+		</op:uM>
+		<sp:quiz sc:refUri="/0N_ev/0002_ev/0002/qm01_stock.quiz"/>
+		<sp:quiz sc:refUri="/0N_ev/0002_ev/0002/qm07_cout.quiz"/>
+		<sp:quiz sc:refUri="/0N_ev/0002_ev/0002/cout_qcm_018_cgm.quiz"/>
+		<sp:quiz sc:refUri="/0N_ev/0002_ev/0002/qm16_cout.quiz"/>
+	</op:assmntUa>
+</sc:item>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Taux de Défaillance</sp:title>
+			<sp:sTitle>Taux de défaillance</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Fondamental</sp:keywd>
+							<sp:keywd>Taux de défaillance</sp:keywd>
+							<sp:keywd>Usure</sp:keywd>
+							<sp:keywd>FMD</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+					<sp:cc>by-nc-sa</sp:cc>
+					<sp:cpyrgt>
+						<op:sPara>
+							<sc:para sc:id="t33">Franck OURION</sc:para>
+						</op:sPara>
+					</sp:cpyrgt>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t11">Le taux de défaillance est égal au nombre de défaillances par unité de temps, ramené à un élément : <sc:uLink role="glos" sc:id="t12" sc:refUri="/1B_op/M/TUV/taux_defaillance.ref">revoir la définition</sc:uLink>.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t56">Témoin de l'usure des équipements dans le temps, c'est une caractéristique essentielle pour agir sur la politique de maintenance en fonction du temps.</sc:para>
+								<sc:para xml:space="preserve">Dans la courbe dite en baignoire, on identifie 3 périodes remarquables : <sc:uLink role="glos" sc:refUri="/1B_op/M/TUV/taux_defaillance_jeunesse.ref">jeunesse</sc:uLink>, <sc:uLink role="glos" sc:refUri="/1B_op/M/TUV/taux_defaillance_vie_utile.ref">vie utile</sc:uLink>, <sc:uLink role="glos" sc:refUri="/1B_op/M/TUV/taux_defaillance_usure.ref">usure</sc:uLink>.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:ex>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:inlineImg role="ico" sc:refUri="/00_atopale_ext/0F_img/2C_FMD/courbe_baignoire.gif"/></sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Période de jeunesse</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t14">Le taux de défaillance diminue. Pour l'homme, on parle de mortalité infantile. En effet on va constater pendant cette période de moins en moins de défaillance. </sc:para>
+								<sc:para sc:id="t30">Le rôle du fabricant est donc de réussir à éliminer les composants ayant des défauts de jeunesse (matière première, assemblage, conditionnement) afin de fournir au client un matériel fiable dès le début de son exploitation. </sc:para>
+								<sc:para sc:id="t31">Politique de déverminage (faire fonctionner la composant avant livraison), de rodage (pièces mécaniques), de contrôle qualité (éliminer les composants non conformes). </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Période de vie utile</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t16">Le taux de défaillance est constant. C'est une période de maturité pendant laquelle le rythme des défaillances reste le même, on ne peut donc percevoir aucun signe de fatigue ou d'usure de ces composants. </sc:para>
+								<sc:para>Les défaillances se produisent de façon totalement aléatoire, sans cause systématique. </sc:para>
+								<sc:para>L'exploitant veillera uniquement à maintenir le matériel dans de bonnes conditions d'utilisation (environnement) et d'exploitation (cadences normales). </sc:para>
+								<sc:para>Politique de prévention permanente. </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Période de vieillissement</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t18">Le taux de défaillance croît de plus en plus. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t38">Le rythme des défaillances s'accélère, et annonce une usure normale des composants, des mauvaises conditions d'utilisation ou une maintenance inadéquate. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t39">Selon les technologies et la nature de l'usure, on pourra pratiquer un <sc:uLink role="glos" sc:id="t20" sc:refUri="/1B_op/M/TUV/type_maint/mi_preventive_systematique.ref">échange systématique</sc:uLink> du composant dès la fin de la vie utile, ou bien suivre l'évolution de cette usure par des techniques de <sc:uLink role="glos" sc:id="t19" sc:refUri="/1B_op/M/TUV/type_maint/mi_preventive_conditionnelle.ref">maintenance conditionnelle</sc:uLink>. </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:warning>
+					<op:pbTi>
+						<sp:title>Taux de défaillance constant</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t22">Un taux de défaillance constant (pas d'usure) ne signifie pas qu'il n'y a pas de défaillances, mais que sur des périodes de même durée, la probabilité de défaillance reste la même : un ordinateur a sensiblement la même probabilité de défaillance dans sa première année que dans sa troisième année.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:warning>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Technologies</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t24">Les composants électroniques ont une période de vie utile très longue avec un λ quasi constant.</sc:para>
+								<sc:para>Les composants mécaniques ont une période de vie utile beaucoup plus courte, et le λ croît sans cesse, si bien que la rupture entre vie utile et vieillissement ne permets pas d'envisager le moment opportun pour une maintenance systématique.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Système et composant</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t26">Évaluer le taux défaillance d'un composant peut être réalisé dans des conditions données par des observations statistiques : il existe aussi pour le matériel électronique des recueils de fiabilité.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

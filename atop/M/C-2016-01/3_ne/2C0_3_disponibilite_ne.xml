@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Disponibilité</sp:title>
+			<sp:sTitle>Disponibilité</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t10">Définition norme X60-500 : Aptitude d'un dispositif à être en état de d'accomplir une fonction requise dans des conditions données, à un instant donné pendant un intervalle de temps donné, en supposant que la fourniture des moyens extérieurs soit assurée.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Commentaires</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t7">Cette aptitude est fonction d'une combinaison de la fiabilité et de la maintenabilité et du soutien en maintenance du dispositif (organisation du service maintenance). </sc:para>
+								<sc:para xml:space="preserve" sc:id="t15">Le manque de moyens extérieurs nécessaires autres que les moyens de maintenance, n'est pas à prendre en compte dans le concept de disponibilité (manque de matière première)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t8">La disponibilité opérationnelle (constatée d'après des observations) va permettre à la maintenance de mesurer son efficacité globale en matière de service rendu à la production. </sc:para>
+								<sc:para xml:space="preserve">Dans le cadre d'une démarche globale, on recherche pour un équipement une efficacité que l'on mesure par le <sc:uLink role="glos" sc:id="t18" sc:refUri="/1B_op/M/TUV/TRG/TRG.ref">TRG</sc:uLink> : la disponibilité opérationnelle intervient donc dans la partie <sc:uLink role="glos" sc:id="t19" sc:refUri="/1B_op/M/TUV/TRG/AI.ref">Arrêts identifiés</sc:uLink>.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>objectifs</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t12">L'amélioration de la disponibilité sera optimisée en isolant les sources de pertes (fiabilité ou maintenabilité), pour proposer des solutions techniques (modifications pour raisons de fiabilité ou maintenabilité, maintenance préventive et conditionnelle) ou organisationnelles (gestion de stock, documentation, logistique, communication, formation)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

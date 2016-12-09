@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Coût Administratif des Approvisionnements (Cadm)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Cadm = Nc.Cc</sc:para>
+					<sc:para xml:space="preserve" sc:id="t4">Il est directement proportionnel au nombre de commandes passées. </sc:para>
+					<sc:para xml:space="preserve">Chaque commande à un côut estimé (Cc) qui représente tous les frais occasionnés par le traitement des commandes (secrétariat, comptabilité, frais de matériels et logiciels de gestion, etc ...).</sc:para>
+					<sc:para xml:space="preserve">Lorsqu'une commande comporte plusieurs références, il faut <sc:inlineStyle role="emp">ajuster</sc:inlineStyle> le Cc appliqué à chaque référence.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

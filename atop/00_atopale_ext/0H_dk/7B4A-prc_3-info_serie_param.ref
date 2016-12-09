@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:bibM>
+			<sp:id>7B4A1 : Série de données paramétrable (prc_3)</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3">
+						<sc:textLeaf role="title" sc:id="t9">Construire une série de données paramétrable (valeur initiale, pas, nombre de points)</sc:textLeaf>. <sc:uLink role="url" sc:id="t8" url="http://dkp.gimep.net/co/0003_prc.html">Lien vers la procédure</sc:uLink>. <sc:textLeaf role="auth" sc:id="t5">Franck OURION</sc:textLeaf>. <sc:textLeaf role="date" sc:id="t6">Sep 2010</sc:textLeaf>. module <sc:textLeaf role="ed" sc:id="t7">dk.franckourion.net</sc:textLeaf></sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item>

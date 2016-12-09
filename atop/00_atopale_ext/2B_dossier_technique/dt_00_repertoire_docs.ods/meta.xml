@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sfm:ods xmlns:sfm="http://www.utc.fr/ics/scenari/v3/filemeta">
+	<op:imgM xmlns:op="utc.fr:ics/opale3">
+		<sp:title xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">Répertoire des documents</sp:title>
+		
+	<sp:alt xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"><sp:desc><op:sTxt>
+				<sc:para xml:space="preserve" sc:id="t3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">Répertoire exemple des documents à insérer dans le dossier technique d'un équipement.</sc:para>
+			</op:sTxt></sp:desc></sp:alt></op:imgM>
+</sfm:ods>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:refM>
+			<sp:ref>Projet 1</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Gestion de titres musicaux. </sc:para>
+					<sc:para xml:space="preserve" sc:id="t4">Les titres existent sur divers supports (Disque dur, MP3, CD, etc ....). On souhaite connaître pour chaque titre l'auteur et l'interprète. </sc:para>
+					<sc:para xml:space="preserve">L'application doit être capable de gérer les compilations. </sc:para>
+					<sc:para xml:space="preserve">On donnera notamment la possibilité de construire des listes de favoris dans le même genre que windows média (Bibliothèque média)</sc:para>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

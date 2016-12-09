@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>4. Taux de défaillance</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t31">Le <sc:uLink role="glos" sc:id="t72" sc:refUri="/1B_op/M/TUV/taux_defaillance.ref">taux de défaillance</sc:uLink> se calcule sur une période. Nous allons le calculer pour la période 0 à 300 h et 300 à 600h</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t86"><sc:inlineStyle role="emp" sc:id="t87">Données de la période de 0 à 300 heures :</sc:inlineStyle></sc:para>
+				<sc:itemizedList sc:id="t80">
+					<sc:listItem sc:id="t81">
+						<sc:para xml:space="preserve" sc:id="t38">Nombre de défaillants dN(t) dans la période [0-300] : <sc:textLeaf role="gap" sc:id="t45">1</sc:textLeaf>
+</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t82">
+						<sc:para xml:space="preserve" sc:id="t65">Nombre de survivants N à t=0 : <sc:textLeaf role="gap" sc:id="t46">9</sc:textLeaf>
+</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t83">
+						<sc:para xml:space="preserve" sc:id="t66">Durée dt de la période : <sc:textLeaf role="gap" sc:id="t47">300</sc:textLeaf> h</sc:para>
+					</sc:listItem>
+				</sc:itemizedList>
+				<sc:para xml:space="preserve" sc:id="t67">Le taux de défaillance [0-300] est donc de <sc:textLeaf role="gap" sc:id="t73">1</sc:textLeaf> défaillant sur <sc:textLeaf role="gap" sc:id="t74">9</sc:textLeaf> survivants pendant <sc:textLeaf role="gap" sc:id="t75">300</sc:textLeaf> heures, soit <sc:textLeaf role="gap" sc:id="t52">3</sc:textLeaf>,<sc:textLeaf role="gap" sc:id="t51">70</sc:textLeaf> E - <sc:textLeaf role="gap" sc:id="t50">4</sc:textLeaf> h<sc:textLeaf role="exp" sc:id="t49">-1</sc:textLeaf> (2 décimales)</sc:para>
+				<sc:para xml:space="preserve" sc:id="t88"><sc:inlineStyle role="emp" sc:id="t89">Procédez par analogie pour la période 300 à 600 heures</sc:inlineStyle> :</sc:para>
+				<sc:para xml:space="preserve" sc:id="t68">Le taux de défaillance [300-600] est donc de <sc:textLeaf role="gap" sc:id="t59">4</sc:textLeaf> défaillants sur <sc:textLeaf role="gap" sc:id="t60">8</sc:textLeaf> survivants pendant <sc:textLeaf role="gap" sc:id="t61">300</sc:textLeaf> heures , soit de <sc:textLeaf role="gap" sc:id="t54">1</sc:textLeaf>,<sc:textLeaf role="gap" sc:id="t55">67</sc:textLeaf> E - <sc:textLeaf role="gap" sc:id="t56">3</sc:textLeaf> h<sc:textLeaf role="exp" sc:id="t57">-1</sc:textLeaf> (2 décimales)</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

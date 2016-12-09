@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:mcqMur xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>1 : Critère et Classe</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t9">Plusieurs réponses sont possibles : </sc:para>
+						<sc:para xml:space="preserve" sc:id="t127">Le fait de ne pas bénéficier de la Protection du véhicule que l'on résume par PV : </sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:choices>
+			<sc:choice solution="unchecked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t11">un critère potentiel permettant d'orienter une action potentielle.</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t21">Non, c'est une des classes sur laquelle on va mesurer des conséquences (critère)</sc:para>
+						<sc:para xml:space="preserve">Rappel un critère se traduit par une observation numérique de façon à en tirer des cumuls ou des pourcentages</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t15">est une classe sur laquelle il sera peut-être nécessaire d'agir en priorité.</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para sc:id="t23">Oui, "peut-être", car sans connaissance du critère étudié, on ne peut pas évaluer si cette classe sera prioritaire ou non.</sc:para>
+						<sc:para>Une classe peut être prioritaire selon un critère donné, mais être considérée comme négligeable selon un autre critère.</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t19">est une source de perte selon les critères "Kms perdus" et "Argent perdu"</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para sc:id="t25">Oui, on peut perdre des Kms ou de l'argent consécutivement à la non protection du véhicule</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+		</sc:choices>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t55">Revoir la <sc:uLink role="glos" sc:id="t56" sc:refUri="/1B_op/M/M/P/pareto_MOP.ref">définition</sc:uLink> de la méthode</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:mcqMur>
+</sc:item>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Coût Défaillance Maintenance (CDM)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">
+						<sc:inlineStyle role="emp" sc:id="t15">Coût Défaillance Maintenance</sc:inlineStyle>
+					</sc:para>
+					<sc:para xml:space="preserve" sc:id="t16">Qualifié de Coût indirect car il représente la manque à gagner suite à une défaillance</sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">Il exprime les conséquences induites par les défaillances  :</sc:para>
+					<sc:itemizedList sc:id="t11">
+						<sc:listItem sc:id="t12">
+							<sc:para xml:space="preserve" sc:id="t17">Frais variables non réincorporés (personnel de fabrication en attente, matière perdue, etc.)</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t13">
+							<sc:para xml:space="preserve" sc:id="t18">Marge bénéficiaire perdue</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t14">
+							<sc:para xml:space="preserve" sc:id="t19">Perte de confiance du client, et perte possible du client</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para xml:space="preserve" sc:id="t8">Très difficile à calculer dans la réalité lorsque l'entreprise ne fabrique pas en continu ou ne vends pas systématiquement tout ce qu'elle produit</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

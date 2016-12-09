@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:webRoot xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:webRootM>
+			<sp:version>Etude de Fonction à l'aide du tableur</sp:version>
+			<sp:date>17 Décembre 2009</sp:date>
+			<sp:auth>
+				<op:sTxt>
+					<sc:para sc:id="t3">Franck OURION</sc:para>
+				</op:sTxt>
+			</sp:auth>
+			<sp:logo sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/images_tableur.jpg"/>
+			<sp:settings>
+				<sp:quest>yes</sp:quest>
+				<sp:glos>yes</sp:glos>
+				<sp:acr>yes</sp:acr>
+				<sp:ref>yes</sp:ref>
+				<sp:bib>yes</sp:bib>
+				<sp:index>yes</sp:index>
+				<sp:credits>yes</sp:credits>
+			</sp:settings>
+		</op:webRootM>
+		<sp:ue sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/00_module.xml"/>
+	</op:webRoot>
+</sc:item>

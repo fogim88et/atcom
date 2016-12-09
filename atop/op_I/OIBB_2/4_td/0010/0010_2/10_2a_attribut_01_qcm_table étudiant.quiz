@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:mcqMur xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>10.2a. Les propriétés des attributs</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Définissez ce qui définit au mieux l'attribut <sc:inlineStyle role="emp" sc:id="t72">id_mat</sc:inlineStyle> de la table matières :</sc:para>
+						<sc:itemizedList sc:id="t99">
+							<sc:listItem sc:id="t100">
+								<sc:para xml:space="preserve" sc:id="t101">Relation 1-n entre étudiants et notes</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t102">
+								<sc:para xml:space="preserve" sc:id="t103">Relation 1-n entre matières et notes</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/0030_ext_src_bdd_appnotes.png">
+					<op:resInfoM>
+						<sp:pubMode>zoom</sp:pubMode>
+						<sp:index>img</sp:index>
+						<sp:instruct>
+							<op:instructionM/>
+						</sp:instruct>
+					</op:resInfoM>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t114">Préparez sur papier la structure de vos tables en codant les attributs selon le tableau ci dessous pour chaque attribut.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t115">Ceci est important afin que vous adaptiez au mieux ce que vous avez préparé relativement aux questions qui vont suivre.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/dk-I/OIBB/1C/proprietes_attributs-OIBB-convention.ods">
+					<op:resInfoM>
+						<sp:pubMode>zoom</sp:pubMode>
+						<sp:index>tab</sp:index>
+					</op:resInfoM>
+				</sp:res>
+			</op:res>
+		</sc:question>
+		<sc:choices>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t5">clé primaire</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t9">unicité (sans doublons)</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="unchecked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t13">index (avec doublons)</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="unchecked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t17">clé étrangère</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="unchecked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t21">identifiant principal</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t29">Incrémentation automatique</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t25">Type entier (INT, BIGINT)</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="unchecked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t65">Type caractère (VARCHAR)</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="unchecked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t69">Type booléen (VRAI/FAUX)</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+		</sc:choices>
+	</op:mcqMur>
+</sc:item>

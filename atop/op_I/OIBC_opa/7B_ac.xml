@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:ueM>
+			<sp:title>Tableur (7B)</sp:title>
+			<sp:sTitle>Tableur</sp:sTitle>
+		</op:ueM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para xml:space="preserve" sc:id="t5">Activités de TP basés sur l'utilisation du tableur</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:courseUa sc:refUri="/2C_ex/00/27/0027.xml"/>
+	</op:ue>
+</sc:item>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Cause de non qualité (5M)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Les principales causes de <sc:inlineStyle role="emp">non-qualité</sc:inlineStyle> sont liées à la matière première (homogénéité, conditions de stockage), à la machine (déréglages, usure d'outil, défaillances), à la main d'oeuvre (agent de production), aux méthodes de production et au milieu environnant.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t4">On parle des <sc:inlineStyle role="emp">5M</sc:inlineStyle> (matière, machine, main d'oeuvre, milieu, méthode)</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>a. Fiabilité et taux de défaillance à t=50</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Modèle statistique : Loi exponentielle</sp:keywd>
+							<sp:keywd>Adéquation modèle</sp:keywd>
+							<sp:keywd>Fiabilité observée</sp:keywd>
+							<sp:keywd>Fiabilité prévisionnelle</sp:keywd>
+							<sp:keywd>src 020</sp:keywd>
+							<sp:keywd>Code 0020</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t76">La <sc:uLink role="glos" sc:id="t77" sc:refUri="/1B_op/D/dv.ref">durée de bon fonctionnement</sc:uLink> de 9 composants a donné les résultats suivants en jours  : 17, 204, 10, 82, 144, 29, 58, 45, 101.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve">a. Calculer la <sc:uLink role="glos" sc:id="t98" sc:refUri="/1B_op/M/EF/fiabilite_observee.ref">fiabilité</sc:uLink> et le taux de défaillance à t=50 jours</sc:para>
+				<sc:itemizedList sc:id="t99">
+					<sc:listItem sc:id="t100">
+						<sc:para xml:space="preserve" sc:id="t14">R(50) = <sc:textLeaf role="gap" sc:id="t20">5</sc:textLeaf>/<sc:textLeaf role="gap" sc:id="t21">9</sc:textLeaf>
+</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t101">
+						<sc:para xml:space="preserve" sc:id="t94">On ne peut pas calculer le taux de défaillance à t=50 jours car la défaillance la plus proche de 50 jours est 58 jours, donc on a λ(58) = <sc:textLeaf role="gap" sc:id="t87">1</sc:textLeaf>/[<sc:textLeaf role="gap" sc:id="t88">5</sc:textLeaf> * <sc:textLeaf role="gap" sc:id="t89">13</sc:textLeaf> jours]</sc:para>
+					</sc:listItem>
+				</sc:itemizedList>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t86">Il reste encore 5 composants en fonctionnement après 50 jours de fonctionnement.</sc:para>
+						<sc:para xml:space="preserve">Veiller à classer les ttf dans l'ordre croissant pour les questions qui suivent</sc:para>
+						<sc:para xml:space="preserve">On a 1 composant défaillant à t=58 sur 5 encore en fonctionnement à t=45 (défaillance précédente), soit 1 défaillance sur 5 sur une période de 13 jours</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

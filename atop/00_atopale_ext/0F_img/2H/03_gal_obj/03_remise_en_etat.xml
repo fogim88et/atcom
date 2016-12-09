@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:gallery xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:galleryM>
+			<sp:title>Comment ?</sp:title>
+		</op:galleryM>
+		<sp:img sc:refUri="/00_atopale_ext/0F_img/2H/03_gal_obj/1.odg"/>
+		<sp:img sc:refUri="/00_atopale_ext/0F_img/2H/03_gal_obj/2.odg"/>
+		<sp:img sc:refUri="/00_atopale_ext/0F_img/2H/03_gal_obj/3.odg"/>
+		<sp:img sc:refUri="/00_atopale_ext/0F_img/2H/03_gal_obj/4.odg"/>
+	</op:gallery>
+</sc:item>

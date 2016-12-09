@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Plan Industriel et Commercial</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t4">Il spécifie mois par mois, les prévisions de vente, les objectifs de production du stock ou du carnet de commande. </sc:para>
+					<sc:para>Valorisés, ces chiffres deviennent des plans de vente, plans financiers, budget d'usine etc...</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

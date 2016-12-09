@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>202.en : Mortalité humaine</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Fiabilité</sp:keywd>
+							<sp:keywd>Taux de défaillance</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Utilisez le tableur (src 5) ou labview pour calculer et tracer  en fonction du temps:</sc:para>
+								<sc:para xml:space="preserve">- la fiabilité R(t) et la fonction de répartition F(t) des défaillances du système.</sc:para>
+								<sc:para xml:space="preserve">- la densité de probabilité des défaillances f(t).</sc:para>
+								<sc:para xml:space="preserve">- le taux de défaillance Lambda(t).</sc:para>
+								<sc:para xml:space="preserve">Donner les grandeurs suivantes :</sc:para>
+								<sc:para xml:space="preserve">- la fiabilité pour une mission de 40 ans : c'est la probabilité qu'un être humain à la naissance vive plus de 40 ans</sc:para>
+								<sc:para xml:space="preserve">- la probabilité d'obtenir une défaillance dans la 41 ième année : c'est la probabilité qu'un être humain ayant vécu 40 ans décède dans sa 41 ième année.</sc:para>
+								<sc:para xml:space="preserve">Représenter et expliquer comment vous pouvez déterminer les 3 phases du cycle de vie de l'équipement. (période de jeunesse, de vie utile, usure). </sc:para>
+								<sc:para xml:space="preserve">Que peut-on définir comme politique de maintenance ou comme actions pendant chaque période.</sc:para>
+								<sc:para xml:space="preserve">A t=0, à t=50 ans, à t=75 ans, quelle est l'espérance de vie ?</sc:para>
+								<sc:para xml:space="preserve">Tracer et représenter l'espérance de vie à la naissance E(t)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:int sc:refUri="/0C-src/000/src_005_1.ods">
+							<op:instructionM/>
+						</sp:int>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

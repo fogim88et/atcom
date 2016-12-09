@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:assmntUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>EXV-29 : Calcul FMD (n1)</sp:title>
+			<sp:sTitle>EXV-29 : Calcul FMD</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>FMD</sp:keywd>
+							<sp:keywd>Observations</sp:keywd>
+							<sp:keywd>Dispositif réparable</sp:keywd>
+							<sp:keywd>MTBF</sp:keywd>
+							<sp:keywd>Disponibilité</sp:keywd>
+							<sp:keywd>Code 0029</sp:keywd>
+							<sp:keywd>src 010</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t39">On étudie les temps de fonctionnement entre défaillances sur une fraiseuse.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t193">Le système est donc réparable</sc:para>
+						<sc:para xml:space="preserve" sc:id="t194">Les <sc:uLink role="glos" sc:id="t167" sc:refUri="/1B_op/M/TUV/tps_mi/TBF_TED.ref">tbf</sc:uLink> sont ordonnés dans l'ordre croissant, le rang ne correspond donc pas à l'ordre dans lequel les défaillances sont arrivées. 13 heures de tbf signifie qu'il y a eu 13 heures de fonctionnement entre 2 défaillances, et non que la défaillance est arrivée après 13 heures de fonctionnement.</sc:para>
+						<sc:para xml:space="preserve">Le <sc:uLink role="glos" sc:id="t168" sc:refUri="/1B_op/M/MN/MTTR.ref">MTTR</sc:uLink> est de 3 heures.</sc:para>
+						<sc:para xml:space="preserve">Code exercice : 0029</sc:para>
+						<sc:para xml:space="preserve">Code src : 010</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/0C-src/src/0G_ods/010/src_10_1.ods">
+					<op:resInfoM/>
+				</sp:res>
+			</op:res>
+		</sp:intro>
+		<sp:quiz>
+			<op:cloze>
+				<op:exeM>
+					<sp:title>MTBF</sp:title>
+				</op:exeM>
+				<sc:question>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t57">Calculer le MTBF</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sc:question>
+				<sc:gapText>
+					<op:clozeTxt>
+						<sc:para sc:id="t59">Le MTBF est de <sc:textLeaf role="gap" sc:id="t62">41,3</sc:textLeaf> heures (à 1 décimale, la virgule est le séparateur)</sc:para>
+					</op:clozeTxt>
+				</sc:gapText>
+				<sc:globalExplanation>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t61">C'est la somme de tous les tbf sur le nombre de périodes observées</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sc:globalExplanation>
+			</op:cloze>
+		</sp:quiz>
+		<sp:quiz>
+			<op:cloze>
+				<op:exeM>
+					<sp:title>Mission</sp:title>
+				</op:exeM>
+				<sc:question>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t64">Renseignez la valeur demandée</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sc:question>
+				<sc:gapText>
+					<op:clozeTxt>
+						<sc:para sc:id="t66">La probabilité de réussir une mission de 10 heures est de <sc:textLeaf role="gap" sc:id="t69">100</sc:textLeaf> %</sc:para>
+					</op:clozeTxt>
+				</sc:gapText>
+				<sc:globalExplanation>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t68">Aucun tbf n'est inférieur à 10 heures.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t185">A chaque remise en état, le temps de bon fonctionnement a toujours dépassé 10 heures.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t186">Ou encore 10 missions réussies sur 10 missions tentées</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sc:globalExplanation>
+			</op:cloze>
+		</sp:quiz>
+		<sp:quiz>
+			<op:mcqSur>
+				<op:exeM>
+					<sp:title>Norme</sp:title>
+				</op:exeM>
+				<sc:question>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t81">La probabilité calculée précédemment désigne </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sc:question>
+				<sc:choices>
+					<sc:choice>
+						<sc:choiceLabel>
+							<op:txt>
+								<sc:para sc:id="t83">la fiabilité</sc:para>
+							</op:txt>
+						</sc:choiceLabel>
+					</sc:choice>
+					<sc:choice>
+						<sc:choiceLabel>
+							<op:txt>
+								<sc:para sc:id="t87">la maintenabilité</sc:para>
+							</op:txt>
+						</sc:choiceLabel>
+					</sc:choice>
+					<sc:choice>
+						<sc:choiceLabel>
+							<op:txt>
+								<sc:para sc:id="t91">la disponibilité</sc:para>
+							</op:txt>
+						</sc:choiceLabel>
+					</sc:choice>
+					<sc:choice>
+						<sc:choiceLabel>
+							<op:txt>
+								<sc:para sc:id="t95">la sécurité</sc:para>
+							</op:txt>
+						</sc:choiceLabel>
+					</sc:choice>
+					<sc:choice>
+						<sc:choiceLabel>
+							<op:txt>
+								<sc:para sc:id="t99">la durabilité</sc:para>
+							</op:txt>
+						</sc:choiceLabel>
+					</sc:choice>
+				</sc:choices>
+				<sc:solution choice="1"/>
+			</op:mcqSur>
+		</sp:quiz>
+		<sp:quiz>
+			<op:cloze>
+				<op:exeM>
+					<sp:title>Fiabilité</sp:title>
+				</op:exeM>
+				<sc:question>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t71">Renseignez les valeurs demandées</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sc:question>
+				<sc:gapText>
+					<op:clozeTxt>
+						<sc:para sc:id="t76">La probabilité de réussir une mission de 15 heures est de <sc:textLeaf role="gap" sc:id="t77">80</sc:textLeaf> %</sc:para>
+						<sc:para sc:id="t78">La probabilité de réussir une mission de 20 heures est de <sc:textLeaf role="gap" sc:id="t79">70</sc:textLeaf> %</sc:para>
+					</op:clozeTxt>
+				</sc:gapText>
+			</op:cloze>
+		</sp:quiz>
+		<sp:quiz>
+			<op:cloze>
+				<op:exeM>
+					<sp:title>Disponibilité</sp:title>
+				</op:exeM>
+				<sc:gapText>
+					<op:clozeTxt>
+						<sc:para sc:id="t107">La disponibilité opérationnelle est de <sc:textLeaf role="gap" sc:id="t110">80,5</sc:textLeaf> % (à 1 décimale près)</sc:para>
+					</op:clozeTxt>
+				</sc:gapText>
+			</op:cloze>
+		</sp:quiz>
+		<sp:quiz>
+			<op:cloze>
+				<op:exeM>
+					<sp:title>Taux de défaillance</sp:title>
+				</op:exeM>
+				<sc:gapText>
+					<op:clozeTxt>
+						<sc:para xml:space="preserve">Calculer le nombre de missions réussies à t=25, t=75.</sc:para>
+						<sc:para xml:space="preserve">Sur les périodes [0 à 25 h], [25 à 75 h],[75 à 130 h]</sc:para>
+						<sc:para xml:space="preserve" sc:id="t241">Calculer la durée (dt)</sc:para>
+						<sc:para xml:space="preserve">Calculer le nombre de missions ratées dN(t)</sc:para>
+						<sc:para xml:space="preserve" sc:id="t239">Calculer le taux de défaillance lambda(t) </sc:para>
+						<sc:para xml:space="preserve">Que pouvez vous conclure sur l'usure du composant</sc:para>
+					</op:clozeTxt>
+				</sc:gapText>
+			</op:cloze>
+		</sp:quiz>
+		<sp:quiz>
+			<op:cloze>
+				<op:exeM>
+					<sp:title>Disponibilité</sp:title>
+				</op:exeM>
+				<sc:gapText>
+					<op:clozeTxt>
+						<sc:para xml:space="preserve" sc:id="t246">Calculer la disponibilité opérationnelle : </sc:para>
+					</op:clozeTxt>
+				</sc:gapText>
+			</op:cloze>
+		</sp:quiz>
+	</op:assmntUa>
+</sc:item>

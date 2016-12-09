@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>TRG</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t15">
+							<sc:uLink role="ref" sc:id="t18" sc:refUri="/2E001/003/0003.ref"/>Calculer le TRG (Arrondir les au % le plus proche, pas de décimale)</sc:para>
+						<sc:para xml:space="preserve" sc:id="t26">
+							<sc:uLink role="ref" sc:id="t25" sc:refUri="/2E001/003/0003.ref">Rappel des données</sc:uLink>
+						</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t5">Saisir la formule du TRG (utilisez les abréviations des formules) ---&gt; TRG=<sc:textLeaf role="gap" sc:id="t9">TU</sc:textLeaf>/<sc:textLeaf role="gap" sc:id="t10">TO</sc:textLeaf>
+</sc:para>
+				<sc:para xml:space="preserve" sc:id="t13">La valeur du TRG est donc de TRG = <sc:textLeaf role="gap" sc:id="t8">84</sc:textLeaf> % </sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

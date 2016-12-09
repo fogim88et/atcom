@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:mcqSur>
+<op:exeM>
+<sp:title>Rôle du conducteur</sp:title>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Dans un premier temps, est-il plus important et plus efficace d'apprendre au conducteur</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:choices>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t5">A conduire correctement son véhicule ?</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t9">A réparer lui même son véhicule ?</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+		</sc:choices>
+		<sc:solution choice="1"/>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t27">Dans le cadre d'une approche <sc:uLink role="glos" sc:id="t45" sc:refUri="/1B_op/M/TUV/TPM.ref">Maintenance Totale</sc:uLink>, avant d'enclencher des opérations d'auto-maintenance, il faut s'assurer de la connaissance et de l'application par les opérateurs des conditions de base d'utilisation de l'équipement.</sc:para>
+						<sc:para sc:id="t44">Sait-on démarrer et arrêter un équipement correctement, a t-on des standards définis pour le pilotage de l'équipement, existe t-il des façons différentes d'opérer.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:mcqSur>
+</sc:item>

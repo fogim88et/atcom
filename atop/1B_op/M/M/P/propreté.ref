@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Propreté</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t4">La propreté en Maintenance Totale revêt un caractère très important. Elle permet :</sc:para>
+					<sc:itemizedList sc:id="t5">
+						<sc:listItem sc:id="t6">
+							<sc:para sc:id="t7">d'assurer une meilleure maintenance des équipements (détection des sources de fuites et de détériorations de l'équipement)</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t8">
+							<sc:para sc:id="t9">d'améliorer la sécurité</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t10">
+							<sc:para sc:id="t11">de démontrer une rigueur au niveau de la conduite des installations</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t12">
+							<sc:para sc:id="t13">d'agir sur la motivation du personnel </sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para sc:id="t14">Avant de mettre en place des gammes de nettoyage, il faut éliminer les sources de fuites et de salissures lors de la remise à niveau de l'équipement.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

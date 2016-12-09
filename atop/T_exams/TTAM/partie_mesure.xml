@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>3E. Instrumentation</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>3E. Instrumentation</sp:title>
+					</op:pbTi>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t38">3E1. Décrire rapidement avec un schéma la chaîne de mesure.</sc:para>
+								<sc:para xml:space="preserve">3E2. Citez quelques capteurs : principe de la mesure - conditionnement. Pour la température, expliquez le principe pour une CTN et un thermocouple.</sc:para>
+								<sc:para xml:space="preserve">3E3. Comment peut-on éliminer le bruit de mode commun lors d'une acquisition de données.</sc:para>
+								<sc:para xml:space="preserve">3E4. Quelle est la plus petite variation détectable pour une carte d'acquisition 16 bits sur une plage de +/- 10 V, +/- 0,1V, dont le gain maximum est de 1000.</sc:para>
+								<sc:para xml:space="preserve">3E5. Quels paramètres d'acquisition fixez vous pour la mesure d'un signal de 1k Hertz : fréquence (a) ou représentation temporelle sur 0,5s.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

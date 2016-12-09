@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>2. Les n-listes.</sp:title>
+			<sp:sTitle>2. Les n-listes.</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t6">CHAPITRE I : ANALYSE COMBINATOIRE.</sc:para>
+								<sc:para sc:id="t7">LEÇON 2 : Les n-listes.</sc:para>
+								<sc:para sc:id="t8">DEFINITION.</sc:para>
+								<sc:para sc:id="t9">Soit X un ensemble, n un entier naturel.</sc:para>
+								<sc:para sc:id="t10">On appelle n-liste d'éléments de X toute liste (x1, x2, ..., xn ) de n éléments de X pris dans cet ordre.</sc:para>
+								<sc:para sc:id="t11">Exemple.</sc:para>
+								<sc:para sc:id="t12">Si X = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} les 5-listes (2, 3, 4, 5, 6) et (3, 2, 5, 4, 6) sont distinctes car les éléments qui interviennent dans ces deux 5-listes sont donnés dans un ordre différent. L'ensemble des</sc:para>
+								<sc:para sc:id="t13">n-listes d'éléments de X se note Xn .</sc:para>
+								<sc:para sc:id="t14">Si X = {a, b, c} on peut construire X3 par une arborescence.</sc:para>
+								<sc:para sc:id="t15">THEOREME.</sc:para>
+								<sc:para sc:id="t16">Si X a m éléments, l'ensemble des n-listes d'éléments de X a mn éléments.</sc:para>
+								<sc:para sc:id="t17">card (Xn) = card (X)n = mn .</sc:para>
+								<sc:para sc:id="t18">Exemple.</sc:para>
+								<sc:para sc:id="t19">Si X = {a, b, c} il y a 33 = 27 éléments dans X3.</sc:para>
+								<sc:para sc:id="t20">Placer n objets dans m boîtes, chaque boîte pouvant recevoir les n objets.</sc:para>
+								<sc:para sc:id="t21">PROPOSITION.</sc:para>
+								<sc:para sc:id="t22">On considère m boîtes, et n objets, chaque boîte pouvant contenir les n objets. On peut répartir les n objets dans les m boîtes de mn façons.</sc:para>
+								<sc:para sc:id="t23">Exemple 1.</sc:para>
+								<sc:para sc:id="t24">Il y a 312 = 531 441 manières de répartir 12 pièces d'or distinctes dans 3 coffres.</sc:para>
+								<sc:para sc:id="t25">Echantillon ordonné avec remise.</sc:para>
+								<sc:para sc:id="t26">Exemple.</sc:para>
+								<sc:para sc:id="t27">Dans un lot de 1 000 tubes numérotés de dentifrice, on prélève un tube, on vérifie son remplissage et on le replace dans le lot. On répète l'opération 6 fois. On dit qu'on a prélevé un échantillon ordonné avec remise de taille 6. Il y a 1 0006 = 109 manières de prélever un tel échantillon.</sc:para>
+								<sc:para sc:id="t28">PROPOSITION.</sc:para>
+								<sc:para sc:id="t29">Dans un ensemble de m objets, il y a mn manières de prélever un échantillon ordonné avec remise de taille n.</sc:para>
+								<sc:para sc:id="t30">Nombre de parties d'un ensemble.</sc:para>
+								<sc:para sc:id="t31">PROPOSITION.</sc:para>
+								<sc:para sc:id="t32">Si X est un ensemble à n éléments, le nombre de parties de X est 2n.</sc:para>
+								<sc:para sc:id="t33">Exemple.</sc:para>
+								<sc:para sc:id="t34">Etant donné 9 fleurs, il y a 29 = 512 manières de constituer un bouquet en prenant des fleurs parmi ces 9 fleurs et en considérant que le bouquet sans fleur est un bouquet.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

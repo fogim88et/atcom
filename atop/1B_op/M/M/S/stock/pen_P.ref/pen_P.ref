@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:definition xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:dk="kelis.fr:dokiel">
+		<dk:definitionMeta>
+			<sp:notion>Pénalité P</sp:notion>
+			<sp:term>Pénalité P</sp:term>
+			<sp:def>
+				<dk:textSimple>
+					<sc:para xml:space="preserve" sc:id="t3">Lorsqu'un pièce est en attente de réapprovisionnement, la valeur P représente le coût de l'attente qui est en général proportionnel au délai de réapprovisionnement. Une commande en urgence avec un surcoût (Ccpc) peut donc réduire le délai normal et diminuer les conséquences de l'arrêt machine par la faute d'une rupture de stock ou d'un non stockage de la pièce.</sc:para>
+				</dk:textSimple>
+			</sp:def>
+		</dk:definitionMeta>
+	</dk:definition>
+</sc:item>

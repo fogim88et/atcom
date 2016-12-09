@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Total Productive Maintenance</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t4">La TPM s'appuye sur 3 leviers : </sc:para>
+					<sc:itemizedList sc:id="t5">
+						<sc:listItem sc:id="t6">
+							<sc:para sc:id="t7">disponibilité,</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t8">
+							<sc:para sc:id="t9"> performance,</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t10">
+							<sc:para sc:id="t11">qualité.</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para sc:id="t12">La signification de l'expression « maintenance productive totale » est la suivante :</sc:para>
+					<sc:para sc:id="t13">
+						<sc:inlineStyle role="emp">Maintenance</sc:inlineStyle> : maintenir en bon état, c'est-à-dire réparer, nettoyer, graisser et accepter d'y consacrer le temps nécessaire.</sc:para>
+					<sc:para sc:id="t14">
+						<sc:inlineStyle role="emp">Productive</sc:inlineStyle> : assurer la maintenance tout en produisant, ou en pénalisant le moins possible la production.</sc:para>
+					<sc:para sc:id="t15">
+						<sc:inlineStyle role="emp">Totale</sc:inlineStyle> : considérer tous les aspects et y associer tout le monde.</sc:para>
+				</op:sTxt>
+			</sp:def>
+			<sp:wikip>Maintenance_productive_totale</sp:wikip>
+		</op:glosM>
+	</op:glos>
+</sc:item>

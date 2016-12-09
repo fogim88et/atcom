@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Source de données</sp:title>
+			<sp:sTitle>Source de données</sp:sTitle>
+		</op:uM>
+		<sp:courseUc sc:refUri="/1C_op/src/src_001.xml"/>
+		<sp:courseUc sc:refUri="/1C_op/src/src_002.xml"/>
+		<sp:courseUc sc:refUri="/1C_op/src/src_003.xml"/>
+		<sp:courseUc sc:refUri="/1C_op/src/src_005.xml"/>
+		<sp:courseUc sc:refUri="/1C_op/src/src_007.xml"/>
+		<sp:courseUc sc:refUri="/1C_op/src/src_009.xml"/>
+		<sp:courseUc sc:refUri="/M_/ME_tpz/MES/5_ex/23_edc/013_ampoules_anc_fiab_07/do/src_013.xml"/>
+	</op:courseUa>
+</sc:item>

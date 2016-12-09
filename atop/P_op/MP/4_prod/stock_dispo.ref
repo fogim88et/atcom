@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Stock disponible (SD)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Soit j le jour considéré, alors le stock disponible <sc:inlineStyle role="emp" sc:id="t4">SDj</sc:inlineStyle> est égal stock du jour précédent <sc:inlineStyle role="emp" sc:id="t5">SD(j-1)</sc:inlineStyle> diminué des besoins bruts du jour j (<sc:inlineStyle role="emp" sc:id="t6">BBj</sc:inlineStyle>) auxquels on ajoute les réceptions prévues (<sc:inlineStyle role="emp" sc:id="t7">RP</sc:inlineStyle>) et les entrées des <sc:inlineStyle role="emp">OF</sc:inlineStyle> en fin d'ordre </sc:para>
+					<sc:para xml:space="preserve" sc:id="t8">
+						<sc:inlineStyle role="emp" sc:id="t9">SDj</sc:inlineStyle> = <sc:inlineStyle role="emp" sc:id="t10">SD(j-1)</sc:inlineStyle> - <sc:inlineStyle role="emp" sc:id="t11">BBj</sc:inlineStyle> + <sc:inlineStyle role="emp" sc:id="t12">RP</sc:inlineStyle> +<sc:inlineStyle role="emp">OF</sc:inlineStyle></sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

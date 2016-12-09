@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>6. Redondance.</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">6a. Donnez la règle de calcul de la fiabilité et du taux de défaillance pour 2 composants A et B en série et en parallèle.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t7">6b. Quelles sont les possibilités de redondance peut-on faire ?</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t14">6c. Soit le système ci-dessous composé de 5 composants en série. Calculer la fiabilité du système.</sc:para>
+						<sc:para xml:space="preserve">6d. Améliorer le système à l'aide d'une redondance des  composants pour atteindre une fiabilité de 0,72 minimum.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/T_exams/2015/OMM1/q6_en.ods">
+					<op:resInfoM/>
+				</sp:res>
+			</op:res>
+		</sp:desc>
+	</op:practUc>
+</sc:item>

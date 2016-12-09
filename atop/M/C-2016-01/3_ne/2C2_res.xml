@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Fiabilité observée : Résumé</sp:title>
+			<sp:sTitle>Fiabilité observée : Résumé</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:warning>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t1033">Vous trouverez ici les formules spécifiques que l'on peut appliquer à chaque d'étude de fiabilité observée.</sc:para>
+								<sc:para xml:space="preserve">Elles sont utiles pour comprendre comment appliquer les formules générales, notamment dans le cadre des traitements informatiques.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:warning>
+			</op:pb>
+		</sp:pb>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Dispositifs non réparables (rang)</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Données en entrées</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:table role="" sc:id="t26">
+											<sc:caption xml:space="preserve" sc:id="t1037">structure du fichier src</sc:caption>
+											<sc:column sc:id="t27" width="50"/>
+											<sc:column sc:id="t28" width="50"/>
+											<sc:row sc:id="t29">
+												<sc:cell sc:id="t30">
+													<sc:para xml:space="preserve" sc:id="t36">Rang</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t31">
+													<sc:para xml:space="preserve" sc:id="t43">Durée de vie</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t32">
+												<sc:cell sc:id="t33">
+													<sc:para xml:space="preserve" sc:id="t40">i</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t34">
+													<sc:para xml:space="preserve" sc:id="t42">ttf</sc:para>
+												</sc:cell>
+											</sc:row>
+										</sc:table>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:def>
+							<op:pbTi>
+								<sp:title>Résumé des formules spécifiques</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:table role="" sc:id="t875">
+											<sc:caption xml:space="preserve">Formules</sc:caption>
+											<sc:column sc:id="t876" width="17"/>
+											<sc:column sc:id="t877" width="44"/>
+											<sc:row sc:id="t882">
+												<sc:cell sc:id="t883">
+													<sc:para xml:space="preserve" sc:id="t911">Effectif défaillant</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t884">
+													<sc:para xml:space="preserve" sc:id="t913"><sc:inlineImg role="form" sc:id="t959" sc:refUri="/1B_op/M/MN/MES-fmd-odf/dN(i)_obs_n.odf"/></sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t889">
+												<sc:cell sc:id="t890">
+													<sc:para xml:space="preserve" sc:id="t923">Densité de probabilité</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t891">
+													<sc:para xml:space="preserve" sc:id="t925"><sc:inlineImg role="form" sc:id="t960" sc:refUri="/1B_op/M/MN/MES-fmd-odf/f(i)_obs_n.odf"/></sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t896">
+												<sc:cell sc:id="t897">
+													<sc:para xml:space="preserve" sc:id="t935">Effectif survivant</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t898">
+													<sc:para xml:space="preserve" sc:id="t937"><sc:inlineImg role="form" sc:id="t961" sc:refUri="/1B_op/M/MN/MES-fmd-odf/N(i)_obs_n.odf"/></sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t903">
+												<sc:cell sc:id="t904">
+													<sc:para xml:space="preserve" sc:id="t947">Fonction de répartition</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t905">
+													<sc:para xml:space="preserve" sc:id="t949"><sc:inlineImg role="form" sc:id="t962" sc:refUri="/1B_op/M/MN/MES-fmd-odf/Fr(i)_obs_n.odf"/></sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t10">
+												<sc:cell sc:id="t11">
+													<sc:para xml:space="preserve" sc:id="t978">Fiabilité</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t12">
+													<sc:para xml:space="preserve" sc:id="t979"><sc:inlineImg role="form" sc:id="t984" sc:refUri="/1B_op/M/MN/MES-fmd-odf/R(i)_rel_N(i).odf"/></sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t13">
+												<sc:cell sc:id="t14">
+													<sc:para xml:space="preserve" sc:id="t985">Taux de défaillance</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t15">
+													<sc:para xml:space="preserve" sc:id="t986"><sc:inlineImg role="form" sc:id="t991" sc:refUri="/1B_op/M/MN/MES-fmd-odf/L(i)_obs_n_ttf.odf"/></sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t16">
+												<sc:cell sc:id="t17" colSpan="2">
+													<sc:para xml:space="preserve" sc:id="t992"><sc:inlineImg role="form" sc:id="t998" sc:refUri="/1B_op/M/MN/MES-fmd-odf/MTTF_n.odf"/></sc:para>
+												</sc:cell>
+											</sc:row>
+										</sc:table>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:def>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Dispositifs non réparables (période)</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Données</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:table role="" sc:id="t26">
+											<sc:caption xml:space="preserve" sc:id="t1023">structure du fichiers src</sc:caption>
+											<sc:column sc:id="t27" width="21"/>
+											<sc:column sc:id="t28" width="23"/>
+											<sc:row sc:id="t29">
+												<sc:cell sc:id="t30">
+													<sc:para xml:space="preserve" sc:id="t36">limites de période</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t31">
+													<sc:para xml:space="preserve" sc:id="t43">effectifs défaillants</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t32">
+												<sc:cell sc:id="t33">
+													<sc:para xml:space="preserve" sc:id="t40">t</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t34">
+													<sc:para xml:space="preserve" sc:id="t42">dN(tc)</sc:para>
+												</sc:cell>
+											</sc:row>
+										</sc:table>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:def>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:table role="" sc:id="t297">
+											<sc:caption xml:space="preserve" sc:id="t1002">Données calculées pour chaque période</sc:caption>
+											<sc:column sc:id="t299" width="35"/>
+											<sc:column sc:id="t300" width="27"/>
+											<sc:row sc:id="t301">
+												<sc:cell sc:id="t302">
+													<sc:para xml:space="preserve" sc:id="t303">
+												<sc:uLink role="glos" sc:id="t304" sc:refUri="/1B_op/M/EF/fiabilite_observee.ref">Fiabilité</sc:uLink> de 0 à t</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t305">
+													<sc:para xml:space="preserve" sc:id="t306">
+												<sc:inlineImg role="form" sc:id="t307" sc:refUri="/1B_op/M/MN/MES-fmd-odf/R(t)_op.odf"/>
+											</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t315">
+												<sc:cell sc:id="t316">
+													<sc:para xml:space="preserve" sc:id="t317">
+												<sc:uLink role="glos" sc:refUri="/1B_op/S/fd.ref">Densité de Probabilité</sc:uLink> de t à t+dt</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t319">
+													<sc:para xml:space="preserve" sc:id="t320">
+												
+											<sc:inlineImg role="form" sc:id="t1010" sc:refUri="/1B_op/M/MN/MES-fmd-odf/f(tc)_obs_nc.odf"/></sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t351">
+												<sc:cell sc:id="t352">
+													<sc:para xml:space="preserve" sc:id="t331">
+												<sc:uLink role="glos" sc:id="t333" sc:refUri="/1B_op/M/TUV/taux_defaillance.ref">Taux de défaillance</sc:uLink> de t à t+dt</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t353">
+													<sc:para xml:space="preserve" sc:id="t332">
+												<sc:inlineImg role="form" sc:id="t1008" sc:refUri="/1B_op/M/MN/MES-fmd-odf/L(tc)_obs_nc.odf"/>
+											</sc:para>
+												</sc:cell>
+											</sc:row>
+										</sc:table>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:table role="" sc:id="t369">
+											<sc:caption xml:space="preserve" sc:id="t853">Mean Time to failure (temps moyen avant défaillance)</sc:caption>
+											<sc:column sc:id="t370" width="17"/>
+											<sc:column sc:id="t371" width="49"/>
+											<sc:row sc:id="t372">
+												<sc:cell sc:id="t373">
+													<sc:para xml:space="preserve" sc:id="t376">
+<sc:uLink role="glos" sc:id="t379" sc:refUri="/1B_op/M/MN/MTTF.ref">MTTF</sc:uLink>
+											</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t374">
+													<sc:para xml:space="preserve" sc:id="t378">
+<sc:inlineImg role="form" sc:id="t380" sc:refUri="/1B_op/M/MN/MES-fmd-odf/MTTF_nc.odf"/>
+</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row>
+												<sc:cell colSpan="2">
+													<sc:para xml:space="preserve" sc:id="t885"><sc:inlineImg role="form" sc:id="t887" sc:refUri="/1B_op/M/MN/MES-fmd-odf/dN(i)_op_com.odf"/></sc:para>
+												</sc:cell>
+											</sc:row>
+										</sc:table>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:def>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

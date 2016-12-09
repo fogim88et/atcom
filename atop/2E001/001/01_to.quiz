@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Calcul du Temps d'ouverture (TO)</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t192">Assurez de bien avoir consulté le contexte de l'exercice avant de commencer et avoir notamment bien lu l'énoncé.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t130">
+							En déduire le temps d 'ouverture <sc:uLink role="glos" sc:id="t148" sc:refUri="/1B_op/M/TUV/TRG/TO.ref">TO</sc:uLink>.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t132">Le temps d'ouverture est basé sur le temps de production maximal qu'aurait pu accomplir la machine, </sc:para>
+				<sc:para xml:space="preserve" sc:id="t177">3 équipes ont chacune travaillé 8 heures, donc, nous avons un <sc:uLink role="glos" sc:id="t167" sc:refUri="/1B_op/M/TUV/TRG/TO.ref">TO</sc:uLink> de <sc:textLeaf role="gap" sc:id="t136">24</sc:textLeaf> heures.</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

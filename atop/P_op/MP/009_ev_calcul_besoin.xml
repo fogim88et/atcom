@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:assmntUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Evaluation : calcul du besoin</sp:title>
+			<sp:sTitle>Evaluation : calcul du besoin</sp:sTitle>
+		</op:uM>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t7">
+<sc:uLink role="ucLnk" sc:id="t10" sc:refUri="/P_op/MP/003_ac_res/1_calcul_besoin.xml">Calcul du besoin</sc:uLink>
+</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:quiz sc:refUri="/P_op/MP/009_ex_calcul_besoin/art_01_1.quiz"/>
+		<sp:quiz sc:refUri="/P_op/MP/009_ex_calcul_besoin/art_01_2.quiz"/>
+		<sp:quiz sc:refUri="/P_op/MP/009_ex_calcul_besoin/art_01_3.quiz"/>
+		<sp:quiz sc:refUri="/P_op/MP/009_ex_calcul_besoin/art_01_4.quiz"/>
+		<sp:quiz sc:refUri="/P_op/MP/009_ex_calcul_besoin/art_01_5.quiz"/>
+		<sp:quiz sc:refUri="/P_op/MP/009_ex_calcul_besoin/art_01_6.quiz"/>
+		<sp:quiz sc:refUri="/P_op/MP/009_ex_calcul_besoin/art_01_7.quiz"/>
+	</op:assmntUa>
+</sc:item>

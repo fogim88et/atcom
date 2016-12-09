@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:webRoot xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:webRootM>
+			<sp:version>2B_ne_web</sp:version>
+			<sp:date>8 Décembre 2011</sp:date>
+			<sp:auth>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">Franck OURION. IUT Hubert-Curien EPINAL. Département GIM</sc:para>
+				</op:sTxt>
+			</sp:auth>
+			<sp:contentFilter>standard</sp:contentFilter>
+			<sp:settings>
+				<sp:quest>no</sp:quest>
+				<sp:glos>yes</sp:glos>
+				<sp:acr>yes</sp:acr>
+				<sp:ref>yes</sp:ref>
+				<sp:bib>yes</sp:bib>
+				<sp:index>yes</sp:index>
+				<sp:credits>no</sp:credits>
+			</sp:settings>
+		</op:webRootM>
+		<sp:ue sc:refUri="/2/2B_normes/2B_ne.xml"/>
+	</op:webRoot>
+</sc:item>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:notion>Période de jeunesse</sp:notion>
+			<sp:term>Période de jeunesse</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Début de la vie de l'équipement, le risque de défaillance précoce est non négligeable, le taux de défaillance décroit dans le temps.</sc:para>
+					<sc:para>Le constructeur et/ou l'exploitant doivent  agir pour l'éliminer (deverminage et élimination des rebuts ou déchets, rodage, tests , contrôles, visites)</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:ueM>
+			<sp:title>Examen GIM 205 OMM2</sp:title>
+		</op:ueM>
+		<sp:courseUc sc:refUri="/T_exams/2014_OMM2/partie_cours.xml"/>
+		<sp:courseUc sc:refUri="/T_exams/2014_OMM2/partie_calcul.xml"/>
+	</op:ue>
+</sc:item>

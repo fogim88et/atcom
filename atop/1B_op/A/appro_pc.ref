@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Méthode du point de commande (PC)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Elle consiste à commander la Quantité économique <sc:inlineStyle role="emp" sc:id="t4">Qe</sc:inlineStyle> ou <sc:inlineStyle role="emp">Qec</sc:inlineStyle> lorsque le stock atteint un « stock d'alerte », noté <sc:inlineStyle role="emp" sc:id="t5">Qs</sc:inlineStyle>.</sc:para>
+					<sc:para xml:space="preserve">Cette méthode est particulièrement adaptée à des <sc:inlineStyle role="emp">consommations irrégulières</sc:inlineStyle> ou des besoins <sc:inlineStyle role="emp">Qa faibles</sc:inlineStyle>.</sc:para>
+					<sc:para xml:space="preserve">Il est très difficile de définir une règle générale, car parfois, certaines pièces à consommations irrégulières seront approvisionnées périodiquement (<sc:inlineStyle role="emp">Méthode du plan d'approvisionnement</sc:inlineStyle> PA) pour être regroupées avec la commande d'autres pièces.</sc:para>
+					<sc:para xml:space="preserve">Avec la méthode PC, c'est la consommation qui dicte le lancement de la commande, avec la méthode PA, c'est une période fixe calculée aussi sur la base de Qe et Qa qui rythme les commandes.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:mcqSur>
+<op:exeM>
+<sp:title>La maintenance totale</sp:title>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">La maintenance totale concerne</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:choices>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t5">Le service maintenance uniquement</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t9">Le service maintenance et la fabrication</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t13">L'ensemble des services de l'entreprise :</sc:para>
+						<sc:itemizedList sc:id="t26">
+							<sc:listItem sc:id="t27">
+								<sc:para>conception</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t28">
+								<sc:para>méthode</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t29">
+								<sc:para>maintenance</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t30">
+								<sc:para>fabrication</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t31">
+								<sc:para>planning</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+		</sc:choices>
+		<sc:solution choice="3"/>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t25">L'objectif est d'oeuvrer dans le cadre d'une <sc:uLink role="glos" sc:id="t51" sc:refUri="/1B_op/M/TUV/TPM.ref">démarche globale (TPM)</sc:uLink>, ou tout du moins de s'en inspirer en prenant en compte la taille de l'entreprise, sa structure et son organisation.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:mcqSur>
+</sc:item>

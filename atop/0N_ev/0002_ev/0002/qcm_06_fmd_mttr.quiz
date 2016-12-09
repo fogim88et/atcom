@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:mcqMur xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>MTTR</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Le MTTR </sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:choices>
+			<sc:choice solution="unchecked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t5">est une caractéristique de la fiabilité</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para sc:id="t51">non, son équivalent pour la <sc:uLink role="glos" sc:id="t88" sc:refUri="/1B_op/M/EF/fiabilite.ref">Fiabilité (reliability)</sc:uLink> est le <sc:uLink role="glos" sc:id="t89" sc:refUri="/1B_op/M/MN/MTTF.ref">MTTF</sc:uLink>
+</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t9">est une caractéristique de la maintenabilité</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para sc:id="t53">Attention, c'est une valeur moyenne.</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t13">est une grandeur qui intervient dans le calcul de la disponibilité opérationnelle</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+		</sc:choices>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t45">Revoir les définitions :</sc:para>
+						<sc:para>
+							<sc:uLink role="glos" sc:id="t47" sc:refUri="/1B_op/M/MN/MTTR.ref">MTTR</sc:uLink>
+						</sc:para>
+						<sc:para>
+							<sc:uLink role="glos" sc:id="t46" sc:refUri="/1B_op/M/EF/fiabilite.ref">Fiabilité (reliability)</sc:uLink>
+						</sc:para>
+						<sc:para>
+							<sc:uLink role="glos" sc:id="t48" sc:refUri="/1B_op/M/MN/maintenabilite.ref">Maintenabilité</sc:uLink>
+						</sc:para>
+						<sc:para>
+							<sc:uLink role="glos" sc:id="t49" sc:refUri="/1B_op/D/disponibilite.ref">Disponibilité</sc:uLink>
+						</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:mcqMur>
+</sc:item>

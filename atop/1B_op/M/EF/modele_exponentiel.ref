@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Modèle exponentiel</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Modèle théorique permettant d'évaluer la fiabilité prévisionnelle d'un dispositif caractérisé par un taux de défaillance <sc:inlineStyle role="emp" sc:id="t10">λ constant</sc:inlineStyle> dans le temps (pas d'usure).</sc:para>
+					<sc:itemizedList sc:id="t8">
+						<sc:listItem sc:id="t9">
+							<sc:para xml:space="preserve" sc:id="t5">R(t)=exp(-λ.t) et λ=1/MTTF</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

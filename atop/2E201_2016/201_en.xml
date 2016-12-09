@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>201.en : Garantie</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Fiabilité</sp:keywd>
+							<sp:keywd>Taux de défaillance</sp:keywd>
+							<sp:keywd>Modèle exponentiel</sp:keywd>
+							<sp:keywd>Garantie</sp:keywd>
+							<sp:keywd>Système série</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Après un test de 250000 heures, un constructeur a relevé que 50% des transistors fonctionnaient encore.</sc:para>
+								<sc:para xml:space="preserve">Comment exprimer la notion de garantie en fonction de la <sc:uLink role="glos" sc:refUri="/1B_op/M/EF/fiabilite_previsionnelle.ref">fiabilité</sc:uLink>.</sc:para>
+								<sc:para xml:space="preserve">Justifier l'utilisation du modèle exponentiel, et donner l'expression mathématique du modèle.</sc:para>
+								<sc:para xml:space="preserve">Exprimez λ(t) en fonction de R(t) et t</sc:para>
+								<sc:para xml:space="preserve">Calculer le taux de défaillance et en déduire le MTTF</sc:para>
+								<sc:para xml:space="preserve">Quelle période de garantie pourriez vous fixer à ce transistor ?</sc:para>
+								<sc:para xml:space="preserve">Pour réaliser un étage d'amplificateur, on utilise 10 composants de même fiabilité. Quelle serait la fiabilité du système à t=50000 heures ?. </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM xmlns:idt="kelis.fr:dokiel">
+			<sp:title>5A : Distribution Statistique. Moyenne et Dispersion.</sp:title>
+			<sp:sTitle>5A : Distribution Statistique. Moyenne et Dispersion.</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>5A</sp:keywd>
+							<sp:keywd>Statistiques descriptives</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t9">
+<sc:uLink role="ref" sc:id="t14" sc:refUri="/D/DS/5_stat_objectif.ref">5A : Statistiques</sc:uLink>
+</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:courseUc sc:refUri="/D/DS/3_ne/5A0_intro.xml"/>
+		<sp:courseUc sc:refUri="/D/DS/3_ne/5A1_ne_obs.xml"/>
+		<sp:courseUc sc:refUri="/D/DS/3_ne/5A2_ex_mise_en_forme.xml"/>
+		<sp:courseUc sc:refUri="/D/DS/3_ne/5A4_caracteristiques.xml"/>
+		<sp:courseUc sc:refUri="/D/DS/3_ne/5A5_representation_graphique.xml"/>
+		<sp:courseUc sc:refUri="/D/DS/3_ne/5A6_Interpretation.xml"/>
+		<sp:genRef>
+			<op:genRef>
+				<sp:ref sc:refUri="/0B/7D_exe/fiab_op.ref"/>
+			</op:genRef>
+		</sp:genRef>
+	</op:courseUa>
+</sc:item>

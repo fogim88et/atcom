@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:match xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>La base de données technique et les données de flux</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">
+<sc:inlineStyle role="emp" sc:id="t60">Attention à ce que les étiquettes affectées le soit dans l'ordre alphabétique (BB doit être placé avant RP par exemple</sc:inlineStyle>) <sc:inlineStyle role="emp" sc:id="t61">et à ce que les étiquettes en plusieurs exemplaires soient placées dans l'ordre de l'indice.</sc:inlineStyle>
+</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t63">Commencez donc par étudier les propositions (étiquettes à gauche) dans l'ordre dans lequel vous les lisez, puis lorsque votre proposition de répartition par cible (à droite) vous semble correcte, cible par cible, remettez les étiquettes dans l'ordre alphabétique.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t5">Base de données techniques</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t7">Poste de charge (PDC)</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t19">Nomenclature</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t21">Gamme</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t23">Fichier Article</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t9">Données de flux</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t11">Commandes fermes client</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t25">Ordre Fabrication lancés</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t53">Ordre Achat lancés</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t31">Prévisions des ventes</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t37">Besoin/planification</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t41">Ordre Fabrication à lancer</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t43">Ordre Achat à lancer</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t45">Adéquation Charge/Capacité</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+	</op:match>
+</sc:item>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Etape 2</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Catégories et Articles</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Importer les tables Catégories et Articles du fichier tp_02.mdb</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t5">Ajouter les relations entre catégories et article</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t11">Créer la requête Req_02_01 qui affiche les articles avec les attributs de la catégorie.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t17">Ajouter un formulaire basé sur la requête Req_02_01 à l'aide de l'assistant.</sc:para>
+								<sc:para xml:space="preserve">Comme la requête contient deux tables, vous devrez choisir comment vous affichez les données : tester les 2 solutions (frm_02_01 et frm_02_02)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t33">Créer une requête qui comptabilise le nombre d'article par catégorie et qui affiche le prix moyen des articles.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Facturation</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t45">Importer les tables factures et LignesFact du fichier tp_03.mdb</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t86">Ajoutez les relations entre Clients et Factures, Factures et LignesFact, LignesFact et Articles</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t39">Ajouter un formulaire de saisie des factures avec un sous-formulaire pour saisir les articles à facturer. Mettre en place un contrôle Liste pour sélectionner le client.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:res sc:refUri="/op_I/OIBB_2/7C_app_gestcom_mdb_01/exercice_02/Microsoft Access_2011-05-27_06-50-39.png">
+<op:resInfoM>
+<sp:index>img</sp:index>
+</op:resInfoM>
+</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t47">Ajouter une requête qui calcule le chiffre d'affaire par article, puis par catégorie</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:res sc:refUri="/op_I/OIBB_2/7C_app_gestcom_mdb_01/exercice_02/Microsoft Access_2011-05-27_06-53-42.png">
+<op:resInfoM>
+<sp:index>img</sp:index>
+</op:resInfoM>
+</sp:res>
+								<sp:res sc:refUri="/op_I/OIBB_2/7C_app_gestcom_mdb_01/exercice_02/Microsoft Access_2011-05-27_06-51-41.png">
+<op:resInfoM>
+<sp:index>img</sp:index>
+</op:resInfoM>
+</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t53">Ajouter une requête qui calcule le chiffre d'affaire par client. Au préalable, ajouter une requête qui calcule le montant total de chaque facture.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:res sc:refUri="/op_I/OIBB_2/7C_app_gestcom_mdb_01/exercice_02/Microsoft Access_2011-05-27_06-54-15.png">
+<op:resInfoM>
+<sp:index>img</sp:index>
+</op:resInfoM>
+</sp:res>
+								<sp:res sc:refUri="/op_I/OIBB_2/7C_app_gestcom_mdb_01/exercice_02/Microsoft Access_2011-05-27_06-53-42.png">
+<op:resInfoM>
+<sp:index>img</sp:index>
+</op:resInfoM>
+</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:ueM>
+			<sp:title>Examen TTAM-M41 2012-2013</sp:title>
+			<sp:sTitle>Examen TTAM-M41 2012-2013</sp:sTitle>
+		</op:ueM>
+		<sp:courseUa>
+			<op:courseUa>
+				<op:uM>
+					<sp:title>TTAM-M41</sp:title>
+					<sp:sTitle>TTAM-M41</sp:sTitle>
+				</op:uM>
+				<sp:practUc sc:refUri="/T_exams/2013_M41/q1.xml"/>
+				<sp:practUc sc:refUri="/T_exams/2013_M41/q2.xml"/>
+				<sp:practUc sc:refUri="/T_exams/2013_M41/q3.xml"/>
+				<sp:practUc sc:refUri="/T_exams/2013_M41/q4.xml"/>
+				<sp:practUc sc:refUri="/T_exams/2013_M41/q5.xml"/>
+			</op:courseUa>
+		</sp:courseUa>
+	</op:ue>
+</sc:item>

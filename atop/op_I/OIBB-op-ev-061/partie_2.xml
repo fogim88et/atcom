@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM xmlns:gtm="comaint.fr:gTecMi">
+			<sp:title>61.B. MCD</sp:title>
+			<sp:sTitle>MCD (61.A)</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Relations</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t5">tb_coach : 1 à n vers tb_activite</sc:para>
+								<sc:para xml:space="preserve">tb_activite : 1 à n vers tb_inscr</sc:para>
+								<sc:para xml:space="preserve">tb_adherent : 1 à n vers tb_inscr</sc:para>
+								<sc:para xml:space="preserve">tb_inscr : 1 à n vers tb_seance</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t14">Compléter dans le tableau MLD Asso les attributs manquants avec leur propriétés.</sc:para>
+								<sc:para xml:space="preserve">Dans la partie données : ajouter les données des tables tb_inscr et tb_seance</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBB-op-ev-061/mld.ods">
+							<op:resInfoM>
+								<sp:index>tab</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

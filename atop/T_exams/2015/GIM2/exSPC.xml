@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title/>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t4">Une machine produit des pièces de moyenne 120 mm. Les tolérances fixées (IT) sont de 120 +/- 1 mm.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t7">Un prélèvement de 100 pièces donne un écart type de 0,02. </sc:para>
+								<sc:para xml:space="preserve">L'image est considérée comme gaussienne. Peut-on considérer que l'écart-type de la population (ou production) est de 0,02 ?</sc:para>
+								<sc:para xml:space="preserve">Dessiner une gaussienne permettant de représenter la dispersion de la mesure d'une pièce (sa base pourrait être proche de 10 cm). La graduation en abscisse se fera en nombre d'écart-type.</sc:para>
+								<sc:para xml:space="preserve">Si on décide de prélever des échantillons de taille 10, quel est l'écart type de la DEM ? représenter la dispersion des moyennes d'échantillons de taille 10 sur le schéma précédent.</sc:para>
+								<sc:para xml:space="preserve">Donner les paramètres permettant de mettre en place la carte de contrôle sur la moyenne avec des échantillons de 6 pièces avec des seuils à 95,44% et 99,8%</sc:para>
+								<sc:para xml:space="preserve">Quand une moyenne d'échantillon est dans les limites de surveillance (95,44%), ou en dehors, qu'en concluez vous ? </sc:para>
+								<sc:para xml:space="preserve" sc:id="t8">Quand doit-on décider d'un arrêt machine en s'appuyant sur le suivi des cartes de contrôles.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t9"> Quelles sont les conséquences d'une très grande voir trop grande capabilité machine ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

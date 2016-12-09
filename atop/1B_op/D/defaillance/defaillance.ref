@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:notion>Défaillance</sp:notion>
+			<sp:term>Défaillance</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">La <sc:inlineStyle role="emp">défaillance</sc:inlineStyle> (<sc:inlineStyle role="spec">failure</sc:inlineStyle>) est l'altération (défaillance <sc:inlineStyle role="emp">partielle</sc:inlineStyle>) ou la cessation (<sc:inlineStyle role="emp">panne</sc:inlineStyle>) d'un bien à accomplir la fonction requise.</sc:para>
+					<sc:para sc:id="t4">Le <sc:inlineStyle role="emp">diagnostic</sc:inlineStyle> débute par le constat de la défaillance, l'<sc:inlineStyle role="emp">effet</sc:inlineStyle> par lequel une défaillance est observable sur la chaîne fonctionnelle est le <sc:inlineStyle role="emp">mode de défaillance</sc:inlineStyle>.</sc:para>
+					<sc:para sc:id="t5">Le <sc:inlineStyle role="emp">diagnostic</sc:inlineStyle> se termine par l'identification de toutes les <sc:inlineStyle role="emp">causes</sc:inlineStyle> antérieures à l'effet constaté.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

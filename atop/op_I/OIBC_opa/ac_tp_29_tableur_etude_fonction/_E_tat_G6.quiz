@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:cloze>
+<op:exeM>
+<sp:title>Signe de f(x)</sp:title>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t8">Chaque valeur f(x) à un signe qui aura pour valeur possible <sc:uLink role="ref" sc:id="t9" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/NEG.ref">NEG</sc:uLink>, <sc:uLink role="ref" sc:id="t10" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/POS.ref">POS</sc:uLink>,  <sc:uLink role="ref" sc:id="t11" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/NUL_r.ref">NUL</sc:uLink>. </sc:para>
+						<sc:para sc:id="t13">Trouver la formule en G6 pour gérer le signe de f(x)</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t5">Ma formule en G6 est <sc:textLeaf role="gap" sc:id="t14">=SI(F6&lt;0,01;&quot;NEG&quot;;SI(F6>0,01;&quot;POS&quot;;&quot;NUL&quot;))</sc:textLeaf>
+</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t17">Vu le pas de l'étude, ce serait un coup de chance de tomber sur une valeur x telle que f(x) est dans l'intervalle spécifié par le cas <sc:uLink role="ref" sc:id="t18" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/NUL_r.ref">NUL</sc:uLink>. </sc:para>
+						<sc:para>On pourrait donc utiliser la fonction signe qui aurait l'avantage de générer une formule plus simple. Renseignez vous sur cette fonction.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

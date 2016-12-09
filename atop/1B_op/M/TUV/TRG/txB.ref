@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Taux Brut de fonctionnement (TxB)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">C'est le rapport entre le Temps brut de fonctionnement (<sc:inlineStyle role="emp">TB</sc:inlineStyle>) et le Temps d'ouverture (<sc:inlineStyle role="emp">TO</sc:inlineStyle>).</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">
+						<sc:inlineStyle role="emp" sc:id="t6">Attention </sc:inlineStyle>: Il tient compte de tous les arrêts imputables à la production, la maintenance (arrêts machines volontaires on non), la qualité (procédures ou contrôles) et leur logistique. Il ne faut surtout pas le confondre avec la <sc:inlineStyle role="emp" sc:id="t7">disponibilité opérationnelle</sc:inlineStyle> ou expérimentale (objectif maintenance)</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

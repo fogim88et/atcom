@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Gestion de stock</sp:title>
+			<sp:sTitle>Gestion de stock</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Le besoin en Matière première (Production)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t6">Un stock de <sc:uLink role="acr" sc:id="t44" sc:refUri="/1B_op/M/MN/MP.ref">MP</sc:uLink> répond à un <sc:inlineStyle role="emp" sc:id="t100">besoin connu</sc:inlineStyle> permettant de traiter des commandes clients fermes. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t101">Le service achat a une parfaite maîtrise des matières utiles à la fabrication de ses produits. Les quantités à réapprovisionner peuvent l'objet d'une légère spéculation ou anticipation vis à vis des commandes à venir pour négocier des prix en fonction des quantités. </sc:para>
+								<sc:para xml:space="preserve">Mais globalement, on peut dire que le risque de stocker des pièces inutilisées est négligeable.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Le besoin en stock Maintenance</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t16">Le stock de pièces détachées a pour objectif de réduire la durée des Arrêts machine --&gt; <sc:uLink role="glos" sc:id="t154" sc:refUri="/1B_op/M/TUV/tps_mi_prod/TAF.ref"><sc:uLink role="glos" sc:id="t155" sc:refUri="/1B_op/M/TUV/tps_mi/TAM.ref">Temps d'arrêt machine pénalisant (TAM)</sc:uLink></sc:uLink>.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t102">Le besoin est donc <sc:inlineStyle role="emp" sc:id="t103">dépendant</sc:inlineStyle> du besoin de la production. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t145">Plus les machines sont utilisées, plus le risque de défaillance augmente</sc:para>
+								<sc:para xml:space="preserve" sc:id="t146">La <sc:uLink role="glos" sc:id="t97" sc:refUri="/1B_op/M/EF/fiabilite.ref">fiabilité</sc:uLink> des équipements est donc à la source de l'évaluation du besoin de disposer en stock des pièces ou organes susceptibles d'être défaillants.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:rem>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t116">On résumera cette situation en divisant le <sc:uLink role="glos" sc:id="t117" sc:refUri="/1B_op/M/M/S/stock/stock_mi.ref">stock maintenance</sc:uLink> en deux catégories :</sc:para>
+								<sc:itemizedList sc:id="t118">
+									<sc:listItem sc:id="t119">
+										<sc:para xml:space="preserve" sc:id="t120">Les pièces <sc:uLink role="glos" sc:id="t166" sc:refUri="/1B_op/M/M/S/stock/piece_banale.ref">banales ou consommables</sc:uLink> : elles seront stockées sans justification économique, on se concentrera sur le rythme des commandes avec pour objectif de réduire le coût de gestion (<sc:uLink role="glos" sc:id="t179" sc:refUri="/1B_op/S/stock/CSM.ref">CSM</sc:uLink>).</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t121">
+										<sc:para xml:space="preserve" sc:id="t122">Les pièces stratégiques (<sc:uLink role="glos" sc:id="t177" sc:refUri="/1B_op/M/M/S/stock/piece_commune.ref">communes</sc:uLink> ou <sc:uLink role="glos" sc:id="t178" sc:refUri="/1B_op/M/M/S/stock/piece_specifique.ref">spécifiques</sc:uLink>) : il faut être vigilant en évaluant le compromis de les stocker avec le risque de ne pas les utiliser (CSM) et le risque de subir un <sc:uLink role="glos" sc:id="t180" sc:refUri="/1B_op/C/couts/CGM_CDM.ref">CDM</sc:uLink> en cas de non stockage.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:rem>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t18"> Le stock Maintenance est équivalent à une <sc:inlineStyle role="emp" sc:id="t104">assurance</sc:inlineStyle> dont le coût est proportionnel aux garanties auxquelles vous choisissez de souscrire. On désigne cette assurance par le <sc:uLink role="glos" sc:id="t74" sc:refUri="/1B_op/S/stock/CSM.ref">CSM</sc:uLink> pour couvrir le <sc:uLink role="glos" sc:id="t75" sc:refUri="/1B_op/C/couts/CGM_CDM.ref">CDM</sc:uLink>.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t86">En cas de rupture de stock d'une pièce, les conséquences en terme d'Arrêt Machine (<sc:uLink role="glos" sc:id="t77" sc:refUri="/1B_op/C/couts/CGM_CDM.ref">CDM</sc:uLink>) peuvent être vite disproportionnées par rapport au prix de cette pièce (<sc:uLink role="glos" sc:id="t76" sc:refUri="/1B_op/M/M/S/stock/PU.ref">Pu</sc:uLink>). </sc:para>
+								<sc:para xml:space="preserve" sc:id="t87">Lorsqu'une pièce est mise en stock, on peut difficilement prévoir dans combien de temps cette pièce sera utilisée, occasionnant ainsi une dépense budgétaire inutile, un risque de dépréciation de la pièce, l'utilisation non justifiée d'une espace de stockage.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Les pièces banales (usure normale), consommables</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t20">Un stock de première urgence constitué de pièces de faible valeur, que l'on consomme fréquemment, que l'on peut utiliser sur plusieurs machines. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t170">On intègre dans cette catégorie les pièces dites &quot;consommables&quot; et les pièces &quot;banales&quot; ou &quot;courantes, dont l'usure dans le temps est parfaitement reconnue. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t171">Pour ces pièces, le Service maintenance a toute liberté de gérer les approvisionnements, et on peut dire qu'on se rapproche d'une gestion de Matière première.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t22"> Il dispose néanmoins d'un <sc:inlineStyle role="emp" sc:id="t67">budget</sc:inlineStyle> qu'il s'efforcera d'équilibrer tout au long de l'année : on ne peut pas commander les pièces en début d'année en ajustant les stocks par quelques commandes ponctuelles en fin d'année. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t130">Par contre, il est clair qu'un arrêt machine pour
+
+<sc:uLink role="glos" sc:id="t79" sc:refUri="/1B_op/M/M/S/stock/risque_rupture.ref">
+rupture de stock
+</sc:uLink>
+ d'une de ces pièces n'est <sc:inlineStyle role="emp" sc:id="t69">pas tolérable</sc:inlineStyle> : on dira que le <sc:uLink role="glos" sc:id="t23" sc:refUri="/1B_op/M/M/S/stock/risque_rupture.ref">risque de rupture</sc:uLink> doit approcher de 0. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t131">Bien que la problématique soit simple, il y donc à équilibre à rechercher, et le recours à l'informatique soulagera efficacement le gestionnaire.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Les pièces stratégiques (communes ou spécifiques)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t25">Un stock de <sc:inlineStyle role="emp">pièces stratégiques</sc:inlineStyle> constitué de pièces d'un <sc:inlineStyle role="emp" sc:id="t70">prix non négligeable</sc:inlineStyle>, souvent <sc:inlineStyle role="emp" sc:id="t71">spécifiques</sc:inlineStyle> à une machine, et dont le délai d'approvisionnement est de plusieurs jours. </sc:para>
+								<sc:para xml:space="preserve">Pour ces pièces, une étude plus précise sera obligatoire, et la connaissance du risque de défaillance (<sc:uLink role="glos" sc:id="t26" sc:refUri="/1B_op/M/TUV/taux_defaillance.ref">taux de défaillance</sc:uLink>) de ces pièces (évolution de l'usure, <sc:uLink role="glos" sc:id="t27" sc:refUri="/1B_op/M/EF/fiabilite.ref">fiabilité</sc:uLink>) sera recherchée pour essayer de connaître si il est utile d'anticiper sur la commande la pièce au bon moment, ou bien d'attendre sa défaillance et accepter de supporter un <sc:uLink role="glos" sc:id="t80" sc:refUri="/1B_op/A/appro_delai.ref">délai d'approvisionnement</sc:uLink>, générateur d'un <sc:uLink role="glos" sc:id="t28" sc:refUri="/1B_op/C/couts/CGM_CDM.ref">Coût Défaillance Maintenance (CDM)</sc:uLink>. </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:warning>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t32">La Maintenance ne peut décider seule  la production participera à la décision prise. </sc:para>
+								<sc:para xml:space="preserve">Le compromis <sc:uLink role="glos" sc:id="t33" sc:refUri="/1B_op/S/stock/CSM.ref">Coût de Stockage (CSM)</sc:uLink> et <sc:uLink role="glos" sc:id="t34" sc:refUri="/1B_op/C/couts/CGM_CDM.ref">Pénalité (CDM)</sc:uLink> est parfois difficile à étudier.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t141">Consultez la <sc:uLink role="bib" sc:id="t81" sc:refUri="/1B_op/M/M/S/stock_mm004_demarche_stockage.ref">démarche générale</sc:uLink>.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:warning>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

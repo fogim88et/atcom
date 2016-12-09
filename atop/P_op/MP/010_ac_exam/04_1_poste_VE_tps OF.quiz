@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>Poste VE</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t75">Calculer le temps nécessaire à la fabrication de 50 EMV sur le poste VE</sc:para>
+						<sc:para xml:space="preserve">Calculer le temps nécessaire à la fabrication de 50 EMV sur le poste LA</sc:para>
+						<sc:para xml:space="preserve">Calculer le temps nécessaire à la fabrication de 100 EMV sur le poste VE</sc:para>
+						<sc:para xml:space="preserve">Calculer le temps nécessaire à la fabrication de 100 EMV sur le poste LA</sc:para>
+						<sc:para xml:space="preserve">(à une décimale près, ex : 2,0 pour 2, arrondir le cas échéant au dixième près).</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t77">50 EMV sur VE ---&gt; La réponse est de <sc:textLeaf role="gap" sc:id="t80">3,0</sc:textLeaf> jours.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t114">50 EMV sur LA ---&gt; La réponse est de <sc:textLeaf role="gap" sc:id="t106">0,8</sc:textLeaf> jours. </sc:para>
+				<sc:para xml:space="preserve">100 EMV sur LA ---&gt; La réponse est de <sc:textLeaf role="gap" sc:id="t117">0,3</sc:textLeaf> jours.</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t79">Dans votre fichier gamme,</sc:para>
+						<sc:itemizedList sc:id="t107">
+							<sc:listItem sc:id="t108">
+								<sc:para xml:space="preserve" sc:id="t115"> le poste VE pour 50 EMV donne un temps de cycle de 0,06 jr soit 50*0,06 = 3 jrs.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t109">
+								<sc:para xml:space="preserve" sc:id="t116">le poste LA pour 50 EMV donne un temps de cycle de 0,016 jr soit 50*0,016 = 0,8 jrs</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t119">
+								<sc:para xml:space="preserve">le poste LA pour 20 EMV donne un temps de cycle de 0,016 jr soit 20*0,016 = 0,3 jrs</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

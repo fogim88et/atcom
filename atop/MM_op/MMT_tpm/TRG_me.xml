@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>TRG - me</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>me</sp:keywd>
+							<sp:keywd>TRG</sp:keywd>
+							<sp:keywd>MMT</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Démarche détaillée</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t40">Etapes intermédiaires : rassemblez les données vous permettant de faire les calculs dans l'ordre suivant</sc:para>
+								<sc:itemizedList sc:id="t41">
+									<sc:listItem sc:id="t42">
+										<sc:para xml:space="preserve" sc:id="t43">Calculer le <sc:uLink role="glos" sc:id="t44" sc:refUri="/1B_op/M/TUV/TRG/TO.ref">TO</sc:uLink> ---&gt; Question 1</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t45">
+										<sc:para xml:space="preserve" sc:id="t46">Calculer le <sc:uLink role="glos" sc:id="t47" sc:refUri="/1B_op/M/TUV/TRG/TU.ref">TU</sc:uLink> : en  utilisant le nombre de  pièces bonnes fabriquées ---&gt; Question 2</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t48">En déduire le  le <sc:uLink role="glos" sc:id="t46" sc:refUri="/1B_op/M/TUV/TRG/TRG.ref">TRG</sc:uLink>  ---&gt; Question 3</sc:para>
+								<sc:itemizedList sc:id="t49">
+									<sc:listItem sc:id="t50">
+										<sc:para xml:space="preserve" sc:id="t51">Calculer le <sc:uLink role="glos" sc:id="t52" sc:refUri="/1B_op/M/TUV/TRG/TB.ref">TB</sc:uLink> : évaluez les <sc:uLink role="glos" sc:id="t53" sc:refUri="/1B_op/M/TUV/TRG/AI.ref">AI</sc:uLink> pour cause de maintenance (avec la disponibilité opérationnelle) pour contrôle maintenance et approvisionnement en matière première. --&gt; Question 4</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t54">
+										<sc:para xml:space="preserve" sc:id="t55">Calculer le <sc:uLink role="glos" sc:id="t56" sc:refUri="/1B_op/M/TUV/TRG/TN.ref">TN</sc:uLink>, en déduire l'écart de performance <sc:uLink role="glos" sc:id="t63" sc:refUri="/1B_op/M/TUV/TRG/EP.ref">EP</sc:uLink>. --&gt; Question 5</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t150">En déduire les taux intermédiaires  --&gt; Question 6</sc:para>
+								<sc:itemizedList sc:id="t69">
+									<sc:listItem sc:id="t70">
+										<sc:para xml:space="preserve" sc:id="t151"><sc:uLink role="glos" sc:id="t66" sc:refUri="/1B_op/M/TUV/TRG/txB.ref">Taux Brut de fonctionnement (TxB)</sc:uLink> </sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t71">
+										<sc:para xml:space="preserve" sc:id="t152"><sc:uLink role="glos" sc:id="t65" sc:refUri="/1B_op/M/TUV/TRG/txP.ref">Taux de performance (TxP)</sc:uLink></sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t72">
+										<sc:para xml:space="preserve" sc:id="t153"> <sc:uLink role="glos" sc:id="t67" sc:refUri="/1B_op/M/TUV/TRG/txQ.ref">Taux de Qualité (TxQ)</sc:uLink></sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:meth>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

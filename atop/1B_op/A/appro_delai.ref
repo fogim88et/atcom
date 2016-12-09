@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Délai d'approvisionnement (d)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Le délai d'approvisionnement représente le délai d'attente entre la passation de la commande chez le fournisseur et l'entrée en stock de la pièces. Il doit <sc:inlineStyle role="emp" sc:id="t4">être sûr</sc:inlineStyle> et n'est pas une valeur dite &quot;moyenne&quot;. </sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">En tenant compte de la <sc:inlineStyle role="emp" sc:id="t6">dispersion</sc:inlineStyle> de consommation pendant ce <sc:inlineStyle role="emp" sc:id="t7">délai</sc:inlineStyle>, nous en déduirons le seuil minimum de pièce à stocker (<sc:inlineStyle role="emp" sc:id="t8">Qs</sc:inlineStyle> ou <sc:inlineStyle role="emp" sc:id="t9">Qmin</sc:inlineStyle>) pour assurer les consommations. Attention, une valeur <sc:inlineStyle role="emp" sc:id="t10">Qs</sc:inlineStyle> doit être associée à un<sc:inlineStyle role="emp" sc:id="t11"> risque de rupture</sc:inlineStyle>.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t12">Qs = Qd + [Marge de sécurité]</sc:para>
+					<sc:para xml:space="preserve" sc:id="t13"><sc:inlineStyle role="emp" sc:id="t14">Qd</sc:inlineStyle> : Consommation moyenne pendant le délai.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t15"><sc:inlineStyle role="emp" sc:id="t16">[Marge de sécurité]</sc:inlineStyle> : Quantité directement dépendante du <sc:inlineStyle role="emp">risque de rupture</sc:inlineStyle>.</sc:para>
+					<sc:para xml:space="preserve">Le risque sera choisi en fonction du CDM en cas de rupture, et la marge de sécurité pourra être calculée par les modèles de <sc:inlineStyle role="emp">Poisson</sc:inlineStyle> (Qd faible) ou de <sc:inlineStyle role="emp">Gauss</sc:inlineStyle></sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

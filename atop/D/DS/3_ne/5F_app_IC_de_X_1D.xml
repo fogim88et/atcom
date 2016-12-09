@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Application labview</sp:title>
+			<sp:sTitle>Application labview</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Facteur correctif (Sous-VI optionnel)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/1F/S/F_echantillonnage/st_inf_ec_dem.odf">
+							<op:resInfoM>
+								<sp:index>graph</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t7">Construire un sous-VI qui calcule le facteur correctif Racine [N-n)/(n-1)]. Si N=0 (population infinie ou grande au regard de n, alors le facteur est égal à 1</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Ecart-type de la population connu ou non ?</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t15">Le cas échéant, si<sc:inlineImg role="form" sc:id="t36" sc:refUri="/1F/S/F_echantillonnage/sigma_pop.odf"/>=0 alors, on utilise une estimation basé sur la formule ci-dessous</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/1F/S/F_echantillonnage/st_inf_sPOP_estime.odf">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Ecart-type de la DEM</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t9">Construire un sous VI qui calcule sDEM en fonction du facteur correctif, de n et sPOP</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/D/DS/st_inf_ec_dem.odf">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Quantile de Gauss</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/1F/S/F_echantillonnage/st_inf_IC_m.odf">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t17">Dans un premier temps, on fixe le NC à 95%, on se place donc à 1,96 écart-type de la moyenne.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t33">Construire un sous-VI qui calcule l'IC en fonction de t (quantile de gauss), la moyenne m de l'échantillon, et sDEM.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t24">Dans un deuxième temps, utiliser le VI CDF inverse continue dans la palette Maths.proba et stats (avec moyenne de 0 et écart-type de 1 : on obtient alors t tel que F(t)=alpha/2.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Valeurs de l'échantillon et IC fr la moyenne de la population</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t26">Créer un tableau 1D pour saisir les valeurs de l'échantillon : calculer la moyenne et l'écart-type de l'échantillon (VI Variance et écart-type) palette Maths.proba.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t30">En déduire un IC de la moyenne de la population : dans ce cas, on considère que N est infini et sPOP inconnu.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

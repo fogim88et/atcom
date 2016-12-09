@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>le fichier poste de charge</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t185">A l'aide de votre livret et de la planche de flux, identifiez les 4 postes de de charge de LAZUREX.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t224">Ensuite, remplir le fichier <sc:uLink role="glos" sc:id="t277" sc:refUri="/P_op/MP/4_prod/poste_de_charge_pdc.ref">PDC</sc:uLink>.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t190">
+							<sc:inlineStyle role="emp" sc:id="t280">Capacite théorique en jours/semaine</sc:inlineStyle> : LAZUREX est ouvert 5 jours par semaine, 8 heures/jour</sc:para>
+						<sc:para xml:space="preserve" sc:id="t191">
+							<sc:inlineStyle role="emp" sc:id="t281">Coefficient minorateur en pourcentage</sc:inlineStyle> :</sc:para>
+						<sc:para xml:space="preserve" sc:id="t192">Sur le poste de montage, on observe en moyenne 20 % de temps d'arrêt (panne, absentéisme, ...). </sc:para>
+						<sc:para xml:space="preserve" sc:id="t266">Sur LA, VE, US, ce pourcentage est de 10 %</sc:para>
+						<sc:para xml:space="preserve" sc:id="t193">
+							<sc:inlineStyle role="emp" sc:id="t282">En déduire la capacité réelle</sc:inlineStyle>
+						</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:int sc:refUri="/P_op/MP/000_bbd_tech_res/3_2_pdc_vierge.ods">
+					<op:instructionM>
+						<sp:webInstruct>
+							<op:txt>
+								<sc:para sc:id="t226">Télécharger le document ci-dessous</sc:para>
+							</op:txt>
+						</sp:webInstruct>
+					</op:instructionM>
+				</sp:int>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t230">Pour vérifier votre calcul .... la somme de la capacité réelle pour les quatre postes est de <sc:textLeaf role="gap" sc:id="t238">17,5</sc:textLeaf> jours.</sc:para>
+				<sc:para>Cette somme ne veut absolument rien dire. Par contre, lorsque le besoin sera défini, la capacité journalière par poste pourra être comparée à la charge journalière évaluée par votre étude.</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:res sc:refUri="/P_op/MP/000_bbd_tech_res/3_1_poste_de_Charge.ods">
+					<op:resInfoM>
+						<sp:index>tab</sp:index>
+					</op:resInfoM>
+				</sp:res>
+				<sp:int sc:refUri="/P_op/MP/000_bbd_tech_res/3_1_poste_de_Charge.ods">
+					<op:instructionM/>
+				</sp:int>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

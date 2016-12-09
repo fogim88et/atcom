@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Echantillon</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Sous-ensemble représentatif de la population en regard des observations réalisées selon la variable statistique étudiée.</sc:para>
+					<sc:para>Sa taille (n) est constituée d'un nombre d'individu sur lesquels on procédera aux observations.</sc:para>
+					<sc:para>Les caractéristiques d'un échantillon sont des STATISTIQUES.</sc:para>
+					<sc:para>Inférence statistique : Les statistiques sont utilisées pour estimer les paramètres (caractéristiques de la population)</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:assmntUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>3. TRG - MMT - Etape Niveau 3</sp:title>
+			<sp:sTitle>3. TRG - MMT - Etape Niveau 3</sp:sTitle>
+		</op:uM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para xml:space="preserve" sc:id="t48">Si au terme de cette évaluation de niveau 3, vous n'obtenez pas 100% de bonnes réponses, il est nécessaire de passer au niveau 2, et le cas échéant au niveau 1 si votre évaluation au niveau 2 n'atteint pas 100%</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t54"><sc:uLink role="ref" sc:id="t82" sc:refUri="/2E001/003/0003.ref">Consultation de l'énoncé ici</sc:uLink></sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:quiz sc:refUri="/2E001/003/q/TRG.quiz"/>
+		<sp:quiz sc:refUri="/2E001/003/q/txP_n3.quiz"/>
+		<sc:feedbacks>
+			<sc:feedback lt="100">
+				<op:res>
+					<sp:txt>
+						<op:txt>
+							<sc:para sc:id="t42">Passez au niveau 2 de l'exercice</sc:para>
+						</op:txt>
+					</sp:txt>
+				</op:res>
+			</sc:feedback>
+		</sc:feedbacks>
+	</op:assmntUa>
+</sc:item>

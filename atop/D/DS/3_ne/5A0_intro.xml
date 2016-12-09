@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">Statistiques descriptives</sp:title>
+			<sp:sTitle xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">Statistiques descriptives</sp:sTitle>
+			<sp:info xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Statistiques descriptives</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+					<sp:cc>by-nc</sp:cc>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+			<op:pb>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Description statistique</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t23">L'objectif de la <sc:uLink role="glos" sc:id="t25" sc:refUri="/1B_op/S/Stat_descriptive.ref">statistique descriptive</sc:uLink> est de décrire, c'est-à-dire de résumer ou représenter, par des statistiques, les données disponibles quand elles sont nombreuses.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+			</op:pb>
+		</sp:pb>
+		<sp:div xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Les données disponibles</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t50">Toute description d'un phénomène nécessite d'observer ou de connaître certaines choses sur ce phénomène.</sc:para>
+										<sc:itemizedList sc:id="t51">
+											<sc:listItem sc:id="t52">
+												<sc:para xml:space="preserve" sc:id="t53">Les observations disponibles sont toujours constituées d'ensemble d'observations synchrones. </sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t54">
+												<sc:para xml:space="preserve" sc:id="t55">Les connaissances disponibles sont quant à elles constituées de formules qui relient certaines variables. </sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:ex>
+							<op:pbTi>
+								<sp:title>Observations disponibles</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t19">Par exemple : une température, une pression et une mesure de densité à un instant donné dans une cuve précise. Ces trois variables synchrones peuvent être observées plusieurs fois (à plusieurs dates) en plusieurs lieux (dans plusieurs cuves).</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:ex>
+						<sp:ex>
+							<op:pbTi>
+								<sp:title>Connaissances disponibles</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t27">Par exemple, la loi des gaz parfaits PV = nRT. ou encore l'approche contrainte-résistance dans l'estimation d'une durée de vie nominale</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:ex>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>La description</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t57">Il est assez compliqué de définir la meilleure description possible d'un phénomène. Dans le cadre des statistiques, il s'agira de fournir toute l'information disponible sur le phénomène en moins de chiffres et de mots possibles.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:ex>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t37">Typiquement, la <sc:phrase role="url"><op:urlM><sp:url>http://fr.wikipedia.org/wiki/Gaz_parfait</sp:url></op:urlM>loi des gaz parfaits</sc:phrase> est une très bonne description du phénomène constitué du comportement d'un gaz en état d'équilibre dont on n'observe que la pression, la température et le volume. La valeur de la constante R peut alors être vue comme une statistique associée à cette description.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:ex>
+						<sp:rem>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t39">La question de la description visuelle se pose aussi, mais nous la mettrons provisoirement de côté. L'article <sc:uLink role="bib" sc:id="t62" sc:refUri="/D/DS/0D/visualisation_données_wikipedia.ref">Visualisation des données</sc:uLink> y répond plus directement.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:rem>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>quelques phénomènes physiques intéressants</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t3">Effet seebeck</sc:para>
+										<sc:para>Loi des gaz parfaits</sc:para>
+										<sc:para>Roulements</sc:para>
+										<sc:para>etc ...</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

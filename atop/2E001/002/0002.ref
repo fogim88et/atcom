@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:refM>
+			<sp:ref>2-td : TRG</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t16">Sur une installation qui tourne en continu (24 heures sur 24, 7jrs sur 7) , pendant une période de 1 an, on vous confie les données suivantes.</sc:para>
+					<sc:itemizedList sc:id="t17">
+						<sc:listItem sc:id="t18">
+							<sc:para xml:space="preserve" sc:id="t19">Maintenance planifiée : arrêt mensuel de 12 heures, arrêt semestriel de 120 heures.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t20">
+							<sc:para xml:space="preserve" sc:id="t21">Arrêts sur défaillance : 10 arrêts (intervention totale de 250 heures du service maintenance, et 120 heures de remise en route, contrôles)</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t22">
+							<sc:para xml:space="preserve" sc:id="t23">Attente de matière première : 6 arrêts de 24 heures</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t24">
+							<sc:para xml:space="preserve" sc:id="t25">Changement de série : 5 arrêts de 24 heures.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t26">
+							<sc:para xml:space="preserve" sc:id="t27">Nombre de produits fabriqués : 7200</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t28">
+							<sc:para xml:space="preserve" sc:id="t29">Nombre de produits défectueux : 400</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t30">
+							<sc:para xml:space="preserve" sc:id="t31">Temps de cycle : 1 heure.</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para xml:space="preserve">Calculer le TRG et tous les calculs intermédiaires</sc:para>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

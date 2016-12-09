@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:refM>
+			<sp:ref>src_7 : Patins à Aiguille</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">L'étude de la fiabilité des patins à aiguille &quot;Nadella&quot; 12.30 qui équipent une table à affûter les fraises conduit à étudier la durée de vie (<sc:inlineStyle role="emp" sc:id="t5">ttf</sc:inlineStyle> de 24 patins)</sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">1. Durée de vie observée (ttf)</sc:para>
+					<sc:para xml:space="preserve" sc:id="t7">2. Calculs (Tableau complet tableur)</sc:para>
+					<sc:para xml:space="preserve" sc:id="t8">3. Calculs (Tableau complet labview)</sc:para>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>1. Tracé de Fonction</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t5">Tracer la fonction f(x)=[2+a.x]/b.x² pour les valeurs de x [0,5-0,75-1-2-5]</sc:para>
+						<sc:para xml:space="preserve" sc:id="t36">Les paramètres a et b seront à saisir dans un tableau de paramètres. </sc:para>
+						<sc:para xml:space="preserve" sc:id="t64">Dans le tableau x-f(x), à partir de votre formule pour f(x), précisez si on fait référence à x, a et b en mode absolu ou relatif.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t66">.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t67">.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t68">.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t69">.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t70">Justifiez quel type de graphe utilisez vous ?</sc:para>
+						<sc:para xml:space="preserve" sc:id="t71">.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t72">.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t73">.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t74">Nommez vos cellules (équivalence nom- référence) et donnez la formule obtenue.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t75">.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t76">.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+	</op:practUc>
+</sc:item>

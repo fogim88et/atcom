@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:notion>Taylorisme</sp:notion>
+			<sp:term>Taylorisme</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Le taylorisme est une méthode de travail qui tire son nom de l'ingénieur américain Frederick Winslow Taylor (1856-1915). Cette méthode apparue en 1880 repose sur une organisation a priori définie par des scientifiques : l'O.S.T (Organisation scientifique du travail) cherchant à définir &quot;The One Best Way&quot; (la meilleure façon de produire), permettant le rendement maximum. Cette organisation peut-être définie et rentable grâce à l'analyse des techniques de production (gestes, rythmes, cadences), à la définition des tâches (conception) a priori et au passage du salaire à la tâche au salaire à l'heure. Taylor rencontra une grande efficacité dans la sidérurgie et il formalisa sa méthode dans un livre intitulé The Principles of Scientific Management (1911)[1].</sc:para>
+				</op:sTxt>
+			</sp:def>
+			<sp:wikip>Taylorisme</sp:wikip>
+		</op:glosM>
+	</op:glos>
+</sc:item>

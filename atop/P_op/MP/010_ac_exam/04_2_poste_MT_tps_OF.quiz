@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Poste MT</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t100">Calculer le temps nécessaire  de 50 EMV sur le poste MT</sc:para>
+						<sc:para>(à une décimale près, ex : 2,0 pour 2, arrondir le cas échéant au dixième près)</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t102">50 EMV ou EML sur MT ---&gt; La réponse est de <sc:textLeaf role="gap" sc:id="t110">0,4</sc:textLeaf> jours</sc:para>
+				<sc:para xml:space="preserve">20 EMV ou EML  sur MT ---&gt; La réponse est de <sc:textLeaf role="gap" sc:id="t114">0,3</sc:textLeaf> jours</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t104">Dans votre fichier gamme, le poste MT pour un EMV donne un temps de cycle de 0,004 jr avec un tps de préparation de 0,2 soit 0,2 + 50*0,004 = 0,4 jrs</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

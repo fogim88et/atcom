@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>taux de défaillance par rang</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Donnez vos résultats ci-dessous.</sc:para>
+						<sc:para>Vous renseignerez les valeurs suivantes en donnant le résultat avec 3 chiffres significatifs derrière 0,00 (sans arrondir le dernier chiffre, et ne pas oublier les éventuels 0)</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t27">Calculer le taux de défaillance à l'issue de la première défaillance : 0,0<sc:textLeaf role="gap" sc:id="t17">064</sc:textLeaf> par mois.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t28">Calculer le taux de défaillance à l'issue de la deuxième défaillance : 0,0<sc:textLeaf role="gap" sc:id="t18">166</sc:textLeaf> par mois.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t29">Expliquez quelle solution est la meilleure.</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t32">Entre 0 et 60 mois, nous avons <sc:uLink role="glos" sc:id="t35" sc:refUri="/1B_op/M/TUV/T_survie/N_t.ref">N(t=0 mois)</sc:uLink>=11</sc:para>
+						<sc:para xml:space="preserve" sc:id="t39">3 sont défaillants dans la période d'une durée de 60 mois.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t40">Le <sc:uLink role="glos" sc:id="t34" sc:refUri="/1B_op/M/TUV/taux_defaillance.ref">taux de défaillance</sc:uLink> est donc de 3/(11.60) par mois</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t46">Entre 60 et 120 mois, nous avons N(t=60 mois)=8</sc:para>
+						<sc:para xml:space="preserve">3 sont défaillants pendant cette période, donc le taux de défaillance est de 3/8/60 par mois</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t48">A l'issue de la première défaillance, on a 1 défaillance sur 11 sur 14 mois, soit un taux de défaillance de 1/(11.14) par mois</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Lorsque l'on regroupe les défaillances avec 4 classes de périodes, les défaillances observées dans une période sont considérées comme s'étant produites au centre de la période, alors que lorsqu'on calcule le taux de défaillance après chaque défaillance, le calcul est plus rigoureux.</sc:para>
+						<sc:para xml:space="preserve">Lorsque le nombre d'observations dépasse 20 à 30, il est quasiment obligatoire de travailler avec 6 à 10 périodes.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

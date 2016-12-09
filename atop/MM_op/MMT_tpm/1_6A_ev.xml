@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:ueM>
+			<sp:title>Auto-évaluation TRG</sp:title>
+			<sp:sTitle>TRG (AEv)</sp:sTitle>
+		</op:ueM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para xml:space="preserve" sc:id="t5">Evaluation libre sur la méthode TPM : Calcul du TRG</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t7">Pré-requis : </sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:assmntUa sc:refUri="/2E001/006.xml"/>
+		<sp:assmntUa sc:refUri="/2E001/007.xml"/>
+		<sp:assmntUa sc:refUri="/2E001/008.xml"/>
+	</op:ue>
+</sc:item>

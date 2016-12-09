@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>204_en : Système série</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Système série</sp:keywd>
+							<sp:keywd>Fiabilité</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t110">Le taux de défaillance d'un composant électronique est de <sc:inlineStyle role="emp" sc:id="t111">λ=2,77.E-6 h<sc:textLeaf role="exp" sc:id="t112">-1</sc:textLeaf>
+											</sc:inlineStyle>
+										</sc:para>
+								<sc:para xml:space="preserve" sc:id="t113">Pour construire un système (étage d'amplificateur), on utilise 10 composants identiques.</sc:para>
+								<sc:para xml:space="preserve">Choix (plusieurs réponses possibles)</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">C'est un système série</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">C'est un système mixte</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">C'est un système parallèle</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Les taux de défaillance s'ajoutent selon le modèle exponentiel</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Les taux de défaillance se multiplient selon le modèle exponentiel</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">Calculer la fiabilité du système à t = 50000 heures (à 1% près sans décimales)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Evaluation du risque de défaillance - Redondance</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t31">On souhaite réguler le niveau d'un réservoir en eau en fonction d'une demande qui est variable dans le temps.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t35">On donne les taux de défaillance suivants : Pompe (2.10<sc:textLeaf role="exp" sc:id="t36">-4</sc:textLeaf>), capteur TOR (10<sc:textLeaf role="exp" sc:id="t37">-6</sc:textLeaf>), CA (5.10<sc:textLeaf role="exp" sc:id="t38">-5</sc:textLeaf>), Voyants (10<sc:textLeaf role="exp" sc:id="t39">-10</sc:textLeaf>), AP (2.10<sc:textLeaf role="exp" sc:id="t40">-8</sc:textLeaf>)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t41">On rappelle que les taux de défaillance s'ajoutent en série et se multiplient en parallèle.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Système S1</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t8">On dispose en série d'un automate programmable AP, une pompe P1 et d'un capteur de niveau analogique CA1.</sc:para>
+								<sc:para xml:space="preserve">Calculer le taux de défaillance du système S1 et donnez le diagramme de fiabilité</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Système S2</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t33">On ajoute 2 capteurs TOR (tout ou rien) B1 et B2 fixés respectivement à 60 % et 80 % de la capacité maximum du réservoir. </sc:para>
+								<sc:para xml:space="preserve">Quel est la fonction de ces 2 capteurs. Quel est le nouveau schéma fonctionnel ainsi que le diagramme de fiabilité.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Système S3</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t34">On ajoute une pompe P2 en parallèle au système S1. Calculer le taux de défaillance du système S3</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Système S4</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t42">On ajoute une pompe P3 et un capteur CA2 est placé en parallèle de CA1 par rapport au système S3 </sc:para>
+								<sc:para xml:space="preserve">1 pompe est nécessaire pour assurer un besoin de 50%</sc:para>
+								<sc:para xml:space="preserve">2 pompes sont nécessaire pour assurer un besoin de 75%</sc:para>
+								<sc:para xml:space="preserve">3 pompes sont nécessaires pour assurer un besoin de 100%</sc:para>
+								<sc:para xml:space="preserve" sc:id="t43">Comment gérer techniquement la redondance des pompes (redondance passive, active, r/n), des capteurs ?</sc:para>
+								<sc:para xml:space="preserve">S41 : Donnez le diagramme de fiabilité pour un besoin de 50 %.</sc:para>
+								<sc:para xml:space="preserve">S42 : Donnez le diagramme de fiabilité pour un besoin de 75%. La redondance est - elle active / passive ? </sc:para>
+								<sc:para xml:space="preserve">S43 : Donnez le diagramme de fiabilité pour un besoin de 100 %</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

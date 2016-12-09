@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Arrangements</sp:title>
+			<sp:sTitle>Arrangements</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t8">DEFINITION.</sc:para>
+								<sc:para sc:id="t9">Soit X un ensemble, n un entier naturel. Une n-liste : (x1, x2, ..., xn ) d'éléments de X est dite sans répétition si pour i  [[1, n ]], j  [[1, n ]] i  j xi  xj c'est-à-dire si tous les éléments xi sont distincts.</sc:para>
+								<sc:para sc:id="t10">Une n-liste sans répétition d'éléments de X, s'appelle un arrangement de n éléments de X.</sc:para>
+								<sc:para sc:id="t11">Si X = {a, b, c, d}, on peut obtenir tous les arrangements de 3 éléments de X, par une arborescence.</sc:para>
+								<sc:para sc:id="t12">THEOREME.</sc:para>
+								<sc:para sc:id="t13">Si X est un ensemble à m éléments et n un entier naturel, il y a :</sc:para>
+								<sc:para sc:id="t14">= m(m-1) ... (m - n + 1)</sc:para>
+								<sc:para sc:id="t15">n-listes sans répétition d'éléments de X.</sc:para>
+								<sc:para sc:id="t16">Exemple.</sc:para>
+								<sc:para sc:id="t17">On dispose de huit couleurs pour colorer une carte du Languedoc-Roussillon. Chaque département doit être coloré d'une couleur différente. Il y a :</sc:para>
+								<sc:para sc:id="t18">= 8 x 7 x 6 x 5 x 4 = 6 720</sc:para>
+								<sc:para sc:id="t19">manières de colorer une telle carte.</sc:para>
+								<sc:para sc:id="t20">DEFINITION.</sc:para>
+								<sc:para sc:id="t21">Si X est un ensemble à n éléments. Une n-liste sans répétitions d'éléments de X s'appelle une permutation d'éléments de X.</sc:para>
+								<sc:para sc:id="t22">PROPOSITION.</sc:para>
+								<sc:para sc:id="t23">Si X a n éléments, il y a :</sc:para>
+								<sc:para sc:id="t24">= n ! = n (n - 1) ... 3 x 2 x 1</sc:para>
+								<sc:para sc:id="t25">permutations de X.</sc:para>
+								<sc:para sc:id="t26">Exemple.</sc:para>
+								<sc:para sc:id="t27">Un soir, une secrétaire retire avant de partir les 6 disques durs amovibles des 6 ordinateurs du bureau, sans noter à quels ordinateurs ils appartenaient. Il y aura : 6 ! = 720 manières de replacer les disques durs le lendemain.</sc:para>
+								<sc:para sc:id="t28">Avec la notation n !, se réécrit</sc:para>
+								<sc:para sc:id="t29">=</sc:para>
+								<sc:para sc:id="t30">Placer n objets dans m boîtes, chaque boîte ne pouvant contenir qu'un seul objet (n  m).</sc:para>
+								<sc:para sc:id="t31">PROPOSITION.</sc:para>
+								<sc:para sc:id="t32">Etant donné n objets et m boîtes, n  m, chaque boîte ne pouvant contenir qu'un seul objet, il y a</sc:para>
+								<sc:para sc:id="t33">=</sc:para>
+								<sc:para sc:id="t34">manières de placer les n objets dans les m boîtes.</sc:para>
+								<sc:para sc:id="t35">Exemple.</sc:para>
+								<sc:para sc:id="t36">Un employé a des fiches de trois types à classer dans cinq tiroirs. Chaque tiroir ne doit contenir que des fiches d'un type donné. Il peut faire ce classement de</sc:para>
+								<sc:para sc:id="t37">= 5 x 4 x 3 = 60 façons.</sc:para>
+								<sc:para sc:id="t38">Echantillon ordonné et sans remise.</sc:para>
+								<sc:para sc:id="t39">Voulant rendre hommage à un réalisateur de cinéma, une salle d'art et d'essai, décide de projeter 5 films de ce réalisateur parmi les 20 films qu'il a tourné. La salle d'art et d'essai prend un échantillon ordonné et sans remise de 5 oeuvres parmi les 20 de ce réalisateur.</sc:para>
+								<sc:para sc:id="t40">PROPOSITION.</sc:para>
+								<sc:para sc:id="t41">Si X a m éléments, il y a échantillons ordonné et sans remise de n éléments pris parmi les m éléments de X.</sc:para>
+								<sc:para sc:id="t42">Exemple.</sc:para>
+								<sc:para sc:id="t43">Il y a donc : 20 x 19 x 18 x 17 x 16 = 18 604 480 manières pour le cinéma de programmer 5 oeuvres de ce réalisateur.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

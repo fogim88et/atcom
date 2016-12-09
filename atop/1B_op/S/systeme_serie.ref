@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:glosM>
+			<sp:term>Système série</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Un système est dit en série si tous les composants sont nécessaires à la réalisation de la fonction.</sc:para>
+					<sc:para xml:space="preserve">Le système est défaillant si 1 seul des composants est défaillant.</sc:para>
+					<sc:para xml:space="preserve">La fiabilité du système ne peut être supérieure à la fiabilité du plus faible du composant.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

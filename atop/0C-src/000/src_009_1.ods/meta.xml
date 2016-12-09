@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sfm:ods xmlns:sfm="http://www.utc.fr/ics/scenari/v3/filemeta">
+	<op:imgM xmlns:op="utc.fr:ics/opale3">
+		<sp:title xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">src 9.1 : Durée de vie (9 syst. mécanique)</sp:title>
+		
+	<sp:alt xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"><sp:desc><op:sTxt>
+				<sc:para xml:space="preserve" sc:id="t3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">Les durée de vie (Ttf) d'un système mécanique sont ordonnés selon le rang d'apparition des défaillances</sc:para>
+			</op:sTxt></sp:desc></sp:alt></op:imgM>
+</sfm:ods>

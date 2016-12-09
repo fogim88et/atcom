@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:gallery xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:galleryM>
+			<sp:title>Politique de Maintenance (Etapes)</sp:title>
+		</op:galleryM>
+		<sp:img sc:refUri="/2/2D_politique/2D1_pres/2D1C_img/img9.gif"/>
+		<sp:img sc:refUri="/2/2D_politique/2D1_pres/2D1C_img/img10.gif"/>
+		<sp:img sc:refUri="/2/2D_politique/2D1_pres/2D1C_img/img11.gif"/>
+		<sp:img sc:refUri="/2/2D_politique/2D1_pres/2D1C_img/img12.gif"/>
+		<sp:img sc:refUri="/2/2D_politique/2D1_pres/2D1C_img/img13.gif"/>
+		<sp:img sc:refUri="/2/2D_politique/2D1_pres/2D1C_img/img14.gif"/>
+		<sp:img sc:refUri="/2/2D_politique/2D1_pres/2D1C_img/img15.gif"/>
+		<sp:img sc:refUri="/2/2D_politique/2D1_pres/2D1C_img/img16.gif"/>
+		<sp:img sc:refUri="/2/2D_politique/2D1_pres/2D1C_img/img17.gif"/>
+		<sp:img sc:refUri="/2/2D_politique/2D1_pres/2D1C_img/img18.gif"/>
+		<sp:img sc:refUri="/2/2D_politique/2D1_pres/2D1C_img/img19.gif"/>
+	</op:gallery>
+</sc:item>

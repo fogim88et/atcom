@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>OF pour B2</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Maintenant que nous avons les <sc:uLink role="glos" sc:id="t33" sc:refUri="/P_op/MP/4_prod/besoin_independant.ref">besoins indépendants</sc:uLink> en OF pour EML et pour EMV, nous allons étudier les <sc:uLink role="glos" sc:id="t34" sc:refUri="/P_op/MP/4_prod/besoin_dependant.ref">besoins dépendants</sc:uLink> (OF pour B2) en suivant le lien de nomenclature.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t6">Avec votre tableau de début d'ordre de lancement de EML et EMV, vous allez définir le <sc:uLink role="glos" sc:id="t35" sc:refUri="/P_op/MP/4_prod/besoin_brut.ref">besoin brut</sc:uLink> en B2.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t7">Lorsque votre <sc:uLink role="glos" sc:id="t36" sc:refUri="/P_op/MP/4_prod/stock_dispo.ref">stock</sc:uLink> sera épuisé, et que vous devrez <sc:uLink role="glos" sc:id="t37" sc:refUri="/P_op/MP/4_prod/Lancement.ref">lancer</sc:uLink> un OF pour usiner des produits B2, il faudra tenir compte du stock de sécurité, et de la règle de lotissement qui est spécifié dans la gamme.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t30">Nous allons donc exploiter la définition complète du <sc:uLink role="glos" sc:id="t12" sc:refUri="/P_op/MP/4_prod/besoin_net.ref">besoin net</sc:uLink>.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t17">Saisir vos résultats sous la forme suivante : 4-450,9-780 pour enregistrer 2 OF lancés le 4 pour 450 unités, le 9 pour 780.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t40">La virgule (,) sépare les OF, le signe moins (-) sépare le n° de jour de la quantité à fabriquer. Pas d'espaces entre les chiffres ou les séparateurs.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t41">Votre réponse : <sc:textLeaf role="gap" sc:id="t20">10-1750,15-250</sc:textLeaf>
+</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t27">Si vos résultats ne sont pas justes, répondez au questionnaire suivant pour identifier la source de l'erreur.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

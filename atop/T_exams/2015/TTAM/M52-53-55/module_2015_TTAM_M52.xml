@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:ueM>
+			<sp:title>Examen TTAM - M52</sp:title>
+		</op:ueM>
+		<sp:courseUc sc:refUri="/T_exams/2015/TTAM/M52-53-55/partieA.xml"/>
+		<sp:courseUc sc:refUri="/T_exams/2015/TTAM/M52-53-55/partie_calcul.xml"/>
+	</op:ue>
+</sc:item>

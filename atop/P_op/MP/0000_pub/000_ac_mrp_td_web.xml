@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:ueM>
+			<sp:title>La Logique MRP (td)</sp:title>
+			<sp:sTitle>La Logique MRP (td)</sp:sTitle>
+		</op:ueM>
+		<sp:courseUc sc:refUri="/P_op/MP/0000_pub/test7dec.xml"/>
+		<sp:courseUc sc:refUri="/P_op/MP/010_ac_exam/pic_principes.xml"/>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>Présentation des données</sp:title>
+					<sp:sTitle>Présentation des données</sp:sTitle>
+				</op:ueDivM>
+				<sp:courseUc sc:refUri="/P_op/MP/001_ac_lazurex/02_en_bdd.xml"/>
+			</op:ueDiv>
+		</sp:div>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>Exercice 1</sp:title>
+					<sp:sTitle>Exercice 1</sp:sTitle>
+				</op:ueDivM>
+				<sp:courseUc sc:refUri="/P_op/MP/4Z_ex/ex_calcul_besoin/Exercice_1_papier.xml"/>
+				<sp:courseUa sc:refUri="/P_op/MP/4Z_ex/ex_calcul_besoin/01_lancement_of.xml"/>
+			</op:ueDiv>
+		</sp:div>
+		<sp:courseUa sc:refUri="/P_op/MP/002_donnees.xml"/>
+		<sp:courseUa sc:refUri="/P_op/MP/003_planification_OF_OA.xml"/>
+		<sp:courseUa sc:refUri="/P_op/MP/004_charge_et_capacite.xml"/>
+		<sp:courseUa sc:refUri="/P_op/MP/005_cgc.xml"/>
+		<sp:courseUa sc:refUri="/P_op/MP/006_PIC/006_PIC.xml"/>
+	</op:ue>
+</sc:item>

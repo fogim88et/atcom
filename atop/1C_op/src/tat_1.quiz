@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM/>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Donnez vos résultats ci-dessous. Les % seront arrondis au  % près (sans décimale)</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t9">La disponibilité opérationnelle de la machine est de <sc:textLeaf role="gap" sc:id="t12">93</sc:textLeaf> %</sc:para>
+				<sc:para xml:space="preserve" sc:id="t23">A. La probabilité de réussir une mission de 10 heures est de <sc:textLeaf role="gap" sc:id="t13">100</sc:textLeaf> %</sc:para>
+				<sc:para xml:space="preserve" sc:id="t24">B. La probabilité de réussir une mission de 15 heures est de <sc:textLeaf role="gap" sc:id="t14">80</sc:textLeaf> %</sc:para>
+				<sc:para xml:space="preserve" sc:id="t25">C. La probabilité de réussir une mission de 20 heures est de <sc:textLeaf role="gap" sc:id="t15">70</sc:textLeaf> %</sc:para>
+				<sc:para xml:space="preserve" sc:id="t26">Les techniciens A,B,C estiment respectivement qu'il faut mettre en place une maintenance préventive de 1,25 heure toutes les 10,15, 20 heures.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t27">D estime qu'il ne faut pas mettre en place de préventif.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t28">En mettant en place une maintenance préventive, on espère avoir une  1 chance sur 2 que la machine ne soit pas en cours de  production. Donc, sur 20 interventions, 10 donneront lieu à un arrêt pénalisant de 1,25 heure, les 10 autres seront considérées en temps masqué et ne seront pas prises en compte dans le calcul de la disponibilité.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t29">QL1 : Calculer les temps d'arrêts pénalisants que l'on peut attendre selon les solutions proposées par A, B, C,D</sc:para>
+				<sc:para xml:space="preserve" sc:id="t30">Pour parvenir à un calcul  correct, on peut simuler les événements sur 4000 heures de fonctionnement potentiel.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t31">
+					<sc:inlineStyle role="emp">Cas D :</sc:inlineStyle>
+				</sc:para>
+				<sc:para xml:space="preserve" sc:id="t32">On peut s'attendre à <sc:textLeaf role="gap" sc:id="t16">100</sc:textLeaf> défaillances pour un temps d'arrêt total de <sc:textLeaf role="gap" sc:id="t17">300</sc:textLeaf> heures.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t33">
+					<sc:inlineStyle role="emp">Cas C :</sc:inlineStyle>
+				</sc:para>
+				<sc:para xml:space="preserve" sc:id="t34">On effectuera <sc:textLeaf role="gap" sc:id="t18">100</sc:textLeaf> interventions préventives pénalisantes et on on subira <sc:textLeaf role="gap" sc:id="t19">60</sc:textLeaf> défaillances pour un arrêt au total de <sc:textLeaf role="gap" sc:id="t20">305</sc:textLeaf> heures.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t35">
+					<sc:inlineStyle role="emp">Cas B :</sc:inlineStyle>
+				</sc:para>
+				<sc:para xml:space="preserve" sc:id="t36">On peut s'attendre à <sc:textLeaf role="gap" sc:id="t21">327</sc:textLeaf> heures (arrondir à l'entier supérieur)</sc:para>
+				<sc:para xml:space="preserve" sc:id="t37">
+					<sc:inlineStyle role="emp">Cas A :</sc:inlineStyle>
+				</sc:para>
+				<sc:para xml:space="preserve" sc:id="t38">On peut s'attendre à <sc:textLeaf role="gap" sc:id="t22">250</sc:textLeaf> heures d'arrêt.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t39">QL2a : Quelle solution choisir ? QL2b : Devrait-on prendre en compte d'autres critères ? QL 3b : Exploiter ces critères en faveur des différentes hypothèses.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t40">QL3 : Que pourrait apporter une étude détaillée des causes de défaillances et de la nature des défaillances ?</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

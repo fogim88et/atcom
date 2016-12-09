@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Coût des Interventions Maintenance (CIM)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t5"><sc:inlineStyle role="emp" sc:id="t18">Coût direct de l'intervention</sc:inlineStyle> ou coût des prestations liées à la remise en état de l'équipement</sc:para>
+					<sc:itemizedList sc:id="t7">
+						<sc:listItem sc:id="t8">
+							<sc:para xml:space="preserve" sc:id="t13">Main d'oeuvre (CMO = TMO * TxMO)</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t9">
+							<sc:para xml:space="preserve" sc:id="t14">Pièces détachées hors consommables (CPI)</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t10">
+							<sc:para xml:space="preserve" sc:id="t15">Achats directs (CACH)</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t11">
+							<sc:para xml:space="preserve" sc:id="t16">Sous-traitance (régie, forfait, ...)  (CST)</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t12">
+							<sc:para xml:space="preserve" sc:id="t17">Frais de structure (bâtiment, bureaux, outillage, énergie, consommables) : peut-être ramené à un taux horaire moyen ajouté au taux horaire de la MO pour simplifier.</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

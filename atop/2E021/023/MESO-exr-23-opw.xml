@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>23-3 : Etude FMD Ampoules (100)</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Fiabilité observée</sp:keywd>
+							<sp:keywd>Dispositif non réparable</sp:keywd>
+							<sp:keywd>MTTF</sp:keywd>
+							<sp:keywd>Taux de défaillance</sp:keywd>
+							<sp:keywd>src 013</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Données</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t67">Les données sont issues de l'observation de la durée de vie de 100 ampoules (src 013)</sc:para>
+						<sc:para xml:space="preserve" sc:id="t79">Les observations sont mise en forme par période de durée variable. </sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/0C-src/000/src_013_1.ods">
+					<op:resInfoM>
+						<sp:pubMode>embeded</sp:pubMode>
+						<sp:index>tab</sp:index>
+					</op:resInfoM>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t74">Pour vous aider dans les calculs, vous pouvez imprimer le tableau ci-dessous</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/0C-src/000/src_013_2.ods">
+					<op:resInfoM>
+						<sp:pubMode>embeded</sp:pubMode>
+						<sp:index>tab</sp:index>
+					</op:resInfoM>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Utilisez les données à l'aide du tableur (téléchargement ci-dessous), et réalisez l'étude de fiabilité expérimentale détaillée ci-dessous</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:listing>
+					<op:code>
+						<sc:code mimeType="text/plain">Distribution des défaillances f(t)
+Fiabilité R(t)
+Taux de défaillance λ(t)</sc:code>
+					</op:code>
+				</sp:listing>
+				<sp:int sc:refUri="/0C-src/000/src_013_1.ods">
+					<op:instructionM>
+						<sp:webInstruct>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t35">Téléchargez le fichier tableur ci-dessous </sc:para>
+							</op:txt>
+						</sp:webInstruct>
+					</op:instructionM>
+				</sp:int>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t41">Que peut on conclure sur l'usure du composant ? </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t43">Observez la courbe du taux de défaillance</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:hint>
+					<op:res>
+						<sp:int sc:refUri="/0C-src/000/src_013_3.ods">
+							<op:instructionM>
+								<sp:webInstruct>
+									<op:txt>
+										<sc:para sc:id="t51">Aide version tableur (Limites de période et centres sur la même ligne)</sc:para>
+									</op:txt>
+								</sp:webInstruct>
+							</op:instructionM>
+						</sp:int>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:res sc:refUri="/2E021/031/033_ampoules_anc_fiab_07/do/src_13_4.ods">
+									<op:resInfoM>
+										<sp:pubMode>embeded</sp:pubMode>
+										<sp:index>tab</sp:index>
+									</op:resInfoM>
+								</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

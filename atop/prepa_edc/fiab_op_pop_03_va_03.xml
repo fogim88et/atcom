@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+<sp:title>Enonce</sp:title>
+</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Calculer le MTBF (1.A), le MTTF (1.B), le MTTR (1.C) et la disponibilité (1.D) du composant sachant que sur le banc de test, il faut 2 heures pour démonter et remonter le composant. Représenter graphiquement la fiabilité (1.E) et le taux de défaillance (1.F). Quelles remarques pouvez vous faire concernant le comportement de ce composant (1.G) ? Calculer la fiabilité à t=700 h (1.H) Calculer la fiabilité entre 1000 et 1500 h Calculer le taux de défaillance sur les périodes [0,900] et [900,1700] </sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+	</op:practUc>
+</sc:item>

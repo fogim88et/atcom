@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Fiabilité Opérationnelle</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Fiabilité</sp:keywd>
+							<sp:keywd>Opérationnelle</sp:keywd>
+							<sp:keywd>MTTF</sp:keywd>
+							<sp:keywd>Taux de défaillance</sp:keywd>
+							<sp:keywd>Statistiques Descriptives</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Données tdm_09_10</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t4">Les données (ci-contre) concernent les durées de vie en heure de 20 composants non réparables.</sc:para>
+						<sc:para sc:id="t5">Calculer le MTTF.</sc:para>
+						<sc:para sc:id="t6">Calculer pour chaque défaillance de rang i la fiabilité et le taux de défaillance</sc:para>
+						<sc:para sc:id="t7">Regrouper les défaillances par périodes (prendre des intervalles de temps ou périodes d'environ 3000 heures pour se limiter à un découpage de 5 périodes)</sc:para>
+						<sc:para sc:id="t8">Tracer la fiabilité et le taux de défaillance en fonction du temps (fournir les calculs détaillés en faisant apparaître les données ou calculs qui dépendent des bornes ou des centres des intervalles)</sc:para>
+						<sc:para sc:id="t9">Que pouvez vous conclure concernant l'usure de ce composant ?</sc:para>
+						<sc:para sc:id="t10">Pouvez vous aisément déterminer une période de garantie si vous êtes le fabricant ?</sc:para>
+						<sc:para sc:id="t11">Quel choix feriez vous si vous êtes l'utilisateur concernant la politique de maintenance de ce composant installé sur une machine (changement périodique, surveillance de l'usure, attente de la défaillance)</sc:para>
+						<sc:para sc:id="t12">Attention : Vous devez fournir l'expression générale de vos calculs et faire en sorte que les titres de vos colonnes soient cohérents avec vos formules.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t29">Questionnaire</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t20">
+											Réponse Questionnaire
+										</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

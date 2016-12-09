@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:cloze>
+<op:exeM>
+<sp:title>Détection de f(x)=0 (zéro)</sp:title>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t13">Nous allons donc rechercher les <sc:uLink role="ref" sc:id="t14" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/zero.ref">zéros</sc:uLink>
+						</sc:para>
+						<sc:para sc:id="t15">Une valeur x<sc:textLeaf role="ind" sc:id="t16">i</sc:textLeaf> est un zéro si signe<sc:textLeaf role="ind" sc:id="t17">i</sc:textLeaf> est différent de signe<sc:textLeaf role="ind" sc:id="t18">(i-1)</sc:textLeaf>
+						</sc:para>
+						<sc:para sc:id="t19">Trouver la formule en H7 pour afficher <sc:uLink role="ref" sc:id="t20" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/zero.ref">ZERO</sc:uLink> dans la colonne zero lorsque c'est le cas et &quot;&quot; dans le cas contraire.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t5">La condition à tester vu de la cellule H7 est <sc:textLeaf role="gap" sc:id="t21">G6</sc:textLeaf>&lt;><sc:textLeaf role="gap" sc:id="t22">G7</sc:textLeaf>
+</sc:para>
+				<sc:para>Ma formule en H7 est <sc:textLeaf role="gap" sc:id="t8">=SI(G6&lt;>G7;&quot;ZERO&quot;;&quot;&quot;)</sc:textLeaf>
+</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

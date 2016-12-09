@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Maintenance Préventive</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t4">Effectuée avant la défaillance</sc:para>
+					<sc:para sc:id="t5">Maintenance effectuée dans l'intention de réduire la probabilité de défaillance.</sc:para>
+					<sc:para sc:id="t8">Avantages au niveau de la production :</sc:para>
+					<sc:itemizedList sc:id="t6">
+						<sc:listItem sc:id="t7">
+							<sc:para sc:id="t9">réduction des nombres d'arrêts en cours de production et des conséquences induites d'une panne (non-qualité, perturbation du planning, désorganisation des équipes, motivation)</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para sc:id="t10">Avantages au niveau de la maintenance :</sc:para>
+					<sc:itemizedList sc:id="t11">
+						<sc:listItem sc:id="t12">
+							<sc:para>planification des interventions</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t13">
+							<sc:para>préparation technique des interventions</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t14">
+							<sc:para>prévision des approvisionnements du stock des pièces détachées</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

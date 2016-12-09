@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM/>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Fournir les formules de l'exo notes dans les tableaux ci-dessous</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t40">
+									<sc:caption xml:space="preserve" sc:id="t10">Formules à renseigner avec les noms donnés aux cellules</sc:caption>
+									<sc:column sc:id="t41" width="7"/>
+									<sc:column sc:id="t42" width="44"/>
+									<sc:column sc:id="t43" width="8"/>
+									<sc:column sc:id="t44" width="40"/>
+									<sc:row role="head" sc:id="t49">
+										<sc:cell sc:id="t50">
+											<sc:para xml:space="preserve" sc:id="t122">Tab. </sc:para>
+											<sc:para xml:space="preserve" sc:id="t11">CC</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t51">
+											<sc:para xml:space="preserve" sc:id="t124">Formule..........................................</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t52">
+											<sc:para xml:space="preserve" sc:id="t126">Tab. </sc:para>
+											<sc:para xml:space="preserve" sc:id="t12">Moy.</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t53">
+											<sc:para xml:space="preserve" sc:id="t128">Formule.....................................</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t58">
+										<sc:cell sc:id="t59">
+											<sc:para xml:space="preserve" sc:id="t138">F4</sc:para>
+											<sc:para xml:space="preserve" sc:id="t270">.</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t60"/>
+										<sc:cell sc:id="t61">
+											<sc:para xml:space="preserve" sc:id="t142">B31</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t62"/>
+									</sc:row>
+									<sc:row sc:id="t67">
+										<sc:cell sc:id="t68">
+											<sc:para xml:space="preserve" sc:id="t154">G4</sc:para>
+											<sc:para xml:space="preserve" sc:id="t271">.</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t69"/>
+										<sc:cell sc:id="t70">
+											<sc:para xml:space="preserve" sc:id="t158">C31</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t71"/>
+									</sc:row>
+									<sc:row sc:id="t76">
+										<sc:cell sc:id="t77">
+											<sc:para xml:space="preserve" sc:id="t170">H4</sc:para>
+											<sc:para xml:space="preserve" sc:id="t272">.</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t78"/>
+										<sc:cell sc:id="t79">
+											<sc:para xml:space="preserve" sc:id="t174">D31</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t80"/>
+									</sc:row>
+									<sc:row sc:id="t85">
+										<sc:cell sc:id="t86"/>
+										<sc:cell sc:id="t87"/>
+										<sc:cell sc:id="t88">
+											<sc:para xml:space="preserve" sc:id="t190">E31</sc:para>
+											<sc:para xml:space="preserve" sc:id="t273">.</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t89"/>
+									</sc:row>
+									<sc:row sc:id="t94">
+										<sc:cell sc:id="t95"/>
+										<sc:cell sc:id="t96"/>
+										<sc:cell sc:id="t97">
+											<sc:para xml:space="preserve" sc:id="t206">F31</sc:para>
+											<sc:para xml:space="preserve" sc:id="t274">.</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t98"/>
+									</sc:row>
+									<sc:row sc:id="t103">
+										<sc:cell sc:id="t104"/>
+										<sc:cell sc:id="t105"/>
+										<sc:cell sc:id="t106">
+											<sc:para xml:space="preserve" sc:id="t222">G31</sc:para>
+											<sc:para xml:space="preserve" sc:id="t275">.</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t107"/>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t40">
+									<sc:caption xml:space="preserve" sc:id="t10">Formules à renseigner avec les noms donnés aux cellules</sc:caption>
+									<sc:column sc:id="t41" width="5"/>
+									<sc:column sc:id="t42" width="31"/>
+									<sc:column sc:id="t43" width="10"/>
+									<sc:column sc:id="t44" width="31"/>
+									<sc:row role="head" sc:id="t49">
+										<sc:cell sc:id="t50">
+											<sc:para xml:space="preserve" sc:id="t122">Tab. </sc:para>
+											<sc:para xml:space="preserve" sc:id="t11">CC</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t51">
+											<sc:para xml:space="preserve" sc:id="t124">Formule.......................................</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t52">
+											<sc:para xml:space="preserve" sc:id="t126">Tab. </sc:para>
+											<sc:para xml:space="preserve" sc:id="t12">Nb notes</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t53">
+											<sc:para xml:space="preserve" sc:id="t128">Formule......................................</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t58">
+										<sc:cell sc:id="t59">
+											<sc:para xml:space="preserve" sc:id="t138">I4</sc:para>
+											<sc:para xml:space="preserve" sc:id="t267">.</sc:para>
+											<sc:para xml:space="preserve" sc:id="t306">.</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t60"/>
+										<sc:cell sc:id="t61">
+											<sc:para xml:space="preserve" sc:id="t142">B37</sc:para>
+											<sc:para xml:space="preserve" sc:id="t307">.</sc:para>
+											<sc:para xml:space="preserve" sc:id="t308">.</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t62"/>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

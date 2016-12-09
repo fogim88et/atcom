@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Les requêtes avec regroupement (60.2)</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Les fonctions (60.2a)</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t367">Ajoutez un nouvel étudiant dans la table tb_etudiant. </sc:para>
+						<sc:para xml:space="preserve" sc:id="t423">Testez les requêtes ci-dessous en utilisant la rédaction SQL et le mode ébauche pour la création de requête.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t594">Nom de la requête SQL :<sc:inlineStyle role="emp" sc:id="t602"> rq_60_2a_nb_etudiants_sql</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve" sc:id="t603">Code SQL : <sc:inlineStyle role="code" sc:id="t595">select count(*) as nb_et from tb_etudiant</sc:inlineStyle></sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t592">Nom de la requête (mode ébauche) : <sc:inlineStyle role="emp" sc:id="t596"> rq_60_2a_nb_etudiants</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve" sc:id="t604">- sélectionner la table étudiant</sc:para>
+								<sc:para xml:space="preserve" sc:id="t605">- glisser l'attribut nom_et dans la première colonne</sc:para>
+								<sc:para xml:space="preserve" sc:id="t606">- choisir la fonction nombre pour l'attribut nom_et</sc:para>
+								<sc:para xml:space="preserve" sc:id="t607">Après avoir constaté que le titre de la colonne n'est pas très satisfaisant, ajoutez sur la ligne alias nb_et, puis exécutez à nouveau votre requête.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t612">Nom de la requête SQL  :  <sc:inlineStyle role="emp" sc:id="t599">rq_60_2b_somme_des_notes_sql</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve" sc:id="t613">Code SQL : <sc:inlineStyle role="code" sc:id="t598"> select sum(Note) from tb_note</sc:inlineStyle></sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t459">Par analogie avec la question précédente, utilisez le mode ébauche et sauvegardez la requête avec le nom <sc:inlineStyle role="emp" sc:id="t614">rq_60_2b_somme_des_notes</sc:inlineStyle></sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t462">Que pensez vous de la requête suivante (rq_60_2c_xxxxxx) : testez la requête, réfléchissez au résultat obtenu en fonction du code proposé, et demandez vous si le résultat est logique ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t576"><sc:inlineStyle role="code" sc:id="t467">select count(nom_et) as nb_et, sum(Note) as som_notes from tb_etudiant,tb_note</sc:inlineStyle></sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t578">A la lecture du code, on pourrait supposer que l'on souhait obtenir le cumul des notes obtenues pour chaque étudiant.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t466">En 60.2a, on compte simplement le nombre de lignes de la table tb_etudiant</sc:para>
+										<sc:para xml:space="preserve" sc:id="t579">En 60.2b, on fait le cumul de la colonne Note sur les lignes de la table tb_note</sc:para>
+										<sc:para xml:space="preserve" sc:id="t580">Les deux tables n'ont pas le même nombre de ligne (cardinalité), les fonctions demandées peuvent fournir un résultat sur le nombre de lignes de la requête (ici, on a 7 étudiants * 15 notes donc 105 lignes).</sc:para>
+										<sc:para xml:space="preserve" sc:id="t581">Si on ajoute la condition de jointure, on aura 15 lignes, car autant de lignes que de notes : compter ces lignes pour compter le nombre d'étudiants serait donc faux.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>60.2d. Calcul de moyenne par étudiant</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t420">Nous allons utiliser les fonctions <sc:inlineStyle role="code">COUNT</sc:inlineStyle> et <sc:inlineStyle role="code">SUM</sc:inlineStyle> pour compter le nombre de notes ainsi que la somme des notes pour chaque étudiant.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t487">Si on se réfère à la requête effectuée en 60.2c, nous avons les 15 notes renseignées par le nom de l'étudiant et la note obtenue : nous ne trouvons pas dans les colonnes concernées la matière notée : c'est ce que nous voulons car, pour calculer la moyenne par étudiant, nous allons négliger la matière.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/10_4b_phase_1.jpg">
+					<op:resInfoM/>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t507">Pour effectuer une opération de comptage ou de somme pour chaque étudiant, il faut regrouper par exemple les 3 lignes concernant l'étudiant Dupond : on en déduit que 3 lignes portent le nom de Dupond, et que la somme des 3 notes est de 39.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t528">On doit donc obtenir le résultat ci-dessous</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/10_4b_moyenne_par_etudiant_vue.jpg">
+					<op:resInfoM/>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t509">Complétez la requête en mode &quot;ébauche&quot; comme ci-dessous</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/10_4b_moyenne_par_etudiant.jpg">
+					<op:resInfoM/>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t563">La dernière colonne avec l'alias &quot;moyenne&quot; est la simple division des 2 colonnes ayant pour alias som_notes et nb_notes</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t550">Observez le code SQL de la requête <sc:uLink role="ref" sc:id="t555" sc:refUri="/op_I/OIBB_2/4_td/0060_1A_td/10_4b_SQL.ref">60.2d : Moyenne par étudiant (SQL)</sc:uLink></sc:para>
+								<sc:para xml:space="preserve" sc:id="t621">Quel mot clé permet de regrouper les tuples selon les valeurs identiques d'un attribut ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t554">GROUP BY</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t557">60.2e :  Créer une requête qui calcule la moyenne par matière </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

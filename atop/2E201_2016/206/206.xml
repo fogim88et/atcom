@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>206. Adéquation modèle exponentiel (n1)</sp:title>
+			<sp:sTitle>206. Ad. Mod. Exponentiel</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Modèle statistique : Loi exponentielle</sp:keywd>
+							<sp:keywd>Adéquation modèle</sp:keywd>
+							<sp:keywd>Fiabilité observée</sp:keywd>
+							<sp:keywd>Fiabilité prévisionnelle</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:intro>
+			<op:res>
+				<sp:int sc:refUri="/0C-src/000/src_020_1.ods">
+					<op:instructionM/>
+				</sp:int>
+			</op:res>
+		</sp:intro>
+		<sp:courseUc sc:refUri="/2E201_2016/206/20_0.xml"/>
+		<sp:trainUcCloze sc:refUri="/2E201_2016/206/20a.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E201_2016/206/20b.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E201_2016/206/20c.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E201_2016/206/20d.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E201_2016/206/20e.quiz"/>
+	</op:courseUa>
+</sc:item>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Calcul du besoin</sp:title>
+			<sp:sTitle>Calcul du besoin</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Fichier de Flux des OF et OA</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t536">Téléchargez le fichier ci-dessous que vous alimenterez après étude des besoins de chaque article dans l'ordre fixé : EML, EMV, B2, B3, M2, M3.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:int sc:refUri="/P_op/MP/000_bbd_tech_res/modeles/OF_OA_suivi.ods">
+							<op:instructionM/>
+						</sp:int>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Suivi du stock et besoins</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/P_op/MP/000_bbd_tech_res/modeles/aff_stock_suivi_modele.ods">
+<op:resInfoM>
+<sp:index>tab</sp:index>
+</op:resInfoM>
+</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t480">Le document ci-dessous que vous pouvez télécharger va vous permettre de gérer les <sc:uLink role="glos" sc:id="t483" sc:refUri="/P_op/MP/4_prod/besoin_calcul.ref">besoins</sc:uLink> des couples d'articles (EML, EMV)(B2, B3)(M2, M3). </sc:para>
+								<sc:para xml:space="preserve" sc:id="t546">Vous utiliserez donc 3 exemplaires pour évaluer le besoin des 6 articles.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:int sc:refUri="/P_op/MP/000_bbd_tech_res/modeles/Besoin.ods">
+							<op:instructionM/>
+						</sp:int>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t517"> 1. La ligne réception prévue (RP) permet de gérer les quantités des OF lancés à la période précédente et non encore réceptionnés. : c'est l'état des OF au premier mars qui va vous permettre de renseigner cette ligne, et elle ne dépends donc pas des décisions que vous allez prendre pour le moi de Mars, ce sont vos prédécesseurs qui ont lancé ces bons.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t551">2. Précisez le <sc:uLink role="glos" sc:id="t555" sc:refUri="/P_op/MP/4_prod/besoin_brut.ref">besoin brut</sc:uLink> d'après vos données de flux de départ (<sc:uLink role="glos" sc:id="t556" sc:refUri="/P_op/MP/4_prod/besoin_independant.ref">Besoin indépendant</sc:uLink> : Commandes fermes ou prévisions pour EML et EMV), ou les <sc:uLink role="glos" sc:id="t557" sc:refUri="/P_op/MP/4_prod/besoin_dependant.ref">besoins dépendants</sc:uLink> pour B2, B3, M2, M3.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t531">3. Calculez le <sc:uLink role="glos" sc:id="t558" sc:refUri="/P_op/MP/4_prod/besoin_net.ref">besoin net</sc:uLink>. </sc:para>
+								<sc:para xml:space="preserve">4. &quot;<sc:inlineStyle role="emp">Fin d'ordre</sc:inlineStyle>&quot; et &quot;<sc:inlineStyle role="emp">début d'ordre</sc:inlineStyle>&quot; : comme indiqué dans la formule, si le besoin net est inférieur à 0, cela signifie qu'avec le stock de la veille auquel on ajoute une éventuelle réception prévue et le stock de sécurité suffit à servir le besoin brut. Si le besoin net est supérieur à 0, il vous faut prévoir une qté à fabriquer, cette quantité est définie dans la colonne <sc:inlineStyle role="emp">fin d'ordre</sc:inlineStyle> est sera au moins supérieure au besoin net : mais il faudra l'ajuster en fonction des règles de gestion de l'article (lot multiple, groupement). Reculez d'autant de jours que le délai de fabrication l'impose pour renseigner la colonne &quot;<sc:inlineStyle role="emp">début d'ordre</sc:inlineStyle>&quot;. Les quantités de début d'ordre vont servir à alimenter le besoin brut des articles dont le besoin est dépendant de l'article que l'on traite</sc:para>
+								<sc:para xml:space="preserve">5. Calculez ensuite le<sc:inlineStyle role="emp"> stock en fin de journée</sc:inlineStyle>.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:warning>
+					<op:pbTi>
+						<sp:title>RAPPEL</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t538">Soyez bien attentif à la formule du <sc:uLink role="glos" sc:id="t539" sc:refUri="/P_op/MP/4_prod/besoin_net.ref">besoin net</sc:uLink>.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:warning>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

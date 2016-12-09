@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM xmlns:gtm="comaint.fr:gTecMi">
+			<sp:term>Juste à temps, 5 zéros</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">Le Juste-à-temps, ou JAT (Just-in-time ou JIT en anglais), est une méthode d'organisation et de gestion de la production, propre au secteur de l'industrie, qui consiste à minimiser les stocks et les en-cours de fabrication.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">Appelée aussi « flux tendu » ou « 5 zéros » ou encore « zéro-délai », la méthode est issue du toyotisme; elle consiste à réduire au minimum le temps de passage des composants et des produits à travers les différentes étapes de leur élaboration, de la matière première à la livraison des produits finis. Les cinq zéros correspondent à zéro panne, zéro délai, zéro papier, zéro stock et zéro défaut.</sc:para>
+				</op:sTxt>
+			</sp:def>
+			<sp:wikip>Juste-%C3%A0-temps_(gestion)</sp:wikip>
+		</op:glosM>
+	</op:glos>
+</sc:item>

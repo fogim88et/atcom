@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:ueM>
+			<sp:title>Liste des sujets</sp:title>
+			<sp:sTitle>Liste des sujets</sp:sTitle>
+		</op:ueM>
+		<sp:courseUc>
+			<op:expUc>
+				<op:uM>
+					<sp:title>Données</sp:title>
+				</op:uM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:res sc:refUri="/T_exams/2016/TTAM/enonce.ods">
+									<op:resInfoM/>
+								</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUc>
+		</sp:courseUc>
+		<sp:courseUc sc:refUri="/T_exams/2016/TTAM/redac.xml"/>
+		<sp:courseUc sc:refUri="/T_exams/2016/TTAM/partie_ex_1_2016.xml"/>
+		<sp:courseUc sc:refUri="/T_exams/2016/TTAM/TABLEUR_FMD.xml"/>
+		<sp:courseUc sc:refUri="/00A/2016/ELP/tableur.xml"/>
+	</op:ue>
+</sc:item>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>3ab. Fiabilité</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>3.a. Définitions</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Fiabilité</sc:para>
+						<sc:para xml:space="preserve" sc:id="t826">Maintenabilité</sc:para>
+						<sc:para xml:space="preserve" sc:id="t827">Disponibilité</sc:para>
+						<sc:para xml:space="preserve" sc:id="t828">Maintenance curative</sc:para>
+						<sc:para xml:space="preserve" sc:id="t829">Maintenance corrective</sc:para>
+						<sc:para xml:space="preserve" sc:id="t830">Maintenance préventive Systématique/Conditionnelle</sc:para>
+						<sc:para xml:space="preserve">TPM</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>3.b. Exercice b</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t6">On a observé la durée de vie de 10 composants mis en fonctionnement à t=0.</sc:para>
+						<sc:table role="" sc:id="t17">
+							<sc:caption xml:space="preserve" sc:id="t831">Données observées (10 composants)</sc:caption>
+							<sc:column sc:id="t18" width="3"/>
+							<sc:column sc:id="t19" width="4"/>
+							<sc:column sc:id="t20" width="4"/>
+							<sc:column sc:id="t21" width="4"/>
+							<sc:column sc:id="t22" width="4"/>
+							<sc:column sc:id="t23" width="4"/>
+							<sc:column sc:id="t832" width="4"/>
+							<sc:column sc:id="t24" width="5"/>
+							<sc:column sc:id="t25" width="5"/>
+							<sc:column sc:id="t26" width="5"/>
+							<sc:column sc:id="t27" width="5"/>
+							<sc:row sc:id="t29">
+								<sc:cell sc:id="t30">
+									<sc:para xml:space="preserve" sc:id="t42">ttf</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t31">
+									<sc:para xml:space="preserve" sc:id="t44">320</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t32">
+									<sc:para xml:space="preserve" sc:id="t46">460</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t33">
+									<sc:para xml:space="preserve" sc:id="t48">600</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t34">
+									<sc:para xml:space="preserve" sc:id="t50">710</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t35">
+									<sc:para xml:space="preserve" sc:id="t52">820</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t833">
+									<sc:para xml:space="preserve" sc:id="t63">940</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t36">
+									<sc:para xml:space="preserve" sc:id="t54">1050</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t37">
+									<sc:para xml:space="preserve" sc:id="t56">1120</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t38">
+									<sc:para xml:space="preserve" sc:id="t58">1230</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t39">
+									<sc:para xml:space="preserve" sc:id="t60">1350</sc:para>
+								</sc:cell>
+							</sc:row>
+						</sc:table>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t65">3b1. Calculer la Fiabilité à t= 500 hr et à  t=1000 hr.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t77">3b2. Calculer le taux de défaillance entre 0 et 500, puis entre 500 et 900, puis entre 900 et 1350.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t78">3b3. D'après l'évolution du taux de défaillance, que pouvez vous dire sur l'usure du composant ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t79">3b4. Quelle périodicité pouvez vous préconiser pour une garantie (fournisseur) ou une période d'échange systématique (exploitant).</sc:para>
+								<sc:para xml:space="preserve" sc:id="t80">3b5. Est-il judicieux de proposer un échange systématique pour ce composant ? De quelles informations auriez vous besoin pour affiner votre proposition ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

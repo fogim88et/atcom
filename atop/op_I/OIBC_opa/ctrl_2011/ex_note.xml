@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Exercice : Gestion de notes</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t72">Vous noterez vos formules avec le n° de la question.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t73">Si vous le souhaitez, vous pouvez utiliser des colonnes intermédiaires.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t74">Sauf cas particulier, vous ferez référence exclusivement à des cellules nommées, les noms à utiliser sont présents sur les lignes en fond jaune. Si il manque un nom vous pouvez en ajouter à condition de préciser la plage concernée.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t7">
+<sc:inlineStyle role="emp" sc:id="t77">qB.1. Nb de note.</sc:inlineStyle>
+</sc:para>
+								<sc:para xml:space="preserve" sc:id="t78">Compter le nombre de notes en A43 dans la plage des &quot;note&quot;. Ajoutez une note en A34 et vérifier que celle ci est prise en compte.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t17">
+<sc:inlineStyle role="emp" sc:id="t83">qB.2. Nb de note par matière.</sc:inlineStyle>
+</sc:para>
+								<sc:para xml:space="preserve" sc:id="t84">Formule en H3</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t23">
+<sc:inlineStyle role="emp" sc:id="t147">qB.3. Somme des notes par matière.</sc:inlineStyle>
+</sc:para>
+								<sc:para xml:space="preserve" sc:id="t148">Formule en I3</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t29">
+<sc:inlineStyle role="emp" sc:id="t153">qB.4. Moyenne par matière.</sc:inlineStyle>
+</sc:para>
+								<sc:para xml:space="preserve" sc:id="t154">Formule en J3</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t35">
+<sc:inlineStyle role="emp" sc:id="t159">qB.5. Nb de notes par UE</sc:inlineStyle>
+</sc:para>
+								<sc:para xml:space="preserve" sc:id="t160">Formule en F13</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t41">
+<sc:inlineStyle role="emp" sc:id="t46">qB.6. Somme des notes par UE</sc:inlineStyle>
+</sc:para>
+								<sc:para xml:space="preserve" sc:id="t165">Formule en G13</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t48">
+<sc:inlineStyle role="emp" sc:id="t53">qB.7. Moyenne des notes par UE</sc:inlineStyle> (sans tenir compte des coefficients affectés aux matières)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t170">Formule en H13</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t55">
+<sc:inlineStyle role="emp">qB.8</sc:inlineStyle>. Calculez manuellement la moyenne de l'UE1 en tenant compte des coefficients des matières.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t175">Formule en I13 et K13</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t63">
+<sc:inlineStyle role="emp" sc:id="t180">qB.9. Dans le tableau en E18 :I23</sc:inlineStyle>, l'objectif est de calculer le nombre de notes par intervalle.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t181">Donnez vos formules en G20, H20, I20</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t69">
+<sc:inlineStyle role="emp" sc:id="t186">qb.10. Renseignez le tableau en E26, formules en G26 à G 29</sc:inlineStyle>
+</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t136">Récapitulatif de vos formules.</sc:para>
+								<sc:table role="" sc:id="t195">
+									<sc:caption xml:space="preserve">Récapitulatif de vos formules.</sc:caption>
+									<sc:column role="head" sc:id="t196" width="4"/>
+									<sc:column sc:id="t197" width="50"/>
+									<sc:row sc:id="t198">
+										<sc:cell sc:id="t199">
+											<sc:para xml:space="preserve" sc:id="t247">A43</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t200">
+											<sc:para xml:space="preserve" sc:id="t249">.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t201">
+										<sc:cell sc:id="t202">
+											<sc:para xml:space="preserve" sc:id="t251">H3</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t203">
+											<sc:para xml:space="preserve" sc:id="t310">.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t204">
+										<sc:cell sc:id="t205">
+											<sc:para xml:space="preserve" sc:id="t255">I3</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t206">
+											<sc:para xml:space="preserve" sc:id="t257">.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t207">
+										<sc:cell sc:id="t208">
+											<sc:para xml:space="preserve" sc:id="t259">J3</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t209">
+											<sc:para xml:space="preserve" sc:id="t261">.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t210">
+										<sc:cell sc:id="t211">
+											<sc:para xml:space="preserve" sc:id="t263">F13</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t212">
+											<sc:para xml:space="preserve" sc:id="t265">.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t213">
+										<sc:cell sc:id="t214">
+											<sc:para xml:space="preserve" sc:id="t267">G13</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t215">
+											<sc:para xml:space="preserve" sc:id="t269">.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t216">
+										<sc:cell sc:id="t217">
+											<sc:para xml:space="preserve" sc:id="t271">H13</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t218">
+											<sc:para xml:space="preserve" sc:id="t273">.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t219">
+										<sc:cell sc:id="t220">
+											<sc:para xml:space="preserve" sc:id="t275">I13</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t221">
+											<sc:para xml:space="preserve" sc:id="t277">.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t222">
+										<sc:cell sc:id="t223">
+											<sc:para xml:space="preserve" sc:id="t279">K13</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t224">
+											<sc:para xml:space="preserve" sc:id="t281">.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t225">
+										<sc:cell sc:id="t226">
+											<sc:para xml:space="preserve" sc:id="t283">G20</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t227">
+											<sc:para xml:space="preserve" sc:id="t285">.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t228">
+										<sc:cell sc:id="t229">
+											<sc:para xml:space="preserve" sc:id="t287">H20</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t230">
+											<sc:para xml:space="preserve" sc:id="t289">.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t231">
+										<sc:cell sc:id="t232">
+											<sc:para xml:space="preserve" sc:id="t291">I20</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t233">
+											<sc:para xml:space="preserve" sc:id="t293">.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t234">
+										<sc:cell sc:id="t235">
+											<sc:para xml:space="preserve" sc:id="t295">G26</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t236">
+											<sc:para xml:space="preserve" sc:id="t297">.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t237">
+										<sc:cell sc:id="t238">
+											<sc:para xml:space="preserve" sc:id="t299">G27</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t239">
+											<sc:para xml:space="preserve" sc:id="t301">.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t240">
+										<sc:cell sc:id="t241">
+											<sc:para xml:space="preserve" sc:id="t303">G28</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t242">
+											<sc:para xml:space="preserve" sc:id="t305">.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t243">
+										<sc:cell sc:id="t244">
+											<sc:para xml:space="preserve" sc:id="t307">G29</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t245">
+											<sc:para xml:space="preserve" sc:id="t309">.</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

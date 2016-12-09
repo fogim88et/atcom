@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:field>
+<op:exeM>
+<sp:title>Etude de Durée de Vie</sp:title>
+<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>MTBF</sp:keywd>
+							<sp:keywd>Durée de Vie</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">
+							<sc:uLink role="docLnk" sc:id="t15" sc:refUri="/0C-src/000/src_012_1.ods">Durée de Vie 12 dispositifs réparables
+						</sc:uLink>
+						</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t12">Calculer le MTBF en heures. 2 décimales après la virgule</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sp:asw>
+			<sc:SFSolution>
+				<sc:value>46,67</sc:value>
+			</sc:SFSolution>
+		</sp:asw>
+	</op:field>
+</sc:item>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:ueM>
+			<sp:title>Examen GIM 2 ADE - OMM3</sp:title>
+			<sp:sTitle>Examen GIM 2 ADE - OMM3</sp:sTitle>
+		</op:ueM>
+		<sp:courseUc sc:refUri="/T_exams/2015/GIM2/ade_1.xml"/>
+		<sp:courseUc sc:refUri="/T_exams/2015/GIM2/ade_2.xml"/>
+		<sp:courseUc sc:refUri="/T_exams/2015/GIM2/ade_3.xml"/>
+		<sp:courseUc sc:refUri="/T_exams/2015/GIM2/ade_4.xml"/>
+		<sp:courseUc sc:refUri="/T_exams/2015/GIM2/ade_5.xml"/>
+	</op:ue>
+</sc:item>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+<sp:title>Etude de la raideur de 100 ressorts</sp:title>
+<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>va_0008</sp:keywd>
+							<sp:keywd>Observations</sp:keywd>
+							<sp:keywd>Descriptif</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t4">Données TDM N° 8</sc:para>
+						<sc:para>On mesure la raideur de 100 ressorts et on obtient les valeurs suivantes :</sc:para>
+						<sc:para sc:id="t11">1. Représenter graphiquement l'histogramme des effectifs et des fréquences cumulées. Que peut – on dire de cette distribution ?</sc:para>
+						<sc:para sc:id="t5">2. Donner graphiquement les valeurs du mode et de la médiane.</sc:para>
+						<sc:para sc:id="t6">3. Déterminer le valeur x définie par « 80% des ressorts ont une raideur supérieure à x »</sc:para>
+						<sc:para sc:id="t7">4. Calculer la moyenne et l'écart type en fournissant le calcul détaillé.</sc:para>
+						<sc:para sc:id="t8">5. Quelle est la probabilité d'obtenir un ressort dans les intervalles centrés sur la moyenne à ± 1,±  2,±  3 écart type. Commenter les résultats</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+	</op:practUc>
+</sc:item>

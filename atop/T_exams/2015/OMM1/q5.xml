@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>5. Fiabilité (Modèle)</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">La <sc:uLink role="glos" sc:id="t4" sc:refUri="/1B_op/D/dv.ref">durée de bon fonctionnement</sc:uLink> de 9 composants a donné les résultats suivants en jours : 17, 204, 10, 82, 144, 29, 58, 45, 101.</sc:para>
+						<sc:para xml:space="preserve">Calculer la fiabilité expérimentale à t=50.</sc:para>
+						<sc:para xml:space="preserve">Calculer le MTTF, et en déduire la valeur de lambda que l'on va appliquer au modèle exponentiel.</sc:para>
+						<sc:para xml:space="preserve">Avec cette valeur de lambda, calculer la fiabilité à t=50 à l'aide du modèle exponentiel.</sc:para>
+						<sc:para xml:space="preserve">Les valeurs sont - elles proches ? Comment pourrait-on s'assurer de l'adéquation des données expérimentales au modèle exponentiel.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+	</op:practUc>
+</sc:item>

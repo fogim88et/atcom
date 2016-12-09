@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Coût de commande (Cc)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">Sont inclus les coûts <sc:inlineStyle role="emp">administratifs</sc:inlineStyle> de l'acte de commande (du devis à la réception en passant par la commande, la facturation, la livraison). </sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">Il est évident, dans la mesure du possible, que l'on a intérêt à <sc:inlineStyle role="emp">regrouper</sc:inlineStyle> les articles à commander. </sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">Sur un même bon de commande, comme il est possible de passer commande de <sc:inlineStyle role="emp">plusieurs références</sc:inlineStyle>, il faudra adapter <sc:inlineStyle role="emp">Cc</sc:inlineStyle> en le divisant par le nombre de références estimées présentes sur le bon de commande, même si dans la réalité, chaque commande passée contiendra un nombre de commande variable.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

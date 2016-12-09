@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:glosM>
+			<sp:term>Durée de vie nominale</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t6">Elle est associée aux dispositifs <sc:inlineStyle role="emp" sc:id="t9">non réparables</sc:inlineStyle>.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t7">Une durée de vie nominale est associée à la durée d'une mission que l'on est pratiquement sûr de réussir.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t8">Exemple : La notation <sc:inlineStyle role="emp" sc:id="t10">L10</sc:inlineStyle> associe un <sc:inlineStyle role="emp" sc:id="t11">niveau de confiance</sc:inlineStyle> de 90% tel que R(t=L10)=0,9. </sc:para>
+					<sc:para xml:space="preserve">Ou encore que 10% des composants dispositifs seront défaillants avant t=L10</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

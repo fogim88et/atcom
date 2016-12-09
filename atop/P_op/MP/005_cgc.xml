@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Le Calcul des Charges Globales</sp:title>
+			<sp:sTitle>Le Calcul des Charges Globales</sp:sTitle>
+		</op:uM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para sc:id="t3">Le <sc:inlineStyle role="emp">PDP</sc:inlineStyle> doit être réaliste, sa faisabilité doit être contrôlée pour planifier la capacité.</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t5">
+							<sc:uLink role="glos" sc:id="t15" sc:refUri="/P_op/MP/4_prod/calcul_charges_globales.ref">Rappel : Calcul des Charges Globales (CGC)</sc:uLink>
+						</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t17">
+							<sc:inlineStyle role="emp">Rôle</sc:inlineStyle> : </sc:para>
+						<sc:itemizedList sc:id="t18">
+							<sc:listItem sc:id="t19">
+								<sc:para sc:id="t31">Planifier les capacités pour les ressources critiques</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t20">
+								<sc:para sc:id="t32">Planifier la sous-traitance</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t21">
+								<sc:para sc:id="t33">Répartir et optimiser la charge sur l'ensemble des centres de production</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+						<sc:para sc:id="t34">
+							<sc:inlineStyle role="emp">Principes du CGC</sc:inlineStyle> :</sc:para>
+						<sc:itemizedList sc:id="t24">
+							<sc:listItem sc:id="t25">
+								<sc:para sc:id="t35">Sélectionner les ressources critiques</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t26">
+								<sc:para sc:id="t36">Constituer des macro-gammes (gamme simplifiée différente de la gamme de fabrication)</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t27">
+								<sc:para sc:id="t37">Calcul de la charge induite par le PDP (produit des tps unitaires des macro-gammes par la qté à produire)</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t28">
+								<sc:para sc:id="t38">Bilan de charge globale : comparaison de la capacité et de la charge induite)</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+						<sc:para>L'étude est donc similaire à celle que l'on vient de faire, mais on ne se préoccupe pas du lancement des OF et des OA, on travaillera à la semaine sur une période plus longue.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:courseUc sc:refUri="/P_op/MP/005_ac_res/cgc_trimestre.xml"/>
+		<sp:practUc>
+			<op:practUc>
+				<op:exeM>
+					<sp:title>Conclusion</sp:title>
+				</op:exeM>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t128">Analysez les données</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:quest>
+					<op:practUcQ>
+						<sp:desc>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t130">Quels sont les enjeux, qui valide......Proposez des solutions.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:desc>
+						<sp:sol>
+							<op:pb>
+								<sp:info>
+									<op:pbTi/>
+									<op:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve" sc:id="t134">La validation se fait à l'aide de données de résultat au niveau de la Direction :</sc:para>
+												<sc:itemizedList sc:id="t135">
+													<sc:listItem sc:id="t136">
+														<sc:para xml:space="preserve" sc:id="t171">responsable produits pour les lancements des nouveaux produits.</sc:para>
+													</sc:listItem>
+													<sc:listItem sc:id="t137">
+														<sc:para xml:space="preserve" sc:id="t172">responsable méthodes pour la mise en place des moyens de production</sc:para>
+													</sc:listItem>
+													<sc:listItem sc:id="t138">
+														<sc:para xml:space="preserve" sc:id="t173">responsable financier pour le suivi financier de l'entreprise</sc:para>
+													</sc:listItem>
+													<sc:listItem sc:id="t139">
+														<sc:para xml:space="preserve" sc:id="t174">responsable commercial pour sa connaissance du client au niveau des prévisions</sc:para>
+													</sc:listItem>
+												</sc:itemizedList>
+												<sc:para xml:space="preserve" sc:id="t175">Décisions à moyen terme : </sc:para>
+												<sc:itemizedList sc:id="t140">
+													<sc:listItem sc:id="t141">
+														<sc:para xml:space="preserve" sc:id="t176">sous-traitance</sc:para>
+													</sc:listItem>
+													<sc:listItem sc:id="t142">
+														<sc:para xml:space="preserve" sc:id="t177">intérimaire</sc:para>
+													</sc:listItem>
+													<sc:listItem sc:id="t143">
+														<sc:para xml:space="preserve" sc:id="t178">décalage amont ou aval</sc:para>
+													</sc:listItem>
+													<sc:listItem sc:id="t144">
+														<sc:para xml:space="preserve" sc:id="t179">plan de maintenance</sc:para>
+													</sc:listItem>
+												</sc:itemizedList>
+												<sc:para xml:space="preserve" sc:id="t180">Le CGC peut entraîner des modifications importantes dans l'usine. Son importance est du même ordre que celle du PDP mais sur un horizon plus important.</sc:para>
+											</op:txt>
+										</sp:txt>
+									</op:res>
+								</sp:info>
+							</op:pb>
+						</sp:sol>
+					</op:practUcQ>
+				</sp:quest>
+			</op:practUc>
+		</sp:practUc>
+	</op:courseUa>
+</sc:item>

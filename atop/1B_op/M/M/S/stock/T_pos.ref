@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Taux de Possession (T)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Il est donné en % par euro et par an du Coût de Possession.</sc:para>
+					<sc:para xml:space="preserve">Le taux représente le % en coût pour l'entreprise d'une pièce achetée dans l'exercice courant qui reste en stock.</sc:para>
+					<sc:para xml:space="preserve">En effet, toute pièce en stock à la fin d'un exercice comptable est vue par les impôts comme un article vendu, et se trouve à ce titre ajoutée au chiffre d'affaire.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

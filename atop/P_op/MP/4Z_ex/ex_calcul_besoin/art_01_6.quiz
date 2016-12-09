@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Article_01.6</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t5">Etudier les besoins pour le jour N° 6, et en déduire le stock en fin de journée 6</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t7">Votre stock en fin de journée N° 6 sera donc de <sc:textLeaf role="gap" sc:id="t28">90</sc:textLeaf> pièces.</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:res sc:refUri="/P_op/MP/4Z_ex/ex_calcul_besoin/art_01_6_cor.ods">
+					<op:resInfoM/>
+				</sp:res>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

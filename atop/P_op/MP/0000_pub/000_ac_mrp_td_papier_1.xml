@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:ueM>
+			<sp:title>La Logique MRP (td)</sp:title>
+			<sp:sTitle>La Logique MRP (td)</sp:sTitle>
+		</op:ueM>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>Présentation des données</sp:title>
+					<sp:sTitle>Présentation des données</sp:sTitle>
+				</op:ueDivM>
+				<sp:courseUc sc:refUri="/P_op/MP/001_ac_lazurex/02_en_bdd.xml"/>
+			</op:ueDiv>
+		</sp:div>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>Exercice 1.</sp:title>
+					<sp:sTitle>Exercice 1.</sp:sTitle>
+				</op:ueDivM>
+				<sp:courseUc sc:refUri="/P_op/MP/4Z_ex/ex_calcul_besoin/Exercice_1_papier.xml"/>
+			</op:ueDiv>
+		</sp:div>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>Le cas LAZUREX</sp:title>
+					<sp:sTitle>Le cas LAZUREX</sp:sTitle>
+				</op:ueDivM>
+				<sp:courseUc sc:refUri="/P_op/MP/001_ac_lazurex/03_en_donnes_flux_1_mars.xml"/>
+				<sp:courseUc sc:refUri="/P_op/MP/001_ac_lazurex/Etude_EMV_EML.xml"/>
+			</op:ueDiv>
+		</sp:div>
+	</op:ue>
+</sc:item>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Défaillance partielle</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">
+						<sc:inlineStyle role="emp">Altération</sc:inlineStyle> d'un bien à accomplir la fonction requise.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

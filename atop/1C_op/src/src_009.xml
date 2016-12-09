@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM xmlns:gtm="comaint.fr:gTecMi">
+			<sp:title>src 9 : Durée de vie d'un système mécanique</sp:title>
+			<sp:sTitle>src 9 : Durée de vie d'un système mécanique</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Ttf</sp:keywd>
+							<sp:keywd>Système non réparable</sp:keywd>
+							<sp:keywd>Observations (n)</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb xmlns:gtm="comaint.fr:gTecMi">
+			<op:pb>
+				<sp:comp>
+					<op:pbTi>
+						<sp:title>Visualisation des fichiers à télécharger</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/0C-src/000/src_009_1.ods">
+							<op:resInfoM>
+								<sp:pubMode>zoom</sp:pubMode>
+							</op:resInfoM>
+						</sp:res>
+						<sp:res sc:refUri="/0C-src/000/src_009_2.ods">
+							<op:resInfoM>
+								<sp:pubMode>zoom</sp:pubMode>
+							</op:resInfoM>
+						</sp:res>
+						<sp:res sc:refUri="/0C-src/000/src_009_3.ods">
+							<op:resInfoM>
+								<sp:pubMode>zoom</sp:pubMode>
+							</op:resInfoM>
+						</sp:res>
+						<sp:res sc:refUri="/M_/ME_tpz/MES/0F/src_9_4.png">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:comp>
+				<sp:simul>
+					<op:pbTi>
+						<sp:title>Téléchargement des fichiers</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:int sc:refUri="/0C-src/000/src_009_1.ods">
+							<op:instructionM/>
+						</sp:int>
+						<sp:int sc:refUri="/0C-src/000/src_009_2.ods">
+							<op:instructionM/>
+						</sp:int>
+						<sp:int sc:refUri="/0C-src/000/src_009_3.ods">
+							<op:instructionM/>
+						</sp:int>
+					</op:res>
+				</sp:simul>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

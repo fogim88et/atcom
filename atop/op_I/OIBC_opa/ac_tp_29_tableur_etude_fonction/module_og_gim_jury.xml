@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:ueM>
+			<sp:title>Tableur. Etude de fonction</sp:title>
+			<sp:sTitle>Tableur. Etude de fonction</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>00001</sp:keywd>
+							<sp:keywd>Tableur</sp:keywd>
+							<sp:keywd>OpenOffice</sp:keywd>
+							<sp:keywd>Calc</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+					<sp:cc>by</sp:cc>
+					<sp:cpyrgt>
+						<op:sPara>
+							<sc:para sc:id="t11">Franck OURION</sc:para>
+						</op:sPara>
+					</sp:cpyrgt>
+				</op:info>
+			</sp:info>
+		</op:ueM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para sc:id="t5">Permettre aux étudiants de s'auto-évaluer à l'aide d'une étude de cas :</sc:para>
+				<sc:para>Etude d'une fonction polynômiale d'ordre 3.</sc:para>
+				<sc:para>Description des Etapes</sc:para>
+				<sc:para>Ce support présente les différentes étapes. </sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t7">L'ensemble des documents sera sauvegardé dans ce <sc:uLink role="ref" sc:id="t15" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/edc_dossier_travail.ref">dossier</sc:uLink>.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:courseUc sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ae_I_ce_ABCDEFGHI.xml"/>
+		<sp:courseUa sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/activitecours.xml"/>
+		<sp:assmntUa sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ae_1_infoA_2009.xml"/>
+	</op:ue>
+</sc:item>

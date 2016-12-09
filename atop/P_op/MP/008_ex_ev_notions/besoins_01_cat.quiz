@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:match xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Besoins 01</sp:title>
+		</op:exeM>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t5">Besoin Brut</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t7">Commandes fermes</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t21">Prévisions</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t9">Réception Prévue</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t19">Ordre Fabrication lancés</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t23">Ordre Fabrication à lancer</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve" sc:id="t25">Besoin Net</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+	</op:match>
+</sc:item>

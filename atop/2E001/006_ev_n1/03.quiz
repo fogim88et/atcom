@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:mcqSur xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Disponibilité Opérationnelle</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t5">Choisir la réponse juste</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:choices>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t7">Le Taux Brut de fonctionnement et la Disponibilité Opérationnelle sont <sc:inlineStyle role="emp">identiques</sc:inlineStyle></sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t11">Le Taux Brut de fonctionnement <sc:inlineStyle role="emp">est inférieur</sc:inlineStyle> à la Disponibilité Opérationnelle</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t15">Le Taux Brut de fonctionnement <sc:inlineStyle role="emp" sc:id="t28">est supérieur </sc:inlineStyle>à la Disponibilité Opérationnelle</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+		</sc:choices>
+		<sc:solution choice="2"/>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t27">La disponibilité opérationnelle est une donnée qui permet définir les AI pour raison de maintenance.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t47">On ajoutera aux AI Maintenance les AI production et logistique donc le taux brut de fonctionnement sera obligatoirement plus faible que la disponibilité opérationnelle</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:mcqSur>
+</sc:item>

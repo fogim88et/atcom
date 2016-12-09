@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Fiche ELP</sp:title>
+		</op:uM>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Intervenants VESOUL</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:table role="">
+											<sc:caption xml:space="preserve">Intervenants VESOUL UE 6D et 7D</sc:caption>
+											<sc:column width="33"/>
+											<sc:column width="33"/>
+											<sc:column width="33"/>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">MIGNEROT Vincent </sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">PRCE STE (24h)</sc:para>
+												</sc:cell>
+												<sc:cell/>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">BURKHALTER Alexandre</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve"> PRCE STE (28h)</sc:para>
+												</sc:cell>
+												<sc:cell/>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">ADAM Honorine </sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">VACATAIRE PROFESSIONNELLE (Haute saône conseil</sc:para>
+													<sc:para xml:space="preserve">elevage) - 8h</sc:para>
+												</sc:cell>
+												<sc:cell/>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">GUARIN Christian</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">PRCE Agroéquipements (18h)</sc:para>
+												</sc:cell>
+												<sc:cell/>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">BABIN Emmanuel</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve"> VACATAIRE PROFESSIONNEL (Chambre d'agriculture) : 8h</sc:para>
+												</sc:cell>
+												<sc:cell/>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">GIRARDET Alain</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">PRCE Zootechnie (24h)</sc:para>
+												</sc:cell>
+												<sc:cell/>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">GIRARD Pascal</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">PRCE Zootechnie (24h)</sc:para>
+												</sc:cell>
+												<sc:cell/>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve"> THIEBAUT Michel</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">AGENT CONTRACTUEL (Retraité)</sc:para>
+												</sc:cell>
+												<sc:cell/>
+											</sc:row>
+										</sc:table>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

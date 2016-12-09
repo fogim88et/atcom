@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:odRoot xmlns:op="utc.fr:ics/opale3">
+		<op:odRootM>
+			<sp:settings xmlns:sfm="http://www.utc.fr/ics/scenari/v3/filemeta" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+				<sp:solPractUc>yes</sp:solPractUc>
+				<sp:glos>no</sp:glos>
+				<sp:acr>no</sp:acr>
+				<sp:ref>no</sp:ref>
+				<sp:bib>no</sp:bib>
+				<sp:index>no</sp:index>
+				<sp:resource>no</sp:resource>
+			</sp:settings>
+		</op:odRootM>
+		<sp:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" sc:refUri="/M_/MF_/0_publi/MFMS-td.xml"/>
+	</op:odRoot>
+</sc:item>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+<sp:title>Représenter graphiquement g(x) d'ordre 1</sp:title>
+</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Notre fonction</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Nous souhaitons  donc représenter graphiquement  g(x)=-8.x selon le modèle <sc:inlineImg role="form" sc:id="t57" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/0_res_sxf/g_i(x).odf"/>
+						</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t16">Vous devrez de suite enregistrer votre <sc:uLink role="glos" sc:id="t36" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/tab_classeur.ref">document</sc:uLink> en lui donnant un <sc:uLink role="ref" sc:id="t37" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/edc_classeur.ref">nom</sc:uLink> dans votre <sc:uLink role="ref" sc:id="t38" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/edc_dossier_travail.ref">ressource personnelle</sc:uLink>.</sc:para>
+						<sc:para sc:id="t17">Renommez la première <sc:uLink role="glos" sc:id="t48" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/tab_feuille.ref">feuille</sc:uLink> en en suivant la convention choisie pour l'étude de cas.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t52">Vous devez obtenir le résultat suivant.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/01_b_3_tp_g_1(x).ods">
+<op:resInfoM>
+<sp:index>tab</sp:index>
+</op:resInfoM>
+</sp:res>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

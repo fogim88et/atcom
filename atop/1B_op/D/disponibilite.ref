@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Disponibilité</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">
+						<sc:inlineStyle role="emp">Aptitude</sc:inlineStyle> d'un dispositif à être en état de d'accomplir une <sc:inlineStyle role="emp">fonction requis</sc:inlineStyle>e dans des <sc:inlineStyle role="emp">conditions données</sc:inlineStyle>, à un instant donné pendant un <sc:inlineStyle role="emp">intervalle de temps donné</sc:inlineStyle>, en supposant que la fourniture des moyens extérieurs soit assurée (Définition norme X60-500).</sc:para>
+					<sc:para>On l'exprime par la probabilité A(t).</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

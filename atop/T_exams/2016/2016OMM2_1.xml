@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:ueM>
+			<sp:title>Liste des sujets</sp:title>
+			<sp:sTitle>Liste des sujets</sp:sTitle>
+		</op:ueM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para xml:space="preserve">Les résultats doivent apparaître sous scenari. A partir des énoncés, faire des liens WEB vers vos solutions, formules, etc</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:practUc sc:refUri="/T_exams/2016/OMM2_redac.xml"/>
+		<sp:courseUc sc:refUri="/T_exams/2016/TTAM/redac.xml"/>
+		<sp:courseUc sc:refUri="/T_exams/2016/TTAM/partie_ex_1_2016.xml"/>
+		<sp:courseUc sc:refUri="/T_exams/2016/TTAM/TABLEUR_FMD.xml"/>
+		<sp:courseUc sc:refUri="/T_exams/2016/tableur.xml"/>
+		<sp:courseUc sc:refUri="/T_exams/2016/Tableur_2_XY.xml"/>
+		<sp:courseUc sc:refUri="/T_exams/2016/TRG.xml"/>
+	</op:ue>
+</sc:item>

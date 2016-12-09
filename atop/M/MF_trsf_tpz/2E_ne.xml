@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>2E. Gestion de stock</sp:title>
+			<sp:sTitle>2E. Gestion de stock</sp:sTitle>
+		</op:uM>
+		<sp:courseUc sc:refUri="/M/MF_trsf_tpz/2E_stock/2E1_stock_mi_mp.xml"/>
+		<sp:courseUc sc:refUri="/M/MF_trsf_tpz/2E_stock/2E2_stock_maintenance.xml"/>
+		<sp:courseUc sc:refUri="/M/MF_trsf_tpz/2E_stock/2E3_enjeu_economique.xml"/>
+		<sp:courseUc sc:refUri="/M/MF_trsf_tpz/2E_stock/2E4_appro.xml"/>
+		<sp:courseUc sc:refUri="/M/MF_trsf_tpz/2E_stock/2E5_wilson_ne.xml"/>
+		<sp:courseUc sc:refUri="/M/MF_trsf_tpz/2E_stock/2E6_wilson_exemple.xml"/>
+	</op:courseUa>
+</sc:item>

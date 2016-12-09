@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3">
+		<op:glosM>
+			<sp:term xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">Fiabilité (Reliability)</sp:term>
+			<sp:def xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+				<op:sTxt>
+					<sc:para sc:id="t4">Aptitude d'une entité à accomplir une fonction requise (mission), dans des conditions données, pendant un intervalle de temps donné.</sc:para>
+					<sc:para sc:id="t6">Cette aptitude est  exprimée par une probabilité. </sc:para>
+					<sc:para sc:id="t10">Voir les sources :<sc:phrase role="url"><op:urlM><sp:url>http://fr.wikipedia.org/wiki/Fiabilit%C3%A9</sp:url></op:urlM> Wikipédia</sc:phrase> et Guide <sc:phrase role="url"><op:urlM><sp:url>http://fr.wikipedia.org/wiki/Fides_(fiabilit%C3%A9)</sp:url></op:urlM>Fides</sc:phrase>.</sc:para>
+					<sc:para sc:id="t11">La <sc:inlineStyle role="emp">bonne santé</sc:inlineStyle> d'un être humain peut se définir simplement par le fait de ne pas être souvent malade. Néanmoins, il serait plus judicieux de juger de la bonne santé par rapport à une période fixe dans des conditions données (climat, région) et de l'objectif que l'on se fixe (activité pratiquée). </sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

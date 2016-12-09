@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Analyse du problème. Un terme d'ordre i</sp:title>
+			<sp:sTitle>1.b. g(x)</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Un terme g(x)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t243">Si on utilise des fonctions de famille coefficient.x<sc:textLeaf role="exp" sc:id="t244">ordre</sc:textLeaf> alors une fonction d'ordre i sera généralisée par</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/0_res_sxf/g_i(x).odf">
+<op:resInfoM>
+<sp:index>form</sp:index>
+</op:resInfoM>
+</sp:res>
+					</op:res>
+				</sp:def>
+				<sp:ex>
+					<op:pbTi>
+						<sp:title>Un peu de pratique</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t265">Je vais vous demander de représenter graphiquement la fonction g(x)=-8.x</sc:para>
+								<sc:para>Mais au préalable, je vais vous poser une petite question.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Avec quelles ressources</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t272">- Une feuille de calcul OpenOffice Calc</sc:para>
+								<sc:para>- Un VI labview</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:meth>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Avec quelles procédures</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t274">Construire une série de données linéaire.</sc:para>
+								<sc:para>Construire une formule basée sur une expression mathématique.</sc:para>
+								<sc:para>Gérer des couples de points issus de 2 séries de données  [x,f(x)].</sc:para>
+								<sc:para>Construire un graphique représentant les couples  [x,f(x)].</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

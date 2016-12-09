@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Arrêts identifiés</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Le temps d'ouverture est de 1000 heures et la Disponibilité Opérationnelle est de 80%. </sc:para>
+						<sc:para xml:space="preserve">On a 100 heures  pour changement de série et réglage</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t5">Les AI sont de <sc:textLeaf role="gap" sc:id="t8">300</sc:textLeaf> heures.</sc:para>
+				<sc:para xml:space="preserve">Le taux brut de fonctionnement est de <sc:textLeaf role="gap" sc:id="t9">70</sc:textLeaf> % (avec 0 décimale)</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

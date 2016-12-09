@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:dk="kelis.fr:dokiel">
+		<op:ueM>
+			<sp:title>Liste des exercices</sp:title>
+			<sp:sTitle>Exercices</sp:sTitle>
+		</op:ueM>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>0-30</sp:title>
+					<sp:sTitle>0-30</sp:sTitle>
+				</op:ueDivM>
+				<sp:courseUa sc:refUri="/2E001/001.xml"/>
+				<sp:practUc sc:refUri="/2E001/002.xml"/>
+				<sp:div>
+					<op:ueDiv>
+						<op:ueDivM>
+							<sp:title>3. test par niveau (TRG)</sp:title>
+							<sp:sTitle>3. test par niveau (TRG)</sp:sTitle>
+						</op:ueDivM>
+						<sp:assmntUa sc:refUri="/2E001/003/003-3.xml"/>
+						<sp:assmntUa sc:refUri="/2E001/003/003-2.xml"/>
+						<sp:assmntUa sc:refUri="/2E001/003/003-1.xml"/>
+					</op:ueDiv>
+				</sp:div>
+				<sp:trainUcCloze sc:refUri="/2E001/004.quiz"/>
+				<sp:courseUa sc:refUri="/2E021/023/MESO-ex-23.xml"/>
+				<sp:trainUcCloze sc:refUri="/2E021/024.quiz"/>
+			</op:ueDiv>
+		</sp:div>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>31-60</sp:title>
+					<sp:sTitle>31-60</sp:sTitle>
+				</op:ueDivM>
+				<sp:practUc sc:refUri="/2C_ex/031/031-en.xml"/>
+				<sp:practUc sc:refUri="/2C_ex/021_stat_test/032-en.xml"/>
+				<sp:courseUa sc:refUri="/2C_ex/031/41/41_ac.xml"/>
+				<sp:practUc sc:refUri="/2C_ex/031/055-en.xml"/>
+				<sp:trainUcCloze sc:refUri="/2C_ex/031/036-exi.quiz"/>
+				<sp:trainUcCloze sc:refUri="/2C_ex/031/037-exi.quiz"/>
+				<sp:practUc sc:refUri="/2E041/ex_41.xml"/>
+				<sp:practUc sc:refUri="/2C_ex/031/ex_42_tmp.xml"/>
+				<sp:practUc sc:refUri="/2C_ex/031/ex_43_tmp.xml"/>
+				<sp:practUc sc:refUri="/2C_ex/031/44_exr.xml"/>
+				<sp:practUc sc:refUri="/2C_ex/031/047-exr.xml"/>
+				<sp:practUc sc:refUri="/2C_ex/031/048-exr.xml"/>
+				<sp:practUc sc:refUri="/2C_ex/031/ex_50.xml"/>
+				<sp:practUc sc:refUri="/2C_ex/031/2E-exr-n3-51.xml"/>
+				<sp:practUc sc:refUri="/2C_ex/031/ex_52.xml"/>
+				<sp:practUc sc:refUri="/2C_ex/031/ex_53.xml"/>
+				<sp:practUc sc:refUri="/2C_ex/031/054-exr.xml"/>
+				<sp:practUc sc:refUri="/2C_ex/031/055-exr.xml"/>
+			</op:ueDiv>
+		</sp:div>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>61-90</sp:title>
+					<sp:sTitle>61-90</sp:sTitle>
+				</op:ueDivM>
+				<sp:practUc sc:refUri="/2C_ex/061/080-exr.xml"/>
+				<sp:practUc sc:refUri="/2C_ex/061/081-exr.xml"/>
+				<sp:practUc sc:refUri="/2C_ex/061/082-exr.xml"/>
+				<sp:practUc sc:refUri="/2C_ex/061/083-exr.xml"/>
+			</op:ueDiv>
+		</sp:div>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>181-210</sp:title>
+					<sp:sTitle>181-210</sp:sTitle>
+				</op:ueDivM>
+				<sp:courseUa sc:refUri="/2C_ex/181_ac.xml"/>
+			</op:ueDiv>
+		</sp:div>
+	</op:ue>
+</sc:item>

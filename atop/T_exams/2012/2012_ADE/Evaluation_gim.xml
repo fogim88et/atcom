@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:ueM>
+			<sp:title>Evaluation GIM</sp:title>
+			<sp:sTitle>Evaluation GIM</sp:sTitle>
+		</op:ueM>
+		<sp:courseUa>
+			<op:courseUa>
+				<op:uM>
+					<sp:title>GIM2</sp:title>
+					<sp:sTitle>GIM2</sp:sTitle>
+				</op:uM>
+				<sp:courseUc sc:refUri="/T_exams/2015/GIM2/ade_1.xml"/>
+				<sp:courseUc sc:refUri="/T_exams/2012/2012_ADE/etude_syst_pompage.xml"/>
+			</op:courseUa>
+		</sp:courseUa>
+	</op:ue>
+</sc:item>

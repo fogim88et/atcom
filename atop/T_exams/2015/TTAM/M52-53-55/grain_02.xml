@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>E- Système</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">On souhaite réguler le niveau d'un réservoir en eau en fonction d'une demande qui est variable dans le temps.</sc:para>
+								<sc:para xml:space="preserve">On dispose de :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">2 capteurs TOR (tout ou rien) B1 et B2 fixés respectivement à 60 % et 80 % de la capacité maximum du réservoir.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">2 capteurs TOR (0/1) Bmin et Bmax qui permettent d'être informés du niveau bas (réservoir vide, soit 0%) et du niveau maximum (réservoir plein 90% ).</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">1 capteur analogique CA conditionné en 0-10 V pour un niveau de 0 à 100%</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">3 pompes (P1-P2-P3) en parallèle dont 2 sont nécessaires pour assurer le maintien du niveau entre B1 et B2 en cas de besoin maximum. 1 seule pompe permet d'assurer le maintien entre B1 et B2 pour un besoin fixé à 50%</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">3 Voyants VP1-VP2-VP3 associés à l'état de marche des pompes P1-P2-P3.</sc:para>
+										<sc:para xml:space="preserve">1 afficheur numérique (VCA) pour le niveau analogique</sc:para>
+										<sc:para xml:space="preserve">4 voyants VB1, VB2, VBmin, VBmax pour les niveaux TOR</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">1 automate programmable (AP)</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">On donne les taux de défaillance suivants : Pompe (2.10<sc:textLeaf role="exp">-4</sc:textLeaf>), capteur TOR (10<sc:textLeaf role="exp">-6</sc:textLeaf>), CA (5.10<sc:textLeaf role="exp">-5</sc:textLeaf>), Voyants (10<sc:textLeaf role="exp">-10</sc:textLeaf>), AP (2.10<sc:textLeaf role="exp">-8</sc:textLeaf>)</sc:para>
+								<sc:para xml:space="preserve">On rappelle que les taux de défaillance s'ajoutent en série et se multiplient en parallèle.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">A1. Construire un schéma fonctionnel de l'installation</sc:para>
+								<sc:para xml:space="preserve">A2. Identifiez les principales sous fonctions et établir le FAST des sous-fonctions en liant les éléments aux sous-fonctions.</sc:para>
+								<sc:para xml:space="preserve">B1. Fonctionnement des pompes : Décrire les différentes solutions de redondance que l'on peut mettre en place en y associant le cycle de fonctionnement à mettre en place avec un automate programmable. Si on souhaite maintenir une usure homogène entre les pompes, quel cycle allez vous proposer.</sc:para>
+								<sc:para xml:space="preserve">C1. Établir le diagramme de fiabilité dans les 2 cas suivants : </sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Le système est dit défaillant si la fonction de régulation entre B1 et B2 ne peut plus être assurée pour un besoin de 100 %</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Le système est dit défaillant si la fonction de régulation entre B1 et B2 ne peut plus être assurée pour un besoin de 50 %</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">C2. Existe t-il des états de marche dégradé si la fonction de régulation entre B1 et B2 ne peut plus être assurée (sans tenir compte du besoin)</sc:para>
+								<sc:para xml:space="preserve">C3. Quel est le rôle joué par les voyants relativement aux différentes solutions de redondance</sc:para>
+								<sc:para xml:space="preserve">D. Soit un système série composé de AP-P1-CA : calculer le taux de défaillance. L'événement indésirable est tout simplement le non fonctionnement non régulé du système et on considère que la fonction est réalisée si AP, une pompe et la mesure de niveau est réalisée. Le gain pourra être exprimé par multiple de 10 : certains termes seront donc négligés ou arrondis.</sc:para>
+								<sc:para xml:space="preserve">On place une deuxième pompe P2 en parallèle de P1 : calculer le taux de défaillance et en déduire les conséquences sur le facteur de risque.</sc:para>
+								<sc:para xml:space="preserve">On ajoute en parallèle à CA les capteurs B1 et B2 : Quel est le gain sur le facteur de risque.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

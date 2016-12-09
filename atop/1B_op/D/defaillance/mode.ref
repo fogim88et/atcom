@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Mode de défaillance</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">On définit un mode de défaillance, comme l'<sc:inlineStyle role="emp">effet</sc:inlineStyle> par lequel une défaillance est observable, sur un élément d'un système, sur une fonction, ou sur le système lui même.</sc:para>
+					<sc:para>Lorsque la fonction est clairement définie, le mode est tout simplement &quot;la non-fonction&quot; et/ou la &quot;perte partielle de la fonction&quot;</sc:para>
+					<sc:para>Un véhicule a pour fonction principale de se déplacer : les modes de défaillances possibles sont donc : &quot;ne se déplace plus&quot; ou se &quot;déplace mal&quot;. On en déduit que l'&quot;immobilisation&quot;, &quot;vitesse insuffisante&quot;, &quot;vitesse irrégulière&quot; sont des modes de défaillance acceptables au niveau du système (niveau n) et observables par l'utilisateur.</sc:para>
+					<sc:para>La recherche des causes devra être recherchée parmi les sous-ensembles ou sous-fonctions de niveau n-1 : &quot;motorisation&quot;, &quot;régulation électronique&quot;, &quot;énergie&quot;, etc ....</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

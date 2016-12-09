@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:ueM>
+			<sp:title>Impression des données</sp:title>
+			<sp:sTitle>Impression des données</sp:sTitle>
+		</op:ueM>
+		<sp:courseUc sc:refUri="/P_op/MP/001_ac_lazurex/01_a_Entreprise.xml"/>
+		<sp:courseUa sc:refUri="/P_op/MP/002_donnees.xml"/>
+	</op:ue>
+</sc:item>

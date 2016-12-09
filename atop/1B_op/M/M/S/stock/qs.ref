@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Seuil de sécurité (Qs ou Qmin))</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Le seuil de sécurité ou encore qté mini ou Seuil d'alerte est la quantité nécessaire au besoin de consommation une fois la commande lancée.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t4">Son choix est stratégique, lié à un risque de rupture. </sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">Qs = Qd + [Marge de sécurité]</sc:para>
+					<sc:para xml:space="preserve" sc:id="t6"><sc:inlineStyle role="emp" sc:id="t7">Qd</sc:inlineStyle> : Consommation moyenne pendant le délai.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t8"><sc:inlineStyle role="emp" sc:id="t9">[Marge de sécurité]</sc:inlineStyle> : Quantité directement dépendante du risque de rupture α.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t10">Lorsque Qd est faible, on pourra prendre une marge du double ou triple de Qd ou utiliser le modèle de Poisson.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t11">Lorsque Qd devient grand (&gt;10), la marge pourra être choisie de 2 à 3 fois la racine de Qd (modèle de gauss).</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

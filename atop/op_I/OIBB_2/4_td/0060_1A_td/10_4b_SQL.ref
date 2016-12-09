@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:refM>
+			<sp:ref>10_4b : Moyenne par étudiant (SQL)</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">SELECT `tb_etudiant`.`nom_et`, COUNT( `tb_note`.`id_et` ) AS `nb_notes`, SUM( `tb_note`.`Note` ) AS `som_notes`, `som_notes` / `nb_notes` AS `moyenne` FROM `tb_note`, `tb_etudiant` WHERE `tb_note`.`id_et` = `tb_etudiant`.`id_et` GROUP BY `tb_etudiant`.`nom_et`</sc:para>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

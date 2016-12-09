@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Phase 1</sp:title>
+		</op:uM>
+		<sp:courseUc sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/01_a_1_analyse_polynome_f.xml"/>
+		<sp:trainUcCloze sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/01_a_2_ei_tat_identifier_coef.quiz"/>
+		<sp:courseUc sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/01_b_1_analyse_terme.xml"/>
+		<sp:trainUcMcqSur sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/01_b_2_q.quiz"/>
+		<sp:practUc sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/01_tp_g_1(x).xml"/>
+	</op:courseUa>
+</sc:item>

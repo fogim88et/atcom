@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>206.en : Adéquation au modèle exponentiel</sp:title>
+			<sp:sTitle>206.en : Ad mod. exp.</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t90">La <sc:uLink role="glos" sc:id="t91" sc:refUri="/1B_op/D/dv.ref">durée de bon fonctionnement</sc:uLink> de 9 composants (src 20) a donné les résultats suivants en jours  : 17, 204, 10, 82, 144, 29, 58, 45 , 101.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t92">a. Calculer la <sc:uLink role="glos" sc:id="t93" sc:refUri="/1B_op/M/EF/fiabilite_observee.ref">fiabilité</sc:uLink> et le taux de défaillance à t=50 jours</sc:para>
+								<sc:para xml:space="preserve" sc:id="t120">b. Calculer la <sc:uLink role="glos" sc:id="t109" sc:refUri="/1B_op/M/EF/fiabilite_observee.ref">fiabilité</sc:uLink> et le taux de défaillance à t=100 jours</sc:para>
+								<sc:para xml:space="preserve" sc:id="t94">c. En utilisant le MTTF déterminer le taux de défaillance expérimental que l'on peut appliquer au modèle exponentiel (on suppose que les composants sont des composants électronique)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t95">d. En utilisant le <sc:uLink role="ucLnk" sc:id="t96" sc:refUri="/D/DS/3_ne/DSE_ne/5E6_Lexp-dk/5E6_ne.xml">modèle exponentiel</sc:uLink>, avec le taux de défaillance calculé à la question c, comparez avec les résultats précédents.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t97">e. A l'aide du tableur ou de labview, tracez la fiabilité observée et selon le modèle exponentiel en fonction du temps. R(t) observée sera calculée avec la formule des <sc:uLink role="glos" sc:id="t98" sc:refUri="/1B_op/M/MN/rangs_medians.ref">rangs médians</sc:uLink> et non pas avec (1-i)/N</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

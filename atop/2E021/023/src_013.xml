@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>src_13 : Durée de Vie -&gt; Ampoules</sp:title>
+			<sp:sTitle>src_13 : Durée de Vie -&gt; Ampoules</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:basic>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Revoir la fiche <sc:uLink role="ucLnk" sc:refUri="/M/C-2016-01/3_ne/2C2A2_ne.xml">Dispositifs non réparables (période)</sc:uLink></sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>A. Données de départ après classement en classes des 100 ttf</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/0C-src/000/src_013_1.ods">
+							<op:resInfoM>
+								<sp:pubMode>zoom</sp:pubMode>
+								<sp:instruct>
+									<op:instructionM/>
+								</sp:instruct>
+							</op:resInfoM>
+						</sp:res>
+						<sp:res sc:refUri="/0C-src/000/src_013_2.ods">
+							<op:resInfoM>
+								<sp:pubMode>zoom</sp:pubMode>
+							</op:resInfoM>
+						</sp:res>
+						<sp:res sc:refUri="/0C-src/000/src_013_3.ods">
+							<op:resInfoM>
+								<sp:pubMode>zoom</sp:pubMode>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:simul>
+					<op:pbTi>
+						<sp:title>B. Téléchargement des données</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:int sc:refUri="/0C-src/000/src_013_1.ods">
+							<op:instructionM/>
+						</sp:int>
+						<sp:int sc:refUri="/0C-src/000/src_013_2.ods">
+							<op:instructionM/>
+						</sp:int>
+						<sp:int sc:refUri="/0C-src/000/src_013_3.ods">
+							<op:instructionM/>
+						</sp:int>
+					</op:res>
+				</sp:simul>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

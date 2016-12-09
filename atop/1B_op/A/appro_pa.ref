@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Méthode par Plan d'approvisionnement (PA)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">Elle consiste à passer commande d'une « <sc:inlineStyle role="emp" sc:id="t8">quantité variable</sc:inlineStyle>» à périodicité fixe <sc:inlineStyle role="emp" sc:id="t9">Te</sc:inlineStyle> (ou <sc:inlineStyle role="emp" sc:id="t10">Tec</sc:inlineStyle> si la période choisie est différente de Te)</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">Cette « Quantité variable » est calculée à partir d'un plafond Qp tel que :</sc:para>
+					<sc:para xml:space="preserve" sc:id="t6"><sc:inlineStyle role="emp" sc:id="t11">Quantité variable commandée</sc:inlineStyle> = <sc:inlineStyle role="emp" sc:id="t12">Qp</sc:inlineStyle>  -<sc:inlineStyle role="emp" sc:id="t13"> Quantité disponible en magasin</sc:inlineStyle></sc:para>
+					<sc:para xml:space="preserve" sc:id="t7">avec  <sc:inlineStyle role="emp" sc:id="t14">QP=Qe+Qs</sc:inlineStyle></sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

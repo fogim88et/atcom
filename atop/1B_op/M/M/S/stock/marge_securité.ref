@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Marge de sécurité</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t13">Qs = Qd + [Marge de sécurité]</sc:para>
+					<sc:para xml:space="preserve" sc:id="t14"><sc:inlineStyle role="emp" sc:id="t15">Qd</sc:inlineStyle> : Consommation moyenne pendant le délai.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t16"><sc:inlineStyle role="emp" sc:id="t17">[Marge de sécurité]</sc:inlineStyle> : Quantité directement dépendante du risque de rupture α.</sc:para>
+					<sc:para xml:space="preserve">Lorsque Qd est faible, on pourra prendre une marge du double ou triple de Qd ou utiliser le modèle de Poisson.</sc:para>
+					<sc:para xml:space="preserve">Lorsque Qd devient grand (&gt;10), la marge pourra être choisie de 2 à 3 fois la racine de Qd (modèle de gauss).</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

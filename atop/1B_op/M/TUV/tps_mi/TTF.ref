@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>TTF</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">De l'anglais <sc:inlineStyle role="spec">Time to Fail</sc:inlineStyle>, le <sc:inlineStyle role="emp">TTF</sc:inlineStyle> désigne le temps de fonctionnement théorique ou observé d'un <sc:inlineStyle role="emp">dispositif non réparable</sc:inlineStyle>.</sc:para>
+					<sc:para sc:id="t4">Ce sont les valeurs possibles prises par la variable statistique <sc:inlineStyle role="emp">T</sc:inlineStyle> (elle caractérise l'instant t de la défaillance ou la durée de vie)</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

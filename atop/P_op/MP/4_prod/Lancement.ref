@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>LANCEMENT</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t5">Processus de mise en oeuvre d'un ordonnancement pour les heures à venir, par l'émission de documents spécifiant le travail qui devra être exécuté sur chaque poste de travail (bons de travaux), de documents déclenchant la mise à disposition des matières premières et des composants achetés (bons de matières) et, le cas échéant, la fourniture de l'outillage spécifique requis (bons d'outillage).</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

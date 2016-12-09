@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Outils Stats (SDF) : 1 hr</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>ex.1.1.Enoncé</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t5">On a relevé les tbf de 10 machines mis en fonctionnement à t=0.</sc:para>
+								<sc:para xml:space="preserve">Le MTTR est de 3 heures</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/T_exams/TTAM/en_1.1-019.ods">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t59">1.1.a. Calculer la disponibilité opérationnelle.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t95">1.1.b. Quelle est la probabilité de réussir une mission de 75 heures sans défaillance.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t96">1.1.c. En fonction de l'usure au cours du temps, vous semble t-il judicieux de proposer une maintenance préventive systématique ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t97">1.1.c. Quelle périodicité pouvez vous fixer pour réduire le risque de défaillance entre deux visites ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t98">1.1.d. Le responsable de production estime que l'on a 90 % de chance de réussir une mission de 75 heures sans défaillance. Estimez vous qu'il peut avoir raison ?, ou au contraire, vous pouvez assurer qu'il a tort.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>ex.1.2.énoncé</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t70">On a relevé les ttf de 10 caisses enregistreuses sur un lot de 25 mis en fonctionnement à t=0.</sc:para>
+								<sc:para xml:space="preserve">Attention, vous n'avez les ttf des 10 premières défaillances, 15 sont donc encore en fonctionnement à t=1351 hr</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/T_exams/TTAM/en_1.2-020.ods">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t72">1.2.a Calculez le MTTF</sc:para>
+								<sc:para xml:space="preserve" sc:id="t99">1.2.b. Calculez la fiabilité à t=500 hr et à t=1000 heures</sc:para>
+								<sc:para xml:space="preserve" sc:id="t100">1.2.c. Calculez le taux de défaillance sur des périodes fixes de 400 heures.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t101">1.2.d. Conclure sur l'usure</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>ex.1.3. énoncé</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t104">On relevé le ttf de 400 tubes fluorescents.</sc:para>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="quote">0 défaillants entre 0 et 300 heures, 60 de 300 à 500 heures, etc ...</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">Rappel : l'effectif des survivants, la fiabilité s'expriment en fonctions des limites t d'un intervalle. L'effectif des défaillants, le taux de défaillance, la densité de probabilité s'expriment en fonction du  centre (tc)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/T_exams/TTAM/en_1.3-105.ods">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t74">1.3.a. Représentez graphiquement la fiabilité et le taux de défaillance en fonction du temps.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t89">1.3.b. Donnez la fiabilité minimum à un niveau de confiance de 97,5% à t=400 heures. La fiabilité expérimentale sera évaluée par interpolation.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t102">1.3.c. Modélisez la fiabilité par le modèle de Weibull.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

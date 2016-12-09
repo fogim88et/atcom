@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:webRoot xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:webRootM>
+			<sp:version>Exam qlio 2012 :Access</sp:version>
+			<sp:settings/>
+		</op:webRootM>
+		<sp:ue sc:refUri="/op_I/OIBB-op-ev-061/module_7C_app_assoc_mdb_01.xml"/>
+	</op:webRoot>
+</sc:item>

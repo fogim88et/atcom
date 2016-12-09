@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Représentation graphique</sp:title>
+			<sp:sTitle>Représentation graphique</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Objectifs</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t5">On va représenter graphiquement : </sc:para>
+								<sc:itemizedList sc:id="t8">
+									<sc:listItem sc:id="t9">
+										<sc:para xml:space="preserve" sc:id="t13">les effectifs : visualisation de la dispersion et de l'allure de la distribution</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t10">
+										<sc:para xml:space="preserve" sc:id="t14">les effectifs cumulés : pour calculer rapidement des probabilités ou fréquences sur des intervalles.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">associés à chaque valeur d'un caractère discret ou chaque centre de classe d'une variable statistique.</sc:para>
+								<sc:para xml:space="preserve">On pourra préférer représenter les fréquences f.obs (% des effectifs) et les fréquences cumulées F.obs (% des effectifs cumulés) pour comparer les données statistiques à un modèle statistique dont les paramètres vont permettre la comparaison avec la densité de probabilité f.thé et la fonction de répartition des probabilités F.thé</sc:para>
+								<sc:para xml:space="preserve" sc:id="t16">Comme les centres de classes ne sont pas toujours équidistants, il sera nécessaire de choisir une représentation XY (nuage de points)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t17">On ne présente les 2 sur le même graphique seulement si il est possible de dissocier les échelles pour chaque courbe (sinon, la forme de la distribution sera trop petite relativement à la courbe des effectifs cumulés)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

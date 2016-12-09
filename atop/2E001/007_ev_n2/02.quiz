@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Taux intermédiaires</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Calculez les taux intermédiaires. Vous vérifierez que le produit des 3 est bien égal au TRG.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t22"><sc:uLink role="ref" sc:id="t18" sc:refUri="/2E001/007_ev_n2/0007.ref">7 : TRG (6A)</sc:uLink></sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t8">TxB = <sc:textLeaf role="gap" sc:id="t9">89,00</sc:textLeaf> %</sc:para>
+				<sc:para xml:space="preserve" sc:id="t10">TxP = <sc:textLeaf role="gap" sc:id="t11">97,75</sc:textLeaf> %</sc:para>
+				<sc:para xml:space="preserve" sc:id="t12">TxQ = <sc:textLeaf role="gap" sc:id="t13">99,14</sc:textLeaf> %</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

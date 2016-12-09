@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>La Production réelle et les pertes de non qualité</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res xmlns:dk="kelis.fr:dokiel">
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t272">On a fabriqué : </sc:para>
+						<sc:itemizedList sc:id="t273">
+							<sc:listItem sc:id="t274">
+								<sc:para xml:space="preserve" sc:id="t275">100 pièces de type P1 avec un T.U.F (temps unitaire de fabrication) de 6 minutes.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t276">
+								<sc:para xml:space="preserve" sc:id="t277">180 pièces de type P2 avec un T.U.F de 1 minutes.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t278">
+								<sc:para xml:space="preserve" sc:id="t279">12 pièces de type P3 avec un T.U.F de 10 minutes.</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+						<sc:para xml:space="preserve" sc:id="t285">Ces données vont nous permettre d'en déduire le temps net de production (<sc:uLink role="glos" sc:id="t282" sc:refUri="/1B_op/M/TUV/TRG/TN.ref">TN</sc:uLink>)</sc:para>
+						<sc:para xml:space="preserve" sc:id="t286">Le contrôle qualité a révélé que 10 produits P1 et 60 produits P2 étaient défectueux et on peut en déduire avec les TUF, le temps perdu (<sc:uLink role="glos" sc:id="t288" sc:refUri="/1B_op/M/TUV/TRG/TU.ref">NQ</sc:uLink>) à fabriquer des produits défectueux</sc:para>
+						<sc:table role="" sc:id="t294">
+							<sc:column sc:id="t296" width="22"/>
+							<sc:column sc:id="t297" width="25"/>
+							<sc:column sc:id="t404" width="16"/>
+							<sc:column sc:id="t405" width="13"/>
+							<sc:column sc:id="t298" width="18"/>
+							<sc:row sc:id="t299">
+								<sc:cell sc:id="t300" colSpan="4">
+									<sc:para xml:space="preserve" sc:id="t301">
+										<sc:inlineStyle role="emp" sc:id="t370">TO = 24 h</sc:inlineStyle>
+									</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t303">
+									<sc:para xml:space="preserve" sc:id="t444">
+										TRG = ..........</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t304">
+								<sc:cell sc:id="t305" colSpan="3">
+									<sc:para xml:space="preserve" sc:id="t306">TB = ...............</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t406">
+									<sc:para xml:space="preserve" sc:id="t390">AI = ......</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t309">
+									<sc:para xml:space="preserve" sc:id="t310">TxB  = ...........</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t311">
+								<sc:cell sc:id="t312" colSpan="2">
+									<sc:para xml:space="preserve" sc:id="t313">TN = ..............</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t407">
+									<sc:para xml:space="preserve" sc:id="t396">EP = .......</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t408"/>
+								<sc:cell sc:id="t316">
+									<sc:para xml:space="preserve" sc:id="t317">TxP  = ...........</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t318">
+								<sc:cell sc:id="t319">
+									<sc:para xml:space="preserve" sc:id="t320">
+										<sc:inlineStyle role="emp" sc:id="t371">
+											<sc:uLink role="glos" sc:id="t340" sc:refUri="/1B_op/M/TUV/TRG/TU.ref">TU</sc:uLink> = ? ? h</sc:inlineStyle>
+									</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t321">
+									<sc:para xml:space="preserve" sc:id="t322">
+										<sc:inlineStyle role="emp" sc:id="t372">
+<sc:uLink role="glos" sc:id="t399" sc:refUri="/1B_op/M/TUV/TRG/NQ.ref">NQ</sc:uLink> = ? ? h</sc:inlineStyle>
+									</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t409" colSpan="2"/>
+								<sc:cell sc:id="t323">
+									<sc:para xml:space="preserve" sc:id="t324">TxQ  = ..........</sc:para>
+								</sc:cell>
+							</sc:row>
+						</sc:table>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t350">
+					<sc:inlineStyle role="emp" sc:id="t422">Fabrication totale
+			</sc:inlineStyle>	</sc:para>
+				<sc:para xml:space="preserve" sc:id="t351">- <sc:textLeaf role="gap" sc:id="t355">100</sc:textLeaf> pièces de type P1 avec un T.U.F (temps unitaire de fabrication) de <sc:textLeaf role="gap" sc:id="t360">6</sc:textLeaf> minutes pour un temps total de <sc:textLeaf role="gap" sc:id="t354">600</sc:textLeaf> minutes, soit <sc:textLeaf role="gap" sc:id="t388">10</sc:textLeaf> heures.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t352">- <sc:textLeaf role="gap" sc:id="t356">180</sc:textLeaf> pièces de type P2 avec un T.U.F de 1 minutes, soit <sc:textLeaf role="gap" sc:id="t358">3</sc:textLeaf> heures.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t353">- <sc:textLeaf role="gap" sc:id="t357">12</sc:textLeaf> pièces de type P3 avec un T.U.F de 10 minutes, soit <sc:textLeaf role="gap" sc:id="t359">2</sc:textLeaf> heures</sc:para>
+				<sc:para xml:space="preserve" sc:id="t382">Non avons donc un <sc:uLink role="glos" sc:id="t453" sc:refUri="/1B_op/M/TUV/TRG/TN.ref">Temps net (TN)</sc:uLink> de <sc:textLeaf role="gap" sc:id="t364">15</sc:textLeaf> heures.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t383">
+					<sc:inlineStyle role="emp" sc:id="t423">Contrôle Qualité</sc:inlineStyle></sc:para>
+				<sc:para xml:space="preserve" sc:id="t385">Le contrôle qualité a révélé que <sc:textLeaf role="gap" sc:id="t342">10</sc:textLeaf> produits P1 et 60 produits <sc:textLeaf role="gap" sc:id="t343">P2</sc:textLeaf> étaient défectueux, soit 10 * <sc:textLeaf role="gap" sc:id="t345">6</sc:textLeaf> mns +60 * <sc:textLeaf role="gap" sc:id="t346">1</sc:textLeaf> mn : soit <sc:textLeaf role="gap" sc:id="t344">2</sc:textLeaf> heures de perte pour <sc:uLink role="glos" sc:id="t454" sc:refUri="/1B_op/M/TUV/TRG/NQ.ref">Non Qualité (NQ)</sc:uLink></sc:para>
+				<sc:para xml:space="preserve" sc:id="t472">Le TU est donc de <sc:textLeaf role="gap" sc:id="t463">15</sc:textLeaf> - <sc:textLeaf role="gap" sc:id="t464">2</sc:textLeaf> = <sc:textLeaf role="gap" sc:id="t465">13</sc:textLeaf> heures</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

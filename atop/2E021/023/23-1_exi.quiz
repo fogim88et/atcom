@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>23-1 (calculs FMD papier)</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:res sc:refUri="/0C-src/000/src_013_1.ods">
+					<op:resInfoM>
+						<sp:pubMode>zoom</sp:pubMode>
+						<sp:instruct>
+							<op:instructionM/>
+						</sp:instruct>
+					</op:resInfoM>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t13">A l'aide du document (Téléchargement :<sc:uLink role="resLnk" sc:id="t320" sc:refUri="/0C-src/000/src_013_1.ods">src 13.1 : Durée de vie 100 Ampoules</sc:uLink>), calculer les données manquantes.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t272">R(t) sera saisi avec sa probabilité à 2 chiffres derrière la virgule ou en pourcentage.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t273">La (t) sera donné en hr<sc:textLeaf role="exp" sc:id="t233">-1</sc:textLeaf> avec 2 chiffres derrière la virgule (x.xxEzvv) ---&gt; <sc:inlineStyle role="emp" sc:id="t282">6,1.E-05 sera donc saisi sous la forme 6,10E-05</sc:inlineStyle>.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:table role="" sc:id="t18">
+					<sc:column sc:id="t250" width="9"/>
+					<sc:column sc:id="t19" width="9"/>
+					<sc:column sc:id="t20" width="8"/>
+					<sc:column width="7"/>
+					<sc:column sc:id="t21" width="9"/>
+					<sc:column sc:id="t22" width="8"/>
+					<sc:column sc:id="t23" width="15"/>
+					<sc:row role="head" sc:id="t25">
+						<sc:cell sc:id="t251">
+							<sc:para xml:space="preserve" sc:id="t211">t</sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t26">
+							<sc:para xml:space="preserve" sc:id="t97">tc</sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t27">
+							<sc:para xml:space="preserve" sc:id="t99">dt</sc:para>
+						</sc:cell>
+						<sc:cell>
+							<sc:para xml:space="preserve">dN(tc)</sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t28">
+							<sc:para xml:space="preserve" sc:id="t101">N(t)</sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t29">
+							<sc:para xml:space="preserve" sc:id="t103">R(t)</sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t30">
+							<sc:para xml:space="preserve" sc:id="t105">La(t) en hr<sc:textLeaf role="exp" sc:id="t231">-1</sc:textLeaf></sc:para>
+						</sc:cell>
+					</sc:row>
+					<sc:row>
+						<sc:cell>
+							<sc:para xml:space="preserve">0</sc:para>
+						</sc:cell>
+						<sc:cell/>
+						<sc:cell/>
+						<sc:cell/>
+						<sc:cell>
+							<sc:para xml:space="preserve">100</sc:para>
+						</sc:cell>
+						<sc:cell>
+							<sc:para xml:space="preserve">1</sc:para>
+						</sc:cell>
+						<sc:cell/>
+					</sc:row>
+					<sc:row>
+						<sc:cell/>
+						<sc:cell>
+							<sc:para xml:space="preserve"><sc:textLeaf role="gap">800</sc:textLeaf></sc:para>
+						</sc:cell>
+						<sc:cell>
+							<sc:para xml:space="preserve"><sc:textLeaf role="gap">1600</sc:textLeaf></sc:para>
+						</sc:cell>
+						<sc:cell>
+							<sc:para xml:space="preserve">0</sc:para>
+						</sc:cell>
+						<sc:cell/>
+						<sc:cell/>
+						<sc:cell>
+							<sc:para xml:space="preserve">0</sc:para>
+						</sc:cell>
+					</sc:row>
+					<sc:row>
+						<sc:cell>
+							<sc:para xml:space="preserve">1600</sc:para>
+						</sc:cell>
+						<sc:cell/>
+						<sc:cell/>
+						<sc:cell/>
+						<sc:cell>
+							<sc:para xml:space="preserve"><sc:textLeaf role="gap">100</sc:textLeaf></sc:para>
+						</sc:cell>
+						<sc:cell>
+							<sc:para xml:space="preserve"><sc:textLeaf role="gap"><op:gapM><sp:synonyms><sp:synonym>1</sp:synonym><sp:synonym>1,00</sp:synonym></sp:synonyms></op:gapM>1,00</sc:textLeaf></sc:para>
+						</sc:cell>
+						<sc:cell/>
+					</sc:row>
+					<sc:row>
+						<sc:cell/>
+						<sc:cell>
+							<sc:para xml:space="preserve"><sc:textLeaf role="gap">1800</sc:textLeaf></sc:para>
+						</sc:cell>
+						<sc:cell>
+							<sc:para xml:space="preserve"><sc:textLeaf role="gap">400</sc:textLeaf></sc:para>
+						</sc:cell>
+						<sc:cell>
+							<sc:para xml:space="preserve">2</sc:para>
+						</sc:cell>
+						<sc:cell/>
+						<sc:cell/>
+						<sc:cell/>
+					</sc:row>
+					<sc:row sc:id="t252">
+						<sc:cell sc:id="t253">
+							<sc:para xml:space="preserve" sc:id="t220">2000</sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t254"/>
+						<sc:cell sc:id="t255"/>
+						<sc:cell/>
+						<sc:cell sc:id="t256">
+							<sc:para xml:space="preserve" sc:id="t223"><sc:textLeaf role="gap" sc:id="t227">98</sc:textLeaf></sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t257">
+							<sc:para xml:space="preserve" sc:id="t224"><sc:textLeaf role="gap" sc:id="t228"><op:gapM><sp:synonyms><sp:synonym>98</sp:synonym><sp:synonym>98%</sp:synonym><sp:synonym>98 %</sp:synonym></sp:synonyms></op:gapM>0,98</sc:textLeaf></sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t258"/>
+					</sc:row>
+					<sc:row sc:id="t32">
+						<sc:cell sc:id="t260"/>
+						<sc:cell sc:id="t33">
+							<sc:para xml:space="preserve" sc:id="t109">2200</sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t34">
+							<sc:para xml:space="preserve" sc:id="t111"><sc:textLeaf role="gap" sc:id="t210">400</sc:textLeaf></sc:para>
+						</sc:cell>
+						<sc:cell/>
+						<sc:cell sc:id="t35"/>
+						<sc:cell sc:id="t36"/>
+						<sc:cell sc:id="t37">
+							<sc:para xml:space="preserve" sc:id="t117"><sc:textLeaf role="gap" sc:id="t229"><op:gapM><sp:synonyms><sp:synonym>5,14E-05</sp:synonym><sp:synonym>5,16E-05</sp:synonym></sp:synonyms></op:gapM>5,15E-05</sc:textLeaf></sc:para>
+						</sc:cell>
+					</sc:row>
+					<sc:row sc:id="t384">
+						<sc:cell sc:id="t385">
+							<sc:para xml:space="preserve" sc:id="t346">2400</sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t386"/>
+						<sc:cell sc:id="t387"/>
+						<sc:cell/>
+						<sc:cell sc:id="t388"/>
+						<sc:cell sc:id="t389"/>
+						<sc:cell sc:id="t390"/>
+					</sc:row>
+					<sc:row sc:id="t391">
+						<sc:cell sc:id="t392">
+							<sc:para xml:space="preserve" sc:id="t352">..................</sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t393">
+							<sc:para xml:space="preserve" sc:id="t353">...................</sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t394">
+							<sc:para xml:space="preserve" sc:id="t354">.................</sc:para>
+						</sc:cell>
+						<sc:cell/>
+						<sc:cell sc:id="t395">
+							<sc:para xml:space="preserve" sc:id="t355">...................</sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t396">
+							<sc:para xml:space="preserve" sc:id="t356">.................</sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t397">
+							<sc:para xml:space="preserve" sc:id="t357">...............................</sc:para>
+						</sc:cell>
+					</sc:row>
+					<sc:row sc:id="t39">
+						<sc:cell sc:id="t261"/>
+						<sc:cell sc:id="t40">
+							<sc:para xml:space="preserve" sc:id="t121">3100</sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t41">
+							<sc:para xml:space="preserve" sc:id="t123">200</sc:para>
+						</sc:cell>
+						<sc:cell/>
+						<sc:cell sc:id="t42"/>
+						<sc:cell sc:id="t43"/>
+						<sc:cell sc:id="t44">
+							<sc:para xml:space="preserve" sc:id="t129"><sc:textLeaf role="gap" sc:id="t234"><op:gapM><sp:synonyms><sp:synonym>2,63E-03</sp:synonym><sp:synonym>2,65E-03</sp:synonym></sp:synonyms></op:gapM>2,64E-03</sc:textLeaf></sc:para>
+						</sc:cell>
+					</sc:row>
+					<sc:row>
+						<sc:cell>
+							<sc:para xml:space="preserve" sc:id="t431">..................</sc:para>
+						</sc:cell>
+						<sc:cell>
+							<sc:para xml:space="preserve" sc:id="t432">...................</sc:para>
+						</sc:cell>
+						<sc:cell>
+							<sc:para xml:space="preserve" sc:id="t433">.................</sc:para>
+						</sc:cell>
+						<sc:cell/>
+						<sc:cell>
+							<sc:para xml:space="preserve" sc:id="t434">...................</sc:para>
+						</sc:cell>
+						<sc:cell>
+							<sc:para xml:space="preserve" sc:id="t435">.................</sc:para>
+						</sc:cell>
+						<sc:cell>
+							<sc:para xml:space="preserve" sc:id="t436">...............................</sc:para>
+						</sc:cell>
+					</sc:row>
+					<sc:row sc:id="t46">
+						<sc:cell sc:id="t262">
+							<sc:para xml:space="preserve" sc:id="t214">3800</sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t47"/>
+						<sc:cell sc:id="t48"/>
+						<sc:cell/>
+						<sc:cell sc:id="t49">
+							<sc:para xml:space="preserve" sc:id="t137"><sc:textLeaf role="gap" sc:id="t235">3</sc:textLeaf></sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t50">
+							<sc:para xml:space="preserve" sc:id="t139"><sc:textLeaf role="gap" sc:id="t236"><op:gapM><sp:synonyms><sp:synonym>3%</sp:synonym><sp:synonym>3</sp:synonym></sp:synonyms></op:gapM>0,03</sc:textLeaf></sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t51"/>
+					</sc:row>
+					<sc:row sc:id="t53">
+						<sc:cell sc:id="t263"/>
+						<sc:cell sc:id="t54">
+							<sc:para xml:space="preserve" sc:id="t145">4000</sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t55">
+							<sc:para xml:space="preserve" sc:id="t147"><sc:textLeaf role="gap" sc:id="t238">400</sc:textLeaf></sc:para>
+						</sc:cell>
+						<sc:cell/>
+						<sc:cell sc:id="t56"/>
+						<sc:cell sc:id="t57"/>
+						<sc:cell sc:id="t58">
+							<sc:para xml:space="preserve" sc:id="t153"><sc:textLeaf role="gap" sc:id="t237">2,50E-03</sc:textLeaf></sc:para>
+						</sc:cell>
+					</sc:row>
+					<sc:row sc:id="t398">
+						<sc:cell sc:id="t399">
+							<sc:para xml:space="preserve" sc:id="t425">4200</sc:para>
+						</sc:cell>
+						<sc:cell sc:id="t400"/>
+						<sc:cell sc:id="t401"/>
+						<sc:cell/>
+						<sc:cell sc:id="t402"/>
+						<sc:cell sc:id="t403"/>
+						<sc:cell sc:id="t404"/>
+					</sc:row>
+				</sc:table>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

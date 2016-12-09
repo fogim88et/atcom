@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:refM>
+			<sp:ref>Projet 2</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Gestion d'un club sportif ou une association. </sc:para>
+					<sc:para xml:space="preserve">Les adhérents s'inscrivent à des activités organisées par des intervenants.</sc:para>
+					<sc:para xml:space="preserve"> Les adhérents versent une cotisation définie pour un volume horaire.</sc:para>
+					<sc:para xml:space="preserve"> L'application devra assurer le suivi du volume horaire disponible pour chaque adhérent.</sc:para>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

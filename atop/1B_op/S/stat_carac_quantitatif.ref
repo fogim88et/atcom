@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:glosM>
+			<sp:term>Caractère quantitatif</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Les <sc:inlineStyle role="emp">observations</sc:inlineStyle> sur l'<sc:inlineStyle role="emp">individu</sc:inlineStyle> sont mesurables par une grandeur numérique.</sc:para>
+					<sc:para sc:id="t4">Le <sc:inlineStyle role="emp">caractère</sc:inlineStyle> peut-être <sc:inlineStyle role="emp">discret</sc:inlineStyle> (nombre limité de valeurs) ou <sc:inlineStyle role="emp">continu</sc:inlineStyle> (infinité de valeurs possibles)</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

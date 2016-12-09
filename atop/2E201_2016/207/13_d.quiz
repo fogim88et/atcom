@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>D. Stock de départ</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t95"><sc:uLink role="ucLnk" sc:id="t101" sc:refUri="/2E201_2016/207/13_0.xml">13. Enonçé</sc:uLink></sc:para>
+						<sc:para xml:space="preserve" sc:id="t87">En 13.c, nous avons calculé que 19953 seront encore en fonctionnement</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t85">A combien de défaillances peut – on s'attendre au bout de 5000 heures de fonctionnement sur un lot de 20000 pièces ---&gt;  <sc:textLeaf role="gap" sc:id="t18">47</sc:textLeaf> </sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t30">On a N(t=5 000)=19953 donc dN(0 à 5 000)=N(0)-N(5000) =47</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t99">Au pire, si on suppose que les 47 soient défaillants dans les premières heures, on peut en déduire que moins de 1% des composants remplacés seront à nouveau défaillant. Néanmoins, on peut donc choisir 50 pièces à stocker.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

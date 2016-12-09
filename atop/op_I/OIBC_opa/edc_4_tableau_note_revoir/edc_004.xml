@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Notes</sp:title>
+			<sp:sTitle>Notes</sp:sTitle>
+		</op:uM>
+		<sp:courseUc>
+			<op:expUc>
+				<op:uM>
+					<sp:title>Contexte</sp:title>
+					<sp:sTitle>Contexte</sp:sTitle>
+				</op:uM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t11">Vous obtenez tout au long de l'année des notes dans des matières --> Entité Note --> Feuille Note</sc:para>
+										<sc:para>Les notes peuvent être coefficientées au regard du calcul de la moyenne dans chaque matière --> Entité Matière --> Feuille Mat</sc:para>
+										<sc:para>Chaque matière dispose elle même de son propre coefficient et est inclue dans une UE (Unité d'enseignement) --> Entité UE --> Feuille UE</sc:para>
+										<sc:para>Les colonnes dont le nom commence par id_ doivent être des numériques entier</sc:para>
+										<sc:para>Les colonnes nt_mat et mat_ue permettent respectivement d'attacher une note à une matière et une matière à une ue : ce sont donc aussi des n°.</sc:para>
+										<sc:para>La colonne Prof sera réservée aux initiales du professeur attribuant une note. Plusieurs Ensignants peuvent intervenir dans la même matière.</sc:para>
+										<sc:para>Pour assigner les noms, il faut prévoir une centaine de notes.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:int sc:refUri="/op_I/OIBC_opa/edc_4_tableau_note_revoir/Classeur_notes.ods">
+									<op:instructionM/>
+								</sp:int>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t19">Calculer les moyennes dans chaque matière, dans chaque UE, et en déduire si vous respectez les conditions de passage : Moyenne générale >10 et Moyenne de chaque UE supérieure à 8</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUc>
+		</sp:courseUc>
+	</op:courseUa>
+</sc:item>

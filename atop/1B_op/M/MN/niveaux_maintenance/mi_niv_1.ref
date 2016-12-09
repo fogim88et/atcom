@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Maintenance de Niveau 1</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Réglages simples prévus par le constructeur au moyen d'organes accessibles sans aucun démontage d'équipement, ou échange d'éléments accessibles en toute sécurité.</sc:para>
+					<sc:para>Peut être réalisé par l'opérateur, sur place. I1 ne nécessite qu'un outillage léger défini dans les instructions d'utilisation.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

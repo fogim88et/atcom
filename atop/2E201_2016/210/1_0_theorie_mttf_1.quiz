@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:mcqMur xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>définition du MTTF</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Quelles expressions sont correctes pour désigner le MTTF.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:choices>
+			<sc:choice solution="unchecked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t5">Le MTTF est une durée de vie &quot;nominale&quot;</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para sc:id="t7">Non, une <sc:uLink role="glos" sc:id="t46" sc:refUri="/1B_op/D/dv_nominale.ref">durée de vie nominale</sc:uLink> est bien inférieure au MTTF.</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t9">Le MTTF est une espérance mathématique d'un point de vue statistique</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para sc:id="t11">
+							<sc:uLink role="glos" sc:id="t47" sc:refUri="/1B_op/M/TUV/T_survie/V_T.ref">T est la variable étudiée</sc:uLink> pour définir les caractéristiques la Fiabilité par des études statistiques</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+			<sc:choice solution="unchecked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t13">C'est le temps total de l'étude divisé par le nombre de pannes d'un dispositif réparable.</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para sc:id="t15">Non, dans ce cas, on parle de <sc:uLink role="glos" sc:id="t48" sc:refUri="/1B_op/M/MN/MTBF.ref">MTBF</sc:uLink>, même si le parallèle peut être fait entre <sc:uLink role="glos" sc:id="t49" sc:refUri="/1B_op/M/TUV/tps_mi/TTF.ref">TTF</sc:uLink> et <sc:uLink role="glos" sc:id="t80" sc:refUri="/1B_op/M/TUV/tps_mi/TBF_TED.ref">TBF</sc:uLink>
+						</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t82">C'est la moyenne des <sc:uLink role="glos" sc:id="t116" sc:refUri="/1B_op/M/TUV/tps_mi/TTF.ref">temps de fonctionnement</sc:uLink> de n <sc:uLink role="glos" sc:id="t113" sc:refUri="/1B_op/D/disp_non_reparable.ref">dispositifs non réparables</sc:uLink>.</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para sc:id="t84">Pour <sc:uLink role="glos" sc:id="t169" sc:refUri="/1B_op/D/disp_non_reparable.ref">n dispositifs non réparables</sc:uLink>, le <sc:uLink role="glos" sc:id="t170" sc:refUri="/1B_op/M/MN/MTTF.ref">MTTF</sc:uLink> a pour valeur<sc:inlineImg role="form" sc:id="t115" sc:refUri="/1B_op/M/MN/MES-fmd-odf/MTTF_n.odf"/>
+						</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t118">La fiabilité à t=MTTF est proche de 50%</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t120">Oui, si la <sc:uLink role="glos" sc:refUri="/1B_op/S/fd.ref">distribution de probabilité f</sc:uLink> est centrée sur le <sc:uLink role="glos" sc:id="t145" sc:refUri="/1B_op/M/MN/MTTF.ref">MTTF</sc:uLink>, sinon, la fiabilité peut-être comprise entre 35% et 65% selon la forme de la distribution. </sc:para>
+						<sc:para xml:space="preserve" sc:id="t146">Dans le cas du <sc:uLink role="glos" sc:id="t171" sc:refUri="/1B_op/M/EF/modele_exponentiel.ref">modèle exponentiel</sc:uLink>, on R(t=MTTF)=0,36.</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+		</sc:choices>
+	</op:mcqMur>
+</sc:item>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Lister les données techniques et les données de Flux</sp:title>
+			<sp:sTitle>Données Techniques et Données de Flux</sp:sTitle>
+		</op:uM>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t7">Description de l'activité de l'entreprise, les produits finis (PRODUCTION VENDUE), les composants (ACHAT) et composés (PRODUCTION) nécessaires à la fabrication des produits finis.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t13">Vous disposerez d'un état des lieux au premier Mars, date à laquelle vous prenez en main l'activité de l'entreprise. Nous allons donc simuler les flux journaliers entre les différents services de l'entreprise :</sc:para>
+						<sc:para xml:space="preserve">- ACHAT (1 personne)</sc:para>
+						<sc:para xml:space="preserve">- MAGASIN (3 personnes)</sc:para>
+						<sc:para xml:space="preserve">- USINAGE (1 personne)</sc:para>
+						<sc:para xml:space="preserve">- MONTAGE+LAZURAGE + VERNISSAGE (3 personnes)</sc:para>
+						<sc:para xml:space="preserve">- VENTE (1 personne)</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:courseUc sc:refUri="/P_op/MP/001_ac_lazurex/01_a_Entreprise.xml"/>
+		<sp:courseUc sc:refUri="/P_op/MP/001_ac_lazurex/01_b_articles_ventes.xml"/>
+		<sp:courseUc sc:refUri="/P_op/MP/001_ac_lazurex/02_en_bdd.xml"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/001_ac_res/01_200_fichier_nomenclature.quiz"/>
+		<sp:trainUcCloze sc:refUri="/P_op/MP/001_ac_res/01_300_pdc.quiz"/>
+	</op:courseUa>
+</sc:item>

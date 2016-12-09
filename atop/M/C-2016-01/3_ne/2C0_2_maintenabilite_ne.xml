@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Maintenabilité</sp:title>
+			<sp:sTitle>Maintenabilité</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t9">C'est une composante de la <sc:uLink role="glos" sc:id="t20" sc:refUri="/1B_op/D/disponibilite.ref">disponibilité</sc:uLink> au même titre que la <sc:uLink role="glos" sc:id="t21" sc:refUri="/1B_op/M/EF/fiabilite.ref">fiabilité</sc:uLink>.</sc:para>
+								<sc:para sc:id="t44">La fiabilité permet d'agir sur la fréquence des défaillances, la bonne santé machine, la <sc:uLink role="glos" sc:id="t22" sc:refUri="/1B_op/M/MN/maintenabilite.ref">maintenabilité</sc:uLink> va agir sur le <sc:uLink role="glos" sc:id="t23" sc:refUri="/1B_op/M/TUV/tps_mi/TTR_TA.ref">temps d'arrêt</sc:uLink> (TA). Une caractéristique de la maintenabilité est le <sc:uLink role="glos" sc:id="t49" sc:refUri="/1B_op/M/MN/MTTR.ref">MTTR</sc:uLink>
+</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t10">La maintenabilité, comme la fiabilité doit être prise en compte dès le stade de la conception, pour appréhender les problèmes d'accessibilité, de standards techniques pour les pièces détachées, de procédures de montage, démontage, réglage.</sc:para>
+								<sc:para sc:id="t11">La fiabilité opérationnelle d'une machine sera d'autant plus proche de la fiabilité intrinsèque que l'on maintiendra les conditions nominales d'utilisation et d'exploitation. Pour la maintenabilité, c'est la compétence de l'agent de maintenance et les moyens mis à sa disposition qui vont être prépondérants.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t26">En effet, la maintenabilité va se traduire concrètement par un temps technique de réparation (T.T.R : Time To Repair) qui se décomposera selon les étapes suivantes.</sc:para>
+								<sc:itemizedList sc:id="t33">
+									<sc:listItem sc:id="t34">
+										<sc:para sc:id="t27">Diagnostic, localisation du composant défaillant Compétence, Outils de mesure</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t35">
+										<sc:para sc:id="t28">Démontage (procédure + vérifications éventuelles)</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t36">
+										<sc:para sc:id="t29">Échange et disponibilité de la pièce en stock</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t37">
+										<sc:para sc:id="t30">Remontage Procédure</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t38">
+										<sc:para sc:id="t31">Réglage Documentation technique</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t39">
+										<sc:para sc:id="t32">Contrôle et essais Qualité de la production</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t41">Les sources de perte de temps sont nombreuses, et seront souvent liées à des problèmes de logistique, d'organisation, et de documentation.</sc:para>
+								<sc:para>La maintenabilité est donc un véritable véritable enjeu pour les méthodes de maintenance, à la portée de toute entreprise, car les efforts induiront forcément un gain important.</sc:para>
+								<sc:para>Améliorer la fiabilité nécessite des moyens importants (financiers, humains, compétence) et se justifie surtout quand les enjeux sont orientés sécurité, </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

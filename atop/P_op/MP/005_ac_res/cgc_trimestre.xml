@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Horizon à 3 mois</sp:title>
+			<sp:sTitle>Horizon à 3 mois</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Données techniques</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t75">Le Poste VE est un poste goulet avec une adéquation charge/capacité proche de 100% voir plus.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t76">A l'aide du fichier article, poste de charge GOULET (VE), gamme, remplir la base de données  technique.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t77">Pour le  CGC, on retient les données techniques au vernis : </sc:para>
+								<sc:itemizedList sc:id="t51">
+									<sc:listItem sc:id="t52">
+										<sc:para xml:space="preserve" sc:id="t78">les articles passant sur le poste VERNIS</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t53">
+										<sc:para xml:space="preserve" sc:id="t79">les opérations de gamme utilisant le poste VERNIS</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Données de Flux</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t56">On ne tient compte que des prévisions et stock des articles utilisant la ressource VERNIS</sc:para>
+								<sc:para xml:space="preserve" sc:id="t80">Rappel : les OF et les OA ne font pas partie du <sc:uLink role="glos" sc:id="t89" sc:refUri="/P_op/MP/4_prod/calcul_charges_globales.ref">CGC</sc:uLink> car ce sont des données à court-terme.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t81">Les prévisions sont données en quantité par semaine. Il n'y a pas de commandes fermes sur EMV.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/P_op/MP/005_ac_res/previsons_emv_3mois.ods">
+<op:resInfoM>
+<sp:index>tab</sp:index>
+</op:resInfoM>
+</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t58">Le stock dispo au premier Avril est de 20</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Plan Directeur</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t60">Il suit la même logique que le PDP mais pas d'OF en cours, pas de début d'ordre, pas de réceptions prévues, jalonnement au plus tard. Travaillez avec le fichier ci-dessous</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:int sc:refUri="/P_op/MP/000_bbd_tech_res/modeles/stock_suivi_cgc.ods">
+							<op:instructionM/>
+						</sp:int>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>CGC</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t62">Idem au PDP sauf qu'il est établi à la semaine, le cumul se fera en mois.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t98">Vos Ordres seront codés à partir de 500</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Planning de charge moyen terme (3 mois)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t64">Même calculs que ceux du PDP en utilisant le fichier ci-dessous</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:int sc:refUri="/P_op/MP/000_bbd_tech_res/modeles/OF_poste_modele_cgc.ods">
+							<op:instructionM/>
+						</sp:int>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t122">En déduire la charge/Capacité à 3 mois dans le tableau ci-dessous</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:int sc:refUri="/P_op/MP/000_bbd_tech_res/modeles/cgc_charge_capacite_modele.ods">
+							<op:instructionM/>
+						</sp:int>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

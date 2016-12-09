@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Besoin dépendant</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t4">Ensemble des articles fabriqués (ou achetés) dont la demande dépend de celle d'autres articles. </sc:para>
+					<sc:para>Les composants entrant dans les produits finis sont des besoins dépendants. </sc:para>
+					<sc:para>La demande des articles dépendants a donc pour origine une source interne à l'entreprise : le besoin de tels articles ne peut être anticipé ; il doit être calculé.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:webRoot xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:webRootM>
+			<sp:version>7B_ac_web</sp:version>
+			<sp:date>8 Décembre 2011</sp:date>
+			<sp:auth>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Franck OURION (http://mod.gimep.net/7/B/7B_ac_web)</sc:para>
+				</op:sTxt>
+			</sp:auth>
+			<sp:contentFilter>standard</sp:contentFilter>
+			<sp:settings>
+				<sp:quest>yes</sp:quest>
+				<sp:glos>yes</sp:glos>
+				<sp:acr>yes</sp:acr>
+				<sp:ref>yes</sp:ref>
+				<sp:bib>yes</sp:bib>
+				<sp:index>yes</sp:index>
+				<sp:credits>no</sp:credits>
+			</sp:settings>
+		</op:webRootM>
+		<sp:ue sc:refUri="/op_I/OIBC_opa/7B_ac.xml"/>
+	</op:webRoot>
+</sc:item>

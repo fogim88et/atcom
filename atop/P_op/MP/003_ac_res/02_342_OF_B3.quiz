@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>OF pour B3 (Aide)</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Faites la somme de vos lignes</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t5">Total BB :<sc:textLeaf role="gap" sc:id="t8">2900</sc:textLeaf>.</sc:para>
+				<sc:para sc:id="t16">Total RP : <sc:textLeaf role="gap" sc:id="t9">0</sc:textLeaf>.</sc:para>
+				<sc:para sc:id="t17">Stock fin Mars : <sc:textLeaf role="gap" sc:id="t23">350</sc:textLeaf>
+
+					<sc:textLeaf role="gap" sc:id="t10"/>.</sc:para>
+				<sc:para sc:id="t18">Total BN : <sc:textLeaf role="gap" sc:id="t11">600</sc:textLeaf>.</sc:para>
+				<sc:para sc:id="t19">Total Fin Ordre : <sc:textLeaf role="gap" sc:id="t12">250</sc:textLeaf>.</sc:para>
+				<sc:para sc:id="t20">Total Début Ordre : <sc:textLeaf role="gap" sc:id="t13">250</sc:textLeaf>.</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:int sc:refUri="/00A/2017/B3.ods">
+					<op:instructionM/>
+				</sp:int>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

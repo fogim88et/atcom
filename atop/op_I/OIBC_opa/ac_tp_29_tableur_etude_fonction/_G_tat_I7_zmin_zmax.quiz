@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:cloze>
+<op:exeM>
+<sp:title>Encadrement des zéros</sp:title>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t9">Trouver la formule en I7 pour afficher Z_MIN, Z_MAX ou &quot;&quot;.</sc:para>
+						<sc:para>Pour ce faire, il faut comparer  signe<sc:textLeaf role="ind" sc:id="t16">i</sc:textLeaf> à signe<sc:textLeaf role="ind" sc:id="t17">(i-1)</sc:textLeaf>
+						et signe<sc:textLeaf role="ind" sc:id="t18">(i+1)</sc:textLeaf>
+						</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t5">Ma formule en I7 est <sc:textLeaf role="gap" sc:id="t12">=SI(G6&lt;>G7;&quot;Z_MAX&quot;;SI(G7&lt;>G8;&quot;Z_MIN&quot;;&quot;&quot;))</sc:textLeaf>
+</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t14">=SI(OU(G6&lt;>G7 ;G7&lt;>G8) ;&quot;ZERO&quot; ;&quot;&quot;) permet aussi de signaler un encadrement dans lequel on peut trouver f(x)=0</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

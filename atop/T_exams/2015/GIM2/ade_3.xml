@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>AMDEC - pratique</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t4">Un palier (niveau 3) est un élément d'un moteur (niveau 2) d'une installation de production (niveau 1)</sc:para>
+								<sc:table role="" sc:id="t5">
+									<sc:column sc:id="t6" width="20"/>
+									<sc:column sc:id="t7" width="20"/>
+									<sc:row sc:id="t8">
+										<sc:cell sc:id="t9">
+											<sc:para xml:space="preserve" sc:id="t10">Point/ Elément</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t11">
+											<sc:para xml:space="preserve" sc:id="t12">rep</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t13">
+										<sc:cell sc:id="t14">
+											<sc:para xml:space="preserve" sc:id="t15">Manque de graisse</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t16">
+											<sc:para xml:space="preserve" sc:id="t17">A</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t18">
+										<sc:cell sc:id="t19">
+											<sc:para xml:space="preserve" sc:id="t20">Arrêt fabrication</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t21">
+											<sc:para xml:space="preserve" sc:id="t22">B</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t23">
+										<sc:cell sc:id="t24">
+											<sc:para xml:space="preserve" sc:id="t25">Surchauffe moteur</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t26">
+											<sc:para xml:space="preserve" sc:id="t27">C</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t28">
+										<sc:cell sc:id="t29">
+											<sc:para xml:space="preserve" sc:id="t30">Blocage palier</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t31">
+											<sc:para xml:space="preserve" sc:id="t32">D</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t33">
+										<sc:cell sc:id="t34">
+											<sc:para xml:space="preserve" sc:id="t35">Déclenchement thermique</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t36">
+											<sc:para xml:space="preserve" sc:id="t37">E</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t38">
+										<sc:cell sc:id="t39">
+											<sc:para xml:space="preserve" sc:id="t40">Grippage palier</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t41">
+											<sc:para xml:space="preserve" sc:id="t42">F</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t43">
+										<sc:cell sc:id="t44">
+											<sc:para xml:space="preserve" sc:id="t45">Arrêt moteur</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t46">
+											<sc:para xml:space="preserve" sc:id="t47">G</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+								<sc:para xml:space="preserve" sc:id="t48">Les points éléments sont des causes, modes ou effets pouvant intervenir au niveau 1 ou 2 ou 3 d'une analyse de défaillance.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t49">Quel est le point initiateur de la défaillance ? Quel est l'effet au niveau du système ? En déduire  la chaîne de la défaillance pour chaque niveau (exemple : si vous répondez C -&gt; E -&gt; A, cela signifie pour un niveau que C est la cause, E le mode, A est la la conséquence ou l'effet</sc:para>
+								<sc:para xml:space="preserve" sc:id="t50">Pouvez vous compléter les éléments à étudier au niveau du palier ou du moteur, et compléter l'amdec des éléments étudiés au niveau où vous le souhaitez. On ne peut pas le faire au niveau du système car on ne vous a pas donné de précisions sur les fonctions du système.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

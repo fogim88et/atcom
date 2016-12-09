@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>TO (n1)</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t8">Une machine est censée produire 100 pièces à l'heure et <sc:inlineStyle role="emp">fonctionne 24 heures sur 24</sc:inlineStyle>. </sc:para>
+						<sc:para sc:id="t11">
+							<sc:inlineStyle role="emp">15 jours complets auront été nécessaires</sc:inlineStyle> à la fabrication de 30070 pièces bonnes avec un taux de qualité de 97%</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t5">TO = <sc:textLeaf role="gap" sc:id="t15">24</sc:textLeaf> heures de production journalière par <sc:textLeaf role="gap" sc:id="t18">15</sc:textLeaf> jours nécessaires = <sc:textLeaf role="gap" sc:id="t19">360</sc:textLeaf> heures</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

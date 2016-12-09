@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Classeur</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Un classeur est un document OpenOffice <sc:inlineStyle role="emp">Calc</sc:inlineStyle> ou <sc:inlineStyle role="emp">Excel</sc:inlineStyle></sc:para>
+					<sc:para>Il contient des feuilles que l'on peut nommer et ordonner afin de gérer plusieurs sous-document portant sur un même thème.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

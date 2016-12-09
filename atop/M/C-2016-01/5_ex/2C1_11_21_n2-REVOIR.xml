@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>EXR-21. Approximation modèle exponentiel</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Modèle statistique : Loi exponentielle</sp:keywd>
+							<sp:keywd>Fiabilité prévisionnelle</sp:keywd>
+							<sp:keywd>Fiabilité observée</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>2C1-11-n2</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t45">Pré-requis : 2C2-04.1-n1.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t3">Dans l'exercice 2C2-04.1-n1, nous avons vu que le taux de défaillance est constant dans le temps. </sc:para>
+						<sc:para xml:space="preserve" sc:id="t42">Le modèle exponentiel peut donc s'appliquer à la modélisation de la durée de vie de ce composant.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t8">Il faut choisir la valeur de Lambda la plus proche possible des valeurs expérimentales calculées.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t16">De R(t)=Exp(-λt), on tire <sc:inlineImg role="form" sc:id="t11" sc:refUri="/1A_/f/S/E6-Lexp/Ln_Lexp_R(t).odf"/>. Les points (t, Ln R) doivent donc être alignés si les données expérimentales peuvent être modélisées avec le modèle exponentiel.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t30">Pour chaque rang i, calculez la fiabilité expérimentale à l'aide des <sc:uLink role="glos" sc:id="t18" sc:refUri="/1B_op/M/MN/rangs_medians.ref">rangs médians</sc:uLink>
+<sc:inlineImg role="form" sc:id="t17" sc:refUri="/1B_op/M/MN/MES-fmd-odf/R_median_n_faible.odf"/>. Avec le tableur, comme nous ajoutons le rang i=0, on imposera R(i=0)=1.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t31">Calculez Ln R<sc:textLeaf role="ind" sc:id="t19">i</sc:textLeaf>.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t32">Placez les points t<sc:textLeaf role="ind" sc:id="t21">i</sc:textLeaf>,  Ln R<sc:textLeaf role="ind" sc:id="t20">i</sc:textLeaf> sur un graphe XY.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t33">Tracer la droite la plus proche du nuage de point, et en déduire la pente qui est égale à -λ. Pour simplifier, on peut aussi évaluer λ avec 1/MTTF.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t34">Calculez pour chaque valeur de i, R<sc:textLeaf role="ind" sc:id="t22">thé</sc:textLeaf>(t) --&gt; R<sc:textLeaf role="ind" sc:id="t23">thé</sc:textLeaf>(t) est calculé avec le modèle exponentiel et la valeur de λ que vous avez choisi.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t35">Comparez sur un même graphique R<sc:textLeaf role="ind" sc:id="t25">exp</sc:textLeaf> (t) et R<sc:textLeaf role="ind" sc:id="t24">thé</sc:textLeaf> (t).</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t37">Suivre les étapes ci-dessus à l'aide du tableur ou de labview</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

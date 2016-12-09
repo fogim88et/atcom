@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:ueM>
+			<sp:title>Calcul de probabilité et Analyse Combinatoire</sp:title>
+			<sp:sTitle>Proba et combinaisons</sp:sTitle>
+		</op:ueM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para sc:id="t8">Ce module est destiné à vous faire acquérir les premières notions en dénombrement (Chapitre I).</sc:para>
+				<sc:para> Il vous initiera ensuite au Calcul des Probabilités (Chapitre II).</sc:para>
+				<sc:para sc:id="t9">Chaque notion est illustrée par des exemples. Vous êtes sollicité tout au long d'une leçon par des questions pour en vérifier votre compréhension. Des résumés et un grand nombre d'exercices interactifs complètent les leçons.</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:courseUa sc:refUri="/D/DS/ressources_alternatives/1.0.Analyse Combinatoire.xml"/>
+		<sp:courseUa sc:refUri="/D/DS/ressources_alternatives/2.0.Calcul_proba.xml"/>
+		<sp:genRef>
+			<op:genRef>
+				<sp:ref sc:refUri="/D/DS/ressources_alternatives/biblio_cnam.ref"/>
+			</op:genRef>
+		</sp:genRef>
+	</op:ue>
+</sc:item>

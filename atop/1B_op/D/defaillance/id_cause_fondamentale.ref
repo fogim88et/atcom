@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Cause fondamentale d'apparition</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t5">
+						<sc:inlineStyle role="emp">Faiblesse inhérente</sc:inlineStyle> : lorsque les contraintes ne dépassent pas à priori les possibilités du bien.</sc:para>
+					<sc:para sc:id="t6">
+						<sc:inlineStyle role="emp">Mauvais emploi</sc:inlineStyle> : lorsque les contraintes dépassent les possibilités du bien.</sc:para>
+					<sc:para sc:id="t7">
+						<sc:inlineStyle role="emp">Défaillance première</sc:inlineStyle> : la défaillance du bien n'est pas due à la défaillance d'un autre équipement.</sc:para>
+					<sc:para sc:id="t8">
+						<sc:inlineStyle role="emp">Défaillance seconde</sc:inlineStyle> : la défaillance du bien est due à la défaillance d'un autre équipement</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

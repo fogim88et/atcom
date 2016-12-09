@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Le TRG (analogie jeu de la maintenance)</sp:title>
+			<sp:sTitle>le TRG (Jeu)</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>TRG</sp:keywd>
+							<sp:keywd>Exemple</sp:keywd>
+							<sp:keywd>Jeu de la maintenance</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+					<sp:cc>by</sp:cc>
+					<sp:cpyrgt>
+						<op:sPara>
+							<sc:para sc:id="t7">CIPE</sc:para>
+						</op:sPara>
+					</sp:cpyrgt>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Le parallèle avec le jeu de la maintenance</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Le rapport Kms réels sur les Kms Théoriques</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t185">On peut faire ici l'analogie entre le <sc:uLink role="glos" sc:id="t226" sc:refUri="/1B_op/M/TUV/TRG/TO.ref">TO </sc:uLink>: temps d'ouverture (Kms théoriques) et le <sc:uLink role="glos" sc:id="t227" sc:refUri="/1B_op/M/TUV/TRG/TU.ref">TU </sc:uLink>: temps utile (Kms réels)</sc:para>
+										<sc:para sc:id="t186">La différence due aux événements, aux ralentissements et aux incidents de parcours symbolise les différentes causes d'arrêt de production, non seulement dues aux pannes, mais aussi aux changements de série, attente contrôle, écart de performance, non qualité.</sc:para>
+										<sc:para sc:id="t187">On remarque que les pertes ont aussi pour origine, l'absence d'organisation, de préparation du conducteur, de préparation du véhicule, ou encore, d'arrêts dus au parcours et au ralentissement volontaire des équipes.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:rem>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t189">Dans le cadre du jeu, l'objectif des équipes est d'optimiser ce sur quoi elles peuvent agir :<sc:inlineStyle role="emp"> la meilleure exploitation du score au dé</sc:inlineStyle>.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:rem>
+						<sp:meth>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t192">Pour y parvenir les équipes doivent attaquer l'ensemble des sources de pertes dues aux événements, aux ralentissements, au parcours.</sc:para>
+										<sc:para sc:id="t194">Les équipes peuvent dans le cadre du jeu agir entre autre sur :</sc:para>
+										<sc:itemizedList sc:id="t195">
+											<sc:listItem sc:id="t196">
+												<sc:para sc:id="t197">l'achat de protections</sc:para>
+												<sc:itemizedList sc:id="t198">
+													<sc:listItem sc:id="t199">
+														<sc:para sc:id="t200">remise à niveau du véhicule</sc:para>
+													</sc:listItem>
+													<sc:listItem sc:id="t201">
+														<sc:para sc:id="t202">préparation du conducteur</sc:para>
+													</sc:listItem>
+													<sc:listItem sc:id="t203">
+														<sc:para sc:id="t204">organisation</sc:para>
+													</sc:listItem>
+												</sc:itemizedList>
+											</sc:listItem>
+											<sc:listItem sc:id="t205">
+												<sc:para sc:id="t206">le choix de la politique maintenance (passage au stand)</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t207">
+												<sc:para sc:id="t208">le choix de s'arrêter ou de continuer lors des événements à cache</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:meth>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Calcul du TRG</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t5"><sc:uLink role="ref" sc:id="t11" sc:refUri="/2E001/007_ev_n2/0007.ref"/>Calculer le TRG et ses données intermédiaires.</sc:para>
+						<sc:para xml:space="preserve"><sc:uLink role="ref" sc:id="t23" sc:refUri="/2E001/007_ev_n2/0007.ref">7 : TRG (6A)</sc:uLink></sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t15">Le TRG est de <sc:textLeaf role="gap" sc:id="t18">86,25</sc:textLeaf> % ( arrondir à 2 décimales)</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

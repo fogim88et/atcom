@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Système de pompage</sp:title>
+			<sp:sTitle>Système de pompage</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Exercice</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t3">On souhaite réguler le niveau d'un réservoir en eau en fonction d'une demande qui est variable dans le temps.</sc:para>
+								<sc:para xml:space="preserve">On dispose de :</sc:para>
+								<sc:itemizedList sc:id="t17">
+									<sc:listItem sc:id="t18">
+										<sc:para xml:space="preserve">2 capteurs TOR (tout ou rien) B1 et B2 fixés respectivement à 60 % et 80 % de la capacité maximum du réservoir.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t19">
+										<sc:para xml:space="preserve">2 capteurs tout ou rien (0/1) Bmin et Bmax qui permettent d'être informés du niveau bas (réservoir vide, soit 0%) et du niveau maximum (réservoir plein 90% ).</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t20">
+										<sc:para xml:space="preserve">1 capteur analogique CA conditionné en 0-10 V pour un niveau de 0 à 100%</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t21">
+										<sc:para xml:space="preserve">3 pompes (P1-P2-P3) en parallèle dont 2 sont nécessaires pour assurer le maintien du niveau entre B1 et B2 en cas de besoin maximum. 1 seule pompe permet d'assurer le maintien entre B1 et B2 pour un besoin fixé à 50%</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t22">
+										<sc:para xml:space="preserve">3 Voyants VP1-VP2-VP3 associés à l'état de marche des pompes P1-P2-P3.</sc:para>
+										<sc:para xml:space="preserve">1 afficheur numérique (VCA) pour le niveau analogique</sc:para>
+										<sc:para xml:space="preserve">4 voyants VB1, VB2, VBmin, VBmax pour les niveaux TOR</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t23">
+										<sc:para xml:space="preserve">1 automate programmable (AP)</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t25">On donne les taux de défaillance suivants : Pompe (2.10<sc:textLeaf role="exp" sc:id="t29">-4</sc:textLeaf>), capteur TOR (10<sc:textLeaf role="exp" sc:id="t28">-6</sc:textLeaf>), CA (5.10<sc:textLeaf role="exp" sc:id="t27">-5</sc:textLeaf>), Voyants (10<sc:textLeaf role="exp" sc:id="t26">-10</sc:textLeaf>), AP (2.10<sc:textLeaf role="exp" sc:id="t30">-8</sc:textLeaf>)</sc:para>
+								<sc:para xml:space="preserve">On rappelle que les taux de défaillance s'ajoutent en série et se multiplient en parallèle.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t11">A1. Construire un schéma fonctionnel de l'installation</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t32">A2. Identifiez les principales sous fonctions et établir le FAST des sous-fonctions en liant les éléments aux sous-fonctions.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t7"> B1. Fonctionnement des pompes : Décrire les différentes solutions de redondance que l'on peut mettre en place en y associant le cycle de fonctionnement à mettre en place avec un automate programmable. Si on souhaite maintenir une usure homogène entre les pompes, quel cycle allez vous proposer.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t9">C1. Etablir le diagramme de fiabilité dans les 2 cas suivants : </sc:para>
+								<sc:itemizedList sc:id="t14">
+									<sc:listItem sc:id="t15">
+										<sc:para xml:space="preserve">Le système est dit défaillant si la fonction de régulation entre B1 et B2 ne peut plus être assurée pour un besoin de 100 %</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t16">
+										<sc:para xml:space="preserve">Le système est dit défaillant si la fonction de régulation entre B1 et B2 ne peut plus être assurée pour un besoin de 50 %</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t13">C2. Existe t-il des états de marche dégradé si la fonction de régulation entre B1 et B2 ne peut plus être assurée (sans tenir compte du besoin)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t36">C3. Quel est le rôle joué par les voyants relativement aux différentes solutions de redondance</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t34">D. Soit un système série composé de AP-P1-CA : calculer le taux de défaillance. L'événement indésirable est tout simplement le non fonctionnement non régulé du système et on considère que la fonction est réalisée si AP, une pompe et la mesure de niveau est réalisée. Le gain est sera donné par multiple de 10 : certains termes seront donc négligés ou arrondis.</sc:para>
+								<sc:para xml:space="preserve">On place une deuxième pompe P2 en parallèle de P1 : calculer taux de défaillance et en déduire les conséquences sur le facteur de risque.</sc:para>
+								<sc:para xml:space="preserve">On ajoute en parallèle à CA les capteurs B1 et B2 : Quel est le gain sur le facteur de risque.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t56">E (Question pour tout le monde) : </sc:para>
+								<sc:para xml:space="preserve">E1. Quelle est la différence entre l'AMDEC et la MBF ? </sc:para>
+								<sc:para xml:space="preserve">E2. Définissez les différents modes génériques de défaillance ? </sc:para>
+								<sc:para xml:space="preserve">E3. Choisissez un exemple qui vous permette de faire comprendre à une personne extérieure les termes MODE, CAUSE, EFFET</sc:para>
+								<sc:para xml:space="preserve">E4. Un effet au niveau d'un sous-système est un mode au niveau du système ? Justifiez ce fait par un exemple.</sc:para>
+								<sc:para xml:space="preserve">E5. En quoi les critères F.G.D ou S.O.D (vous donnerez leur signification) sont importants dans la proposition d'une solution proposée à une défaillance potentielle ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

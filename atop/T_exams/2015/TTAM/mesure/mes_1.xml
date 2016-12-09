@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Métrologie</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Mes-A</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t38">1. Décrire rapidement avec un schéma la chaîne de mesure.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t8">2. Quelles sont les caractéristiques les plus importantes pour choisir une carte d'acquisition (du plus important au moins important)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t9">3. Qu'est ce que le théorème de Shanon (ou Nyguist). Illustrez à l'aide d'un schéma le problème du repliement ou du sous-échantillonnage</sc:para>
+								<sc:para xml:space="preserve" sc:id="t40">4. Comparez les solutions Carte acquisition connectée au PC et des modules E/S Déporté TCP/IP sur un réseau local ou web.</sc:para>
+								<sc:para xml:space="preserve">5. Définir ce qu'est la plus petite variation mesurable</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

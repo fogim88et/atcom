@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:odRoot xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:odRootM>
+			<sp:coll>Gestion de stock - TD - Correction</sp:coll>
+			<sp:version>1.11</sp:version>
+			<sp:date>10 Février 2016</sp:date>
+			<sp:id>P-203</sp:id>
+			<sp:contentFilter>short</sp:contentFilter>
+			<sp:settings>
+				<sp:quest>yes</sp:quest>
+				<sp:solPractUc>yes</sp:solPractUc>
+				<sp:solQuiz>yes</sp:solQuiz>
+				<sp:solAssmntUa>yes</sp:solAssmntUa>
+				<sp:glos>no</sp:glos>
+				<sp:acr>yes</sp:acr>
+				<sp:ref>yes</sp:ref>
+				<sp:bib>yes</sp:bib>
+				<sp:index>yes</sp:index>
+				<sp:resource>yes</sp:resource>
+			</sp:settings>
+		</op:odRootM>
+		<sp:ue sc:refUri="/M/MF_trsf_tpz/0_publi/MF-09-TD.xml"/>
+	</op:odRoot>
+</sc:item>

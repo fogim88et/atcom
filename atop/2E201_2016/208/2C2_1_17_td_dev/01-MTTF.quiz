@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>1. MTTF Expérimental</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Calculez le <sc:uLink role="glos" sc:id="t31" sc:refUri="/1B_op/M/MN/MTTF.ref">MTTF</sc:uLink> expérimental.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t37">Nous avons N = <sc:textLeaf role="gap" sc:id="t34">9</sc:textLeaf> composants mis en service à t=0.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t38">La somme des Ttf est de <sc:textLeaf role="gap" sc:id="t39">5490</sc:textLeaf> heures</sc:para>
+				<sc:para xml:space="preserve" sc:id="t12">MTTF =<sc:textLeaf role="gap" sc:id="t13">610</sc:textLeaf> heures</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t22">Il suffit d'additionner tous les TTF et de diviser par le nombre d'observations.</sc:para>
+						<sc:para xml:space="preserve">Attention, même si un tableau donne un rang i=0, c'est juste pour spécifier une origine à t=0 pour des graphiques informatisés.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

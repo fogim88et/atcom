@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Stock : gestion des approvisionnements</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:uLink role="url" sc:id="t4" url="http://www.gimep.net/004.html">Visualiser la démarche</sc:uLink>. <sc:textLeaf role="ed" sc:id="t6">Carte freeplane</sc:textLeaf>. <sc:textLeaf role="auth" sc:id="t5">Franck OURION</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item>

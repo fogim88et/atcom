@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Conséquences</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t5">Défaillance <sc:inlineStyle role="emp">critique</sc:inlineStyle> : risque de causer des blessures à des personnes ou des dégâts importants au matériel.</sc:para>
+					<sc:para sc:id="t6">Défaillance <sc:inlineStyle role="emp">majeure</sc:inlineStyle> : risque de réduire l'aptitude d'un ensemble plus complexe à accomplir la fonction requise.</sc:para>
+					<sc:para sc:id="t7">Défaillance <sc:inlineStyle role="emp">mineure</sc:inlineStyle> : n'entraîne aucune conséquence sur son environnement.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

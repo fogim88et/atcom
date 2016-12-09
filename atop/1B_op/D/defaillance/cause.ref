@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:notion>Cause de défaillance</sp:notion>
+			<sp:term>Cause de défaillance</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t5">Circonstances liées à la conception, fabrication ou à l'emploi, et qui ont entraîné une défaillance que l'on observe par le <sc:inlineStyle role="emp">mode de défaillance</sc:inlineStyle>.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

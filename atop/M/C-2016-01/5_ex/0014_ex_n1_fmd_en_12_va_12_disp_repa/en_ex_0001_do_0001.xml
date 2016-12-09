@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Durée de Vie 12 dispositifs réparables (0014_ex)</sp:title>
+			<sp:sTitle>Durée de Vie 12 dispositifs réparables (0014_ex)</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Tableur</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t11">Utilisez la source de données : Durée de Vie 12 dispositifs réparables, </sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/0C-src/000/src_012_1.ods">
+<op:resInfoM>
+<sp:index>tab</sp:index>
+</op:resInfoM>
+</sp:res>
+						<sp:int sc:refUri="/0C-src/000/src_012_1.ods">
+							<op:instructionM>
+								<sp:webInstruct>
+									<op:txt>
+										<sc:para sc:id="t30">Téléchargement du fichier de données</sc:para>
+									</op:txt>
+								</sp:webInstruct>
+							</op:instructionM>
+						</sp:int>
+					</op:res>
+				</sp:meth>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Labview</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t19">Source TDM va_012.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:meth>
+				<sp:remind>
+					<op:pbTi>
+						<sp:title>Théorie ou Pré-requis</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t15">Lien vers la théorie. Lien vers le questionnaire</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:remind>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

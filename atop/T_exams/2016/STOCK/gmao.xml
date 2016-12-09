@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Rédaction ( 45 mns)</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>GMAO</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t27">Développez ce que vous avez mis en pratique sur la GMAO (projet TP, expérience) concernant les fonctions ou fonctionnalités de la GMAO. Vous pouvez prendre des exemples précis ou concrets pour ne pas partir dans de longues explications douteuses, et apporter des éclaircissement sur les points ci-dessous : </sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Que pouvez dire sur son intégration dans une politique de maintenance. Comment justifier son investissement ou son utilité</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Citer les étapes importantes de la mise en place d'une GMAO.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Remarque </sc:inlineStyle>: Vous pourriez aussi vous mettre à la place du commercial qui doit convaincre ou du professionnel qui doute de l'intérêt de l'informatique de gestion de Maintenance</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>GESTION DE STOCK</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Les points ci-dessous traitent des décisions ou des choix que l'on doit prendre concernant des pièces. Si on fait des erreurs ou des mauvais choix, décrivez précisément quelles sont les conséquences en répondant aux questions.</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Comment prendre la décision de stocker ou non une pièce. Argumentez en fonction du type de pièce (banale, commun, spécifique)</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Quel est le compromis qui permet de définir le rythme des commandes pour une pièce que l'on va stocker. Précisez quels sont les méthodes d'approvisionnement</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Quelle est votre marge de manoeuvre lorsque vous devez choisir Qe en fonction de la valeur que vous avez calculé. </sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Comment calcule t-on un seuil de sécurité Qs.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

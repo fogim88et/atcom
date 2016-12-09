@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>2. Pareto</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Tracer le graphe de PARETO (Nb Intervention en fonction des lignes) : <sc:uLink role="docLnk" sc:id="t88" sc:refUri="/T_exams/2013/2013_infoA/1C_2_pareto_en.ods">Fichier ODS à télécharger dans le dossier www.gimep.net/2013_exam_2</sc:uLink>.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t70">1. Trier le tableau selon le Nb d'arrêt (Décroissant) --&gt; La ligne A doit être en premier. Expliquez comment vous procédez (si vous ne savez pas faire, trier le tableau à la main).</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txtRes>
+					<op:txtRes>
+						<op:txtResM>
+							<sp:pos>rgt</sp:pos>
+						</op:txtResM>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t83">2. Insérer deux colonnes avant la colonne nommée (Ligne). Le titre des colonnes sera Rg (Colonne A) et Rg% (Colonne B). Expliquez comment faire pour afficher dans cette colonne le rang (citez deux méthodes et comparez les). Si vous ne savez pas tapez 1,2,3, etc de A2 à A9.</sc:para>
+								<sc:para xml:space="preserve">3. Calculer le rang en % cumulé (Colonne B) de chaque ligne. Une seule formule en B2 doit être recopiée vers le bas.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:img sc:refUri="/T_exams/2013/2013_infoA/000099.png"/>
+					</op:txtRes>
+				</sp:txtRes>
+				<sp:txtRes>
+					<op:txtRes>
+						<op:txtResM>
+							<sp:pos>rgt</sp:pos>
+						</op:txtResM>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t85">4. Ajouter une colonne pour cumuler ligne par ligne le nombre d'arrêt.</sc:para>
+								<sc:para xml:space="preserve">5. Ajouter une colonne pour calculer le cumul en %.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:img sc:refUri="/T_exams/2013/2013_infoA/000101.png"/>
+					</op:txtRes>
+				</sp:txtRes>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t87">6. Ajouter une colonne pour informer l'utilisateur que le cumul est inférieur à 80% (on affichera PRIO sinon la cellule restera vide).</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt/>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

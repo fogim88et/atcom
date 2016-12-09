@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:assmntUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Examen Informatique 2011</sp:title>
+			<sp:sTitle>Examen Informatique 2011</sp:sTitle>
+		</op:uM>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t5">Créer un fichier tableur <sc:inlineStyle role="emp">exam_2011_nom_etudiant.ods</sc:inlineStyle> dans le dossier <sc:inlineStyle role="code">exam</sc:inlineStyle> de votre ressource personnelle.</sc:para>
+						<sc:para xml:space="preserve">Ajoutez ou renommez une feuille nommée <sc:inlineStyle role="emp">essai</sc:inlineStyle>.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:quiz sc:refUri="/op_I/OIBC_opa/ctrl_2011/séries.xml"/>
+		<sp:quiz>
+			<op:cloze>
+				<op:exeM>
+					<sp:title>Série fixe</sp:title>
+				</op:exeM>
+				<sc:question>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t9">Générer une série de donnée fixe de 1 à 20 à l'aide des menus du tableur. Précisez </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sc:question>
+				<sc:gapText>
+					<op:clozeTxt/>
+				</sc:gapText>
+			</op:cloze>
+		</sp:quiz>
+	</op:assmntUa>
+</sc:item>

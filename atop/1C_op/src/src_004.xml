@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>src 4 : Mesure de résistance</sp:title>
+			<sp:sTitle>src 4 : Mesure de résistance</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t3">
+<sc:uLink role="docLnk" sc:id="t6" sc:refUri="/SRC/004_resistance_mes_ohm/src_4_1.ods"/>
+<sc:uLink role="ref" sc:id="t13" sc:refUri="/SRC/004_resistance_mes_ohm/src_4.ref">src_004 : Mesure de l'impédance d'un lot de 50 résistances</sc:uLink>
+</sc:para>
+								<sc:para xml:space="preserve">
+<sc:uLink role="docLnk" sc:id="t14" sc:refUri="/SRC/004_resistance_mes_ohm/src_4_1.ods">src 4.1 : Mesure de résistances. 50 observations</sc:uLink>
+</sc:para>
+								<sc:para xml:space="preserve" sc:id="t10">
+<sc:uLink role="docLnk" sc:id="t7" sc:refUri="/SRC/004_resistance_mes_ohm/src_4_2.ods"/>
+<sc:uLink role="docLnk" sc:id="t15" sc:refUri="/SRC/004_resistance_mes_ohm/src_4_2.ods">src 4.2 : Mise en Forme : 10 classes</sc:uLink>
+</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

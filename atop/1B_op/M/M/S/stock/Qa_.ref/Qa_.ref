@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:definition xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:dk="kelis.fr:dokiel">
+		<dk:definitionMeta>
+			<sp:notion>Quantité Annuelle (Qa)</sp:notion>
+			<sp:def>
+				<dk:textSimple>
+					<sc:para xml:space="preserve" sc:id="t3">C'est la quantité annuelle consommée : c'est une estimation basée sur un historique de consommation, ou une prévision issue d'un calcul de fiabilité</sc:para>
+				</dk:textSimple>
+			</sp:def>
+		</dk:definitionMeta>
+	</dk:definition>
+</sc:item>

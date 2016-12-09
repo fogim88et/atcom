@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Temps Utile (TU)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">Le <sc:inlineStyle role="emp">temps Utile</sc:inlineStyle> est le temps pendant lequel la machine a fabriqué des <sc:inlineStyle role="emp">pièces bonnes</sc:inlineStyle> à la cadence normale.</sc:para>
+					<sc:para xml:space="preserve">A ne pas confondre avec l'ensemble des pièces fabriquées sur lesquelles on va se baser pour calculer le <sc:inlineStyle role="emp">temps net</sc:inlineStyle>.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t7">Pour l'entreprise, le temps utile est le temps réellement nécessaire à la création de la valeur ajoutée sur le produit.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

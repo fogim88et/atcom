@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Adéquation Charge Capacité</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t4">Détermination prévisionnelle de la charge (donc des besoins de capacité) par période, pour chaque poste de travail : atelier, usine etc L'adéquation charge-capacité permet de prévoir les besoins de capacité, les goulets d'étranglement et les sous-charges. </sc:para>
+					<sc:para>L'examen des bilans de charge permet de réaffecter les ressources industrielles à l'intérieur de l'entreprise et de planifier la sous-traitance.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

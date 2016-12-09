@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>103 : Pareto : Analyse des causes</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Cause de défaillance</sp:keywd>
+							<sp:keywd>PARETO</sp:keywd>
+							<sp:keywd>Temps d'arrêt</sp:keywd>
+							<sp:keywd>Série de données</sp:keywd>
+							<sp:keywd>Graphes</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:res sc:refUri="/0C-src/000/src_103.ods">
+					<op:resInfoM>
+						<sp:index>tab</sp:index>
+					</op:resInfoM>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t62">
+							<sc:inlineStyle role="emp" sc:id="t16">Arrondir</sc:inlineStyle> les pourcentages au % le plus proche.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t63">Exemple : Les codes seront à saisir de la façon suivante <sc:inlineStyle role="emp">D-G-A</sc:inlineStyle> pour les causes n° D,G, A.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t72">La <sc:inlineStyle role="emp">zone A</sc:inlineStyle> représente 70 % au moins des conséquences</sc:para>
+						<sc:para sc:id="t73">La <sc:inlineStyle role="emp">Zone B</sc:inlineStyle> représente de 70 % à 95% des conséquences</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t75">Établir un graphe de <sc:uLink role="glos" sc:id="t76" sc:refUri="/1B_op/M/M/P/pareto_MOP.ref">PARETO</sc:uLink> permettant de répondre aux questions ci-dessous.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:int sc:refUri="/0C-src/000/src_103.ods">
+					<op:instructionM>
+						<sp:webInstruct>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t85">Fichier .ods à télécharger dans le cas d'une étude tableur</sc:para>
+							</op:txt>
+						</sp:webInstruct>
+					</op:instructionM>
+				</sp:int>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t92">25 % des éléments génèrent <sc:textLeaf role="gap" sc:id="t93">67</sc:textLeaf> % des arrêts machines.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t94">75 % des éléments génèrent <sc:textLeaf role="gap" sc:id="t95">90</sc:textLeaf> % des arrêts machines.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t96">Les éléments n° <sc:textLeaf role="gap" sc:id="t97">2-5</sc:textLeaf> sont les éléments sur lesquels agir en priorité (Zone A)</sc:para>
+				<sc:para xml:space="preserve" sc:id="t98">Les éléments n° <sc:textLeaf role="gap" sc:id="t99">4-1-6</sc:textLeaf> sont les éléments sur lesquels agir en second lieu (Zone B)</sc:para>
+				<sc:para xml:space="preserve" sc:id="t100">On délaissera les causes n° <sc:textLeaf role="gap" sc:id="t101">3</sc:textLeaf>. (Zone C)</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

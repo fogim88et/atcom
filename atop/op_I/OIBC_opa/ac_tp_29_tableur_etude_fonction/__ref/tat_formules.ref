@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:refM>
+			<sp:ref>Formules tableur</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para sc:id="t3">Le signe égal doit être intégré dans la réponse</sc:para>
+					<sc:para sc:id="t4">Saisir les cellules avec leur référence (lettres en majuscule)</sc:para>
+					<sc:para sc:id="t5">Ne pas mettre d'espace entre les opérateurs et les opérandes</sc:para>
+					<sc:para sc:id="t6">Exemple : =B12*$C4+(5+B4)^$D$6</sc:para>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

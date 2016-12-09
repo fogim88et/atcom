@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:mcqMur xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>33.1 : Fabrication de lampes témoin</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Après avoir lu <sc:uLink role="ref" sc:id="t119" sc:refUri="/2E021/031/033_1.ref">src_13 : Production de Lampes témoin</sc:uLink> , étudiez le <sc:uLink role="ref" sc:id="t89" sc:refUri="/2E021/031/033_2.ref">contexte de cet exercice</sc:uLink>.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t102">Choisir le test.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:choices>
+			<sc:choice solution="unchecked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t5">H0 : π=0,2</sc:para>
+						<sc:para sc:id="t51">H1 :π&lt;&gt;0,2</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t53">La RA sera un intervalle centré sur π et nous refuserons peut-être une production avec 0% de déchets </sc:para>
+						<sc:para xml:space="preserve" sc:id="t98">Le test ne peut pas être bilatéral.</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t47">H0 : π=0,2</sc:para>
+						<sc:para sc:id="t48">H1 :π&gt;0,2</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para sc:id="t55">La RA sera un intervalle qui ira de π<sc:textLeaf role="ind" sc:id="t92">L</sc:textLeaf> à 100% avec  π<sc:textLeaf role="ind" sc:id="t93">L</sc:textLeaf> &gt;0.2. Avec ce test, nous allons donc rejeter un échantillon sur lequel on a mesuré p=0.3 si π<sc:textLeaf role="ind" sc:id="t94">L</sc:textLeaf>=0.25</sc:para>
+						<sc:para>A partir d'un pourcentage de déchets bien plus élevé que l'hypothèse on pourra ainsi remettre en cause cette hypothèse en toute sécurité indépendamment de la fluctuation d'échantillonnage.</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+			<sc:choice solution="unchecked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t49">H0 : π=0,2</sc:para>
+						<sc:para sc:id="t50">H1 :π&lt;0,2</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t57">La RA sera un intervalle qui ira de π<sc:textLeaf role="ind" sc:id="t90">L</sc:textLeaf> à 100% avec  π<sc:textLeaf role="ind" sc:id="t91">L</sc:textLeaf> &lt;0.2. Avec ce test, nous cherchons à rejeter une population avec 0 % de déchets ?</sc:para>
+						<sc:para xml:space="preserve" sc:id="t100">Sauf si l'on souhaite que l'on peut faire vraiment mieux que 20%, ce test n'est pas cohérent.</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+		</sc:choices>
+	</op:mcqMur>
+</sc:item>

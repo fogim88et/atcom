@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Article_01.5</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t5">Attention au <sc:inlineStyle role="emp" sc:id="t13">stock de sécurité</sc:inlineStyle> et à la <sc:inlineStyle role="emp" sc:id="t16">règle de lot multiple</sc:inlineStyle>.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t25">Complétez votre version imprimée.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/P_op/MP/4Z_ex/ex_calcul_besoin/art_01_5.ods">
+					<op:resInfoM/>
+				</sp:res>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t7">La quantité en fin d'ordre le jour N° <sc:textLeaf role="gap" sc:id="t36">4</sc:textLeaf> sera donc de <sc:textLeaf role="gap" sc:id="t35">100</sc:textLeaf> pièces.</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t29">on a BN (4) = BB(4) - SD(3) - RP (4) + S = 50 - 40 - 0 + 40 = 50</sc:para>
+						<sc:para xml:space="preserve" sc:id="t32">Comme on fabrique par lot multiple de 100, on doit avoir une fin d'ordre le 4 de 100 unités et un début d'ordre le 2 de 100.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/P_op/MP/4Z_ex/ex_calcul_besoin/art_01_5_cor.ods">
+					<op:resInfoM/>
+				</sp:res>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

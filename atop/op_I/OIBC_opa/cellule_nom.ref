@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Nom de cellule</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">Un nom de cellule peut-être utilisé dans les formules à la place des références : lambda est plus clair à lire que B12.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">Une cellule assignée est considérée comme une référence absolue ($B$12)</sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">Pour assigner un nom à une cellule, activez la cellule ou sélectionnez une plage de cellule. <sc:inlineStyle role="emp">Menu.insertion.nom.définir</sc:inlineStyle>.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t7">Dans la fenêtre qui s'ouvre, vous pouvez saisir le nom choisi, validez la nouvelle assignation avec le bouton <sc:inlineStyle role="emp">Ajouter</sc:inlineStyle>.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

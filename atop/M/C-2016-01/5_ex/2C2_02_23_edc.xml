@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM xmlns:idt="kelis.fr:dokiel">
+			<sp:title>2C2_02_13_edc</sp:title>
+			<sp:sTitle>2C2_02_13_edc</sp:sTitle>
+		</op:uM>
+		<sp:pb xmlns:idt="kelis.fr:dokiel">
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Situation src 013</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t8">On a observé la durée de vie de 100 ampoules, les ttf son regroupés en classes ou périodes avec les effectifs défaillants durant chaque période.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t12">L'exercice se fera à l'aide d'un tableur (src 013)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:simul>
+					<op:pbTi>
+						<sp:title>Question : Etude FMD</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t14">Faire l'étude FMD complète, et en déduire la période de garantie ou la période d'échange que l'on peut fixer.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:simul>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

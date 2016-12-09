@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>TN (n1)</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Calcul du  Temps net à partir de la connaissance du txQ et du TU</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t32">Le taux de qualité est de <sc:textLeaf role="gap" sc:id="t45">97</sc:textLeaf> % donc <sc:uLink role="glos" sc:id="t49" sc:refUri="/1B_op/M/TUV/TRG/TN.ref">TN</sc:uLink> = <sc:textLeaf role="gap" sc:id="t26">300,7</sc:textLeaf> heures / 0,<sc:textLeaf role="gap" sc:id="t52">97</sc:textLeaf> = <sc:textLeaf role="gap" sc:id="t53">310</sc:textLeaf> heures</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

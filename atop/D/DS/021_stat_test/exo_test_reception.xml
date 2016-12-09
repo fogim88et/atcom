@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM/>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t4">Un fournisseur assure produire des pièces avec un taux de déchets fixé à 7%. Ceci implique que l'écart-type de la population est de racine(0,07*0,93).</sc:para>
+						<sc:para xml:space="preserve" sc:id="t5">Sur un échantillon de taille n=100, quel pourcentage de défauts peut-on tolérer (pL) avec un risque alpha de 5%.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t6">Supposons maintenant que le fournisseur fabrique 15% de déchets. Dans cette distribution, calculer la probabilité beta d'obtenir un échantillon dans lequel on obtienne moins de pL déchets. Expliquer ici ce que représente le risque alpha, et la probabilité beta.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t7">Précisez quels sont les différents tests de réception que l'on peut mettre en place. Par quoi se traduit &quot;la relation de confiance client-fournisseur&quot;</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt/>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t16">Un fournisseur assure produire des pièces avec un taux de déchets fixé à 7%. Ceci implique que l'écart-type de la population est de racine(0,07*0,93).</sc:para>
+										<sc:para xml:space="preserve" sc:id="t17">Sur un échantillon de taille n=100, quel pourcentage de défauts peut-on tolérer (pL) avec un risque alpha de 5%.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t18">[SIGMA X BARRE]=2.5%, soit pL=7%+1.64*2.5%=11% (environ). Si l'échantillon présente plus de 12% de pièces défectueuses, alors il faut remettre en question l'affirmation du fournisseur avec une probabilité de 5% de se tromper (quantile ou t de 1.64)</sc:para>
+										<sc:para xml:space="preserve" sc:id="t19">Supposons maintenant que le fournisseur fabrique 15% de déchets. Dans cette distribution, calculer la probabilité beta d'obtenir un échantillon dans lequel on obtienne moins de pL déchets. Expliquer ici ce que représente le risque alpha, et la probabilité beta.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t20">Il faut chercher la probabilité d'obtenir un échantillon avec moins de 11% de déchets dans une distribution centrée sur 15%, soit approximativement 5%. Alpha est le risque fournisseur, c'est le risque de refuser une livraison à tort. Beta est le risque client, c'est le risque d'accepter une livraison avec un taux de déchet de l'ordre de 15%(ici)</sc:para>
+										<sc:para xml:space="preserve" sc:id="t21">Précisez quels sont les différents tests de réception que l'on peut mettre en place. Par quoi se traduit &quot;la relation de confiance client-fournisseur&quot;</sc:para>
+										<sc:para xml:space="preserve" sc:id="t22">Voir les Tests de réception</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

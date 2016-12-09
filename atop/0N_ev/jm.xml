@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:assmntUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Généralités</sp:title>
+			<sp:sTitle>Généralités</sp:sTitle>
+		</op:uM>
+		<sp:quiz sc:refUri="/0N_ev/0002_ev/0002/qm15_politique.quiz"/>
+		<sp:quiz sc:refUri="/0N_ev/0002_ev/0002/qm14_politique.quiz"/>
+		<sp:quiz sc:refUri="/0N_ev/0002_ev/0002/qm10_politique.quiz"/>
+		<sp:quiz sc:refUri="/0N_ev/0002_ev/0002/qm11_politique.quiz"/>
+		<sp:quiz sc:refUri="/0N_ev/0002_ev/0002/qm12_politique.quiz"/>
+		<sp:quiz sc:refUri="/0N_ev/0002_ev/0002/qr07_politique.quiz"/>
+	</op:assmntUa>
+</sc:item>

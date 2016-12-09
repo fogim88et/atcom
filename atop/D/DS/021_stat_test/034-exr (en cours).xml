@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>SPC</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t4">On prélève tout au long de la journée 100 pièces sur une machine, on a obtenu une longueur moyenne= 60 mm et un écart-type de 1 mm.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t19">Avec quelle précision pouvez vous fournir le réglage nominal de la machine au seuil de 95%</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t22">En négligeant le facteur de correction (n/n-1) suite à l'estimation de l'écart-type de la population, on a [sigma x barre]=0.1 mm.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t23">On encadre donc à un seuil de confiance de 95% la moyenne de la production à plus ou moins 0.2 mm</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t25">Pour satisfaire un client qui a fixé les tolérances à +/- 4,5 mm pour des pièces de longueur moyenne de 60 mm, on décide maintenant de prélever des échantillons de 5 pièces régulièrement dans la journée (on admettra que l'écart-type de la production est de 1mm).</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t27"> Donner les paramètres de la carte de contrôle à mettre en place.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t31">On a une capabilité suffisante de 1,5 </sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t35">Calculer LS et LC</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t37">[sigma x barre]=1/racine (5)=0.45</sc:para>
+										<sc:para xml:space="preserve">Donc LC, LS à 2 et 3 écart-type (sigma x barre), donnent LS=[59.1 mm ; 60.9 mm] et LC=[58.65 mm ; 61.135 mm]</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t38">Au moment de décider d'un arrêt machine, est-t-il possible que la machine soit décentrée de 2 mm (réglée sur 62 mm). Si oui, déterminer la probabilité que la machine soit réglée sur 62 ou plus au moment de l'arrêt, et calculer le taux de déchet que l'on risque de fabriquer.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t40">Si on suppose que la machine est centrée sur 62 mm, alors la probabilité de trouver une moyenne d'échantillon inférieure à 61.135 est proche de 3 à 4 % (quantile exact=-0.865/0.45). Si la machine est réglée sur 62 mm, on a 0.1% de chance de fabriquer une pièce de dimension supérieure à 65 mm. On peut conclure au faible risque de fabrique des déchets, d'autant plus que la machine se dérèglera progressivement vers 62 mm, et il y a donc de grandes chances que les règles appliquées à la carte de contrôle aient permis d'arrêter plus tôt la machine.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

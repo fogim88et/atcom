@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+<sp:title/>
+</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">On analyse un échantillon de 50 résistances de même valeur nominale 10 000 ohms. Le tableau des données brutes est le suivant :</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:int sc:refUri="/SRC/004_resistance_mes_ohm/src_4_1.ods">
+					<op:instructionM/>
+				</sp:int>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t10">1. Définir la variable statistique étudiée.</sc:para>
+						<sc:para sc:id="t11">2. Répartir la série d'observations en classes d'amplitude 5 ohms en commençant par 9975.</sc:para>
+						<sc:para sc:id="t12">3. Représenter graphiquement l'histogramme des effectifs de la distribution obtenue.</sc:para>
+						<sc:para sc:id="t13">4. Que peut-on dire de cette distribution.</sc:para>
+						<sc:para sc:id="t14">5. Donner une estimation de la moyenne et de l'écart-type.</sc:para>
+						<sc:para sc:id="t15">6. Donner le mode et la médiane, et montrer leur signification sur le graphique.</sc:para>
+						<sc:para sc:id="t16">7. Calculer la moyenne et l'écart-type (Le détail des calculs est exigé).</sc:para>
+						<sc:para sc:id="t17">8. Donner et tracer le graphe des fréquences cumulées.</sc:para>
+						<sc:para sc:id="t18">9. Donner le % de résistances dans les intervalles Moyenne plus ou moins 1, 2, 3 écart-type.</sc:para>
+						<sc:para sc:id="t19">10. Un client qui souhaite acheter d'importants lots de résistances exige que 90% des résistances aient une précision de 0,2 % par rapport à la valeur nominale. Peut-on raisonnablement satisfaire cette exigence ? Quelle serait votre décision pour un taux de 95% au lieu de 90%.</sc:para>
+						<sc:para sc:id="t20">(Les calculs de % seront déterminés à l'aide des fréquences cumulées, la moyenne et l'écart type pourront être arrondis)</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+	</op:practUc>
+</sc:item>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:refM>
+			<sp:ref>Codage UI</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t6"><sc:inlineStyle role="emp">Codification d'une machine</sc:inlineStyle> : UI_xx/vn_valeur/p_valeur/t_valeur/u_valeur</sc:para>
+					<sc:para xml:space="preserve" sc:id="t8"><sc:inlineStyle role="emp">xx</sc:inlineStyle> permet de code le n° de l'unité d'intervention. Ce code est libre et peut comporter autant de caractères que souhaité</sc:para>
+					<sc:para xml:space="preserve" sc:id="t9"><sc:inlineStyle role="emp">vn_<sc:inlineStyle role="emp">valeur</sc:inlineStyle></sc:inlineStyle> : valeur désigne la valeur nominale de la production.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t12"><sc:inlineStyle role="emp">p_valeur</sc:inlineStyle> : valeur désigne la valeur de l'écart-type de la production : il symbolise la précision de la machine</sc:para>
+					<sc:para xml:space="preserve" sc:id="t14"><sc:inlineStyle role="emp">t_valeur </sc:inlineStyle>: valeur désigne l'intervalle de tolérance.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t16"><sc:inlineStyle role="emp">u_valeur</sc:inlineStyle> : valeur désigne l'unité des pièces fabriquées.</sc:para>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

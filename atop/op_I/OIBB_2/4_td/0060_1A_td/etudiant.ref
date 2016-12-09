@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:acr xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:acrM>
+			<sp:acr>etudiant</sp:acr>
+			<sp:desc>nom de la table associée à l'entité Etudiant</sp:desc>
+		</op:acrM>
+	</op:acr>
+</sc:item>

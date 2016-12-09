@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:mcqSur>
+<op:exeM>
+<sp:title>Stock</sp:title>
+<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Stock</sp:keywd>
+							<sp:keywd>CSM</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Quel est à votre avis, le principal objectif d'un stock de pièces détachées ?</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:choices>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t5">Limiter le nombre de commandes à passer ?</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t9">Réduire le temps d'indisponibilité des équipements ?</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+		</sc:choices>
+		<sc:solution choice="2"/>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t27">Un stock de pièces détachées est un objectif de service. C'est la juste assurance à payer (<sc:uLink role="glos" sc:id="t98" sc:refUri="/1B_op/S/stock/CSM.ref">
+								<sc:uLink role="glos" sc:id="t99" sc:refUri="/1B_op/S/stock/CSM.ref">Coût de Stockage Maintenance</sc:uLink>
+							</sc:uLink>) pour éviter de subir des pertes de productions (<sc:uLink role="glos" sc:id="t58" sc:refUri="/1B_op/C/couts/CGM_CDM.ref">CDM</sc:uLink>).</sc:para>
+						<sc:para sc:id="t51">Les facteurs à prendre en compte sont : </sc:para>
+						<sc:itemizedList sc:id="t28">
+							<sc:listItem sc:id="t29">
+								<sc:para sc:id="t52">le coût de la pièce (<sc:uLink role="glos" sc:id="t64" sc:refUri="/1B_op/M/M/S/stock/PU.ref">Pu</sc:uLink>)</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t30">
+								<sc:para sc:id="t53">le risque de non-utilisation et frais financiers induits par le stockage (<sc:uLink role="glos" sc:id="t61" sc:refUri="/1B_op/S/stock/cpos.ref">CPOS</sc:uLink>)</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t31">
+								<sc:para sc:id="t54">les frais de gestion ou administratifs <sc:uLink role="glos" sc:id="t62" sc:refUri="/1B_op/S/stock/CSM_adm.ref"> (CADM)</sc:uLink>
+</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+						<sc:para sc:id="t55">Le stock peut-être réduit en </sc:para>
+						<sc:itemizedList sc:id="t32">
+							<sc:listItem sc:id="t33">
+								<sc:para sc:id="t56">standardisant les équipements</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t34">
+								<sc:para sc:id="t57">en mettant en place une politique de maintenance <sc:uLink role="glos" sc:id="t63" sc:refUri="/1B_op/M/TUV/type_maint/mi_preventive.ref">préventive</sc:uLink>. En effet, cette politique permet de prévoir les interventions, et donc de gérer au plus près l'approvisionnement en pièce détachée.</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:mcqSur>
+</sc:item>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Projets</sp:title>
+			<sp:sTitle>Projets</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Projet 1</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t6">Gestion de titres musicaux. </sc:para>
+								<sc:para sc:id="t7">Les titres existent sur divers supports (Disque dur, MP3, CD, etc ....). On souhaite connaître pour chaque titre l'auteur et l'interprète. L'application doit être capable de gérer les compilations. On donnera notamment la possibilité de construire des listes de favoris dans le même genre que windows média (Bibliothèque média)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Projet 2</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t9">Gestion d'un club sportif ou une association. </sc:para>
+								<sc:para>Les adhérents s'inscrivent à des activités organisées par des intervenants. Les adhérents versent une cotisation définie pour un volume horaire. L'application devra assurer le suivi du volume horaire disponible pour chaque adhérent.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Projet 3</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t11">Gestion d'un stock de pièces détachées. </sc:para>
+								<sc:para>Gestion des commandes, des ventes ou sorties magasin. Gestion de nomenclature produit. </sc:para>
+								<sc:para>Construire des Bilans mensuels, annuels par catégorie de pièces. Gestion des relances fournisseur (non respect des délais de livraison).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Gestion d'un projet</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t13">Respect du cahier des charges, améliorations, évolutions potentielles.</sc:para>
+								<sc:para>Conception de la base de données (Outils base de données, MCD, modélisation UML)</sc:para>
+								<sc:para>Respect des règles de codification, documentation</sc:para>
+								<sc:para>Interface Homme-Machine (IHM). Choix des outils de développement.</sc:para>
+								<sc:para>Démarche de test , simulation, saisie de données.</sc:para>
+								<sc:para>Traitements, Etats imprimés.</sc:para>
+								<sc:para>Maintenance.</sc:para>
+								<sc:para>Déploiement de l'activité.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:meth>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

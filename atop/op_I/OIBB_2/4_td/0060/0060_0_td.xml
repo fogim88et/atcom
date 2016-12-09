@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM xmlns:gtm="comaint.fr:gTecMi">
+			<sp:title>60. Appli notes (Ooo)</sp:title>
+			<sp:sTitle>Appli notes (Ooo)</sp:sTitle>
+		</op:uM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para xml:space="preserve" sc:id="t3">Ce TD fait suite au td n°10. Les exercices proposés seront réalisés avec Open Office Base. </sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t5">La base de donnée de départ sera <sc:uLink role="docLnk" sc:id="t10" sc:refUri="/dk-I/OIBB/1C/td_0060_OIBBO.odb">téléchargée ici</sc:uLink>.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:practUc sc:refUri="/op_I/OIBB_2/4_td/0060/0060_1_td.xml"/>
+		<sp:practUc sc:refUri="/op_I/OIBB_2/4_td/0060/0060_2_td.xml"/>
+	</op:courseUa>
+</sc:item>

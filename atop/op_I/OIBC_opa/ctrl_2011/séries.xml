@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Formules (série de données)</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Séries</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t5">Vous allez générer des séries de données selon les instructions données</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t111">Générer une série de donnée fixe de 1 à 20 à l'aide des menus du tableur dans la <sc:inlineStyle role="emp">colonne A à partir de la ligne 3</sc:inlineStyle>. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t112">Nommez cette plage <sc:inlineStyle role="emp" sc:id="t113">x_menu</sc:inlineStyle>.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t7">Précisez les étapes de votre démarche (options de menu utilisées)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t54">
+									<sc:caption xml:space="preserve">qA.1</sc:caption>
+									<sc:column sc:id="t55" width="121"/>
+									<sc:row sc:id="t56">
+										<sc:cell sc:id="t57">
+											<sc:para xml:space="preserve" sc:id="t59">..........................................................................................................................................................................................................................</sc:para>
+											<sc:para xml:space="preserve" sc:id="t60">..........................................................................................................................................................................................................................</sc:para>
+											<sc:para xml:space="preserve" sc:id="t62">..........................................................................................................................................................................................................................</sc:para>
+											<sc:para xml:space="preserve" sc:id="t64">..........................................................................................................................................................................................................................</sc:para>
+											<sc:para xml:space="preserve" sc:id="t66">..........................................................................................................................................................................................................................</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t15">Ajouter en A1 le texte &quot;Nb. Valeurs&quot;, en B1 la valeur &quot;20&quot;. Nommez B1 <sc:inlineStyle role="emp" sc:id="t35">nb</sc:inlineStyle>.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t36">Générer la même série de 1 à 20 à partir de B3 avec des formules. Nommez la plage <sc:inlineStyle role="emp" sc:id="t37">x_gen1</sc:inlineStyle>.</sc:para>
+								<sc:para xml:space="preserve">
+<sc:inlineStyle role="emp">Saisir vos formules en B3 et B4</sc:inlineStyle>
+</sc:para>
+								<sc:table role="" sc:id="t68">
+									<sc:caption xml:space="preserve">qA.2</sc:caption>
+									<sc:column role="head" sc:id="t69" width="3"/>
+									<sc:column sc:id="t70" width="50"/>
+									<sc:row sc:id="t71">
+										<sc:cell sc:id="t72">
+											<sc:para xml:space="preserve" sc:id="t78">B3</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t73">
+											<sc:para xml:space="preserve" sc:id="t89">.</sc:para>
+											<sc:para xml:space="preserve">.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t74">
+										<sc:cell sc:id="t75">
+											<sc:para xml:space="preserve" sc:id="t82">B4</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t76">
+											<sc:para xml:space="preserve" sc:id="t91">.</sc:para>
+											<sc:para xml:space="preserve">.</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t21">On souhaite dans la colonne C que la valeur s'affiche seulement si elle est inférieure à Nb. Nommez la plage <sc:inlineStyle role="emp" sc:id="t96">x_gen2</sc:inlineStyle>. Vous pouvez bien sûr exploiter la série x_gen1 comme calcul intermédiaire.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t97">
+<sc:inlineStyle role="emp">Donnez la formule en C3</sc:inlineStyle> : </sc:para>
+								<sc:table role="" sc:id="t114">
+									<sc:caption xml:space="preserve">qA.3</sc:caption>
+									<sc:column role="head" sc:id="t115" width="3"/>
+									<sc:column sc:id="t116" width="50"/>
+									<sc:row sc:id="t117">
+										<sc:cell sc:id="t118">
+											<sc:para xml:space="preserve" sc:id="t119">C3</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t120">
+											<sc:para xml:space="preserve" sc:id="t121">.</sc:para>
+											<sc:para xml:space="preserve">.</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Ajouter en C1 le texte &quot;Pas&quot;, en D1 la valeur du pas. Nommez D1 <sc:inlineStyle role="emp" sc:id="t135">pas</sc:inlineStyle>.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t136">Ajouter en E1 le texte &quot;Val. init.&quot;, en F1 la valeur de la valeur initiale de la série. Nommez F1 <sc:inlineStyle role="emp">v_init</sc:inlineStyle>.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t138">Construire à partir de D3, la série de 20 valeurs à partir d'une valeur initiale, et séparées d'un pas constant</sc:para>
+								<sc:para xml:space="preserve" sc:id="t139">
+<sc:inlineStyle role="emp">Donnez les formules en D3 et D4</sc:inlineStyle>.</sc:para>
+								<sc:table role="" sc:id="t122">
+									<sc:caption xml:space="preserve">qA.4</sc:caption>
+									<sc:column role="head" sc:id="t123" width="3"/>
+									<sc:column sc:id="t124" width="50"/>
+									<sc:row sc:id="t125">
+										<sc:cell sc:id="t126">
+											<sc:para xml:space="preserve" sc:id="t127">D3</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t128">
+											<sc:para xml:space="preserve" sc:id="t129">.</sc:para>
+											<sc:para xml:space="preserve">.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t130">
+										<sc:cell sc:id="t131">
+											<sc:para xml:space="preserve" sc:id="t132">D4</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t133">
+											<sc:para xml:space="preserve" sc:id="t134">.</sc:para>
+											<sc:para xml:space="preserve">.</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

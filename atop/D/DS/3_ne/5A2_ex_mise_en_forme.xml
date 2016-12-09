@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Mise en forme des données (5A2)</sp:title>
+			<sp:sTitle>Mise en forme des données</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:ex>
+					<op:pbTi>
+						<sp:title>Variable qualitative</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t11">Soit une population représentée par les 1 600 élèves d'un lycée. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t43">Le caractère statistique est la langue vivante étudiée. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t44">Chaque étudiant a donc répondu à la question &quot;Quelle langue étudiez vous&quot;. </sc:para>
+								<sc:para xml:space="preserve">La mise en forme consiste à pointer le nombre d'étudiants pour l'ensemble des cas possibles</sc:para>
+								<sc:para xml:space="preserve" sc:id="t45">Les résultats mis en forme sont donnés par le tableau statistique ci-dessous.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/D/DS/stat_mise_en_forme_langues.ods">
+							<op:resInfoM>
+								<sp:index>tab</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:ex>
+				<sp:ex>
+					<op:pbTi>
+						<sp:title>Variable continue</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t40">On mesure la valeur ohmique d'un échantillon de 50 résistances. Les données sont réparties en nc=10 classes d'une longueur de 5 Ohms.</sc:para>
+								<sc:para xml:space="preserve">Les 50 valeurs ne sont pas disponibles en version courte. </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+				<sp:ex>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter>
+								<sp:exclude>short</sp:exclude>
+							</op:filter>
+						</sp:filters>
+						<sp:title>Données de départ : mesure des 50 résistances</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/SRC/004_resistance_mes_ohm/src_4_1.ods">
+							<op:resInfoM>
+								<sp:pubMode>zoom</sp:pubMode>
+								<sp:index>tab</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:ex>
+				<sp:ex>
+					<op:pbTi>
+						<sp:title>Mise en forme des données par classes (nc=10)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/SRC/004_resistance_mes_ohm/src_4_2.ods">
+							<op:resInfoM>
+								<sp:pubMode>zoom</sp:pubMode>
+								<sp:index>tab</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:ex>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

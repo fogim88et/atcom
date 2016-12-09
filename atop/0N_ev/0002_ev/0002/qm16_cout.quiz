@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:mcqMur>
+<op:exeM>
+<sp:title>Coût d'une panne</sp:title>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Que coûte une panne en cours de production ?</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:choices>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t5">Amortissement horaire de la machine</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t9">Salaire horaire de l'opérateur de production</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t13">Coût de l'intervention de maintenance</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t17">Coût de non qualité</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t21">Heures supplémentaires</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t25">Pénalité de retard</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+		</sc:choices>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t56">
+							<sc:uLink role="glos" sc:id="t177" sc:refUri="/1B_op/C/couts/CGM.ref">Coût Global Maintenance (CGM)</sc:uLink>
+						</sc:para>
+						<sc:para>Le coût d'une panne peut être évalué en prenant en compte les éléments suivants :</sc:para>
+						<sc:itemizedList sc:id="t74">
+							<sc:listItem sc:id="t75">
+								<sc:para sc:id="t58">coût des pertes de production :</sc:para>
+								<sc:orderedList sc:id="t82">
+									<sc:listItem sc:id="t83">
+										<sc:para sc:id="t113">coût de non production (dépenses fixes non couvertes et dépenses variables engagées)</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t84">
+										<sc:para sc:id="t114">non qualité (rebuts, retouches, déclassement, réclamation client. remises ....)</sc:para>
+									</sc:listItem>
+								</sc:orderedList>
+							</sc:listItem>
+							<sc:listItem sc:id="t77">
+								<sc:para sc:id="t63">surcroît de production (moyen de remplacement mis en oeuvre, stock supplémentaire ...)</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t78">
+								<sc:para sc:id="t65">manque à gagner</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t79">
+								<sc:para sc:id="t66">pénalité commerciale</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t80">
+								<sc:para sc:id="t67">coût de la maintenance curative (main d'oeuvre, pièces, frais de structure)</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t81">
+								<sc:para sc:id="t69">coût des dommages en cas d'une grosse avarie (environnement, ...)</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:mcqMur>
+</sc:item>

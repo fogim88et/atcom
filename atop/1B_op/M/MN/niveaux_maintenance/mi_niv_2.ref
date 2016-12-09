@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Maintenance de Niveau 2</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Dépannage par échange standard d'éléments prévus à cet effet, ou d'opérations mineures de maintenance préventive (rondes) .</sc:para>
+					<sc:para>Elle nécessite un outillage léger, et des pièces de rechange accessibles sans délai.</sc:para>
+					<sc:para sc:id="t4">Réalisée par un agent de maintenance spécialisé, ou une équipe sur place et/ou en atelier central. Il nécessite un outillage généralement plus spécialisé, matériel d'essais, de contrôle. . .</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

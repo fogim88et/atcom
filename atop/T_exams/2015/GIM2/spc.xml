@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>SPC</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t3">1 : Quels sont les paramètres qui influent sur la qualité de la production.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t6">2 : Expliquez pourquoi le contrôle échantillonné peut parfois être obligatoire ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t7">3 : Qu'est ce que la capabilité machine ? pourquoi faut-il une valeur minimum (Valeur ?) Faire un schéma avec l'intervalle de tolérance et l'image de la production.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t8">4 : Donnez les règles appliquées aux cartes de contrôle pour décider de l'opportunité d'arrêter la production.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t9">5 : Quels sont les facteurs permettant de choisir la taille n des échantillons ainsi que les % (risques) associés aux limites de surveillance et d'alerte (ou de contrôle)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t13">Une machine produit des pièces de moyenne 120 mm. Les tolérances fixées (IT) sont de 120 +/- 1 mm.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t14">Un prélèvement de 100 pièces donne un écart type de 0,02. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t15">L'image est considérée comme gaussienne. </sc:para>
+								<sc:para xml:space="preserve">6. Peut-on considérer que l'écart-type de la population (ou production) est de 0,02 ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t16">7. Dessiner une gaussienne permettant de représenter la dispersion de la mesure d'une pièce (sa base pourrait être proche de 10 cm). La graduation en abscisse se fera en nombre d'écart-type.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t17">Si on décide de prélever des échantillons de taille 10, quel est l'écart type de la DEM ? </sc:para>
+								<sc:para xml:space="preserve">8. Représenter la dispersion des moyennes d'échantillons de taille 10 sur le schéma précédent.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t18">9. Donner les paramètres permettant de mettre en place la carte de contrôle sur la moyenne avec des échantillons de 6 pièces avec des seuils à 95,44% et 99,8%</sc:para>
+								<sc:para xml:space="preserve" sc:id="t19">10. Quand une moyenne d'échantillon est dans les limites de surveillance (95,44%), ou en dehors, qu'en concluez vous ? </sc:para>
+								<sc:para xml:space="preserve" sc:id="t20">11. Quand doit-on décider d'un arrêt machine en s'appuyant sur le suivi des cartes de contrôles.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t21"> 12. Quelles sont les conséquences d'une très grande voir trop grande capabilité machine ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

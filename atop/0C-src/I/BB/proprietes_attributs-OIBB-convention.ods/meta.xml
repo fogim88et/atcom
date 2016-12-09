@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sfm:ods xmlns:sfm="http://www.utc.fr/ics/scenari/v3/filemeta">
+	<op:imgM xmlns:op="utc.fr:ics/opale3">
+		<sp:title xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">Convention à respecter pour les exercices</sp:title>
+		<sp:info xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+			<op:infoBin>
+				<sp:cc>by</sp:cc>
+				<sp:cpyrgt>
+					<op:sPara>
+						<sc:para sc:id="t5" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">Franck OURION</sc:para>
+					</op:sPara>
+				</sp:cpyrgt>
+			</op:infoBin>
+		</sp:info>
+	</op:imgM>
+</sfm:ods>

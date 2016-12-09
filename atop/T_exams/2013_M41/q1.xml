@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>TRG</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t12">Pendant une période (350 heures), on note les éléments suivants  : 14 500 pièces ont été produites dont 500 se sont révélées être défectueuses. Le temps de cycle est normalement de 50 pièces à l'heure. </sc:para>
+						<sc:para xml:space="preserve" sc:id="t15">Les informations extraites de l'historique donnent : Réglages machines : 14 heures, Attente de matière première : 3 heures, Arrêt machine suite à 10 défaillances : 30 heures, Arrêt machine pour mesures et contrôles : 4 heures. </sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t41">1. Calculer le TRG et les 3 taux intermédiaires.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t36">2. Calculer le MTBF, le MTTR, la disponibilité opérationnelle de la machine.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t44">3. Expliquer en quelques lignes la TPM et l'esprit dans lequel on doit travailler avec cette méthode.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+	</op:practUc>
+</sc:item>

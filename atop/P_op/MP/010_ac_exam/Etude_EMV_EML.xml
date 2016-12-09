@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Etude</sp:title>
+			<sp:sTitle>Etude</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:res sc:refUri="/P_op/MP/010_ac_exam/OF_OA_a_lancer_mars.ods">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:res sc:refUri="/P_op/MP/000_bbd_tech_res/modeles/OF_poste_modele.ods">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:res sc:refUri="/P_op/MP/000_bbd_tech_res/modeles/OF_poste_modele_cgc.ods">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:res sc:refUri="/P_op/MP/000_bbd_tech_res/modeles/stock_suivi_cgc.ods">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:res sc:refUri="/P_op/MP/000_bbd_tech_res/modeles/charge_mensuelle_modeles.ods">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:res sc:refUri="/P_op/MP/000_bbd_tech_res/modeles/cgc_charge_capacite_modele.ods">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Inférence Statistique</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Les statistiques sont intéressantes, mais elles sont coûteuses : il faut faire des enquêtes sur un grand nombre d'individus. Les statistiques inférentielles utilisent la théorie des probabilités pour restreindre ce nombre en faisant des sondages sur des échantillons. D'autre part, la théorie des tests d'hypothèses permet de prendre des décisions dans des situations faisant intervenir une part de hasard.</sc:para>
+					<sc:para>Les entreprises produisent des pièces qu'il est nécessaire de vendre à des clients dans le respect de l'assurance qualité. Même si l'objectif est de livrer des pièces sans défaut, il est souvent impossible de tester l'intégralité des pièces avant la livraison ceci pour des raisons économiques et parfois de bon sens : </sc:para>
+					<sc:itemizedList sc:id="t4">
+						<sc:listItem sc:id="t5">
+							<sc:para>Si le contrôle qualité décidant si la pièce est conforme ne peut être que destructif.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t6">
+							<sc:para>Si l'entreprise veut garantir une durée de vie nominale, il est impossible de livrer la pièce après que celle ci &quot;a fonctionné pendant une durée équivalente à la durée de vie nominale&quot;</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

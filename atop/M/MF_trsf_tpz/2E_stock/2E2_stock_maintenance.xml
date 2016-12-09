@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM xmlns:gtm="comaint.fr:gTecMi">
+			<sp:title>Le Stock Maintenance</sp:title>
+			<sp:sTitle>Le Stock Maintenance</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t22">Le stock maintenance d'une usine est constitué de l'ensemble des articles ( matières et pièces de rechange) qui permettent au service maintenance :</sc:para>
+								<sc:itemizedList sc:id="t25">
+									<sc:listItem sc:id="t26">
+										<sc:para xml:space="preserve" sc:id="t23">de maintenir de la façon la plus économique possible le matériel de l'usine, en accord avec la fabrication,</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t27">
+										<sc:para xml:space="preserve" sc:id="t24">d'exécuter des travaux de différentes natures, à la demande de différents services en qualité de fournisseur.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t8">Ne sont pas compris dans le stock maintenance :</sc:para>
+								<sc:itemizedList sc:id="t9">
+									<sc:listItem sc:id="t10">
+										<sc:para xml:space="preserve" sc:id="t11"> les matériels et matières commandés pour les constructions nouvelles.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t12">
+										<sc:para xml:space="preserve" sc:id="t13">les outillages de fabrication.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t14">
+										<sc:para xml:space="preserve" sc:id="t15">les articles commandés directement sur un <sc:uLink role="acr" sc:id="t57" sc:refUri="/1B_op/M/M/O/OT.ref">OT</sc:uLink> pour un matériel préparé, dont l'intervention sera préparée</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t18">
+										<sc:para xml:space="preserve" sc:id="t19">les matières et produits de fabrication.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t30">Certains de ces matériels peuvent être stockés dans le <sc:inlineStyle role="emp" sc:id="t60">magasin</sc:inlineStyle> de maintenance (dans des zones réservées). Ce n'est pas pour cela qu'ils font partie du stock maintenance. Notons que la définition du stock de maintenance n'est pas liée à la position comptable des articles. Ceux-ci peuvent :</sc:para>
+								<sc:itemizedList sc:id="t35">
+									<sc:listItem sc:id="t36">
+										<sc:para xml:space="preserve" sc:id="t31">soit figurer dans les comptes de bilan : comptes de valeurs immobilisées, comptes de stock,</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t37">
+										<sc:para xml:space="preserve" sc:id="t32">soit être imputés à l'achat :</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t38">
+										<sc:para xml:space="preserve" sc:id="t33">sur les sections de fabrication (ou exploitation) utilisatrices du matériel : cette solution qui existe dans de nombreuses entreprises n'est fiscalement pas légale; elle entraîne la constitution de stocks dits &quot;pirates&quot;,</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t39">
+										<sc:para xml:space="preserve" sc:id="t34">sur le taux de l'heure de maintenance ou sur un compte général (solution légale).</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Les articles de faible valeur</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t41">40 % des articles ne représentent que 5 à 10 % de la valeur du stock, et de la valeur des sorties : ils ne méritent pas de gestion spécifique. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t42">La solution d'imputation sur le taux de l'heure de maintenance est à conseiller pour la quincaillerie et certaines matières consommables de maintenance.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:info>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter/>
+						</sp:filters>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t45">En général, ces articles peuvent faire l'objet de &quot;self-services&quot; en atelier, dans la mesure où ils ne peuvent être que d'un usage domestique restreint.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t46">Le self-service présente un intérêt :</sc:para>
+								<sc:itemizedList sc:id="t49">
+									<sc:listItem sc:id="t50">
+										<sc:para xml:space="preserve" sc:id="t47">pour la réduction du temps d'attente au magasin,</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t51">
+										<sc:para xml:space="preserve" sc:id="t48">pour le cas où le magasin n'est ouvert que durant une tranche horaire (la journée) .</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

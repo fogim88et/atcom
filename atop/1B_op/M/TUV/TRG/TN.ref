@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Temps Net de Fonctionnement (TN)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t4">Le temps net de fonctionnement est le temps  nécessaire à la fabrication des pièces à la cadence  normale (respect du temps de cycle)</sc:para>
+					<sc:para sc:id="t6">La machine donne l'impression de tourner. Cependant, elle peut ne pas respecter la cadence normale, suite à un écart de performance (Ralentissement de la machine) ou des micro-arrêts (pièces bloquées, ...). </sc:para>
+					<sc:para sc:id="t7">Généralement, ces temps ne sont pas saisis et sont identifiés par <sc:inlineStyle role="emp">EP</sc:inlineStyle> : Écart de performance</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

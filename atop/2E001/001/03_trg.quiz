@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Le TRG</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>TRG</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sc:question>
+			<op:res xmlns:dk="kelis.fr:dokiel">
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t247">Calculez le <sc:uLink role="glos" sc:id="t244" sc:refUri="/1B_op/M/TUV/TRG/TRG.ref">TRG</sc:uLink>.</sc:para>
+						<sc:table role="" sc:id="t276">
+							<sc:caption xml:space="preserve" sc:id="t277">Etat actuel à l'issue de laquestion 2</sc:caption>
+							<sc:column sc:id="t278" width="15"/>
+							<sc:column sc:id="t279" width="15"/>
+							<sc:column sc:id="t280" width="31"/>
+							<sc:row sc:id="t281">
+								<sc:cell sc:id="t282" colSpan="2">
+									<sc:para xml:space="preserve" sc:id="t283">
+										<sc:inlineStyle role="emp" sc:id="t335">TO = 24 h</sc:inlineStyle>
+									</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t285">
+									<sc:para xml:space="preserve" sc:id="t356"><sc:uLink role="glos" sc:id="t363" sc:refUri="/1B_op/M/TUV/TRG/TRG.ref">TRG</sc:uLink> = <sc:inlineStyle role="emp" sc:id="t364">? ? ? </sc:inlineStyle></sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t286">
+								<sc:cell sc:id="t287">
+									<sc:para xml:space="preserve" sc:id="t288">TB = ........</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t289">
+									<sc:para xml:space="preserve" sc:id="t290">AI = ........</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t291">
+									<sc:para xml:space="preserve" sc:id="t292">TxB = ........</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t293">
+								<sc:cell sc:id="t294">
+									<sc:para xml:space="preserve" sc:id="t295">TN = ........</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t296">
+									<sc:para xml:space="preserve" sc:id="t297">EP = ........</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t298">
+									<sc:para xml:space="preserve" sc:id="t299">TxP = ........</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t300">
+								<sc:cell sc:id="t301">
+									<sc:para xml:space="preserve" sc:id="t302">
+										<sc:inlineStyle role="emp" sc:id="t336">TU = 13 h</sc:inlineStyle>
+									</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t303">
+									<sc:para xml:space="preserve" sc:id="t304">NQ = 2 h</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t305">
+									<sc:para xml:space="preserve" sc:id="t306">TxQ = ........</sc:para>
+								</sc:cell>
+							</sc:row>
+						</sc:table>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t236">
+					<sc:uLink role="glos" sc:id="t243" sc:refUri="/1B_op/M/TUV/TRG/TRG.ref">TRG</sc:uLink> = <sc:textLeaf role="gap" sc:id="t348">54</sc:textLeaf> % (arrondir à l'entier le plus proche).</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+	</op:cloze>
+</sc:item>

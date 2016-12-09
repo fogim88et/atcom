@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:cloze>
+<op:exeM>
+<sp:title>B6 .... enfin</sp:title>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t13">Le polynôme se décompose en 4 <sc:inlineStyle role="emp">termes</sc:inlineStyle> d'<sc:inlineStyle role="emp">ordres</sc:inlineStyle> 3, 2, 1, 0.</sc:para>
+						<sc:para sc:id="t14">Chaque terme se calcule avec son coefficient, son ordre et la valeur de x.</sc:para>
+						<sc:para sc:id="t15">La somme des 4 termes donnera la valeur de f(x).</sc:para>
+						<sc:para sc:id="t16">La formule en B6 est destinée à calculer le terme d'ordre 3. Cette cellule sera recopiée vers la droite jusque E6.</sc:para>
+						<sc:para sc:id="t17">La plage B6:E6 sera recopiée vers le bas jusqu'à la ligne 46.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para>Votre formule en B6 est <sc:textLeaf role="gap" sc:id="t19">=B$2*$A6^B$5</sc:textLeaf>.</sc:para>
+				<sc:para sc:id="t39">Votre formule en F6 pour f(x) est <sc:textLeaf role="gap" sc:id="t38">=SOMME(B6:E6)</sc:textLeaf>
+</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t7">Pour faire référence à x : </sc:para>
+						<sc:para>- il faut observer que lorsque l'on va copier à droite, la référence de la colonne doit rester A</sc:para>
+						<sc:para>- il faut que lorsque l'on copie vers le bas, la référence à la ligne doit suivre</sc:para>
+						<sc:para>Donc, si x est en référence relative en A6, dans notre formule nous aurons $A6 pour respecter une référence absolue sur la colonne mais relative pour la ligne.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t26">Pour faire référence à l'ordre (exposant de x), il faut que la ligne soit en référence absolue, la colonne en relatif, donc B$5.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t28">Pour les coefficients, par analogie avec l'exposant, nous aurons B$2.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

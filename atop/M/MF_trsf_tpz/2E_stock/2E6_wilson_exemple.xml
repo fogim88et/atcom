@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Exemple</sp:title>
+			<sp:sTitle>Exemple</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Données entreprise et pièce</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t244">
+<sc:uLink role="glos" sc:id="t250" sc:refUri="/1B_op/S/stock/CC.ref">Cc</sc:uLink> et <sc:uLink role="glos" sc:id="t251" sc:refUri="/1B_op/M/M/S/stock/T_pos.ref">T</sc:uLink> dépendent de l'entreprise.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t268">
+<sc:uLink role="glos" sc:id="t252" sc:refUri="/1B_op/M/M/S/stock/Qa.ref">Qa</sc:uLink> représente le besoin  de la pièce au niveau de l'entreprise.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t269">
+<sc:uLink role="glos" sc:id="t253" sc:refUri="/1B_op/M/M/S/stock/PU.ref">Pu</sc:uLink>, <sc:uLink role="glos" sc:id="t272" sc:refUri="/1B_op/A/appro_delai.ref">d</sc:uLink> impactent les modalités d'approvisionnement de la pièce au niveau du fournisseur.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t300">
+<sc:uLink role="glos" sc:id="t277" sc:refUri="/1B_op/M/M/S/stock/Qa_min.ref">Qa_min</sc:uLink> : décision de stockage à prendre en fonction de la pénalité encourue <sc:uLink role="glos" sc:id="t324" sc:refUri="/1B_op/C/couts/CGM_CDM.ref">P</sc:uLink> et du surcoût d'une commande en urgence<sc:uLink role="glos" sc:id="t325" sc:refUri="/1B_op/S/stock/Cpc.ref"> C<sc:textLeaf role="ind" sc:id="t323">cpc</sc:textLeaf>
+</sc:uLink>.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t301">
+<sc:uLink role="glos" sc:id="t279" sc:refUri="/1B_op/M/M/S/stock/qe.ref">Qe</sc:uLink>, <sc:uLink role="glos" sc:id="t307" sc:refUri="/1B_op/M/M/S/stock/Te.ref">Te</sc:uLink>, <sc:uLink role="glos" sc:id="t278" sc:refUri="/1B_op/M/M/S/stock/qs.ref">Qs</sc:uLink>, <sc:uLink role="glos" sc:id="t280" sc:refUri="/1B_op/M/M/S/stock/risque_rupture.ref">α</sc:uLink> : si stockage, décision des modalités d'approvisionnement (Choix de la méthode : <sc:uLink role="glos" sc:id="t275" sc:refUri="/1B_op/A/appro_pc.ref">PC</sc:uLink>, <sc:uLink role="glos" sc:id="t276" sc:refUri="/1B_op/A/appro_pa.ref">PA</sc:uLink>)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t203">
+									<sc:caption xml:space="preserve" sc:id="t411">Données de départ</sc:caption>
+									<sc:column sc:id="t204" width="33"/>
+									<sc:column sc:id="t205" width="33"/>
+									<sc:row role="head" sc:id="t207">
+										<sc:cell sc:id="t208">
+											<sc:para xml:space="preserve" sc:id="t224">Niveau Entreprise</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t209">
+											<sc:para xml:space="preserve" sc:id="t226">Pièce A</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t211">
+										<sc:cell sc:id="t212">
+											<sc:para xml:space="preserve" sc:id="t230">T = 15%</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t213">
+											<sc:para xml:space="preserve" sc:id="t232">Pu = 100 euros</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t215">
+										<sc:cell sc:id="t216">
+											<sc:para xml:space="preserve" sc:id="t236">Cc = 25 euros</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t217">
+											<sc:para xml:space="preserve" sc:id="t238">Qa = 50 pièces</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Décision de stockage</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t398"> La décision est évidente ici, car si la pièce A n'est pas stockée, il faudra commander 100 fois par an cette pièce, soit environ 1 jour sur 3. En cas de besoin de la pièce, même si la pénalité encourue est très faible, rien que devoir commander cette pièce chaque fois que l'on en a besoin est suffisamment pénalisant pour justifier de son stockage en magasin.</sc:para>
+								<sc:para xml:space="preserve">Avec P=0, on a CDM = 100*(30) = 3000 euros à comparer à un CSM optimisé de 200 euros.</sc:para>
+								<sc:para xml:space="preserve">On a aussi Qa min = 1,2 qui montre que même si on ne consommait que quelques unités à l'année, il serait nécessaire de disposer de la pièce en magasin.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Représentation du Coût de gestion en fonction de q</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t203">
+									<sc:caption xml:space="preserve" sc:id="t411">Données de départ</sc:caption>
+									<sc:column sc:id="t204" width="33"/>
+									<sc:column sc:id="t205" width="33"/>
+									<sc:row role="head" sc:id="t207">
+										<sc:cell sc:id="t208">
+											<sc:para xml:space="preserve" sc:id="t224">Niveau Entreprise</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t209">
+											<sc:para xml:space="preserve" sc:id="t226">Pièce A</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t211">
+										<sc:cell sc:id="t212">
+											<sc:para xml:space="preserve" sc:id="t230">T = 15%</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t213">
+											<sc:para xml:space="preserve" sc:id="t232">Pu = 100 euros</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t215">
+										<sc:cell sc:id="t216">
+											<sc:para xml:space="preserve" sc:id="t236">Cc = 25 euros</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t217">
+											<sc:para xml:space="preserve" sc:id="t238">Qa = 50 pièces</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t297">L'enjeu est ici donc d'optimiser au mieux les modalités de réapprovisionnement</sc:para>
+								<sc:para xml:space="preserve" sc:id="t318">Reportez vous à la <sc:uLink role="bib" sc:id="t326" sc:refUri="/1B_op/M/M/S/stock_mm004_demarche_stockage.ref">démarche globale</sc:uLink> pour situer la pièce dans son contexte.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/M/MF_trsf_tpz/Presse-papier01.png">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t253">On remarque que le coût de gestion est minimal pour q=Qe=12,9. C'est donc la valeur la plus économiquement rentable que l'on choisira par défaut comme quantité commandée --&gt; <sc:uLink role="glos" sc:id="t348" sc:refUri="/1B_op/M/M/S/stock/qe.ref">Qec</sc:uLink>=13</sc:para>
+								<sc:para xml:space="preserve" sc:id="t260">Comme nous avons Qa=50, on en déduit <sc:uLink role="glos" sc:id="t308" sc:refUri="/1B_op/M/M/S/stock/nc.ref">Nc</sc:uLink> = ≈ 50/12 ≈ 4 commandes attendues à l'année soit <sc:uLink role="glos" sc:id="t347" sc:refUri="/1B_op/M/M/S/stock/Te.ref">Te</sc:uLink>= 3 mois .</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:rem>
+					<op:pbTi>
+						<sp:title>Marge de manoeuvre</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t407">On remarque que le coût global de gestion reste bas dans l'intervalle [7-25] : quelques % de variation maximum sur cet intervalle. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t417">Cela signifie que tout choix de Qec dans cet intervalle est économiquement rentable. et qu'entre 2 et 7 commandes à l'année, il n'y a pas d'impact sur le coût de gestion.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t414">Si plusieurs pièces peuvent être commandées chez un même fournisseur, il sera alors facile de synchroniser cette pièce avec d'autres afin de regrouper les commandes selon un échéancier prévisionnel</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:rem>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Rythme des approvisionnements</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t261">Si la consommation est très régulière dans le temps, on pourra choisir de commander à chaque trimestre (<sc:uLink role="glos" sc:id="t265" sc:refUri="/1B_op/A/appro_pa.ref">Méthode PA</sc:uLink>) une qté appelée <sc:uLink role="glos" sc:id="t273" sc:refUri="/1B_op/M/M/S/stock/Qp.ref">Qp</sc:uLink>= <sc:uLink role="glos" sc:id="t254" sc:refUri="/1B_op/M/M/S/stock/qs.ref">Qs</sc:uLink> + <sc:uLink role="glos" sc:id="t255" sc:refUri="/1B_op/M/M/S/stock/qe.ref">Qe</sc:uLink>.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t262">Sinon, on peut commander (<sc:uLink role="glos" sc:id="t292" sc:refUri="/1B_op/A/appro_pc.ref">PC</sc:uLink>) lorsque la quantité en stock passera en dessous du seuil de sécurité <sc:uLink role="glos" sc:id="t274" sc:refUri="/1B_op/M/M/S/stock/qs.ref">Qs</sc:uLink>. C'est ce que l'on choisira pour la pièce étudiée ici car pour une consommation annuelle si faible (40), il est probable que la fluctuation des consommations sur une période de 1 ou 2 mois soit variable : il faudrait alors fixer un plafond trop grand pour être sûr de ne ne pas devoir relancer une commande avant l'échéance.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Seuil minimum</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t368">Si le <sc:uLink role="glos" sc:id="t369" sc:refUri="/1B_op/A/appro_delai.ref">Délai d'approvisionnement (d)</sc:uLink> est d'1 semaine, on a en donc <sc:uLink role="glos" sc:id="t370" sc:refUri="/1B_op/M/M/S/stock/Qd.ref">Qd</sc:uLink> ≈ 0,95 pièces (50 * 7jrs/ 365jrs)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t371">Sans indication concernant la pénalité encourue en cas de rupture du stock, nous n'avons pas de risque de rupture précis, et nous n'avons pas d'information sur la dispersion de la consommation pendant ce délai. Le bon sens impose de doubler au moins la consommation moyenne  et au plus de la tripler soit Qs à choisir entre 1,9 et 2,85. Qs=2 ou 3 semble un bon compromis.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t373">La <sc:uLink role="ucLnk" sc:id="t374" sc:refUri="/D/DS/3_ne/DSE_ne/5E5-Poisson (62)/st_mod_Lpoi_ne.xml">loi de poisson</sc:uLink> pour m=0,96 donne F(2) = 93 % et F(3)=98,3%</sc:para>
+								<sc:para xml:space="preserve" sc:id="t375">Le risque de rupture associé à Qs=2 ou 3 est donc très proche de 5 %. </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Conclusion</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t290">On commandera  (Méthode <sc:uLink role="glos" sc:id="t291" sc:refUri="/1B_op/A/appro_pc.ref">PC</sc:uLink>) 13 pièces dès que le stock disponible passera sous le seuil de 3 pièces avec 1,7 % de chance de tomber en rupture de stock de 5%.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t7">N'hésitez pas à vérifier vos calculs avec les exécutables<sc:uLink role="docLnk" sc:id="t408" sc:refUri="/0B-tmp/DSE/DSE_pg_01.zip"/></sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

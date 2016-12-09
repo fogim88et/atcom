@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Outils Stats : Suite 45 mns</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>2.1. Fiabilité</sp:title>
+					</op:pbTi>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t27">A t = 1000 heures, on observé que 90% composants fonctionnent encore. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t73">Qu'en déduisez vous si cette information à été obtenue avec n=10, n=100, et n=1000, n=4000, n=10000.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t87">En tant que fournisseur, je souhaite déterminer une garantie acceptable, et en tant que qu'exploitant, je souhaite choisir une période d'échange systématique optimale. 1000 heures est-elle une valeur correcte dans les 2 cas  ? Si oui, quelle valeur de n est convenable pour démontrer le choix de 1000 h ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t54">On se placera à un niveau de confiance de 97,5% (quantile de gauss unilatéral de 2) pour évaluer la fiabilité R min que l'on est sûr d'atteindre.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/T_exams/TTAM/en_2.ods">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>2.2. Coût de l'étude</sp:title>
+					</op:pbTi>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t66">Une étude de fiabilité a un coût CE (n) = forfait + PU + PEU * n. Le forfait est de 500 euros, le prix PU est de 20 euros, le prix unitaire par composant dont il faut tester la durée de vie jusqu'à 1000 heures (PEU) est de 1 euro.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t67">On va vendre NV Produits dont une quantité NG devra être remplacé en période de garantie. NG est évalué en rapport de la fiabilité minimum R min que l'on peut être sûr d'atteindre --&gt; NG = (1-Rmin)*NV --&gt; Le budget à prévoir pour les remplacements est donc de NG * PU.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t90">Vous prendrez les valeurs de R min données pour la question 2.2 et non celles que vous avez calculé en 2.1</sc:para>
+								<sc:para xml:space="preserve" sc:id="t77">Conclusion : </sc:para>
+								<sc:para xml:space="preserve" sc:id="t78">Si on prévoit la vente de 500000 unités, le surcôut d'une étude de fiabilité avec n=4000 par rapport à n=1000 engendre t-il un gain de trésorerie supérieur à ce surcoût ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t79">Si on prévoit la vente de 20000 unités, quelle taille allez vous choisir pour votre étude de fiabilité ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>2.3. gestion de stock</sp:title>
+					</op:pbTi>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t70">En tant que gestionnaire du stock, si 1000 heures de fonctionnement correspond à 6 mois d'utilisation, sachant que 100 composants sont échangés tous les 6 mois en maintenance préventive, quel stock tampon doit-on constituer pour être sûr à 97,5% de chance de ne pas être en rupture pour répondre aux défaillances prévisibles sur les 6 mois. Le fournisseur affirme avoir réalisé son étude de fiabilité sur 1000 composants.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

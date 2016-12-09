@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Etude de cas</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Une etude de cas se décompose en Phases, elle mêmes décomposée en Etape.</sc:para>
+					<sc:para>L'edc est identifiée par un identifiant unique xxx que j'incrémente au fur et à mesure que celle-ci seront publiée sur mon site.</sc:para>
+					<sc:para>Les phases sont identifiées par un n° codé yy de 01 à 99.</sc:para>
+					<sc:para>Chaque étape est identifiée par une lettre L de a à z.</sc:para>
+					<sc:para>Si une étape fait référence à plusieurs exercices ou ressources, celle ci vont recevoir un indice supplémentaire I de 1 à 9.</sc:para>
+					<sc:para>edc : xxx</sc:para>
+					<sc:para>phase : xxx_yy</sc:para>
+					<sc:para>étape : xxx_yy.L</sc:para>
+					<sc:para>indice : xxx_yy_L_i</sc:para>
+					<sc:para>Un nom de fichier qui se réfère à une edc sera nommé xxx_themes</sc:para>
+					<sc:para>Un nom de fichier qui se réfère à une étape sera nommé xxx_yy.L_themes</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

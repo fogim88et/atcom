@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Gestion Technique (2H)</sp:title>
+			<sp:sTitle>Gestion Technique</sp:sTitle>
+		</op:uM>
+		<sp:courseUc sc:refUri="/00_atopale_ext/2B_dossier_technique/gestion_technique_ne.xml"/>
+		<sp:courseUc sc:refUri="/00_atopale_ext/2B_dossier_technique/rep_documents.xml"/>
+		<sp:courseUc sc:refUri="/00_atopale_ext/2B_dossier_technique/exemple_fiche_tech.xml"/>
+	</op:courseUa>
+</sc:item>

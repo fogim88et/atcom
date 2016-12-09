@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:refM>
+			<sp:ref>3 : TRG (6A)</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">Une machine est censée produire 100 pièces à l'heure et fonctionne 24 heures sur 24. </sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">Toutes les 2000 pièces, on doit faire un contrôle nécessitant une intervention du service maintenance de 20 mn. </sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">Avec un lot de matière première, on peut réaliser environ 3000 pièces. Le temps d'approvisionnement est de 18 mn.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t7">15 jours complets auront été nécessaires à la fabrication de 30070 pièces bonnes avec un taux de qualité de 97%, </sc:para>
+					<sc:para xml:space="preserve" sc:id="t8">La disponibilité opérationnelle de la machine donnée par le service maintenance est de 95%. </sc:para>
+					<sc:para xml:space="preserve">On calculera le TRG et les taux intermédiaires</sc:para>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

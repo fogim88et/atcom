@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:refM>
+			<sp:ref>10_3b : Requête SQL</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">SELECT DISTINCT `tb_etudiant`.`nom_et` AS `Etudiant`, `tb_matiere`.`nom_mat`, `tb_note`.`Note` FROM `tb_note`, `tb_etudiant`, `tb_matiere` WHERE `tb_note`.`id_et` = `tb_etudiant`.`id_et` AND `tb_note`.`id_mat` = `tb_matiere`.`id_mat` ORDER BY `tb_etudiant`.`nom_et` ASC, `tb_note`.`Note` DESC</sc:para>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

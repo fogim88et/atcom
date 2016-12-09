@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Lecture Documentation Imprimante laser</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t6">Sur la documentation d'une imprimante laser, on peut lire les renseignements suivants :</sc:para>
+								<sc:para sc:id="t7">Nombre de pages pour une cartouche toner (encre) : 2500</sc:para>
+								<sc:para sc:id="t8">Nombre de pages pour le tambour (bloc d'impression) : 13500</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:rem>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t11">Comment interprétez vous ces informations ? </sc:para>
+								<sc:para>Quand allez vous changer l'un ou l'autre des éléments ?</sc:para>
+								<sc:para sc:id="t12">Les imprimantes laser ne disposent généralement pas de compteur de page.</sc:para>
+								<sc:para> Serait-il opportun d'en installer un en supposant que son coût soit nul.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:rem>
+				<sp:simul>
+					<op:pbTi>
+						<sp:title>Eléments de réponse</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t15">La cartouche toner est un consommable qui autorise environ 2500 pages d'une densité moyenne. </sc:para>
+								<sc:para>Lorsque la cartouche se vide, les pages imprimées sont de plus en plus claires : souvent l'imprimante envoie alors un message d'information. </sc:para>
+								<sc:para>En conclusion on change le toner lorsque la densité d'impression diminue, ou à l'apparition d'un message informant d'une rupture prochaine d'encre.</sc:para>
+								<sc:para sc:id="t16">Le tambour gère l'ensemble du mécanisme de l'impression. Lorsque celui-ci est usé, la qualité d'impression baisse (l'encre se fixe mal sur la papier : les caractères paraissent flous, des traces apparaissent systématiquement, ...). </sc:para>
+								<sc:para>Sachant qu'un tambour a une durée de vie moyenne de 5 à 6 cartouches de toner, on surveillera la qualité d'impression pendant la cinquième cartouche. A savoir qu'une cartouche d'encre n'est pas récupérable au changement de tambour.</sc:para>
+								<sc:para sc:id="t17">Un compteur présente un intérêt pour prévoir le réapprovisonnement des cartouches et des tambours, mais ne permettra pas forcément de prendre la décisision de changer la cartouche ou le tambour (irrégularité de densité des pages imprimées : 1 page blanche pourrait être comptabilisée comme une page totalement noire)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:simul>
+				<sp:comp>
+					<op:pbTi>
+						<sp:title>Etudes possibles</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t19">Recenser les consommations de toner/tambour. Historique</sc:para>
+								<sc:para>Les corréler avec le temps</sc:para>
+								<sc:para>Le cas échéant, en déduire une période de réapprovisionnement.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:comp>
+				<sp:adv>
+					<op:pbTi>
+						<sp:title>Standardisation.</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t21">Plus la taille de l'entreprise est importante, plus elle a intérêt à minimiser le nombre de de références des consommables </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:adv>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

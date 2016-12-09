@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Loi Normale Centrée Réduite (5E1A)</sp:title>
+			<sp:sTitle>LNCR (5E1A)</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t9">La <sc:uLink role="acr" sc:id="t14" sc:refUri="/D/DS/1B2/L/LNCR.ref">LNCR</sc:uLink> permet de calculer les probabilités pour toute <sc:uLink role="ucLnk" sc:id="t203" sc:refUri="/D/DS/3_ne/DSE_ne/5E1_LN (58)/5E1_ne.xml">Loi Normale</sc:uLink> de <sc:uLink role="resLnk" sc:id="t11" sc:refUri="/D/DS/1B2/S/5E_modeles/5E1-LN/LN_param_liste.odf">paramètres quelconques</sc:uLink> </sc:para>
+										<sc:para xml:space="preserve">
+<sc:inlineImg role="form" sc:id="t10" sc:refUri="/D/DS/1B2/S/5E_modeles/5E1-LN/LN_param_liste.odf"/>
+</sc:para>
+										<sc:para xml:space="preserve" sc:id="t192">Sa densité de probabilité f(t) est donc universelle</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/00_atopale_ext/0F_img/5_stat/5E1-5E2-LN/stloi_fz_LNCR_graphe.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+					</op:res>
+				</sp:info>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Loi Normale Centrée Réduite (LNCR)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t173">On change la variable x en t appelée quantile de gauss </sc:para>
+								<sc:table role="" sc:id="t211">
+									<sc:caption xml:space="preserve">x ---> t</sc:caption>
+									<sc:column sc:id="t212" width="13"/>
+									<sc:column width="20"/>
+									<sc:column sc:id="t213" width="34"/>
+									<sc:row sc:id="t214">
+										<sc:cell sc:id="t215">
+											<sc:para xml:space="preserve" sc:id="t221">x</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve" sc:id="t231"><sc:inlineImg role="form" sc:id="t233" sc:refUri="/D/DS/1B2/S/5E_modeles/5E1-LN/LN_param.odf"/></sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t216">
+											<sc:para xml:space="preserve" sc:id="t223"><sc:inlineImg role="form" sc:id="t230" sc:refUri="/D/DS/1B2/S/5E_modeles/5E1-LN/LN_f(x).odf"/></sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t217">
+										<sc:cell sc:id="t218">
+											<sc:para xml:space="preserve" sc:id="t225"><sc:inlineImg role="form" sc:id="t228" sc:refUri="/D/DS/1B2/S/5E_modeles/5E1-LN/VCR_t.odf"/></sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve" sc:id="t232"><sc:inlineImg role="form" sc:id="t234" sc:refUri="/D/DS/1B2/S/5E_modeles/5E1-LN/LNCR_param.odf"/></sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t219">
+											<sc:para xml:space="preserve" sc:id="t227"><sc:inlineImg role="form" sc:id="t229" sc:refUri="/D/DS/1B2/S/5E_modeles/5E1-LN/LNCR_f(t).odf"/></sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:basic>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t191">Chaque valeur x est donc exprimée en <sc:inlineStyle role="emp" sc:id="t204">nombre d'écart-type</sc:inlineStyle> par rapport à la moyenne.</sc:para>
+								<sc:para xml:space="preserve"> 99,8% sont des valeurs sont ainsi comprises entre -3 et +3 écart-type.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:ex>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter>
+								<sp:exclude>short</sp:exclude>
+							</op:filter>
+						</sp:filters>
+					</op:pbTi>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t146">Aire de - ∞ à t</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/00_atopale_ext/0F_img/5_stat/5E1-5E2-LN/ne_lncr_proba_t_inf.jpg"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t148">Aire de t à + ∞ </sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/00_atopale_ext/0F_img/5_stat/5E1-5E2-LN/ne_lncr_proba_t_sup.jpg"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t150">Aire d'un intervalle (non obligatoirement centré)</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/00_atopale_ext/0F_img/5_stat/5E1-5E2-LN/ne_lncr_prob_intervalle.jpg"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t152">Lorsque l'on cherche la probabilité associée à un intervalle t<sc:textLeaf role="ind" sc:id="t158">1</sc:textLeaf>-t<sc:textLeaf role="ind" sc:id="t157">2</sc:textLeaf>, on a prob (t<sc:textLeaf role="ind" sc:id="t156">1</sc:textLeaf>&lt;t&lt;t<sc:textLeaf role="ind" sc:id="t155">2</sc:textLeaf>) = F(t<sc:textLeaf role="ind" sc:id="t154">2</sc:textLeaf>)-F(t<sc:textLeaf role="ind" sc:id="t153">1</sc:textLeaf>)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+				<sp:info>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter>
+								<sp:exclude>short</sp:exclude>
+							</op:filter>
+						</sp:filters>
+						<sp:title>Les tables</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/00_atopale_ext/0F_img/5_stat/5E1-5E2-LN/ne_LNCR_table.png">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

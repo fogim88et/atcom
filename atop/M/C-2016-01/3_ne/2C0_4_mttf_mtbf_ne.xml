@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>MTBF et MTTF</sp:title>
+			<sp:sTitle>MTBF et MTTF</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:ex>
+					<op:pbTi>
+						<sp:title>Analogie avec l'être humain</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t11">Le <sc:uLink role="glos" sc:id="t22" sc:refUri="/1B_op/M/MN/MTBF.ref">MTBF</sc:uLink> d'un être humain sera le temps moyen entre deux maladies. </sc:para>
+								<sc:para>La notion de panne est une maladie qui nous rends inapte à accomplir ce que l'on avait prévu de faire (travail, compétition sportive, etc ...). On peut bien sûr facilement remarquer que l'on peut reprendre une activité sans être complétement rétabli (Revoir les notions de <sc:uLink role="glos" sc:id="t24" sc:refUri="/1B_op/M/TUV/type_maint/depannage.ref">dépannage</sc:uLink>, <sc:uLink role="glos" sc:id="t25" sc:refUri="/1B_op/M/TUV/type_maint/reparation.ref">réparation</sc:uLink>), ou bien, se rendre au travail en étant légèrement souffrant, ou encore, revoir nos objectifs lors d'une compétition.</sc:para>
+								<sc:para sc:id="t16">On remarquera aussi que le temps de la guérison (24 heures), est plus grand que le temps de travail manqué (8 heures). </sc:para>
+								<sc:para sc:id="t17">Vous pouvez aussi tomber malade pendant vos périodes de repos.</sc:para>
+								<sc:para sc:id="t19">Le <sc:uLink role="glos" sc:id="t23" sc:refUri="/1B_op/M/MN/MTTF.ref">MTTF</sc:uLink> d'un être humain est l'espérance de vie moyenne que l'on nous accorde à la naissance. La référence à la naissance est très important ; si l'espérance de vie est de 75 ans, on comprends aisément  qu'une personne de 80 ans a encore l'espoir en moyenne de vivre quelque années. L'espérance de vie doit donc être recalculée sans cesse au fur et à mesure que le temps passe pour avoir une idée du temps qu'il nous reste à vivre à tout moment.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+				<sp:warning>
+					<op:pbTi>
+						<sp:title>Utilité</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t39">Ces caractéristiques sont des moyennes (1 chance sur 2 en général) et intéressent rarement la maintenance qui est souvent plus concernée par des <sc:inlineStyle role="emp">minimas</sc:inlineStyle> ou des <sc:inlineStyle role="emp">maximas </sc:inlineStyle>:</sc:para>
+								<sc:para sc:id="t47">- durée de vie nominale : on a 9 chances sur 10 que le composant fonctionne plus de 5000 heures. On cherche donc plutôt à s'approcher de la certitude de dépasser un temps de fonctionnement, d'où des probabilités supérieures à 90% </sc:para>
+								<sc:para sc:id="t48">- durabilité : on peut utiliser l'équipement au maximum pendant 5 ou 10 ans en tenant compte des évolutions techniques ou technologiques, amortissement.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t41">On peut comparer le MTTF de 2 composants identiques, le MTBF de 2 équipements, l'évolution du MTBF dans le temps (mois par mois)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t43">Les moyennes sont donc essentiellement une caractéristique statistique ou un paramètre de modèles statistiques.</sc:para>
+								<sc:para>Elles traduisent la tendance centrale d'une distribution, mais pas la forme (dispersion).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:warning>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

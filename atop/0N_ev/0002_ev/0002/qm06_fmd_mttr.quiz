@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:mcqSur xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>MTTR</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>MTTR</sp:keywd>
+							<sp:keywd>TTR</sp:keywd>
+							<sp:keywd>TA</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Quelle est la réponse la plus adaptée pour un MTTR de 3 heures observé sur un dispositif</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:choices>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t5">
+							On a la quasi certitude de remettre le dispositif en état de fonctionner en moins de 3 heures</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t75">La notion de moyenne est liée à une probabilité de 50%, soit 1 chance sur 2, ce qui n'est pas ce que l'on peut appeler de la quasi-certitude</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t29">
+							On a environ 1 chance sur 2 que le dispositif soit remis en état de fonctionner en moins de 3 heures</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para sc:id="t77">C'est la seule chose que l'on peut dire</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t79">On a la certitude de remettre le dispositif en état de fonctionner en moins de 5 heures</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+				<sc:choiceExplanation>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t81">Pour quantifier cette certitude par une probabilité, il faudrait connaître la dispersion (écart-type) des TTR autour de la valeur moyenne. On devrait être proche de 95 si la distribution des temps de réparation est gaussienne</sc:para>
+					</op:txt>
+				</sc:choiceExplanation>
+			</sc:choice>
+		</sc:choices>
+		<sc:solution choice="2"/>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t48">
+							<sc:uLink role="glos" sc:id="t72" sc:refUri="/1B_op/M/MN/MTTR.ref"/>Attention à la définition simple du <sc:uLink role="glos" sc:id="t73" sc:refUri="/1B_op/M/MN/MTTR.ref">MTTR</sc:uLink>, il y a une différence entre les <sc:uLink role="glos" sc:id="t51" sc:refUri="/1B_op/M/TUV/tps_mi/TTR_TA.ref">TA ou TTR </sc:uLink>et les <sc:uLink role="glos" sc:id="t52" sc:refUri="/1B_op/M/TUV/tps_mi/TAM.ref">TAP</sc:uLink>.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:mcqSur>
+</sc:item>

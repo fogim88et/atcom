@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ordWord xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Besoins 02</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t31">Placez les expressions dans l'ordre dans lequel le calcul des besoins doit être fait</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:label>
+			<op:labelTxt>
+				<sc:para xml:space="preserve" sc:id="t5">Sd<sc:textLeaf role="ind" sc:id="t26">j</sc:textLeaf>
+</sc:para>
+			</op:labelTxt>
+		</sc:label>
+		<sc:label>
+			<op:labelTxt>
+				<sc:para xml:space="preserve" sc:id="t7">BN</sc:para>
+			</op:labelTxt>
+		</sc:label>
+		<sc:label>
+			<op:labelTxt>
+				<sc:para xml:space="preserve" sc:id="t13">OF<sc:textLeaf role="ind" sc:id="t36">fin</sc:textLeaf>
+</sc:para>
+			</op:labelTxt>
+		</sc:label>
+		<sc:label>
+			<op:labelTxt>
+				<sc:para xml:space="preserve" sc:id="t15">OF<sc:textLeaf role="ind" sc:id="t37">deb</sc:textLeaf>
+</sc:para>
+			</op:labelTxt>
+		</sc:label>
+		<sc:label>
+			<op:labelTxt>
+				<sc:para xml:space="preserve" sc:id="t25">Sd<sc:textLeaf role="ind" sc:id="t27">j-1</sc:textLeaf>
+</sc:para>
+			</op:labelTxt>
+		</sc:label>
+	</op:ordWord>
+</sc:item>

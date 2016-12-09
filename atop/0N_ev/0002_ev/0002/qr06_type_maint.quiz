@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:mcqSur>
+<op:exeM>
+<sp:title>Les fusibles</sp:title>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Les fusibles d'un véhicule automobile sont des éléments à changer de manière :</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:choices>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t5">
+							systématique ?</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t9">
+							conditionnelle ?</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice>
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t13">
+							<sc:uLink role="glos" sc:id="t28" sc:refUri="/1B_op/M/TUV/type_maint/curative.ref">curative </sc:uLink>?</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+		</sc:choices>
+		<sc:solution choice="3"/>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t25">Il n'y a aucun moyen de contrôler l'usure d'un fusible, et la défaillance d'un fusible est aléatoire, donc un neuf a la même probabilité de défaillance que l'ancien.</sc:para>
+						<sc:para sc:id="t43">De plus un fusible est un dispositif de protection prévu pour cesser sa fonction de &quot;passage du courant&quot; lorsque celui-ci est trop important.</sc:para>
+						<sc:para sc:id="t58">La recherche de &quot;fusibles&quot; fait partie des pistes de maintenance <sc:uLink role="glos" sc:id="t59" sc:refUri="/1B_op/M/TUV/type_maint/corrective.ref">améliorative</sc:uLink> pour protéger les organes vitaux.</sc:para>
+						<sc:para sc:id="t74">Si la rupture d'un fusible est une cause primaire de défaillance, c'est la cause de la cause de la cause qu'il faut rechercher.</sc:para>
+						<sc:para>Son remplacement se fait donc obligatoire après rupture et donc c'est une opération de maintenance curative.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:mcqSur>
+</sc:item>

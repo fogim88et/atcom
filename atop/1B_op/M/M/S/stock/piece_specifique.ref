@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Pièces Communes</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve">Ces pièces sont communes à plusieurs machines (plusieurs points d'entrées dans la nomenclature)</sc:para>
+					<sc:para xml:space="preserve" sc:id="t3">La justification économique est relativement aisée sauf si le prix unitaire est élevé, le coût de possession est à optimiser grâce à une bonne gestion des fournisseurs, à une bonne documentation technique, notamment concernant des données de fiabilité. On recherchera à minimiser le nombre de références grâce à la définition de standards techniques.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

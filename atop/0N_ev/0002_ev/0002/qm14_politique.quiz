@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:mcqMur>
+<op:exeM>
+<sp:title>Rôle de l'opérateur</sp:title>
+</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">A votre avis, dans un premier temps, quel doit être en priorité le rôle du conducteur d'une machine par rapport à la maintenance de son équipement ?</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:choices>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t5">Prendre en charge la propreté de son équipement</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t9"> Effectuer des vérifications périodiques</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="checked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t13"> Signaler les détériorations</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+			<sc:choice solution="unchecked">
+				<sc:choiceLabel>
+					<op:txt>
+						<sc:para sc:id="t17">Effectuer les réparations simples sur son équipement</sc:para>
+					</op:txt>
+				</sc:choiceLabel>
+			</sc:choice>
+		</sc:choices>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t52">Dans un premier temps le conducteur de machines doit être à l'écoute de son équipement en assurant et en participant à la <sc:uLink role="glos" sc:id="t101" sc:refUri="/1B_op/M/M/P/propreté.ref">propreté</sc:uLink> de son</sc:para>
+						<sc:para sc:id="t54">équipement, aux vérifications périodiques, aux signalements des détériorations.</sc:para>
+						<sc:para sc:id="t56">Ce n'est qu'après, en collaboration avec le service Maintenance qu'il commence à réaliser les opérations de réparation.</sc:para>
+						<sc:para sc:id="t58">Cela nécessite généralement :</sc:para>
+						<sc:itemizedList sc:id="t64">
+							<sc:listItem sc:id="t65">
+								<sc:para sc:id="t59">la définition d'un mode opératoire</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t67">
+								<sc:para sc:id="t61">l'amélioration de la machine (standardisation. accessibilité,..)</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t68">
+								<sc:para sc:id="t62">la mise en place d'une organisation afin d'assurer le suivi de ce type d'opération (fiche d'intervention, ...).</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+						<sc:para>Le facteur humain est sans doute le frein le plus important à prendre en compte dans la mise en place d'une telle organisation, l'opérateur de production pouvant légitimement penser que ce n'est pas son rôle.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:mcqMur>
+</sc:item>

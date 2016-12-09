@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>TPM (Fondamentaux)</sp:title>
+			<sp:sTitle>TPM (Fondamentaux)</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Concept</sp:keywd>
+							<sp:keywd>TPM</sp:keywd>
+							<sp:keywd>Démarche Globale</sp:keywd>
+							<sp:keywd>Production</sp:keywd>
+							<sp:keywd>Qualité</sp:keywd>
+							<sp:keywd>Maintenance</sp:keywd>
+							<sp:keywd>TRG</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Historique de la TPM</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t165">L'émergence de la <sc:uLink role="glos" sc:id="t166" sc:refUri="/1B_op/M/TUV/TPM.ref">TPM</sc:uLink> a pour cadre la compétition féroce, déjà en voie de mondialisation, dans l'industrie automobile. </sc:para>
+								<sc:para sc:id="t167">La TPM se diffuse en Occident dans les années 1980 par la parution de livres et les conclusions du benchmarking des fabricants automobile japonais par leurs homologues européens.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t169">Dans un contexte de production de masse et de forte concurrence, tout ce qui est produit peut être vendu et ce que vous ne pouvez produire, un concurrent le vendra.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:rem>
+					<op:pbTi>
+						<sp:title>Aujourd'hui</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t173">La réalité économique des années 2010 n'est plus tout à fait la même : tout ce qui est produit n'est pas forcément vendu. Mais les grands principes de cette méthode restent encore d'actualité.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:rem>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Principes</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t176">Produire plus et mieux sans investissement productif supplémentaire est possible si l'on s'attaque aux gaspillages. </sc:para>
+								<sc:para sc:id="t177">Ce constat imprègne toutes les méthodes japonaises et, si on le ramène à la conduite de machines, cela signifie : </sc:para>
+								<sc:itemizedList sc:id="t178">
+									<sc:listItem sc:id="t179">
+										<sc:para sc:id="t180">chercher à maximiser le temps productif, </sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t181">
+										<sc:para sc:id="t182">réduire le temps non productif dû aux arrêts et pannes,</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t183">
+										<sc:para sc:id="t184"> conserver les cadences optimales, et </sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t185">
+										<sc:para sc:id="t186">réduire la non-qualité.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:basic>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t189">L'indicateur utilisé, le taux de rendement global (<sc:uLink role="glos" sc:id="t194" sc:refUri="/1B_op/M/TUV/TRG/TRG.ref">TRG</sc:uLink>) ou synthétique (<sc:uLink role="glos" sc:id="t235" sc:refUri="/1B_op/M/TUV/TRG/TRG.ref">TRS</sc:uLink>) mérite son qualificatif car il restitue une vision simple et sévère, qui englobe tous les paramètres affectant le rendement de la machine selon le triptyque <sc:uLink role="glos" sc:id="t191" sc:refUri="/1B_op/D/disponibilite.ref">disponibilité</sc:uLink>, <sc:uLink role="glos" sc:id="t195" sc:refUri="/1B_op/M/TUV/TRG/EP.ref">performance</sc:uLink> et <sc:uLink role="glos" sc:id="t192" sc:refUri="/1B_op/M/Q/qualite.ref">qualité</sc:uLink>.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t222">La signification de l'expression « maintenance productive totale » est la suivante :</sc:para>
+								<sc:itemizedList sc:id="t223">
+									<sc:listItem sc:id="t224">
+										<sc:para sc:id="t225">Maintenance : maintenir en bon état, c'est-à-dire réparer, nettoyer, graisser et accepter d'y consacrer le temps nécessaire.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t226">
+										<sc:para sc:id="t227">Productive : assurer la maintenance tout en produisant, ou en pénalisant le moins possible la production.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t228">
+										<sc:para sc:id="t229">Totale : considérer tous les aspects et y associer tout le monde.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:ex>
+					<op:pbTi>
+						<sp:title>Jeu de la Maintenance</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t41">Lors de l'analyse de votre feuille de route, vous avez calculé le rapport entre vos kilomètres réels (Temps Utile) et les kilomètres théoriques (Temps d'ouverture).</sc:para>
+								<sc:para xml:space="preserve">Ce rapport est un bon indicateur de votre performance globale dans le jeu.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

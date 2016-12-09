@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Maintenance préventive sur historique</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t6">On vous demande de mettre en place un plan de maintenance sur 5 installations identiques. L'installation est décomposée en 10 modules. Vous disposez de l'historique sur 5 ans avec comme renseignements :</sc:para>
+								<sc:itemizedList sc:id="t20">
+									<sc:listItem sc:id="t21">
+										<sc:para sc:id="t7">Date de l'intervention</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t22">
+										<sc:para sc:id="t8">Nature de l'intervention (Correctif, Préventif)</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t23">
+										<sc:para sc:id="t9">Correctif :</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t24">
+										<sc:para sc:id="t10">Cause de la défaillance (usure normale, défaut d'utilisation, cause extérieure, cause seconde)</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t25">
+										<sc:para sc:id="t11">Nature de la défaillance (électrique, mécanique, hydraulique)</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t26">
+										<sc:para sc:id="t12">Module défaillant</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t27">
+										<sc:para sc:id="t13">Préventif : Liste des travaux et périodicité</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:itemizedList sc:id="t37">
+									<sc:listItem sc:id="t29">
+										<sc:para sc:id="t15">Amélioration : Liste des améliorations, plans, .....</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t31">
+										<sc:para sc:id="t17">Temps de M.O (temps technique de l'intervention).</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t32">
+										<sc:para sc:id="t18">Temps d'arrêt .(heure remise en route - heure de la panne)</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t33">
+										<sc:para sc:id="t19">Liste des pièces changées.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:simul>
+					<op:pbTi>
+						<sp:title>Eléments de réponse</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t44">Sélectivité en fonction des modules : </sc:para>
+								<sc:para>3 PARETO par module pour les défaillances d'usure normale et de cause seconde, avec comme critères le nombre d'interventions, le temps total M.O, le temps total d'arrêt pénalisant la production. L'objectif est d'isoler les modules sur lesquels les défaillances d'usure sont pénalisantes pour l'organisation de la maintenance (interventions trop fréquentes et trop longues), et pour la production. Lorsque les 2 ou 3 modules prioritaires sont définis, on analysera les défaillances dans le détail, pour essayer de définir si le plan de maintenance actuel doit évoluer (ex : un échange systématique aurait -il conduit à éviter la défaillance (forte probabilité))</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:simul>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>Gestion association</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Relation 1-N</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Ouvrez la base de données assoc_01, 3 tables adhérents, activités et coach sont déjà présentes avec quelques enregistrements. </sc:para>
+						<sc:para xml:space="preserve">Les clés étrangères des relations 1-n ou les tables de relations des relations n-n ne sont pas enregistrées dans la base de données.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t29">- Le Tennis (1) est encadré par Jo (1)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t30">- Le Football (2) est encadré par Bob (2)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t31">- La Gym (3) est encadrée par Bill (3)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t32">- Le Volley ball (4) est encadré par Bill (3)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t13">Saisir les données ci-dessus en précisant les cardinalités entre activité et coach.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t18">Donner un exemple d'encadrement qui aurait transformé la relation de type n-n.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t26">L'adhérent 1 s'inscrit aux activités 1 et 2 pour 10 et 15 heures</sc:para>
+						<sc:para xml:space="preserve" sc:id="t33">L'adhérent 2 s'inscrit aux activités 1 et 3 pour 7 et 20 heures</sc:para>
+						<sc:para xml:space="preserve">L'adhérent 3 s'inscrit à l'activité 4 pour 12  heures</sc:para>
+						<sc:para xml:space="preserve">L'adhérent 4 s'inscrit aux activités 2 et 3 pour 8 et 16 heures</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t35">Expliquez pourquoi la relation est de type n-n.</sc:para>
+								<sc:para xml:space="preserve">Saisir les données ci-dessus en précisant les cardinalités entre activité et coach.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t47">On souhaite enregistrer chaque séance effectuée par les adhérents dans une activité. On devra saisir la date et le nombre d'heure </sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+	</op:practUc>
+</sc:item>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Période d'usure</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Le taux de défaillance augmente, et le rythme des défaillances augmente.</sc:para>
+					<sc:para>La question se pose donc en début de cette phase si il est rentable ou non économiquement parlant de procéder à un échange systématique. Le nombre d'heures de fonctionnement potentiel est faible en rapport à composant neuf. Si on décide de maintenir le composant, la fréquence des opérations de contrôle, de surveillance devra être augmentée si on souhaite anticiper sur la défaillance ou minimiser la probabilité de défaillance</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

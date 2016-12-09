@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>38. Gestion de stock</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>MF</sp:keywd>
+							<sp:keywd>SE</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t19">
+<sc:inlineStyle role="emp" sc:id="t264">Entreprise</sc:inlineStyle>  :</sc:para>
+						<sc:itemizedList sc:id="t44">
+							<sc:listItem sc:id="t45">
+								<sc:para xml:space="preserve" sc:id="t20">
+<sc:uLink role="glos" sc:id="t252" sc:refUri="/1B_op/S/stock/CC.ref">Coût de commande</sc:uLink> = 50 euros, <sc:uLink role="glos" sc:id="t253" sc:refUri="/1B_op/M/M/S/stock/T_pos.ref">Taux de possession</sc:uLink> = 20%.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t46">
+								<sc:para xml:space="preserve" sc:id="t21">Selon le carnet de commandes de l'entreprise, on estime que la pénalité d'un <sc:uLink role="glos" sc:id="t254" sc:refUri="/1B_op/C/couts/CGM_CDM.ref">arrêt de production</sc:uLink> peut varier entre 50 euros et 300 euros de l'heure.</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+						<sc:para xml:space="preserve" sc:id="t22">
+<sc:inlineStyle role="emp" sc:id="t265">Pièce étudiée</sc:inlineStyle> :</sc:para>
+						<sc:itemizedList sc:id="t52">
+							<sc:listItem sc:id="t53">
+								<sc:para xml:space="preserve" sc:id="t23">La consommation moyenne mensuelle sur les 12 derniers mois a donné les résultats suivants : 16, 10, 13, 7, 14, 13, 9, 14, 18, 12, 17, 12, soit 155 à l'année.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t54">
+								<sc:para xml:space="preserve" sc:id="t5">Le <sc:uLink role="glos" sc:id="t255" sc:refUri="/1B_op/M/M/S/stock/PU.ref">prix de la pièce</sc:uLink> est de 100 euros</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t55">
+								<sc:para xml:space="preserve" sc:id="t6">Le <sc:uLink role="glos" sc:id="t256" sc:refUri="/1B_op/A/appro_delai.ref">délai d'approvisionnement</sc:uLink> est de 5 jours.</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+						<sc:para xml:space="preserve" sc:id="t7">On constate en général que chez ce fournisseur, les commandes comportent en  moyenne  5 références différentes. </sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t299">Faut-il stocker cette pièce ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Qa élevé suffit à justifier du stockage. Si la réponse devait être  non, alors, il faudra subir 155 fois le CDM consécutif à un arrêt de production de 5 jours (cf délai). Il faudra aussi commander 155 fois cette pièce dans l'année.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t343">Utiliser une formule ici est une erreur (perte de temps inutile)</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t41">Quel coût de commande allez vous appliquer sachant que &quot;<sc:inlineStyle role="quote" sc:id="t363">On constate en général que chez ce fournisseur, les commandes comportent en moyenne 5 références différentes</sc:inlineStyle>&quot;</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t267">Si on étudie les 4 autres pièces habituellement commandées chez ce fournisseur, et que l'on applique à chacune des études le Cc de 50 euros, alors, c'est comme si la commande qui regroupe les 5 pièces revenait à 50*5 euros.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t364"><sc:inlineStyle role="emp">On ventile donc dans ce cas de figure le Coût de commande sur chacune des pièces.</sc:inlineStyle></sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t63">Si on regroupe en général 5 articles par commande, on peut fixer le montant de la commande à Cc=50/5=10 euros</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t57">Choisir la méthode d'approvisionnement la mieux adaptée à cette pièce ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t368">Avez vous des données pour juger de la régularité de la consommation ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t61">La méthode la plus adaptée est celle du <sc:uLink role="glos" sc:id="t81" sc:refUri="/1B_op/A/appro_pc.ref">PC</sc:uLink> (commande de Q<sc:textLeaf role="ind" sc:id="t66">ec</sc:textLeaf> fixe dès que Q<sc:textLeaf role="ind" sc:id="t65">sto</sc:textLeaf> &lt; Q<sc:textLeaf role="ind" sc:id="t64">s</sc:textLeaf>). La consommation annuelle n'est  pas assez élevée pour passer en <sc:uLink role="glos" sc:id="t82" sc:refUri="/1B_op/A/appro_pa.ref">PA</sc:uLink> et par conséquent sûrement pas assez régulière (de toute façon, nous n'avons aucune précision concernant l'historique)</sc:para>
+										<sc:para xml:space="preserve" sc:id="t369">Si par contre, d'autres références d'articles ont une périodicité d'approvisionnement proche de celle de l'article, il pourra être intéressant de commander aussi cette pièce à périodicité fixe, le seuil minimum Qs devra simplement être calculé pour pallier aux irrégularités de consommation.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t84">Calculer la consommation mensuelle moyenne ainsi que l'écart-type.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:res sc:refUri="/2C_ex/031/38/ress/38_histo.ods">
+									<op:resInfoM>
+										<sp:pubMode>zoom</sp:pubMode>
+									</op:resInfoM>
+								</sp:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t94">Avec le tableur, les fonctions SOMME, MOYENNE et ECARTYPE permettent de faire les calculs.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t103">En déduire la Consommation moyenne pendant 5 jours ainsi que l'écart-type. On exploitera les <sc:uLink role="ucLnk" sc:id="t123" sc:refUri="/D/DS/ressources_alternatives/operations_va.xml">règles</sc:uLink> de calcul sur les variables statistiques.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t119">Si X est la consommation sur 30 jours et Y la consommation sur 5 jours alors Y=(1/6).X, soit E(Y)=E(X)/6= 2,15 et Sigma(Y)=Sigma(X)/Racine(6) = 1,32.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t68">Calculer les paramètres nécessaires à la gestion de cette pièce (objectif : renseigner la GMAO).</sc:para>
+								<sc:para xml:space="preserve" sc:id="t357">Calculer Qe et proposer une valeur proche nommée Qec.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t358">Selon la méthode d'approvisionnement choisie, déterminer Qs (<sc:uLink role="glos" sc:id="t258" sc:refUri="/1B_op/A/appro_pc.ref">PC</sc:uLink>), ou Qp et Te (<sc:uLink role="glos" sc:id="t259" sc:refUri="/1B_op/A/appro_pa.ref">PA</sc:uLink>)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t214">On prendra un <sc:uLink role="glos" sc:id="t125" sc:refUri="/1B_op/M/M/S/stock/risque_rupture.ref">risque α</sc:uLink> de 1, 5 et 10 % pour estimer <sc:uLink role="glos" sc:id="t124" sc:refUri="/1B_op/M/M/S/stock/qs.ref">Qs</sc:uLink>. Les modèles de Poisson ou de Gauss seront utilisés pour comparer les résultats.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t72"> On a <sc:uLink role="glos" sc:id="t257" sc:refUri="/1B_op/M/M/S/stock/qe.ref">Qe</sc:uLink>=12,45 et Te=0,96 soit Nc=155/12,45 ≈ 12 commandes à l'année.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t217"> on choisit Q=13</sc:para>
+										<sc:para xml:space="preserve" sc:id="t122">La consommation moyenne pendant le délai est de Qd=2. Comme Qd est faible, on peut choisir 4 ou 5 par sécurité.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t239">En exploitant les risques de rupture de l'énoncé, on aurait donc :</sc:para>
+										<sc:para xml:space="preserve" sc:id="t240">Avec Poisson de paramètre m=2, on F(3)=85,7%, F(4)=94,7%, F(5)=98,3%.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t241">Qs = 3, 4, 5 donnent donc des risques de rupture de 14,3% ; 5,3% et 1,7%.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/2C_ex/031/38/ress/38_poisson.png">
+									<op:resInfoM>
+										<sp:index>img</sp:index>
+									</op:resInfoM>
+								</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t187">Calculer le coût total annuel de gestion de cette pièce (<sc:uLink role="glos" sc:id="t381" sc:refUri="/1B_op/S/stock/CSM.ref">CSM</sc:uLink>)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t197">C adm =12 * 10 = 120</sc:para>
+										<sc:para xml:space="preserve" sc:id="t198">C pos = (13/2) * 100  * 20% ~ 130 euros</sc:para>
+										<sc:para xml:space="preserve" sc:id="t220">CSM = 230 euros.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t329">Ce coût peut-être relativisé au coût optimum basé sur Qec=Qe. Mais surtout, il doit être comparé au Coût d'achat annuel Cach=155*100 = 15500 euros. </sc:para>
+										<sc:para xml:space="preserve" sc:id="t330">Le coût de stockage de la pièce est donc environ de 1,5 %de sa valeur.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Regroupement des commandes</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t175">Vous passez un contrat avec le fournisseur vous permettant d'être livré en début de mois avec une facture semestrielle (sur laquelle on trouvera les 40 références). </sc:para>
+						<sc:para xml:space="preserve" sc:id="t331">Ce contrat vous impose donc de choisir un plafond avec lequel vous devrez tenir le mois.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t332">Comme on passe 4 commandes par an (facturation semestrielle) pour gérer les 40 références, on considérera que le Coût d'une commande (Cc) passe à 50 * 4 / 40, soit 5 euros.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t193">Calculer le plafond nécessaire pour des livraisons mensuelles.</sc:para>
+								<sc:para xml:space="preserve">Calculer le CSM</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t183">Selon la loi normale de moyenne 12,92 et d'écart-type 3,23, avec un risque de rupture de 0,1 %, on obtient un plafond de 13 + 3 * 3,23. Soit 22-23 pièces.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t336">Le coût de possession reste le même, on gagne la moitié du coût administratif.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

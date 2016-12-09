@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Evaluation 12 Janvier 2015 - TTAM - Informatique - Métrologie</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:basic>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t100">Dans un fichier texte au format odt, répondez aux questions qui vous sont posées.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Tableur - exercice 1</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t11">Tracer la fonction f(x)=[2+a.x]/b.x² pour les valeurs de x [0,5-0,75-1-2-5]</sc:para>
+								<sc:para xml:space="preserve" sc:id="t12">Les paramètres a et b seront à saisir dans un tableau de paramètres séparé du tableau de données (vous pouvez faire vos vérifications avec a=1 et b=1)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t13">Dans le tableau x-f(x), à partir de votre formule pour f(x), précisez si on fait référence à x, a et b en mode absolu ou relatif.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t18">Justifiez quel type de graphe utilisez vous ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t22">Nommez vos cellules (équivalence nom- référence) et donnez la formule obtenue.</sc:para>
+								<sc:itemizedList sc:id="t95">
+									<sc:listItem sc:id="t96">
+										<sc:para xml:space="preserve" sc:id="t97">un fichier PDF nommé I-GIM1[N°de groupe]-[Nom]-1 avec le rendu sur une et une seule page.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t98">
+										<sc:para xml:space="preserve" sc:id="t99">un fichier PDF nommé I-GIM1[N°de groupe]-[Nom]-2 avec les formules (1 et 1 seule page)</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Tableur - exercice 2</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t3">Tracer le graphe de PARETO (Nb Intervention en fonction des lignes) : <sc:uLink role="docLnk" sc:id="t88" sc:refUri="/T_exams/2015/TTAM/2015_pareto.ods">2015_pareto.ods</sc:uLink> en suivant la démarche ci-dessous</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t83">1. Insérer deux colonnes avant la colonne nommée (Ligne). Le titre des colonnes sera Rg (Colonne A) et Rg% (Colonne B). Expliquez comment faire pour afficher dans cette colonne le rang (citez deux méthodes et comparez les). Si vous ne savez pas tapez 1,2,3, etc de A2 à A9.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t103">2. Calculer le rang en % cumulé (Colonne B) de chaque ligne. Une seule formule en B2 doit être recopiée vers le bas.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/T_exams/2015/TTAM/000099.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t85">3. Ajouter une colonne pour cumuler ligne par ligne le nombre d'arrêt.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t105">4. Ajouter une colonne pour calculer le cumul en %.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/T_exams/2015/TTAM/000101.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t106">5. Ajouter une colonne pour informer l'utilisateur que le cumul est inférieur à 80% (on affichera PRIO sinon la cellule restera vide).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

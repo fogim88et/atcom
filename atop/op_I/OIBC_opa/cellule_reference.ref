@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Référence de cellule</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">La référence <sc:inlineStyle role="emp">relative</sc:inlineStyle> de la cellule désignera les coordonnées de la cellule (B3 désigne la cellule de la colonne B à la ligne 3)</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">Une référence <sc:inlineStyle role="emp">absolue</sc:inlineStyle> utilise le $ devant la colonne ou la ligne pour ne pas modifier la colonne ou la ligne lors des copies vers la droite ou vers le bas.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">Assigner un nom à une cellule revient à utiliser une référence absolue.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t7">Pour atteindre une cellule dans une autre feuille du classeur : <sc:inlineStyle role="emp">'nom de la feuille'.refcellule</sc:inlineStyle>.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

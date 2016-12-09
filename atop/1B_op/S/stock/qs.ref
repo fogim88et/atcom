@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:glosM>
+			<sp:term>Seuil de sécurité (Qs ou Qmin)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t12">Le seuil de sécurité ou encore qté mini ou Seuil d'alerte est la quantité nécessaire au besoin de consommation une fois la commande lancée.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t13">Son choix est stratégique, lié à un risque de rupture. </sc:para>
+					<sc:para xml:space="preserve" sc:id="t14">Qs = Qd + [Marge de sécurité]</sc:para>
+					<sc:para xml:space="preserve" sc:id="t15">[Marge de sécurité] : Quantité directement dépendante du risque de rupture α.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t16">Lorsque Qd est faible, on l'estime par Qs = (2 à 3).Qd ou utiliser le modèle de Poisson (α requis)</sc:para>
+					<sc:para xml:space="preserve" sc:id="t17">Lorsque Qd devient grand (&gt;10), on estime Qs =Qd +(2 à 3).Racine(Qd) ou prendra le modèle de Gauss (α requis)</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

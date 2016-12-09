@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Examen TTAM - M52 - Partie Calcul</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t9">Paramètres de gestion associés à l'entreprise (Cc = 20 € et T = 10%)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t10">Pièce A (Qa = 1500, Pu = 8 €), Pièce B (Qa = 60 Pu = 400 €), Pièce C (Qa = 480, Pu = 27 €)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t13"><sc:inlineStyle role="emp" sc:id="t369">Etude 1.1</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve" sc:id="t14">Les pièces sont actuellement commandées chez 3 fournisseurs différents qui proposent tous un délai de 5 jours.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t15">Pour la pièce A, on précise que la consommation moyenne par période de 30 jours a été mesurée à 120 avec un écart-type de 15.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t16">Choisir la méthode de réapprovisionnement la mieux adaptée (PA ou PC) à chaque pièce, et donner tous les paramètres utiles (Qec ou Tec) en posant si nécessaire des hypothèses pour le stock minimum (Qmin)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t18"><sc:inlineStyle role="emp" sc:id="t370">Etude 1.2</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve" sc:id="t19">On considère maintenant que les pièces sont toutes commandées chez un seul fournisseur (le délai reste à 5 jours). On considère alors que chaque commande comportera au moins 2 références.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t21">On vous demande alors de faire en sorte de regrouper au mieux les commandes, et de choisir une périodicité fixe de commande avec un plan de commande pour chaque pièce (c'est un échéancier que l'on attend). Quels sont alors les plafonds de commande pour chaque pièce en fonction de la périodicité.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t23">Est-ce que les stocks de sécurité calculés de l'étude 1.2 sont à recalculer ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t24"><sc:inlineStyle role="emp" sc:id="t371">1.3. Comparaison des 2 études :</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve" sc:id="t374">Rapport entre le coût de gestion et le coût d'achat.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t25">Evaluer les gains en coût de gestion sur 2 ans par exemple</sc:para>
+								<sc:para xml:space="preserve" sc:id="t26">Valeur du stock moyen à un instant t (ou influence sur le stock de sécurité)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t28"><sc:inlineStyle role="emp" sc:id="t375">Etude 2 :</sc:inlineStyle> Paramètres de gestion associés à l'entreprise (Cc = 30 € et T = 15%)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t29">Pénalité en cas d'arrêt de production 100 à 250 euros de l'heure.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t30">La fiabilité de la pièce à 6 mois est de 0,85. On estimera qu'il n'y a pas d'usure les 2 premières années (Modèle exponentiel). En déduire le taux de défaillance et en déduire la fiabilité à 1 an et 2 ans. Si vous ne savez pas le calculer, donnez la valeur de la fiabilité qui vous semble cohérente à t=1 an et t=2 ans</sc:para>
+								<sc:para xml:space="preserve" sc:id="t31">Le délai d'approvisionnement est de 4 heures (Frais de port de 300 euros, Pu=8200 euros) ou 24 heures (Frais de port de 50 euros, Pu=8000 euros)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t33">La pièce est neuve à t = 0, analyser les solutions suivantes sur 10 ans. Choisir la solution la plus intéressante.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t34">– pas de stock, on attend la défaillance.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t35">– on attend 1 an et si il n'y a pas de défaillance, on met une pièce en stock à t=1.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t36">– On met une pièce en stock et on recommande la pièce dès qu'elle est utilisée.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t37">Existe-il d'autres solutions ou alternatives ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

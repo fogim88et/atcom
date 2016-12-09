@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Etude de Fonction...Description des étapes</sp:title>
+			<sp:sTitle>Etude de Fonction (Etapes)</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Explications</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t357">Vous trouverez ci-dessous l'ensemble des questions posées pour vous évaluer étape par étape.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Le polynôme d'ordre 3</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t71">
+									<sc:column sc:id="t72" width="29"/>
+									<sc:column sc:id="t73" width="35"/>
+									<sc:row sc:id="t76">
+										<sc:cell sc:id="t77">
+											<sc:para xml:space="preserve" sc:id="t97">
+												<sc:inlineStyle role="emp" sc:id="t455">Polynôme d'ordre 3</sc:inlineStyle> →</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t78">
+											<sc:para xml:space="preserve" sc:id="t99">
+												<sc:inlineImg role="form" sc:id="t180" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/0_res_sxf/polynome3_abcd.odf"/>
+											</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t81">
+										<sc:cell sc:id="t82">
+											<sc:para xml:space="preserve" sc:id="t105">
+												<sc:inlineStyle role="emp" sc:id="t456">
+											Données</sc:inlineStyle> →</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t83">
+											<sc:para xml:space="preserve" sc:id="t107">
+												<sc:inlineImg role="form" sc:id="t181" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/0_res_sxf/f_exemple.odf"/>
+											</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row role="head" sc:id="t86">
+										<sc:cell sc:id="t87">
+											<sc:para xml:space="preserve" sc:id="t113">
+												Terme d'ordre</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t88">
+											<sc:para xml:space="preserve" sc:id="t158">Valeur</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t147">
+										<sc:cell sc:id="t148">
+											<sc:para xml:space="preserve" sc:id="t131">
+												0</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t149">
+											<sc:para xml:space="preserve" sc:id="t160">d.x<sc:textLeaf role="exp" sc:id="t182">0</sc:textLeaf>
+</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t152">
+										<sc:cell sc:id="t153">
+											<sc:para xml:space="preserve" sc:id="t162">1</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t154">
+											<sc:para xml:space="preserve" sc:id="t188">c.x<sc:textLeaf role="exp" sc:id="t189">1</sc:textLeaf>
+</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t337">
+										<sc:cell sc:id="t338">
+											<sc:para xml:space="preserve" sc:id="t194">2</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t339">
+											<sc:para xml:space="preserve" sc:id="t195">b.x<sc:textLeaf role="exp" sc:id="t198">2</sc:textLeaf>
+</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t340">
+										<sc:cell sc:id="t341">
+											<sc:para xml:space="preserve" sc:id="t190">3</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t342">
+											<sc:para xml:space="preserve" sc:id="t191">a.x<sc:textLeaf role="exp" sc:id="t199">3</sc:textLeaf>
+</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/res_fonction_d3_don.ods">
+							<op:resInfoM>
+								<sp:index>tab</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:int sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/res_fonction_d3_don.ods">
+							<op:instructionM>
+								<sp:webInstruct>
+									<op:txt>
+										<sc:para sc:id="t22">Téléchargez le fichier dans votre dossier, dupliquez le, et renommez la copie en  ajoutant vos initiales derrière le nom de fichier.</sc:para>
+									</op:txt>
+								</sp:webInstruct>
+							</op:instructionM>
+						</sp:int>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Série linéaire</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>En utilisant les menus (B)</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t447">A partir de la sélection de plage A6:A46, construire la série des valeurs de x avec une série linéaire de -5 à +3 par pas de 0,2. On utilisera les possibilités intégrées du tableur sans utiliser de formules</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>En utilisant une formule (C)</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t449">En A6, saisir la valeur 5, en A7, quelle <sc:uLink role="ref" sc:id="t450" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/tat_formules.ref">formule</sc:uLink> recopiée vers le bas jusqu'à A46 permet de créer la <sc:uLink role="ref" sc:id="t451" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/serie_x.ref">série x</sc:uLink>.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Les 4 termes qui composent le polynôme (D)</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t426">Le polynôme se décompose en 4 <sc:inlineStyle role="emp">termes</sc:inlineStyle> d'<sc:inlineStyle role="emp">ordres</sc:inlineStyle> 3, 2, 1, 0.</sc:para>
+										<sc:para sc:id="t427">Chaque terme se calcule avec son coefficient, son ordre et la valeur de x.</sc:para>
+										<sc:para sc:id="t428">La somme des 4 termes donnera la valeur de f(x).</sc:para>
+										<sc:para sc:id="t429">La formule en B6 est destinée à calculer le terme d'ordre 3. Cette cellule sera recopiée vers la droite jusque E6, puis la plage B6:E6 sera recopiée vers le bas jusqu'à la ligne 46.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:adv>
+							<op:pbTi>
+								<sp:title>Pour vous aider, procédez en 3 temps :</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t440">- Quelle est la formule en B6 à spécifier pour calculer a.x^3 en faisant abstraction de la recopie vers la droite et vers le bas.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t441">- Que donne votre formule lorsqu'elle est copiée vers la droite : calculer manuellement les termes d'ordre 2, 1 et 0 et les comparer avec celles calculées par le tableur.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t442">- Procédez de même en recopiant la formule le bas </sc:para>
+										<sc:para xml:space="preserve" sc:id="t443">En observant bien comment se projette vers la droite et vers le bas votre formule initiale formée avec des références relatives, vous devriez réussir à déterminer quelles références choisir pour les lignes et colonnes des 3 arguments de votre formule.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:adv>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>cacluler f(x)</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t445">La fonction f(x) est la somme des 4 termes.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Graphe</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t394">Représenter graphiquement la fonction f(x) en fonction de x</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Signe de f(x) (E)</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t418">Chaque valeur f(x) à un signe qui aura pour valeur possible <sc:uLink role="ref" sc:id="t419" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/NEG.ref">NEG</sc:uLink>, <sc:uLink role="ref" sc:id="t420" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/POS.ref">POS</sc:uLink>,  <sc:uLink role="ref" sc:id="t421" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/NUL_r.ref">NUL</sc:uLink>. Vu le pas de l'étude, ce serait un coup de chance de tomber sur une valeur x telle que f(x) est dans l'intervalle spécifié par le cas <sc:uLink role="ref" sc:id="t422" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/NUL_r.ref">NUL</sc:uLink>. </sc:para>
+										<sc:para sc:id="t423">Trouver la formule en G6 pour gérer le signe de f(x)</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Les zéros de f(x) (F)</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t408">Nous allons donc rechercher les <sc:uLink role="ref" sc:id="t409" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/zero.ref">zéros</sc:uLink>
+										</sc:para>
+										<sc:para sc:id="t410">Une valeur x<sc:textLeaf role="ind" sc:id="t411">i</sc:textLeaf> est un zéro si signe<sc:textLeaf role="ind" sc:id="t412">i</sc:textLeaf> est différent de signe<sc:textLeaf role="ind" sc:id="t413">(i-1)</sc:textLeaf>
+										</sc:para>
+										<sc:para sc:id="t414">Trouver la formule en H7 pour afficher <sc:uLink role="ref" sc:id="t415" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/zero.ref">ZERO</sc:uLink> dans la colonne zero lorsque c'est le cas et &quot;&quot; dans le cas contraire.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Intervalle des zéros (G)</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:ex>
+							<op:pbTi>
+								<sp:title>Le premier Zéro</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t284">Le premier zéro trouvé est x=-3,8, cela signifie que l'on a détecté un changement de signe de f(x) pour x=-3,8.</sc:para>
+										<sc:para sc:id="t403">En réalité, f(x) coupe l'axe y=0 dans [-4 ;-3,8].</sc:para>
+										<sc:para sc:id="t404">vous allez donc afficher Z_MIN pour la valeur -4 et Z_MAX pour -3,8 (colonne zero_plage)</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:ex>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t400">Trouver la formule en I7 pour afficher Z_MIN, Z_MAX ou &quot;&quot;</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Compter le nombre de zéro (H)</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t396">Écrire &quot;Nombre de zéros&quot; en A49, et calculer en D49 le nombre de zéro.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Recherche des valeurs f'(x)=0 à tangente nulle</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:def>
+							<op:pbTi>
+								<sp:title>La pente en 1 point</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:res sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/0_res_sxf/pente.odf">
+									<op:resInfoM>
+										<sp:index>form</sp:index>
+									</op:resInfoM>
+								</sp:res>
+							</op:res>
+						</sp:def>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Colonne J : pente ou f'(x)</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t383"> Vous calculerez la pente dans la colonne J. </sc:para>
+										<sc:para>Représentez graphiquement la pente en fonction de x, et remarquez que vous avez 2 points de la pente qui coupent l'axe des x (Y=0).</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Tangente nulle</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t388">Dans la colonne K, affichez &quot;Tangente&quot; pour faire apparaître un changement de signe de la pente. Ce qui signifie que l'on a un point pour lequel f'(x)=0 </sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Formule mathématique (A)</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t378">Construire la formule du polynôme d'ordre 3 et copier le résultat dans la zone réservée. </sc:para>
+										<sc:para sc:id="t379">Enregistrez le fichier : <sc:inlineStyle role="code">eval_sxf_A</sc:inlineStyle> dans le <sc:uLink role="ref" sc:id="t380" sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/__ref/edc_dossier_travail.ref">dossier de travail</sc:uLink>.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

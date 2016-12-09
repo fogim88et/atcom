@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>TRG</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>TRG-1</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Sur 110 heures de fonctionnement sur une machine, on a relevé les éléments suivants :</sc:para>
+								<sc:para xml:space="preserve">- Temps de cycle : 3 mn.</sc:para>
+								<sc:para xml:space="preserve">- 12 défaillances pour une durée totale de réparation de 8 heures.</sc:para>
+								<sc:para xml:space="preserve">- 6 changements d'outil pour une durée totale de 2 heures.</sc:para>
+								<sc:para xml:space="preserve">- 1 heure d'arrêt pour attente de matière première.</sc:para>
+								<sc:para xml:space="preserve">- 15 pièces sont défectueuses</sc:para>
+								<sc:para xml:space="preserve">- Production totale réalisée : 1740 pièces</sc:para>
+								<sc:para xml:space="preserve">Calculer le TRG, les taux intermédiaires, le MTBF, le MTTR, la disponibilité opérationnelle</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>TRG-2</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Sur une production de  60 jrs en continu (24hrs/24), on a relevé côté maintenance, une disponibilité opérationnelle A de 90%, et du côté production un total de 100 heures pour cause de changement de série, réglage, attente de matière première.</sc:para>
+								<sc:para xml:space="preserve">Le service qualité nous informe que le taux de qualité est de 85% et que l'on a fabriqué 9600 pièces bonnes (le temps unitaire de fabrication est de 6 mns).</sc:para>
+								<sc:para xml:space="preserve">Calculer le TRG et les taux intermédiaires manquants</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

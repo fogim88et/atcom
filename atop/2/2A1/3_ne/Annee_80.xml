@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUcDiv xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:expUcDivM>
+			<sp:title>Les années 80-90</sp:title>
+		</op:expUcDivM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>La Démarche Qualité</sp:title>
+					</op:pbTi>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t146">Et tout naturellement, les organisations annexes des services, habituellement indépendantes du fabricant, vont être intégrées dans son domaine de responsabilité. Le fabricant devient un homme polyvalent qui doit penser qualité, <sc:uLink role="glos" sc:id="t182" sc:refUri="/M_/1B/EF/fiabilite.ref">fiabilité</sc:uLink>, sécurité, <sc:uLink role="glos" sc:id="t184" sc:refUri="/M_/1B/MN/maintenabilite.ref">maintenabilité</sc:uLink>, <sc:uLink role="glos" sc:id="t167" sc:refUri="/M_/1B/CD/disponibilite.ref">disponibilité</sc:uLink>, environnement. Il lui faut donc des moyens, former et motiver les agents de production ou de <sc:uLink role="glos" sc:id="t185" sc:refUri="/M_/1B/MN/maintenance.ref">maintenance</sc:uLink> pour changer d'état d'esprit.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t190">La maintenance dans cette optique devient un véritable défi industriel. Il faut remettre en cause des structures figées, promouvoir de nouvelles méthodes adaptées à la nature nouvelle des matériels.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t192">L'évolution de la situation économique a vu en parallèle les équipements de production s'automatiser, ils sont plus compacts, plus complexes, sont utilisés de façon plus intensive. Toutes les technologies sont présentes sur la plupart des machines : Les hommes de maintenance doivent sans cesse devenir plus compétents et polyvalents.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t194">Les équipements plus onéreux, la durée d'amortissement raccourcie, les temps d'indisponibilité plus critique permettent de mieux percevoir l'importance économique de la maintenance</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t196">La sécurité des installations, la mise en place de l'assurance qualité, les investissements exigent que la maintenance soit intégrée et s'interface à tous les secteurs de l'entreprise.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t198">Le dernier point, et non des moindres, est lié à l'inversion du rapport homme machine. Après une période de production forcenée (Demande > Offre), il faut « mieux produire », d'où l'importance croissante de la réflexion de l'homme pour optimiser le rendement ou le rapport « Qualité/Prix » des produits fabriqués.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUcDiv>
+</sc:item>

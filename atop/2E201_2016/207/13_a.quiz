@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:field xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>A. Justifier l'emploi du modèle</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t11"><sc:uLink role="ucLnk" sc:id="t15" sc:refUri="/2E201_2016/207/13_0.xml">13. Enonçé</sc:uLink></sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t8"><sc:inlineStyle role="emp">Justifier l'emploi du modèle exponentiel en précisant la nature de la technologie du composant</sc:inlineStyle></sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sp:asw>
+			<sc:SFSolution>
+				<sc:value>électronique</sc:value>
+				<sc:value>Electronique</sc:value>
+			</sc:SFSolution>
+		</sp:asw>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t5">Le taux de défaillance est constant (composant électronique), on peut donc appliquer la <sc:uLink role="ucLnk" sc:id="t9" sc:refUri="/D/DS/3_ne/DSE_ne/5E6_Lexp-dk/5E6_ne.xml">loi exponentielle</sc:uLink>.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:field>
+</sc:item>

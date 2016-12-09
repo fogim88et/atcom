@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Modèle exponentiel (5E6)</sp:title>
+			<sp:sTitle>Modèle Exponentiel</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t10">
+									<sc:caption xml:space="preserve" sc:id="t91">Caractéristiques</sc:caption>
+									<sc:column sc:id="t265" width="33"/>
+									<sc:column role="head" sc:id="t11" width="24"/>
+									<sc:column sc:id="t12" width="21"/>
+									<sc:column role="head" sc:id="t266" width="26"/>
+									<sc:column sc:id="t267" width="16"/>
+									<sc:row role="" sc:id="t16">
+										<sc:cell sc:id="t268" rowSpan="3">
+											<sc:para xml:space="preserve" sc:id="t282">Paramètre : taux de défaillance λ</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t17">
+											<sc:para xml:space="preserve" sc:id="t95">Densité de probabilité</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t18">
+											<sc:para xml:space="preserve" sc:id="t97">
+												<sc:inlineImg role="form" sc:id="t110" sc:refUri="/D/DS/1B2/S/5E_modeles/5E6-Lexp/Lexp_f(t).odf"/>
+											</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t269" rowSpan="2">
+											<sc:para xml:space="preserve" sc:id="t254">Espérance mathématique</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t270" rowSpan="2">
+											<sc:para xml:space="preserve" sc:id="t248"><sc:inlineImg role="form" sc:id="t260" sc:refUri="/D/DS/1B2/S/5E_modeles/5E6-Lexp/Lexp_MTTF.odf"/></sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row role="" sc:id="t19">
+										<sc:cell sc:id="t20">
+											<sc:para xml:space="preserve" sc:id="t99">Fiabilité</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t21">
+											<sc:para xml:space="preserve" sc:id="t114">
+												<sc:inlineImg role="form" sc:id="t123" sc:refUri="/D/DS/1B2/S/5E_modeles/5E6-Lexp/Lexp_R(t).odf"/>
+											</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row role="" sc:id="t198">
+										<sc:cell sc:id="t199">
+											<sc:para xml:space="preserve" sc:id="t145">Taux de défaillance</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t200">
+											<sc:para xml:space="preserve" sc:id="t137">
+												<sc:inlineImg role="form" sc:id="t149" sc:refUri="/D/DS/1B2/S/5E_modeles/5E6-Lexp/Lexp_L(t).odf"/>
+											</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t273">
+											<sc:para xml:space="preserve" sc:id="t256">Ecart-type</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t274">
+											<sc:para xml:space="preserve" sc:id="t250"><sc:inlineImg role="form" sc:id="t262" sc:refUri="/D/DS/1B2/S/5E_modeles/Lpoi_sigma.odf"/></sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Application en Fiabilité</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t162">La durée de vie est représentée correctement par la loi exponentielle lorsque :</sc:para>
+								<sc:itemizedList sc:id="t163">
+									<sc:listItem sc:id="t164">
+										<sc:para sc:id="t231">les défaillances sont indépendantes et imprévisibles, et dont l'apparition obéit à un processus de Poisson.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t165">
+										<sc:para sc:id="t232">le taux de défaillance est constant</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t216">Ce modèle est donc particulièrement adapté aux calculs de fiabilité de composants électroniques, ou au dispositifs dont le taux de défaillance peut être considéré comme légèrement croissant, ou considéré comme constant sur une période.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:ex>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter/>
+						</sp:filters>
+					</op:pbTi>
+					<op:res>
+						<sp:filtered>
+							<op:filter>
+								<sp:exclude>short</sp:exclude>
+							</op:filter>
+							<op:res>
+								<sp:res sc:refUri="/D/DS/3_ne/DSE_ne/5E6_Lexp-dk/exemple_loi_exp.ods">
+									<op:resInfoM>
+										<sp:pubMode>zoom</sp:pubMode>
+									</op:resInfoM>
+								</sp:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t228">Sur une mission d'1 an (8760 heures de fonctionnement), on peut s'attendre sur un lot de 10000 composants à 87 défaillances. Cette valeur pourra être exploitée pour une prévision de retour pendant une garantie de 1 an, ou un approvisionnement en stock avec une commande annuelle unique.</sc:para>
+										<sc:para>Cette valeur de 87 est une valeur attendue dans les conditions d'utilisation qui ont permis de déterminer la valeur de lambda. Une marge de sécurité est donc à envisager en fonction du risque encouru en cas d'erreur.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+					</op:res>
+				</sp:ex>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

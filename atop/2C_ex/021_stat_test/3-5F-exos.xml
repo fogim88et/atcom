@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Ex : Test e réception</sp:title>
+			<sp:sTitle>Ex : Test e réception</sp:sTitle>
+		</op:uM>
+		<sp:practUc sc:refUri="/D/DS/021_stat_test/031-en.xml"/>
+		<sp:practUc sc:refUri="/D/DS/021_stat_test/032-en.xml"/>
+		<sp:practUc sc:refUri="/2C_ex/031/055-exr.xml"/>
+		<sp:practUc sc:refUri="/2C_ex/031/055-en.xml"/>
+	</op:courseUa>
+</sc:item>

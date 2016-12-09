@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Défaillance en fonction du temps</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t5">Défaillance <sc:inlineStyle role="emp">précoce</sc:inlineStyle> : elle survient au début de la vie d'un bien (taux de défaillance décroissant)</sc:para>
+					<sc:para sc:id="t6">Défaillance <sc:inlineStyle role="emp">aléatoire</sc:inlineStyle> : elle apparaît avec un taux de défaillance sensiblement constant pendant la durée de vie utile du bien.</sc:para>
+					<sc:para sc:id="t7">Défaillance d'<sc:inlineStyle role="emp">usure</sc:inlineStyle> : le <sc:inlineStyle role="emp">taux de défaillance</sc:inlineStyle> devient rapidement croissant, elle est due à un processus de détérioration ou de corrosion.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

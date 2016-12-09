@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Test ADE 6 Janvier 2012</sp:title>
+			<sp:sTitle>Test ADE 6 Janvier 2012</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t3">1. (5 mns) Une entreprise souhaite optimiser la politique de maintenance de ses équipements : quelle est la démarche à mettre en oeuvre ? Les points que vous allez citer seront évalués selon leur pertinence, mais surtout selon la priorité que vous allez leur affecter. Vous les citerez sans les développer </sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t7">2. Définissez en quelques lignes la notion de Sûreté de fonctionnement (2-3 mns)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t9">3. (10-15 mns) Justifiez en quelques lignes ce que les techniques de Maintenance à la conception peuvent apporter dans la politique de maintenance d'un équipement et le cas échéant dans une optique de Sûreté de fonctionnement : vous appuierez vos arguments en citant les méthodes et outils que vous connaissez.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t11">4. (5 mns) Objectifs de l'analyse fonctionnelle. Qu'est ce que l'AF externe et interne en utilisant les notions de &quot;Fonction principale&quot;, &quot;Fonction de contrainte&quot;, &quot;Caractéristiques&quot;, &quot;Valeurs&quot;.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t13">5. (5-8 mns) Définissez en 10-15 lignes l'AMDEC. A qui ou quoi s'applique t-elle ou rend elle service ? Déroulement ? Précisez les colonnes à renseigner.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t15">6. (3-4 mns) Définir ce qu'est un arbre de défaillance, un arbre de dépannage. Quelle est la différence entre un schéma fonctionnel et un digramme de fiabilité.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t17">7. (1-2 mns) Quelle est la formule simplifiée d'une probabilité de défaillance d'un système dont on peut estimer le taux de défaillance sur une période [0-t]. Quelle est la relation qui s'applique sur les taux de défaillance lorsque les éléments sont en série ou en parallèle.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

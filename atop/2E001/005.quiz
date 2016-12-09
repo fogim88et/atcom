@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>5. TRG et Calcul des taux intermédiaire - MMT</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>TRG</sp:keywd>
+							<sp:keywd>MMT</sp:keywd>
+							<sp:keywd>n3</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t44">Production de 30 jours en continu (24hrs/24)</sc:para>
+						<sc:para xml:space="preserve" sc:id="t45">Disponibilité opérationnelle A = 90 %</sc:para>
+						<sc:para xml:space="preserve" sc:id="t46">2 changements de série de 20 heures</sc:para>
+						<sc:para xml:space="preserve" sc:id="t47">9600 pièces bonnes à 3 mns de temps unitaire</sc:para>
+						<sc:para xml:space="preserve" sc:id="t48">Taux de qualité : 80 %</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t14">Calculer les taux intermédiaires TxB, TxP, TRG</sc:para>
+						<sc:para xml:space="preserve">Les résultats seront donnés en heures.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t5">TxB = <sc:textLeaf role="gap" sc:id="t15">608</sc:textLeaf> sur <sc:textLeaf role="gap" sc:id="t16">720</sc:textLeaf>
+</sc:para>
+				<sc:para xml:space="preserve">TxP = <sc:textLeaf role="gap" sc:id="t17">600</sc:textLeaf> sur <sc:textLeaf role="gap" sc:id="t18">608</sc:textLeaf>
+</sc:para>
+				<sc:para xml:space="preserve">TRG = <sc:textLeaf role="gap" sc:id="t19">480</sc:textLeaf> sur <sc:textLeaf role="gap" sc:id="t20">720</sc:textLeaf>
+</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t7">30 jrs en continu implique TO=720.</sc:para>
+						<sc:para xml:space="preserve">A=90 % implique que la machine était en arrêt pour maintenance 10% du TO, soit 72 hrs d'AI maintenance.</sc:para>
+						<sc:para xml:space="preserve">40 hrs d'AI production, soit AI=112 hrs</sc:para>
+						<sc:para xml:space="preserve">TB = TO-AI = 608 hrs.</sc:para>
+						<sc:para xml:space="preserve">TU = 9600*3/60 = 480 heures</sc:para>
+						<sc:para xml:space="preserve">TN = 480/0,85 = 600 heures</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

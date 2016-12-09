@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Evaluation 12 Janvier 2015 - TTAM - Informatique - Métrologie</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:basic>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t100">Dans un fichier texte au format odt, répondez aux questions qui vous sont posées.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Tableur - exercice 3</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t75">Dans le classeur <sc:uLink role="docLnk" sc:id="t101" sc:refUri="/T_exams/2015/TTAM/2015_notes.ods">2015_notes.ods</sc:uLink>, les cellules sur fond jaune fournissent le nom donné aux plages.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t33">Dans le tableau CC (liste des colles), on recense la liste des colles prévues dans les différentes matières. Nous avons 1 ligne pour attribuer une note à un étudiant dans chaque colle prévue.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t60">La Zone A4 :E27 contiendra donc les données de départ.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t55">Le tableau CC est censé être rempli au fur et à mesure : il faut donc que les notes non présentes ne comptent pas pour un zéro dans le calcul de la moyenne. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t61">Les colonnes F,G,H (CC_note_A,CC_coef_A,CC_S_note_coef_A) servent à préparer le calcul des moyennes par étudiant (tableau moyenne M) et le tableau du nombre de notes par matière (tableau N).</sc:para>
+								<sc:para xml:space="preserve" sc:id="t38">Le tableau contient uniquement 3 notes, vous ajouterez des notes pour vérifier le bon fonctionnement de vos formules. Mettez des valeurs pour les notes de telle façon que vous puissiez vérifier si la formule donne le bon résultat. Un 10 et un 9 donne une moyenne de 8, etc ...</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t39"><sc:inlineStyle role="emp" sc:id="t40">Tableau : liste des colles CC</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve" sc:id="t13">Colonne <sc:inlineStyle role="emp" sc:id="t76">Note A ?</sc:inlineStyle> : faire apparaître un 1 si la note est renseignée, sinon la laisser vide. On considère qu'une note est renseignée si la cellule contient une valeur différente de "", et non pas si la note est &gt;=0.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t41">Colonne <sc:inlineStyle role="emp" sc:id="t77">Coef A</sc:inlineStyle> : si la note est renseignée, faire apparaître le coefficient de la note.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t42">Colonne <sc:inlineStyle role="emp" sc:id="t78">Note * Coef A</sc:inlineStyle> : si l'étudiant a une note pour la colle, on doit visualiser le produit note * coef, sinon, laisser la cellule vide</sc:para>
+								<sc:para xml:space="preserve" sc:id="t43">Colonnes <sc:inlineStyle role="emp" sc:id="t79">1 si matière notée</sc:inlineStyle> (I,J,K) : placez un 1 si la colonne concerne la matière donnée respectivement en I2-J2-K2. La formule en I4 doit être  recopiée vers J et K. Ces colonnes sont indispensables pour pouvoir ensuite compter dans le table N combien de notes chaque étudiant a obtenu dans chaque matière.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t44"><sc:inlineStyle role="emp" sc:id="t45">Tableau moyenne</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve" sc:id="t46">colonne nb : nombre de colles dans lesquelles l'étudiant doit être noté (vous devrez trouver 8 si vous ne changez pas le tableau initial)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t47">colonne nb notes : nombre de colles notées pour chaque étudiant (vous devrez trouver 2 pour toto et 1 pour bob)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t48">complet : l'étudiant a t-il été noté dans toutes les colles : si oui, VRAI doit apparaître.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t49"><sc:inlineStyle role="emp" sc:id="t50">Tableau nb notes</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve" sc:id="t51">Précisez le nombre de fois ou un étudiant à été noté dans chaque matière</sc:para>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp" sc:id="t93">Tableau colles</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">Ajoutez en A46, la formule qui permet d'incrémenter le N° colle jusqu'à un maximum un nombre de colle (valeur en C29 nommée <sc:inlineStyle role="emp">nbcolles</sc:inlineStyle>)</sc:para>
+								<sc:para xml:space="preserve">Calculer le nombre de notes prévues et attribuées dans les 2 colonnes B et C de ce tableau</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

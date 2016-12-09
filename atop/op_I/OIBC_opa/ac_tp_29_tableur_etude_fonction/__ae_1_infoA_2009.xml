@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:assmntUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Evaluation Module InfoA 2009</sp:title>
+			<sp:sTitle>Evaluation InfoA 2009</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>IUT</sp:keywd>
+							<sp:keywd>Jury</sp:keywd>
+							<sp:keywd>InfoA</sp:keywd>
+							<sp:keywd>Organisation</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+					<sp:cc>by</sp:cc>
+					<sp:cpyrgt>
+						<op:sPara>
+							<sc:para sc:id="t5">Franck OURION</sc:para>
+						</op:sPara>
+					</sp:cpyrgt>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para sc:id="t3">Evaluation Globale</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:quiz sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/_B_tat_serie_lineaire_a6_a46_menu.quiz"/>
+		<sp:quiz sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/_C_tat_serie_lineaire_a6_a46_formule.quiz"/>
+		<sp:quiz sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/_D_B6_etape_1.quiz"/>
+		<sp:quiz sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/_D_B6_etape_2.quiz"/>
+		<sp:quiz sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/_D_B6_etape_3.quiz"/>
+		<sp:quiz sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/_D_B6_F6.quiz"/>
+		<sp:quiz sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/_E_tat_G6.quiz"/>
+		<sp:quiz sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/_F_tat_H7_zero.quiz"/>
+		<sp:quiz sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/_G_tat_I7_zmin_zmax.quiz"/>
+		<sp:quiz sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/_H_tat_D49_nb_zeros.quiz"/>
+		<sp:quiz sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/_I_tat_J7_K7_pente.quiz"/>
+		<sp:quiz sc:refUri="/op_I/OIBC_opa/ac_tp_29_tableur_etude_fonction/_A_tat_sxf_polynome_ordre3.quiz"/>
+		<sc:feedbacks>
+			<sc:feedback gt="50">
+				<op:res>
+					<sp:txt>
+						<op:txt>
+							<sc:para sc:id="t9">Résultat Moyen</sc:para>
+						</op:txt>
+					</sp:txt>
+				</op:res>
+			</sc:feedback>
+			<sc:feedback gt="0" lt="30">
+				<op:res>
+					<sp:txt>
+						<op:txt>
+							<sc:para sc:id="t11">Suivre la version Niveau 2</sc:para>
+						</op:txt>
+					</sp:txt>
+				</op:res>
+			</sc:feedback>
+			<sc:feedback gt="90">
+				<op:res>
+					<sp:txt>
+						<op:txt>
+							<sc:para sc:id="t13">Félicitation, vous etes capable de réaliser un exercice en toute autonomie.</sc:para>
+						</op:txt>
+					</sp:txt>
+				</op:res>
+			</sc:feedback>
+		</sc:feedbacks>
+	</op:assmntUa>
+</sc:item>

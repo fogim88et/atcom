@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Nombre de défaillants dN sur dt</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3">A un instant t, sur une période de durée dt, ou encore sur une période de t1 à t2, on évalue le nombre de défaillants par N(t+dt)-N(t) ou encore par N(t1)-N(t2).</sc:para>
+					<sc:para xml:space="preserve" sc:id="t4">D'après un modèle théorique, on peut s'attendre sur une période dt à un nombre de défaillances dN(t)=f(t).dt</sc:para>
+					<sc:para xml:space="preserve">ou d'après R(t)=N(t)/N et R(t+dt)=N(t+dt)/N, on tire dN(t,t+dt)=N * [R(t)-R(t+dt)]</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:exeM>
+			<sp:title>48-n3 - Test proportion (fiabilité)</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t4">Pour une étude statistique de fiabilité, on souhaite tester la durée de vie d'un composant. </sc:para>
+						<sc:para xml:space="preserve">Le cahier des charges précise que la fiabilité soit supérieure à 95%.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t19">La fiabilité fournie par l'intervalle de confiance sera encadrée à 1% près. Le niveau de confiance est fixé à 97,5 %.</sc:para>
+								<sc:para xml:space="preserve">Calculer la taille de l'échantillon pour obtenir la précision demandée.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t27">On a π = 0,95</sc:para>
+								<sc:para sc:id="t28">La limite de la zone d'acceptation est de 96%.</sc:para>
+								<sc:para sc:id="t29">Si un échantillon présente une fiabilité de 96 % ou plus, on affirmera donc que la fiabilité au niveau de la population est supérieure à 95%.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t34">On veut vérifier que la fiabilité dépasse 95% par un test d'hypothèse avec H0 : p=95% et H1 : p>95%. Niveau de confiance fixé à 97,5%.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t30">On a donc [P limite]= 0,96, [Sigma POP]=Racine(p*(1-p)). D'après la LNCR, on a t=1,96. </sc:para>
+										<sc:para xml:space="preserve">L'équation à résoudre est donc [Marge Erreur] = [P limite] - p = t * [Sigma DEM]= t * [Sigma POP] / racine(n).</sc:para>
+										<sc:para xml:space="preserve" sc:id="t31">Le résultat est  n égal à 1824.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

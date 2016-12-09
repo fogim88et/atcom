@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>204.2. fiabilité d'un système série (2C3)</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t28">Calculer la fiabilité du système à t = 50000 heures </sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t47">La fiabilité du système est de <sc:textLeaf role="gap" sc:id="t53">25</sc:textLeaf> % (à 1% près sans décimales)</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Solution 1 : </sc:para>
+						<sc:para xml:space="preserve" sc:id="t50">La fiabilité d'un composant est de 0,87 car R(t=50000)=exp(-2,77.E-6 * 50000)</sc:para>
+						<sc:para xml:space="preserve" sc:id="t51">La fiabilité des 10 en série est de 0,87^10=0,25 --&gt; on multiplie les fiabilités de chaque composant en série.</sc:para>
+						<sc:para xml:space="preserve">Solution 2 :</sc:para>
+						<sc:para xml:space="preserve">Le taux de défaillance du système est de 10*2,77E-6 (On ajoute les taux de défaillance dans le cas du modèle exponentiel)</sc:para>
+						<sc:para xml:space="preserve">La fiabilité du système est de exp(-2,77E-5*50000)</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

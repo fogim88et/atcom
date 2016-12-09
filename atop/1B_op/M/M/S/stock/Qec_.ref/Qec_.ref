@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:definition xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:dk="kelis.fr:dokiel">
+		<dk:definitionMeta>
+			<sp:notion>Quantité fixe de commande (choix)</sp:notion>
+			<sp:term>Quantité fixe de commande (choix)</sp:term>
+			<sp:def>
+				<dk:textSimple>
+					<sc:para xml:space="preserve" sc:id="t4">C'est la valeur que l'on va choisir pour gérer le rythme des commandes : elle  est très proche de Qe qui est la quantité à commander dans la recherche de l'optimum économique (CSM  minimum).</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">En fonction des choix du gestionnaire, il est possible de s'éloigner de cette valeur Qe idéale sans pour autant augmenter fortement le CSM.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">Prendre une valeur plus basse reviendra à augmenter un peu le Cadm, une valeur plus haute à augmenter un peu le Cpos.</sc:para>
+					<sc:itemizedList sc:id="t7">
+						<sc:listItem sc:id="t8">
+							<sc:para xml:space="preserve" sc:id="t9">Si les moyens humains ou organisationnels de l'entreprise sont un peu justes, on peut donc compenser par une légère augmentation de Qe (Qec>Qe)</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t10">
+							<sc:para xml:space="preserve" sc:id="t11">Si la volonté de l'entreprise est de minimiser la valeur du stock et ainsi augmenter le taux de rotation du stock, alors on compensera par Qec&lt;Qe</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</dk:textSimple>
+			</sp:def>
+		</dk:definitionMeta>
+	</dk:definition>
+</sc:item>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Modèle de Weibull</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Modèle théorique permettant d'évaluer la fiabilité prévisionnelle d'un dispositif :</sc:para>
+					<sc:para sc:id="t10">Le paramètre <sc:inlineStyle role="emp">β</sc:inlineStyle> caractérise l'usure :</sc:para>
+					<sc:itemizedList sc:id="t6">
+						<sc:listItem sc:id="t7">
+							<sc:para sc:id="t11">β &lt; 1 : période de <sc:inlineStyle role="emp">jeunesse</sc:inlineStyle>, λ décroissant</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t8">
+							<sc:para sc:id="t4">β = 1 : période de<sc:inlineStyle role="emp"> vie utile</sc:inlineStyle>, λ constant. On retrouve le modèle exponentiel.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t9">
+							<sc:para sc:id="t5">β &gt; 1 : période de <sc:inlineStyle role="emp">vieillesse</sc:inlineStyle>, λ croissant. A β≈3,2, on retrouve le modèle de Gauss.</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para sc:id="t12">A partir d'un β&gt;2, on considère que l'usure est forte, et qu'une politique de maintenance conditionnelle est pertinente.</sc:para>
+					<sc:para sc:id="t13">R(t)=EXP[-([(t-gamma)/eta)]^β)]</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

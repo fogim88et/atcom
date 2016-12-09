@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Moyenne</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:inlineStyle role="spec">Mean</sc:inlineStyle> en Anglais</sc:para>
+					<sc:para xml:space="preserve" sc:id="t4">Espérance mathématique d'une Variable statistique (VS) ou aléatoire (VA).</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">Utile pour comparer deux distributions, elle est surtout utilisée comme paramètre des différents modèles statistiques.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">Sa valeur ne doit surtout pas être prise en compte pour prendre une décision, on a environ 50% de chance de dépasser une valeur moyenne, ce qui n'est pas très judicieux en terme de prévision par exemple. </sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

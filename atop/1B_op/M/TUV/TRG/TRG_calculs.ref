@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Calcul TRG (Démarche)</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:orderedList sc:id="t5">
+						<sc:listItem sc:id="t6">
+							<sc:para xml:space="preserve" sc:id="t3">Évaluez le Temps TO : cernez l'objectif de production maximal  recherché</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t7">
+							<sc:para xml:space="preserve" sc:id="t16">Des données de production de pièces bonnes (Qualité) --&gt; Évaluez le TU</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t8">
+							<sc:para xml:space="preserve" sc:id="t17">Calculez le TRG = TU / TO</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t9">
+							<sc:para xml:space="preserve" sc:id="t18">De la liste des arrêts identifiés (AI), en déduire le TB = TO- AI, en déduire TxB = TB / TO</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t10">
+							<sc:para xml:space="preserve" sc:id="t19">Calculez le NQ à partir des données concernant les défauts , en déduire le TN = TU + NQ, en déduire TxQ = TU /TN</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t12">
+							<sc:para xml:space="preserve" sc:id="t20">Évaluez EP = TN - TB, en déduire TxP = TB / TN</sc:para>
+						</sc:listItem>
+					</sc:orderedList>
+					<sc:para xml:space="preserve" sc:id="t21">
+						<sc:inlineStyle role="emp" sc:id="t24">Variantes : </sc:inlineStyle>
+					</sc:para>
+					<sc:itemizedList sc:id="t13">
+						<sc:listItem sc:id="t14">
+							<sc:para xml:space="preserve" sc:id="t22">(TO--&gt;AI--&gt;TB) puis (TU--&gt;NQ--&gt;TN) soit 1-4-2-5-6-3</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t15">
+							<sc:para xml:space="preserve" sc:id="t23">Parfois, on donne dans l'énoncé des taux intermédiaires, on peut donc calculer des temps à partir des taux donnés.</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

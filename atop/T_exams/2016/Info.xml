@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Examen Informatique</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:simul>
+					<op:pbTi>
+						<sp:title>Téléchargez le fichier src_610.xls</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:int sc:refUri="/T_exams/2016/src_610.xls">
+							<op:instructionM/>
+						</sp:int>
+					</op:res>
+				</sp:simul>
+				<sp:rem>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Les cellules sur fond jaune contiendront une formule. Les cellules sur fond vert seront recopiées à partir d'une cellule originale sur fond jaune (soit vers la droite ou vers le bas)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:rem>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Feuille 1 - Graphe</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Tracez un graphe représentant les températures (équation et table) en fonction de la résistance en Ohm</sc:para>
+								<sc:para xml:space="preserve">Quadriller l'espace du graphe avec un pas de 10 Ohms et 50 °C. Afficher la légende des courbes</sc:para>
+								<sc:para xml:space="preserve">Nommez les plages B2 à B26 et C2 à C26 Tequa et Ttable</sc:para>
+								<sc:para xml:space="preserve">Colonne E : Calculer l'écart relatif (en utilisant les noms) entre les données de la table et celles de l'équation (vous pouvez vérifier votre calcul avec la colonne D)</sc:para>
+								<sc:para xml:space="preserve">Colonne F : Si la valeur absolue est inférieure à 5%, faites apparaître la valeur 1 ( 0 sinon)</sc:para>
+								<sc:para xml:space="preserve">F29 : Faire la somme de la colonne F</sc:para>
+								<sc:para xml:space="preserve">F30. Utilisez la fonction NB.SI pour retrouver le résultat de la cellule F29.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Feuille 2 - Fonctions et graphes</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">B14 : Calculer le nombre de valeur numériques dans la plage des X (B4 :B13 ). Recopiez vers la droite pour déterminer le nombre de valeurs numériques dans la plage des Y (C4 :C13)</sc:para>
+								<sc:para xml:space="preserve">B15 à B20 : Déterminez dans les cellules B15 à B20 les traitements demandés dans les cellules A15 à A20. Les formules seront recopiées vers la droite pour s'appliquer à la colonne des Y</sc:para>
+								<sc:para xml:space="preserve">En E4 calculer la différence entre X4 et B16 : si vous n'avez pas trouvé la formule adéquate en B26, tapez manuellement 65 en B16</sc:para>
+								<sc:para xml:space="preserve">En F4 calculer E4²</sc:para>
+								<sc:para xml:space="preserve">En F15, calculer la somme des écarts au carré, en F16, calculer la moyenne de la somme des écarts au carré, en F17, calculer la racine de la moyenne de la somme des écarts au carré.</sc:para>
+								<sc:para xml:space="preserve">Les valeurs C17 et F17 ont-elles identiques ? </sc:para>
+								<sc:para xml:space="preserve">E24, calculer le nombre de points Y identiques à la valeur Y=70 (70 est la valeur contenue en C24.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Scenari</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Section 1</sc:inlineStyle> : </sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Résultats des formules en clair de la feuille 1 et objet graphe sous forme d'image.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Utilisez un item de type écran pour commenter le graphe</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Section 2 :</sc:inlineStyle> </sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Liste des formules en clair de la feuille 2 et objet graphe sous forme d'image.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Créer des items de type définition pour variance, covariance, et Régression linéaire. Ajoutez des liens dans la section 2 pour les consulter.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Section 3</sc:inlineStyle> : Faites une recherche sur internet sur la méthode de régression linéaire par les moindres carrés. Vous pouvez utilisez plusieurs mots-clés pour votre recherche.</sc:para>
+								<sc:para xml:space="preserve">Pour chaque site ou URL trouvées, vous ajouterez sous scenari un item de type URL auquel vous associerez la recherche effectuée et la confiance de votre évaluation personnelle du site.</sc:para>
+								<sc:para xml:space="preserve">Utilisez les informations trouvées pour établir une procédure sous scenari dokiel de la méthode : l'utilisation d'un item procédure serait bien vu.</sc:para>
+								<sc:para xml:space="preserve">Appliquez votre méthode à la relation Y en fonction de X.</sc:para>
+								<sc:para xml:space="preserve">Publiez un guide web et un guide pdf de votre examen. Placez le tout dans un zip et envoyez le par mail à franck.ourion@univ-lorraine.fr</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

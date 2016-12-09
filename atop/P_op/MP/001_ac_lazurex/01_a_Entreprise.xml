@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Présentation de l'entreprise</sp:title>
+			<sp:sTitle>Présentation de l'entreprise</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t9">Notre entreprise vends deux produits dénommés EML et EMV.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/P_op/MP/000_img_bdd_tech/lazurex.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>rgt</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t11">Clients de l'entreprise.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/P_op/MP/000_img_bdd_tech/clients.png"/>
+							</op:txtRes>
+						</sp:txtRes>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

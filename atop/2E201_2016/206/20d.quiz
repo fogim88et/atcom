@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>d. Fiabilité selon le modèle exponentiel</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t78">La <sc:uLink role="glos" sc:id="t79" sc:refUri="/1B_op/D/dv.ref">durée de bon fonctionnement</sc:uLink> de 9 composants a donné les résultats suivants en jours  : 17, 204, 10, 82, 144, 29, 58, 45 , 101.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t80">a. La fiabilité à t=50 est de 0,56 et le taux de défaillance à t=58 est de 0,015 jr<sc:textLeaf role="exp" sc:id="t84">-1</sc:textLeaf></sc:para>
+						<sc:para xml:space="preserve" sc:id="t81">b. La fiabilité à t=100 est de 0,33 et le taux de défaillance à t=58 est de 0,018 jr<sc:textLeaf role="exp" sc:id="t83">-1</sc:textLeaf></sc:para>
+						<sc:para xml:space="preserve" sc:id="t9">c. Le MTTF est de 76,67 jours et le taux de défaillance que l'on va choisir comme constant est de 0,013 jr<sc:textLeaf role="exp" sc:id="t82">-1</sc:textLeaf></sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve">d. En utilisant le <sc:uLink role="ucLnk" sc:id="t89" sc:refUri="/D/DS/3_ne/DSE_ne/5E6_Lexp-dk/5E6_ne.xml">modèle exponentiel</sc:uLink>, avec le taux de défaillance calculé à la question comparez avec les résultats précédents.</sc:para>
+				<sc:itemizedList sc:id="t90">
+					<sc:listItem sc:id="t91">
+						<sc:para xml:space="preserve" sc:id="t29"> R<sc:textLeaf role="ind" sc:id="t38">exponentiel</sc:textLeaf> (t=50j) = <sc:textLeaf role="gap" sc:id="t41">0,52</sc:textLeaf> (x,xx)</sc:para>
+					</sc:listItem>
+					<sc:listItem sc:id="t92">
+						<sc:para xml:space="preserve" sc:id="t30">R<sc:textLeaf role="ind" sc:id="t39">exponentiel</sc:textLeaf> (t=100j) = <sc:textLeaf role="gap" sc:id="t40">0,27</sc:textLeaf> (x,xx)</sc:para>
+					</sc:listItem>
+				</sc:itemizedList>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t88">On remarque que les résultats sont relativement proches.</sc:para>
+						<sc:para xml:space="preserve">En calculant la fiabilité avec la <sc:uLink role="glos" sc:id="t93" sc:refUri="/1B_op/M/MN/rangs_medians.ref">formule des rangs médians</sc:uLink>, on va tenir compte du fait que lorsque l'on observe un faible effectif, on ne peut pas affirmer qu'à l'issue de la 9 ième défaillance la fiabilité soit nulle : elle tends vers 0</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

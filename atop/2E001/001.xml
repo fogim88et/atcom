@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>1. Démarche TRG</sp:title>
+			<sp:sTitle>1. Démarche TRG</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>TD</sp:keywd>
+							<sp:keywd>MMT</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para xml:space="preserve" sc:id="t112"><sc:inlineStyle role="emp" sc:id="t115">Evaluation</sc:inlineStyle> personnelle de votre capacité à maîtriser la démarche de calcul du TRG en revoyant les notions essentielles chaque fois que nécessaire.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t116"><sc:inlineStyle role="emp" sc:id="t117">Option </sc:inlineStyle>: utilisation du tableur à l'aide de la feuille de calcul (voir contexte)</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t77">Notions essentielles : <sc:uLink role="ucLnk" sc:id="t19" sc:refUri="/MM_op/MMT_tpm/3_ne/TRG_ne.xml">Présentation du TRG</sc:uLink> </sc:para>
+						<sc:para xml:space="preserve" sc:id="t78">Consultez la <sc:uLink role="glos" sc:id="t14" sc:refUri="/1B_op/M/TUV/TRG/TRG_calculs.ref">démarche de calcul</sc:uLink> simplifiée. </sc:para>
+						<sc:para xml:space="preserve" sc:id="t7">
+									<sc:inlineStyle role="emp" sc:id="t8">Si vous avez accès à un ordinateur, téléchargez</sc:inlineStyle> le fichier <sc:uLink role="resLnk" sc:id="t108" sc:refUri="/0C-src/MMT/tableur_modele_calcul_TRG.ods">Tableur : Modèle de calcul du TRG</sc:uLink> pour effectuer vos calculs et présenter vos données.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:courseUc sc:refUri="/2E001/001/001_en.xml"/>
+		<sp:trainUcCloze sc:refUri="/2E001/001/01_to.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E001/001/02_tu.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E001/001/03_trg.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E001/001/04_tb.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E001/001/05.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E001/001/06_tx.quiz"/>
+	</op:courseUa>
+</sc:item>

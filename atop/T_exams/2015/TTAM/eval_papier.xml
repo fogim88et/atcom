@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:ueM>
+			<sp:title>Evaluation GIM</sp:title>
+			<sp:sTitle>Evaluation GIM</sp:sTitle>
+		</op:ueM>
+		<sp:courseUc sc:refUri="/T_exams/2015/TTAM/info_4.xml"/>
+		<sp:courseUc sc:refUri="/T_exams/2015/TTAM/mesure/mes_1.xml"/>
+		<sp:courseUc sc:refUri="/T_exams/2015/TTAM/mesure/mes_2.xml"/>
+	</op:ue>
+</sc:item>

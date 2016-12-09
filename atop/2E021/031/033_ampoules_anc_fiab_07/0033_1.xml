@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>33 : Fabrication de Lampe témoin</sp:title>
+			<sp:sTitle>33 : Test proportion</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Code 0033</sp:keywd>
+							<sp:keywd>5F</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:trainUcMcqMur sc:refUri="/2E021/031/033_ampoules_anc_fiab_07/ac_ev-33-test_prop_fiab/ev_33-n1_q1.quiz"/>
+		<sp:trainUcMcqMur sc:refUri="/2E021/031/033_ampoules_anc_fiab_07/ac_ev-33-test_prop_fiab/ev_33-n1_q2.quiz"/>
+		<sp:trainUcField sc:refUri="/2E021/031/033_ampoules_anc_fiab_07/ac_ev-33-test_prop_fiab/ev_33-n2-q1.quiz"/>
+		<sp:practUc sc:refUri="/2E021/031/033_ampoules_anc_fiab_07/ac_ev-33-test_prop_fiab/ev_33-1-n3.xml"/>
+	</op:courseUa>
+</sc:item>

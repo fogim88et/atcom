@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Enoncé</sp:title>
+			<sp:sTitle>Enoncé</sp:sTitle>
+		</op:uM>
+		<sp:intro>
+			<op:res>
+				<sp:int sc:refUri="/op_I/OIBC_opa/ctrl_2011/en_note.ods">
+					<op:instructionM>
+						<sp:webInstruct>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t23">Téléchargez le fichier ci-dessous (Gestion des notes)</sc:para>
+							</op:txt>
+						</sp:webInstruct>
+					</op:instructionM>
+				</sp:int>
+				<sp:int sc:refUri="/SRC/016_reducteur_vitesse/src_16_1.ods">
+					<op:instructionM>
+						<sp:webInstruct>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t31">Etude FMD (exercice du contrôle du 3 Février 2011)</sc:para>
+							</op:txt>
+						</sp:webInstruct>
+					</op:instructionM>
+				</sp:int>
+				<sp:int sc:refUri="/2C_ex_tpz/091/102/src_102-2.ods">
+					<op:instructionM>
+						<sp:webInstruct>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t45">Etude de Pareto</sc:para>
+							</op:txt>
+						</sp:webInstruct>
+					</op:instructionM>
+				</sp:int>
+			</op:res>
+		</sp:intro>
+		<sp:practUc sc:refUri="/op_I/OIBC_opa/ctrl_2011/séries.xml"/>
+		<sp:practUc sc:refUri="/op_I/OIBC_opa/ctrl_2011/polynome.xml"/>
+		<sp:practUc sc:refUri="/op_I/OIBC_opa/ctrl_2011/ex_note.xml"/>
+	</op:courseUa>
+</sc:item>

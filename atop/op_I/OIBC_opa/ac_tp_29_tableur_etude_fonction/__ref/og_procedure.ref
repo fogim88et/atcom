@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Procédure</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t4">Les procédures sont écrites dans un atelier qui regroupe l'ensemble des procédures destinées à une ressource logicielle précise.</sc:para>
+					<sc:para>Cet atelier est indépendant de l'étude de cas étudié, car une procédure peut être utilisée dans plusieurs étude de cas. </sc:para>
+					<sc:para>Vous devrez faez donc faire l'effort d'adapter la procdédure décrite à votre étude de cas.</sc:para>
+					<sc:para>Une procédure va s'appuyer parfois sur un exemple basé sur une étude de cas.</sc:para>
+					<sc:para sc:id="t5">Selon l'objectif de votre étude de cas, vous pouvez exploiter directement la ressource générée par la procédure ou bien suivre les instructions vous permettant vous même de construire votre application.</sc:para>
+					<sc:para>Les procédures sont identifiées par un identifiant de code prc_xxx</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

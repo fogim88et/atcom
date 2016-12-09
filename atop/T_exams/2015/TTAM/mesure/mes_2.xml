@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Métrologie</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Mes-B</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t18">Une carte 16 bits permet d'acquérir à 1000 Ech/s (ou pt/s). Sur une gamme de base -10 à +10V ou 0 à 10V, le gain d'amplification intégré à la carte peut être fixé à  1-10-50-100 ou 1000.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t19">1. Peut-on avec cette carte mesurer la fréquence d'un signal de l'ordre de 300 Hz. Pourquoi ? </sc:para>
+								<sc:para xml:space="preserve" sc:id="t20">2. Peut-on représenter le signal temporel correctement. Sur combien de points peut-on compter pour une période (dessiner deux périodes pour confronter le signal initial et le signal mesuré)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t21">3. Sur une gamme de 0-1V, avec un gain de 10, calculez la PPVM. Conserve t-on cette PPVM sur une gamme de 0-0.2V (donner dans ce cas le facteur de gain).</sc:para>
+								<sc:para xml:space="preserve">4. Donnez la formule qui permet de calculer le nb de points à mesurer en fonction d'une frequence d'échantillonnage et d'une période d'observation. Donnez les valeurs pour une observation de 20 mns à 5 points/seconde</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:glosM>
+			<sp:term>Dispositif non réparable</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Un dispositif non réparable est mis en service à t=0, fonctionne pendant un certain temps que l'on appellera <sc:inlineStyle role="emp">TTF</sc:inlineStyle> ou Durée de Vie. </sc:para>
+					<sc:para sc:id="t4">Ensuite, il est considéré comme &quot;mort&quot;, ou mis &quot;au rebut&quot;.</sc:para>
+					<sc:para sc:id="t5">Si on considère pour un être humain que vivre le plus longtemps possible est la mission fixée, alors, nous allons étudier l'âge du décès comme référence temporelle, et l'être humain sera alors considéré comme un dispositif non réparable. </sc:para>
+					<sc:para sc:id="t6">L'observation de ces <sc:inlineStyle role="emp">TTF</sc:inlineStyle> est vu d'un point de vue statistique par l'étude de la variable T : variable de &quot;survie&quot; ou &quot;instant t de la défaillance&quot;</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>2C3-Exercices FMD Système</sp:title>
+			<sp:sTitle>2C3-Exercices FMD Système</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Redondance</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:trainUcCloze sc:refUri="/M/C-2016-01/5_ex/2C3_02_24_n3.quiz"/>
+		<sp:trainUcCloze sc:refUri="/M/C-2016-01/5_ex/2C3_03_25_n3.quiz"/>
+		<sp:trainUcCloze sc:refUri="/M/C-2016-01/5_ex/2C3_04_26_n3.quiz"/>
+		<sp:trainUcCloze sc:refUri="/M/C-2016-01/5_ex/2C3_05_28_n3.quiz"/>
+		<sp:practUc sc:refUri="/M/C-2016-01/5_ex/2C3_06_15_n3.xml"/>
+	</op:courseUa>
+</sc:item>

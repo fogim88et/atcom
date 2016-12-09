@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>MTTF</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">Temps moyen de fonctionnement avant défaillance pour les dispositifs <sc:inlineStyle role="emp">non réparables</sc:inlineStyle> (de l'anglais <sc:inlineStyle role="spec">Mean Time To Fail</sc:inlineStyle>).</sc:para>
+					<sc:para sc:id="t4">Cette durée de vie moyenne est associée à un niveau de confiance proche de 50% selon la répartition des défaillances ou le modèle théorique qui a permis de la définir.</sc:para>
+					<sc:para>On s'intéressera plutôt à la durée de vie nominale à 90% (90 % des équipement fonctionneront plus de 5000 heures)</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

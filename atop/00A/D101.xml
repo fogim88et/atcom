@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ueDiv xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:ueDivM>
+			<sp:title>101-200</sp:title>
+		</op:ueDivM>
+		<sp:courseUa sc:refUri="/2C_ex/091/100/100.xml"/>
+		<sp:trainUcCloze sc:refUri="/2E_exo-op/101/101/101.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E_exo-op/101/102/102.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E_exo-op/101/103.quiz"/>
+	</op:ueDiv>
+</sc:item>

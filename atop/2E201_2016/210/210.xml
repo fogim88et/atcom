@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:assmntUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>210.TD. Durée de vie élévateur</sp:title>
+			<sp:sTitle>210. Durée de vie</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>MC</sp:keywd>
+							<sp:keywd>Fiabilité observée</sp:keywd>
+							<sp:keywd>Observation par rang</sp:keywd>
+							<sp:keywd>Dispositif non réparable</sp:keywd>
+							<sp:keywd>MTTF</sp:keywd>
+							<sp:keywd>Taux de défaillance</sp:keywd>
+							<sp:keywd>TD</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para xml:space="preserve" sc:id="t86">On étudie la durée de vie de 11 élévateurs installés chez un client</sc:para>
+				<sc:para xml:space="preserve" sc:id="t87">Le système est ici considéré comme non réparable, ou tout du moins on a recensé pour chaque élévateur le temps de la première défaillance</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t112">On étudie la durée de vie de 11 élévateurs installés chez un client (src 011)</sc:para>
+						<sc:table role="" sc:id="t122">
+							<sc:caption xml:space="preserve" sc:id="t173">ttf ordonnés de manière croissante</sc:caption>
+							<sc:column role="head" sc:id="t123" width="4"/>
+							<sc:column sc:id="t124" width="4"/>
+							<sc:column sc:id="t125" width="4"/>
+							<sc:column sc:id="t126" width="4"/>
+							<sc:column sc:id="t127" width="4"/>
+							<sc:column sc:id="t128" width="4"/>
+							<sc:column sc:id="t129" width="6"/>
+							<sc:column sc:id="t130" width="6"/>
+							<sc:column sc:id="t131" width="6"/>
+							<sc:column sc:id="t132" width="6"/>
+							<sc:column sc:id="t133" width="6"/>
+							<sc:column sc:id="t174" width="6"/>
+							<sc:row sc:id="t134">
+								<sc:cell sc:id="t135">
+									<sc:para xml:space="preserve" sc:id="t147">ttf</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t136">
+									<sc:para xml:space="preserve" sc:id="t149">14</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t137">
+									<sc:para xml:space="preserve" sc:id="t151">20</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t138">
+									<sc:para xml:space="preserve" sc:id="t153">50</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t139">
+									<sc:para xml:space="preserve" sc:id="t155">64</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t140">
+									<sc:para xml:space="preserve" sc:id="t157">67</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t141">
+									<sc:para xml:space="preserve" sc:id="t159">100</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t142">
+									<sc:para xml:space="preserve" sc:id="t161">130</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t143">
+									<sc:para xml:space="preserve" sc:id="t163">135</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t144">
+									<sc:para xml:space="preserve" sc:id="t165">212</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t145">
+									<sc:para xml:space="preserve" sc:id="t167">224</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t175">
+									<sc:para xml:space="preserve" sc:id="t168">348</sc:para>
+								</sc:cell>
+							</sc:row>
+						</sc:table>
+						<sc:para xml:space="preserve" sc:id="t113">Le système est ici considéré comme non réparable, ou tout du moins, on a recensé pour chaque élévateur le temps de la première défaillance.</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t18">
+							<sc:inlineStyle role="emp" sc:id="t83">Questions</sc:inlineStyle>
+						</sc:para>
+						<sc:para xml:space="preserve" sc:id="t34">
+<sc:uLink role="glos" sc:id="t88" sc:refUri="/1B_op/M/MN/MTTF.ref">MTTF</sc:uLink> (définitions)</sc:para>
+						<sc:para xml:space="preserve" sc:id="t35">
+<sc:uLink role="glos" sc:id="t89" sc:refUri="/1B_op/M/EF/fiabilite_observee.ref">Fiabilité</sc:uLink>
+</sc:para>
+						<sc:para xml:space="preserve" sc:id="t36">
+<sc:uLink role="glos" sc:id="t90" sc:refUri="/1B_op/M/TUV/taux_defaillance.ref">Taux de défaillance</sc:uLink>
+(période)</sc:para>
+						<sc:para xml:space="preserve">Taux de défaillance (suite)</sc:para>
+						<sc:para xml:space="preserve">Taux de défaillance par rang</sc:para>
+						<sc:para xml:space="preserve" sc:id="t37">Espérance de vie</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:quiz sc:refUri="/2E201_2016/210/1_0_theorie_mttf_1.quiz"/>
+		<sp:quiz sc:refUri="/2E201_2016/210/2_0_mttf_et_R_n3.quiz"/>
+		<sp:quiz sc:refUri="/2E201_2016/210/3_a_taux_def.quiz"/>
+		<sp:quiz sc:refUri="/2E201_2016/210/3_b_taux_def.quiz"/>
+		<sp:quiz sc:refUri="/2E201_2016/210/3_c_taux_def.quiz"/>
+		<sp:quiz sc:refUri="/2E201_2016/210/4_0_esp_de_vie.quiz"/>
+	</op:assmntUa>
+</sc:item>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:glosM>
+			<sp:term>Pièce spécifique</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">Spécifique à une seule machine, le choix du stockage devra être justifié par une étude économique d'autant plus que la probabilité d'utiliser la pièce dans l'exercice comptable est faible. On cherchera à éviter le stockage en favorisant la meilleure fiabilité possible, une livraison rapide, ou encore une livraison rapide.<sc:inlineStyle role="emp"> L'évaluation du CDM est donc indispensable</sc:inlineStyle>.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

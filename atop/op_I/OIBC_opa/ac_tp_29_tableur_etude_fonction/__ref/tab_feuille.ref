@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Feuille de Classeur</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t3">La feuille se repère dans les onglets en bas la fenêtre du tableur. Par défaut, un classeur est créé avec 3 feuilles nommées feuille 1, 2, 2.</sc:para>
+					<sc:para>Pour faire référence à une cellule d'une feuille donnée dans une autre feuille, on utilise la synthaxe <sc:inlineStyle role="emp">nom_feuille!ref_cellule</sc:inlineStyle>.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

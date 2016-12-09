@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Besoin Net</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">Quantité d'un article calculée à partir du besoin brut, après déduction du stock disponible (<sc:inlineStyle role="emp" sc:id="t8">SD</sc:inlineStyle>) et des réceptions planifiées ou prévues (<sc:inlineStyle role="emp" sc:id="t9">RP</sc:inlineStyle>) de cet article et du stock de sécurité <sc:inlineStyle role="emp" sc:id="t10">S</sc:inlineStyle>.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t5">
+						<sc:inlineStyle role="emp" sc:id="t11">BN</sc:inlineStyle>
+						<sc:inlineStyle role="emp" sc:id="t12">j</sc:inlineStyle>= <sc:inlineStyle role="emp" sc:id="t13">BBj</sc:inlineStyle> - <sc:inlineStyle role="emp" sc:id="t14">SD(j-1)</sc:inlineStyle> -  <sc:inlineStyle role="emp" sc:id="t15">RP</sc:inlineStyle> + <sc:inlineStyle role="emp" sc:id="t16">S</sc:inlineStyle>.</sc:para>
+					<sc:para xml:space="preserve" sc:id="t6">Si <sc:inlineStyle role="emp" sc:id="t17">BNj</sc:inlineStyle> &lt; 0 alors calculer <sc:inlineStyle role="emp" sc:id="t18">SDj</sc:inlineStyle></sc:para>
+					<sc:para xml:space="preserve" sc:id="t7">Si <sc:inlineStyle role="emp" sc:id="t19">BNj</sc:inlineStyle> &gt;0 alors calculer la <sc:inlineStyle role="emp" sc:id="t20">taille de l'OF</sc:inlineStyle> en fin d'ordre : tenir compte de la <sc:inlineStyle role="emp" sc:id="t21">taille du lot</sc:inlineStyle> (Lot x) , et de la <sc:inlineStyle role="emp" sc:id="t22">règle de lotissement</sc:inlineStyle> (Groupement par période par exemple)</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:ueM>
+			<sp:title>Evaluation LPRO Textile 2012</sp:title>
+		</op:ueM>
+		<sp:courseUc sc:refUri="/P_op/MP/010_ac_exam/test_2012_LPRO_textile/sujet_2012_lpro.xml"/>
+		<sp:courseUc sc:refUri="/P_op/MP/010_ac_exam/test_2012_LPRO_textile/sujet_2012_lpro_2.xml"/>
+	</op:ue>
+</sc:item>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:uM>
+			<sp:title>Prévention permanente</sp:title>
+			<sp:sTitle>Prévention permanente</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>a) Les précautions à prendre au stockage du matériel à installe</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t6">Il est évident qu'il faut stocker correctement le matériel en attente, c'est à dire essentiellement les pièces de rechange.</sc:para>
+								<sc:para sc:id="t7">A éviter :</sc:para>
+								<sc:para sc:id="t8">- les courroies suspendues à des crochets,</sc:para>
+								<sc:para sc:id="t9">- les roulements sortis de leur papier huilé,</sc:para>
+								<sc:para sc:id="t10">- les magasins humides et non chauffés,</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>b) Les précautions à prendre à l'installation du matériel</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t13">Au niveau de la conception, il faut prévoir :</sc:para>
+								<sc:itemizedList sc:id="t48">
+									<sc:listItem sc:id="t49">
+										<sc:para xml:space="preserve" sc:id="t14">des « filtres », pour les fluides bien sûr, mais aussi pour l'électricité/électronique (protections des parasites, micro coupures, variations de tensions )</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t50">
+										<sc:para xml:space="preserve" sc:id="t15">des « fusibles », en électricité bien sûr, mais aussi en mécanique (limiteurs de couple, disques et goupilles de rupture, etc.)</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t16">Au niveau des réparations, il faut veiller au respect des règles de l'art quand on les connaît, ou faire apprendre ces règles quand elles sont méconnues .</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>c) Les précautions à prendre vis-à-vis du matériel installé :</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t19">Instruments de mesure, de réglage, d'alarme</sc:para>
+								<sc:para xml:space="preserve" sc:id="t20">Pour une bonne conduite du matériel, il faut :</sc:para>
+								<sc:itemizedList sc:id="t51">
+									<sc:listItem sc:id="t52">
+										<sc:para xml:space="preserve" sc:id="t21">une valeur si possible minimum et maximum, c'est à dire un index de valeur limite sur les manomètres, débitmètres, etc., un vernier avec des index de valeur sur les volants ou vannes de réglage,</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t53">
+										<sc:para xml:space="preserve" sc:id="t22">une fréquence d'étalonnage,</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t54">
+										<sc:para xml:space="preserve" sc:id="t23">avoir précisé qui doit lire l'instrument en question et quand.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t55">
+										<sc:para xml:space="preserve" sc:id="t24">vérifier le bon fonctionnement des équipements d'information ou de décision (lampes de pupitre, arrêt d'urgence par exemple)</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t25">En matière de conduite, des règles de l'art doivent être respectées, par exemple :</sc:para>
+								<sc:itemizedList sc:id="t56">
+									<sc:listItem sc:id="t57">
+										<sc:para xml:space="preserve" sc:id="t26">démarrage de pompe,</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t58">
+										<sc:para xml:space="preserve" sc:id="t27">garder sous tension une CN durant le Week-end,</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t59">
+										<sc:para xml:space="preserve" sc:id="t28">arrêter l'alimentation en brouillard d'huile lorsque la machine est à l'arrêt ; le redémarrer avant la mise en route de la machine,</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t60">
+										<sc:para xml:space="preserve" sc:id="t29"> ne pas arrêter les moteurs au-delà des fréquences admises, - etc.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>d) Les opérations à réaliser sur le matériel installé</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t32">La surveillance :</sc:para>
+								<sc:itemizedList sc:id="t61">
+									<sc:listItem sc:id="t62">
+										<sc:para xml:space="preserve" sc:id="t33">niveaux d'huile dans les réducteurs ( il peut toujours y avoir une fuite non détectée),</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t63">
+										<sc:para xml:space="preserve" sc:id="t34">pression d'air et nombre de gouttes/min. pour les systèmes à brouillard d'huile,</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t35">Le graissage classique :</sc:para>
+								<sc:itemizedList sc:id="t64">
+									<sc:listItem sc:id="t65">
+										<sc:para xml:space="preserve" sc:id="t36">la qualité qui convient,</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t66">
+										<sc:para xml:space="preserve" sc:id="t37">la qualité qu'il faut ( ni trop peu = cela grippe, ni trop = cela chauffe).</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t38">Les remplacements de crépines, filtres.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t39">Le nettoyage, en respectant les règles de l'art en la matière.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t40">Le resserrage des boulons, joints avant que la dégradation ou le déréglage aille jusqu'à la casse et l'arrêt important.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t41">Le passage de produits antioxydants en connectique (par ex. dans les CN).</sc:para>
+								<sc:para xml:space="preserve" sc:id="t42">Ces opérations, autant que possible, seront confiées au personnel de production ayant reçu une formation, lui permettant d'exécuter des tâches de maintenance de niveau 1 et 2 en toute sécurité.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t43">La généralisation de ce principe à toute l'entreprise est l'objet de la <sc:uLink role="ucLnk" sc:id="t67" sc:refUri="/MM_op/MMT_tpm/3_ne/TPM_ne.xml">méthode T.P.M</sc:uLink> (Total Productive Maintenance), et permet à l'entreprise de mener une véritable démarche globale s'inscrivant dans le cadre de la « QUALITE TOTALE »</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

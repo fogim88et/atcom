@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>205. Loi Exponentielle</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Modèle statistique : Loi exponentielle</sp:keywd>
+							<sp:keywd>Garantie</sp:keywd>
+							<sp:keywd>n2</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">La durée de vie d'un système électronique suit une loi exponentielle. </sc:para>
+						<sc:para>La probabilité que ce système fonctionne 150 heures est de 0,85.</sc:para>
+						<sc:para> Si le fabricant propose une garantie de 100 heures, combien de pièces sur 250 seront – elles retournées sous garantie ?</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t9">λ = <sc:textLeaf role="gap" sc:id="t14">1,08</sc:textLeaf> E-<sc:textLeaf role="gap" sc:id="t13">3</sc:textLeaf> h<sc:textLeaf role="exp" sc:id="t12">-1</sc:textLeaf>. (format x,yy E -z)</sc:para>
+				<sc:para xml:space="preserve" sc:id="t21">R(t=100)=<sc:textLeaf role="gap" sc:id="t15">0,90</sc:textLeaf> (2 décimales)</sc:para>
+				<sc:para xml:space="preserve" sc:id="t22">
+							<sc:textLeaf role="gap" sc:id="t16">25</sc:textLeaf> composants seront retournés</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t40">En cas d'échec, les exercices 13-td et 11-td doivent être revus : la démarche est exactement la même.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

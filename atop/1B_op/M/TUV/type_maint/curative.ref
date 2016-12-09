@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Maintenance curative</sp:term>
+			<sp:def>
+				<op:sTxt>
+					<sc:para sc:id="t4">Effectuée <sc:inlineStyle role="emp">après la défaillance</sc:inlineStyle>, elle a pour objectif de remettre en service un équipement.</sc:para>
+					<sc:para sc:id="t5">Le dépannage va remettre provisoirement l'équipement en état de fonctionnement  (minimiser l'arrêt de production)</sc:para>
+					<sc:para sc:id="t6">La réparation doit remettre l'équipement dans un état le plus proche possible de l'état initial d'utilisation.</sc:para>
+				</op:sTxt>
+			</sp:def>
+		</op:glosM>
+	</op:glos>
+</sc:item>

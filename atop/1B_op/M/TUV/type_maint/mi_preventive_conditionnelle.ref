@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:glos xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<op:glosM>
+			<sp:term>Maintenance Préventive conditionnelle</sp:term>
+			<sp:syn>Maintenance préventive prévisionnelle</sp:syn>
+			<sp:def>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4">
+						<sc:inlineStyle role="emp" sc:id="t9">Maintenance subordonnée à un type d'événement prédéterminé (mesure, diagnostic).</sc:inlineStyle>
+					</sc:para>
+					<sc:para xml:space="preserve" sc:id="t7">Ce type de maintenance est de loin le plus intéressant puisqu'il permet de décider du changement de la pièce en fonction de l'évolution de l'usure. De plus, la mesure régulière de l'état de l'usure permet de mieux appréhender le fonctionnement de la machine et ainsi, mieux cerner les problèmes et les solutions à y apporter.</sc:para>
+				</op:sTxt>
+			</sp:def>
+			<sp:wikip>Maintenance_conditionnelle</sp:wikip>
+		</op:glosM>
+	</op:glos>
+</sc:item>

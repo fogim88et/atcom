@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>2. TRG niveau 1</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>MMT-n1</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sp:desc>
+			<op:sTitle>
+				<sc:fullTitle>Données</sc:fullTitle>
+			</op:sTitle>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t4">Sur une installation qui tourne en continu (24 heures sur 24, 7jrs sur 7) , pendant une période de 1 an, on vous confie les données suivantes.</sc:para>
+						<sc:itemizedList sc:id="t39">
+							<sc:listItem sc:id="t40">
+								<sc:para xml:space="preserve" sc:id="t5">Maintenance planifiée : arrêt mensuel de 12 heures, arrêt semestriel de 120 heures.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t41">
+								<sc:para xml:space="preserve" sc:id="t6">Arrêts sur défaillance : 10 arrêts (intervention totale de 250 heures du service maintenance, et 120 heures de remise en route, contrôles)</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t42">
+								<sc:para xml:space="preserve" sc:id="t7">Attente de matière première : 6 arrêts de 24 heures</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t43">
+								<sc:para xml:space="preserve" sc:id="t8">Changement de série : 5 arrêts de 24 heures.</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t44">
+								<sc:para xml:space="preserve" sc:id="t9">Nombre de produits fabriqués : 7200</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t45">
+								<sc:para xml:space="preserve" sc:id="t10">Nombre de produits défectueux : 400</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t46">
+								<sc:para xml:space="preserve" sc:id="t11">Temps de cycle : 1 heure.</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t18">Calculer le Taux de rendement global (TRG)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t29">Avez vous consulté la démarche de calcul ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t20">On doit calculer le 
+Temps d'ouverture (TO) et le 
+Temps Utile (TU)
+ pour évaluer le TRG.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Solution</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t38">TO = 1 an de fonctionnement en continu = 365 jours * 24 hrs = 8760 hrs.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t128">TU = 6800 produits fabriqués de bonne qualité à 1 heure de temps de cycle = 6800 hrs.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t129">soit un TRG=TU/TO de 78 %</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t48">Calculer le Taux Brut de disponibilité (TxB)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t58">
+Evaluer les Arrêts identifiés (AI)
+</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t55">
+
+Evaluer le Temps brut de fonctionnement (TB)
+
+</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Les AI</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Arrêts pour cause de maintenance</sc:para>
+										<sc:itemizedList sc:id="t146">
+											<sc:listItem sc:id="t145">
+												<sc:para xml:space="preserve" sc:id="t62">Maintenance planifiée : arrêt mensuel de 12 heures, arrêt semestriel de 120 heures, soit 12 * 12h + 2 * 120h = 384 hrs (Arrêt maintenance)</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t63">
+												<sc:para xml:space="preserve" sc:id="t64">Arrêts sur défaillance : 10 arrêts (intervention totale de 250 heures du service maintenance, et 120 heures de remise en route, contrôles), soit 370 hrs (Arrêt maintenance)</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:para xml:space="preserve">Arrêts liés à la production</sc:para>
+										<sc:itemizedList sc:id="t149">
+											<sc:listItem sc:id="t65">
+												<sc:para xml:space="preserve" sc:id="t66">Attente de matière première : 6 arrêts de 24 heures, soit 144 hrs (Arrêt production)</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t67">
+												<sc:para xml:space="preserve" sc:id="t68">Changement de série : 5 arrêts de 24 heures, soit 120 hrs (Arrêt production)</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t70">AI = 1018 hrs. On pourrait ici supposer que les 2 arrêts mensuels qui coïncident avec les 2 arrêts semestriels sont absorbés par les arrêts semestriels. On pourrait donc retrancher 24 hrs.</sc:para>
+										<sc:para xml:space="preserve">TB = 8760-1018 = 7742 hrs</sc:para>
+										<sc:para xml:space="preserve">TxB = 88%</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t73">Calculer le Taux de Performance (TxP)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t80">
+Calculer le Temps net de fonctionnement (TN)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t77">On a fabriqué 7200 pièces, soit TN=7200 hrs</sc:para>
+										<sc:para xml:space="preserve" sc:id="t118">TxP = TN/TB= 93%</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t83">Calculer le Taux de Qualité</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t87">On a TU=6800 hrs et TN=7200 hrs</sc:para>
+										<sc:para xml:space="preserve">soit TxQ = 94%</sc:para>
+										<sc:para xml:space="preserve">On peut vérifier que le produit des 3 taux redonne bien le TRG</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t95">Calculer le <sc:uLink role="glos" sc:id="t185" sc:refUri="/1B_op/M/MN/MTBF.ref">MTBF</sc:uLink>
+, le <sc:uLink role="glos" sc:id="t186" sc:refUri="/1B_op/M/MN/MTTR.ref">MTTR</sc:uLink>
+, la <sc:uLink role="glos" sc:id="t187" sc:refUri="/1B_op/D/disponibilite.ref">Disponibilité opérationnelle</sc:uLink>
+.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t94">On a 10 arrêts sur 8760 hrs de fonctionnement, soit MTBF = 876 hrs</sc:para>
+										<sc:para xml:space="preserve" sc:id="t121">370 hrs de remise en état, soit MTTR =37 hrs.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t122">et Disponibilité = MTBF/(MTBF+MTTR) = 96%</sc:para>
+										<sc:para xml:space="preserve" sc:id="t123">On ne tient pas compte ici des </sc:para>
+										<sc:itemizedList sc:id="t130">
+											<sc:listItem sc:id="t131">
+												<sc:para xml:space="preserve">arrêts de production : vu de la maintenance, la machine est apte à produire</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t132">
+												<sc:para xml:space="preserve">arrêts pour maintenance préventive : ces temps sont considérés comme des investissements, même si on pourrait les considérer comme des pertes</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t98">Parmi les arrêts mesurés, quels sont ceux qui sont pénalisants pour l'entreprise (précisez quelle serait votre démarche et vos priorités pour augmenter le TRG si vous étiez le Responsable de l'entreprise)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t102">La performance de la machine, la disponibilité et la qualité ont chacun des taux équivalents. Il faut essayer de proposer les solutions les plus rentables en terme de temps d'investigation et de coût de l'étude relativement aux gains possibles. Les études qui permettrait d'améliorer la fiabilité et la performance de la machine peuvent être coûteuses, car elles peuvent nécessiter de revoir la conception même de la machine, on cherchera donc au maximum en priorité à travailler sur les causes d'ordre externe (qualité de la matière première), et internes (organisation de l'entreprise et efficacité de la maintenance au niveau du diagnostic ou de la réparation).</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

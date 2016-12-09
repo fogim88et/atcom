@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>FMD 4 - TABLEUR</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>3. FMD (Tableur ?)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t104">On relevé le ttf de 400 tubes fluorescents.</sc:para>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="quote">0 défaillants entre 0 et 300 heures, 60 de 300 à 500 heures, etc ...</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">Rappel : l'effectif des survivants, la fiabilité s'expriment en fonctions des limites t d'un intervalle. L'effectif des défaillants, le taux de défaillance, la densité de probabilité s'expriment en fonction du  centre (tc)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/T_exams/TTAM/en_1.3-105.ods">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t74">Représentez graphiquement la fiabilité et le taux de défaillance en fonction du temps.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>
