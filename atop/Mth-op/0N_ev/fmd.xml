@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:assmntUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>fmd</sp:title>
+			<sp:sTitle>fmd</sp:sTitle>
+		</op:uM>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qcm_03_fmd_nrepa.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qcm_06_fmd_mttr.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm06_fmd_mttr.quiz"/>
+	</op:assmntUa>
+</sc:item>

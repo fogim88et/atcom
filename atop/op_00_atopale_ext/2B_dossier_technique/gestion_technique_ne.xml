@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Gestion technique (2H)</sp:title>
+			<sp:sTitle>Gestion technique</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:basic>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t26">Quels équipements sont les plus coûteux à maintenir (Main d'œuvre, pièces) ?</sc:para>
+								<sc:para sc:id="t27">Quels équipements pénalisent le plus la production ?</sc:para>
+								<sc:para sc:id="t28">Quels équipements exigent des compétences spécifiques ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t9">La réponse à ces questions permet de sélectionner une liste d'équipements sur lesquels nous devrons apporter en priorité la meilleure gestion technique possible :</sc:para>
+								<sc:itemizedList sc:id="t29">
+									<sc:listItem sc:id="t30">
+										<sc:para sc:id="t10">nomenclature du matériel,</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t31">
+										<sc:para sc:id="t11">documentation générale,</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t32">
+										<sc:para sc:id="t12">documentation technique,</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t33">
+										<sc:para sc:id="t13">documentation historique,</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t34">
+										<sc:para sc:id="t14">plan de graissage et lubrification,</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t35">
+										<sc:para sc:id="t15">plan de maintenance préventive,</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t36">
+										<sc:para sc:id="t16">définition des pièces de rechange.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t39">Nombre d'équipements possèdent une documentation technique qui rassemble des informations « brutes de conception » contenant une notice d'utilisation, des plans complets et détaillés. Mais nous trouverons rarement d'informations exploitables pour la gestion de stock ou du préventif, et quasiment jamais de documents d'aide au diagnostic.</sc:para>
+								<sc:para sc:id="t40">Les plans complets et détaillés sont certes indispensables pour localiser une pièce défectueuse, ou lorsque l'on souhaite procéder à des modifications importantes sur un sous-ensemble de la machine. </sc:para>
+								<sc:para>Par contre, une défaillance sur une machine se traduit toujours par la perte d'une fonction. Il est donc appréciable de disposer de schémas ou de plans contenant uniquement les pièces impliquées, avec des informations claires sur les points de tests possibles (moyen de mesure et accessibilité). </sc:para>
+								<sc:para>Ensuite, pour les pièces d'usures, que l'on changera tôt ou tard, nous avons besoin, pour gagner du temps, de consignes de démontage et de montage, notifiant les outils nécessaires. </sc:para>
+								<sc:para>Pour les opérations lourdes, il est parfois nécessaire de procéder en cours de montage à des essais ou tests partiels afin d'éviter une remise en route aléatoire de la machine (va t-elle fonctionner ?).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:rem>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t48">A titre d'exemple, on trouvera dans la revue technique automobile des informations adaptées à la maintenance courante d'un véhicule que l'on peut effectuer soi-même. Néanmoins, elle reste essentiellement dédiée aux consignes de montage et démontage. On y trouve peu d'informations concernant le diagnostic d'un problème précis. Certaines fonctions sont traitées par des schémas clairs (fonction allumage par exemple), permettant au moins de mieux maîtriser les organes concernés ainsi que leur liaison.</sc:para>
+								<sc:para sc:id="t49">Bien sûr, la revue technique automobile n'est pas aussi complète que la documentation technique livrée par les constructeurs à leurs concessionnaires. En effet, on constatera aisément qu'une bonne documentation technique nécessite un véritable investissement, et qu'il est donc nécessaire de réfléchir au préalable à sa rentabilité. </sc:para>
+								<sc:para>Au vu du nombre de véhicules d'un même modèle et de ses évolutions dans le temps, la question ne se pose pas pour l'industrie automobile, ainsi que d'autres secteurs de l'industrie (nucléaire, aéronautique, aérospatiale), pour des raisons de sécurité ou de coût.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:rem>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t56">Pour le fournisseur de &quot;machines outils&quot; parfois spécifiques, vu le faible nombre d'exemplaires vendus, une documentation technique réellement opérationnelle augmenterait parfois le prix de la machine de 20 à 30 %. Difficile alors d'être compétitif, d'autant plus que la pression des acheteurs ou du bureau d'études n'est en général pas très pressante dans ce domaine.</sc:para>
+								<sc:para sc:id="t57">Le service maintenance se retrouve alors avec des machines dont la documentation technique n'est pas à la hauteur des objectifs que celui-ci veut se fixer. Si une bonne documentation n'est pas rentable pour le fournisseur, comment peut-elle l'être au niveau du service maintenance si celui-ci doit supporter la charge de rédiger des documents ou des schémas sans savoir si ceux-ci vont tous se révéler utile ?</sc:para>
+								<sc:para sc:id="t58">La réponse adaptée réside dans une sélection adéquate des équipements, du contenu de la documentation technique en fonctions des moyens dont dispose le service maintenance en terme de structure. </sc:para>
+								<sc:para>Il est clair que, plus la structure sera petite, plus les choix seront difficiles. </sc:para>
+								<sc:para>En effet, entre une petite et une grande entreprise, si la quantité de machines sera plus faible, le niveau technologique sera souvent similaire, rendant la maîtrise et gestion technique d'autant plus complexe.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

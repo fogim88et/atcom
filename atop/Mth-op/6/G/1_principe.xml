@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Principes</sp:title>
+			<sp:sTitle>Principes</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>SPC ou MSP</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t34">Le SPC (Statistic Process Control) ou MSP (Maîtrise Statistique des Procédés) est un outil permettant de déceler le plus vite possible une source de non-qualité, afin de déterminer le moyen de correction adapté. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t57">Appliqué à tous les stades de la fabrication, le SPC est un moyen d'assurer au client que la probabilité de livrer un produit défectueux est la plus faible possible. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t58">Le contrôle échantillonné des produits est effectué par l'agent de production, qui est le mieux placé pour déclencher rapidement une intervention corrective si nécessaire. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t59">En effet, les résultats des prélèvements successifs, reportés sur une carte de contrôle, permettent de mieux mesurer l'évolution du process dans le temps, et d'intervenir au bon moment :</sc:para>
+								<sc:itemizedList sc:id="t62">
+									<sc:listItem sc:id="t63">
+										<sc:para xml:space="preserve" sc:id="t75">ni trop tôt car les interventions intempestives du service maintenance perturbent son fonctionnement, </sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t64">
+										<sc:para xml:space="preserve" sc:id="t76">ni trop tard car le risque de produire des déchets deviendra plus important.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Les étapes de la méthode</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t20">1. Quels sont les principaux facteurs qui peuvent agir ou perturber une production.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t46">2. Déterminer une bonne image de la production. En déduire la moyenne et la dispersion (écart-type ou étendue). Situer cette image dans l'<sc:uLink role="glos" sc:id="t36" sc:refUri="/Mth-op/Sth-op/1B2/I/intervalle_tolerance.ref">IT</sc:uLink>.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t47">3. Calculer la <sc:uLink role="glos" sc:id="t35" sc:refUri="/1B_op/M/MN/MSP/capabilite_machine.ref">capabilité machine</sc:uLink>. Prendre la décision de placer la machine sous SPC ou non.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t49">4. Calculer les limites de surveillance et de contrôle.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t50">5. Tester la production avec une fréquence de prélèvements pour établir les cartes de contrôle.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Exemple (5M)</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:filters>
+									<op:filter/>
+								</sp:filters>
+							</op:pbTi>
+							<op:res>
+								<sp:res sc:refUri="/Mth-op/6/G/0F/5M.png">
+									<op:resInfoM/>
+								</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Comparaison de l'image de production à l'intervalle de tolérance</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t59">Si l'on obtient une image de la production centrée autour de la valeur nominale dont l'étendue est bien inférieure à l'intervalle de tolérance, il est clair que l'on disposera d'une certaine marge de déréglage sans pour autant produire des déchets (images en trait fin simulant par exemple l'usure d'un outil ou d'un déréglage quelconque)</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/Mth-op/6/G/0F/IT_R_image_prod.png">
+									<op:resInfoM>
+										<sp:index>img</sp:index>
+									</op:resInfoM>
+								</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Capabilité Machine</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t82">Si l'on obtient une image de la production centrée autour de la valeur nominale dont l'étendue est bien inférieure à l'intervalle de tolérance, il est clair que l'on disposera d'une certaine marge de déréglage sans pour autant produire des déchets. C'est ce que l'on définit par la capabilité machine qui représente son aptitude à être placée sous contrôle statistique</sc:para>
+										<sc:para xml:space="preserve" sc:id="t83">La <sc:inlineImg role="form" sc:id="t93" sc:refUri="/1F/S/F_echantillonnage/capabilite.odf"/>compare donc l'IT à l'étendue de la production et ce  rapport doit être supérieur à 1,33</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Carte de contrôle</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t79">La carte de contrôle est l'outil graphique exploité par l'opérateur sur laquelle il reportera après chaque prélèvement, les statistiques des échantillons (moyenne et étendue). Il tiendra compte des limites de surveillance et d'alerte pour justifier l'intervention de la maintenance.</sc:para>
+										<sc:para sc:id="t80">La carte de contrôle de la moyenne permet de contrôler le bon centrage de la machine.</sc:para>
+										<sc:para sc:id="t81">La carte de contrôle de l'étendue permet de contrôler une dispersion normale de la caractéristique mesurée.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/Mth-op/6/G/0F/Carte_controle_moyenne.gif">
+									<op:resInfoM>
+										<sp:index>img</sp:index>
+									</op:resInfoM>
+								</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Limites de surveillance et de contrôle.</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t68">La relation entre l'<sc:inlineStyle role="emp" sc:id="t97">échantillon</sc:inlineStyle> (prélèvement) et sa <sc:inlineStyle role="emp" sc:id="t98">population</sc:inlineStyle> (production) donne une précision suffisante qui permet de suivre l'évolution de la machine.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t100"> La fluctuation statistique logique de petits échantillons même lorsque la machine est bien réglée explique le fait que l'on doit arriver à dissocier avec certitude une distribution correcte d'une distribution qui peut générer des déchets.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t101"><sc:inlineStyle role="emp" sc:id="t102">IL FAUT DONC QUE LA MACHINE PUISSE SE DEREGLER</sc:inlineStyle>.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t103">C'est l'application de la théorie sur l'échantillonnage qui va permettre d'établir des limites permettant de prendre la décision d'érra^ter une machine lorsque le déréglage peut être décelé sans pour autant générer des déchets.</sc:para>
+										<sc:para xml:space="preserve">On choisira la taille de l'échantillon en fonction de la capabilité de la machine à produire des pièces dans les tolérances (rapport entre la longueur de l'intervalle de tolérance et l'étendue de l'image de la production), et la fréquence en fonction du nombre de pièces produites et de la connaissance du comportement de la machine (déréglages aléatoires fréquents, usure de l'outil, variation des caractéristiques de la matière première). Néanmoins, on adaptera la fréquence et la taille des échantillons en établissant un compromis entre la rentabilité et le coût du contrôle.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:basic>
+							<op:pbTi>
+								<sp:title>Les décisions</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t84">Il existe plusieurs façons de mettre en évidence un éventuel dysfonctionnement ou problème concernant la machine, et ainsi déclencher un arrêt de la machine :</sc:para>
+										<sc:para sc:id="t85">- 1 point en dehors des limites d'alerte</sc:para>
+										<sc:para sc:id="t86">- 2 points successifs entre les limites de surveillance et d'alerte</sc:para>
+										<sc:para sc:id="t87">- 7 points consécutifs au dessus ou en dessous de la valeur nominale</sc:para>
+										<sc:para sc:id="t88">- 7 points consécutifs respectant la même tendance (déréglage progressif, usure de l'outil)</sc:para>
+										<sc:para sc:id="t89">- 7 points sur une droite sans variation sensible, même proches de la valeur nominale (précision de la mesure)</sc:para>
+										<sc:para sc:id="t90">- phénomène cyclique ou sinusoïdale (chercher la corrélation avec des lots de matière première ou des changements d'équipe)</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:basic>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

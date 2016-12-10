@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:ueM>
+			<sp:title>Qualité. La Maîtrise Statistique des Procédés</sp:title>
+			<sp:sTitle>La MSP</sp:sTitle>
+		</op:ueM>
+		<sp:courseUa sc:refUri="/Mth-op/6/G/00_prj_qual_msp_id_0003.xml"/>
+		<sp:courseUa sc:refUri="/Mth-op/6/G/ic_vn_ui_0.1.1.xml"/>
+		<sp:courseUa sc:refUri="/Mth-op/Sth-op/021_stat_test/6G-exos.xml"/>
+		<sp:courseUa sc:refUri="/Mth-op/Sth-op/021_stat_test/5E_exercices_proba.xml"/>
+		<sp:courseUa sc:refUri="/Mth-op/Sth-op/021_stat_test/5F-exos.xml"/>
+		<sp:courseUa sc:refUri="/Mth-op/Sth-op/021_stat_test/2-5E-exos.xml"/>
+		<sp:courseUa sc:refUri="/Mth-op/Sth-op/021_stat_test/2-5F-exos.xml"/>
+		<sp:courseUa sc:refUri="/Mth-op/Sth-op/021_stat_test/3-5F-exos.xml"/>
+	</op:ue>
+</sc:item>

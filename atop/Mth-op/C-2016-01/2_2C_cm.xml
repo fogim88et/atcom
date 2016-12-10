@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Caractéristiques FMD (ne)</sp:title>
+			<sp:sTitle>Caractéristiques FMD (ne)</sp:sTitle>
+		</op:uM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para xml:space="preserve" sc:id="t5">Maîtrise du vocabulaire normalisé et des concepts essentiels à connaître</sc:para>
+				<sc:para xml:space="preserve">Notions essentielles à retenir pour appréhender les concepts importants dans le comportement d'un matériel réparable ou non et intégrer les données de fiabilité, maintenabilité, disponibilité lors de la conception d'un équipement, du plan de maintenance préventive d'un équipement, de la gestion des pièces détachées.</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:courseUc sc:refUri="/Mth-op/C-2016-01/3_ne/2C0_1_fiabilite_ne.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/C-2016-01/3_ne/2C0_2_maintenabilite_ne.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/C-2016-01/3_ne/2C0_3_disponibilite_ne.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/C-2016-01/3_ne/2C0_4_mttf_mtbf_ne.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/C-2016-01/3_ne/2C0_5_taux_def_ne.xml"/>
+	</op:courseUa>
+</sc:item>

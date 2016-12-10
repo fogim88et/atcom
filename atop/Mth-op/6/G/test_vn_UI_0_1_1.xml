@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Test sur la VN</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:remind>
+					<op:pbTi>
+						<sp:title>Etude de la machine UI_0.1.1</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t20">Consultez le <sc:uLink role="ref" sc:id="t21" sc:refUri="/1B_op/M/MN/MSP/UI_0.1.1_.ref">descriptif de la machine</sc:uLink>.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t22">(insérez une photo du Kit SPC)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t24">Nous savons donc que nous devons calculer la marge dans laquelle notre échantillon va fluctuer.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t27">Nous connaissons l'écart-type de la population.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t28">Chaque pièce fabriquée a donc une probabilité de 95% de se trouver dans l'intervalle 60± 2.1,5 si la machine est correctement réglée.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t29">Qu'en est-il de la moyenne de l'échantillon de taille 5</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:remind>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

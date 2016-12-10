@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Modèle libre de documentation</sp:title>
+			<sp:sTitle>Modèle libre de documentation</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/2B_dossier_technique/dt_00_repertoire_docs.ods">
+<op:resInfoM>
+<sp:pubMode>zoom</sp:pubMode>
+</op:resInfoM>
+</sp:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/2B_dossier_technique/dt_01_UIs_types_identiques.ods">
+<op:resInfoM>
+<sp:pubMode>zoom</sp:pubMode>
+</op:resInfoM>
+</sp:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/2B_dossier_technique/dt_02_schema_ui.ods">
+<op:resInfoM>
+<sp:pubMode>zoom</sp:pubMode>
+</op:resInfoM>
+</sp:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/2B_dossier_technique/dt_03_nomenclature_organes_principaux.ods">
+<op:resInfoM>
+<sp:pubMode>zoom</sp:pubMode>
+</op:resInfoM>
+</sp:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/2B_dossier_technique/dt_04_plans_notices.ods">
+<op:resInfoM>
+<sp:pubMode>zoom</sp:pubMode>
+</op:resInfoM>
+</sp:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/2B_dossier_technique/dt_05_fiches_techniques.ods">
+<op:resInfoM>
+<sp:pubMode>zoom</sp:pubMode>
+</op:resInfoM>
+</sp:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/2B_dossier_technique/dt_06_fiche_technique.ods">
+<op:resInfoM>
+<sp:pubMode>zoom</sp:pubMode>
+</op:resInfoM>
+</sp:res>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Téléchargement des documents ci-dessus.</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:int sc:refUri="/op_00_atopale_ext/2B_dossier_technique/dt_00_repertoire_docs.ods">
+									<op:instructionM/>
+								</sp:int>
+								<sp:int sc:refUri="/op_00_atopale_ext/2B_dossier_technique/dt_01_UIs_types_identiques.ods">
+									<op:instructionM/>
+								</sp:int>
+								<sp:int sc:refUri="/op_00_atopale_ext/2B_dossier_technique/dt_02_schema_ui.ods">
+									<op:instructionM/>
+								</sp:int>
+								<sp:int sc:refUri="/op_00_atopale_ext/2B_dossier_technique/dt_03_nomenclature_organes_principaux.ods">
+									<op:instructionM/>
+								</sp:int>
+								<sp:int sc:refUri="/op_00_atopale_ext/2B_dossier_technique/dt_04_plans_notices.ods">
+									<op:instructionM/>
+								</sp:int>
+								<sp:int sc:refUri="/op_00_atopale_ext/2B_dossier_technique/dt_05_fiches_techniques.ods">
+									<op:instructionM/>
+								</sp:int>
+								<sp:int sc:refUri="/op_00_atopale_ext/2B_dossier_technique/dt_06_fiche_technique.ods">
+									<op:instructionM/>
+								</sp:int>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

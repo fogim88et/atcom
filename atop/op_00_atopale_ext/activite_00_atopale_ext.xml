@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:activity xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>a</sp:title>
+		</op:uM>
+		<sp:expStep sc:refUri="/op_00A/2016/ELP/grain.xml"/>
+		<sp:expStep sc:refUri="/op_00A/2016/ELP/redac.xml"/>
+		<sp:expStep sc:refUri="/op_00A/2016/ELP/tableur.xml"/>
+		<sp:assmntUa sc:refUri="/2E201_2016/210/210.xml"/>
+	</op:activity>
+</sc:item>

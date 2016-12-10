@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Codes Appli VS</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Variable (description)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">[POP/ECH]_[OBS/MIF]_[NUM/TXT]_[C/D] : [Observée/Mise en forme]_[Quantititive/Qualitative]_[Continue/Discrète]</sc:para>
+								<sc:para xml:space="preserve">POP/ECH : les données observées ou mises en forme traitent d'une population ou d'un échantillon</sc:para>
+								<sc:para xml:space="preserve">OBS : les données observées (taille n)  sont enregistrées dans une voie xi (NUM) ou xt (TXT) : </sc:para>
+								<sc:itemizedList sc:id="t56">
+									<sc:listItem sc:id="t57">
+										<sc:para xml:space="preserve" sc:id="t58">NUM : Voie xi, les données de type NUM peuvent être Continues ou discrètes</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t59">
+										<sc:para xml:space="preserve">TXT : Voie xt, les données de type TXT sont forcément discrètes.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">MIF : les données observées sont mises en forme</sc:para>
+								<sc:para xml:space="preserve">MIF_NUM_C --&gt; Voie xi (limites de classes). Voie ni (effectifs associés à la classe) : attention, la voie ni comportera une donnée en moins que la voie xi.</sc:para>
+								<sc:para xml:space="preserve">MIF_NUM_D --&gt; Voie xic(valeurs possibles). Voie ni (effectifs associés à xic : attention, la voie ni a autant de données que la voie xic</sc:para>
+								<sc:para xml:space="preserve">MIF_TXT_D --&gt; Voie xtc (valeurs possibles). Voie ni (effectifs associés à xtc : attention, la voie ni a autant de données que la voie xtc</sc:para>
+								<sc:para xml:space="preserve">De Variable (type chaîne), on déduit les commandes de type enum nommées </sc:para>
+								<sc:itemizedList sc:id="t44">
+									<sc:listItem sc:id="t45">
+										<sc:para xml:space="preserve">obs. : (NUM/MIF)</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t46">
+										<sc:para xml:space="preserve">type var. : (NUM/TXT)</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t47">
+										<sc:para xml:space="preserve">nat var. (TXT_D)</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Etude</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t21">Etude T[BF/TF] : Etude de fiabilité. La variable étudiée est obligatoirement un temps (donc de type xxx_xxx_NUM_C) : ttf pour l'étude de la durée de vie de n dispositifs réparables ou tbf pour les dispositifs réparables.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t38">Etude S : Etude statistique</sc:para>
+								<sc:para xml:space="preserve" sc:id="t39">Etude SPC : on partira de échantillons sont on précisera la taille. La variable est forcément de type xxx_xxx_NUM_C</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>n (Taille)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t43">n=[taille]</sc:para>
+								<sc:para xml:space="preserve">n=0 signifie que l'étude est exhaustive et que toutes les observations sont représentées dans les données stockées.</sc:para>
+								<sc:para xml:space="preserve">Normalement, seules les études de fiabilité TTF/TBF </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

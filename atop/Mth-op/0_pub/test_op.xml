@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:ueM>
+			<sp:title>2C2A</sp:title>
+			<sp:sTitle>2C2A1</sp:sTitle>
+		</op:ueM>
+		<sp:courseUa sc:refUri="/M_/ME_tpz/MES/2_2C2A_cm.xml"/>
+	</op:ue>
+</sc:item>

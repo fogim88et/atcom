@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Image de la production</sp:title>
+			<sp:sTitle>Image</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Objectifs</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t3">Nous allons supposer que nous ne connaissons rien de la production.</sc:para>
+								<sc:para sc:id="t6">Il nous faut produire un nombre suffisant de pièces pour espérer obtenir une représentation suffisamment fidèle de toute la <sc:uLink role="ref" sc:id="t25" sc:refUri="/Mth-op/6/G/0B/sim_prod.ref">production</sc:uLink>.</sc:para>
+								<sc:para sc:id="t7">Pour ce faire nous devrons <sc:uLink role="ref" sc:id="t26" sc:refUri="/Mth-op/6/G/0B/sim_exp_01_image_prod.ref">produire</sc:uLink> un nombre suffisant de pièces. </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:meth>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter>
+								<sp:exclude>short</sp:exclude>
+							</op:filter>
+						</sp:filters>
+						<sp:title>Collecte des données</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t11">Les observations seront faites par lot de 5 avec autant de lots que nécessaires. Vous trouverez ci-dessous des données collectées le 20/12/2009</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/Mth-op/6/G/src_22_1_exp_01.ods">
+							<op:resInfoM>
+								<sp:index>tab</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t17">Il est maintenant possible de calculer les caractéristiques intéressantes sur la <sc:uLink role="ref" sc:id="t18" sc:refUri="/Mth-op/6/G/0B/sim_exp_01_image_prod.ref">série de données</sc:uLink>.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:meth>
+				<sp:simul>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter>
+								<sp:exclude>short</sp:exclude>
+							</op:filter>
+						</sp:filters>
+						<sp:title>A l'aide du tableur</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t34">Calcul des caractéristiques.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t43"><sc:inlineStyle role="quote">Solution 1</sc:inlineStyle>. Utiliser les fonctions statistiques pour calculer la moyenne, l'écart-type et l'étendue.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t44"><sc:inlineStyle role="quote">Solution 2</sc:inlineStyle>. Mettre en forme les données avec une colonne xi contenant les valeurs possibles, et une colonne ni qui va calculer les effectifs associés à chaque valeur possible ni.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t86">Pour représenter l'image de la production, la solution 1 est nécessaire</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:simul>
+				<sp:simul>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter>
+								<sp:exclude>short</sp:exclude>
+							</op:filter>
+						</sp:filters>
+						<sp:title>A l'aide de Labview</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t47">Créer un tableau de constantes à deux dimensions pour stocker les données de l'échantillon : étirer l'objet qui gère l'indice pour faire apparaître la deuxième dimension.</sc:para>
+								<sc:para sc:id="t48">A partir du tableau 2D, construire un tableau 1D composé des 100 valeurs. </sc:para>
+								<sc:para>Avec le tableau 1D, en déduire un histogramme avec autant de classes que de valeurs différentes.</sc:para>
+								<sc:para sc:id="t50">Calculer la moyenne et l'écart-type. </sc:para>
+								<sc:para>En déduire le graphe représentant l'image de la production</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:simul>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

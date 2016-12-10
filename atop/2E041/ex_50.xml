@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>50. Etude de fiabilité (Poisson)</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>SE</sp:keywd>
+							<sp:keywd>MF</sp:keywd>
+							<sp:keywd>MC</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t4">Une entreprise mentionne que le nombre de défaillances d'un composant électronique est distribué selon une <sc:uLink role="ucLnk" sc:id="t42" sc:refUri="/Mth-op/Sth-op/3_ne/DSE_ne/5E5-Poisson (62)/st_mod_Lpoi_ne.xml">loi de Poisson</sc:uLink> au taux moyen de 3 défaillances par 100000 heures.</sc:para>
+						<sc:para xml:space="preserve">Outil logiciel : <sc:uLink role="bib" sc:id="t154" sc:refUri="/0B_op/SE.ref">SE_exe-modeles.exe</sc:uLink></sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t92">On souhaite étudier la consommation attendue de cette pièce sur 20000 heures (environ 2 ans de fonctionnement en continu)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t77">Calculer le paramètre m de la la loi de Poisson à partir du taux d'arrivée λ=3/100000 h<sc:textLeaf role="exp" sc:id="t82">-1</sc:textLeaf>.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t79">Sur période dt, le nombre moyen d'événements est m=λ.dt</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t81">
+<sc:inlineStyle role="emp">m</sc:inlineStyle>= 3*20000/100000=<sc:inlineStyle role="emp">0,6</sc:inlineStyle> défaillances en moyenne sur la période de 20000 heures</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t10">Quelle est la probabilité d'obtenir 1 défaillance pendant 20000 heures.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t97">Utilisez le programme <sc:inlineStyle role="emp">Modèles statistiques (exécutable)</sc:inlineStyle>, choisir le modèle ou loi de Poisson.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t98">Renseignez <sc:inlineStyle role="emp" sc:id="t86">m=0,6</sc:inlineStyle>. Le programme calcule les probabilités d'un nombre d'événements de 0 à <sc:inlineStyle role="emp" sc:id="t87">k max</sc:inlineStyle>. Pour être assuré que les cas possibles sont représentés, vérifier que F(k max)=P(X&lt;=k max) soit proche de 1.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:res sc:refUri="/2E041/50/poisson.png">
+									<op:resInfoM>
+										<sp:index>img</sp:index>
+									</op:resInfoM>
+								</sp:res>
+								<sp:res sc:refUri="/2E041/50/ex_50_SE5_1.png">
+									<op:resInfoM>
+										<sp:index>img</sp:index>
+									</op:resInfoM>
+								</sp:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t19">Sur une période de 20.000 heures on peut s'attendre à obtenir 0,6 défaillances (3 * 20.000 / 100.000) en moyenne. </sc:para>
+										<sc:para xml:space="preserve" sc:id="t20">La variable étudiée est X : &quot;Nombre de pannes sur 20.000 heures&quot;. </sc:para>
+										<sc:para xml:space="preserve" sc:id="t21">D'après la loi de poisson, on a donc E(X)=0,6 défaillance et V(X) = 0,6</sc:para>
+										<sc:para xml:space="preserve" sc:id="t22">Les cas les plus probables seront donc 0 ou 1 défaillance sur 20.000 heures.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t23">Les calculs donnent une probabilité p(X=1) de 32,93 % d'obtenir exactement 1 et 1 seule défaillance.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t29">Quelle est la probabilité d'obtenir au moins 2 défaillances. Exprimez cette probabilité en fonction de F(X=k) = prob (X&lt;=k).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t41">Si <sc:inlineStyle role="emp">E</sc:inlineStyle> est l'événement &quot;au moins 2 défaillances&quot; (X=2 ou X=3 ou X=4 ..... ou X=∞)</sc:para>
+								<sc:para xml:space="preserve">alors <sc:inlineStyle role="emp" sc:id="t72">{non</sc:inlineStyle> <sc:inlineStyle role="emp" sc:id="t73">E}</sc:inlineStyle> est &quot;moins de 1 défaillance&quot;. prob(X&gt;=2)=1- prob(X&lt;=1)=1 -<sc:inlineStyle role="emp">F</sc:inlineStyle>(X=1)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t61">On a donc p(E) =p( X &gt;= 2) = 1-F(X=1) ou encore 1-p(X=0)-p(X=1)</sc:para>
+										<sc:para xml:space="preserve" sc:id="t33">soit une probabilité de 12,2% d'obtenir au moins 2 défaillances --&gt; p(X&gt;1) = 1-p(X=0)-p(X=1) avec p(X=0)=54,9% et p(X=1) de 32,93 %</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t63">Dans le cadre d'une gestion de stock, on peut estimer les 20000 heures à 2 ans de fonctionnement en continu. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t149">Si on décide de stocker 1 pièce en sécurité, quelle est la probabilité de ne pas utiliser cette pièce pendant les 2 années. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t150">Cette probabilité donne une idée du <sc:uLink role="glos" sc:id="t152" sc:refUri="/1B_op/S/stock/cpos.ref">coût de possession</sc:uLink> (maintien en stock d'une pièce inutilisée).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t67">On a p(X=0)= 54,9%, soit un peu plus d'une chance sur 2 de conserver la pièce plus de trois ans en stock. </sc:para>
+										<sc:para xml:space="preserve" sc:id="t106">Ce risque est à comparer à la pénalité encourue d'avoir à commander cette pièce en urgence en cas de besoin.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

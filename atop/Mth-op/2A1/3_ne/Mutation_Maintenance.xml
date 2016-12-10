@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:pb xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<sp:rem>
+			<op:pbTi>
+				<sp:title>Conséquence</sp:title>
+			</op:pbTi>
+			<op:res xmlns:dk="kelis.fr:dokiel">
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t232">Des travaux qui ne donnent satisfaction, ni à ceux qui utilisent les machines, ni à ceux qui les réparent.</sc:para>
+						<sc:para sc:id="t233">L'entretien est souvent mal considéré : il coûte trop cher; il devient un service de second plan, son personnel est considéré comme peu efficace</sc:para>
+						<sc:para sc:id="t234">Tout effort d'introduction de plus de rigueur, de plus d'analyse, de plus de méthode, même avec des résultats prometteurs, est vite noyé dans le quotidien &quot;<sc:uLink role="glos" sc:id="t235" sc:refUri="/M_/1B/TUV/type_maint/depannage.ref">dépannage</sc:uLink>&quot;.</sc:para>
+						<sc:para sc:id="t236">Les résultats obtenus reposent sur la compétence technique et non organisationnelle.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:rem>
+		<sp:basic>
+			<op:pbTi>
+				<sp:title>Entretenir c'est Subir, Maintenir c'est Maîtriser</sp:title>
+			</op:pbTi>
+			<op:res xmlns:dk="kelis.fr:dokiel">
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t239">Le passage de l'Entretien à la Maintenance implique :</sc:para>
+						<sc:itemizedList sc:id="t286">
+							<sc:listItem sc:id="t287">
+								<sc:para xml:space="preserve" sc:id="t240">une compétence technique</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t288">
+								<sc:para xml:space="preserve" sc:id="t241">une volonté de supprimer les pannes dans un but essentiellement économique</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t289">
+								<sc:para xml:space="preserve" sc:id="t242">la motivation des hommes : On ne va pas se contenter de remettre en marche les installations après la panne, mais on va choisir les moyens de <sc:uLink role="glos" sc:id="t243" sc:refUri="/M_/1B/TUV/type_maint/mi_preventive.ref">prévenir</sc:uLink>, de corriger suivant l'usage du matériel, sa criticité économique afin d'optimiser le <sc:uLink role="glos" sc:id="t244" sc:refUri="/M_/1B/CD/couts/CGM.ref">coût global de possession</sc:uLink>.</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:basic>
+		<sp:comp>
+			<op:pbTi>
+				<sp:title>Organiser la Maintenance</sp:title>
+			</op:pbTi>
+			<op:res xmlns:dk="kelis.fr:dokiel">
+				<sp:txt>
+					<op:txt>
+						<sc:itemizedList sc:id="t258">
+							<sc:listItem sc:id="t259">
+								<sc:para sc:id="t257">c'est <sc:inlineStyle role="emp">maîtriser son évolution</sc:inlineStyle>
+								</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t260">
+								<sc:para sc:id="t268">la rendre <sc:inlineStyle role="emp">efficace</sc:inlineStyle>
+								</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t261">
+								<sc:para sc:id="t269">
+									<sc:inlineStyle role="emp">manager</sc:inlineStyle> et motiver</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t262">
+								<sc:para sc:id="t270">mettre en place une <sc:inlineStyle role="emp">démarche</sc:inlineStyle> ayant un impact sur l'entreprise</sc:para>
+							</sc:listItem>
+							<sc:listItem sc:id="t263">
+								<sc:para sc:id="t271">
+									<sc:inlineStyle role="emp">Contrôler</sc:inlineStyle> les résultats pour améliorer son efficacité</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:comp>
+		<sp:basic>
+			<op:pbTi/>
+			<op:res xmlns:dk="kelis.fr:dokiel">
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t265">On résume ces grands principes par la <sc:inlineStyle role="emp">Définition d'une Politique de Maintenance</sc:inlineStyle>
+						</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:basic>
+	</op:pb>
+</sc:item>

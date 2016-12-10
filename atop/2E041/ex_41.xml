@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
-	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
 		<op:exeM>
 			<sp:title>41.n1. Etude Pièce banale</sp:title>
 			<sp:info>
@@ -151,7 +151,7 @@
 												<sc:para xml:space="preserve" sc:id="t142">La consommation mensuelle est donc de 26,5 avec un écart-type de 5,6.</sc:para>
 											</op:txt>
 										</sp:txt>
-										<sp:img sc:refUri="/2C_ex/031/41/1C/ex_41_histo.png"/>
+										<sp:img sc:refUri="/2E041/41/1C/ex_41_histo.png"/>
 									</op:txtRes>
 								</sp:txtRes>
 							</op:res>
@@ -189,7 +189,7 @@
 												<sc:para xml:space="preserve" sc:id="t95">On choisira donc Qs=3</sc:para>
 											</op:txt>
 										</sp:txt>
-										<sp:img sc:refUri="/2C_ex/031/41/1C/ex_41_seuil.png"/>
+										<sp:img sc:refUri="/2E041/41/1C/ex_41_seuil.png"/>
 									</op:txtRes>
 								</sp:txtRes>
 							</op:res>

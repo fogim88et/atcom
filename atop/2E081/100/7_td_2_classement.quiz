@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>2 : Classement des classes selon le critère</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:res sc:refUri="/0C-src/000/src_001_2.ods">
+					<op:resInfoM>
+						<sp:index>tab</sp:index>
+					</op:resInfoM>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t92">Parmi ces données de départ, nous allons donc conserver la colonne code (représentative des classes étudiées) et la colonne Kms (critère) qui représente l'effet que l'on souhaite étudier. Le &quot;<sc:inlineStyle role="emp">Km perdu</sc:inlineStyle>&quot; est le critère étudié</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/0C-src/000/src_001_3.ods">
+					<op:resInfoM>
+						<sp:index>tab</sp:index>
+					</op:resInfoM>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para>Classer le tableau selon l'ordre décroissant des kms.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t5">Le code <sc:textLeaf role="gap" sc:id="t10">PV</sc:textLeaf> est celui qui est à l'origine du plus grand nombre de Kms qui est de <sc:textLeaf role="gap" sc:id="t11">2500</sc:textLeaf> kms</sc:para>
+				<sc:para xml:space="preserve">Le code <sc:textLeaf role="gap" sc:id="t13">PO</sc:textLeaf> est le code qui est en deuxième position parmi les codes à l'origine du plus grand nombre de  Kms perdus.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t97">Suivent ensuite (toujours dans l'ordre décroissant) <sc:textLeaf role="gap" sc:id="t15">PC</sc:textLeaf>, <sc:textLeaf role="gap" sc:id="t16">MS</sc:textLeaf>, <sc:textLeaf role="gap" sc:id="t17">CD</sc:textLeaf>, <sc:textLeaf role="gap" sc:id="t18">EsP</sc:textLeaf>
+</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t79">On obtient le tableau ci-dessous (Tableau ordonné selon le km perdu décroissant)</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/2E081/100/7_td_2_corrige.png">
+					<op:resInfoM>
+						<sp:index>img</sp:index>
+					</op:resInfoM>
+				</sp:res>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

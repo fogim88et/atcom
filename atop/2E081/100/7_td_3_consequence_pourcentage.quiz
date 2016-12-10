@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>3 : Evaluation des conséquences en %</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:table role="" sc:id="t15">
+							<sc:caption/>
+							<sc:column sc:id="t17" width="7.178821021044735"/>
+							<sc:column sc:id="t18" width="6.402732262012871"/>
+							<sc:column sc:id="t19" width="8.925020728866427"/>
+							<sc:row role="head" sc:id="t20">
+								<sc:cell sc:id="t22">
+									<sc:para sc:id="t53">Code</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t23">
+									<sc:para sc:id="t55">Kms</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t24">
+									<sc:para sc:id="t57">% Kms</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t25">
+								<sc:cell role="" sc:id="t27">
+									<sc:para sc:id="t61">PV</sc:para>
+								</sc:cell>
+								<sc:cell role="num" sc:id="t28">
+									<sc:para sc:id="t63">2500</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t29">
+									<sc:para sc:id="t65">? ? ?</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t30">
+								<sc:cell role="" sc:id="t32">
+									<sc:para sc:id="t69">PO</sc:para>
+								</sc:cell>
+								<sc:cell role="num" sc:id="t33">
+									<sc:para sc:id="t71">2200</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t34">
+									<sc:para sc:id="t73">? ? ?</sc:para>
+								</sc:cell>
+							</sc:row>
+							<sc:row sc:id="t35">
+								<sc:cell role="" sc:id="t37">
+									<sc:para sc:id="t77">PC</sc:para>
+								</sc:cell>
+								<sc:cell role="num" sc:id="t38">
+									<sc:para sc:id="t79">1300</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t39"/>
+							</sc:row>
+							<sc:row sc:id="t40">
+								<sc:cell role="" sc:id="t42">
+									<sc:para sc:id="t85">MS</sc:para>
+								</sc:cell>
+								<sc:cell role="num" sc:id="t43">
+									<sc:para sc:id="t87">1100</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t44"/>
+							</sc:row>
+							<sc:row sc:id="t194">
+								<sc:cell role="" sc:id="t195">
+									<sc:para sc:id="t99">CD</sc:para>
+								</sc:cell>
+								<sc:cell role="num" sc:id="t196">
+									<sc:para sc:id="t100">800</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t197"/>
+							</sc:row>
+							<sc:row sc:id="t45">
+								<sc:cell role="" sc:id="t47">
+									<sc:para sc:id="t93">EsP</sc:para>
+								</sc:cell>
+								<sc:cell role="num" sc:id="t48">
+									<sc:para sc:id="t95">300</sc:para>
+								</sc:cell>
+								<sc:cell sc:id="t49"/>
+							</sc:row>
+						</sc:table>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t178">Les pourcentages seront donnés à 2 chiffres derrière la virgule (arrondir au centième le plus proche)</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t110">
+					Le total de Kms perdus est de <sc:textLeaf role="gap" sc:id="t192">8200</sc:textLeaf> Kms</sc:para>
+				<sc:para sc:id="t206">Pour le code PV, le pourcentage de Kms perdus est donc de  <sc:textLeaf role="gap" sc:id="t157">30,49</sc:textLeaf> %</sc:para>
+				<sc:para sc:id="t125">Pour le code PO, le pourcentage de Kms perdus est donc de  <sc:textLeaf role="gap" sc:id="t160">26,83</sc:textLeaf> %</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txtRes>
+					<op:txtRes>
+						<op:txtResM>
+							<sp:pos>lft</sp:pos>
+						</op:txtResM>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t226">2500/8200 = 30,49%</sc:para>
+								<sc:para xml:space="preserve" sc:id="t227">2200/8200 = 26,83%</sc:para>
+								<sc:para xml:space="preserve" sc:id="t228">etc ....</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:img sc:refUri="/2E081/100/7_td_3_corrige.png"/>
+					</op:txtRes>
+				</sp:txtRes>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

@@ -165,7 +165,7 @@
 						<sp:info>
 							<op:pbTi/>
 							<op:res>
-								<sp:res sc:refUri="/2C_ex/031/38/ress/38_histo.ods">
+								<sp:res sc:refUri="/2E021/38/ress/38_histo.ods">
 									<op:resInfoM>
 										<sp:pubMode>zoom</sp:pubMode>
 									</op:resInfoM>
@@ -187,7 +187,7 @@
 					<op:res>
 						<sp:txt>
 							<op:txt>
-								<sc:para xml:space="preserve" sc:id="t103">En déduire la Consommation moyenne pendant 5 jours ainsi que l'écart-type. On exploitera les <sc:uLink role="ucLnk" sc:id="t123" sc:refUri="/D/DS/ressources_alternatives/operations_va.xml">règles</sc:uLink> de calcul sur les variables statistiques.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t103">En déduire la Consommation moyenne pendant 5 jours ainsi que l'écart-type. On exploitera les <sc:uLink role="ucLnk" sc:id="t123" sc:refUri="/Mth-op/Sth-op/ressources_alternatives/operations_va.xml">règles</sc:uLink> de calcul sur les variables statistiques.</sc:para>
 							</op:txt>
 						</sp:txt>
 					</op:res>
@@ -237,7 +237,7 @@
 										<sc:para xml:space="preserve" sc:id="t241">Qs = 3, 4, 5 donnent donc des risques de rupture de 14,3% ; 5,3% et 1,7%.</sc:para>
 									</op:txt>
 								</sp:txt>
-								<sp:res sc:refUri="/2C_ex/031/38/ress/38_poisson.png">
+								<sp:res sc:refUri="/2E021/38/ress/38_poisson.png">
 									<op:resInfoM>
 										<sp:index>img</sp:index>
 									</op:resInfoM>

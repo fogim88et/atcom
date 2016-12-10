@@ -24,7 +24,7 @@
 			<op:res>
 				<sp:txt>
 					<op:txt>
-						<sc:para xml:space="preserve" sc:id="t131">Pré-requis : <sc:uLink role="ucLnk" sc:id="t113" sc:refUri="/M/C-2016-01/3_ne/2C2B_ne.xml">Dispositifs réparables</sc:uLink></sc:para>
+						<sc:para xml:space="preserve" sc:id="t131">Pré-requis : <sc:uLink role="ucLnk" sc:id="t113" sc:refUri="/Mth-op/C-2016-01/3_ne/2C2B_ne.xml">Dispositifs réparables</sc:uLink></sc:para>
 						<sc:para xml:space="preserve" sc:id="t3">
 							<sc:uLink role="glos" sc:id="t86" sc:refUri="/1B_op/M/TUV/tps_mi/TBF_TED.ref">Temps de bon fonctionnement</sc:uLink> d'un système réparable (12 Temps entre défaillances ou TBF)</sc:para>
 						<sc:para xml:space="preserve" sc:id="t75">Le <sc:uLink role="glos" sc:id="t84" sc:refUri="/1B_op/M/MN/MTTF.ref">MTTR</sc:uLink> est de 3 heures.</sc:para>

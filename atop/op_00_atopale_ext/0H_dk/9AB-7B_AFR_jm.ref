@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>9AB-7B : Analyse FR (Tableur)</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:uLink role="url" sc:id="t4" url="http://dkp.gimep.net/co/0012_prc.html">Procédure Tableur</sc:uLink> : <sc:textLeaf role="title" sc:id="t7">Analyse de la Feuille de route (AFR)</sc:textLeaf>. <sc:textLeaf role="ed" sc:id="t6">9AB-7B-prc_012</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item>

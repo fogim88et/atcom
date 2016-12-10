@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>37 - Taille d'un échantillon</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t3">Une entreprise souhaite connaître à 0,005 près la valeur moyenne de la production livrée par son fournisseur. </sc:para>
+						<sc:para xml:space="preserve" sc:id="t6">La moyenne de la production est habituellement de 28,20 et l'écart-type de 0,027. </sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t9">La  taille minimum de l'échantillon permettant de satisfaire cette précision est de (arrondir à l'entier le plus proche)</sc:para>
+				<sc:para xml:space="preserve"> <sc:textLeaf role="gap" sc:id="t16">112</sc:textLeaf> au risque de 1%</sc:para>
+				<sc:para xml:space="preserve"><sc:textLeaf role="gap" sc:id="t17">193</sc:textLeaf> au risque de 5%</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:int sc:refUri="/1B_op/M/TUV/taille_ech.zip">
+					<op:instructionM/>
+				</sp:int>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

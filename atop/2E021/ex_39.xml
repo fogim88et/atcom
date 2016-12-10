@@ -202,7 +202,7 @@
 					<op:res>
 						<sp:txt>
 							<op:txt>
-								<sc:para xml:space="preserve" sc:id="t100">Calculer avec la <sc:uLink role="ucLnk" sc:id="t105" sc:refUri="/D/DS/3_ne/DSE_ne/5E5-Poisson (62)/st_mod_Lpoi_ne.xml">loi de Poisson</sc:uLink> la probabilité de subir 0, 1 ou 2 casses dans l'année.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t100">Calculer avec la <sc:uLink role="ucLnk" sc:id="t105" sc:refUri="/Mth-op/Sth-op/3_ne/DSE_ne/5E5-Poisson (62)/st_mod_Lpoi_ne.xml">loi de Poisson</sc:uLink> la probabilité de subir 0, 1 ou 2 casses dans l'année.</sc:para>
 							</op:txt>
 						</sp:txt>
 					</op:res>

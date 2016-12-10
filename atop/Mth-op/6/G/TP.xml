@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>TP</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Les ressources de l'étude de cas</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t11">
+									<sc:uLink role="ref" sc:id="t14" sc:refUri="/Mth-op/6/G/0B/sim_reglages.ref">SIM</sc:uLink> : Le process de production.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t16">
+									<sc:uLink role="ref" sc:id="t15" sc:refUri="/1B_op/M/MN/MSP/UI_.ref">UI</sc:uLink> : La machine utilisée pour l'expérience. xx sera le code de la machine 0.1.1 par exemple pour préciser le réglage de SIM.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

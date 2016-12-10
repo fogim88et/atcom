@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUcDiv xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:expUcDivM>
+			<sp:title>Les Années 70</sp:title>
+		</op:expUcDivM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>La Crise pétrolière de 1973</sp:title>
+					</op:pbTi>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t235">Tout ceci, sauf quelques modifications de forme d'organisation reste d'actualité jusqu'au début des années 70, mais, face à la crise pétrolière de 1973, les organisations du travail changent.</sc:para>
+								<sc:para sc:id="t236"> Les responsabilités se globalisent , les fabricants, dont la formation a évolué, tant dans la main d'œuvre ouvrière que dans l'encadrement, ne supporte plus ces divisions du travail.</sc:para>
+								<sc:para sc:id="t237">On parle alors de responsabilité totale de la fabrication, on crée des lignes de produit sous l'entière responsabilité du fabricant, depuis l'approvisionnement jusqu'à la livraison, et même auprès du client pour des problèmes de garantie.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUcDiv>
+</sc:item>

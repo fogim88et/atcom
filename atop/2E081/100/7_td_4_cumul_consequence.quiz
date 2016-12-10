@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>4 : Cumul du % de kms perdus classe par classe</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:res sc:refUri="/2E081/100/7_td_3_corrige.png">
+					<op:resInfoM>
+						<sp:index>img</sp:index>
+					</op:resInfoM>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t18">Les % seront saisis avec 2 décimales derrière la virgule</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para xml:space="preserve" sc:id="t7">PV est à l'origine <sc:textLeaf role="gap" sc:id="t10">30,49</sc:textLeaf> % des kms perdus.</sc:para>
+				<sc:para xml:space="preserve" sc:id="t14">PV et PO sont à l'origine de <sc:textLeaf role="gap" sc:id="t11">57,32</sc:textLeaf> % des kms perdus en cumulant les % de PV et PO</sc:para>
+				<sc:para xml:space="preserve" sc:id="t23">PV, PO et PC sont à l'origine de <sc:textLeaf role="gap" sc:id="t15">73,17</sc:textLeaf> % des kms perdus en cumulant les % de PV PO et PO.</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:res sc:refUri="/2E081/100/7_td_4_corrige.png">
+					<op:resInfoM>
+						<sp:index>img</sp:index>
+					</op:resInfoM>
+				</sp:res>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

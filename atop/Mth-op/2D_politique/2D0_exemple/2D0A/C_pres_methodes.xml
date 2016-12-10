@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Méthodes Maintenance (C)</sp:title>
+			<sp:sTitle>Méthodes Maintenance</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Quelques méthodes</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t6">Les utilisateurs des machines, ceux qui produisent avec elles, ceux qui les côtoient, qui les écoutent, qui les regardent ... Ce sont les conducteurs.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t7">Ces conducteurs peuvent être des interfaces très utiles entre les machines et les techniciens de maintenance, s'ils sont régulièrement informés et formés.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t8">Ce sont les hommes de maintenance qui doivent prendre en charge les actions d'information et de formation.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t9">Suite aux défaillances (qui existeront toujours!), il n'est pas facile de rédiger des « outils d'aide au diagnostic », outils permettant d ‘effectuer le Recherche de Cause de défaillance. </sc:para>
+								<sc:para xml:space="preserve">Plusieurs outils existent :</sc:para>
+								<sc:itemizedList sc:id="t18">
+									<sc:listItem sc:id="t19">
+										<sc:para xml:space="preserve" sc:id="t10">Les diagrammes Causes-Effets (Ishikawa, ...)</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t20">
+										<sc:para xml:space="preserve" sc:id="t11">Les tableaux Causes-Effets-Remèdes</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t21">
+										<sc:para xml:space="preserve" sc:id="t12">Les organigrammes</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t13">Faire la liste de toutes les défaillances possibles d'un sous-ensemble ou d'une machine, en indiquant leurs effets et leurs causes, permet :</sc:para>
+								<sc:itemizedList sc:id="t22">
+									<sc:listItem sc:id="t23">
+										<sc:para xml:space="preserve" sc:id="t14">De faire les modifications pour éliminer certaines défaillances</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t24">
+										<sc:para xml:space="preserve" sc:id="t15">De prendre des dispositions pour limiter ou retarder leurs apparitions</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t25">
+										<sc:para xml:space="preserve" sc:id="t16">D'effectuer plus rapidement une recherche de causes en cas de défaillance</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve" sc:id="t17">Cette liste peut se faire sous forme d'un tableau, résultat d'un travail d'analyse appelé AMDEC, Analyse des Modes de défaillances, de leurs effets et de leur criticité</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Les diagrammes Causes-Effets (Ishikawa, ...)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2A/ish_pres.jpeg">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2A/ish_ill.jpeg">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2A/2A6_causes_defaillance_analyse_moteur_tousse.gif">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Les tableaux Causes-Effets-Remèdes</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2A/cause_effet.xml">
+							<op:resInfoM>
+								<sp:pubMode>embeded</sp:pubMode>
+								<sp:index>anim</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Les organigrammes</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2A/organigramme.jpeg">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>AMDEC</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2A/amdec_pres.jpeg">
+							<op:resInfoM>
+								<sp:pubMode>zoom</sp:pubMode>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2A/amdec_tableau.jpeg">
+							<op:resInfoM>
+								<sp:pubMode>zoom</sp:pubMode>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

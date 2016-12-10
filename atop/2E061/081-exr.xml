@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>81 : Fabrication de support magnétique</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res xmlns:dk="kelis.fr:dokiel">
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Un fabriquant de disquettes assure une fiabilité de 98% au formatage. </sc:para>
+						<sc:para sc:id="t12">Une société souhaite lancer un logiciel en 100 exemplaires. </sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t9">Quelle quantité de disquettes doit acheter cette société pour être sûre au moins à 95 % de disposer de 100 disquettes sans défaut.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t16">Appliquer le modèle binomial --&gt; Chercher les paramètres</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:hint>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t24">Paramètre n=100 et p=0,02</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:hint>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t26">calcul selon approximation Poisson avec m=2</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t19">Soit X : &quot;Nombre de disquettes défectueuses sur un lot de 100&quot;</sc:para>
+										<sc:para sc:id="t20">X suit une loi binomiale avec n=100 et p=0,02</sc:para>
+										<sc:para sc:id="t21">p étant petit, n très grand, on peut réaliser une approximation par la loi de poisson de taux moyen=2 disquettes défectueuses.</sc:para>
+										<sc:para sc:id="t22">La probabilité de dépasser 4 déchets étant de 5,27%, il suffira donc de commander 104 disquettes pour être assuré dans 95% des cas d'obtenir 100 disquettes bonnes</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

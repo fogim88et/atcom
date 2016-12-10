@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Test d'hypothèses.</sp:title>
+		</op:uM>
+		<sp:trainUcCloze sc:refUri="/2E021/036-exi.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E021/037-exi.quiz"/>
+		<sp:practUc sc:refUri="/2E021/021_stat_test/test_prop_sondage_02.xml"/>
+	</op:courseUa>
+</sc:item>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Réviser tous les systèmes de lubrification (4)</sp:title>
+			<sp:sTitle>Systèmes de lubrification</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t19">Avait-on fait les vidanges</sc:para>
+								<sc:para xml:space="preserve" sc:id="t20">Au bon moment ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t21">Avec les bonnes huiles ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t22">Dans de bonnes conditions ?</sc:para>
+								<sc:para xml:space="preserve" sc:id="t23">... on ne sait pas exactement ...</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2H/07_reviser/7_4.odg">
+							<op:resInfoM>
+								<sp:index>graph</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Repartir de zéro</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t29">Faire ce point zéro, c'est déterminer marques et types de lubrifiant en fonction des mécanismes. </sc:para>
+								<sc:para xml:space="preserve">Ce choix se fera en équipe (conduite et maintenance) en prenant conseil auprès du bureau d'études et du service achats.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t31">Vidanger, rincer si nécessaire, faire les pleins en huile comme en graisse </sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t33">Ces opérations se feront dans de bonnes conditions (non –pollution des huiles et graisses) car les machines sont propres : orifices propres, graisseurs propres</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:meth>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

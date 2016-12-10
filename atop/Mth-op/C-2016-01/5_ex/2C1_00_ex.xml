@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Exercices FMD Prévisionnelle</sp:title>
+			<sp:sTitle>Exercices FMD Prévisionnelle</sp:sTitle>
+		</op:uM>
+		<sp:trainUcCloze sc:refUri="/2E201_2016/205.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E201_2016/206/20e.quiz"/>
+		<sp:practUc sc:refUri="/Mth-op/C-2016-01/5_ex/2C1_11_21_n2-REVOIR.xml"/>
+		<sp:practUc sc:refUri="/Mth-op/C-2016-01/5_ex/2C1_12_14_n3-REVOIR-E.xml"/>
+	</op:courseUa>
+</sc:item>

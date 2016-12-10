@@ -25,7 +25,7 @@
 			<op:res>
 				<sp:txt>
 					<op:txt>
-						<sc:para xml:space="preserve" sc:id="t77">Notions essentielles : <sc:uLink role="ucLnk" sc:id="t19" sc:refUri="/MM_op/MMT_tpm/3_ne/TRG_ne.xml">Présentation du TRG</sc:uLink> </sc:para>
+						<sc:para xml:space="preserve" sc:id="t77">Notions essentielles : <sc:uLink role="ucLnk" sc:id="t19" sc:refUri="/Mth-op/MMT_tpm/3_ne/TRG_ne.xml">Présentation du TRG</sc:uLink> </sc:para>
 						<sc:para xml:space="preserve" sc:id="t78">Consultez la <sc:uLink role="glos" sc:id="t14" sc:refUri="/1B_op/M/TUV/TRG/TRG_calculs.ref">démarche de calcul</sc:uLink> simplifiée. </sc:para>
 						<sc:para xml:space="preserve" sc:id="t7">
 									<sc:inlineStyle role="emp" sc:id="t8">Si vous avez accès à un ordinateur, téléchargez</sc:inlineStyle> le fichier <sc:uLink role="resLnk" sc:id="t108" sc:refUri="/0C-src/MMT/tableur_modele_calcul_TRG.ods">Tableur : Modèle de calcul du TRG</sc:uLink> pour effectuer vos calculs et présenter vos données.</sc:para>

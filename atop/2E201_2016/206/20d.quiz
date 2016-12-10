@@ -18,7 +18,7 @@
 		</sc:question>
 		<sc:gapText>
 			<op:clozeTxt>
-				<sc:para xml:space="preserve">d. En utilisant le <sc:uLink role="ucLnk" sc:id="t89" sc:refUri="/D/DS/3_ne/DSE_ne/5E6_Lexp-dk/5E6_ne.xml">modèle exponentiel</sc:uLink>, avec le taux de défaillance calculé à la question comparez avec les résultats précédents.</sc:para>
+				<sc:para xml:space="preserve">d. En utilisant le <sc:uLink role="ucLnk" sc:id="t89" sc:refUri="/Mth-op/Sth-op/3_ne/DSE_ne/5E6_Lexp-dk/5E6_ne.xml">modèle exponentiel</sc:uLink>, avec le taux de défaillance calculé à la question comparez avec les résultats précédents.</sc:para>
 				<sc:itemizedList sc:id="t90">
 					<sc:listItem sc:id="t91">
 						<sc:para xml:space="preserve" sc:id="t29"> R<sc:textLeaf role="ind" sc:id="t38">exponentiel</sc:textLeaf> (t=50j) = <sc:textLeaf role="gap" sc:id="t41">0,52</sc:textLeaf> (x,xx)</sc:para>

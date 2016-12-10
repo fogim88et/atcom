@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Organisation de la TPM</sp:title>
+			<sp:sTitle>Organisation de la TPM</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>TPM</sp:keywd>
+							<sp:keywd>Démarche Globale</sp:keywd>
+							<sp:keywd>Production</sp:keywd>
+							<sp:keywd>Qualité</sp:keywd>
+							<sp:keywd>Maintenance</sp:keywd>
+							<sp:keywd>TRG</sp:keywd>
+							<sp:keywd>TRS</sp:keywd>
+							<sp:keywd>doc</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+					<sp:cc>by-sa</sp:cc>
+					<sp:cpyrgt>
+						<op:sPara>
+							<sc:para sc:id="t20">
+								<sc:phrase role="url">
+									<op:urlM>
+										<sp:url>http://fr.wikipedia.org/wiki/Maintenance_productive_totale</sp:url>
+									</op:urlM>Sources Wikipédia</sc:phrase>
+							</sc:para>
+						</op:sPara>
+					</sp:cpyrgt>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:basic>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t144">Les objectifs sont :</sc:para>
+								<sc:itemizedList sc:id="t145">
+									<sc:listItem sc:id="t146">
+										<sc:para sc:id="t147">coordonner la politique de maintenance avec la stratégie industrielle.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t148">
+										<sc:para sc:id="t149">piloter le projet</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t150">
+										<sc:para sc:id="t151">organiser les efforts de chacun</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para sc:id="t152">Pour mettre en place cette démarche globale, on pourra constituer des groupes de pilotage, et des groupes de travail axés sur des chantiers pilote.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+			</op:pb>
+		</sp:pb>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Le groupe de pilotage</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Mission du groupe de pilotage</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t68">Coordonner le projet avec les autres actions de progrès en cours dans l'entreprise</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t76">Définir et suivre le planning de mise en place de la Maintenance Totale</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t78">Informer l'ensemble de l'entreprise</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Composition du groupe de pilotage</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:itemizedList sc:id="t81">
+											<sc:listItem sc:id="t82">
+												<sc:para sc:id="t80">Direction Usine</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t83">
+												<sc:para>Chefs des services concernés</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t84">
+												<sc:para>Responsable du projet</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t85">
+												<sc:para>Responsables des groupes de travail</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Le groupe de travail</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Mission du groupe de travail</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:itemizedList sc:id="t99">
+											<sc:listItem sc:id="t100">
+												<sc:para sc:id="t94">apprendre une méthode</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t101">
+												<sc:para>démontrer des résultats concrets sur un chantier pilote</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Composition du groupe</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:itemizedList sc:id="t102">
+											<sc:listItem sc:id="t103">
+												<sc:para sc:id="t98">Chef d'atelier</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t104">
+												<sc:para>Utilisateur de la machine</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t105">
+												<sc:para>Techniciens de maintenance</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t106">
+												<sc:para>Experts de la machine</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Intérêt et objectifs visés</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Un état d'esprit</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t122">Au-delà du simple maintien en bon état des machines, l'esprit TPM pousse à modifier et améliorer les méthodes de travail ou d'organisation.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t183">L'implication des opérateurs est l'occasion d'élever leur niveau de compétence et d'enrichir leurs tâches en leur confiant la maintenance de premier niveau. </sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t159">Par ailleurs, ils connaissent leurs machines de manière intime et sont de fabuleux capteurs d'information, sauf bien sûr si les opérateurs sont temporaires et/ou d'un niveau trop faible, ils ne se sentent pas concernés par ce qui se passe, ils subissent, c'est un problème de motivation et de compétence.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Ce que l'on peut en attendre, les précautions à prendre</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t161">La TPM est une méthode mature dont l'intérêt se trouve renforcé par la fin des productions de masse. D'une part, il est plus difficile de rentabiliser des équipements coûteux avec des productions en petits lots, d'autre part la transversalisation croissante des fonctions, le décloisonnement et la sophistication grandissante des équipements accentuent le besoin de personnels impliqués, compétents et autonomes.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t163">Les progrès spectaculaires qu'elle amène et son apparente simplicité font de la TPM une méthode très prisée. </sc:para>
+										<sc:para>Sa mise en œuvre n'est toutefois pas aussi simple.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t176">Attention à la forme car &quot;trop de documents ou d'affichage&quot; peut dénaturer le fond, n'oublions pas que c'est une charge de travail supplémentaire pour le personnel et trop d'administratif change leur métier, le but reste quand même de produire.</sc:para>
+										<sc:para sc:id="t177">Méthode lourde à utiliser et les mentalités du personnel de production doivent changer, les techniciens quant à eux doivent devenir en quelque sorte des conseillers techniques, ils doivent laisser faire, tout en surveillant.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Intérêt pour la maintenance</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t172">Le service maintenance prend alors toute sa valeur, il est le garant du fonctionnement de l'ensemble, le technicien devient le spécialiste technique du site et son avis doit prévaloir.</sc:para>
+										<sc:para sc:id="t173">Il est évident que le fonctionnement par secteur en maintenance est à proscrire car le technicien responsable du secteur concerné se sent dépossédé, dans ce cas il fonctionne à contre sens et n'aide pas à faire progresser.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Méthode pérenne ?</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t180">Il existe des pièges et comme bien des projets, elle a parfois du mal à survivre au-delà des discours et enthousiasmes des débuts. Les principaux écueils de la TPM sont le mauvais choix des équipements cibles, la lourdeur du recueil des données et les personnels qui, tout à la TPM, en oublient de... produire!</sc:para>
+										<sc:para xml:space="preserve" sc:id="t181">Ne jamais oublier que le technicien et/ou le responsable de maintenance reste le maître car il connaît les limites de ce qu'il est possible de faire, le processus doit garder son intégrité.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:warning>
+							<op:pbTi>
+								<sp:title>Prestation de service</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t165">Attention aussi à l'enthousiasme des formateurs car ils sont payés pour vendre le produit, même s'ils reconnaissent que certains sites, compte tenu de l'effectif trop faible ou d'un personnel trop &quot;saturé&quot; par un administratif déja trop présent et trop lourd, ne peuvent conduire qu'à un échec ou plutot une TPM mal comprise donc mal faite.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:warning>
+						<sp:adv>
+							<op:pbTi>
+								<sp:title>Au début</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t168">Il est raisonnable de commencer l'introduction de la TPM dans un atelier ou sur un processus pilote correctement ciblé, puis de l'étendre aux autres ressources clés de l'atelier ou de l'entreprise.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t169">Nous pensons qu'il faut trois années pour évaluer le résultat, bon ou mauvais.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:adv>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

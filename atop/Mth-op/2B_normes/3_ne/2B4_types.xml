@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Les Types de Maintenance (2B4.)</sp:title>
+			<sp:sTitle>Types de Maintenance</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Normes Maintenance</sp:keywd>
+							<sp:keywd>Type de Maintenance</sp:keywd>
+							<sp:keywd>Maintenance (Types de)</sp:keywd>
+							<sp:keywd>Maintenance Corrective</sp:keywd>
+							<sp:keywd>Maintenance Curative</sp:keywd>
+							<sp:keywd>Maintenance Réparative</sp:keywd>
+							<sp:keywd>Maintenance Préventive</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Convention</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t99">
+<sc:uLink role="bib" sc:id="t111" sc:refUri="/Mth-op/MF_trsf_tpz/2E_stock_demarche.ref">Vue d'ensemble</sc:uLink> des types de maintenance.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2A/type_maintenance.jpg">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t9">Compte tenu des <sc:uLink role="resLnk" sc:id="t54" sc:refUri="/0/mm/type_maintenance.xml">définitions linguistiques</sc:uLink> des mots « curatif » et « correctif », l'utilisation pratique des définitions recouvrira les actions suivantes</sc:para>
+								<sc:itemizedList sc:id="t13">
+									<sc:listItem sc:id="t14">
+										<sc:para sc:id="t25">maintenance <sc:uLink role="glos" sc:id="t18" sc:refUri="/1B_op/M/TUV/type_maint/curative.ref">curative</sc:uLink> : toutes les actions pour remettre en fonctionnement un matériel dont l'état actuel génère un coût de défaillance maintenance (CDM) ;</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t15">
+										<sc:para sc:id="t10"> maintenance <sc:uLink role="glos" sc:id="t20" sc:refUri="/1B_op/M/TUV/type_maint/corrective.ref">corrective</sc:uLink> : toutes les actions de modification d'un matériel pour en réduire son <sc:uLink role="glos" sc:id="t19" sc:refUri="/1B_op/C/couts/CGM.ref">CGM</sc:uLink> futur;</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t16">
+										<sc:para sc:id="t11">maintenance <sc:uLink role="glos" sc:id="t32" sc:refUri="/1B_op/M/TUV/type_maint/reparative_tps_masque.ref">réparative</sc:uLink> : toutes les actions de remise en état d'une partie des constituants d'un matériel (ensembles ou sous ensembles) sans que l'état actuel du matériel entraîne un <sc:uLink role="glos" sc:id="t22" sc:refUri="/1B_op/C/couts/CGM_CDM.ref">CDM</sc:uLink>. </sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t17">
+										<sc:para sc:id="t12">maintenance <sc:uLink role="glos" sc:id="t21" sc:refUri="/1B_op/M/TUV/type_maint/mi_preventive.ref">préventive</sc:uLink> : ensemble des actions décrites de manière « volontariste» dans les plans d'entretien préventif des matériels. On trouve comme actions</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:ex>
+					<op:pbTi>
+						<sp:title>Maintenance réparative</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t74">
+									<sc:inlineStyle role="emp">Exemple </sc:inlineStyle>: suite à une défaillance, la maintenance a remis la machine en état de poursuivre la production (série de pièces à livrer en respectant les délais) dans les meilleures conditions possibles pour minimiser le <sc:inlineStyle role="emp">TAM</sc:inlineStyle> et le <sc:inlineStyle role="emp">CDM</sc:inlineStyle>. </sc:para>
+								<sc:para sc:id="t75">Une fois la livraison terminée, la machine étant libre 2 heures avant le lancement d'une production, la maintenance peut donc intervenir pendant les <sc:uLink role="glos" sc:id="t78" sc:refUri="/1B_op/M/TUV/tps_mi_prod/TAF.ref">TAF</sc:uLink> (non sollicité) sans conséquence sur le <sc:inlineStyle role="emp">TRG</sc:inlineStyle>. </sc:para>
+								<sc:para sc:id="t76">L'intervention peut se limiter à de simples contrôles, à une réparation définitive : il arrive parfois que l'on procède à un <sc:inlineStyle role="emp">échange standard</sc:inlineStyle> complet (moto-reducteur). </sc:para>
+								<sc:para sc:id="t77">Lorsque le moto-réducteur est réparé définitivement, il est remonté conformément à l'origine, de préférence lorsque l'équipement n'est pas sollicité</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>La norme X 60 000 précise</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t38">que les choix des méthodes de maintenance dépendent de l'utilisation du matériel et du type de matériel;</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t45">que si un historique suffisant n'est pas disponible, le choix des méthodes à appliquer doit être effectué d'un commun accord entre les fonctions maintenance et fabrication, à charge pour la première de vérifier le bien fondé de ce choix en fonction de l'historique du matériel, et de modifier si nécessaire la méthode pour arriver dans chaque cas, à la solution la plus économique.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

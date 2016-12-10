@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Application 5A_001</sp:title>
+			<sp:sTitle>ni 001</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">On étudie les notes d'un groupe composé de 6 étudiants</sc:para>
+								<sc:para xml:space="preserve" sc:id="t5">La variable X : note de l'étudiant est une variable de type &quot;numérique&quot;, la nature de la variable est &quot;continue&quot;.</sc:para>
+								<sc:para xml:space="preserve">On donnera les 6 notes qui correspondent à n=6 observations : les observations sont donc &quot;obs_n&quot;</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Préparation des données</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t9">Pour des raisons de compatibilité avec des observations présentées sous la forme de classes de limites xi, de centre xic et d'effectifs ni. Il faut donc associer au tableau des valeurs observées xi un tableau d'effectif ni qui sera initialisé à 1. Les valeurs xi doivent aussi être classées.</sc:para>
+								<sc:para xml:space="preserve">Faire glisser le sous-vi <sc:inlineStyle role="emp">5A_ni_init_a_1_n0.vi</sc:inlineStyle> (5.lvlib/5A.lvlib) sur le diagramme.</sc:para>
+								<sc:para xml:space="preserve">Sur l'entrée Obs., créer une constante et lui donner la valeur n_obs</sc:para>
+								<sc:para xml:space="preserve">Sur l'entrée xi saisie, créer une commande : sur la face avant, ajuster votre tableau et saisir  les notes des 6 étudiants : 10-15-12-11-17-19.</sc:para>
+								<sc:para xml:space="preserve">On laisse libre l'entrée ni qui est sera utilisée pour des observations mise en forme de classes (nc classes)</sc:para>
+								<sc:para xml:space="preserve">Sur les sorties, câbler des indicateurs, exécutez le programme : les données xi sont classées et les effectifs ni sont tous à 1.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Calcul de F(X)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t12">Faire glisser le VI  5A_dist_n1.vi (5/5A).</sc:para>
+								<sc:para xml:space="preserve">Câbler l'entrée ni et l'entrée obs.</sc:para>
+								<sc:para xml:space="preserve">Ajouter un indicateur pour la sortie F(X), fait correspondre les valeurs de F aux valeurs de X : on a F(12)=0,5. </sc:para>
+								<sc:para xml:space="preserve">Cela veut dire que 50 % des valeurs sont inférieures ou égales à 12. De même, 83,33% des valeurs sont inférieures ou égales à 17.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:meth>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Représentation graphique</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t14">Ajouter dans le digramme la fonction Assembler de la palette cluster.</sc:para>
+								<sc:para xml:space="preserve">Sur la première entrée, cabler le tableau Xi (valeurs classées), sur la deuxième, câbler le tableau F.</sc:para>
+								<sc:para xml:space="preserve">Sur la face avant, ajouter un graphe XY : cabler son terminal à la sortie de la fonction Assembler</sc:para>
+								<sc:para xml:space="preserve">Exécutez le programme : cherchez la valeur de X telle que F(X)&lt;=90%</sc:para>
+								<sc:para xml:space="preserve">On estime qu'une bonne note est supérieure à 14 : quelle est la proportion de notes supérieures ou égales à 14.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:meth>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Tendance centrale, dispersion, etc ...</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t16">Ajouter dans le diagramme le VI 5A_CS.vi.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:meth>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

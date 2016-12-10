@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Fiabilité</sp:title>
+			<sp:sTitle>Fiabilité</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Dispositif</sp:keywd>
+							<sp:keywd>Fiabilité</sp:keywd>
+							<sp:keywd>Mission</sp:keywd>
+							<sp:keywd>équipement</sp:keywd>
+							<sp:keywd>ensemble</sp:keywd>
+							<sp:keywd>composant</sp:keywd>
+							<sp:keywd>fonction</sp:keywd>
+							<sp:keywd>condition de fonctionnement</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t138">Plusieurs notions importantes interviennent dans la <sc:uLink role="glos" sc:id="t139" sc:refUri="/1B_op/M/EF/fiabilite.ref">fiabilité</sc:uLink>
+								</sc:para>
+								<sc:para xml:space="preserve" sc:id="t140">C'est une composante de la <sc:uLink role="glos" sc:id="t141" sc:refUri="/1B_op/D/disponibilite.ref">disponibilité</sc:uLink> pour les dispositifs  r<sc:uLink role="glos" sc:id="t165" sc:refUri="/1B_op/D/disp_reparable.ref">éparables</sc:uLink> </sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2C_FMD/fmd_A_op_constructeur_utilisateur.gif">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:def>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Dispositif</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t9">Un <sc:inlineStyle role="emp">équipement</sc:inlineStyle> (outil de production), est constitué d'<sc:inlineStyle role="emp">ensembles</sc:inlineStyle> et de <sc:inlineStyle role="quote">sous-ensembles</sc:inlineStyle>, eux mêmes constitués de <sc:inlineStyle role="emp">composants</sc:inlineStyle> ou d'éléments. Les ensembles, sous-ensembles, et organes, sont, chacun pris séparément, des dispositifs qui vont fonctionner souvent en <sc:inlineStyle role="emp">interaction</sc:inlineStyle>
+								</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t42">Chaque dispositif peut être <sc:uLink role="glos" sc:id="t94" sc:refUri="/1B_op/D/disp_reparable.ref">réparable</sc:uLink> ou <sc:uLink role="glos" sc:id="t95" sc:refUri="/1B_op/D/disp_non_reparable.ref">non réparable</sc:uLink>. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t191">Un composant, un organe sera souvent considéré comme non réparable : on s'intéresse à sa fiabilité pour décider de l'opportunité de le maintenir en stock ou non, et le cas échéant, ses modalités d'approvisionnement.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Mission (Fonction requise)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t73">La fiabilité ne peut pas être évaluée sans la connaissance précise de la fonction requise attendue par le bien ou l'équipement ou le dispositif.</sc:para>
+								<sc:para sc:id="t144">Pour un véhicule, les exigences ne sont pas les mêmes lorsque ce véhicule est engagé dans des missions telles que :</sc:para>
+								<sc:itemizedList sc:id="t74">
+									<sc:listItem sc:id="t75">
+										<sc:para sc:id="t145">Course de formule 1 ou rallye</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t76">
+										<sc:para sc:id="t146">trajet domicile-travail</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t77">
+										<sc:para sc:id="t147">trajet vacances</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:ex>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter/>
+						</sp:filters>
+						<sp:title>Cycliste (Tour de France)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t70">Chaque étape peut-être considérée comme une mission (nb de Kms). Si l'objectif est d'arriver dans les délais définis par l'organisateur pour prendre le départ de l'étape suivante, ou si l'objectif est de rouler à une vitesse moyenne imposée par le directeur sportif, on voit bien que les probabilités de réussir ne sont pas les mêmes.</sc:para>
+								<sc:para>Un cycliste professionnel peut être donc considéré comme fiable dans son rôle d'équipier, mais pas dans un rôle de leader</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Temps ou durée de la mission</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t48">La notion de temps est prise au sens large (cycles, distances, etc.). </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Conditions de fonctionnement</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t55">Lorsque la fiabilité est évaluée dans des conditions d'exploitation idéales, on parlera alors de <sc:inlineStyle role="emp">FIABILITE INTRINSEQUE</sc:inlineStyle>. les conditions de fonctionnement ou d'environnement doivent être parfaitement définies :  température, humidité, pression, matériel fixe, mobile, au sol.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:ex>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter/>
+						</sp:filters>
+						<sp:title>Cycliste (Tour de France)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t97">Les cyclistes, grâce à leur entraînement, doivent se donner les moyens de maintenir leurs qualités intrinsèques même lorsque les conditions vont changer.</sc:para>
+								<sc:para sc:id="t105">Pour une machine, il est très difficile techniquement de la rendre adaptable ; c'est pour cette raison que le respect des conditions d'utilisation est une règle d'or qui doit garantir la fiabilité du matériel.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+				<sp:warning>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter/>
+						</sp:filters>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t27">Si la quantification de la fiabilité intrinsèque d'un dispositif isolé dans des conditions données pendant un intervalle donné est relativement simple (techniques statistiques après observation), en revanche, elle devient beaucoup plus délicate lorsque les paramètres d'environnement et l'intervalle de temps étudié changent. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t178">La prise en compte de l'interaction des dispositifs entre eux rendra quasiment impossible l'évaluation de la fiabilité d'un système complet par les techniques de probabilité conditionnelle. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t179">La méthodes <sc:uLink role="acr" sc:id="t38" sc:refUri="/1B_op/M/EF/FIDES.ref">FIDES</sc:uLink> pour l'étude des systèmes électroniques est intéressante à ce titre (<sc:uLink role="bib" sc:id="t183" sc:refUri="/1B_op/M/EF/FIDES_site.ref">Voir document</sc:uLink>)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:warning>
+				<sp:meth>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t29">Selon la méthode utilisée pour l'évaluation de la fiabilité, on parlera :</sc:para>
+								<sc:itemizedList sc:id="t115">
+									<sc:listItem sc:id="t116">
+										<sc:para sc:id="t129">de <sc:uLink role="glos" sc:id="t30" sc:refUri="/1B_op/M/EF/fiabilite_previsionnelle.ref">fiabilité prévisionnelle</sc:uLink> , </sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t117">
+										<sc:para sc:id="t130">de <sc:uLink role="glos" sc:id="t31" sc:refUri="/1B_op/M/EF/fiabilite_observee.ref">fiabilité observée</sc:uLink> , </sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t118">
+										<sc:para sc:id="t131">de <sc:uLink role="glos" sc:id="t32" sc:refUri="/1B_op/M/EF/fiabilite_estimee.ref">fiabilité estimée</sc:uLink> , </sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t119">
+										<sc:para sc:id="t132">ou de <sc:uLink role="glos" sc:id="t33" sc:refUri="/1B_op/M/EF/fiabilite_operationnelle.ref">fiabilité opérationnelle</sc:uLink>
+										</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para>Ces notions seront détaillées plus loin.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:meth>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Caractéristiques (5A4)</sp:title>
+			<sp:sTitle>Caractéristiques</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t5">Soient n<sc:textLeaf role="ind" sc:id="t8">1</sc:textLeaf>, n<sc:textLeaf role="ind" sc:id="t9">2</sc:textLeaf>, ...., n<sc:textLeaf role="ind" sc:id="t10">i</sc:textLeaf> , ..... n<sc:textLeaf role="ind" sc:id="t11">k</sc:textLeaf> les effectifs associés aux k valeurs x<sc:textLeaf role="ind" sc:id="t12">1</sc:textLeaf>, x<sc:textLeaf role="ind" sc:id="t13">2</sc:textLeaf>, ...., x<sc:textLeaf role="ind" sc:id="t15">i</sc:textLeaf>, ...., x<sc:textLeaf role="ind" sc:id="t14">k</sc:textLeaf> du caractère X étudié.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:def>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t22">
+									<sc:caption xml:space="preserve" sc:id="t130">Définitions</sc:caption>
+									<sc:column sc:id="t131" width="30"/>
+									<sc:column sc:id="t132" width="25"/>
+									<sc:column sc:id="t133" width="43"/>
+									<sc:row sc:id="t24">
+										<sc:cell sc:id="t134">
+											<sc:para xml:space="preserve" sc:id="t55">
+												 <sc:inlineImg role="form" sc:id="t153" sc:refUri="/1A_/f/S/A_caracteristiques/frequence.odf"/>
+</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t135" rowSpan="3">
+											<sc:para xml:space="preserve" sc:id="t65">
+												
+											<sc:inlineImg role="form" sc:id="t166" sc:refUri="/1A_/f/S/A_caracteristiques/moyenne.odf"/></sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t136">
+											<sc:para xml:space="preserve" sc:id="t72">
+												<sc:inlineImg role="form" sc:id="t80" sc:refUri="/1A_/f/S/A_caracteristiques/ecart_moyen.odf"/>
+											</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t26">
+										<sc:cell sc:id="t137" rowSpan="2">
+											<sc:para xml:space="preserve" sc:id="t56">
+												<sc:inlineImg role="form" sc:id="t63" sc:refUri="/1A_/f/S/A_caracteristiques/effectif_total.odf"/>
+											</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t139">
+											<sc:para xml:space="preserve" sc:id="t73">
+												<sc:inlineImg role="form" sc:id="t81" sc:refUri="/1A_/f/S/A_caracteristiques/variance.odf"/>
+											</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t28">
+										<sc:cell sc:id="t142">
+											<sc:para xml:space="preserve" sc:id="t74">
+												<sc:inlineImg role="form" sc:id="t82" sc:refUri="/1A_/f/S/A_caracteristiques/ecart_type.odf"/>
+											</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:def>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t85">
+									<sc:column sc:id="t86" width="24"/>
+									<sc:column role="" sc:id="t87" width="76"/>
+									<sc:row role="" sc:id="t88">
+										<sc:cell sc:id="t89">
+											<sc:para xml:space="preserve" sc:id="t104">Mode</sc:para>
+										</sc:cell>
+										<sc:cell role="" sc:id="t90">
+											<sc:para xml:space="preserve" sc:id="t106">Le mode est la valeur du caractère statistique d'effectif maximum. Si la variable est discrète, le mode est la valeur de la variable du plus grand effectif. Si la variable est continue, le mode est la classe de plus grand effectif (classe modale), ou le centre de la classe modale.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row role="" sc:id="t91">
+										<sc:cell sc:id="t92">
+											<sc:para xml:space="preserve" sc:id="t108">Médiane</sc:para>
+										</sc:cell>
+										<sc:cell role="" sc:id="t93">
+											<sc:para xml:space="preserve" sc:id="t124">C'est la valeur du caractère statistique pour laquelle la population de la série est partagée en deux. Si la série statistique est ordonnée, il y a autant d'observations rangées avant que d'observations rangées après.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row role="" sc:id="t94">
+										<sc:cell sc:id="t95">
+											<sc:para xml:space="preserve" sc:id="t112">Étendue</sc:para>
+										</sc:cell>
+										<sc:cell role="" sc:id="t96">
+											<sc:para xml:space="preserve" sc:id="t126">C'est la différence entre la plus grande et la plus petite valeur observée. Elle donne une idée de l'étalement de la série mais est toutefois très approximative car les valeurs extrêmes peuvent être exceptionnelles.</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row role="" sc:id="t97">
+										<sc:cell sc:id="t98">
+											<sc:para xml:space="preserve" sc:id="t116">Ecart Moyen</sc:para>
+										</sc:cell>
+										<sc:cell role="" sc:id="t99">
+											<sc:para xml:space="preserve" sc:id="t127">Moyenne arithmétique des écarts affectés des coefficients ni</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row role="" sc:id="t100">
+										<sc:cell sc:id="t101">
+											<sc:para xml:space="preserve" sc:id="t120">Variance et Ecart Type</sc:para>
+										</sc:cell>
+										<sc:cell role="" sc:id="t102">
+											<sc:para xml:space="preserve" sc:id="t122">La variance est la Moyenne arithmétique des écarts aux carrés affectés des coefficients ni</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

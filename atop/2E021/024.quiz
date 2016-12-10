@@ -21,7 +21,7 @@
 				<sp:txt>
 					<op:txt>
 						<sc:para xml:space="preserve" sc:id="t8">On souhaite évaluer si l'<sc:uLink role="glos" sc:id="t27" sc:refUri="/1B_op/M/TUV/type_maint/mi_preventive_systematique.ref">échange systématique</sc:uLink> d'une pièce est rentable ou non.</sc:para>
-						<sc:para xml:space="preserve" sc:id="t15"> On sait que la <sc:uLink role="glos" sc:id="t28" sc:refUri="/1B_op/D/dv.ref">durée de vie</sc:uLink> suit une <sc:uLink role="ucLnk" sc:id="t29" sc:refUri="/D/DS/3_ne/DSE_ne/5E1_LN (58)/5E1_ne.xml">loi normale</sc:uLink> de moyenne 8000 heures avec un écart-type de 1500 heures. </sc:para>
+						<sc:para xml:space="preserve" sc:id="t15"> On sait que la <sc:uLink role="glos" sc:id="t28" sc:refUri="/1B_op/D/dv.ref">durée de vie</sc:uLink> suit une <sc:uLink role="ucLnk" sc:id="t29" sc:refUri="/Mth-op/Sth-op/3_ne/DSE_ne/5E1_LN (58)/5E1_ne.xml">loi normale</sc:uLink> de moyenne 8000 heures avec un écart-type de 1500 heures. </sc:para>
 						<sc:para xml:space="preserve" sc:id="t16">Quel périodicité allez vous choisir pour une fiabilité de 97,72% associée à cette périodicité ?</sc:para>
 					</op:txt>
 				</sp:txt>

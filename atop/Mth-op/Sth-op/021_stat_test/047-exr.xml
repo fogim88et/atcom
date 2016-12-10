@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>47-n3 - Test Fiabilité</sp:title>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t4">Sur un recueil de fiabilité, on obtient pour un composant une fiabilité de 99,9% pour une durée de 1000 heures. </sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t10">Combien de composants devez vous obtenir sans défaillance pour ne pas remettre en cause cette affirmation ? </sc:para>
+								<sc:para xml:space="preserve">Poser le problème avec des échantillons de taille n= 200, 500, 1000 avec p=1/n. </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+				<sp:hint>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t24">La fiabilité est une probabilité, donc il s'agit d'un test de proportion.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:hint>
+				<sp:sol>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t15">La fiabilité est une probabilité, donc il s'agit d'un test de proportion.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t16">L'affirmation est basée sur p=99,9% (proportion de pièces bonnes) ou p=0,1% (proportion de pièces défectueuses). Une pièce &quot;dite bonne&quot; signifie que sa durée de vie dépasse 1000 heures</sc:para>
+										<sc:para xml:space="preserve" sc:id="t17">L'énoncé précise que l'on attendra 1 seule pièce défaillante sur les n mises en service pour prendre la décision, on a donc p=1/n.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t18">Pour refuser l'hypothèse p=0,1%, on devra trouver n tel que p soit juste supérieur à une proportion limite pL. On peut donc chercher n tel que p=pL</sc:para>
+										<sc:para xml:space="preserve" sc:id="t19">La résolution de cette équation étant relativement difficile, on peut procéder par itération en partant de n=200 (p=0,2%), puis augmenter ou diminuer la valeur pour s'en rapprocher. On trouvera n=390.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t20">Il faut donc attendre 390 pièces sans défaut pour démontrer une fiabilité de 99,9%.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:sol>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

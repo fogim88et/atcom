@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Théorie sur l'échantillonnage (Rappel)</sp:title>
+			<sp:sTitle>Théorie sur l'échantillonnage (Rappel)</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t10">Si une machine fabrique des pièces avec une précision suffisante, alors on admet qu'un déréglage maîtrisé de la machine ne va pas conduire à la fabrication de déchets.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t11">Lorsque la machine se dérègle, on passe donc de la distribution dite DIST.Nom (Distribution nominale). à une distribution dite DIST.Def (Distribution avec défaut)</sc:para>
+								<sc:para xml:space="preserve" sc:id="t12">Avec une seule pièce, il sera difficile de dire à quelle DISTRIBUTION appartient cette pièce, car les gaussiennes se chevauchent trop, par contre si on compare les D.E.M (pour n=5 par exemple) associées aux deux distributions, alors on constatera un chevauchement beaucoup plus restreint. Si on augmente la taille de l'échantillon, alors on pourrait arriver à deux DEM DISJOINTES permettant d'être assuré que l'échantillon appartient soit à une distribution, soit à une autre.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Théorème central de la limite</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:def>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t40">On considère que si une <sc:inlineStyle role="emp" sc:id="t47">population</sc:inlineStyle> suit une loi normale de moyenne <sc:inlineImg role="form" sc:id="t44" sc:refUri="/1F/S/F_echantillonnage/mu.odf"/>, et d'écart-type<sc:inlineImg role="form" sc:id="t45" sc:refUri="/1F/S/F_echantillonnage/sigma_pop.odf"/>alors  la moyenne des échantillons de taille <sc:inlineStyle role="emp" sc:id="t48">n</sc:inlineStyle> suit une loi normale de moyenne  <sc:inlineImg role="form" sc:id="t53" sc:refUri="/1F/S/F_echantillonnage/mu.odf"/>et d'écart-type <sc:inlineImg role="form" sc:id="t49" sc:refUri="/1F/S/F_echantillonnage/sigma_DEM_de_pop.odf"/></sc:para>
+										<sc:para xml:space="preserve">Si <sc:inlineImg role="form" sc:id="t50" sc:refUri="/1F/S/F_echantillonnage/sigma_pop.odf"/>est inconnu, alors on utilisera <sc:inlineImg role="form" sc:id="t51" sc:refUri="/1F/S/F_echantillonnage/sigma_DEM_de_estimation.odf"/>avec <sc:inlineImg role="form" sc:id="t52" sc:refUri="/1F/S/F_echantillonnage/st_inf_sPOP_estime.odf"/></sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:def>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Estimation d'une Moyenne</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t13">On prélève un échantillon de n pièces dont on calcule la moyenne <sc:inlineImg role="form" sc:id="t77" sc:refUri="/1F/S/F_echantillonnage/x_bar.odf"/> et l'écart type s.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t14">La machine doit être réglée sur<sc:inlineImg role="form" sc:id="t76" sc:refUri="/1F/S/F_echantillonnage/mu.odf"/>, réglage qui constitue l'objectif recherché.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t15">La précision de la machine est connue : dans ce cas, l'écart type<sc:inlineImg role="form" sc:id="t74" sc:refUri="/1F/S/F_echantillonnage/sigma_pop.odf"/> de la machine est déjà fixé. Sinon, on l'estimera par <sc:inlineImg role="form" sc:id="t75" sc:refUri="/1F/S/F_echantillonnage/st_inf_sPOP_estime.odf"/></sc:para>
+										<sc:para xml:space="preserve" sc:id="t16">On calcule l'écart-type de la DEM noté <sc:inlineImg role="form" sc:id="t71" sc:refUri="/1F/S/F_echantillonnage/sigma_DEM.odf"/></sc:para>
+										<sc:para xml:space="preserve" sc:id="t17">On choisit un niveau de confiance 1-α (risque α). On cherche le quantile α/2 correspondant. </sc:para>
+										<sc:para xml:space="preserve">Pour rappel, l'aire α/2 est disposée symétriquement de chaque côté de la moyenne, de moins l'infini à -<sc:inlineImg role="form" sc:id="t72" sc:refUri="/1F/S/F_echantillonnage/t_apha_sur_2.odf"/> et de +<sc:inlineImg role="form" sc:id="t73" sc:refUri="/1F/S/F_echantillonnage/t_apha_sur_2.odf"/> à plus l'infini : la lettre z est souvent utilisée à la place de t</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:res sc:refUri="/1F/S/F_echantillonnage/st_inf_IC_m.odf">
+									<op:resInfoM/>
+								</sp:res>
+								<sp:res sc:refUri="/Mth-op/Sth-op/3_ne/000046.jpg">
+									<op:resInfoM/>
+								</sp:res>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Carte de contrôle</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t20">Une pièce se trouve dans la DP (Population) de moyenne <sc:inlineImg role="form" sc:id="t54" sc:refUri="/1F/S/F_echantillonnage/mu.odf"/>(égal à la valeur nominale) et d'écart-type <sc:inlineImg role="form" sc:id="t56" sc:refUri="/1F/S/F_echantillonnage/sigma_pop.odf"/></sc:para>
+										<sc:para xml:space="preserve" sc:id="t21">Un échantillon se trouve dans la DEM de moyenne m<sc:inlineImg role="form" sc:id="t57" sc:refUri="/1F/S/F_echantillonnage/mu.odf"/> et d'écart-type sDEM<sc:inlineImg role="form" sc:id="t58" sc:refUri="/1F/S/F_echantillonnage/sigma_DEM.odf"/>, avec<sc:inlineImg role="form" sc:id="t59" sc:refUri="/1F/S/F_echantillonnage/sigma_DEM_de_pop.odf"/></sc:para>
+										<sc:para xml:space="preserve" sc:id="t22">C'est dans la DEM que l'on va travailler pour détecter si la moyenne de la PRODUCTION (POP) a tendance à dévier, car grâce à la DEM, on va diminuer la longueur des zones d'incertitudes que l'on avait mis en évidence plus haut. En général, le prélèvement d'échantillons de taille 5 suffit pour suivre le comportement d'une production. Ensuite, il faut agir sur la fréquence de prélèvement pour être sûr de détecter le plus rapidement possible une déviation de la DP. Dans ce cas, on peut appliquer un contrôle statistique du process si sa capabilité machine <sc:inlineImg role="form" sc:id="t81" sc:refUri="/1F/S/F_echantillonnage/capabilite.odf"/> est bien supérieure à 1,33</sc:para>
+										<sc:para xml:space="preserve" sc:id="t23">Etablir un traçé des moyennes d'échantillon est appelé CARTE DE CONTROLE SUR LA MOYENNE. La théorie statistique permet d'établir les limites de contrôle permettant de définir des situations de surveillance (LS) (2 sDEM) ou d'arrêt pour réglage (LC) (3 sDEM). Les valeurs de 2 ou 3 pour les limites de surveillance et d'arrêts sont les quantiles de la L.N.C.R pour des niveaux de confiance de 95,44% et 99,8%. On peut bien sûr définir des limites pour d'autres niveaux de confiance.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t24">Prendre un niveau de confiance pour l'arrêt machine de 99% plutôt que 99,8% revient à prendre un peu plus de risque d'arrêter la machine à tort ou un peu trop tôt.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Les règles de décision</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t30">Les règles de base que l'on applique pour décider d'arrêter la machine sont les suivantes (des variantes sont possibles) </sc:para>
+										<sc:para sc:id="t31">- 1 point hors 3 sDEM ..... en dehors des limites de contrôle (LC)</sc:para>
+										<sc:para sc:id="t32">- 2 points ou 2 points sur 3 hors 2 sDEM .......en dehors des limites de surveillance (LS)</sc:para>
+										<sc:para sc:id="t33">- 4 points sur 5 en dehors de 1 sDEM ....</sc:para>
+										<sc:para sc:id="t34">- 6 points ou 7 points sur 8 qui respectent un même tendance (croissante ou décroissante).</sc:para>
+										<sc:para sc:id="t35">- 40 points qui alternent au dessus et en dessous de la valeur moyenne.</sc:para>
+										<sc:para sc:id="t36">- 50 points qui se situent dans 1 sDEM (au dessus ou en dessous) .... révélateur d'un problème de mesure ou de sur-qualité.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

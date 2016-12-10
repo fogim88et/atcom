@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Les dégradations (résumé)</sp:title>
+			<sp:sTitle>Les dégradations (résumé)</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t6">Il faut lutter contre les dégradations pour maintenir les installations en bon état :</sc:para>
+								<sc:itemizedList sc:id="t9">
+									<sc:listItem sc:id="t10">
+										<sc:para xml:space="preserve" sc:id="t7">Les dégradations imposées sont celles que l'on impose aux machines ou aux mécanismes par une mauvaise utilisation ou par des fautes de maintenance.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t11">
+										<sc:para xml:space="preserve" sc:id="t8">Les dégradations naturelles proviennent des lois de la nature et du comportement des matériaux</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t14">Les dégradations imposées doivent disparaître : il faut de la RIGUEUR. Les opérations de conduite, comme les opérations de maintenance, doivent être d'une extrême qualité, et d'une qualité constante, quels que soient les intervenants, leurs conditions de travail, ou le jour de l'année. Une seule solution :</sc:para>
+								<sc:itemizedList sc:id="t17">
+									<sc:listItem sc:id="t18">
+										<sc:para xml:space="preserve" sc:id="t15">Des MODES OPERATOIRES rédigés et expérimentés en équipe</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t19">
+										<sc:para xml:space="preserve" sc:id="t16">Des MODES OPERATOIRES respectés par tous et toujours</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t21">Les dégradations naturelles doivent être surveillées : il faut de la VIGILANCE. Chercher à savoir comment se manifestent ces dégradations, les évaluer ou les mesurer, puis intervenir lorsque leurs manifestations deviennent des signes avant-coureurs (précurseurs) d'une défaillance. </sc:para>
+								<sc:para xml:space="preserve">Pour capter les différentes manifestations des dégradations, on peut utiliser les 4 sens (vue, ouïe, odorat, toucher) ou se servir d'appareils de mesure.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t23">Une dégradation imposée, peut amorcer ou accélérer une dégradation naturelle : usure prématurée du roulement provoqué par un échauffement lui même provoqué par un surplus de graisse, usure plus rapide de paliers de roues causée par une surtension de chaîne...</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t25">Une dégradation peut en entraîner une autre (vice de la vis desserrée !!!)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

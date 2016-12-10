@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Corrigé</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t61">La capabilité Cp doit être de 1,33 au minimum donc IT/6.s &gt; 1,33 donc s &lt; IT/8, soit s=0,125 mm</sc:para>
+								<sc:para sc:id="t62">Cette capabilité montre simplement que le procédé est capable de respecter les tolérances fixées. Le seuil de 1,33 est une convention, mais certains constructeurs automobiles imposent une valeur plus sévère</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t64">En cas de déréglage, l'image de la production va se décaler, ce décalage doit être détecté à l'aide d'une carte de contrôle par exemple. Au moment ou la détection de l'anomalie se produit, il est important que l'image de la production en cours soit encore intégralement à l'intérieur des tolérances. A long terme, il est nécessaire de vérifier que l'image de production reste proche de celle qui a permis de déterminer les paramètres statistiques. Il faut donc surveiller Cpk qui introduit une comparaison des limites de tolérances avec la valeur moyenne de la production réalisée. Cette valeur, en cas de contrôle automatisé peut être donc recalculée en temps réel.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t67">Carte de Contrôle sur la moyenne</sc:para>
+								<sc:para sc:id="t68">On a sDP=0.0995, donc sDEM=0.0995/racine(6)=0,0406.</sc:para>
+								<sc:para sc:id="t69">Par défaut, on prendra LS et LC respectivement à plus ou moins 2 et 3 écart-types de la DEM (correspondant à des intervalles de confiance avec des probabilités de 95,44% et 99,8%)</sc:para>
+								<sc:para sc:id="t70">LSmin/LSmax=120 -/+ (2).(0,0406)</sc:para>
+								<sc:para sc:id="t71">LCmin/LCmax=120 -/+ (2).(0,0406)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t73">Revoir les règles sur la théorie sur le SPC, on peut aussi les trouver dans les exemples donnés dans le toolkit SPC de labview. </sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t75">Une trop grande capabilité machine consiste à faire de la sur-qualité, et va amener à arrêter le process alors que l'on est sûr de respecter les tolérances imposées. Dans ce cas, si la machine est trop précise, on peut augmenter les limites LS et LC. Tout dépendra ici, si on travaille avec des clients ou des produits qui imposent des tolérances qui changent souvent. Il n'est en effet pas toujours facile concrétement de remettre en cause les procedures de contrôles en fonction des moyens de contrôles utilisés. </sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

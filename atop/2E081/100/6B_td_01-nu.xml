@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:coQuiz xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>6B-td-01 : Démarche pas pas (PARETO)</sp:title>
+		</op:exeM>
+		<sp:quest>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t13">Découvrir pas à pas la méthode de PARETO, à partir des données collectées au cours de la simulation du rallye Paris-Le Cap (Jeu de la maintenance)</sc:para>
+						<sc:para xml:space="preserve">On recense dans le jeux des <sc:inlineStyle role="emp" sc:id="t14">classes</sc:inlineStyle> qui permettent de répondre aux différents événements et ainsi, optimiser le potentiel du score au dé (TO)</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t18">La calculatrice peut largement convenir pour effectuer les calculs en salle de TD.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t19">Les <sc:uLink role="ucLnk" sc:id="t20" sc:refUri="/M_/MOP_pareto_opa/pareto_ne.xml">notions essentielles</sc:uLink> sur la Méthode de Pareto sont supposées être vues.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:quest>
+		<sp:trainUcMcqMur sc:refUri="/2E081/100/7_td_1_qcm.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E081/100/7_td_2_classement.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E081/100/7_td_3_consequence_pourcentage.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E081/100/7_td_4_cumul_consequence.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E081/100/7_td_5_classes_en_pourcent.quiz"/>
+	</op:coQuiz>
+</sc:item>

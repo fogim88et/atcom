@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:assmntUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>ev-1. Evaluation Normes (2A)</sp:title>
+			<sp:sTitle>ev-1. Evaluation Normes (2A)</sp:sTitle>
+		</op:uM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para sc:id="t3">Auto-évaluation sur le vocabulaire normalisé</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qr01_politique.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm10_politique.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm11_politique.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm12_politique.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm14_politique.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm15_politique.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm16_cout.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm01_stock.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm08_type_maint.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm09_type_maint.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qr02_type_maint.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qr03_type_maint.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qr04_type_maint.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qr05_type_maint.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qr06_type_maint.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qcm_03_fmd_nrepa.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qcm_06_fmd_mttr.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm06_fmd_mttr.quiz"/>
+		<sp:quiz>
+			<op:field>
+				<op:exeM>
+					<sp:title>Fiabilité formules</sp:title>
+				</op:exeM>
+				<sc:question>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t11">Donner les formules de R(t), λ(t,t+dt) à partir de l'observation de dn(t,t+dt) défaillances sur une période t à t +dt.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t15">Donner les formules de R(t) selon les modèles exponentiel et weibull.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sc:question>
+				<sp:asw>
+					<sc:SFSolution>
+						<sc:value>aaa</sc:value>
+					</sc:SFSolution>
+				</sp:asw>
+			</op:field>
+		</sp:quiz>
+	</op:assmntUa>
+</sc:item>

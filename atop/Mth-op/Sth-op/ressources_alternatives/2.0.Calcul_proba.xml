@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Calcul des Probabilités</sp:title>
+			<sp:sTitle>Probabilités</sp:sTitle>
+		</op:uM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para sc:id="t12">LEÇON 1 : NOTION D'EXPERIENCE ALEATOIRE : 24</sc:para>
+				<sc:para sc:id="t13">LEÇON 2 : DEFINITION D'UNE PROBABILITE : 26</sc:para>
+				<sc:para sc:id="t14">LEÇON 3 : PROBABILITES CONDITIONNELLES ET EVENEMENTS INDEPENDANTS : 28</sc:para>
+				<sc:para sc:id="t15">LEÇON 4 : FORMULE DE BAYES :</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:courseUc sc:refUri="/Mth-op/Sth-op/ressources_alternatives/2.1.exp_aleatoire.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/Sth-op/ressources_alternatives/2.2.def_proba.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/Sth-op/ressources_alternatives/2.3.proba_cond_et_ev_ind.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/Sth-op/ressources_alternatives/2.4.bayes.xml"/>
+	</op:courseUa>
+</sc:item>

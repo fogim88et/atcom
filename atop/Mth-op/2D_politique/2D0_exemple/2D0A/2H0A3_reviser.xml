@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Réviser tous les assemblages vissés (3)</sp:title>
+			<sp:sTitle>Assemblages vissés</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:warning>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t7">Le Vice de la vis, c'est qu'elle se dévisse sans aviser</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:warning>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t3">Une machine ne peut faire son travail que si l'ensemble de ses mécanismes fonctionnent correctement</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2H/07_reviser/7_1.odg">
+							<op:resInfoM>
+								<sp:index>graph</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:remind>
+					<op:pbTi>
+						<sp:title>Le cercle vicieux du dévissage</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2H/07_reviser/7_2.odg">
+							<op:resInfoM>
+								<sp:index>graph</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:remind>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2H/07_reviser/7_3.odg">
+							<op:resInfoM>
+								<sp:index>graph</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Tout ce qui risque de vibrer</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:itemizedList sc:id="t17">
+									<sc:listItem sc:id="t18">
+										<sc:para xml:space="preserve" sc:id="t14">Tôle de couverture</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t19">
+										<sc:para xml:space="preserve" sc:id="t15">Capotages</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t20">
+										<sc:para xml:space="preserve" sc:id="t16">Portes et visières</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Tous les supports de mécanismes</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:itemizedList sc:id="t26">
+									<sc:listItem sc:id="t27">
+										<sc:para xml:space="preserve" sc:id="t23">Fixations de moteurs</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t28">
+										<sc:para xml:space="preserve" sc:id="t24">Fixations de vérins</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t29">
+										<sc:para xml:space="preserve" sc:id="t25">Fixations de réducteurs</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Tout ce qui est réglable</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:itemizedList sc:id="t35">
+									<sc:listItem sc:id="t36">
+										<sc:para xml:space="preserve" sc:id="t32">Tendeurs de chaînes et courroies</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t37">
+										<sc:para xml:space="preserve" sc:id="t33">Butées mécaniques</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t38">
+										<sc:para xml:space="preserve" sc:id="t34">Tous les capteurs d'information</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Electricité</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t40">Toutes les connexions électriques, dans les armoires comme sur les machines</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

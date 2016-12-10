@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>La Maintenance (2A1)</sp:title>
+			<sp:sTitle>La Maintenance (2A1)</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Normes Maintenance</sp:keywd>
+							<sp:keywd>Maintenance</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Définition Normalisée</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t7">Ensemble de toutes les actions techniques, administratives et de management durant le cycle de vie d'un bien, destinées à le maintenir ou à le rétablir dans un état dans lequel il peut accomplir la fonction requise.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:rem>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t9">Les normes évoluent souvent, il est donc nécessaire avant de rédiger tout document de consulter les normes dont l'<sc:uLink role="acr" sc:id="t10" sc:refUri="/1D_op/afnor_abv.ref">AFNOR</sc:uLink> est le garant</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:rem>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Commentaires</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t3">En intégrant les contraintes actuelles, on pourrait dire que la maintenance est l'<sc:inlineStyle role="emp">ensemble des actions</sc:inlineStyle> qui permettent de conserver le potentiel du matériel pour assurer la continuité et la <sc:uLink role="glos" sc:id="t11" sc:refUri="/1B_op/M/Q/qualite.ref">Qualité</sc:uLink> de la production.</sc:para>
+								<sc:para>Bien Maintenir, c'est aussi mener ces actions au <sc:uLink role="glos" sc:id="t13" sc:refUri="/1B_op/C/couts/CGM.ref">Coût Global Maintenance</sc:uLink> Optimum</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/1_ind/ne_maintenance_discussion.png">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Ensemble des actions</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t22">désigne les MOYENS MIS EN OEUVRE. </sc:para>
+								<sc:para xml:space="preserve">Le service Maintenance constitue le potentiel en moyens humain et technique, la direction technique est le garant des moyens économique(formation, nouvelles technologies, veille technique)</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t15">La notion de <sc:uLink role="glos" sc:id="t16" sc:refUri="/1B_op/M/TUV/type_maint/mi_preventive.ref">Maintenance préventive</sc:uLink> apparaît clairement. Elle se décline en Maintenance Préventive <sc:uLink role="glos" sc:id="t17" sc:refUri="/1B_op/M/TUV/type_maint/mi_preventive_systematique.ref">systématique</sc:uLink> ou <sc:uLink role="glos" sc:id="t18" sc:refUri="/1B_op/M/TUV/type_maint/mi_preventive_conditionnelle.ref">conditionnelle</sc:uLink>.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t20">Lorsque cela est nécessaire, il sera nécessaire de rétablir le bien dans son état spécifié le plus vite possible. </sc:para>
+								<sc:para xml:space="preserve">Même si la panne est par définition aléatoire, ses conséquences pourront être réduites par :</sc:para>
+								<sc:para xml:space="preserve" sc:id="t29">- une bonne tenue en stock des pièces d'usure.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t30">- des modes opératoire ou gammes de montage-démontage.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t31">- des aides au diagnostic.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t32">- l'échange standard d'un ensemble complet destiné à être réparé après remise en route de la machine.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/1_ind/savoir_pouvoir_vouloir.png">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:basic>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

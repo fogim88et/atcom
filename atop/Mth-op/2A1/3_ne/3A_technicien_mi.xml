@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Le Technicien de Maintenance (2A3A)</sp:title>
+			<sp:sTitle>Le métier</sp:sTitle>
+		</op:uM>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Chez qui travaille t-il ?</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t39">Principalement dans les entreprises de production industrielle (mécanique, électronique, chimie, pétrole, automobile...)</sc:para>
+										<sc:para sc:id="t41">Secondairement dans les sociétés prestataires de maintenance, voire dans les services après-vente des fabricants de matériels de production.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>D'où vient-il ?</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t38">Le Technicien est </sc:para>
+										<sc:itemizedList sc:id="t52">
+											<sc:listItem sc:id="t53">
+												<sc:para>un jeune diplômé de niveau DUT, BTS ou équivalent,</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t54">
+												<sc:para sc:id="t50">ou un agent (ou technicien) de maintenance doté d'une grande expérience.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t55">Les diplômes les plus recherchés pour une première embauche sont principalement les BTS et les DUT, axés maintenance ou ayant une dominante électricité, électronique ou électrotechnique. </sc:para>
+										<sc:para>Certains recrutements, plus rares, se font au niveau des Bac Pro &quot; MSMA &quot;, &quot; EIE &quot; et &quot; production mécanique &quot; et des Bac Techno STI.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t66">La formation en alternance peut constituer un plus pour obtenir un poste.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t69">Il est possible d'accéder au poste de technicien de maintenance en cours de carrière par recrutement ou par mutation interne, si l'on possède une expérience suffisante. La promotion d'agent de maintenance à technicien de maintenance est très rare.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Conditions, contraintes et procédures</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t74">Du travail en bureau d'études jusqu'à l'intervention en voltigeur sur le terrain, les conditions de travail peuvent être très différentes d'un poste à l'autre.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Société de maintenance ou service après-vente</sp:title>
+							</op:pbTi>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t78">Le travail implique des déplacements d'un site à l'autre, et les opérations durant un arrêt exigent de la mobilité géographique, des périodes de travail intenses et longues ; la maintenance spécialisée peut impliquer des expatriations ; les périodes d'astreinte et le travail en plein air ne sont pas exclus </sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Activité physique parfois intense</sp:title>
+							</op:pbTi>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t85">Contrairement au travail de réparation en atelier (et a fortiori en bureau d'études), le travail de dépannage ou de rénovation sur site peut impliquer une activité physique intense : démonter et remonter des pièces parfois lourdes, travailler en équilibre peu stable, ou dans des positions peu confortables ;</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>La sécurité</sp:title>
+							</op:pbTi>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t92">Dans certains secteurs (pétrolier, chimie, production d'énergies travaux sur les matériels électriques et autres appareillages dangereux), le travail implique une mise en oeuvre stricte des procédures de sécurité ;</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>La lourdeur administrative</sp:title>
+							</op:pbTi>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t97">Le renforcement des tâches administratives et le respect des procédures sont à prévoir dans le cadre d'une maintenance s'orientant de plus en plus vers des organisations normalisées de type <sc:uLink role="glos" sc:id="t405" sc:refUri="/1B_op/M/GHI/iso_9000_14000_def.ref">ISO 9000 et 14000</sc:uLink>.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Le relationnel</sp:title>
+							</op:pbTi>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t102">En cas de panne majeure, il lui faudra gérer les tensions entre les différents acteurs ;</sc:para>
+										<sc:para sc:id="t104">Chez un industriel ou une société prestataire, le technicien de maintenance travaillera le plus souvent en équipe ; selon la structure de l'entreprise, il devra assister à de nombreuses réunions inter-service-entreprises, voire en organiser lui-même.</sc:para>
+										<sc:para>Chez un fabricant de matériels, il pourra intervenir seul lors d'un dépannage chez un client.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Conclusion</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t277">De plus en plus souvent, le service maintenance voir sa responsabilité étendue à l'ensemble d'un site (gestion des fluides et des réseaux, entretien des bâtiments, espaces verts...).</sc:para>
+										<sc:para sc:id="t280">Il participe alors, pour les domaines qu'on lui attribue, à la maintenance de l'ensemble des installations.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t285">Le CNMI indique les salaires annuels suivants pour les BTS/DUT à 25000 euros après 5 ans d'expérience ( entre 17 000 et 20 000 euros à la sortie de l'école ou du stage)</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t292">Il n'existe pas de chiffres précis sur le nombre des techniciens de maintenance, mais on peut avancer la fourchette de 40000 à 80000 personnes, soit entre 10 et 20 % de l'effectif global des personnels de maintenance.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t298">Pour un technicien confirmé, l'évolution professionnelle peut prendre la forme d'une extension de ses responsabilités à l'intérieur de la maintenance. Un technicien travaillant pour une société de maintenance peut être recruté par une entreprise industrielle.</sc:para>
+										<sc:para sc:id="t302">Les migrations hors maintenance se font le plus souvent dans la production, voire la qualité.</sc:para>
+										<sc:para sc:id="t304">Un premier travail après diplôme dans la maintenance est apprécié pour les vertus opérationnelles et la bonne connaissance de l'ensemble de l'entreprise qu'il génère.</sc:para>
+										<sc:para sc:id="t309">Depuis l 990, les créations de postes dons la maintenance ont été pour les 3/4 des créations de postes de techniciens (électricité, électronique, automatismes).</sc:para>
+										<sc:para sc:id="t311">Selon l'avis des professionnels et des formateurs, la tendance à recruter de jeunes diplômés se poursuit et le niveau du diplôme constitue un facteur de pérennité dans l'emploi : les DUT sont le plus souvent estimés capables de s'adapter aux évolutions à venir.</sc:para>
+										<sc:para sc:id="t315">Cet avis est plus partagé en ce qui concerne les autres filières de BTS et les Bac Pro. Selon les interlocuteurs, certains vont déclarer que la tendance à préférer l'informatique à la technique est déjà trop marquée. D'autres vont estimer que l'avenir est plus favorable pour les techniciens d'études que pour les techniciens opérationnels.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:rem>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t439">Remarque : sous l'impulsion du degré croissant de complexité des matériels, la composition des services maintenance a évolué : de plus en plus de techniciens de maintenance, de moins en moins d'agents de maintenance.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:rem>
+						<sp:info>
+							<op:pbTi/>
+							<op:res xmlns:dk="kelis.fr:dokiel">
+								<sp:txt>
+									<op:txt>
+										<sc:para sc:id="t442">Le technicien de maintenance devra rester à niveau face à l'évolution et la complexification des technologies des matériels de production, et aussi des méthodes et outils utilisés pour la maintenance.</sc:para>
+										<sc:para sc:id="t445">Si les entreprises embauchent des BTS et des DUT, c'est en pensant que les personnes ayant ce niveau de formation initiale sauront rester à l'écoute des évolutions, pour les intégrer, s'y adapter, les maîtriser et les mettre en ouvre professionnellement, voire les proposer elles-mêmes à leur entreprise.</sc:para>
+										<sc:para sc:id="t449">La volonté de minimiser le coût global du rapport maintenance/indisponibilité des machines pourra conduire les entreprises à tenter de nouvelles organisations :</sc:para>
+										<sc:itemizedList sc:id="t457">
+											<sc:listItem sc:id="t458">
+												<sc:para sc:id="t451">en sous-traitant une part croissante de la maintenance opérationnelle, voire des activités intellectuelles ;</sc:para>
+											</sc:listItem>
+											<sc:listItem sc:id="t459">
+												<sc:para sc:id="t453">en adoptant des méthodes de maintenance privilégiant l'amont de la maintenance (méthodes, études. . .) par rapport aux opérations de maintenance.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Les défaillances (2A6)</sp:title>
+			<sp:sTitle>Les défaillances (2A6)</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Normes Maintenance</sp:keywd>
+							<sp:keywd>Défaillances</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t7">La défaillance est l'altération (défaillance <sc:uLink role="glos" sc:id="t29" sc:refUri="/1B_op/D/defaillance/partielle.ref">partielle</sc:uLink>) ou la cessation (panne) d'un bien à accomplir la fonction requise.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t21">Les méthodes de conception permettent de rechercher les défaillances potentielles, pour les anticiper à l'exploitation (<sc:uLink role="glos" sc:id="t33" sc:refUri="/1B_op/M/TUV/type_maint/mi_preventive.ref">plan de maintenance</sc:uLink>).</sc:para>
+								<sc:para sc:id="t22">L'historique des interventions <sc:uLink role="glos" sc:id="t32" sc:refUri="/1B_op/M/TUV/type_maint/curative.ref">curatives</sc:uLink> (retour d'expérience) est une source d'information nécessaire pour adapter  le plan de maintenance  aux conditions d'exploitation, et le cas échéant, juger de l'opportunité de fiabiliser les équipements (maintenance <sc:uLink role="glos" sc:id="t31" sc:refUri="/1B_op/M/TUV/type_maint/corrective.ref">corrective</sc:uLink> ou modificative)</sc:para>
+								<sc:para>L'analyse des défaillances est donc nécessaire à la conception et tout au long de la vie du matériel.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t28">Pour analyser les défaillances, il faut les identifier clairement.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Mode de défaillance</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t89">On définit un mode de défaillance, comme l'<sc:inlineStyle role="emp">effet</sc:inlineStyle> par lequel une défaillance est observable, sur un élément d'un système, sur une fonction, ou sur le système lui même.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2A/2A6_mode_def_generique.jpg">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:def>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t117">Lorsque la fonction est clairement définie, il faut considérer le <sc:uLink role="glos" sc:id="t126" sc:refUri="/1B_op/D/defaillance/mode.ref">mode</sc:uLink> comme &quot;la non-fonction&quot; et/ou la &quot;perte partielle de la fonction&quot;, puis chercher si un terme technique est plus approprié</sc:para>
+								<sc:para sc:id="t118">Un véhicule a pour fonction principale de se déplacer : les modes de défaillances possibles sont donc : &quot;ne se déplace plus&quot; ou se &quot;déplace mal&quot;. On en déduit que l'&quot;immobilisation&quot;, &quot;vitesse insuffisante&quot;, &quot;vitesse irrégulière&quot; sont des modes de défaillance acceptables au niveau du système (niveau n) et observables par l'utilisateur.</sc:para>
+								<sc:para sc:id="t119">La recherche des causes devra être recherchée parmi les sous-ensembles ou sous-fonctions de niveau n-1 : &quot;motorisation&quot;, &quot;régulation électronique&quot;, &quot;énergie&quot;, etc ....</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t106">Les éléments d'observation sont différents pour le constructeur ou l'utilisateur et sont répertoriés en différents niveaux..</sc:para>
+								<sc:para sc:id="t107">Pour le constructeur :</sc:para>
+								<sc:itemizedList sc:id="t163">
+									<sc:listItem sc:id="t164">
+										<sc:para sc:id="t108">Matériau</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t165">
+										<sc:para sc:id="t109">Composant</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t166">
+										<sc:para>Fonction élémentaire</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t167">
+										<sc:para sc:id="t111">Sous-ensemble</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t168">
+										<sc:para sc:id="t112">Bien ou système</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:ex>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t103">Exemple : court-circuit, circuit ouvert, modification d'un gain.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:ex>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Cause de défaillance</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t123">L'exemple précédent était relatif à un effet permettant de constater l'apparition de la défaillance.</sc:para>
+								<sc:para sc:id="t124">La <sc:uLink role="glos" sc:id="t127" sc:refUri="/1B_op/D/defaillance/cause.ref">cause</sc:uLink> d'une défaillance est par définition antérieure à l'effet constaté (mode)</sc:para>
+								<sc:para sc:id="t125">Définition de la cause de défaillance : Circonstances liées à la conception, fabrication ou à l'emploi, et qui ont entraîné la défaillance.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2A/2A6_causes_defaillance_analyse_moteur_tousse.gif">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:def>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Identification des défaillances</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para sc:id="t42">On pourra identifier les défaillances et les classer à partir d'une combinaison de 6 paramètres</sc:para>
+								<sc:itemizedList sc:id="t156">
+									<sc:listItem sc:id="t157">
+										<sc:para sc:id="t43">La <sc:uLink role="glos" sc:id="t81" sc:refUri="/1B_op/D/defaillance/id_cause_fondamentale.ref">cause</sc:uLink> fondamentale d'apparition</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t158">
+										<sc:para sc:id="t48"> La <sc:uLink role="glos" sc:id="t82" sc:refUri="/1B_op/D/defaillance/id_vitesse.ref">vitesse</sc:uLink> de manifestation des défaillances</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t159">
+										<sc:para sc:id="t51">
+											<sc:uLink role="glos" sc:id="t83" sc:refUri="/1B_op/D/defaillance/id_amplitude.ref">Amplitude</sc:uLink> de la défaillance</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t160">
+										<sc:para sc:id="t54">En fonction de l'<sc:uLink role="glos" sc:id="t84" sc:refUri="/1B_op/D/defaillance/id_age.ref">âge du bien</sc:uLink>.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t161">
+										<sc:para sc:id="t58">En fonction de l'<sc:uLink role="glos" sc:id="t85" sc:refUri="/1B_op/D/defaillance/id_aptitude_constat.ref">aptitude</sc:uLink> à être constatée.</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t162">
+										<sc:para sc:id="t62">En fonction des <sc:uLink role="glos" sc:id="t86" sc:refUri="/1B_op/D/defaillance/id_consequence.ref">conséquences</sc:uLink>.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

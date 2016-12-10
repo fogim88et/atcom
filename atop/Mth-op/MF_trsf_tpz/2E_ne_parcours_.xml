@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Concepts et Principes</sp:title>
+			<sp:sTitle>Concepts et Principes</sp:sTitle>
+		</op:uM>
+		<sp:courseUc sc:refUri="/Mth-op/MF_trsf_tpz/2E_stock/2E1_stock_mi_mp.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/MF_trsf_tpz/2E_stock/2E2_stock_maintenance.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/MF_trsf_tpz/2E_stock/2E3_enjeu_economique.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/MF_trsf_tpz/2E_stock/2E4_appro.xml"/>
+		<sp:conclu>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t9">
+<sc:uLink role="docLnk" sc:id="t12" sc:refUri="/Mth-op/MF_trsf_tpz/0_publi/2E_stock (67)_papier.odt">Support papier</sc:uLink> : résumé des notions essentielles.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:conclu>
+	</op:courseUa>
+</sc:item>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:cloze xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>EXI-24. Redondance système mixte 2C3-2-n3</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:res sc:refUri="/Mth-op/C-2016-01/5_ex/2C3_02_24_n3_/0024_01_en.png">
+					<op:resInfoM>
+						<sp:index>img</sp:index>
+					</op:resInfoM>
+				</sp:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t3">Les fiabilités à t=1000 h sont données à l'intérieur des blocs.</sc:para>
+						<sc:para>Calculer la fiabilité de ce système.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:gapText>
+			<op:clozeTxt>
+				<sc:para sc:id="t8">La fiabilité est <sc:textLeaf role="gap" sc:id="t14">0,94</sc:textLeaf> (à 2 décimales)</sc:para>
+			</op:clozeTxt>
+		</sc:gapText>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t10">B et C en // donne R<sc:textLeaf role="ind" sc:id="t11">BC</sc:textLeaf>=1-(1-0,7)*(1_0,65)=0,9</sc:para>
+						<sc:para>BC en série avec A donne R<sc:textLeaf role="ind" sc:id="t12">ABC</sc:textLeaf>=0,9*0,9 = 0,81</sc:para>
+						<sc:para>ABC en // avec D donne R<sc:textLeaf role="ind" sc:id="t13">ABCD</sc:textLeaf>=1-(1-0,81)*(1-0,7)= 0,94</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:cloze>
+</sc:item>

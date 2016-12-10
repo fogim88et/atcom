@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:webRoot xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:webRootM>
+			<sp:contentFilter>standard</sp:contentFilter>
+			<sp:settings>
+				<sp:quest>yes</sp:quest>
+				<sp:glos>yes</sp:glos>
+				<sp:acr>yes</sp:acr>
+				<sp:ref>yes</sp:ref>
+				<sp:bib>yes</sp:bib>
+				<sp:index>yes</sp:index>
+				<sp:credits>yes</sp:credits>
+			</sp:settings>
+		</op:webRootM>
+		<sp:ue sc:refUri="/op_00A/2Copw.xml"/>
+	</op:webRoot>
+</sc:item>

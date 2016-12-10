@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>A. Maintenance en exploitation</sp:title>
+			<sp:sTitle>A. Maintenance en exploitation</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Principe de base</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t7">Pas de solutions toute faites : il faut d'abord poser le problème</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2H/01_gal_demarche/01.xml">
+<op:resInfoM>
+<sp:pubMode>embeded</sp:pubMode>
+<sp:index>anim</sp:index>
+</op:resInfoM>
+</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t52">Constat : DEFAILLANCES SUBIES --------------&gt; Réponse : Maintenance Préventive ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>L'historique</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t25">L'historique doit permettre de donner des indications précises sur tous les problèmes rencontrés :</sc:para>
+								<sc:itemizedList sc:id="t42">
+									<sc:listItem sc:id="t43">
+										<sc:para xml:space="preserve" sc:id="t34">Quel est le problème ?</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t44">
+										<sc:para xml:space="preserve" sc:id="t35">Que s'est-il passé ?</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t45">
+										<sc:para xml:space="preserve" sc:id="t36">Sur quel machine ?</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t46">
+										<sc:para xml:space="preserve" sc:id="t37">Quand ?</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t47">
+										<sc:para xml:space="preserve" sc:id="t38">Pourquoi ?</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t48">
+										<sc:para xml:space="preserve" sc:id="t39">Quel est le temps d'arrêt ?</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t49">
+										<sc:para xml:space="preserve" sc:id="t40">Qui a réparé ?</sc:para>
+									</sc:listItem>
+									<sc:listItem sc:id="t50">
+										<sc:para xml:space="preserve" sc:id="t41">Quelles pièces à t-on changé ?</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2H/02_gal_analyse/02.xml">
+<op:resInfoM>
+<sp:pubMode>embeded</sp:pubMode>
+<sp:index>anim</sp:index>
+</op:resInfoM>
+</sp:res>
+					</op:res>
+				</sp:meth>
+				<sp:remind>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t67">Il faut commencer par rédiger des compte-rendus</sc:para>
+								<sc:para xml:space="preserve" sc:id="t68">Un bon technicien, c'est celui qui comprend cela et qui le fait minutieusement</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:remind>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t71">Les rubriques du compte-rendu doivent être <sc:inlineStyle role="emp">TOUTES REMPLIES</sc:inlineStyle>
+</sc:para>
+								<sc:para xml:space="preserve" sc:id="t72">Les phrases doivent être <sc:inlineStyle role="emp">CONCISES</sc:inlineStyle>
+</sc:para>
+								<sc:para xml:space="preserve" sc:id="t73">Les mots doivent être <sc:inlineStyle role="emp">PRECIS</sc:inlineStyle>
+</sc:para>
+								<sc:para xml:space="preserve" sc:id="t74">Les lettres doivent être bien <sc:inlineStyle role="emp">FORMEES (LISIBLES par tous)</sc:inlineStyle>
+</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2F_historique/2F_exemple_cr.jpg">
+<op:resInfoM>
+<sp:index>img</sp:index>
+</op:resInfoM>
+</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:basic>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t93">Après A<sc:inlineStyle role="emp">NALYSE</sc:inlineStyle>, on saura par quel <sc:inlineStyle role="emp">PROBLÈME COMMENCER</sc:inlineStyle>
+</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Fixer les objectifs</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2H/03_gal_obj/03_remise_en_etat.xml">
+<op:resInfoM>
+<sp:pubMode>embeded</sp:pubMode>
+<sp:index>anim</sp:index>
+</op:resInfoM>
+</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Remettre en bon état</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t118">A1. <sc:uLink role="ucLnk" sc:id="t144" sc:refUri="/Mth-op/2D_politique/2D0_exemple/2D0A/2H0A1_mettre_de_l_ordre.xml">Mettre de l'ordre</sc:uLink> autour des machines</sc:para>
+								<sc:para xml:space="preserve" sc:id="t119">A2. <sc:uLink role="ucLnk" sc:id="t145" sc:refUri="/Mth-op/2D_politique/2D0_exemple/2D0A/2H0A2_nettoyer.xml">Nettoyer</sc:uLink> les machines</sc:para>
+								<sc:para xml:space="preserve" sc:id="t120">A3. <sc:uLink role="ucLnk" sc:id="t146" sc:refUri="/Mth-op/2D_politique/2D0_exemple/2D0A/2H0A3_reviser.xml">Réviser tous les assemblages</sc:uLink> vissés</sc:para>
+								<sc:para xml:space="preserve" sc:id="t121">A4. <sc:uLink role="ucLnk" sc:id="t148" sc:refUri="/Mth-op/2D_politique/2D0_exemple/2D0A/2H0A4_lubrification.xml">Réviser tous les systèmes</sc:uLink> de lubrification</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2H/08_bilan/08.xml">
+<op:resInfoM>
+<sp:pubMode>embeded</sp:pubMode>
+<sp:index>anim</sp:index>
+</op:resInfoM>
+</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:basic>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t157">La remise en état et ses 4 petits pas ... C'est un travail d'équipe, conducteurs et hommes de maintenance.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

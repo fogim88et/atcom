@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:ueM>
+			<sp:title>Examen Stock GIM1 2011</sp:title>
+			<sp:sTitle>Examen Stock GIM1 2011</sp:sTitle>
+		</op:ueM>
+		<sp:courseUc sc:refUri="/2E041/sujet_ommb_2011.xml"/>
+	</op:ue>
+</sc:item>

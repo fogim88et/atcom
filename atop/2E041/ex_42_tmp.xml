@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:practUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:exeM>
+			<sp:title>42.n3 : Gestion de stock-MF-sto</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>DS</sp:keywd>
+							<sp:keywd>MF</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:exeM>
+		<sp:desc>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t10">La pièce A est une carte informatique fabriquée spécialement pour notre entreprise, et c'est la seule pièce que l'on commande chez ce fournisseur.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t11">Les pièces B et C sont des pièces que l'on commande chez un fournisseur X, et l'expérience a montré qu'en général, les bons de commande passés chez ce fournisseur comportaient en général 5 pièces.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t12">La pièce D est une pièce sensible (la consommation annuelle n'est pas sûre du tout), que l'on peut faire venir en avion en gagnant 2 jours, mais le coût de l'expédition est de 500 euros.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t13">La pièce E est utilisée depuis un an sur une machine, n'est pas en stock et n'a pas subi encore de défaillance. </sc:para>
+						<sc:para xml:space="preserve">On supposera que la consommation de la pièce est régulière.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t37">Le prix d'une commande est fixé à 40 euros, le taux de possession à 15%. La pénalité par défaut par jour d'arrêt est fixée dans l'atelier à 400 euros.</sc:para>
+						<sc:para xml:space="preserve">Si on ajoute 4 machines semblables dans le parc. Que faire ?</sc:para>
+					</op:txt>
+				</sp:txt>
+				<sp:res sc:refUri="/2E_exo-op/041/src_042.ods">
+					<op:resInfoM>
+						<sp:pubMode>zoom</sp:pubMode>
+						<sp:instruct>
+							<op:instructionM>
+								<sp:webInstruct>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t20">Consultez les données</sc:para>
+									</op:txt>
+								</sp:webInstruct>
+							</op:instructionM>
+						</sp:instruct>
+					</op:resInfoM>
+				</sp:res>
+			</op:res>
+		</sp:desc>
+		<sp:quest>
+			<op:practUcQ>
+				<sp:desc>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t24">Une même pièce G peut remplacer les pièces B et C, mais son coût unitaire est de 120 euros. Le délai sera de 1 jour.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t34">Evaluer les gains représentés par la gestion d'une seule pièce.</sc:para>
+								<sc:para xml:space="preserve">- En comparant la somme du CSM de B et C au CSM de G</sc:para>
+								<sc:para xml:space="preserve">- En comparant Qs pour les 3 piéces</sc:para>
+								<sc:para xml:space="preserve">- En comparant le Cach</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:desc>
+			</op:practUcQ>
+		</sp:quest>
+	</op:practUc>
+</sc:item>

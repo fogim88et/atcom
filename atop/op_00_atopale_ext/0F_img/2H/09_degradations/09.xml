@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:gallery xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:galleryM>
+			<sp:title>Quelques exemples</sp:title>
+		</op:galleryM>
+		<sp:img sc:refUri="/op_00_atopale_ext/0F_img/2H/09_degradations/9_1.odg"/>
+		<sp:img sc:refUri="/op_00_atopale_ext/0F_img/2H/09_degradations/9_2.odg"/>
+		<sp:img sc:refUri="/op_00_atopale_ext/0F_img/2H/09_degradations/9_3.odg"/>
+		<sp:img sc:refUri="/op_00_atopale_ext/0F_img/2H/09_degradations/9_4.odg"/>
+		<sp:img sc:refUri="/op_00_atopale_ext/0F_img/2H/09_degradations/9_5.odg"/>
+	</op:gallery>
+</sc:item>

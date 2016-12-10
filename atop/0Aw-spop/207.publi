@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:webRoot xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:webRootM>
+			<sp:version>1</sp:version>
+			<sp:date>22/11/2016</sp:date>
+			<sp:auth>
+				<op:sTxt>
+					<sc:para xml:space="preserve">Franck OURION. IUT EPINAL</sc:para>
+				</op:sTxt>
+			</sp:auth>
+			<sp:logo sc:refUri="/1A/0_dk/logo_UL_IUT_GIM.PNG"/>
+			<sp:settings>
+				<sp:quest>yes</sp:quest>
+				<sp:glos>yes</sp:glos>
+				<sp:acr>yes</sp:acr>
+				<sp:ref>yes</sp:ref>
+				<sp:bib>yes</sp:bib>
+				<sp:index>yes</sp:index>
+				<sp:credits>yes</sp:credits>
+				<sp:solPractUc>yes</sp:solPractUc>
+				<sp:solQuiz>yes</sp:solQuiz>
+				<sp:solAssmntUa>yes</sp:solAssmntUa>
+			</sp:settings>
+			<sp:searchSettings>
+				<sp:searchEngine>listResults</sp:searchEngine>
+			</sp:searchSettings>
+		</op:webRootM>
+		<sp:ue sc:refUri="/Mth-op/MF_trsf_tpz/module_MF_trsf_tpz.xml"/>
+	</op:webRoot>
+</sc:item>

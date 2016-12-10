@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:odRoot xmlns:op="utc.fr:ics/opale3">
+		<op:odRootM>
+			<sp:settings xmlns:sfm="http://www.utc.fr/ics/scenari/v3/filemeta" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"/>
+		</op:odRootM>
+		<sp:ue sc:refUri="/Mth-op/0_pub/exam_ttam_2012_2C_01.xml" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"/>
+	</op:odRoot>
+</sc:item>

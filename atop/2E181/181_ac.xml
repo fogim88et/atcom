@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Exercice 181</sp:title>
+			<sp:sTitle>Exercice 181</sp:sTitle>
+		</op:uM>
+		<sp:courseUc>
+			<op:expUc>
+				<op:uM>
+					<sp:title>Enonçé</sp:title>
+					<sp:sTitle>Enonçé</sp:sTitle>
+				</op:uM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t16">On estime qu'une machine doit produire des pièces de moyenne 1000 mm avec un écart-type de 10 mm.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t17">a. Si l'intervalle de tolérance est fixé à +/-40 mm, calculer la capabilité machine, ainsi que le taux de déchet estimé si la machine est réglée sur 1010 mm</sc:para>
+										<sc:para xml:space="preserve" sc:id="t18">Pour vérifier le réglage de la machine, on effectue un test périodique de 9 pièces.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t19">On pose comme hypothèse H0 un réglage à 1000 mm, et H1 un réglage à 1010 mm.</sc:para>
+										<sc:para xml:space="preserve" sc:id="t20">b. Donner l'intervalle dans lequel la moyenne de l'échantillon doit-il rester pour affirmer que la production n'est pas déréglée (par rapport à l'hypothèse H0). Vous calculerez cet intervalle pour un risque de 1% et 5%. Comment appelle t-on ces limites dans le respect de la méthode SPC</sc:para>
+										<sc:para xml:space="preserve" sc:id="t21">c. Quelles sont les règles à appliquer pour décider de l'arrêt d'une machine sous contrôle échantillonné ?</sc:para>
+										<sc:para xml:space="preserve" sc:id="t22">d. Calculez la probabilité d'obtenir une moyenne d'échantillon supérieur à 1005 mm si la machine est réglée sur H0, ainsi que la probabilité d'obtenir une moyenne d'échantillon inférieure à 1005 mm si la machine est réglée sur H1. Que pouvez vous en déduire</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUc>
+		</sp:courseUc>
+	</op:courseUa>
+</sc:item>

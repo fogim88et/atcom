@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Modèles statistiques.</sp:title>
+			<sp:sTitle>Modèles statistiques.</sp:sTitle>
+		</op:uM>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t7">Les modèles statistiques permettent de calculer la fiabilité prévisionnelle à partir de paramètres qu'une étude statistique basée sur des observations a permis de déterminer.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t29">
+							Exécutable LABVIEW à utiliser pour visualiser les modèles les plus courants.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:courseUc sc:refUri="/Mth-op/Sth-op/3_ne/DSE_ne/5E1_LN (58)/5E1_ne.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/Sth-op/3_ne/DSE_ne/5E1_LN (58)/5E1A_ne.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/Sth-op/3_ne/DSE_ne/5E4_Lbin/5E4_ne.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/Sth-op/3_ne/DSE_ne/5E5-Poisson (62)/st_mod_Lpoi_ne.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/Sth-op/3_ne/DSE_ne/5E6_Lexp-dk/5E6_ne.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/Sth-op/3_ne/DSE_ne/5E7_weibull/5E7_ne.xml"/>
+	</op:courseUa>
+</sc:item>

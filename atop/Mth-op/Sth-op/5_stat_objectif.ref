@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ref xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:refM>
+			<sp:ref>5A : Statistiques</sp:ref>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para xml:space="preserve" sc:id="t4"><sc:inlineStyle role="emp" sc:id="t5">Concepts </sc:inlineStyle>: </sc:para>
+					<sc:itemizedList sc:id="t6">
+						<sc:listItem sc:id="t7">
+							<sc:para xml:space="preserve" sc:id="t8">Distribution Statistique. Moyenne et Dispersion.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t9">
+							<sc:para xml:space="preserve" sc:id="t10">Régression linéaire</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t11">
+							<sc:para xml:space="preserve" sc:id="t12">Probabilité associée à un événement.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t13">
+							<sc:para xml:space="preserve" sc:id="t14">Variable aléatoire discrète et continue.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t15">
+							<sc:para xml:space="preserve" sc:id="t16">Modèles théoriques discrets : loi binômiale, loi de poisson.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t17">
+							<sc:para xml:space="preserve" sc:id="t18">Modèles théoriques continus : loi exponentielle, loi de gauss ou loi normale, modèle de Weibull.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t19">
+							<sc:para xml:space="preserve" sc:id="t20">Statistique inférentielle : théorie de l'échantillonnage .</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+					<sc:para xml:space="preserve" sc:id="t21">
+					<sc:inlineStyle role="emp" sc:id="t22">Applications </sc:inlineStyle>: </sc:para>
+					<sc:itemizedList sc:id="t23">
+						<sc:listItem sc:id="t24">
+							<sc:para xml:space="preserve" sc:id="t25">Production et Qualité : SPC, test de réception.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t26">
+							<sc:para xml:space="preserve" sc:id="t27">Bureau d'études et méthodes : test de durée de vie</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t28">
+							<sc:para xml:space="preserve" sc:id="t29">Maintenance : Fiabilité associée à une mission, évaluation des risques (criticité), gestion de stock (risque de rupture), Maintenance préventive (calcul de périodicité, usure)</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t30">
+							<sc:para xml:space="preserve" sc:id="t31">Vie courante : sondages d'opinion.</sc:para>
+						</sc:listItem>
+						<sc:listItem sc:id="t32">
+							<sc:para xml:space="preserve" sc:id="t33">Mesure : incertitude absolue et relative.</sc:para>
+						</sc:listItem>
+					</sc:itemizedList>
+				</op:sTxt>
+			</sp:desc>
+		</op:refM>
+	</op:ref>
+</sc:item>

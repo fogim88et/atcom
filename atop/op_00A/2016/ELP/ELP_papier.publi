@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:odRoot xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:odRootM>
+			<sp:coll>ELP</sp:coll>
+			<sp:version>1</sp:version>
+			<sp:typo>no</sp:typo>
+			<sp:contentFilter>standard</sp:contentFilter>
+			<sp:settings/>
+		</op:odRootM>
+		<sp:ue sc:refUri="/op_00A/2016/ELP/module_ELP.xml"/>
+	</op:odRoot>
+</sc:item>

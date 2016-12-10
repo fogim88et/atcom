@@ -27,6 +27,6 @@
 		<sp:courseUc sc:refUri="/T_exams/2016/TTAM/redac.xml"/>
 		<sp:courseUc sc:refUri="/T_exams/2016/TTAM/partie_ex_1_2016.xml"/>
 		<sp:courseUc sc:refUri="/T_exams/2016/TTAM/TABLEUR_FMD.xml"/>
-		<sp:courseUc sc:refUri="/00A/2016/ELP/tableur.xml"/>
+		<sp:courseUc sc:refUri="/op_00A/2016/ELP/tableur.xml"/>
 	</op:ue>
 </sc:item>

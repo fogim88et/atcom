@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM xmlns:gtm="comaint.fr:gTecMi">
+			<sp:title>Approvisionnements</sp:title>
+			<sp:sTitle>Approvisionnements</sp:sTitle>
+		</op:uM>
+		<sp:pb xmlns:gtm="comaint.fr:gTecMi">
+			<op:pb>
+				<sp:warning>
+					<op:pbTi>
+						<sp:title>Les hypothèses de calcul</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t22">Si le niveau de décision se fait au niveau d'une référence de pièce, il faut admettre que les paramètres à prendre en compte font souvent l'objet d'hypothèses plus ou moins juste dès le départ, et qui en plus, risquent fort d'évoluer au cours du temps.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:warning>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t6"> Il serait donc logique de réajuster sans cesse les hypothèses et remettre en cause les choix effectués. Cette démarche serait naturelle si on se limitait à quelques pièces. </sc:para>
+								<sc:para xml:space="preserve">Ce n'est pas le cas, il faut admettre les erreurs, car le temps passé à remettre en cause les hypothèses sur l'ensemble des références reviendrait à coûter plus cher que les erreurs effectuées. </sc:para>
+								<sc:para xml:space="preserve" sc:id="t18">On résume cet état de fait par &quot;Ecraser une mouche avec un éléphant&quot;. Bien sûr, il faudra suivre avec plus d'attention certaines pièces pour lesquelles un ajustement ou un suivi particulier sera nécessaire (10% des références en général).</sc:para>
+								<sc:para xml:space="preserve" sc:id="t7">De plus, il faut admettre que la méthode d'estimation qui vous sera donnée si elle s'applique dans les faits sur une pièce, s'avère en général mauvaise au cas par cas pour une gestion manuelle. Par contre dans le cas d'une gestion automatique informatisée celle-ci peut se concevoir. Il faut arriver à traiter un cas particulier tout en gardant une vue d'ensemble.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:basic>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t26">Plus concrètement, le problème des approvisionnements se résume de la façon suivante : Quand commander ? et combien de pièces commander ?</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Bon de commande</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t28">Le Bon de commande est adressé à un fournisseur, mais comportera plusieurs lignes de commande (soit de 1 à n références). </sc:para>
+								<sc:para xml:space="preserve">C'est le coût d'une commande Cc qui représente le coût administratif de la commande.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t39"> L'étude au niveau de la pièce doit donc tenir compte que plusieurs références sont commandées et facturées sur le même bon. </sc:para>
+								<sc:para xml:space="preserve">On divisera donc le Cc par le nombre de références habituellement commandées chez le fournisseur.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Regroupement des commandes</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t29">Si on admet qu'une même pièce peut être commandée chez plusieurs fournisseurs, on sera donc souvent confronté au choix suivant :</sc:para>
+								<sc:para xml:space="preserve" sc:id="t30">Je dois commander la pièce A au fournisseur F en urgence.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t31">La fiche de la pièce B prévoit une commande la semaine prochaine, mais le fournisseur G est moins cher que la fournisseur F.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t34">Situation 1 : 1 commande chez le fournisseur F avec les pièces A et B</sc:para>
+								<sc:para xml:space="preserve" sc:id="t35">Situation 2 : 2 commandes chez le fournisseur F pour A et le fournisseur G pour B</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

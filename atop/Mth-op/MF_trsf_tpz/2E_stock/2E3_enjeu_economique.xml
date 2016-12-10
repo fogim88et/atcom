@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Enjeu économique</sp:title>
+			<sp:sTitle>Enjeu économique</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Gestion de Stock</sp:keywd>
+							<sp:keywd>Coût de Possession</sp:keywd>
+							<sp:keywd>Coût Administratif</sp:keywd>
+							<sp:keywd>Stockage (Décision)</sp:keywd>
+							<sp:keywd>Approvisionnements</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Maîtrise du Coût de Possession</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t16">Il faut être capable de répartir les commandes de pièces tout au long de l'année en faisant en sorte qu'à la fin de l'exercice comptable, le stock de pièces soit le plus bas possible et minimiser le <sc:uLink role="glos" sc:id="t38" sc:refUri="/1B_op/S/stock/cpos.ref">Coût de Possession des stocks (Cpos)</sc:uLink> (comme tout commerçant).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:warning>
+					<op:pbTi>
+						<sp:title>Notion comptable</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t56">Pour une entreprise, toute pièce achetée dans l'année doit être consommée ou utilisée dans l'année. </sc:para>
+								<sc:para xml:space="preserve">Si ce n'est pas le cas, la valeur de la pièce est ajoutée au Chiffre d'affaire de l'entreprise au même titre qu'un produit vendu à un client.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:warning>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Maîtrise du coût administratif</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t24"> Il faut aussi éviter de commander trop souvent, et d'alourdir l'entreprise d'un nombre considérable de petites factures (<sc:uLink role="glos" sc:id="t37" sc:refUri="/1B_op/S/stock/CSM_adm.ref">Coût Administratif</sc:uLink>).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t12">Il faut rechercher un juste compromis, rechercher à réduire le nombre de référence en stock (standardisation), regrouper les commandes de pièces et éviter de lancer deux commandes dans la semaine au même fournisseur pour deux pièces différentes.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2E/meth_appro_pc.png">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Le rythme des commandes</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t28">Ce compromis permet de rechercher la bonne valeur q de pièces à commander chez un fournisseur, ou encore déterminer le nombre optimal de commandes <sc:uLink role="glos" sc:id="t39" sc:refUri="/1B_op/M/M/S/stock/nc.ref"> (Nc)</sc:uLink> à passer à l'année pour satisfaire le besoin annuel <sc:uLink role="glos" sc:id="t40" sc:refUri="/1B_op/M/M/S/stock/Qa.ref">Qa</sc:uLink>.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t61">Cette valeur optimisée est désignée par la Quantité économique d'approvisionnement (<sc:uLink role="glos" sc:id="t47" sc:refUri="/1B_op/M/M/S/stock/qe.ref">Qe</sc:uLink>).</sc:para>
+								<sc:para xml:space="preserve" sc:id="t66">La méthode par <sc:uLink role="glos" sc:id="t71" sc:refUri="/1B_op/A/appro_pc.ref">Point de commande</sc:uLink> est illustrée ci-dessus.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t68">La  <sc:uLink role="glos" sc:id="t72" sc:refUri="/1B_op/A/appro_pa.ref">Méthode par Plan d'approvisionnement (PA)</sc:uLink> se différencie par le fait que la périodicité de commande est fixée par Te. On commande alors une quantité q variable qui reconstitue le <sc:uLink role="glos" sc:id="t73" sc:refUri="/1B_op/M/M/S/stock/Qp.ref">plafond Qp</sc:uLink> fixé par <sc:uLink role="glos" sc:id="t74" sc:refUri="/1B_op/M/M/S/stock/qe.ref">Qe</sc:uLink> + <sc:uLink role="glos" sc:id="t75" sc:refUri="/1B_op/M/M/S/stock/qs.ref">Qs</sc:uLink>.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+				<sp:warning>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t26">Avoir une parfaite maîtrise du stock de sécurité qui permettra d'éviter une <sc:uLink role="glos" sc:id="t35" sc:refUri="/1B_op/M/M/S/stock/risque_rupture.ref">rupture de stock</sc:uLink> pendant le délai d'approvisionnement. </sc:para>
+								<sc:para xml:space="preserve">C'est dans ce cas que l'on subira une <sc:uLink role="glos" sc:id="t36" sc:refUri="/1B_op/C/couts/CGM_CDM.ref">pénalité de non production</sc:uLink> bien plus importante que la valeur de la pièce manquante.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t87"><sc:uLink role="bib" sc:id="t82" sc:refUri="/Mth-op/MF_trsf_tpz/2E_stock_demarche.ref">Démarche (gestion des approvisionnements)</sc:uLink></sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:warning>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

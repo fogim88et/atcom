@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Exercices SPC</sp:title>
+			<sp:sTitle>Exercices SPC</sp:sTitle>
+		</op:uM>
+		<sp:practUc sc:refUri="/2E021/021_stat_test/spc_ech_001/enonce.xml"/>
+		<sp:practUc sc:refUri="/2E021/021_stat_test/spc_ech_02/6G-exr-n3-45.xml"/>
+		<sp:practUc sc:refUri="/2E021/034-exr (en cours).xml"/>
+		<sp:practUc sc:refUri="/2E021/021_stat_test/spc_03/spc_03.xml"/>
+	</op:courseUa>
+</sc:item>

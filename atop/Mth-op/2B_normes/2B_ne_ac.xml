@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Normalisation Maintenance (2B)</sp:title>
+			<sp:sTitle>Normalisation Maintenance</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Normes Maintenance</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+					<sp:cc>by-nc-sa</sp:cc>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:courseUc sc:refUri="/Mth-op/2B_normes/3_ne/2B1_maintenance.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/2B_normes/3_ne/2B2_temps.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/2B_normes/3_ne/2B3_niveaux.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/2B_normes/3_ne/2B4_types.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/2B_normes/3_ne/2B5_couts.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/2B_normes/3_ne/2B6_defaillances.xml"/>
+	</op:courseUa>
+</sc:item>

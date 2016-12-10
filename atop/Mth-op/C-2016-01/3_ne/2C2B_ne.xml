@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Dispositifs réparables</sp:title>
+			<sp:sTitle>Dispositifs réparables</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Fiabilité</sp:keywd>
+							<sp:keywd>Fiabilité observée</sp:keywd>
+							<sp:keywd>MTTF</sp:keywd>
+							<sp:keywd>Taux de défaillance</sp:keywd>
+							<sp:keywd>Maintenabilité</sp:keywd>
+							<sp:keywd>Disponibilité</sp:keywd>
+							<sp:keywd>MTBF</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:def>
+					<op:pbTi>
+						<sp:title>Observations d'un dispositif réparable</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t236">On observe n périodes dites de fonctionnement, ou encore n durées de mission. On résume ceci par l'observation de n <sc:uLink role="glos" sc:id="t244" sc:refUri="/1B_op/M/TUV/tps_mi/TBF_TED.ref">tbf</sc:uLink>.</sc:para>
+								<sc:para xml:space="preserve" sc:id="t291">Le rang i correspond au rang de la défaillance, lorsque les <sc:uLink role="glos" sc:id="t294" sc:refUri="/1B_op/M/TUV/tps_mi/TBF_TED.ref">tbf</sc:uLink> (temps entre deux pannes) sont ordonnés dans le sens croissant pour faciliter les calculs, le rang ne correspond donc pas forcément à l'ordre chronologique dans lequel les défaillances se sont produites (cf Graphe Marche-Arrêt ci-dessous).</sc:para>
+								<sc:para xml:space="preserve" sc:id="t292">La durée de réparation pour remettre en état l'équipement se traduit par les n <sc:uLink role="glos" sc:id="t293" sc:refUri="/1B_op/M/TUV/tps_mi/TTR_TA.ref">ttr</sc:uLink> observés entre deux pannes : le traitement des ttr fait l'objet d'un traitement à part.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/2C_FMD/graphe_MA.ods">
+							<op:resInfoM>
+								<sp:pubMode>zoom</sp:pubMode>
+							</op:resInfoM>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t463">
+									<sc:caption xml:space="preserve">Disponibilité opérationnelle</sc:caption>
+									<sc:column sc:id="t464" width="6"/>
+									<sc:column sc:id="t465" width="49"/>
+									<sc:column width="13"/>
+									<sc:column width="29"/>
+									<sc:row>
+										<sc:cell>
+											<sc:para xml:space="preserve" sc:id="t542"><sc:uLink role="glos" sc:id="t546" sc:refUri="/1B_op/M/MN/MTBF.ref">MTBF</sc:uLink>
+											</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve" sc:id="t543"><sc:inlineImg role="form" sc:id="t547" sc:refUri="/1B_op/M/MN/MES-fmd-odf/MTBF_n.odf"/></sc:para>
+										</sc:cell>
+										<sc:cell rowSpan="2">
+											<sc:para xml:space="preserve" sc:id="t560">
+<sc:uLink role="glos" sc:id="t561" sc:refUri="/1B_op/D/disponibilite.ref">Disponibilité</sc:uLink>
+											</sc:para>
+										</sc:cell>
+										<sc:cell rowSpan="2">
+											<sc:para xml:space="preserve" sc:id="t549"><sc:inlineImg role="form" sc:id="t563" sc:refUri="/1B_op/M/MN/MES-fmd-odf/A_obs.odf"/></sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row>
+										<sc:cell>
+											<sc:para xml:space="preserve" sc:id="t540"><sc:uLink role="glos" sc:id="t545" sc:refUri="/1B_op/M/MN/MTTR.ref">MTTR</sc:uLink>
+											</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve" sc:id="t541"><sc:inlineImg role="form" sc:id="t544" sc:refUri="/1B_op/M/MN/MES-fmd-odf/MTTR_n.odf"/><sc:inlineImg role="form" sc:id="t562" sc:refUri="/1B_op/M/MN/MES-fmd-odf/A_obs.odf"/></sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t360">N(t) dans le cas d'un <sc:uLink role="glos" sc:id="t502" sc:refUri="/1B_op/D/disp_reparable.ref">dispositif réparable</sc:uLink> représente le <sc:inlineStyle role="emp">nombre de missions</sc:inlineStyle> qui ont dépassé la durée t.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:def>
+			</op:pb>
+		</sp:pb>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Etude de fiabilité</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Si n est faible</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t9">Lorsque n est faible on évalue les différentes caractéristiques par rang de façon analogue au cas traité pour <sc:uLink role="ucLnk" sc:id="t520" sc:refUri="/Mth-op/C-2016-01/3_ne/2C2A1_ne.xml">Dispositifs non réparables : étude par rang (2C2A1)</sc:uLink></sc:para>
+										<sc:para xml:space="preserve" sc:id="t232">On en déduit pour chaque rang i le nombre de missions réussies <sc:uLink role="glos" sc:id="t229" sc:refUri="/1B_op/M/TUV/T_survie/N_t.ref">N(i)</sc:uLink>
+</sc:para>
+										<sc:table role="" sc:id="t10">
+											<sc:caption xml:space="preserve" sc:id="t267">Données calculées par rang i (pour chaque Tbf<sc:textLeaf role="ind" sc:id="t548">i</sc:textLeaf> )</sc:caption>
+											<sc:column sc:id="t11" width="35"/>
+											<sc:column sc:id="t12" width="55"/>
+											<sc:row sc:id="t16">
+												<sc:cell sc:id="t17">
+													<sc:para xml:space="preserve" sc:id="t47">
+												<sc:uLink role="glos" sc:id="t240" sc:refUri="/1B_op/M/EF/fiabilite_observee.ref">Fiabilité</sc:uLink> de 0 à au rang i</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t18">
+													<sc:para xml:space="preserve" sc:id="t49">
+												<sc:inlineImg role="form" sc:id="t9" sc:refUri="/1B_op/M/MN/MES-fmd-odf/R(i)_rel_N(i).odf"/>
+											</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t28">
+												<sc:cell sc:id="t29">
+													<sc:para xml:space="preserve" sc:id="t117">
+												<sc:uLink role="glos" sc:refUri="/1B_op/S/fd.ref">Densité de Probabilité</sc:uLink> au rang i</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t30">
+													<sc:para xml:space="preserve" sc:id="t119">
+												
+											<sc:inlineImg role="form" sc:id="t251" sc:refUri="/1B_op/M/MN/MES-fmd-odf/f(i)_obs_n.odf"/>
+</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t34">
+												<sc:cell sc:id="t35">
+													<sc:para xml:space="preserve" sc:id="t127">
+												<sc:uLink role="glos" sc:id="t243" sc:refUri="/1B_op/M/TUV/taux_defaillance.ref">Taux de défaillance</sc:uLink> au rang i</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t36">
+													<sc:para xml:space="preserve" sc:id="t129">
+												
+											<sc:inlineImg role="form" sc:id="t487" sc:refUri="/1B_op/M/MN/MES-fmd-odf/L(i)_obs_n_tbf.odf"/>
+</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t591">
+												<sc:cell sc:id="t592">
+													<sc:para xml:space="preserve" sc:id="t569"><sc:uLink role="glos" sc:id="t571" sc:refUri="/1B_op/M/MN/MTBF.ref">MTBF</sc:uLink>
+											</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t593">
+													<sc:para xml:space="preserve" sc:id="t570"><sc:inlineImg role="form" sc:id="t572" sc:refUri="/1B_op/M/MN/MES-fmd-odf/MTBF_n.odf"/></sc:para>
+												</sc:cell>
+											</sc:row>
+										</sc:table>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Si n est grand</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t511">Par analogie avec avec les calculs sur les <sc:uLink role="ucLnk" sc:id="t521" sc:refUri="/Mth-op/C-2016-01/3_ne/2C2A2_ne.xml">Dispositifs non réparables : étude par période (2C2A2)</sc:uLink>, on regroupe le nombre de missions réussies par période pour calculer les caractéristiques de fiabilité.</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:txt>
+									<op:txt>
+										<sc:table role="" sc:id="t297">
+											<sc:column sc:id="t299" width="35"/>
+											<sc:column sc:id="t300" width="54"/>
+											<sc:row sc:id="t301">
+												<sc:cell sc:id="t302">
+													<sc:para xml:space="preserve" sc:id="t303">
+												<sc:uLink role="glos" sc:id="t304" sc:refUri="/1B_op/M/EF/fiabilite_observee.ref">Fiabilité</sc:uLink> de 0 à t</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t305">
+													<sc:para xml:space="preserve" sc:id="t306">
+												<sc:inlineImg role="form" sc:id="t307" sc:refUri="/1B_op/M/MN/MES-fmd-odf/R(t)_op.odf"/>
+											</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t315">
+												<sc:cell sc:id="t316">
+													<sc:para xml:space="preserve" sc:id="t317">
+												<sc:uLink role="glos" sc:refUri="/1B_op/S/fd.ref">Densité de Probabilité</sc:uLink> de t à t+dt de centre tc</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t319">
+													<sc:para xml:space="preserve" sc:id="t320">
+												<sc:inlineImg role="form" sc:id="t522" sc:refUri="/1B_op/M/MN/MES-fmd-odf/f(tc)_obs_nc.odf"/>
+											</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row sc:id="t351">
+												<sc:cell sc:id="t352">
+													<sc:para xml:space="preserve" sc:id="t331">
+												<sc:uLink role="glos" sc:id="t333" sc:refUri="/1B_op/M/TUV/taux_defaillance.ref">Taux de défaillance</sc:uLink> de t à t+dt de centre tc</sc:para>
+												</sc:cell>
+												<sc:cell sc:id="t353">
+													<sc:para xml:space="preserve" sc:id="t332">
+												<sc:inlineImg role="form" sc:id="t523" sc:refUri="/1B_op/M/MN/MES-fmd-odf/L(tc)_obs_nc.odf"/>
+											</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve" sc:id="t536"><sc:uLink role="glos" sc:id="t538" sc:refUri="/1B_op/M/MN/MTBF.ref">MTBF</sc:uLink>
+											</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve" sc:id="t537"><sc:inlineImg role="form" sc:id="t539" sc:refUri="/1B_op/M/MN/MES-fmd-odf/MTBF_nc.odf"/></sc:para>
+												</sc:cell>
+											</sc:row>
+										</sc:table>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+		<sp:div>
+			<op:expUcDiv>
+				<op:expUcDivM>
+					<sp:title>Etude de Maintenabilité</sp:title>
+				</op:expUcDivM>
+				<sp:pb>
+					<op:pb>
+						<sp:info>
+							<op:pbTi>
+								<sp:title>Observations</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t574">On conserve du graphe marche-arrêt les n ttr observés qui seront regroupés ou non en classes.</sc:para>
+										<sc:para xml:space="preserve">La fonction M(t) associé la probabilité de réussir une intervention dans un délai t.</sc:para>
+										<sc:para xml:space="preserve">On en déduit l'espérance mathématique ou le MTTR : ATTENTION, le MTTR, si il est utile pour le calcul de la disponibilité, n'est qu'une valeur moyenne qui signifie grossièrement que l'on a chance de remettre en service l'équipement à t=MTTR.</sc:para>
+										<sc:para xml:space="preserve">Le MTTR n'est donc pas la valeur à choisir pour établir des temps standards ou forfaitaires.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:info>
+						<sp:def>
+							<op:pbTi>
+								<sp:title>Echange standard</sp:title>
+							</op:pbTi>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve" sc:id="t576">On cherche un temps forfaitaire ou standard permettant d'assurer au client une remise en état de son équipement dans 90% des cas.</sc:para>
+										<sc:para xml:space="preserve">On cherchera donc la valeur de t pour laquelle on a M(t)=0,9.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:def>
+					</op:pb>
+				</sp:pb>
+			</op:expUcDiv>
+		</sp:div>
+	</op:expUc>
+</sc:item>

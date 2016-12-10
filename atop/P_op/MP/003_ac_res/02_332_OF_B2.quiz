@@ -25,7 +25,7 @@
 		</sc:gapText>
 		<sc:globalExplanation>
 			<op:res>
-				<sp:int sc:refUri="/00A/2017/B2.ods">
+				<sp:int sc:refUri="/op_00A/2017/B2.ods">
 					<op:instructionM/>
 				</sp:int>
 			</op:res>

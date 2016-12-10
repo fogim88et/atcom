@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Gestion des Approvisionnements (Calculs)</sp:title>
+			<sp:sTitle>Gestion des Approvisionnements (Calculs)</sp:sTitle>
+		</op:uM>
+		<sp:courseUc sc:refUri="/Mth-op/MF_trsf_tpz/2E_stock/2E5_wilson_ne.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/MF_trsf_tpz/2E_stock/2E6_wilson_exemple.xml"/>
+		<sp:practUc sc:refUri="/2E021/ex_38.xml"/>
+		<sp:practUc sc:refUri="/2E021/ex_39.xml"/>
+		<sp:practUc sc:refUri="/2E041/ex_50.xml"/>
+		<sp:practUc sc:refUri="/2E041/ex_53.xml"/>
+	</op:courseUa>
+</sc:item>

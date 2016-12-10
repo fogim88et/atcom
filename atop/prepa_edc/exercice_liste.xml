@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
-	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
 		<op:uM>
 			<sp:title>Statistiques. Observations. Analyse</sp:title>
 		</op:uM>
-		<sp:practUc sc:refUri="/2C_ex/061/081-exr.xml"/>
+		<sp:practUc sc:refUri="/2E061/081-exr.xml"/>
 		<sp:courseUc sc:refUri="/prepa_edc/correlation_nbpannes_nb_conducteurs.xml"/>
 		<sp:courseUc sc:refUri="/prepa_edc/LE_LN_Duree_de_vie_comparaison_modeles.xml"/>
 	</op:courseUa>

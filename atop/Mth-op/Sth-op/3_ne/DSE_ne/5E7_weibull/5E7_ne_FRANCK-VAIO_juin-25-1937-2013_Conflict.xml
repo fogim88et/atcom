@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Loi de Weibull</sp:title>
+			<sp:sTitle>Loi de Weibull</sp:sTitle>
+			<sp:info>
+				<op:info>
+					<sp:keywds>
+						<op:keywds>
+							<sp:keywd>Modèle statistique : Loi de weibull</sp:keywd>
+							<sp:keywd>Fiabilité prévisionnelle</sp:keywd>
+						</op:keywds>
+					</sp:keywds>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txt>
+							<op:txt>
+								<sc:table role="" sc:id="t44">
+									<sc:caption xml:space="preserve" sc:id="t240">Caractéristiques essentielles</sc:caption>
+									<sc:column role="head" sc:id="t45" width="50"/>
+									<sc:column sc:id="t95" width="50"/>
+									<sc:row sc:id="t47">
+										<sc:cell sc:id="t48">
+											<sc:para xml:space="preserve" sc:id="t60">
+														<sc:inlineStyle role="emp" sc:id="t106">Paramètres</sc:inlineStyle>
+</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t97">
+											<sc:para xml:space="preserve" sc:id="t176">
+<sc:inlineImg role="form" sc:id="t186" sc:refUri="/1A_/f/S/E7-weibull/Lweib_param.odf"/>
+</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t50">
+										<sc:cell sc:id="t51">
+											<sc:para xml:space="preserve" sc:id="t64">
+														<sc:inlineStyle role="emp" sc:id="t107">Densité de probabilité</sc:inlineStyle>
+													</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t98">
+											<sc:para xml:space="preserve" sc:id="t85">
+														
+<sc:inlineImg role="form" sc:id="t181" sc:refUri="/1A_/f/S/E7-weibull/Lweib_f(t).odf"/>
+
+													</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t53">
+										<sc:cell sc:id="t54">
+											<sc:para xml:space="preserve" sc:id="t68">
+														<sc:inlineStyle role="emp" sc:id="t108">Fiabilité</sc:inlineStyle>
+													<sc:inlineStyle role="emp" sc:id="t241">et Fonction de répartition</sc:inlineStyle>
+</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t99">
+											<sc:para xml:space="preserve" sc:id="t86">
+<sc:inlineImg role="form" sc:id="t182" sc:refUri="/1A_/f/S/E7-weibull/Lweib_R(t).odf"/>, F(t)=1-R(t)</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row sc:id="t242">
+										<sc:cell sc:id="t243">
+											<sc:para xml:space="preserve" sc:id="t183">
+<sc:inlineStyle role="emp" sc:id="t244">Taux de défaillance</sc:inlineStyle>
+</sc:para>
+										</sc:cell>
+										<sc:cell sc:id="t245">
+											<sc:para xml:space="preserve" sc:id="t184">
+<sc:inlineImg role="form" sc:id="t185" sc:refUri="/1A_/f/S/E7-weibull/Lweib_L(t).odf"/>
+</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Propriétés</sp:title>
+					</op:pbTi>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t214">L'aire sous la courbe f est égale à 1</sc:para>
+								<sc:para xml:space="preserve" sc:id="t225">Il existe une primitive exacte de f(t), si bien que les calculs seront fait via la fonction F(t) ou plus souvent par R(t)= 1-F(t) dans le cas de l'application du modèle</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve" sc:id="t237">La loi de weibull englobe la loi exponentielle avec β=1, gamma=0 (paramètre de position) et λ = 1/ eta.</sc:para>
+								<sc:para xml:space="preserve">Avec β≈3,2, on se rapproche de la loi normale ou loi de gauss</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:ex>
+					<op:pbTi>
+						<sp:title>Représentation graphique de f(t) et F(t)</sp:title>
+					</op:pbTi>
+					<op:res xmlns:dk="kelis.fr:dokiel">
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/5_stat/f_weibull.png">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+						<sp:res sc:refUri="/op_00_atopale_ext/0F_img/5_stat/Frep_weibull.png">
+							<op:resInfoM>
+								<sp:index>img</sp:index>
+							</op:resInfoM>
+						</sp:res>
+					</op:res>
+				</sp:ex>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

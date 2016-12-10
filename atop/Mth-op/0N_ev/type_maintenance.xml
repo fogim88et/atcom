@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:assmntUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Type de Maintenance</sp:title>
+			<sp:sTitle>Type de Maintenance</sp:sTitle>
+		</op:uM>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm08_type_maint.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm09_type_maint.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qr02_type_maint.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qr04_type_maint.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qr05_type_maint.quiz"/>
+		<sp:quiz sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qr06_type_maint.quiz"/>
+	</op:assmntUa>
+</sc:item>

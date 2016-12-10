@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Prise en main du vocabulaire normalisé</sp:title>
+			<sp:sTitle>Normes et principes</sp:sTitle>
+		</op:uM>
+		<sp:trainUcMcqSur sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qr01_politique.quiz"/>
+		<sp:trainUcMcqSur sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qr02_type_maint.quiz"/>
+		<sp:trainUcMcqSur sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qr03_type_maint.quiz"/>
+		<sp:trainUcMcqSur sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qr04_type_maint.quiz"/>
+		<sp:trainUcMcqSur sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qr05_type_maint.quiz"/>
+		<sp:trainUcMcqSur sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qr06_type_maint.quiz"/>
+		<sp:trainUcMcqSur sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm01_stock.quiz"/>
+		<sp:practUc sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm02_type_maint.xml"/>
+		<sp:trainUcMcqMur sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qcm_03_fmd_nrepa.quiz"/>
+		<sp:practUc sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm04_histo_cr.xml"/>
+		<sp:practUc sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm05_histo_di.xml"/>
+		<sp:trainUcMcqSur sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm06_fmd_mttr.quiz"/>
+		<sp:trainUcMcqMur sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm07_cout.quiz"/>
+		<sp:trainUcMcqSur sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm08_type_maint.quiz"/>
+		<sp:trainUcMcqSur sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm09_type_maint.quiz"/>
+		<sp:trainUcMcqSur sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm10_politique.quiz"/>
+		<sp:trainUcMcqSur sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm11_politique.quiz"/>
+		<sp:trainUcMcqSur sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm12_politique.quiz"/>
+		<sp:trainUcMcqMur sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm14_politique.quiz"/>
+		<sp:trainUcMcqSur sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm15_politique.quiz"/>
+		<sp:trainUcMcqMur sc:refUri="/Mth-op/0N_ev/0002_ev/0002/qm16_cout.quiz"/>
+	</op:courseUa>
+</sc:item>

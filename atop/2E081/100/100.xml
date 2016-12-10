@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:courseUa xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:uM>
+			<sp:title>Pareto (TD) : Jeu Maintenance (100)</sp:title>
+			<sp:sTitle>MMT-1-Pareto n°1 (100)</sp:sTitle>
+		</op:uM>
+		<sp:obj>
+			<op:sTxt>
+				<sc:para sc:id="t10">Découvrir pas à pas la méthode de PARETO, à partir des données collectées au cours de la simulation du rallye Paris-Le Cap (Jeu de la maintenance)</sc:para>
+			</op:sTxt>
+		</sp:obj>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve" sc:id="t13">La calculatrice peut largement convenir pour effectuer les calculs en salle de TD.</sc:para>
+						<sc:para xml:space="preserve" sc:id="t16">La Méthode de Pareto est supposée être connue.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:trainUcMcqMur sc:refUri="/2E081/100/7_td_1_qcm.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E081/100/7_td_2_classement.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E081/100/7_td_3_consequence_pourcentage.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E081/100/7_td_4_cumul_consequence.quiz"/>
+		<sp:trainUcCloze sc:refUri="/2E081/100/7_td_5_classes_en_pourcent.quiz"/>
+		<sp:conclu>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para sc:id="t7">On notera aussi que le nombre d'événement (non disponible ici) est aussi un critère intéressant pour étudier par exemple le kilométrage moyen perdu pour une classe donnée.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:conclu>
+	</op:courseUa>
+</sc:item>

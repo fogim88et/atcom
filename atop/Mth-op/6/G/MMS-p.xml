@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:ueM>
+			<sp:title>SPC - Résumé</sp:title>
+			<sp:sTitle>SPC - Résumé</sp:sTitle>
+		</op:ueM>
+		<sp:courseUc sc:refUri="/Mth-op/6/G/1_principe.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/Sth-op/3_ne/5F_resume.xml"/>
+		<sp:practUc sc:refUri="/Mth-op/Sth-op/021_stat_test/exo_spc.xml"/>
+		<sp:courseUc sc:refUri="/Mth-op/Sth-op/3_ne/5F_app_IC_de_X_1D.xml"/>
+	</op:ue>
+</sc:item>

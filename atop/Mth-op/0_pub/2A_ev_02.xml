@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:ueM>
+			<sp:title>Evaluation Normes (2A)</sp:title>
+			<sp:sTitle>Evaluation Normes (2A)</sp:sTitle>
+		</op:ueM>
+		<sp:assmntUa sc:refUri="/Mth-op/0N_ev/0002_ev/0002_ev.xml"/>
+		<sp:assmntUa sc:refUri="/M_/ME_tpz/MES/5_ex/2C2_03_29_n1.xml"/>
+		<sp:assmntUa sc:refUri="/M_/ME_tpz/MES/5_ex/MC-22.xml"/>
+	</op:ue>
+</sc:item>
